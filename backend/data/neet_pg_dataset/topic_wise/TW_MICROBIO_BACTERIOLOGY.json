@@ -1,0 +1,105 @@
+{
+  "bank_id": "TW_MICROBIO_BACTERIOLOGY",
+  "paper_type": "topic_wise",
+  "subject": "Microbiology",
+  "topic": "Bacteriology",
+  "total_questions": 4,
+  "difficulty_distribution": {
+    "Easy": 4
+  },
+  "created_at": "2026-05-30",
+  "questions": [
+    {
+      "question_id": "TW_MICROBIO_BACTERIOLOGY_Q001",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MICROBIO_BACTERIOLOGY",
+      "subject": "Microbiology",
+      "topic": "Bacteriology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Urease-positive organisms include all EXCEPT?",
+      "options": {
+        "A": "H. pylori",
+        "B": "Proteus mirabilis",
+        "C": "Klebsiella",
+        "D": "Pseudomonas aeruginosa"
+      },
+      "correct_answer": "D",
+      "explanation": "Urease-positive: H. pylori, Proteus, Klebsiella, Cryptococcus, Ureaplasma. Pseudomonas is urease NEGATIVE. Remember: urease causes struvite stones."
+    },
+    {
+      "question_id": "TW_MICROBIO_BACTERIOLOGY_Q002",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MICROBIO_BACTERIOLOGY",
+      "subject": "Microbiology",
+      "topic": "Bacteriology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Diphtheria toxin inhibits protein synthesis by?",
+      "options": {
+        "A": "Blocking peptidyl transferase",
+        "B": "ADP-ribosylation of EF-2",
+        "C": "Cleaving 28S rRNA",
+        "D": "Inhibiting aminoacyl-tRNA binding"
+      },
+      "correct_answer": "B",
+      "explanation": "Diphtheria toxin: ADP-ribosylates EF-2 (elongation factor 2) → halts translocation → protein synthesis inhibition. Similar to Pseudomonas exotoxin A."
+    },
+    {
+      "question_id": "TW_MICROBIO_BACTERIOLOGY_Q003",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MICROBIO_BACTERIOLOGY",
+      "subject": "Microbiology",
+      "topic": "Bacteriology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Weil-Felix test is positive in?",
+      "options": {
+        "A": "Typhoid",
+        "B": "Rickettsial infections",
+        "C": "Brucellosis",
+        "D": "Leptospirosis"
+      },
+      "correct_answer": "B",
+      "explanation": "Weil-Felix: cross-reaction between Rickettsia and Proteus OX antigens (OX-2, OX-19, OX-K). Used as surrogate test for rickettsial infections."
+    },
+    {
+      "question_id": "TW_MICROBIO_BACTERIOLOGY_Q004",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MICROBIO_BACTERIOLOGY",
+      "subject": "Microbiology",
+      "topic": "Bacteriology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Gonorrhea: site of chromosomal resistance mechanism?",
+      "options": {
+        "A": "Beta-lactamase (plasmid)",
+        "B": "Altered PBP2 (chromosomal)",
+        "C": "Efflux pump",
+        "D": "Porin mutation"
+      },
+      "correct_answer": "B",
+      "explanation": "N. gonorrhoeae resistance: chromosomally-mediated reduced susceptibility (altered PBP + efflux + porin) or plasmid-mediated (beta-lactamase = PPNG). Ceftriaxone is current DOC."
+    }
+  ]
+}

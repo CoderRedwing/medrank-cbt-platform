@@ -1,0 +1,59 @@
+{
+  "bank_id": "TW_FORENSIC_LEGAL_MEDICI",
+  "paper_type": "topic_wise",
+  "subject": "Forensic Medicine",
+  "topic": "Legal Medicine",
+  "total_questions": 2,
+  "difficulty_distribution": {
+    "Easy": 2
+  },
+  "created_at": "2026-05-30",
+  "questions": [
+    {
+      "question_id": "TW_FORENSIC_LEGAL_MEDICI_Q001",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_FORENSIC_LEGAL_MEDICI",
+      "subject": "Forensic Medicine",
+      "topic": "Legal Medicine",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Rape examination: must be done by?",
+      "options": {
+        "A": "Male doctor only",
+        "B": "Any registered medical practitioner (male or female)",
+        "C": "Female doctor only",
+        "D": "Forensic expert only"
+      },
+      "correct_answer": "B",
+      "explanation": "Rape examination (as per BNS/BNSS replacing IPC/CrPC): to be conducted by any registered medical practitioner. Consent of survivor is mandatory. Report to be sent to police. Evidence: DNA, swabs, injuries."
+    },
+    {
+      "question_id": "TW_FORENSIC_LEGAL_MEDICI_Q002",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_FORENSIC_LEGAL_MEDICI",
+      "subject": "Forensic Medicine",
+      "topic": "Legal Medicine",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Age of consent for medical procedures in India (IPC/BNS)?",
+      "options": {
+        "A": "16 years",
+        "B": "18 years",
+        "C": "12 years",
+        "D": "21 years"
+      },
+      "correct_answer": "B",
+      "explanation": "Age of consent in India: 18 years. Below 18: guardian's consent required (exception: emergency, mature minor doctrine). Under POCSO Act, all sexual activity with <18 is criminal regardless of consent."
+    }
+  ]
+}

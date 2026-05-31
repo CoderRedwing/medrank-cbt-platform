@@ -1,0 +1,105 @@
+{
+  "bank_id": "TW_PEDIATRI_PEDIATRIC_SY",
+  "paper_type": "topic_wise",
+  "subject": "Pediatrics",
+  "topic": "Pediatric Systemic",
+  "total_questions": 4,
+  "difficulty_distribution": {
+    "Easy": 4
+  },
+  "created_at": "2026-05-30",
+  "questions": [
+    {
+      "question_id": "TW_PEDIATRI_PEDIATRIC_SY_Q001",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_PEDIATRI_PEDIATRIC_SY",
+      "subject": "Pediatrics",
+      "topic": "Pediatric Systemic",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Typical CDH (congenital diaphragmatic hernia) presentation at birth?",
+      "options": {
+        "A": "Abdominal distension, normal CXR",
+        "B": "Scaphoid abdomen, respiratory distress, bowel sounds in chest",
+        "C": "Vomiting, normal X-ray",
+        "D": "Distended abdomen, mediastinal shift away from hernia"
+      },
+      "correct_answer": "B",
+      "explanation": "CDH: scaphoid abdomen (bowel herniated into chest), respiratory distress at birth. CXR: bowel in chest, mediastinal shift to OPPOSITE side. Bochdalek hernia: posterolateral, mostly left (85%)."
+    },
+    {
+      "question_id": "TW_PEDIATRI_PEDIATRIC_SY_Q002",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_PEDIATRI_PEDIATRIC_SY",
+      "subject": "Pediatrics",
+      "topic": "Pediatric Systemic",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Most common cyanotic congenital heart disease at birth?",
+      "options": {
+        "A": "TOF",
+        "B": "TGA (Transposition of great arteries)",
+        "C": "Truncus arteriosus",
+        "D": "Tricuspid atresia"
+      },
+      "correct_answer": "B",
+      "explanation": "Most common cyanotic CHD at BIRTH: TGA (complete). Most common cyanotic CHD overall in childhood: TOF. TGA: parallel circuits, needs mixing (ASD/VSD/PDA). Prostaglandin E1 to keep PDA open."
+    },
+    {
+      "question_id": "TW_PEDIATRI_PEDIATRIC_SY_Q003",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_PEDIATRI_PEDIATRIC_SY",
+      "subject": "Pediatrics",
+      "topic": "Pediatric Systemic",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Fallot's tetralogy: component that determines severity?",
+      "options": {
+        "A": "VSD size",
+        "B": "Degree of RVOT obstruction",
+        "C": "Overriding aorta",
+        "D": "RVH"
+      },
+      "correct_answer": "B",
+      "explanation": "TOF severity depends on RVOT (right ventricular outflow tract) obstruction degree. More obstruction → more R-to-L shunting → more cyanosis. Tet spells treated with squatting, knee-chest position."
+    },
+    {
+      "question_id": "TW_PEDIATRI_PEDIATRIC_SY_Q004",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_PEDIATRI_PEDIATRIC_SY",
+      "subject": "Pediatrics",
+      "topic": "Pediatric Systemic",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Normal PDA closure: timing?",
+      "options": {
+        "A": "At birth (immediate)",
+        "B": "Functional closure 24-72h, anatomical 2-3 weeks",
+        "C": "Only after 6 months",
+        "D": "Never closes spontaneously"
+      },
+      "correct_answer": "B",
+      "explanation": "PDA: functional closure in 24-72h (prostaglandin levels fall, O2 tension rises). Anatomical closure: 2-3 weeks. Preterm infants: indomethacin/ibuprofen to close PDA. If persistent: surgical ligation."
+    }
+  ]
+}

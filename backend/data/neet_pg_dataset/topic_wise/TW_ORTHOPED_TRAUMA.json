@@ -1,0 +1,105 @@
+{
+  "bank_id": "TW_ORTHOPED_TRAUMA",
+  "paper_type": "topic_wise",
+  "subject": "Orthopedics",
+  "topic": "Trauma",
+  "total_questions": 4,
+  "difficulty_distribution": {
+    "Easy": 4
+  },
+  "created_at": "2026-05-30",
+  "questions": [
+    {
+      "question_id": "TW_ORTHOPED_TRAUMA_Q001",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_ORTHOPED_TRAUMA",
+      "subject": "Orthopedics",
+      "topic": "Trauma",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Cobb's angle is used to measure?",
+      "options": {
+        "A": "Hip dysplasia",
+        "B": "Scoliosis severity",
+        "C": "Kyphosis severity",
+        "D": "Limb length discrepancy"
+      },
+      "correct_answer": "B",
+      "explanation": "Cobb's angle: measures scoliosis on standing AP X-ray. Angle between superior endplate of upper end vertebra and inferior endplate of lower end vertebra. <10°: normal variation; >10°: scoliosis."
+    },
+    {
+      "question_id": "TW_ORTHOPED_TRAUMA_Q002",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_ORTHOPED_TRAUMA",
+      "subject": "Orthopedics",
+      "topic": "Trauma",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Most common complication of intramedullary nailing of femur?",
+      "options": {
+        "A": "Infection",
+        "B": "Fat embolism",
+        "C": "Malunion",
+        "D": "Rotational deformity"
+      },
+      "correct_answer": "B",
+      "explanation": "IMN of femur: reaming releases fat into circulation → fat embolism syndrome (respiratory distress, petechiae, confusion). Also seen after long bone fractures."
+    },
+    {
+      "question_id": "TW_ORTHOPED_TRAUMA_Q003",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_ORTHOPED_TRAUMA",
+      "subject": "Orthopedics",
+      "topic": "Trauma",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Colles' fracture: classical deformity?",
+      "options": {
+        "A": "Dinner fork deformity (dorsal displacement of distal fragment)",
+        "B": "Garden spade deformity",
+        "C": "Bayonet deformity",
+        "D": "Volar angulation"
+      },
+      "correct_answer": "A",
+      "explanation": "Colles' fracture: distal radius fracture with dorsal displacement and radial deviation → dinner fork deformity. Smith's fracture (reverse Colles'): volar displacement → garden spade deformity."
+    },
+    {
+      "question_id": "TW_ORTHOPED_TRAUMA_Q004",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_ORTHOPED_TRAUMA",
+      "subject": "Orthopedics",
+      "topic": "Trauma",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Posterior dislocation of hip: position of limb?",
+      "options": {
+        "A": "Abducted, externally rotated, lengthened",
+        "B": "Adducted, internally rotated, shortened",
+        "C": "Abducted, internally rotated, normal length",
+        "D": "Neutral, shortened"
+      },
+      "correct_answer": "B",
+      "explanation": "Posterior hip dislocation (most common, 90%): limb held ADDUCTED, INTERNALLY ROTATED, SHORTENED, slightly flexed. Complication: sciatic nerve injury (most common), AVN of femoral head."
+    }
+  ]
+}

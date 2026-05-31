@@ -1,0 +1,197 @@
+{
+  "bank_id": "TW_MEDICINE_RHEUMATOLOGY",
+  "paper_type": "topic_wise",
+  "subject": "Medicine",
+  "topic": "Rheumatology",
+  "total_questions": 8,
+  "difficulty_distribution": {
+    "Easy": 8
+  },
+  "created_at": "2026-05-30",
+  "questions": [
+    {
+      "question_id": "TW_MEDICINE_RHEUMATOLOGY_Q001",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MEDICINE_RHEUMATOLOGY",
+      "subject": "Medicine",
+      "topic": "Rheumatology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Most common cause of death in SLE?",
+      "options": {
+        "A": "Renal failure",
+        "B": "Infection",
+        "C": "Cardiovascular disease",
+        "D": "CNS lupus"
+      },
+      "correct_answer": "C",
+      "explanation": "Modern SLE: cardiovascular disease (accelerated atherosclerosis) is now the leading cause of death. Historically renal failure was first."
+    },
+    {
+      "question_id": "TW_MEDICINE_RHEUMATOLOGY_Q002",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MEDICINE_RHEUMATOLOGY",
+      "subject": "Medicine",
+      "topic": "Rheumatology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "CREST syndrome includes all EXCEPT?",
+      "options": {
+        "A": "Calcinosis",
+        "B": "Raynaud's",
+        "C": "Esophageal dysmotility",
+        "D": "Telangiectasia"
+      },
+      "correct_answer": "B",
+      "explanation": "CREST = Calcinosis, Raynaud's, Esophageal dysmotility, Sclerodactyly, Telangiectasia. Raynaud's IS included — the trick is if Renal is listed (not part of CREST). All 5 are present."
+    },
+    {
+      "question_id": "TW_MEDICINE_RHEUMATOLOGY_Q003",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MEDICINE_RHEUMATOLOGY",
+      "subject": "Medicine",
+      "topic": "Rheumatology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Anti-Smith (anti-Sm) antibody is MOST specific for?",
+      "options": {
+        "A": "RA",
+        "B": "SLE",
+        "C": "Sjogren's",
+        "D": "Systemic sclerosis"
+      },
+      "correct_answer": "B",
+      "explanation": "Anti-Sm is highly specific for SLE (30% sensitivity, 99% specificity). Anti-dsDNA is also specific and correlates with disease activity."
+    },
+    {
+      "question_id": "TW_MEDICINE_RHEUMATOLOGY_Q004",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MEDICINE_RHEUMATOLOGY",
+      "subject": "Medicine",
+      "topic": "Rheumatology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A child has butterfly rash, arthritis, and renal involvement. ANA positive. Best confirmatory test?",
+      "options": {
+        "A": "Anti-CCP",
+        "B": "Anti-dsDNA",
+        "C": "Anti-Ro",
+        "D": "Anti-Jo1"
+      },
+      "correct_answer": "B",
+      "explanation": "Anti-dsDNA confirms SLE and correlates with disease activity/nephritis. Anti-Smith is most specific but anti-dsDNA is used for monitoring."
+    },
+    {
+      "question_id": "TW_MEDICINE_RHEUMATOLOGY_Q005",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MEDICINE_RHEUMATOLOGY",
+      "subject": "Medicine",
+      "topic": "Rheumatology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Churg-Strauss syndrome (EGPA) is associated with?",
+      "options": {
+        "A": "p-ANCA (MPO)",
+        "B": "c-ANCA (PR3)",
+        "C": "ANA",
+        "D": "Anti-GBM"
+      },
+      "correct_answer": "A",
+      "explanation": "Eosinophilic granulomatosis with polyangiitis (Churg-Strauss): p-ANCA (anti-MPO) positive. Triad: asthma, eosinophilia, vasculitis."
+    },
+    {
+      "question_id": "TW_MEDICINE_RHEUMATOLOGY_Q006",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MEDICINE_RHEUMATOLOGY",
+      "subject": "Medicine",
+      "topic": "Rheumatology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Pannus formation is a feature of?",
+      "options": {
+        "A": "Osteoarthritis",
+        "B": "Rheumatoid arthritis",
+        "C": "Gout",
+        "D": "Pseudogout"
+      },
+      "correct_answer": "B",
+      "explanation": "Pannus = granulation tissue in RA that erodes cartilage and bone. Anti-CCP (anti-citrullinated protein antibody) is most specific for RA."
+    },
+    {
+      "question_id": "TW_MEDICINE_RHEUMATOLOGY_Q007",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MEDICINE_RHEUMATOLOGY",
+      "subject": "Medicine",
+      "topic": "Rheumatology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Which antibody in Sjogren's syndrome is associated with neonatal lupus and heart block?",
+      "options": {
+        "A": "Anti-Sm",
+        "B": "Anti-dsDNA",
+        "C": "Anti-Ro (SSA)",
+        "D": "Anti-La (SSB)"
+      },
+      "correct_answer": "C",
+      "explanation": "Anti-Ro/SSA crosses placenta causing neonatal lupus (rash, cytopenias, complete heart block). Anti-La/SSB less commonly associated."
+    },
+    {
+      "question_id": "TW_MEDICINE_RHEUMATOLOGY_Q008",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MEDICINE_RHEUMATOLOGY",
+      "subject": "Medicine",
+      "topic": "Rheumatology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Gottron's papules and heliotrope rash are features of?",
+      "options": {
+        "A": "SLE",
+        "B": "Systemic sclerosis",
+        "C": "Dermatomyositis",
+        "D": "Polymyositis"
+      },
+      "correct_answer": "C",
+      "explanation": "Dermatomyositis: Gottron's papules (over knuckles), heliotrope rash (periorbital), shawl sign, V-sign. Anti-Mi-2 antibody."
+    }
+  ]
+}

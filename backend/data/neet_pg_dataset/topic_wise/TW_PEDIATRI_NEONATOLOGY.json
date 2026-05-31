@@ -1,0 +1,128 @@
+{
+  "bank_id": "TW_PEDIATRI_NEONATOLOGY",
+  "paper_type": "topic_wise",
+  "subject": "Pediatrics",
+  "topic": "Neonatology",
+  "total_questions": 5,
+  "difficulty_distribution": {
+    "Easy": 5
+  },
+  "created_at": "2026-05-30",
+  "questions": [
+    {
+      "question_id": "TW_PEDIATRI_NEONATOLOGY_Q001",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_PEDIATRI_NEONATOLOGY",
+      "subject": "Pediatrics",
+      "topic": "Neonatology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Neonatal jaundice: physiological jaundice appears?",
+      "options": {
+        "A": "At birth",
+        "B": "After 24 hours (day 2-3)",
+        "C": "After 7 days",
+        "D": "At day 1"
+      },
+      "correct_answer": "B",
+      "explanation": "Physiological jaundice: appears after 24 hours (day 2-3), peaks day 4-5, resolves by day 14 in term (21 in preterm). Pathological: appears <24h, bilirubin rising >5mg/dL/day, >12 mg/dL in term."
+    },
+    {
+      "question_id": "TW_PEDIATRI_NEONATOLOGY_Q002",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_PEDIATRI_NEONATOLOGY",
+      "subject": "Pediatrics",
+      "topic": "Neonatology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Caput succedaneum vs cephalhematoma: correct statement?",
+      "options": {
+        "A": "Cephalhematoma crosses suture lines",
+        "B": "Caput crosses suture lines, cephalhematoma does not",
+        "C": "Both cross suture lines",
+        "D": "Neither crosses suture lines"
+      },
+      "correct_answer": "B",
+      "explanation": "Caput succedaneum: edema of scalp, crosses sutures, present at birth, resolves in days. Cephalhematoma: subperiosteal hemorrhage, does NOT cross sutures, appears hours after birth, resolves weeks-months."
+    },
+    {
+      "question_id": "TW_PEDIATRI_NEONATOLOGY_Q003",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_PEDIATRI_NEONATOLOGY",
+      "subject": "Pediatrics",
+      "topic": "Neonatology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Developmental milestone: walking alone at?",
+      "options": {
+        "A": "9 months",
+        "B": "12-15 months",
+        "C": "18-24 months",
+        "D": "6 months"
+      },
+      "correct_answer": "B",
+      "explanation": "Gross motor milestones: lifts head 1m, sits unsupported 6-7m, stands with support 8m, walks with support 10-11m, walks alone 12-15m. Red flag: not walking by 18 months."
+    },
+    {
+      "question_id": "TW_PEDIATRI_NEONATOLOGY_Q004",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_PEDIATRI_NEONATOLOGY",
+      "subject": "Pediatrics",
+      "topic": "Neonatology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Apgar score: what is assessed?",
+      "options": {
+        "A": "HR, RR, tone, reflex, color",
+        "B": "HR, breathing, tone, grimace, color",
+        "C": "Color, tone, RR, cry, feeding",
+        "D": "HR, tone, RR, color, temperature"
+      },
+      "correct_answer": "B",
+      "explanation": "Apgar: A=Appearance (color), P=Pulse (HR), G=Grimace (reflex irritability), A=Activity (tone), R=Respiration. Scored 0-2 each at 1 and 5 minutes. 7-10=normal, 4-6=moderate depression, <4=severe."
+    },
+    {
+      "question_id": "TW_PEDIATRI_NEONATOLOGY_Q005",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_PEDIATRI_NEONATOLOGY",
+      "subject": "Pediatrics",
+      "topic": "Neonatology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Birth weight of 1000g is classified as?",
+      "options": {
+        "A": "Low birth weight",
+        "B": "Very low birth weight",
+        "C": "Extremely low birth weight",
+        "D": "Normal"
+      },
+      "correct_answer": "C",
+      "explanation": "Birth weight categories: LBW <2500g, VLBW <1500g, ELBW <1000g. Small for gestational age (SGA) <10th percentile for GA. AGA: 10th-90th percentile."
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "bank_id": "TW_PSM_BIOSTATISTIC",
+  "paper_type": "topic_wise",
+  "subject": "PSM",
+  "topic": "Biostatistics",
+  "total_questions": 5,
+  "difficulty_distribution": {
+    "Easy": 5
+  },
+  "created_at": "2026-05-30",
+  "questions": [
+    {
+      "question_id": "TW_PSM_BIOSTATISTIC_Q001",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_PSM_BIOSTATISTIC",
+      "subject": "PSM",
+      "topic": "Biostatistics",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Sensitivity is?",
+      "options": {
+        "A": "TP/(TP+FP)",
+        "B": "TP/(TP+FN)",
+        "C": "TN/(TN+FP)",
+        "D": "TN/(TN+FN)"
+      },
+      "correct_answer": "B",
+      "explanation": "Sensitivity = TP/(TP+FN) = ability to detect disease (true positive rate). Specificity = TN/(TN+FP). High sensitivity → good screening test. High specificity → good confirmation test."
+    },
+    {
+      "question_id": "TW_PSM_BIOSTATISTIC_Q002",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_PSM_BIOSTATISTIC",
+      "subject": "PSM",
+      "topic": "Biostatistics",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Type II error (β error) is?",
+      "options": {
+        "A": "Rejecting true null hypothesis",
+        "B": "Accepting false null hypothesis (missing a true effect)",
+        "C": "Setting alpha too high",
+        "D": "Increasing sample size"
+      },
+      "correct_answer": "B",
+      "explanation": "Type II (β) error: failing to reject a false null hypothesis = missed effect (false negative). Power = 1-β. Increased by small sample size, low effect size, high variability."
+    },
+    {
+      "question_id": "TW_PSM_BIOSTATISTIC_Q003",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_PSM_BIOSTATISTIC",
+      "subject": "PSM",
+      "topic": "Biostatistics",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "p-value of 0.03 means?",
+      "options": {
+        "A": "3% chance the alternative hypothesis is true",
+        "B": "3% probability of observed results if null hypothesis were true",
+        "C": "97% confidence in result",
+        "D": "Effect size is large"
+      },
+      "correct_answer": "B",
+      "explanation": "p-value: probability of obtaining results at least as extreme as observed IF null hypothesis were true. p<0.05 = statistically significant (reject null). Does NOT measure effect size."
+    },
+    {
+      "question_id": "TW_PSM_BIOSTATISTIC_Q004",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_PSM_BIOSTATISTIC",
+      "subject": "PSM",
+      "topic": "Biostatistics",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "NNT (number needed to treat) is calculated as?",
+      "options": {
+        "A": "RR",
+        "B": "1/ARR",
+        "C": "ARR × 100",
+        "D": "1/RRR"
+      },
+      "correct_answer": "B",
+      "explanation": "NNT = 1/ARR (absolute risk reduction). Lower NNT = more effective treatment. NNH (number needed to harm) = 1/ARI (absolute risk increase)."
+    },
+    {
+      "question_id": "TW_PSM_BIOSTATISTIC_Q005",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_PSM_BIOSTATISTIC",
+      "subject": "PSM",
+      "topic": "Biostatistics",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "In a negatively skewed distribution?",
+      "options": {
+        "A": "Mean > Median > Mode",
+        "B": "Mode > Median > Mean",
+        "C": "Mean = Median = Mode",
+        "D": "Median > Mean > Mode"
+      },
+      "correct_answer": "B",
+      "explanation": "Negative skew (left skew): tail to left → Mode > Median > Mean. Positive skew: Mean > Median > Mode. Normal: Mean = Median = Mode."
+    }
+  ]
+}

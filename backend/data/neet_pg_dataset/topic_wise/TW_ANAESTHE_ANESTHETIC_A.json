@@ -1,0 +1,59 @@
+{
+  "bank_id": "TW_ANAESTHE_ANESTHETIC_A",
+  "paper_type": "topic_wise",
+  "subject": "Anaesthesia",
+  "topic": "Anesthetic Agents",
+  "total_questions": 2,
+  "difficulty_distribution": {
+    "Easy": 2
+  },
+  "created_at": "2026-05-30",
+  "questions": [
+    {
+      "question_id": "TW_ANAESTHE_ANESTHETIC_A_Q001",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_ANAESTHE_ANESTHETIC_A",
+      "subject": "Anaesthesia",
+      "topic": "Anesthetic Agents",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Ketamine mechanism and unique property?",
+      "options": {
+        "A": "GABA agonist, causes respiratory depression",
+        "B": "NMDA antagonist — dissociative anesthesia, bronchodilation, preserves airway reflexes",
+        "C": "Volatile agent, hepatotoxic",
+        "D": "Propofol-like — GABA agonist, rapid awakening"
+      },
+      "correct_answer": "B",
+      "explanation": "Ketamine: NMDA receptor antagonist → dissociative anesthesia. Unique: maintains airway reflexes, causes bronchodilation (good in asthma/status asthmaticus), increases HR/BP. Causes emergence hallucinations."
+    },
+    {
+      "question_id": "TW_ANAESTHE_ANESTHETIC_A_Q002",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_ANAESTHE_ANESTHETIC_A",
+      "subject": "Anaesthesia",
+      "topic": "Anesthetic Agents",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Suxamethonium (succinylcholine) mechanism?",
+      "options": {
+        "A": "Non-depolarizing NM blocker",
+        "B": "Depolarizing NM blocker (mimics ACh at NMJ continuously)",
+        "C": "Acetylcholinesterase inhibitor",
+        "D": "Calcium channel blocker"
+      },
+      "correct_answer": "B",
+      "explanation": "Succinylcholine: depolarizing NMB — persistently activates NMJ → phase I (depolarizing) block → fasciculations then flaccid paralysis. Fastest onset (60s), shortest duration (10min). Triggers malignant hyperthermia."
+    }
+  ]
+}

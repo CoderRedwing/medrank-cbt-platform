@@ -1,0 +1,105 @@
+{
+  "bank_id": "TW_ENT_EAR",
+  "paper_type": "topic_wise",
+  "subject": "ENT",
+  "topic": "Ear",
+  "total_questions": 4,
+  "difficulty_distribution": {
+    "Easy": 4
+  },
+  "created_at": "2026-05-30",
+  "questions": [
+    {
+      "question_id": "TW_ENT_EAR_Q001",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_ENT_EAR",
+      "subject": "ENT",
+      "topic": "Ear",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Rinne's test negative (BC>AC) indicates?",
+      "options": {
+        "A": "Normal hearing",
+        "B": "Sensorineural hearing loss",
+        "C": "Conductive hearing loss",
+        "D": "Mixed hearing loss"
+      },
+      "correct_answer": "C",
+      "explanation": "Rinne's test: Normal/SNHL: AC>BC (positive). Conductive HL: BC>AC (negative — bone conduction better than air). Weber: lateralizes to affected ear (conductive) or better ear (SNHL)."
+    },
+    {
+      "question_id": "TW_ENT_EAR_Q002",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_ENT_EAR",
+      "subject": "ENT",
+      "topic": "Ear",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Otosclerosis: type of hearing loss?",
+      "options": {
+        "A": "Sensorineural",
+        "B": "Mixed",
+        "C": "Conductive with Carhart's notch on audiogram",
+        "D": "Pure sensorineural high frequency loss"
+      },
+      "correct_answer": "C",
+      "explanation": "Otosclerosis: abnormal bone remodeling fixing stapes footplate → conductive hearing loss. Audiogram: Carhart's notch at 2000 Hz. Tympanometry: As (shallow) type. Treatment: stapedectomy."
+    },
+    {
+      "question_id": "TW_ENT_EAR_Q003",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_ENT_EAR",
+      "subject": "ENT",
+      "topic": "Ear",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Chorda tympani nerve: function?",
+      "options": {
+        "A": "Motor to tympanic membrane",
+        "B": "Taste from anterior 2/3 tongue + secretomotor to submandibular gland",
+        "C": "Pain from ear",
+        "D": "Motor to stapedius"
+      },
+      "correct_answer": "B",
+      "explanation": "Chorda tympani (branch of CN VII): taste from anterior 2/3 tongue, secretomotor to submandibular + sublingual glands. Passes through middle ear. Damaged in middle ear surgery → loss of taste."
+    },
+    {
+      "question_id": "TW_ENT_EAR_Q004",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_ENT_EAR",
+      "subject": "ENT",
+      "topic": "Ear",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Presbycusis: audiogram shows?",
+      "options": {
+        "A": "Low frequency loss",
+        "B": "High frequency sensorineural loss bilaterally",
+        "C": "Flat conductive loss",
+        "D": "Single frequency notch"
+      },
+      "correct_answer": "B",
+      "explanation": "Presbycusis (age-related hearing loss): bilateral symmetric high-frequency sensorineural hearing loss (cochlear hair cell degeneration). Most common cause of SNHL in elderly."
+    }
+  ]
+}

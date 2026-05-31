@@ -1,0 +1,105 @@
+{
+  "bank_id": "TW_MEDICINE_RESPIRATORY",
+  "paper_type": "topic_wise",
+  "subject": "Medicine",
+  "topic": "Respiratory",
+  "total_questions": 4,
+  "difficulty_distribution": {
+    "Easy": 4
+  },
+  "created_at": "2026-05-30",
+  "questions": [
+    {
+      "question_id": "TW_MEDICINE_RESPIRATORY_Q001",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MEDICINE_RESPIRATORY",
+      "subject": "Medicine",
+      "topic": "Respiratory",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "CURB-65 score of 3 in community-acquired pneumonia indicates?",
+      "options": {
+        "A": "Home treatment",
+        "B": "Outpatient antibiotics",
+        "C": "Hospital admission",
+        "D": "ICU consideration"
+      },
+      "correct_answer": "C",
+      "explanation": "CURB-65: Confusion, Urea>7, RR≥30, BP<90/60, age≥65. Score 0-1: home; 2: hospital; 3-5: hospital/ICU. Score 3 = hospitalization."
+    },
+    {
+      "question_id": "TW_MEDICINE_RESPIRATORY_Q002",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MEDICINE_RESPIRATORY",
+      "subject": "Medicine",
+      "topic": "Respiratory",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Allergic bronchopulmonary aspergillosis (ABPA): characteristic finding?",
+      "options": {
+        "A": "Type I hypersensitivity only",
+        "B": "Central bronchiectasis + elevated IgE",
+        "C": "Peripheral eosinophilia only",
+        "D": "Cavitating lesions"
+      },
+      "correct_answer": "B",
+      "explanation": "ABPA: central (proximal) bronchiectasis, elevated total IgE >1000 IU/mL, Aspergillus-specific IgE/IgG, eosinophilia. Rosenberg criteria."
+    },
+    {
+      "question_id": "TW_MEDICINE_RESPIRATORY_Q003",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MEDICINE_RESPIRATORY",
+      "subject": "Medicine",
+      "topic": "Respiratory",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Gas exchange parameter most sensitive for early interstitial lung disease?",
+      "options": {
+        "A": "FEV1",
+        "B": "FVC",
+        "C": "DLCO (transfer factor)",
+        "D": "FEV1/FVC ratio"
+      },
+      "correct_answer": "C",
+      "explanation": "DLCO (diffusing capacity of CO) is the earliest and most sensitive indicator of interstitial lung disease and pulmonary vascular disease."
+    },
+    {
+      "question_id": "TW_MEDICINE_RESPIRATORY_Q004",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MEDICINE_RESPIRATORY",
+      "subject": "Medicine",
+      "topic": "Respiratory",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Tension pneumothorax: immediate management?",
+      "options": {
+        "A": "Chest X-ray first",
+        "B": "Needle decompression 2nd ICS MCL",
+        "C": "Chest drain insertion",
+        "D": "CPAP"
+      },
+      "correct_answer": "B",
+      "explanation": "Tension pneumothorax: clinical diagnosis (tracheal deviation, absent breath sounds, hypotension, JVP raised). Immediate needle decompression — do NOT wait for CXR."
+    }
+  ]
+}

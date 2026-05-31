@@ -1,0 +1,82 @@
+{
+  "bank_id": "TW_ANAESTHE_GENERAL_ANES",
+  "paper_type": "topic_wise",
+  "subject": "Anaesthesia",
+  "topic": "General Anesthesia",
+  "total_questions": 3,
+  "difficulty_distribution": {
+    "Easy": 3
+  },
+  "created_at": "2026-05-30",
+  "questions": [
+    {
+      "question_id": "TW_ANAESTHE_GENERAL_ANES_Q001",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_ANAESTHE_GENERAL_ANES",
+      "subject": "Anaesthesia",
+      "topic": "General Anesthesia",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "ASA physical status grade IV?",
+      "options": {
+        "A": "Normal healthy patient",
+        "B": "Mild systemic disease",
+        "C": "Severe systemic disease",
+        "D": "Severe systemic disease, constant threat to life"
+      },
+      "correct_answer": "D",
+      "explanation": "ASA classification: I=healthy, II=mild disease (well-controlled DM/HTN), III=severe disease (uncontrolled DM, COPD), IV=constant threat to life (recent MI, severe CHF), V=moribund, VI=brain-dead for organ donation."
+    },
+    {
+      "question_id": "TW_ANAESTHE_GENERAL_ANES_Q002",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_ANAESTHE_GENERAL_ANES",
+      "subject": "Anaesthesia",
+      "topic": "General Anesthesia",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Mallampati class III indicates?",
+      "options": {
+        "A": "Full visibility of tonsils and uvula",
+        "B": "Only soft palate visible (difficult airway)",
+        "C": "Soft palate, fauces, uvula visible",
+        "D": "Only hard palate visible"
+      },
+      "correct_answer": "B",
+      "explanation": "Mallampati: I=tonsils+uvula+pillars, II=uvula+soft palate, III=only soft palate, IV=only hard palate. Class III/IV predict difficult intubation. Also assess: neck mobility, mouth opening, thyromental distance."
+    },
+    {
+      "question_id": "TW_ANAESTHE_GENERAL_ANES_Q003",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_ANAESTHE_GENERAL_ANES",
+      "subject": "Anaesthesia",
+      "topic": "General Anesthesia",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Minimum alveolar concentration (MAC): definition?",
+      "options": {
+        "A": "Concentration causing unconsciousness in 50%",
+        "B": "Alveolar concentration preventing movement in response to surgical stimulus in 50% of patients",
+        "C": "Lethal concentration in 50%",
+        "D": "Concentration causing amnesia in 100%"
+      },
+      "correct_answer": "B",
+      "explanation": "MAC: minimum alveolar concentration at 1 ATM at which 50% of patients don't move to surgical incision. Desflurane MAC=6%, Sevoflurane=2%, Isoflurane=1.15%. Decreased by: old age, hypothermia, opioids."
+    }
+  ]
+}

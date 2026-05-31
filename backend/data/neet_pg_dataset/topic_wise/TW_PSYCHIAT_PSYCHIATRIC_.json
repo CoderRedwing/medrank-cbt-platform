@@ -1,0 +1,82 @@
+{
+  "bank_id": "TW_PSYCHIAT_PSYCHIATRIC_",
+  "paper_type": "topic_wise",
+  "subject": "Psychiatry",
+  "topic": "Psychiatric Disorders",
+  "total_questions": 3,
+  "difficulty_distribution": {
+    "Easy": 3
+  },
+  "created_at": "2026-05-30",
+  "questions": [
+    {
+      "question_id": "TW_PSYCHIAT_PSYCHIATRIC__Q001",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_PSYCHIAT_PSYCHIATRIC_",
+      "subject": "Psychiatry",
+      "topic": "Psychiatric Disorders",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "OCD: ego-dystonic or ego-syntonic?",
+      "options": {
+        "A": "Ego-syntonic (desired behavior)",
+        "B": "Ego-dystonic (unwanted, distressing)",
+        "C": "Neither",
+        "D": "Depends on severity"
+      },
+      "correct_answer": "B",
+      "explanation": "OCD: obsessions are ego-DYSTONIC — patient recognizes thoughts as own but unwanted/distressing. Unlike delusions (ego-syntonic). Insight present (unlike psychosis). Treat with SSRI + CBT/ERP."
+    },
+    {
+      "question_id": "TW_PSYCHIAT_PSYCHIATRIC__Q002",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_PSYCHIAT_PSYCHIATRIC_",
+      "subject": "Psychiatry",
+      "topic": "Psychiatric Disorders",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Lithium: indication and monitoring?",
+      "options": {
+        "A": "Depression only; check renal function",
+        "B": "Bipolar disorder; monitor serum lithium, TFT, renal function, ECG",
+        "C": "Schizophrenia; check CBC",
+        "D": "Anxiety; no monitoring"
+      },
+      "correct_answer": "B",
+      "explanation": "Lithium: mood stabilizer for bipolar disorder (acute mania + prophylaxis). Narrow therapeutic window (0.6-1.2 mEq/L). Monitor: lithium level, TFT (hypothyroidism), renal function (nephrogenic DI), ECG."
+    },
+    {
+      "question_id": "TW_PSYCHIAT_PSYCHIATRIC__Q003",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_PSYCHIAT_PSYCHIATRIC_",
+      "subject": "Psychiatry",
+      "topic": "Psychiatric Disorders",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Schneider's first-rank symptoms of schizophrenia include all EXCEPT?",
+      "options": {
+        "A": "Thought insertion",
+        "B": "Auditory hallucinations (third person, commenting)",
+        "C": "Visual hallucinations",
+        "D": "Made impulses/volitions"
+      },
+      "correct_answer": "C",
+      "explanation": "Schneider's first-rank symptoms: thought insertion/withdrawal/broadcasting, made feelings/impulses/acts, somatic passivity, auditory (running commentary, third person, echo of thought). Visual hallucinations are NOT FRS."
+    }
+  ]
+}

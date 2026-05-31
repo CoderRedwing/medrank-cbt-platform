@@ -1,0 +1,197 @@
+{
+  "bank_id": "TW_MEDICINE_NEUROLOGY",
+  "paper_type": "topic_wise",
+  "subject": "Medicine",
+  "topic": "Neurology",
+  "total_questions": 8,
+  "difficulty_distribution": {
+    "Easy": 8
+  },
+  "created_at": "2026-05-30",
+  "questions": [
+    {
+      "question_id": "TW_MEDICINE_NEUROLOGY_Q001",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MEDICINE_NEUROLOGY",
+      "subject": "Medicine",
+      "topic": "Neurology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Resting tremor, cogwheel rigidity, bradykinesia, postural instability — diagnosis?",
+      "options": {
+        "A": "Essential tremor",
+        "B": "Parkinson's disease",
+        "C": "Wilson's disease",
+        "D": "Huntington's disease"
+      },
+      "correct_answer": "B",
+      "explanation": "Parkinson's disease: TRAP (Tremor-Rigidity-Akinesia-Postural instability). Loss of dopaminergic neurons in substantia nigra. Lewy bodies."
+    },
+    {
+      "question_id": "TW_MEDICINE_NEUROLOGY_Q002",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MEDICINE_NEUROLOGY",
+      "subject": "Medicine",
+      "topic": "Neurology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "CSF in bacterial meningitis shows?",
+      "options": {
+        "A": "High glucose, low protein, lymphocytes",
+        "B": "Low glucose, high protein, neutrophils",
+        "C": "Normal glucose, high protein, lymphocytes",
+        "D": "Low glucose, low protein, neutrophils"
+      },
+      "correct_answer": "B",
+      "explanation": "Bacterial meningitis: low glucose (<45 mg/dL), high protein, neutrophilic pleocytosis. Viral: normal/high glucose, moderate protein, lymphocytes."
+    },
+    {
+      "question_id": "TW_MEDICINE_NEUROLOGY_Q003",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MEDICINE_NEUROLOGY",
+      "subject": "Medicine",
+      "topic": "Neurology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A patient with trigeminal neuralgia: electric shock-like pain in V2/V3 territory. Drug of choice?",
+      "options": {
+        "A": "Amitriptyline",
+        "B": "Carbamazepine",
+        "C": "Gabapentin",
+        "D": "Phenytoin"
+      },
+      "correct_answer": "B",
+      "explanation": "Carbamazepine (tegretol) is DOC for trigeminal neuralgia. Blocks sodium channels. If refractory: MVD (microvascular decompression)."
+    },
+    {
+      "question_id": "TW_MEDICINE_NEUROLOGY_Q004",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MEDICINE_NEUROLOGY",
+      "subject": "Medicine",
+      "topic": "Neurology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Brown-Séquard syndrome: ipsilateral findings include?",
+      "options": {
+        "A": "Loss of pain and temperature",
+        "B": "Loss of proprioception and motor",
+        "C": "Loss of all sensation",
+        "D": "Contralateral motor weakness"
+      },
+      "correct_answer": "B",
+      "explanation": "Brown-Séquard (hemisection): IPSILATERAL — UMN weakness + loss of proprioception/vibration. CONTRALATERAL — loss of pain/temperature 2-3 levels below."
+    },
+    {
+      "question_id": "TW_MEDICINE_NEUROLOGY_Q005",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MEDICINE_NEUROLOGY",
+      "subject": "Medicine",
+      "topic": "Neurology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Contraindication to thrombolysis in acute ischemic stroke?",
+      "options": {
+        "A": "Age >80",
+        "B": "BP 160/90",
+        "C": "Blood glucose 8 mmol/L",
+        "D": "Recent surgery <2 weeks"
+      },
+      "correct_answer": "D",
+      "explanation": "Absolute CI to tPA: recent major surgery <14 days, hemorrhage, BP >185/110 (uncontrolled), INR >1.7. Age >80 is NOT absolute CI."
+    },
+    {
+      "question_id": "TW_MEDICINE_NEUROLOGY_Q006",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MEDICINE_NEUROLOGY",
+      "subject": "Medicine",
+      "topic": "Neurology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 70-year-old develops sudden onset left-sided weakness lasting 15 minutes. CT head normal. Next step?",
+      "options": {
+        "A": "Aspirin + clopidogrel",
+        "B": "IV tPA",
+        "C": "MRI brain",
+        "D": "Carotid Doppler"
+      },
+      "correct_answer": "A",
+      "explanation": "TIA: aspirin + clopidogrel (dual antiplatelet) for 21 days. ABCD² score guides risk. tPA is for ischemic stroke within 4.5 hours."
+    },
+    {
+      "question_id": "TW_MEDICINE_NEUROLOGY_Q007",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MEDICINE_NEUROLOGY",
+      "subject": "Medicine",
+      "topic": "Neurology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Drug of choice for status epilepticus?",
+      "options": {
+        "A": "Phenytoin",
+        "B": "Lorazepam IV",
+        "C": "Valproate",
+        "D": "Phenobarbitone"
+      },
+      "correct_answer": "B",
+      "explanation": "Status epilepticus: benzodiazepines first (lorazepam IV or diazepam). If persistent: levetiracetam/valproate/phenytoin. Propofol for refractory."
+    },
+    {
+      "question_id": "TW_MEDICINE_NEUROLOGY_Q008",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MEDICINE_NEUROLOGY",
+      "subject": "Medicine",
+      "topic": "Neurology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Cowdry type A inclusion bodies are seen in?",
+      "options": {
+        "A": "CMV encephalitis",
+        "B": "HSV encephalitis",
+        "C": "Rabies",
+        "D": "JC virus"
+      },
+      "correct_answer": "B",
+      "explanation": "HSV encephalitis: Cowdry type A inclusions in neurons/oligodendrocytes. CMV: 'owl eye' inclusions. Rabies: Negri bodies. JC: Cowdry B."
+    }
+  ]
+}

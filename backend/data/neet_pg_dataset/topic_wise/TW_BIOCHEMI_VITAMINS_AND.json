@@ -1,0 +1,105 @@
+{
+  "bank_id": "TW_BIOCHEMI_VITAMINS_AND",
+  "paper_type": "topic_wise",
+  "subject": "Biochemistry",
+  "topic": "Vitamins and Nutrition",
+  "total_questions": 4,
+  "difficulty_distribution": {
+    "Easy": 4
+  },
+  "created_at": "2026-05-30",
+  "questions": [
+    {
+      "question_id": "TW_BIOCHEMI_VITAMINS_AND_Q001",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_BIOCHEMI_VITAMINS_AND",
+      "subject": "Biochemistry",
+      "topic": "Vitamins and Nutrition",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Vitamin B12 deficiency: laboratory finding?",
+      "options": {
+        "A": "Microcytic anemia",
+        "B": "Macrocytic anemia with hypersegmented neutrophils",
+        "C": "Normocytic anemia",
+        "D": "Microcytic anemia with target cells"
+      },
+      "correct_answer": "B",
+      "explanation": "B12/folate deficiency: megaloblastic anemia — macrocytic (MCV >100), hypersegmented neutrophils (>5 lobes), glossitis. B12 also causes subacute combined degeneration of cord (not folate)."
+    },
+    {
+      "question_id": "TW_BIOCHEMI_VITAMINS_AND_Q002",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_BIOCHEMI_VITAMINS_AND",
+      "subject": "Biochemistry",
+      "topic": "Vitamins and Nutrition",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Scurvy: pathophysiology?",
+      "options": {
+        "A": "Vitamin D deficiency",
+        "B": "Vitamin C deficiency → impaired collagen synthesis",
+        "C": "Vitamin K deficiency",
+        "D": "Calcium deficiency"
+      },
+      "correct_answer": "B",
+      "explanation": "Scurvy: Vitamin C (ascorbic acid) deficiency → impaired hydroxylation of proline/lysine → abnormal collagen → perifollicular hemorrhage, corkscrew hair, bleeding gums, poor wound healing."
+    },
+    {
+      "question_id": "TW_BIOCHEMI_VITAMINS_AND_Q003",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_BIOCHEMI_VITAMINS_AND",
+      "subject": "Biochemistry",
+      "topic": "Vitamins and Nutrition",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Vitamin K: mechanism of action?",
+      "options": {
+        "A": "Antioxidant",
+        "B": "Cofactor for gamma-carboxylation of clotting factors II, VII, IX, X",
+        "C": "Co-enzyme for carboxylase",
+        "D": "Retinoic acid receptor ligand"
+      },
+      "correct_answer": "B",
+      "explanation": "Vitamin K: required for gamma-carboxylation (activation) of clotting factors II, VII, IX, X and proteins C/S. Warfarin blocks vitamin K epoxide reductase. Deficiency: prolonged PT."
+    },
+    {
+      "question_id": "TW_BIOCHEMI_VITAMINS_AND_Q004",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_BIOCHEMI_VITAMINS_AND",
+      "subject": "Biochemistry",
+      "topic": "Vitamins and Nutrition",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Pellagra is deficiency of?",
+      "options": {
+        "A": "Vitamin B1 (thiamine)",
+        "B": "Vitamin B3 (niacin/nicotinamide)",
+        "C": "Vitamin B12",
+        "D": "Vitamin C"
+      },
+      "correct_answer": "B",
+      "explanation": "Pellagra: niacin (B3) deficiency. 3 D's: Dermatitis, Diarrhea, Dementia. Casal's necklace (photosensitive skin around neck). Also in isoniazid use (depletes pyridoxine needed for niacin synthesis)."
+    }
+  ]
+}

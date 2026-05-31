@@ -1,0 +1,77 @@
+{
+  "dataset_name": "NEET PG Complete MCQ Dataset",
+  "version": "1.0",
+  "created_at": "2026-05-30",
+  "exam_pattern": {
+    "exam": "NEET PG / INI-CET",
+    "total_questions_per_paper": 200,
+    "duration_minutes": 210,
+    "marking_scheme": {
+      "correct": 4,
+      "incorrect": -1,
+      "unanswered": 0
+    }
+  },
+  "dataset_summary": {
+    "full_papers": {
+      "count": 35,
+      "questions_each": "185-200",
+      "total_questions": 6550
+    },
+    "subject_papers": {
+      "count": 80,
+      "questions_each": 100,
+      "total_questions": 8000
+    },
+    "topic_wise_banks": {
+      "count": 61,
+      "questions_range": "2-25"
+    },
+    "approximate_total_unique_mcqs": 14550
+  },
+  "subject_coverage": [
+    "Medicine",
+    "Surgery",
+    "Pathology",
+    "Pharmacology",
+    "OBGYN",
+    "Microbiology",
+    "Pediatrics",
+    "PSM",
+    "Anatomy",
+    "Physiology",
+    "Biochemistry",
+    "ENT",
+    "Ophthalmology",
+    "Orthopedics",
+    "Psychiatry",
+    "Radiology",
+    "Anaesthesia",
+    "Dermatology",
+    "Forensic Medicine"
+  ],
+  "difficulty_levels": [
+    "Easy",
+    "Moderate",
+    "Hard",
+    "Very Hard"
+  ],
+  "file_structure": {
+    "full_papers/": "FP_01.json ... FP_35.json + _index.json",
+    "subject_papers/": "SP_<SUBJECT>_<NN>.json + _index.json",
+    "topic_wise/": "TW_<SUBJECT>_<TOPIC>.json + _index.json",
+    "_schema.json": "Full JSON schema for all objects",
+    "_master_index.json": "This file"
+  },
+  "access_patterns": {
+    "load_all_full_papers": "Read full_papers/_index.json, then load each paper_id.json",
+    "filter_by_subject": "Read subject_papers/_index.json, filter by 'subject' field",
+    "filter_by_topic": "Read topic_wise/_index.json, filter by 'subject' + 'topic'",
+    "filter_by_difficulty": "Each question has 'difficulty' field: Easy|Moderate|Hard|Very Hard",
+    "question_id_format": {
+      "full_paper": "FP_<NN>_Q<NNN>",
+      "subject_paper": "SP_<SUBJ>_<NN>_Q<NNN>",
+      "topic_wise": "TW_<SUBJ>_<TOPIC>_Q<NNN>"
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "bank_id": "TW_ORTHOPED_INFECTIONS_A",
+  "paper_type": "topic_wise",
+  "subject": "Orthopedics",
+  "topic": "Infections and Tumors",
+  "total_questions": 3,
+  "difficulty_distribution": {
+    "Easy": 3
+  },
+  "created_at": "2026-05-30",
+  "questions": [
+    {
+      "question_id": "TW_ORTHOPED_INFECTIONS_A_Q001",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_ORTHOPED_INFECTIONS_A",
+      "subject": "Orthopedics",
+      "topic": "Infections and Tumors",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Most common bone tumor (primary malignant)?",
+      "options": {
+        "A": "Chondrosarcoma",
+        "B": "Osteosarcoma",
+        "C": "Ewing's sarcoma",
+        "D": "Giant cell tumor"
+      },
+      "correct_answer": "B",
+      "explanation": "Osteosarcoma: most common primary malignant bone tumor (excluding hematological). Metaphysis of distal femur/proximal tibia. Codman's triangle + sunray spiculation on X-ray."
+    },
+    {
+      "question_id": "TW_ORTHOPED_INFECTIONS_A_Q002",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_ORTHOPED_INFECTIONS_A",
+      "subject": "Orthopedics",
+      "topic": "Infections and Tumors",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Paget's disease: lab findings?",
+      "options": {
+        "A": "Elevated ALP, normal Ca and PO4",
+        "B": "Elevated Ca, low PO4, elevated ALP",
+        "C": "Low ALP, elevated Ca",
+        "D": "All normal"
+      },
+      "correct_answer": "A",
+      "explanation": "Paget's disease (osteitis deformans): markedly elevated ALP (bone-specific), NORMAL Ca and PO4. Increased bone turnover. Complications: hearing loss, heart failure, sarcomatous transformation (1%)."
+    },
+    {
+      "question_id": "TW_ORTHOPED_INFECTIONS_A_Q003",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_ORTHOPED_INFECTIONS_A",
+      "subject": "Orthopedics",
+      "topic": "Infections and Tumors",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Brodie's abscess: X-ray appearance?",
+      "options": {
+        "A": "Moth-eaten bone",
+        "B": "Well-defined lytic lesion with sclerotic rim in metaphysis",
+        "C": "Onion peel periosteal reaction",
+        "D": "Sunburst pattern"
+      },
+      "correct_answer": "B",
+      "explanation": "Brodie's abscess: subacute osteomyelitis. Well-defined lytic lesion with sclerotic margin in metaphysis (distal tibia most common). Caused by S. aureus. Treatment: surgical curettage + antibiotics."
+    }
+  ]
+}

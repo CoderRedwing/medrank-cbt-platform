@@ -1,0 +1,59 @@
+{
+  "bank_id": "TW_ENT_NOSE",
+  "paper_type": "topic_wise",
+  "subject": "ENT",
+  "topic": "Nose",
+  "total_questions": 2,
+  "difficulty_distribution": {
+    "Easy": 2
+  },
+  "created_at": "2026-05-30",
+  "questions": [
+    {
+      "question_id": "TW_ENT_NOSE_Q001",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_ENT_NOSE",
+      "subject": "ENT",
+      "topic": "Nose",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Saddle nose deformity is caused by?",
+      "options": {
+        "A": "Rhinophyma",
+        "B": "Destruction of nasal septal cartilage (syphilis, Wegener's, relapsing polychondritis, trauma)",
+        "C": "Nasal polyps",
+        "D": "Hypertrophied inferior turbinate"
+      },
+      "correct_answer": "B",
+      "explanation": "Saddle nose: collapse of dorsum from cartilage/bone destruction. Causes: tertiary syphilis (classic), Wegener's GPA, relapsing polychondritis, trauma, cocaine abuse."
+    },
+    {
+      "question_id": "TW_ENT_NOSE_Q002",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_ENT_NOSE",
+      "subject": "ENT",
+      "topic": "Nose",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Most common site of epistaxis?",
+      "options": {
+        "A": "Posterior septal vessels",
+        "B": "Little's area (Kiesselbach's plexus)",
+        "C": "Inferior turbinate",
+        "D": "Roof of nasal cavity"
+      },
+      "correct_answer": "B",
+      "explanation": "Little's area/Kiesselbach's plexus: anterior inferior nasal septum — confluence of 4 arteries (branches of anterior ethmoidal, sphenopalatine, superior labial, greater palatine). 90% of nosebleeds."
+    }
+  ]
+}

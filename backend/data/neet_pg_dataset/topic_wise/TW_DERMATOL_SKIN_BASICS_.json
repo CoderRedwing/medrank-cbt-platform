@@ -1,0 +1,82 @@
+{
+  "bank_id": "TW_DERMATOL_SKIN_BASICS_",
+  "paper_type": "topic_wise",
+  "subject": "Dermatology",
+  "topic": "Skin Basics and Infections",
+  "total_questions": 3,
+  "difficulty_distribution": {
+    "Easy": 3
+  },
+  "created_at": "2026-05-30",
+  "questions": [
+    {
+      "question_id": "TW_DERMATOL_SKIN_BASICS__Q001",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_DERMATOL_SKIN_BASICS_",
+      "subject": "Dermatology",
+      "topic": "Skin Basics and Infections",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Tzanck smear is positive in?",
+      "options": {
+        "A": "Tinea infections",
+        "B": "HSV and VZV (acantholytic cells/multinucleate giant cells)",
+        "C": "Bacterial infections",
+        "D": "Syphilis"
+      },
+      "correct_answer": "B",
+      "explanation": "Tzanck smear: scraping from base of vesicle → multinucleated giant cells/acantholytic cells in HSV and VZV (chickenpox). Also positive in pemphigus vulgaris (acantholytic cells, no giant cells)."
+    },
+    {
+      "question_id": "TW_DERMATOL_SKIN_BASICS__Q002",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_DERMATOL_SKIN_BASICS_",
+      "subject": "Dermatology",
+      "topic": "Skin Basics and Infections",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Dermatophyte infection of nails?",
+      "options": {
+        "A": "Paronychia",
+        "B": "Onychomycosis (tinea unguium)",
+        "C": "Melanonychia",
+        "D": "Leukonychia"
+      },
+      "correct_answer": "B",
+      "explanation": "Tinea unguium (onychomycosis): most common nail infection. Subungual hyperkeratosis, distal/lateral onycholysis. Most common organism: T. rubrum. Treatment: terbinafine (oral, 6-12 weeks)."
+    },
+    {
+      "question_id": "TW_DERMATOL_SKIN_BASICS__Q003",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_DERMATOL_SKIN_BASICS_",
+      "subject": "Dermatology",
+      "topic": "Skin Basics and Infections",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Auspitz's sign is seen in?",
+      "options": {
+        "A": "Lichen planus",
+        "B": "Psoriasis",
+        "C": "Pemphigus",
+        "D": "SLE"
+      },
+      "correct_answer": "B",
+      "explanation": "Auspitz sign: pinpoint bleeding on removing psoriatic scale (thinned suprapapillary epidermis). Other psoriasis signs: Koebner, candle grease, Woronoff's ring. Nail: pitting (most common), oil drop."
+    }
+  ]
+}

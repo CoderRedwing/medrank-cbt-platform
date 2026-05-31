@@ -1,0 +1,82 @@
+{
+  "bank_id": "TW_OPHTHALM_LENS_AND_GLA",
+  "paper_type": "topic_wise",
+  "subject": "Ophthalmology",
+  "topic": "Lens and Glaucoma",
+  "total_questions": 3,
+  "difficulty_distribution": {
+    "Easy": 3
+  },
+  "created_at": "2026-05-30",
+  "questions": [
+    {
+      "question_id": "TW_OPHTHALM_LENS_AND_GLA_Q001",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_OPHTHALM_LENS_AND_GLA",
+      "subject": "Ophthalmology",
+      "topic": "Lens and Glaucoma",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Primary open-angle glaucoma: optic disc finding?",
+      "options": {
+        "A": "Papilledema",
+        "B": "Increased cup-to-disc ratio (CDR >0.5)",
+        "C": "Pale disc",
+        "D": "Normal disc"
+      },
+      "correct_answer": "B",
+      "explanation": "POAG: progressive optic neuropathy. CDR >0.5 or asymmetry >0.2 is significant. Superotemporal and inferotemporal RNFL loss first → arcuate scotomas. Gradual, painless, peripheral vision loss."
+    },
+    {
+      "question_id": "TW_OPHTHALM_LENS_AND_GLA_Q002",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_OPHTHALM_LENS_AND_GLA",
+      "subject": "Ophthalmology",
+      "topic": "Lens and Glaucoma",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Normal intraocular pressure range?",
+      "options": {
+        "A": "5-10 mmHg",
+        "B": "10-21 mmHg",
+        "C": "22-30 mmHg",
+        "D": "<5 mmHg"
+      },
+      "correct_answer": "B",
+      "explanation": "Normal IOP: 10-21 mmHg (Goldmann applanation tonometry is gold standard). Ocular hypertension: IOP >21 without glaucomatous damage. Primary open-angle glaucoma: often IOP >21."
+    },
+    {
+      "question_id": "TW_OPHTHALM_LENS_AND_GLA_Q003",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_OPHTHALM_LENS_AND_GLA",
+      "subject": "Ophthalmology",
+      "topic": "Lens and Glaucoma",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Cataract in galactosemia: morphology?",
+      "options": {
+        "A": "Nuclear cataract",
+        "B": "Oil-droplet cataract (posterior)",
+        "C": "Sunflower cataract",
+        "D": "Christmas tree cataract"
+      },
+      "correct_answer": "B",
+      "explanation": "Galactosemia/galactokinase deficiency: lamellar (zonular) and oil-droplet cataract (posterior). Wilson's disease: sunflower cataract. Hypocalcemia/steroids: posterior subcapsular."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "bank_id": "TW_FORENSIC_ASPHYXIA_AND",
+  "paper_type": "topic_wise",
+  "subject": "Forensic Medicine",
+  "topic": "Asphyxia and Toxicology",
+  "total_questions": 2,
+  "difficulty_distribution": {
+    "Easy": 2
+  },
+  "created_at": "2026-05-30",
+  "questions": [
+    {
+      "question_id": "TW_FORENSIC_ASPHYXIA_AND_Q001",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_FORENSIC_ASPHYXIA_AND",
+      "subject": "Forensic Medicine",
+      "topic": "Asphyxia and Toxicology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Diatom test (Incinerator test) is done for?",
+      "options": {
+        "A": "Carbon monoxide poisoning",
+        "B": "Drowning diagnosis",
+        "C": "Strychnine poisoning",
+        "D": "Cyanide poisoning"
+      },
+      "correct_answer": "B",
+      "explanation": "Diatom test (Getler/Owen test): siliceous diatom shells found in bone marrow/viscera confirm antemortem drowning (diatoms can only enter circulation when heart is beating). Speciation confirms water source."
+    },
+    {
+      "question_id": "TW_FORENSIC_ASPHYXIA_AND_Q002",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_FORENSIC_ASPHYXIA_AND",
+      "subject": "Forensic Medicine",
+      "topic": "Asphyxia and Toxicology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Carbon monoxide poisoning: cherry-red color of skin is due to?",
+      "options": {
+        "A": "Cyanosis",
+        "B": "Carboxyhemoglobin (HbCO) formation",
+        "C": "Methemoglobin",
+        "D": "Venous congestion"
+      },
+      "correct_answer": "B",
+      "explanation": "CO poisoning: HbCO (cherry-pink/red discoloration of mucous membranes, lividity, organs). CO has 240x affinity for Hb vs O2. Treatment: 100% O2 (hyperbaric in severe). CO also binds cytochrome oxidase."
+    }
+  ]
+}

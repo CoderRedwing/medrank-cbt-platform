@@ -1,0 +1,174 @@
+{
+  "bank_id": "TW_PATHOLOG_HEMATOLOGY",
+  "paper_type": "topic_wise",
+  "subject": "Pathology",
+  "topic": "Hematology",
+  "total_questions": 7,
+  "difficulty_distribution": {
+    "Easy": 7
+  },
+  "created_at": "2026-05-30",
+  "questions": [
+    {
+      "question_id": "TW_PATHOLOG_HEMATOLOGY_Q001",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_PATHOLOG_HEMATOLOGY",
+      "subject": "Pathology",
+      "topic": "Hematology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Philadelphia chromosome is seen in?",
+      "options": {
+        "A": "AML M3",
+        "B": "CML",
+        "C": "ALL",
+        "D": "Hodgkin's lymphoma"
+      },
+      "correct_answer": "B",
+      "explanation": "Philadelphia chromosome: t(9;22) BCR-ABL1 fusion. Classic in CML but also in 20-30% adult ALL. Treated with imatinib (TKI)."
+    },
+    {
+      "question_id": "TW_PATHOLOG_HEMATOLOGY_Q002",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_PATHOLOG_HEMATOLOGY",
+      "subject": "Pathology",
+      "topic": "Hematology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Marker for Langerhans cell histiocytosis (LCH)?",
+      "options": {
+        "A": "CD10",
+        "B": "CD1a + Langerin (CD207)",
+        "C": "CD20",
+        "D": "CD138"
+      },
+      "correct_answer": "B",
+      "explanation": "LCH: Birbeck granules (tennis racket shape on EM), CD1a+, Langerin (CD207)+, S100+. Involves bone, skin, lung, pituitary (DI)."
+    },
+    {
+      "question_id": "TW_PATHOLOG_HEMATOLOGY_Q003",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_PATHOLOG_HEMATOLOGY",
+      "subject": "Pathology",
+      "topic": "Hematology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "APML (AML M3) complication at presentation?",
+      "options": {
+        "A": "Hyperuricemia",
+        "B": "DIC",
+        "C": "Hypokalemia",
+        "D": "CNS involvement"
+      },
+      "correct_answer": "B",
+      "explanation": "APML: t(15;17) PML-RARA. Associated with DIC at presentation (Auer rods release procoagulants). Treat with ATRA + arsenic trioxide."
+    },
+    {
+      "question_id": "TW_PATHOLOG_HEMATOLOGY_Q004",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_PATHOLOG_HEMATOLOGY",
+      "subject": "Pathology",
+      "topic": "Hematology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Heinz bodies are seen in?",
+      "options": {
+        "A": "Iron deficiency anemia",
+        "B": "G6PD deficiency",
+        "C": "Megaloblastic anemia",
+        "D": "Thalassemia"
+      },
+      "correct_answer": "B",
+      "explanation": "Heinz bodies: denatured precipitated hemoglobin in G6PD deficiency (oxidative hemolysis). Seen on crystal violet stain, not Romanowsky stains."
+    },
+    {
+      "question_id": "TW_PATHOLOG_HEMATOLOGY_Q005",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_PATHOLOG_HEMATOLOGY",
+      "subject": "Pathology",
+      "topic": "Hematology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Reed-Sternberg cells are pathognomonic of?",
+      "options": {
+        "A": "Non-Hodgkin lymphoma",
+        "B": "Hodgkin's lymphoma",
+        "C": "Multiple myeloma",
+        "D": "CLL"
+      },
+      "correct_answer": "B",
+      "explanation": "Reed-Sternberg cells: large binucleated 'owl-eye' cells (CD15+, CD30+, CD45-). Classic in nodular sclerosis Hodgkin's lymphoma (most common subtype)."
+    },
+    {
+      "question_id": "TW_PATHOLOG_HEMATOLOGY_Q006",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_PATHOLOG_HEMATOLOGY",
+      "subject": "Pathology",
+      "topic": "Hematology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Auer rods are found in?",
+      "options": {
+        "A": "ALL",
+        "B": "CLL",
+        "C": "AML",
+        "D": "CML"
+      },
+      "correct_answer": "C",
+      "explanation": "Auer rods: pink/purple needle-like inclusions in blasts (myeloperoxidase-positive azurophilic granules). Pathognomonic of AML. APML (M3) has many Auer rods (faggot cells)."
+    },
+    {
+      "question_id": "TW_PATHOLOG_HEMATOLOGY_Q007",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_PATHOLOG_HEMATOLOGY",
+      "subject": "Pathology",
+      "topic": "Hematology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Multiple myeloma: characteristic finding on protein electrophoresis?",
+      "options": {
+        "A": "Polyclonal gammopathy",
+        "B": "M-protein (monoclonal spike)",
+        "C": "Absent gamma globulins",
+        "D": "Elevated albumin"
+      },
+      "correct_answer": "B",
+      "explanation": "Multiple myeloma: M-protein (IgG most common, then IgA) on SPEP. Bence-Jones proteins in urine. CRAB criteria: hyperCalcemia, Renal failure, Anemia, Bone lesions."
+    }
+  ]
+}

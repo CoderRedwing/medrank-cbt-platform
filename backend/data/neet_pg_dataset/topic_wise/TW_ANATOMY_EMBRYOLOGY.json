@@ -1,0 +1,82 @@
+{
+  "bank_id": "TW_ANATOMY_EMBRYOLOGY",
+  "paper_type": "topic_wise",
+  "subject": "Anatomy",
+  "topic": "Embryology",
+  "total_questions": 3,
+  "difficulty_distribution": {
+    "Easy": 3
+  },
+  "created_at": "2026-05-30",
+  "questions": [
+    {
+      "question_id": "TW_ANATOMY_EMBRYOLOGY_Q001",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_ANATOMY_EMBRYOLOGY",
+      "subject": "Anatomy",
+      "topic": "Embryology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Meckel's diverticulum: remnant of?",
+      "options": {
+        "A": "Urachus",
+        "B": "Vitelline (omphalomesenteric) duct",
+        "C": "Umbilical vein",
+        "D": "Allantois"
+      },
+      "correct_answer": "B",
+      "explanation": "Meckel's: persistent vitelline duct. Urachus remnant: urachal cyst/sinus/fistula. Allantois → median umbilical ligament. Umbilical vein → ligamentum teres."
+    },
+    {
+      "question_id": "TW_ANATOMY_EMBRYOLOGY_Q002",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_ANATOMY_EMBRYOLOGY",
+      "subject": "Anatomy",
+      "topic": "Embryology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Mesonephric (Wolffian) duct in females gives rise to?",
+      "options": {
+        "A": "Uterus and fallopian tubes",
+        "B": "Bartholin's glands (vestibular glands) — vestigial Gartner's duct cysts",
+        "C": "Nothing significant — regresses",
+        "D": "Ovaries"
+      },
+      "correct_answer": "B",
+      "explanation": "In females, Wolffian duct regresses (vestigial) → Gartner's duct cysts (vaginal). Müllerian (paramesonephric) ducts → fallopian tubes, uterus, upper vagina. Ovaries from genital ridge."
+    },
+    {
+      "question_id": "TW_ANATOMY_EMBRYOLOGY_Q003",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_ANATOMY_EMBRYOLOGY",
+      "subject": "Anatomy",
+      "topic": "Embryology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Persistent truncus arteriosus results from failure of?",
+      "options": {
+        "A": "Mitral valve formation",
+        "B": "Aorticopulmonary septum formation",
+        "C": "Endocardial cushion development",
+        "D": "Ductus arteriosus closure"
+      },
+      "correct_answer": "B",
+      "explanation": "Persistent truncus arteriosus: failure of aorticopulmonary septum to form → single vessel from both ventricles. DiGeorge syndrome (22q11.2 deletion) association."
+    }
+  ]
+}

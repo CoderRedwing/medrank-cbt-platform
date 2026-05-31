@@ -1,0 +1,368 @@
+[
+  {
+    "bank_id": "TW_MEDICINE_CARDIOLOGY",
+    "subject": "Medicine",
+    "topic": "Cardiology",
+    "total_questions": 15
+  },
+  {
+    "bank_id": "TW_MEDICINE_RHEUMATOLOGY",
+    "subject": "Medicine",
+    "topic": "Rheumatology",
+    "total_questions": 8
+  },
+  {
+    "bank_id": "TW_MEDICINE_NEUROLOGY",
+    "subject": "Medicine",
+    "topic": "Neurology",
+    "total_questions": 8
+  },
+  {
+    "bank_id": "TW_MEDICINE_ENDOCRINOLOG",
+    "subject": "Medicine",
+    "topic": "Endocrinology",
+    "total_questions": 7
+  },
+  {
+    "bank_id": "TW_MEDICINE_GASTROENTERO",
+    "subject": "Medicine",
+    "topic": "Gastroenterology",
+    "total_questions": 6
+  },
+  {
+    "bank_id": "TW_MEDICINE_INFECTIOUS_D",
+    "subject": "Medicine",
+    "topic": "Infectious Diseases",
+    "total_questions": 5
+  },
+  {
+    "bank_id": "TW_MEDICINE_RESPIRATORY",
+    "subject": "Medicine",
+    "topic": "Respiratory",
+    "total_questions": 4
+  },
+  {
+    "bank_id": "TW_SURGERY_GENERAL_SURG",
+    "subject": "Surgery",
+    "topic": "General Surgery Basics",
+    "total_questions": 22
+  },
+  {
+    "bank_id": "TW_SURGERY_VASCULAR_SUR",
+    "subject": "Surgery",
+    "topic": "Vascular Surgery",
+    "total_questions": 19
+  },
+  {
+    "bank_id": "TW_SURGERY_GI_SURGERY",
+    "subject": "Surgery",
+    "topic": "GI Surgery",
+    "total_questions": 19
+  },
+  {
+    "bank_id": "TW_SURGERY_HEAD_AND_NEC",
+    "subject": "Surgery",
+    "topic": "Head and Neck Surgery",
+    "total_questions": 18
+  },
+  {
+    "bank_id": "TW_SURGERY_UROLOGY",
+    "subject": "Surgery",
+    "topic": "Urology",
+    "total_questions": 4
+  },
+  {
+    "bank_id": "TW_PATHOLOG_GENERAL_PATH",
+    "subject": "Pathology",
+    "topic": "General Pathology",
+    "total_questions": 21
+  },
+  {
+    "bank_id": "TW_PATHOLOG_HEMATOLOGY",
+    "subject": "Pathology",
+    "topic": "Hematology",
+    "total_questions": 7
+  },
+  {
+    "bank_id": "TW_PATHOLOG_SYSTEMIC_PAT",
+    "subject": "Pathology",
+    "topic": "Systemic Pathology",
+    "total_questions": 25
+  },
+  {
+    "bank_id": "TW_PHARMACO_GENERAL_PHAR",
+    "subject": "Pharmacology",
+    "topic": "General Pharmacology",
+    "total_questions": 19
+  },
+  {
+    "bank_id": "TW_PHARMACO_ANS_PHARMACO",
+    "subject": "Pharmacology",
+    "topic": "ANS Pharmacology",
+    "total_questions": 23
+  },
+  {
+    "bank_id": "TW_PHARMACO_CVS_PHARMACO",
+    "subject": "Pharmacology",
+    "topic": "CVS Pharmacology",
+    "total_questions": 23
+  },
+  {
+    "bank_id": "TW_PHARMACO_ANTIMICROBIA",
+    "subject": "Pharmacology",
+    "topic": "Antimicrobials",
+    "total_questions": 6
+  },
+  {
+    "bank_id": "TW_PHARMACO_CNS_PHARMACO",
+    "subject": "Pharmacology",
+    "topic": "CNS Pharmacology",
+    "total_questions": 23
+  },
+  {
+    "bank_id": "TW_MICROBIO_GENERAL_MICR",
+    "subject": "Microbiology",
+    "topic": "General Microbiology",
+    "total_questions": 18
+  },
+  {
+    "bank_id": "TW_MICROBIO_BACTERIOLOGY",
+    "subject": "Microbiology",
+    "topic": "Bacteriology",
+    "total_questions": 4
+  },
+  {
+    "bank_id": "TW_MICROBIO_VIROLOGY",
+    "subject": "Microbiology",
+    "topic": "Virology",
+    "total_questions": 4
+  },
+  {
+    "bank_id": "TW_MICROBIO_PARASITOLOGY",
+    "subject": "Microbiology",
+    "topic": "Parasitology",
+    "total_questions": 3
+  },
+  {
+    "bank_id": "TW_MICROBIO_MYCOLOGY",
+    "subject": "Microbiology",
+    "topic": "Mycology",
+    "total_questions": 2
+  },
+  {
+    "bank_id": "TW_PSM_EPIDEMIOLOGY",
+    "subject": "PSM",
+    "topic": "Epidemiology",
+    "total_questions": 5
+  },
+  {
+    "bank_id": "TW_PSM_BIOSTATISTIC",
+    "subject": "PSM",
+    "topic": "Biostatistics",
+    "total_questions": 5
+  },
+  {
+    "bank_id": "TW_PSM_COMMUNICABLE",
+    "subject": "PSM",
+    "topic": "Communicable and NCDs",
+    "total_questions": 3
+  },
+  {
+    "bank_id": "TW_PSM_DEMOGRAPHY_A",
+    "subject": "PSM",
+    "topic": "Demography and Nutrition",
+    "total_questions": 3
+  },
+  {
+    "bank_id": "TW_OBGYN_OBSTETRICS",
+    "subject": "OBGYN",
+    "topic": "Obstetrics",
+    "total_questions": 5
+  },
+  {
+    "bank_id": "TW_OBGYN_GYNECOLOGY",
+    "subject": "OBGYN",
+    "topic": "Gynecology",
+    "total_questions": 5
+  },
+  {
+    "bank_id": "TW_PEDIATRI_NEONATOLOGY",
+    "subject": "Pediatrics",
+    "topic": "Neonatology",
+    "total_questions": 5
+  },
+  {
+    "bank_id": "TW_PEDIATRI_PEDIATRIC_SY",
+    "subject": "Pediatrics",
+    "topic": "Pediatric Systemic",
+    "total_questions": 4
+  },
+  {
+    "bank_id": "TW_ANATOMY_GROSS_ANATOM",
+    "subject": "Anatomy",
+    "topic": "Gross Anatomy",
+    "total_questions": 21
+  },
+  {
+    "bank_id": "TW_ANATOMY_EMBRYOLOGY",
+    "subject": "Anatomy",
+    "topic": "Embryology",
+    "total_questions": 3
+  },
+  {
+    "bank_id": "TW_ANATOMY_GENERAL_ANAT",
+    "subject": "Anatomy",
+    "topic": "General Anatomy",
+    "total_questions": 16
+  },
+  {
+    "bank_id": "TW_PHYSIOLO_CARDIOVASCUL",
+    "subject": "Physiology",
+    "topic": "Cardiovascular Physiology",
+    "total_questions": 18
+  },
+  {
+    "bank_id": "TW_PHYSIOLO_RESPIRATORY_",
+    "subject": "Physiology",
+    "topic": "Respiratory Physiology",
+    "total_questions": 17
+  },
+  {
+    "bank_id": "TW_PHYSIOLO_NEUROPHYSIOL",
+    "subject": "Physiology",
+    "topic": "Neurophysiology",
+    "total_questions": 2
+  },
+  {
+    "bank_id": "TW_PHYSIOLO_RENAL_PHYSIO",
+    "subject": "Physiology",
+    "topic": "Renal Physiology",
+    "total_questions": 16
+  },
+  {
+    "bank_id": "TW_BIOCHEMI_METABOLISM",
+    "subject": "Biochemistry",
+    "topic": "Metabolism",
+    "total_questions": 4
+  },
+  {
+    "bank_id": "TW_BIOCHEMI_VITAMINS_AND",
+    "subject": "Biochemistry",
+    "topic": "Vitamins and Nutrition",
+    "total_questions": 4
+  },
+  {
+    "bank_id": "TW_ENT_EAR",
+    "subject": "ENT",
+    "topic": "Ear",
+    "total_questions": 4
+  },
+  {
+    "bank_id": "TW_ENT_NOSE",
+    "subject": "ENT",
+    "topic": "Nose",
+    "total_questions": 2
+  },
+  {
+    "bank_id": "TW_ENT_PHARYNX_AND_",
+    "subject": "ENT",
+    "topic": "Pharynx and Larynx",
+    "total_questions": 2
+  },
+  {
+    "bank_id": "TW_OPHTHALM_CORNEA_AND_E",
+    "subject": "Ophthalmology",
+    "topic": "Cornea and External Eye",
+    "total_questions": 2
+  },
+  {
+    "bank_id": "TW_OPHTHALM_LENS_AND_GLA",
+    "subject": "Ophthalmology",
+    "topic": "Lens and Glaucoma",
+    "total_questions": 3
+  },
+  {
+    "bank_id": "TW_OPHTHALM_RETINA_AND_O",
+    "subject": "Ophthalmology",
+    "topic": "Retina and Optics",
+    "total_questions": 2
+  },
+  {
+    "bank_id": "TW_OPHTHALM_NEURO-OPHTHA",
+    "subject": "Ophthalmology",
+    "topic": "Neuro-ophthalmology",
+    "total_questions": 2
+  },
+  {
+    "bank_id": "TW_ORTHOPED_TRAUMA",
+    "subject": "Orthopedics",
+    "topic": "Trauma",
+    "total_questions": 4
+  },
+  {
+    "bank_id": "TW_ORTHOPED_INFECTIONS_A",
+    "subject": "Orthopedics",
+    "topic": "Infections and Tumors",
+    "total_questions": 3
+  },
+  {
+    "bank_id": "TW_PSYCHIAT_PSYCHIATRIC_",
+    "subject": "Psychiatry",
+    "topic": "Psychiatric Disorders",
+    "total_questions": 3
+  },
+  {
+    "bank_id": "TW_PSYCHIAT_PSYCHOPHARMA",
+    "subject": "Psychiatry",
+    "topic": "Psychopharmacology",
+    "total_questions": 2
+  },
+  {
+    "bank_id": "TW_FORENSIC_THANATOLOGY",
+    "subject": "Forensic Medicine",
+    "topic": "Thanatology",
+    "total_questions": 3
+  },
+  {
+    "bank_id": "TW_FORENSIC_ASPHYXIA_AND",
+    "subject": "Forensic Medicine",
+    "topic": "Asphyxia and Toxicology",
+    "total_questions": 2
+  },
+  {
+    "bank_id": "TW_FORENSIC_LEGAL_MEDICI",
+    "subject": "Forensic Medicine",
+    "topic": "Legal Medicine",
+    "total_questions": 2
+  },
+  {
+    "bank_id": "TW_ANAESTHE_GENERAL_ANES",
+    "subject": "Anaesthesia",
+    "topic": "General Anesthesia",
+    "total_questions": 3
+  },
+  {
+    "bank_id": "TW_ANAESTHE_ANESTHETIC_A",
+    "subject": "Anaesthesia",
+    "topic": "Anesthetic Agents",
+    "total_questions": 2
+  },
+  {
+    "bank_id": "TW_DERMATOL_SKIN_BASICS_",
+    "subject": "Dermatology",
+    "topic": "Skin Basics and Infections",
+    "total_questions": 3
+  },
+  {
+    "bank_id": "TW_DERMATOL_PIGMENTARY_A",
+    "subject": "Dermatology",
+    "topic": "Pigmentary and Immune",
+    "total_questions": 3
+  },
+  {
+    "bank_id": "TW_RADIOLOG_RADIOLOGY_BA",
+    "subject": "Radiology",
+    "topic": "Radiology Basics",
+    "total_questions": 17
+  }
+]

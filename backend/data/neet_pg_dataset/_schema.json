@@ -1,0 +1,230 @@
+{
+  "$schema": "NEET PG Dataset v1.0",
+  "description": "JSON schema for all question and paper objects in this dataset",
+  "question_object": {
+    "question_id": {
+      "type": "string",
+      "example": "FP_01_Q001",
+      "description": "Unique question identifier"
+    },
+    "paper_type": {
+      "type": "string",
+      "enum": [
+        "full_paper",
+        "subject_paper",
+        "topic_wise"
+      ]
+    },
+    "paper_ref": {
+      "type": "string",
+      "example": "FP_01",
+      "description": "Parent paper/bank ID"
+    },
+    "subject": {
+      "type": "string",
+      "example": "Medicine",
+      "description": "Top-level NEET PG subject"
+    },
+    "topic": {
+      "type": "string",
+      "example": "Cardiology",
+      "description": "Topic within subject"
+    },
+    "subtopic": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "example": "AF management"
+    },
+    "difficulty": {
+      "type": "string",
+      "enum": [
+        "Easy",
+        "Moderate",
+        "Hard",
+        "Very Hard"
+      ]
+    },
+    "question_type": {
+      "type": "string",
+      "value": "single_best_answer"
+    },
+    "image_based": {
+      "type": "boolean"
+    },
+    "marks_correct": {
+      "type": "integer",
+      "value": 4
+    },
+    "marks_incorrect": {
+      "type": "integer",
+      "value": -1
+    },
+    "marks_unanswered": {
+      "type": "integer",
+      "value": 0
+    },
+    "question_text": {
+      "type": "string"
+    },
+    "options": {
+      "type": "object",
+      "properties": {
+        "A": "string",
+        "B": "string",
+        "C": "string",
+        "D": "string"
+      }
+    },
+    "correct_answer": {
+      "type": "string",
+      "enum": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "explanation": {
+      "type": "string",
+      "description": "Clinical reasoning / key fact"
+    }
+  },
+  "full_paper_object": {
+    "paper_id": {
+      "type": "string",
+      "example": "FP_01"
+    },
+    "paper_type": {
+      "type": "string",
+      "value": "full_paper"
+    },
+    "paper_number": {
+      "type": "integer",
+      "range": "1-35"
+    },
+    "paper_title": {
+      "type": "string"
+    },
+    "pattern": {
+      "type": "string",
+      "value": "NEET PG 2024+ Pattern"
+    },
+    "difficulty_mix": {
+      "type": "object",
+      "keys": [
+        "Easy",
+        "Moderate",
+        "Hard",
+        "Very Hard"
+      ]
+    },
+    "total_questions": {
+      "type": "integer",
+      "value": 200
+    },
+    "duration_minutes": {
+      "type": "integer",
+      "value": 210
+    },
+    "marking_scheme": {
+      "type": "object",
+      "keys": [
+        "correct",
+        "incorrect",
+        "unanswered"
+      ]
+    },
+    "subjects_covered": {
+      "type": "array",
+      "items": "string"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "YYYY-MM-DD"
+    },
+    "questions": {
+      "type": "array",
+      "items": "question_object",
+      "length": 200
+    }
+  },
+  "subject_paper_object": {
+    "paper_id": {
+      "type": "string",
+      "example": "SP_MEDICINE_01"
+    },
+    "paper_type": {
+      "type": "string",
+      "value": "subject_paper"
+    },
+    "subject": {
+      "type": "string"
+    },
+    "paper_number": {
+      "type": "integer"
+    },
+    "paper_title": {
+      "type": "string"
+    },
+    "total_questions": {
+      "type": "integer",
+      "value": 100
+    },
+    "duration_minutes": {
+      "type": "integer",
+      "value": 90
+    },
+    "marking_scheme": {
+      "type": "object"
+    },
+    "difficulty_mix": {
+      "type": "object"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "questions": {
+      "type": "array",
+      "items": "question_object",
+      "length": 100
+    }
+  },
+  "topic_bank_object": {
+    "bank_id": {
+      "type": "string",
+      "example": "TW_MEDICINE_CARDIOLOGY"
+    },
+    "paper_type": {
+      "type": "string",
+      "value": "topic_wise"
+    },
+    "subject": {
+      "type": "string"
+    },
+    "topic": {
+      "type": "string"
+    },
+    "total_questions": {
+      "type": "integer"
+    },
+    "difficulty_distribution": {
+      "type": "object",
+      "description": "Count per difficulty level"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "questions": {
+      "type": "array",
+      "items": "question_object"
+    }
+  },
+  "index_files": {
+    "_master_index.json": "Top-level summary of entire dataset",
+    "full_papers/_index.json": "Array of {paper_id, paper_number, total_questions, ...}",
+    "subject_papers/_index.json": "Array of {paper_id, subject, paper_number, total_questions}",
+    "topic_wise/_index.json": "Array of {bank_id, subject, topic, total_questions}"
+  }
+}

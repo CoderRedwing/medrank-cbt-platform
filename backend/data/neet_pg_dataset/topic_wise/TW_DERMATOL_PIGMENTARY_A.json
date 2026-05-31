@@ -1,0 +1,82 @@
+{
+  "bank_id": "TW_DERMATOL_PIGMENTARY_A",
+  "paper_type": "topic_wise",
+  "subject": "Dermatology",
+  "topic": "Pigmentary and Immune",
+  "total_questions": 3,
+  "difficulty_distribution": {
+    "Easy": 3
+  },
+  "created_at": "2026-05-30",
+  "questions": [
+    {
+      "question_id": "TW_DERMATOL_PIGMENTARY_A_Q001",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_DERMATOL_PIGMENTARY_A",
+      "subject": "Dermatology",
+      "topic": "Pigmentary and Immune",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Acanthosis nigricans is associated with?",
+      "options": {
+        "A": "Hypothyroidism",
+        "B": "Insulin resistance/type 2 diabetes mellitus",
+        "C": "Cushing's disease",
+        "D": "Addison's disease"
+      },
+      "correct_answer": "B",
+      "explanation": "Acanthosis nigricans: velvety hyperpigmented thickening at neck, axillae, groins. Associated with insulin resistance (most common), DM2, obesity, PCOS. Malignant AN: associated with gastric Ca."
+    },
+    {
+      "question_id": "TW_DERMATOL_PIGMENTARY_A_Q002",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_DERMATOL_PIGMENTARY_A",
+      "subject": "Dermatology",
+      "topic": "Pigmentary and Immune",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Vitiligo: pathophysiology?",
+      "options": {
+        "A": "Melanocyte overactivity",
+        "B": "Autoimmune destruction of melanocytes",
+        "C": "Melanin transfer defect",
+        "D": "Enzyme defect in melanin synthesis"
+      },
+      "correct_answer": "B",
+      "explanation": "Vitiligo: autoimmune destruction of melanocytes → depigmented macules. Associated: autoimmune thyroid disease, DM1, Addison's. Wood's lamp: bright white fluorescence. Treatment: topical steroids, tacrolimus, NBUVB."
+    },
+    {
+      "question_id": "TW_DERMATOL_PIGMENTARY_A_Q003",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_DERMATOL_PIGMENTARY_A",
+      "subject": "Dermatology",
+      "topic": "Pigmentary and Immune",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Fixed drug eruption (FDE): characteristic feature?",
+      "options": {
+        "A": "Occurs in different sites each time",
+        "B": "Recurs at same site on re-exposure to drug",
+        "C": "Generalized from onset",
+        "D": "Never pigments"
+      },
+      "correct_answer": "B",
+      "explanation": "FDE: oval/round well-demarcated erythematous plaque at SAME site on re-exposure. Residual hyperpigmentation. Common drugs: cotrimoxazole, NSAIDs, metronidazole, tetracycline."
+    }
+  ]
+}

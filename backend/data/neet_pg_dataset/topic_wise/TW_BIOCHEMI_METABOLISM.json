@@ -1,0 +1,105 @@
+{
+  "bank_id": "TW_BIOCHEMI_METABOLISM",
+  "paper_type": "topic_wise",
+  "subject": "Biochemistry",
+  "topic": "Metabolism",
+  "total_questions": 4,
+  "difficulty_distribution": {
+    "Easy": 4
+  },
+  "created_at": "2026-05-30",
+  "questions": [
+    {
+      "question_id": "TW_BIOCHEMI_METABOLISM_Q001",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_BIOCHEMI_METABOLISM",
+      "subject": "Biochemistry",
+      "topic": "Metabolism",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Phenylketonuria (PKU): enzyme deficient?",
+      "options": {
+        "A": "Tyrosine hydroxylase",
+        "B": "Phenylalanine hydroxylase",
+        "C": "Homogentisate oxidase",
+        "D": "Fumarylacetoacetate hydrolase"
+      },
+      "correct_answer": "B",
+      "explanation": "PKU: phenylalanine hydroxylase deficiency → phenylalanine accumulates → phenylpyruvate in urine (musty odor), intellectual disability, fair complexion. Diet: restrict phenylalanine."
+    },
+    {
+      "question_id": "TW_BIOCHEMI_METABOLISM_Q002",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_BIOCHEMI_METABOLISM",
+      "subject": "Biochemistry",
+      "topic": "Metabolism",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Gaucher disease: enzyme deficient?",
+      "options": {
+        "A": "Hexosaminidase A",
+        "B": "Glucocerebrosidase (beta-glucosidase)",
+        "C": "Sphingomyelinase",
+        "D": "Arylsulfatase A"
+      },
+      "correct_answer": "B",
+      "explanation": "Gaucher disease: most common lysosomal storage disease. Glucocerebrosidase deficiency → glucocerebroside accumulation. Gaucher cells (wrinkled tissue paper appearance) in liver/spleen/bone marrow."
+    },
+    {
+      "question_id": "TW_BIOCHEMI_METABOLISM_Q003",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_BIOCHEMI_METABOLISM",
+      "subject": "Biochemistry",
+      "topic": "Metabolism",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Enzyme deficient in G6PD deficiency?",
+      "options": {
+        "A": "Hexokinase",
+        "B": "Glucose-6-phosphate dehydrogenase",
+        "C": "Pyruvate kinase",
+        "D": "Aldolase"
+      },
+      "correct_answer": "B",
+      "explanation": "G6PD deficiency: X-linked. G6PD generates NADPH via pentose phosphate pathway → maintains GSH → protects RBCs from oxidative stress. Trigger: infections, drugs (primaquine, dapsone)."
+    },
+    {
+      "question_id": "TW_BIOCHEMI_METABOLISM_Q004",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_BIOCHEMI_METABOLISM",
+      "subject": "Biochemistry",
+      "topic": "Metabolism",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Rate-limiting enzyme of glycolysis?",
+      "options": {
+        "A": "Hexokinase",
+        "B": "Phosphofructokinase-1 (PFK-1)",
+        "C": "Pyruvate kinase",
+        "D": "Phosphoglucose isomerase"
+      },
+      "correct_answer": "B",
+      "explanation": "PFK-1 is the key regulatory enzyme of glycolysis. Inhibited by: ATP, citrate. Activated by: AMP, ADP, fructose-2,6-bisphosphate (most potent activator). Site of glycolytic control."
+    }
+  ]
+}

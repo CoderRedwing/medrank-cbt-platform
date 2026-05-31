@@ -1,0 +1,128 @@
+{
+  "bank_id": "TW_PSM_EPIDEMIOLOGY",
+  "paper_type": "topic_wise",
+  "subject": "PSM",
+  "topic": "Epidemiology",
+  "total_questions": 5,
+  "difficulty_distribution": {
+    "Easy": 5
+  },
+  "created_at": "2026-05-30",
+  "questions": [
+    {
+      "question_id": "TW_PSM_EPIDEMIOLOGY_Q001",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_PSM_EPIDEMIOLOGY",
+      "subject": "PSM",
+      "topic": "Epidemiology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Berkson's bias is seen in?",
+      "options": {
+        "A": "Cohort studies",
+        "B": "Case-control studies using hospital controls",
+        "C": "RCTs",
+        "D": "Cross-sectional studies"
+      },
+      "correct_answer": "B",
+      "explanation": "Berkson's bias: selection bias in hospital-based case-control studies — hospitalized controls may not represent general population (over-represent sick people). Also called hospital admission rate bias."
+    },
+    {
+      "question_id": "TW_PSM_EPIDEMIOLOGY_Q002",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_PSM_EPIDEMIOLOGY",
+      "subject": "PSM",
+      "topic": "Epidemiology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Relative risk of 1.0 means?",
+      "options": {
+        "A": "Disease twice as common in exposed",
+        "B": "No association between exposure and disease",
+        "C": "Disease half as common in exposed",
+        "D": "Protective association"
+      },
+      "correct_answer": "B",
+      "explanation": "RR=1: no association. RR>1: risk factor. RR<1: protective. RR calculated from cohort studies. OR from case-control studies (approximates RR when disease rare)."
+    },
+    {
+      "question_id": "TW_PSM_EPIDEMIOLOGY_Q003",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_PSM_EPIDEMIOLOGY",
+      "subject": "PSM",
+      "topic": "Epidemiology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Ecological fallacy is a risk in?",
+      "options": {
+        "A": "RCT",
+        "B": "Cohort study",
+        "C": "Ecological study",
+        "D": "Case-control study"
+      },
+      "correct_answer": "C",
+      "explanation": "Ecological fallacy: association found at group level may not apply to individuals. E.g., countries with high fat intake have high heart disease rates — doesn't mean each individual with high fat intake gets heart disease."
+    },
+    {
+      "question_id": "TW_PSM_EPIDEMIOLOGY_Q004",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_PSM_EPIDEMIOLOGY",
+      "subject": "PSM",
+      "topic": "Epidemiology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Gold standard study for causation?",
+      "options": {
+        "A": "Cohort study",
+        "B": "RCT",
+        "C": "Case-control study",
+        "D": "Meta-analysis"
+      },
+      "correct_answer": "B",
+      "explanation": "RCT is the gold standard for establishing causation (randomization removes confounding). For observational evidence: meta-analysis > cohort > case-control > cross-sectional."
+    },
+    {
+      "question_id": "TW_PSM_EPIDEMIOLOGY_Q005",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_PSM_EPIDEMIOLOGY",
+      "subject": "PSM",
+      "topic": "Epidemiology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Secondary attack rate (SAR) measures?",
+      "options": {
+        "A": "Total attack rate in community",
+        "B": "Attack rate among susceptible contacts in household",
+        "C": "Proportion hospitalized",
+        "D": "CFR among contacts"
+      },
+      "correct_answer": "B",
+      "explanation": "SAR: proportion of susceptible household contacts who develop disease after exposure to index case. Measures communicability/infectivity in closed settings."
+    }
+  ]
+}

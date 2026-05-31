@@ -1,0 +1,105 @@
+{
+  "bank_id": "TW_SURGERY_UROLOGY",
+  "paper_type": "topic_wise",
+  "subject": "Surgery",
+  "topic": "Urology",
+  "total_questions": 4,
+  "difficulty_distribution": {
+    "Easy": 4
+  },
+  "created_at": "2026-05-30",
+  "questions": [
+    {
+      "question_id": "TW_SURGERY_UROLOGY_Q001",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_SURGERY_UROLOGY",
+      "subject": "Surgery",
+      "topic": "Urology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Urinary stone most radiolucent on plain X-ray?",
+      "options": {
+        "A": "Calcium oxalate",
+        "B": "Struvite",
+        "C": "Uric acid",
+        "D": "Cystine"
+      },
+      "correct_answer": "C",
+      "explanation": "Uric acid stones: radiolucent (not visible on plain X-ray), visible on CT/ultrasound. Calcium stones: most radiopaque. Cystine: faintly opaque."
+    },
+    {
+      "question_id": "TW_SURGERY_UROLOGY_Q002",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_SURGERY_UROLOGY",
+      "subject": "Surgery",
+      "topic": "Urology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "PSA level considered elevated (standard cutoff)?",
+      "options": {
+        "A": ">2 ng/mL",
+        "B": ">4 ng/mL",
+        "C": ">10 ng/mL",
+        "D": ">20 ng/mL"
+      },
+      "correct_answer": "B",
+      "explanation": "PSA >4 ng/mL is the standard threshold for biopsy consideration. PSA >10: high risk prostate Ca. PSA velocity and free:total PSA ratio also important."
+    },
+    {
+      "question_id": "TW_SURGERY_UROLOGY_Q003",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_SURGERY_UROLOGY",
+      "subject": "Surgery",
+      "topic": "Urology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Most common complication of TURP?",
+      "options": {
+        "A": "Urinary incontinence",
+        "B": "Retrograde ejaculation",
+        "C": "Erectile dysfunction",
+        "D": "Bladder perforation"
+      },
+      "correct_answer": "B",
+      "explanation": "Retrograde ejaculation occurs in ~90% after TURP (damage to internal urethral sphincter). TURP syndrome (hyponatremia) is another complication."
+    },
+    {
+      "question_id": "TW_SURGERY_UROLOGY_Q004",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_SURGERY_UROLOGY",
+      "subject": "Surgery",
+      "topic": "Urology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Vesicoureteral reflux (VUR) grade III?",
+      "options": {
+        "A": "Reflux to ureter only",
+        "B": "Reflux to renal pelvis, no dilatation",
+        "C": "Reflux with mild dilatation",
+        "D": "Moderate dilatation with loss of fornices"
+      },
+      "correct_answer": "D",
+      "explanation": "VUR grades: I=ureter only, II=pelvis+calyces no dilation, III=mild dilation, IV=moderate dilation loss of fornices, V=severe with tortuous ureter."
+    }
+  ]
+}

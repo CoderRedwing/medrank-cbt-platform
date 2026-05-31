@@ -1,0 +1,124 @@
+const testService = require('../services/testService');
+
+// GET /api/tests/papers
+const listPapers = async (req, res) => {
+  try {
+    const data = testService.listAvailablePapers();
+    res.json({ success: true, data });
+  } catch (err) {
+    res.status(500).json({ success: false, message: err.message });
+  }
+};
+
+// POST /api/tests/start
+// Body: { test_type, paper_ref, questionCount?, difficulty? }
+const startTest = async (req, res) => {
+  try {
+    const { test_type, paper_ref, questionCount, difficulty } = req.body;
+    if (!test_type || !paper_ref) {
+      return res.status(400).json({ success: false, message: 'test_type and paper_ref are required' });
+    }
+    const session = await testService.createTestSession(req.user._id, {
+      test_type, paper_ref, questionCount, difficulty,
+    });
+    res.status(201).json({ success: true, data: session });
+  } catch (err) {
+    res.status(400).json({ success: false, message: err.message });
+  }
+};
+
+// PATCH /api/tests/:sessionId/response
+// Body: { question_id, selected_answer, student_reason, time_spent_sec, marked_review }
+const saveResponse = async (req, res) => {
+  try {
+    const { question_id, ...data } = req.body;
+    if (!question_id) {
+      return res.status(400).json({ success: false, message: 'question_id required' });
+    }
+    const result = await testService.saveResponse(
+      req.params.sessionId, req.user._id, question_id, data
+    );
+    res.json({ success: true, data: result });
+  } catch (err) {
+    res.status(400).json({ success: false, message: err.message });
+  }
+};
+
+// POST /api/tests/:sessionId/submit
+// Body: { responses: [...], time_taken_sec }
+const submitTest = async (req, res) => {
+  try {
+    const { responses, time_taken_sec } = req.body;
+    const session = await testService.submitTest(
+      req.params.sessionId, req.user._id, responses, time_taken_sec
+    );
+    res.json({ success: true, data: session });
+  } catch (err) {
+    res.status(400).json({ success: false, message: err.message });
+  }
+};
+
+// GET /api/tests/history?page=1&limit=20
+const getHistory = async (req, res) => {
+  try {
+    const { page = 1, limit = 20 } = req.query;
+    const data = await testService.getUserTestHistory(
+      req.user._id, parseInt(page), parseInt(limit)
+    );
+    res.json({ success: true, data });
+  } catch (err) {
+    res.status(500).json({ success: false, message: err.message });
+  }
+};
+
+// GET /api/tests/:sessionId
+const getSession = async (req, res) => {
+  try {
+    const session = await testService.getSessionDetail(req.params.sessionId, req.user._id);
+    res.json({ success: true, data: session });
+  } catch (err) {
+    res.status(404).json({ success: false, message: err.message });
+  }
+};
+
+// GET /api/tests/:sessionId/analysis
+// Returns detailed analysis (same as session but formatted for frontend)
+const getAnalysis = async (req, res) => {
+  try {
+    const session = await testService.getSessionDetail(req.params.sessionId, req.user._id);
+    if (session.status !== 'submitted') {
+      return res.status(400).json({ success: false, message: 'Test not yet submitted' });
+    }
+    res.json({
+      success: true,
+      data: {
+        session_id:          session._id,
+        test_type:           session.test_type,
+        paper_title:         session.paper_title,
+        submitted_at:        session.submitted_at,
+        time_taken_sec:      session.time_taken_sec,
+        duration_allowed_sec: session.duration_allowed_sec,
+        total_questions:     session.total_questions,
+        score:               session.score,
+        correct_count:       session.correct_count,
+        incorrect_count:     session.incorrect_count,
+        unattempted_count:   session.unattempted_count,
+        accuracy:            session.accuracy,
+        subject_analysis:    Object.fromEntries(session.subject_analysis || new Map()),
+        topic_analysis:      Object.fromEntries(session.topic_analysis || new Map()),
+        difficulty_analysis: Object.fromEntries(session.difficulty_analysis || new Map()),
+        weak_subjects:       session.weak_subjects,
+        weak_topics:         session.weak_topics,
+        focus_suggestions:   session.focus_suggestions,
+        responses:           session.responses,
+      },
+    });
+  } catch (err) {
+    res.status(500).json({ success: false, message: err.message });
+  }
+};
+
+module.exports = {
+  listPapers, startTest, saveResponse, submitTest,
+  getHistory, getSession, getAnalysis,
+};

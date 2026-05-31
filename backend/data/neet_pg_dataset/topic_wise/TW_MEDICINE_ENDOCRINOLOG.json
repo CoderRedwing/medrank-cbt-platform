@@ -1,0 +1,174 @@
+{
+  "bank_id": "TW_MEDICINE_ENDOCRINOLOG",
+  "paper_type": "topic_wise",
+  "subject": "Medicine",
+  "topic": "Endocrinology",
+  "total_questions": 7,
+  "difficulty_distribution": {
+    "Easy": 7
+  },
+  "created_at": "2026-05-30",
+  "questions": [
+    {
+      "question_id": "TW_MEDICINE_ENDOCRINOLOG_Q001",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MEDICINE_ENDOCRINOLOG",
+      "subject": "Medicine",
+      "topic": "Endocrinology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Most common cause of Cushing's syndrome?",
+      "options": {
+        "A": "Ectopic ACTH",
+        "B": "Adrenal adenoma",
+        "C": "Pituitary adenoma (Cushing's disease)",
+        "D": "Exogenous steroids"
+      },
+      "correct_answer": "D",
+      "explanation": "Most common overall cause of Cushing's: EXOGENOUS steroids. Among endogenous: Cushing's disease (pituitary ACTH) is most common."
+    },
+    {
+      "question_id": "TW_MEDICINE_ENDOCRINOLOG_Q002",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MEDICINE_ENDOCRINOLOG",
+      "subject": "Medicine",
+      "topic": "Endocrinology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Liddle syndrome is characterized by?",
+      "options": {
+        "A": "Hyperkalemia, metabolic acidosis",
+        "B": "Hypokalemia, hypertension, low aldosterone",
+        "C": "Hyperkalemia, low renin",
+        "D": "Hyponatremia, hyperkalemia"
+      },
+      "correct_answer": "B",
+      "explanation": "Liddle syndrome: gain-of-function ENaC mutation → Na retention → hypertension, hypokalemia, metabolic alkalosis, LOW aldosterone/renin."
+    },
+    {
+      "question_id": "TW_MEDICINE_ENDOCRINOLOG_Q003",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MEDICINE_ENDOCRINOLOG",
+      "subject": "Medicine",
+      "topic": "Endocrinology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "ADA 2023 diagnostic criteria for diabetes: fasting plasma glucose?",
+      "options": {
+        "A": "≥6.0 mmol/L",
+        "B": "≥7.0 mmol/L",
+        "C": "≥7.8 mmol/L",
+        "D": "≥11.1 mmol/L"
+      },
+      "correct_answer": "B",
+      "explanation": "Diabetes: FPG ≥7.0 mmol/L (126 mg/dL), 2h OGTT ≥11.1 mmol/L, HbA1c ≥6.5%, or random glucose ≥11.1 with symptoms."
+    },
+    {
+      "question_id": "TW_MEDICINE_ENDOCRINOLOG_Q004",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MEDICINE_ENDOCRINOLOG",
+      "subject": "Medicine",
+      "topic": "Endocrinology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Gitelman syndrome vs Bartter syndrome: differentiating feature?",
+      "options": {
+        "A": "Gitelman has hypocalciuria, Bartter has hypercalciuria",
+        "B": "Both have same electrolytes",
+        "C": "Gitelman presents in infancy",
+        "D": "Bartter has hypertension"
+      },
+      "correct_answer": "A",
+      "explanation": "Gitelman: NCCT mutation, hypocalciuria, hypomagnesemia, presents in adults. Bartter: NKCC2/ROMK/CIC-Kb, hypercalciuria, presents in infancy."
+    },
+    {
+      "question_id": "TW_MEDICINE_ENDOCRINOLOG_Q005",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MEDICINE_ENDOCRINOLOG",
+      "subject": "Medicine",
+      "topic": "Endocrinology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Craniopharyngioma: most common presentation in children?",
+      "options": {
+        "A": "Hyperthyroidism",
+        "B": "Visual field defect",
+        "C": "Hypercalcemia",
+        "D": "Hypertension"
+      },
+      "correct_answer": "B",
+      "explanation": "Craniopharyngioma: bitemporal hemianopia (chiasmal compression), growth failure (GH deficiency), DI. Calcification on imaging is classic."
+    },
+    {
+      "question_id": "TW_MEDICINE_ENDOCRINOLOG_Q006",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MEDICINE_ENDOCRINOLOG",
+      "subject": "Medicine",
+      "topic": "Endocrinology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Graves' disease autoantibody?",
+      "options": {
+        "A": "Anti-TPO",
+        "B": "TSH receptor antibody (TRAb)",
+        "C": "Anti-thyroglobulin",
+        "D": "Anti-CCP"
+      },
+      "correct_answer": "B",
+      "explanation": "Graves' disease: TRAb (TSI — thyroid-stimulating immunoglobulin) stimulates TSH receptor → hyperthyroidism. Also anti-TPO may be positive."
+    },
+    {
+      "question_id": "TW_MEDICINE_ENDOCRINOLOG_Q007",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MEDICINE_ENDOCRINOLOG",
+      "subject": "Medicine",
+      "topic": "Endocrinology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Nelson's syndrome occurs after?",
+      "options": {
+        "A": "Adrenalectomy for Cushing's",
+        "B": "Thyroidectomy",
+        "C": "Pituitary irradiation",
+        "D": "Pancreatectomy"
+      },
+      "correct_answer": "A",
+      "explanation": "Nelson's syndrome: bilateral adrenalectomy for Cushing's disease → loss of cortisol feedback → rapid ACTH-secreting pituitary tumor growth + hyperpigmentation."
+    }
+  ]
+}

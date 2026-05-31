@@ -1,0 +1,59 @@
+{
+  "bank_id": "TW_OPHTHALM_NEURO-OPHTHA",
+  "paper_type": "topic_wise",
+  "subject": "Ophthalmology",
+  "topic": "Neuro-ophthalmology",
+  "total_questions": 2,
+  "difficulty_distribution": {
+    "Easy": 2
+  },
+  "created_at": "2026-05-30",
+  "questions": [
+    {
+      "question_id": "TW_OPHTHALM_NEURO-OPHTHA_Q001",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_OPHTHALM_NEURO-OPHTHA",
+      "subject": "Ophthalmology",
+      "topic": "Neuro-ophthalmology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Argyll Robertson pupil: characteristics?",
+      "options": {
+        "A": "Reacts to light, not accommodation",
+        "B": "Does not react to light but reacts to accommodation (near)",
+        "C": "Both reactions absent",
+        "D": "Both reactions present but sluggish"
+      },
+      "correct_answer": "B",
+      "explanation": "Argyll Robertson pupil: accommodation-convergence reflex intact, but light reflex ABSENT (midbrain dorsal lesion). Classic in neurosyphilis. Bilateral, irregular, small (miotic) pupils."
+    },
+    {
+      "question_id": "TW_OPHTHALM_NEURO-OPHTHA_Q002",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_OPHTHALM_NEURO-OPHTHA",
+      "subject": "Ophthalmology",
+      "topic": "Neuro-ophthalmology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Bitemporal hemianopia indicates lesion at?",
+      "options": {
+        "A": "Optic nerve",
+        "B": "Optic chiasm",
+        "C": "Optic tract",
+        "D": "Visual cortex"
+      },
+      "correct_answer": "B",
+      "explanation": "Bitemporal hemianopia: chiasmal lesion (crossing nasal fibers). Pituitary adenoma most common cause. Optic nerve: monocular visual loss. Optic tract/radiation: homonymous hemianopia."
+    }
+  ]
+}

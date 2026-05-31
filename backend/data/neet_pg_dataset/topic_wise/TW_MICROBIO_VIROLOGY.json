@@ -1,0 +1,105 @@
+{
+  "bank_id": "TW_MICROBIO_VIROLOGY",
+  "paper_type": "topic_wise",
+  "subject": "Microbiology",
+  "topic": "Virology",
+  "total_questions": 4,
+  "difficulty_distribution": {
+    "Easy": 4
+  },
+  "created_at": "2026-05-30",
+  "questions": [
+    {
+      "question_id": "TW_MICROBIO_VIROLOGY_Q001",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MICROBIO_VIROLOGY",
+      "subject": "Microbiology",
+      "topic": "Virology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Antigenic shift in influenza is due to?",
+      "options": {
+        "A": "Point mutations in surface proteins",
+        "B": "Reassortment of RNA segments between human and animal strains",
+        "C": "Both mechanisms",
+        "D": "Reverse transcription errors"
+      },
+      "correct_answer": "B",
+      "explanation": "Antigenic shift: exchange of RNA segments (reassortment) between human and avian/porcine strains → new HA/NA subtype → pandemic potential. Antigenic drift: point mutations → seasonal epidemics."
+    },
+    {
+      "question_id": "TW_MICROBIO_VIROLOGY_Q002",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MICROBIO_VIROLOGY",
+      "subject": "Microbiology",
+      "topic": "Virology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Virus causing subacute sclerosing panencephalitis (SSPE)?",
+      "options": {
+        "A": "Rubella",
+        "B": "Measles (defective)",
+        "C": "CMV",
+        "D": "JC virus"
+      },
+      "correct_answer": "B",
+      "explanation": "SSPE: defective measles virus persists in CNS after years → progressive dementia, myoclonus, EEG burst suppression. High CSF measles antibody titer is diagnostic."
+    },
+    {
+      "question_id": "TW_MICROBIO_VIROLOGY_Q003",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MICROBIO_VIROLOGY",
+      "subject": "Microbiology",
+      "topic": "Virology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "CMV inclusion in salivary gland disease?",
+      "options": {
+        "A": "Cowdry A",
+        "B": "Owl-eye intranuclear inclusions",
+        "C": "Negri bodies",
+        "D": "Henderson-Paterson bodies"
+      },
+      "correct_answer": "B",
+      "explanation": "CMV: 'owl-eye' large intranuclear inclusions with surrounding halo. Also cytoplasmic inclusions. Causes congenital infection (periventricular calcifications), retinitis in HIV."
+    },
+    {
+      "question_id": "TW_MICROBIO_VIROLOGY_Q004",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MICROBIO_VIROLOGY",
+      "subject": "Microbiology",
+      "topic": "Virology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Parvovirus B19 causes which condition in sickle cell anemia?",
+      "options": {
+        "A": "Megaloblastic crisis",
+        "B": "Aplastic crisis",
+        "C": "Splenic sequestration",
+        "D": "Vaso-occlusive crisis"
+      },
+      "correct_answer": "B",
+      "explanation": "Parvovirus B19: infects erythroid progenitors → aplastic crisis in patients with high RBC turnover (sickle cell, hereditary spherocytosis). Also causes fifth disease (slapped cheek) and hydrops fetalis."
+    }
+  ]
+}

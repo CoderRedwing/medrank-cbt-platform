@@ -1,0 +1,128 @@
+{
+  "bank_id": "TW_MEDICINE_INFECTIOUS_D",
+  "paper_type": "topic_wise",
+  "subject": "Medicine",
+  "topic": "Infectious Diseases",
+  "total_questions": 5,
+  "difficulty_distribution": {
+    "Easy": 5
+  },
+  "created_at": "2026-05-30",
+  "questions": [
+    {
+      "question_id": "TW_MEDICINE_INFECTIOUS_D_Q001",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MEDICINE_INFECTIOUS_D",
+      "subject": "Medicine",
+      "topic": "Infectious Diseases",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "CD4 count at which PCP prophylaxis with cotrimoxazole is started in HIV?",
+      "options": {
+        "A": "<500 cells/μL",
+        "B": "<350 cells/μL",
+        "C": "<200 cells/μL",
+        "D": "<100 cells/μL"
+      },
+      "correct_answer": "C",
+      "explanation": "PCP (Pneumocystis jirovecii) prophylaxis: cotrimoxazole when CD4 <200. MAC prophylaxis: azithromycin when CD4 <50."
+    },
+    {
+      "question_id": "TW_MEDICINE_INFECTIOUS_D_Q002",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MEDICINE_INFECTIOUS_D",
+      "subject": "Medicine",
+      "topic": "Infectious Diseases",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Drug of choice for Pneumocystis jirovecii pneumonia (PCP)?",
+      "options": {
+        "A": "Fluconazole",
+        "B": "Co-trimoxazole (TMP-SMX)",
+        "C": "Amphotericin B",
+        "D": "Voriconazole"
+      },
+      "correct_answer": "B",
+      "explanation": "PCP treatment: high-dose TMP-SMX (cotrimoxazole) x21 days. Add prednisolone if PaO2 <70 mmHg. LDH elevated, silver stain/immunofluorescence diagnostic."
+    },
+    {
+      "question_id": "TW_MEDICINE_INFECTIOUS_D_Q003",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MEDICINE_INFECTIOUS_D",
+      "subject": "Medicine",
+      "topic": "Infectious Diseases",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Non-falciparum malaria with longest incubation period?",
+      "options": {
+        "A": "P. vivax",
+        "B": "P. ovale",
+        "C": "P. malariae",
+        "D": "P. knowlesi"
+      },
+      "correct_answer": "C",
+      "explanation": "P. malariae: quartan malaria, incubation 18-40 days. Causes nephrotic syndrome. No hypnozoites. P. vivax/ovale: relapse from hypnozoites, treat with primaquine."
+    },
+    {
+      "question_id": "TW_MEDICINE_INFECTIOUS_D_Q004",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MEDICINE_INFECTIOUS_D",
+      "subject": "Medicine",
+      "topic": "Infectious Diseases",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Dengue: thrombocytopenia is due to?",
+      "options": {
+        "A": "Bone marrow suppression only",
+        "B": "Antibody-mediated platelet destruction and marrow suppression",
+        "C": "DIC only",
+        "D": "Hypersplenism only"
+      },
+      "correct_answer": "B",
+      "explanation": "Dengue thrombocytopenia: direct marrow suppression + antibody cross-reactivity with platelets. Platelet transfusion threshold: <10,000 or active bleeding."
+    },
+    {
+      "question_id": "TW_MEDICINE_INFECTIOUS_D_Q005",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MEDICINE_INFECTIOUS_D",
+      "subject": "Medicine",
+      "topic": "Infectious Diseases",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Chikungunya vs Dengue: differentiating feature?",
+      "options": {
+        "A": "Fever pattern",
+        "B": "Arthralgia more prominent in chikungunya",
+        "C": "Rash more common in dengue",
+        "D": "Thrombocytopenia only in chikungunya"
+      },
+      "correct_answer": "B",
+      "explanation": "Chikungunya: severe symmetrical polyarthritis/arthralgia (can persist for months) is the hallmark. Dengue: myalgia, headache, retro-orbital pain, thrombocytopenia more prominent."
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "bank_id": "TW_MICROBIO_PARASITOLOGY",
+  "paper_type": "topic_wise",
+  "subject": "Microbiology",
+  "topic": "Parasitology",
+  "total_questions": 3,
+  "difficulty_distribution": {
+    "Easy": 3
+  },
+  "created_at": "2026-05-30",
+  "questions": [
+    {
+      "question_id": "TW_MICROBIO_PARASITOLOGY_Q001",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MICROBIO_PARASITOLOGY",
+      "subject": "Microbiology",
+      "topic": "Parasitology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Leishmania: vector and site in macrophage?",
+      "options": {
+        "A": "Mosquito, within RBC",
+        "B": "Sandfly (Phlebotomus), within macrophage phagolysosome",
+        "C": "Tsetse fly, blood",
+        "D": "Simulium, skin"
+      },
+      "correct_answer": "B",
+      "explanation": "Leishmania: sandfly (Phlebotomus in old world, Lutzomyia in new world). Amastigotes in macrophage phagolysosomes. DOC: liposomal amphotericin B (India) or miltefosine."
+    },
+    {
+      "question_id": "TW_MICROBIO_PARASITOLOGY_Q002",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MICROBIO_PARASITOLOGY",
+      "subject": "Microbiology",
+      "topic": "Parasitology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Cysticercosis is caused by?",
+      "options": {
+        "A": "Eating undercooked pork (T. solium cyst in muscle)",
+        "B": "Ingesting T. solium eggs (fecal-oral)",
+        "C": "T. saginata",
+        "D": "Echinococcus"
+      },
+      "correct_answer": "B",
+      "explanation": "Cysticercosis: humans ingest T. solium EGGS (fecal-oral) → larvae in brain (NCC), muscles. NOT from eating infected pork (that causes taeniasis). Albendazole + steroids for NCC."
+    },
+    {
+      "question_id": "TW_MICROBIO_PARASITOLOGY_Q003",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MICROBIO_PARASITOLOGY",
+      "subject": "Microbiology",
+      "topic": "Parasitology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Ring forms and banana-shaped gametocytes are features of?",
+      "options": {
+        "A": "P. vivax",
+        "B": "P. malariae",
+        "C": "P. falciparum",
+        "D": "P. ovale"
+      },
+      "correct_answer": "C",
+      "explanation": "P. falciparum: ring forms (multiple rings/cell, accole forms), banana/crescent-shaped gametocytes. Maurer's clefts. Causes cerebral malaria, severe anemia, blackwater fever."
+    }
+  ]
+}

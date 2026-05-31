@@ -1,0 +1,82 @@
+{
+  "bank_id": "TW_FORENSIC_THANATOLOGY",
+  "paper_type": "topic_wise",
+  "subject": "Forensic Medicine",
+  "topic": "Thanatology",
+  "total_questions": 3,
+  "difficulty_distribution": {
+    "Easy": 3
+  },
+  "created_at": "2026-05-30",
+  "questions": [
+    {
+      "question_id": "TW_FORENSIC_THANATOLOGY_Q001",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_FORENSIC_THANATOLOGY",
+      "subject": "Forensic Medicine",
+      "topic": "Thanatology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Putrefaction: first sign?",
+      "options": {
+        "A": "Skin slippage",
+        "B": "Greenish discoloration of right iliac fossa (cecum area)",
+        "C": "Marbling",
+        "D": "Bloating"
+      },
+      "correct_answer": "B",
+      "explanation": "Putrefaction: first sign is greenish discoloration of right iliac fossa (cecal bacteria: H2S + Hb → green sulfhemoglobin). Then marbling, bloating, skin slippage. Rate influenced by temperature and environment."
+    },
+    {
+      "question_id": "TW_FORENSIC_THANATOLOGY_Q002",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_FORENSIC_THANATOLOGY",
+      "subject": "Forensic Medicine",
+      "topic": "Thanatology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Post-mortem caloricity (temperature rise after death)?",
+      "options": {
+        "A": "Never occurs",
+        "B": "Seen in strychnine poisoning and status epilepticus deaths (heat generated from muscle activity)",
+        "C": "Occurs in all deaths",
+        "D": "Only in drowning"
+      },
+      "correct_answer": "B",
+      "explanation": "PM caloricity: rise in body temperature after death. Seen in: strychnine poisoning (convulsions continuing after death), tetanus, status epilepticus, typhoid, pontine hemorrhage."
+    },
+    {
+      "question_id": "TW_FORENSIC_THANATOLOGY_Q003",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_FORENSIC_THANATOLOGY",
+      "subject": "Forensic Medicine",
+      "topic": "Thanatology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Rigor mortis: sequence of development?",
+      "options": {
+        "A": "Starts in jaw, descends (Nysten's law)",
+        "B": "Starts in feet, ascends",
+        "C": "Simultaneous throughout body",
+        "D": "Starts in hands"
+      },
+      "correct_answer": "A",
+      "explanation": "Rigor mortis: follows Nysten's law — starts in jaw/neck, then trunk, then lower limbs. Onset: 1-2 hours. Maximum: 12 hours. Passes off: 36-48 hours. Due to ATP depletion → actin-myosin cross-linking."
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "bank_id": "TW_OBGYN_GYNECOLOGY",
+  "paper_type": "topic_wise",
+  "subject": "OBGYN",
+  "topic": "Gynecology",
+  "total_questions": 5,
+  "difficulty_distribution": {
+    "Easy": 5
+  },
+  "created_at": "2026-05-30",
+  "questions": [
+    {
+      "question_id": "TW_OBGYN_GYNECOLOGY_Q001",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_OBGYN_GYNECOLOGY",
+      "subject": "OBGYN",
+      "topic": "Gynecology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "CA-125 is elevated in?",
+      "options": {
+        "A": "Mucinous ovarian tumors only",
+        "B": "Serous ovarian Ca and endometriosis",
+        "C": "Dermoid cyst",
+        "D": "Fibroma"
+      },
+      "correct_answer": "B",
+      "explanation": "CA-125: marker for serous epithelial ovarian Ca. Also elevated in endometriosis, PID, menstruation (non-specific). Used for monitoring, not screening."
+    },
+    {
+      "question_id": "TW_OBGYN_GYNECOLOGY_Q002",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_OBGYN_GYNECOLOGY",
+      "subject": "OBGYN",
+      "topic": "Gynecology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Asherman's syndrome is?",
+      "options": {
+        "A": "Ovarian failure",
+        "B": "Intrauterine adhesions causing amenorrhea",
+        "C": "Vaginal atresia",
+        "D": "Cervical stenosis"
+      },
+      "correct_answer": "B",
+      "explanation": "Asherman's syndrome: intrauterine adhesions (synechiae) after D&C/infection → amenorrhea, infertility. Diagnosis: hysteroscopy. Treatment: hysteroscopic adhesiolysis + estrogen."
+    },
+    {
+      "question_id": "TW_OBGYN_GYNECOLOGY_Q003",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_OBGYN_GYNECOLOGY",
+      "subject": "OBGYN",
+      "topic": "Gynecology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Ectopic pregnancy: most common site?",
+      "options": {
+        "A": "Ovary",
+        "B": "Ampullary part of fallopian tube",
+        "C": "Isthmus",
+        "D": "Abdominal cavity"
+      },
+      "correct_answer": "B",
+      "explanation": "Ectopic pregnancy: 95% in fallopian tube. Most common site: AMPULLA (70%). Then isthmus (12%). Cornual/interstitial: most dangerous (ruptures late, more hemorrhage)."
+    },
+    {
+      "question_id": "TW_OBGYN_GYNECOLOGY_Q004",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_OBGYN_GYNECOLOGY",
+      "subject": "OBGYN",
+      "topic": "Gynecology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "FIGO staging of cervical cancer: stage IIB?",
+      "options": {
+        "A": "Confined to cervix",
+        "B": "Parametrial involvement (not pelvic wall)",
+        "C": "Extends to pelvic wall",
+        "D": "Bladder/rectal mucosa involvement"
+      },
+      "correct_answer": "B",
+      "explanation": "FIGO cervical Ca: I=cervix only, IIA=upper vagina no parametrium, IIB=parametrial involvement, IIIA=lower 1/3 vagina, IIIB=pelvic wall/hydronephrosis, IVA=bladder/rectum, IVB=distant mets."
+    },
+    {
+      "question_id": "TW_OBGYN_GYNECOLOGY_Q005",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_OBGYN_GYNECOLOGY",
+      "subject": "OBGYN",
+      "topic": "Gynecology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Most common ovarian tumor in young women?",
+      "options": {
+        "A": "Serous cystadenocarcinoma",
+        "B": "Dermoid cyst (mature teratoma)",
+        "C": "Brenner tumor",
+        "D": "Granulosa cell tumor"
+      },
+      "correct_answer": "B",
+      "explanation": "Dermoid cyst (mature cystic teratoma): most common benign ovarian tumor in reproductive age. Contains ectodermal elements (hair, teeth, sebum). Rokitansky protuberance."
+    }
+  ]
+}

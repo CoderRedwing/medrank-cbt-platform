@@ -1,0 +1,59 @@
+{
+  "bank_id": "TW_OPHTHALM_RETINA_AND_O",
+  "paper_type": "topic_wise",
+  "subject": "Ophthalmology",
+  "topic": "Retina and Optics",
+  "total_questions": 2,
+  "difficulty_distribution": {
+    "Easy": 2
+  },
+  "created_at": "2026-05-30",
+  "questions": [
+    {
+      "question_id": "TW_OPHTHALM_RETINA_AND_O_Q001",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_OPHTHALM_RETINA_AND_O",
+      "subject": "Ophthalmology",
+      "topic": "Retina and Optics",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Retinoblastoma: inheritance?",
+      "options": {
+        "A": "X-linked recessive",
+        "B": "Autosomal recessive",
+        "C": "Autosomal dominant (RB1 gene, Knudson's 2-hit)",
+        "D": "Sporadic only"
+      },
+      "correct_answer": "C",
+      "explanation": "Retinoblastoma: RB1 gene (tumor suppressor, chromosome 13q14). Knudson's 2-hit hypothesis. Hereditary: AD, bilateral, younger. Sporadic: unilateral, older. Leukocoria + strabismus."
+    },
+    {
+      "question_id": "TW_OPHTHALM_RETINA_AND_O_Q002",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_OPHTHALM_RETINA_AND_O",
+      "subject": "Ophthalmology",
+      "topic": "Retina and Optics",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Diabetic retinopathy: first sign?",
+      "options": {
+        "A": "Neovascularization",
+        "B": "Microaneurysms",
+        "C": "Hard exudates",
+        "D": "Cotton wool spots"
+      },
+      "correct_answer": "B",
+      "explanation": "DR progression: microaneurysms (earliest) → dot/blot hemorrhages → hard exudates → cotton wool spots (NPDR) → neovascularization (PDR). FFA: leakage from microaneurysms."
+    }
+  ]
+}

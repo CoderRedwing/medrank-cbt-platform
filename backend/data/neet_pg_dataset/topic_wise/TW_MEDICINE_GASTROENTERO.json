@@ -1,0 +1,151 @@
+{
+  "bank_id": "TW_MEDICINE_GASTROENTERO",
+  "paper_type": "topic_wise",
+  "subject": "Medicine",
+  "topic": "Gastroenterology",
+  "total_questions": 6,
+  "difficulty_distribution": {
+    "Easy": 6
+  },
+  "created_at": "2026-05-30",
+  "questions": [
+    {
+      "question_id": "TW_MEDICINE_GASTROENTERO_Q001",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MEDICINE_GASTROENTERO",
+      "subject": "Medicine",
+      "topic": "Gastroenterology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Celiac disease antibody for diagnosis?",
+      "options": {
+        "A": "Anti-gliadin IgG",
+        "B": "Anti-endomysial IgA",
+        "C": "Anti-tTG IgA",
+        "D": "Anti-DGP IgG"
+      },
+      "correct_answer": "C",
+      "explanation": "Anti-tTG IgA (tissue transglutaminase) is most sensitive/specific for celiac disease. Confirm with duodenal biopsy (villous atrophy, crypt hyperplasia, intraepithelial lymphocytes)."
+    },
+    {
+      "question_id": "TW_MEDICINE_GASTROENTERO_Q002",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MEDICINE_GASTROENTERO",
+      "subject": "Medicine",
+      "topic": "Gastroenterology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Most accurate predictor of prognosis in cirrhosis?",
+      "options": {
+        "A": "Child-Pugh score",
+        "B": "MELD score",
+        "C": "Albumin level",
+        "D": "PT/INR alone"
+      },
+      "correct_answer": "B",
+      "explanation": "MELD score (bilirubin, INR, creatinine) is most accurate for 90-day mortality and organ allocation. Child-Pugh uses 5 variables including ascites/encephalopathy."
+    },
+    {
+      "question_id": "TW_MEDICINE_GASTROENTERO_Q003",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MEDICINE_GASTROENTERO",
+      "subject": "Medicine",
+      "topic": "Gastroenterology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Whipple's disease organism?",
+      "options": {
+        "A": "Yersinia enterocolitica",
+        "B": "Tropheryma whipplei",
+        "C": "Clostridium difficile",
+        "D": "Campylobacter jejuni"
+      },
+      "correct_answer": "B",
+      "explanation": "Whipple's disease: T. whipplei (actinomycete). PAS-positive macrophages in small bowel. Triad: malabsorption, arthralgia, fever."
+    },
+    {
+      "question_id": "TW_MEDICINE_GASTROENTERO_Q004",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MEDICINE_GASTROENTERO",
+      "subject": "Medicine",
+      "topic": "Gastroenterology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Hepatitis B surface antigen (HBsAg) persists >6 months indicates?",
+      "options": {
+        "A": "Acute hepatitis B",
+        "B": "Chronic hepatitis B",
+        "C": "Resolved infection",
+        "D": "Vaccination response"
+      },
+      "correct_answer": "B",
+      "explanation": "HBsAg >6 months = chronic HBV infection. HBsAb = immunity (post-infection or vaccine). HBcAb IgM = acute infection."
+    },
+    {
+      "question_id": "TW_MEDICINE_GASTROENTERO_Q005",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MEDICINE_GASTROENTERO",
+      "subject": "Medicine",
+      "topic": "Gastroenterology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Wilson's disease: gene mutated?",
+      "options": {
+        "A": "HFE gene",
+        "B": "ATP7B gene",
+        "C": "CFTR gene",
+        "D": "ABCB4 gene"
+      },
+      "correct_answer": "B",
+      "explanation": "Wilson's disease: ATP7B mutation (chromosome 13) → copper accumulation. Features: Kayser-Fleischer rings, liver disease, neuropsychiatric symptoms."
+    },
+    {
+      "question_id": "TW_MEDICINE_GASTROENTERO_Q006",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MEDICINE_GASTROENTERO",
+      "subject": "Medicine",
+      "topic": "Gastroenterology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Hepatorenal syndrome: most important differentiating feature from pre-renal AKI?",
+      "options": {
+        "A": "Elevated creatinine",
+        "B": "No improvement with fluid challenge",
+        "C": "Oliguria",
+        "D": "Hyponatremia"
+      },
+      "correct_answer": "B",
+      "explanation": "HRS: renal failure in cirrhosis that does NOT improve with 1.5L albumin challenge. Urine Na <10 mEq/L, no proteinuria, no obstruction."
+    }
+  ]
+}

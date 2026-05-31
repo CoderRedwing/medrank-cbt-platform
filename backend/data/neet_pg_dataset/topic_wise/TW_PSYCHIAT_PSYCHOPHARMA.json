@@ -1,0 +1,59 @@
+{
+  "bank_id": "TW_PSYCHIAT_PSYCHOPHARMA",
+  "paper_type": "topic_wise",
+  "subject": "Psychiatry",
+  "topic": "Psychopharmacology",
+  "total_questions": 2,
+  "difficulty_distribution": {
+    "Easy": 2
+  },
+  "created_at": "2026-05-30",
+  "questions": [
+    {
+      "question_id": "TW_PSYCHIAT_PSYCHOPHARMA_Q001",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_PSYCHIAT_PSYCHOPHARMA",
+      "subject": "Psychiatry",
+      "topic": "Psychopharmacology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "SSRI mechanism?",
+      "options": {
+        "A": "Blocks dopamine reuptake",
+        "B": "Selectively blocks serotonin reuptake transporters (SERT)",
+        "C": "Blocks both serotonin and norepinephrine reuptake",
+        "D": "MAO inhibition"
+      },
+      "correct_answer": "B",
+      "explanation": "SSRIs: block SERT (serotonin transporter) → increased synaptic serotonin. First-line for depression, OCD, PTSD, panic disorder, social anxiety. Side effects: GI upset, sexual dysfunction, serotonin syndrome."
+    },
+    {
+      "question_id": "TW_PSYCHIAT_PSYCHOPHARMA_Q002",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_PSYCHIAT_PSYCHOPHARMA",
+      "subject": "Psychiatry",
+      "topic": "Psychopharmacology",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Disulfiram mechanism in alcohol dependence?",
+      "options": {
+        "A": "Blocks alcohol absorption",
+        "B": "Inhibits aldehyde dehydrogenase → acetaldehyde accumulation (flushing, nausea)",
+        "C": "Blocks opioid receptors",
+        "D": "Serotonin agonism"
+      },
+      "correct_answer": "B",
+      "explanation": "Disulfiram: aldehyde dehydrogenase inhibitor. Alcohol → acetaldehyde (normally → acetic acid). Disulfiram blocks ALDH → acetaldehyde accumulates → flushing, tachycardia, vomiting. Aversion therapy."
+    }
+  ]
+}

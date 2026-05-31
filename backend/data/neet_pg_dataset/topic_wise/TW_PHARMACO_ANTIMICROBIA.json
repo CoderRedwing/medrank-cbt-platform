@@ -1,0 +1,151 @@
+{
+  "bank_id": "TW_PHARMACO_ANTIMICROBIA",
+  "paper_type": "topic_wise",
+  "subject": "Pharmacology",
+  "topic": "Antimicrobials",
+  "total_questions": 6,
+  "difficulty_distribution": {
+    "Easy": 6
+  },
+  "created_at": "2026-05-30",
+  "questions": [
+    {
+      "question_id": "TW_PHARMACO_ANTIMICROBIA_Q001",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_PHARMACO_ANTIMICROBIA",
+      "subject": "Pharmacology",
+      "topic": "Antimicrobials",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Drug of choice for MRSA?",
+      "options": {
+        "A": "Vancomycin",
+        "B": "Amoxicillin-clavulanate",
+        "C": "Cefazolin",
+        "D": "Clindamycin"
+      },
+      "correct_answer": "A",
+      "explanation": "MRSA: vancomycin (glycopeptide) is DOC. Alternative: linezolid, daptomycin, tigecycline. Vancomycin-resistant MRSA: dalfopristin/quinupristin."
+    },
+    {
+      "question_id": "TW_PHARMACO_ANTIMICROBIA_Q002",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_PHARMACO_ANTIMICROBIA",
+      "subject": "Pharmacology",
+      "topic": "Antimicrobials",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "TB drug causing optic neuritis?",
+      "options": {
+        "A": "Isoniazid",
+        "B": "Rifampicin",
+        "C": "Ethambutol",
+        "D": "Pyrazinamide"
+      },
+      "correct_answer": "C",
+      "explanation": "Ethambutol: dose-dependent optic neuritis (loss of color vision, red-green discrimination first). Check visual acuity monthly. Contraindicated in children <5 years."
+    },
+    {
+      "question_id": "TW_PHARMACO_ANTIMICROBIA_Q003",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_PHARMACO_ANTIMICROBIA",
+      "subject": "Pharmacology",
+      "topic": "Antimicrobials",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Aminoglycosides should be avoided in renal failure because?",
+      "options": {
+        "A": "Hepatotoxicity",
+        "B": "Nephrotoxicity and ototoxicity",
+        "C": "Bone marrow suppression",
+        "D": "Cardiac toxicity"
+      },
+      "correct_answer": "B",
+      "explanation": "Aminoglycosides (gentamicin, amikacin): nephrotoxic (proximal tubule) + ototoxic (vestibular/cochlear). Requires dose adjustment in renal failure. Monitor TDM."
+    },
+    {
+      "question_id": "TW_PHARMACO_ANTIMICROBIA_Q004",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_PHARMACO_ANTIMICROBIA",
+      "subject": "Pharmacology",
+      "topic": "Antimicrobials",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "DOC for leprosy (paucibacillary)?",
+      "options": {
+        "A": "Dapsone alone",
+        "B": "Rifampicin + Dapsone (6 months)",
+        "C": "MDT — Rifampicin + Dapsone + Clofazimine",
+        "D": "Clofazimine alone"
+      },
+      "correct_answer": "B",
+      "explanation": "PB leprosy (1-5 patches): Rifampicin monthly + Dapsone daily for 6 months. MB leprosy (>5 patches or smear positive): MDT x 12 months. WHO regimen."
+    },
+    {
+      "question_id": "TW_PHARMACO_ANTIMICROBIA_Q005",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_PHARMACO_ANTIMICROBIA",
+      "subject": "Pharmacology",
+      "topic": "Antimicrobials",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Drug causing red man syndrome?",
+      "options": {
+        "A": "Gentamicin",
+        "B": "Vancomycin",
+        "C": "Linezolid",
+        "D": "Daptomycin"
+      },
+      "correct_answer": "B",
+      "explanation": "Red man syndrome (vancomycin): histamine release during rapid infusion → flushing, erythema, urticaria of neck/face. NOT allergy — prevented by slow infusion."
+    },
+    {
+      "question_id": "TW_PHARMACO_ANTIMICROBIA_Q006",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_PHARMACO_ANTIMICROBIA",
+      "subject": "Pharmacology",
+      "topic": "Antimicrobials",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Mechanism of fluoroquinolone resistance?",
+      "options": {
+        "A": "Beta-lactamase production",
+        "B": "Mutations in DNA gyrase/topoisomerase IV",
+        "C": "Efflux pumps only",
+        "D": "Porin channel loss"
+      },
+      "correct_answer": "B",
+      "explanation": "Fluoroquinolone resistance: primarily mutations in gyrA (DNA gyrase subunit A) or parC (topoisomerase IV). Also: efflux pumps, porin changes."
+    }
+  ]
+}

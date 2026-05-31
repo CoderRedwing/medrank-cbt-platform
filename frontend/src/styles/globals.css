@@ -1,0 +1,89 @@
+/* ── Design Tokens ──────────────────────────────────────────────── */
+:root {
+  /* Brand */
+  --clr-bg:         #0a0d14;
+  --clr-surface:    #111520;
+  --clr-surface2:   #171d2e;
+  --clr-border:     #1e2638;
+  --clr-border2:    #2a3450;
+
+  /* Accent — electric indigo + warm amber */
+  --clr-primary:    #6366f1;
+  --clr-primary-h:  #818cf8;
+  --clr-accent:     #f59e0b;
+  --clr-accent-h:   #fbbf24;
+  --clr-success:    #10b981;
+  --clr-danger:     #ef4444;
+  --clr-warning:    #f59e0b;
+  --clr-info:       #3b82f6;
+
+  /* Text */
+  --clr-text:       #e8eaf0;
+  --clr-text-muted: #7c8499;
+  --clr-text-dim:   #4a5168;
+
+  /* Typography */
+  --font-display: 'Syne', sans-serif;
+  --font-body:    'DM Sans', sans-serif;
+
+  /* Spacing */
+  --radius-sm:  6px;
+  --radius-md:  10px;
+  --radius-lg:  16px;
+  --radius-xl:  24px;
+
+  /* Shadows */
+  --shadow-sm:  0 1px 3px rgba(0,0,0,0.4);
+  --shadow-md:  0 4px 16px rgba(0,0,0,0.5);
+  --shadow-lg:  0 8px 32px rgba(0,0,0,0.6);
+  --shadow-glow: 0 0 24px rgba(99,102,241,0.25);
+
+  /* Transitions */
+  --transition: 160ms ease;
+}
+
+/* ── Reset ──────────────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: var(--font-body);
+  background: var(--clr-bg);
+  color: var(--clr-text);
+  line-height: 1.6;
+  font-size: 15px;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: inherit; text-decoration: none; }
+button { cursor: pointer; font-family: inherit; }
+input, textarea, select { font-family: inherit; }
+
+/* ── Scrollbar ──────────────────────────────────────────────────── */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: var(--clr-surface); }
+::-webkit-scrollbar-thumb { background: var(--clr-border2); border-radius: 99px; }
+::-webkit-scrollbar-thumb:hover { background: var(--clr-primary); }
+
+/* ── Utilities ──────────────────────────────────────────────────── */
+.sr-only {
+  position: absolute; width: 1px; height: 1px;
+  padding: 0; margin: -1px; overflow: hidden;
+  clip: rect(0,0,0,0); border: 0;
+}
+
+/* ── Keyframes ──────────────────────────────────────────────────── */
+@keyframes fadeIn   { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+@keyframes slideIn  { from { transform: translateX(-16px); opacity: 0; } to { transform: none; opacity: 1; } }
+@keyframes pulse    { 0%, 100% { opacity: 1; } 50% { opacity: .5; } }
+@keyframes spin     { to { transform: rotate(360deg); } }
+@keyframes shimmer  {
+  0%   { background-position: -200% 0; }
+  100% { background-position:  200% 0; }
+}
+
+.animate-fadeIn  { animation: fadeIn  .3s ease both; }
+.animate-slideIn { animation: slideIn .3s ease both; }
+.animate-pulse   { animation: pulse 1.5s ease infinite; }
+.animate-spin    { animation: spin 1s linear infinite; }

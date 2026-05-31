@@ -1,0 +1,482 @@
+[
+  {
+    "paper_id": "SP_MEDICINE_01",
+    "subject": "Medicine",
+    "paper_number": 1,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_MEDICINE_02",
+    "subject": "Medicine",
+    "paper_number": 2,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_MEDICINE_03",
+    "subject": "Medicine",
+    "paper_number": 3,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_MEDICINE_04",
+    "subject": "Medicine",
+    "paper_number": 4,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_MEDICINE_05",
+    "subject": "Medicine",
+    "paper_number": 5,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_MEDICINE_06",
+    "subject": "Medicine",
+    "paper_number": 6,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_MEDICINE_07",
+    "subject": "Medicine",
+    "paper_number": 7,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_MEDICINE_08",
+    "subject": "Medicine",
+    "paper_number": 8,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_MEDICINE_09",
+    "subject": "Medicine",
+    "paper_number": 9,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_MEDICINE_10",
+    "subject": "Medicine",
+    "paper_number": 10,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_SURGERY_01",
+    "subject": "Surgery",
+    "paper_number": 1,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_SURGERY_02",
+    "subject": "Surgery",
+    "paper_number": 2,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_SURGERY_03",
+    "subject": "Surgery",
+    "paper_number": 3,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_SURGERY_04",
+    "subject": "Surgery",
+    "paper_number": 4,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_SURGERY_05",
+    "subject": "Surgery",
+    "paper_number": 5,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_SURGERY_06",
+    "subject": "Surgery",
+    "paper_number": 6,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_SURGERY_07",
+    "subject": "Surgery",
+    "paper_number": 7,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_SURGERY_08",
+    "subject": "Surgery",
+    "paper_number": 8,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_PHARMACO_01",
+    "subject": "Pharmacology",
+    "paper_number": 1,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_PHARMACO_02",
+    "subject": "Pharmacology",
+    "paper_number": 2,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_PHARMACO_03",
+    "subject": "Pharmacology",
+    "paper_number": 3,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_PHARMACO_04",
+    "subject": "Pharmacology",
+    "paper_number": 4,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_PHARMACO_05",
+    "subject": "Pharmacology",
+    "paper_number": 5,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_PHARMACO_06",
+    "subject": "Pharmacology",
+    "paper_number": 6,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_PATHOLOG_01",
+    "subject": "Pathology",
+    "paper_number": 1,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_PATHOLOG_02",
+    "subject": "Pathology",
+    "paper_number": 2,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_PATHOLOG_03",
+    "subject": "Pathology",
+    "paper_number": 3,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_PATHOLOG_04",
+    "subject": "Pathology",
+    "paper_number": 4,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_PATHOLOG_05",
+    "subject": "Pathology",
+    "paper_number": 5,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_PATHOLOG_06",
+    "subject": "Pathology",
+    "paper_number": 6,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_PSM_01",
+    "subject": "PSM",
+    "paper_number": 1,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_PSM_02",
+    "subject": "PSM",
+    "paper_number": 2,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_PSM_03",
+    "subject": "PSM",
+    "paper_number": 3,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_PSM_04",
+    "subject": "PSM",
+    "paper_number": 4,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_PSM_05",
+    "subject": "PSM",
+    "paper_number": 5,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_MICROBIO_01",
+    "subject": "Microbiology",
+    "paper_number": 1,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_MICROBIO_02",
+    "subject": "Microbiology",
+    "paper_number": 2,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_MICROBIO_03",
+    "subject": "Microbiology",
+    "paper_number": 3,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_MICROBIO_04",
+    "subject": "Microbiology",
+    "paper_number": 4,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_MICROBIO_05",
+    "subject": "Microbiology",
+    "paper_number": 5,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_OBGYN_01",
+    "subject": "OBGYN",
+    "paper_number": 1,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_OBGYN_02",
+    "subject": "OBGYN",
+    "paper_number": 2,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_OBGYN_03",
+    "subject": "OBGYN",
+    "paper_number": 3,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_OBGYN_04",
+    "subject": "OBGYN",
+    "paper_number": 4,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_OBGYN_05",
+    "subject": "OBGYN",
+    "paper_number": 5,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_PEDIATRI_01",
+    "subject": "Pediatrics",
+    "paper_number": 1,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_PEDIATRI_02",
+    "subject": "Pediatrics",
+    "paper_number": 2,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_PEDIATRI_03",
+    "subject": "Pediatrics",
+    "paper_number": 3,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_PEDIATRI_04",
+    "subject": "Pediatrics",
+    "paper_number": 4,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_ANATOMY_01",
+    "subject": "Anatomy",
+    "paper_number": 1,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_ANATOMY_02",
+    "subject": "Anatomy",
+    "paper_number": 2,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_ANATOMY_03",
+    "subject": "Anatomy",
+    "paper_number": 3,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_ANATOMY_04",
+    "subject": "Anatomy",
+    "paper_number": 4,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_PHYSIOLO_01",
+    "subject": "Physiology",
+    "paper_number": 1,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_PHYSIOLO_02",
+    "subject": "Physiology",
+    "paper_number": 2,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_PHYSIOLO_03",
+    "subject": "Physiology",
+    "paper_number": 3,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_PHYSIOLO_04",
+    "subject": "Physiology",
+    "paper_number": 4,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_BIOCHEMI_01",
+    "subject": "Biochemistry",
+    "paper_number": 1,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_BIOCHEMI_02",
+    "subject": "Biochemistry",
+    "paper_number": 2,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_BIOCHEMI_03",
+    "subject": "Biochemistry",
+    "paper_number": 3,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_ENT_01",
+    "subject": "ENT",
+    "paper_number": 1,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_ENT_02",
+    "subject": "ENT",
+    "paper_number": 2,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_ENT_03",
+    "subject": "ENT",
+    "paper_number": 3,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_OPHTHALM_01",
+    "subject": "Ophthalmology",
+    "paper_number": 1,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_OPHTHALM_02",
+    "subject": "Ophthalmology",
+    "paper_number": 2,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_OPHTHALM_03",
+    "subject": "Ophthalmology",
+    "paper_number": 3,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_ORTHOPED_01",
+    "subject": "Orthopedics",
+    "paper_number": 1,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_ORTHOPED_02",
+    "subject": "Orthopedics",
+    "paper_number": 2,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_ORTHOPED_03",
+    "subject": "Orthopedics",
+    "paper_number": 3,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_PSYCHIAT_01",
+    "subject": "Psychiatry",
+    "paper_number": 1,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_PSYCHIAT_02",
+    "subject": "Psychiatry",
+    "paper_number": 2,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_PSYCHIAT_03",
+    "subject": "Psychiatry",
+    "paper_number": 3,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_ANAESTHE_01",
+    "subject": "Anaesthesia",
+    "paper_number": 1,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_ANAESTHE_02",
+    "subject": "Anaesthesia",
+    "paper_number": 2,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_DERMATOL_01",
+    "subject": "Dermatology",
+    "paper_number": 1,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_DERMATOL_02",
+    "subject": "Dermatology",
+    "paper_number": 2,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_FORENSIC_01",
+    "subject": "Forensic Medicine",
+    "paper_number": 1,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_FORENSIC_02",
+    "subject": "Forensic Medicine",
+    "paper_number": 2,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_RADIOLOG_01",
+    "subject": "Radiology",
+    "paper_number": 1,
+    "total_questions": 100
+  },
+  {
+    "paper_id": "SP_RADIOLOG_02",
+    "subject": "Radiology",
+    "paper_number": 2,
+    "total_questions": 100
+  }
+]

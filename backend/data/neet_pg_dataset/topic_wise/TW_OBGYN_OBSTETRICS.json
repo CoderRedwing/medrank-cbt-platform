@@ -1,0 +1,128 @@
+{
+  "bank_id": "TW_OBGYN_OBSTETRICS",
+  "paper_type": "topic_wise",
+  "subject": "OBGYN",
+  "topic": "Obstetrics",
+  "total_questions": 5,
+  "difficulty_distribution": {
+    "Easy": 5
+  },
+  "created_at": "2026-05-30",
+  "questions": [
+    {
+      "question_id": "TW_OBGYN_OBSTETRICS_Q001",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_OBGYN_OBSTETRICS",
+      "subject": "OBGYN",
+      "topic": "Obstetrics",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Polyhydramnios is associated with?",
+      "options": {
+        "A": "Renal agenesis",
+        "B": "Anencephaly and GI atresias",
+        "C": "Post-term pregnancy",
+        "D": "IUGR"
+      },
+      "correct_answer": "B",
+      "explanation": "Polyhydramnios (AFI >25): impaired fetal swallowing (anencephaly, esophageal/duodenal atresia) or increased production. Oligohydramnios: decreased fetal urine output (renal agenesis = Potter sequence)."
+    },
+    {
+      "question_id": "TW_OBGYN_OBSTETRICS_Q002",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_OBGYN_OBSTETRICS",
+      "subject": "OBGYN",
+      "topic": "Obstetrics",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Triple test in 2nd trimester for Down syndrome shows?",
+      "options": {
+        "A": "↑AFP, ↑hCG, ↑estriol",
+        "B": "↓AFP, ↑hCG, ↓estriol",
+        "C": "↑AFP, ↓hCG, ↑estriol",
+        "D": "↓AFP, ↓hCG, ↓estriol"
+      },
+      "correct_answer": "B",
+      "explanation": "Down syndrome (T21) triple test: ↓AFP, ↑hCG, ↓unconjugated estriol (uE3). Quadruple test adds inhibin A (↑). Neural tube defects: ↑AFP."
+    },
+    {
+      "question_id": "TW_OBGYN_OBSTETRICS_Q003",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_OBGYN_OBSTETRICS",
+      "subject": "OBGYN",
+      "topic": "Obstetrics",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Normal fetal heart rate range?",
+      "options": {
+        "A": "100-120 bpm",
+        "B": "110-160 bpm",
+        "C": "160-200 bpm",
+        "D": "80-100 bpm"
+      },
+      "correct_answer": "B",
+      "explanation": "Normal FHR: 110-160 bpm. Tachycardia >160, bradycardia <110. Baseline variability 6-25 bpm = normal. Loss of variability + late decelerations = fetal distress."
+    },
+    {
+      "question_id": "TW_OBGYN_OBSTETRICS_Q004",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_OBGYN_OBSTETRICS",
+      "subject": "OBGYN",
+      "topic": "Obstetrics",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Magnesium sulfate in eclampsia: first sign of toxicity?",
+      "options": {
+        "A": "Respiratory depression",
+        "B": "Loss of patellar reflexes",
+        "C": "Cardiac arrest",
+        "D": "Muscle weakness"
+      },
+      "correct_answer": "B",
+      "explanation": "MgSO4 toxicity sequence: loss of DTRs (8-10 mg/dL) → respiratory paralysis (12-15) → cardiac arrest (>15). Monitor: RR >12/min, UO >25 mL/hr, patellar reflexes present. Antidote: calcium gluconate."
+    },
+    {
+      "question_id": "TW_OBGYN_OBSTETRICS_Q005",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_OBGYN_OBSTETRICS",
+      "subject": "OBGYN",
+      "topic": "Obstetrics",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Crown-rump length (CRL) is most accurate for gestational age in?",
+      "options": {
+        "A": "1st trimester",
+        "B": "2nd trimester",
+        "C": "3rd trimester",
+        "D": "At delivery"
+      },
+      "correct_answer": "A",
+      "explanation": "CRL in 1st trimester (up to 14 weeks) is most accurate for gestational age (±5 days). After 14 weeks: BPD, HC, AC, FL used. 3rd trimester: least accurate (±3 weeks)."
+    }
+  ]
+}

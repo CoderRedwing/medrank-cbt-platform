@@ -1,0 +1,59 @@
+{
+  "bank_id": "TW_OPHTHALM_CORNEA_AND_E",
+  "paper_type": "topic_wise",
+  "subject": "Ophthalmology",
+  "topic": "Cornea and External Eye",
+  "total_questions": 2,
+  "difficulty_distribution": {
+    "Easy": 2
+  },
+  "created_at": "2026-05-30",
+  "questions": [
+    {
+      "question_id": "TW_OPHTHALM_CORNEA_AND_E_Q001",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_OPHTHALM_CORNEA_AND_E",
+      "subject": "Ophthalmology",
+      "topic": "Cornea and External Eye",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Fluorescein stain is used to identify?",
+      "options": {
+        "A": "Conjunctival epithelial defects",
+        "B": "Corneal epithelial defects and aqueous leakage (Seidel's test)",
+        "C": "Iris neovascularization",
+        "D": "Vitreous hemorrhage"
+      },
+      "correct_answer": "B",
+      "explanation": "Fluorescein: stains corneal epithelial defects green (cobalt blue light). Seidel's test: fluorescein diluted by leaking aqueous (positive = penetrating injury). Rose Bengal: stains devitalized cells."
+    },
+    {
+      "question_id": "TW_OPHTHALM_CORNEA_AND_E_Q002",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_OPHTHALM_CORNEA_AND_E",
+      "subject": "Ophthalmology",
+      "topic": "Cornea and External Eye",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Corneal stem cells are located at?",
+      "options": {
+        "A": "Central cornea",
+        "B": "Limbus (corneoscleral junction)",
+        "C": "Conjunctiva",
+        "D": "Iris"
+      },
+      "correct_answer": "B",
+      "explanation": "Corneal epithelial stem cells at LIMBUS (palisades of Vogt). Limbal stem cell deficiency → conjunctivalization of cornea, pannus formation, visual loss. Treatment: limbal stem cell transplant."
+    }
+  ]
+}

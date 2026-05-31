@@ -1,0 +1,82 @@
+{
+  "bank_id": "TW_PSM_COMMUNICABLE",
+  "paper_type": "topic_wise",
+  "subject": "PSM",
+  "topic": "Communicable and NCDs",
+  "total_questions": 3,
+  "difficulty_distribution": {
+    "Easy": 3
+  },
+  "created_at": "2026-05-30",
+  "questions": [
+    {
+      "question_id": "TW_PSM_COMMUNICABLE_Q001",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_PSM_COMMUNICABLE",
+      "subject": "PSM",
+      "topic": "Communicable and NCDs",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Window period in HIV?",
+      "options": {
+        "A": "Time from exposure to death",
+        "B": "Time between infection and detectable antibodies",
+        "C": "Time from exposure to AIDS",
+        "D": "Infectious period"
+      },
+      "correct_answer": "B",
+      "explanation": "HIV window period: ~3 weeks with 4th-gen Ag/Ab test; 6 weeks with 3rd-gen Ab test. During window: ELISA negative but person is infectious. NAT detects from ~10 days."
+    },
+    {
+      "question_id": "TW_PSM_COMMUNICABLE_Q002",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_PSM_COMMUNICABLE",
+      "subject": "PSM",
+      "topic": "Communicable and NCDs",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Herd immunity threshold depends on?",
+      "options": {
+        "A": "IFR",
+        "B": "Basic reproduction number (R0)",
+        "C": "CFR",
+        "D": "Attack rate"
+      },
+      "correct_answer": "B",
+      "explanation": "Herd immunity threshold = 1 - (1/R0). R0 of measles ~12-18 → need ~92-95% vaccination coverage. Higher R0 → higher threshold."
+    },
+    {
+      "question_id": "TW_PSM_COMMUNICABLE_Q003",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_PSM_COMMUNICABLE",
+      "subject": "PSM",
+      "topic": "Communicable and NCDs",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Generation time vs incubation period?",
+      "options": {
+        "A": "Same thing",
+        "B": "Generation time: time between successive cases; incubation: index case to symptoms",
+        "C": "Incubation always longer",
+        "D": "Generation time always longer"
+      },
+      "correct_answer": "B",
+      "explanation": "Incubation period: exposure to symptom onset. Generation time: time between infection of primary and secondary case. Serial interval: symptom onset to symptom onset."
+    }
+  ]
+}

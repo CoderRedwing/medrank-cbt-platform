@@ -1,0 +1,82 @@
+{
+  "bank_id": "TW_PSM_DEMOGRAPHY_A",
+  "paper_type": "topic_wise",
+  "subject": "PSM",
+  "topic": "Demography and Nutrition",
+  "total_questions": 3,
+  "difficulty_distribution": {
+    "Easy": 3
+  },
+  "created_at": "2026-05-30",
+  "questions": [
+    {
+      "question_id": "TW_PSM_DEMOGRAPHY_A_Q001",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_PSM_DEMOGRAPHY_A",
+      "subject": "PSM",
+      "topic": "Demography and Nutrition",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Total fertility rate (TFR) is?",
+      "options": {
+        "A": "Number of births per 1000 women",
+        "B": "Average children a woman would have over her lifetime",
+        "C": "Birth rate in a year",
+        "D": "Replacement level fertility"
+      },
+      "correct_answer": "B",
+      "explanation": "TFR: hypothetical number of children a woman would have if she lived through all reproductive years with age-specific fertility rates. Replacement level = 2.1. India ~2.0 (2023)."
+    },
+    {
+      "question_id": "TW_PSM_DEMOGRAPHY_A_Q002",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_PSM_DEMOGRAPHY_A",
+      "subject": "PSM",
+      "topic": "Demography and Nutrition",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Infant mortality rate (IMR) formula?",
+      "options": {
+        "A": "Deaths <5 years / live births × 1000",
+        "B": "Deaths <1 year / live births × 1000",
+        "C": "Deaths <28 days / live births × 1000",
+        "D": "Deaths <1 year / total population × 1000"
+      },
+      "correct_answer": "B",
+      "explanation": "IMR = deaths in <1 year / live births in same year × 1000. Sensitive indicator of socioeconomic development. Includes neonatal (<28 days) and post-neonatal (28 days-1 year)."
+    },
+    {
+      "question_id": "TW_PSM_DEMOGRAPHY_A_Q003",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_PSM_DEMOGRAPHY_A",
+      "subject": "PSM",
+      "topic": "Demography and Nutrition",
+      "subtopic": null,
+      "difficulty": "Easy",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Sensitivity of 80% and specificity of 90% for disease prevalence 10%. PPV is?",
+      "options": {
+        "A": "~47%",
+        "B": "~89%",
+        "C": "~31%",
+        "D": "~66%"
+      },
+      "correct_answer": "A",
+      "explanation": "PPV = TP/(TP+FP). With prev 10%: TP=80, FP=90 (10% of 900 = 90), PPV = 80/(80+90) = 47%. PPV increases with higher prevalence. This shows PPV is context-dependent."
+    }
+  ]
+}
