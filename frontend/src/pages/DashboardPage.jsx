@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate , useLocation} from 'react-router-dom';
 import {
   RadarChart, Radar, PolarGrid, PolarAngleAxis,
   ResponsiveContainer, LineChart, Line, XAxis, YAxis, Tooltip,
@@ -12,13 +12,15 @@ export default function DashboardPage() {
   const [data, setData]     = useState(null);
   const [loading, setLoad]  = useState(true);
   const navigate            = useNavigate();
+  const location = useNavigate();
 
   useEffect(() => {
-    dashboardAPI.get()
-      .then((r) => setData(r.data.data))
-      .catch(console.error)
-      .finally(() => setLoad(false));
-  }, []);
+  setLoad(true);
+  dashboardAPI.get()
+    .then((r) => setData(r.data.data))
+    .catch(console.error)
+    .finally(() => setLoad(false));
+  }, [location.pathname]); 
 
   if (loading) return (
     <div style={{ display: 'flex', justifyContent: 'center', padding: 80 }}>

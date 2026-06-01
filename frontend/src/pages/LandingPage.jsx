@@ -1,3 +1,4 @@
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 /* ─── tiny helpers ────────────────────────────────────────────────── */
@@ -7,13 +8,25 @@ const NAV_H = 64;
    LANDING PAGE
 ═══════════════════════════════════════════════════════════════════ */
 export default function LandingPage() {
+
+  // ADD at top of LandingPage() function, before return:
+  const [ratingData, setRatingData] = React.useState(null);
+
+  React.useEffect(() => {
+    fetch('/api/feedback/stats')
+    .then(r => r.json())
+    .then(d => { if (d.success) setRatingData(d.data); })
+    .catch(() => {});
+  }, []);
+
+
   return (
     <div style={{ fontFamily: "'Inter', system-ui, sans-serif", background: '#f8f7f4', color: '#1a1a18', minHeight: '100vh' }}>
       <Navbar />
       <Hero />
-      <StatsBar />
+      <StatsBar ratingData={ratingData} />
       <Features />
-      <Testimonial />
+      <Testimonial ratingData={ratingData} />
       <CTA />
       <Footer />
     </div>
@@ -260,12 +273,12 @@ function MockCard() {
 }
 
 /* ─── Stats Bar ───────────────────────────────────────────────────── */
-function StatsBar() {
+function StatsBar({ ratingData }) {
   const stats = [
     { value: '10,000+', label: 'Questions' },
     { value: '19',      label: 'Subjects covered' },
     { value: '50+',     label: 'Mock tests' },
-    { value: 'AI',      label: 'Powered explanations' },
+    { value: ratingData ? `${ratingData.average}★` : '—', label: `Rating · ${ratingData?.total || 0} reviews` },
   ];
   return (
     <div style={{
@@ -399,28 +412,99 @@ function FeatureCard({ icon, title, desc }) {
 }
 
 /* ─── Testimonial ─────────────────────────────────────────────────── */
-function Testimonial() {
+// REPLACE the entire Testimonial function with this:
+function Testimonial({ ratingData }) {
+  const reviews = ratingData?.recent || [];
+
+  // fallback while loading
+  const fallback = [{
+    name: 'Dr. Priya S.',
+    targetExam: 'NEET_PG',
+    rating: 5,
+    comment: "The subject-wise analysis showed me exactly where I was losing marks. I improved my Pharmacology score by 40% in three weeks.",
+    testsCount: 14,
+  }];
+
+  const items = reviews.length > 0 ? reviews : fallback;
+
   return (
     <section style={{
-      background: '#2d4a7a',
+      background: '#fff',
+      borderTop: '1px solid #e4e2dd',
+      borderBottom: '1px solid #e4e2dd',
       padding: 'clamp(50px, 7vw, 80px) clamp(20px, 5vw, 80px)',
-      textAlign: 'center',
     }}>
-      <div style={{ maxWidth: 680, margin: '0 auto' }}>
-        <div style={{ fontSize: 32, marginBottom: 20, opacity: 0.6 }}>"</div>
-        <p style={{
-          fontFamily: "'Lora', Georgia, serif",
-          fontSize: 'clamp(18px, 2vw, 22px)',
-          lineHeight: 1.65, color: '#e8edf5',
-          fontStyle: 'italic', marginBottom: 28,
+      <div style={{ maxWidth: 1100, margin: '0 auto' }}>
+        {/* Header */}
+        <div style={{ textAlign: 'center', marginBottom: 40 }}>
+          <div style={{ fontSize: 12, fontWeight: 600, letterSpacing: '0.1em', textTransform: 'uppercase', color: '#2d4a7a', marginBottom: 10 }}>
+            Student reviews
+          </div>
+          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 12 }}>
+            <span style={{ fontFamily: "'Lora', Georgia, serif", fontSize: 42, fontWeight: 600, color: '#1a1a18' }}>
+              {ratingData?.average || '—'}
+            </span>
+            <div>
+              <Stars rating={ratingData?.average || 0} size={20} />
+              <div style={{ fontSize: 13, color: '#6b6860', marginTop: 3 }}>
+                {ratingData?.total || 0} verified student{ratingData?.total !== 1 ? 's' : ''}
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Review cards */}
+        <div style={{
+          display: 'grid',
+          gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
+          gap: 16,
         }}>
-          The subject-wise analysis showed me exactly where I was losing marks. I improved my Pharmacology score by 40% in three weeks just by targeting weak topics.
-        </p>
-        <div style={{ fontSize: 14, color: '#8fa8cc', fontWeight: 500 }}>
-          Dr. Priya S. — NEET PG 2024, Rank 847
+          {items.map((r, i) => (
+            <div key={i} style={{
+              background: '#f8f7f4',
+              border: '1px solid #e4e2dd',
+              borderRadius: 12, padding: '20px 22px',
+            }}>
+              <Stars rating={r.rating} size={14} />
+              <p style={{
+                fontSize: 14, lineHeight: 1.7,
+                color: '#1a1a18', margin: '10px 0 14px',
+                fontStyle: 'italic',
+              }}>
+                "{r.comment}"
+              </p>
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                <div>
+                  <div style={{ fontSize: 13, fontWeight: 600, color: '#1a1a18' }}>{r.name}</div>
+                  <div style={{ fontSize: 12, color: '#6b6860' }}>{r.targetExam?.replace('_', ' ')}</div>
+                </div>
+                <div style={{
+                  fontSize: 11, color: '#2d4a7a',
+                  background: '#eef2f8', borderRadius: 99,
+                  padding: '3px 8px', fontWeight: 500,
+                }}>
+                  ✓ {r.testsCount} tests
+                </div>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </section>
+  );
+}
+
+// ADD this helper component anywhere in LandingPage.jsx:
+function Stars({ rating, size = 16 }) {
+  return (
+    <div style={{ display: 'flex', gap: 2 }}>
+      {[1,2,3,4,5].map(i => (
+        <span key={i} style={{
+          fontSize: size,
+          color: i <= Math.round(rating) ? '#f59e0b' : '#d0cdc7',
+        }}>★</span>
+      ))}
+    </div>
   );
 }
 

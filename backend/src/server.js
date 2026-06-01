@@ -13,6 +13,7 @@ const testRoutes      = require('./routes/testRoutes');
 const dashboardRoutes = require('./routes/dashboardRoutes');
 const aiTutorRoutes   = require('./routes/aiTutorRoutes');
 const adminRoutes     = require('./routes/adminRoutes');
+const feedbackRoutes  = require('./routes/feedbackRoutes');
 
 // ─── Free-tier clustering (zero cost, uses all CPU cores) ─────────────────
 // On Render/Railway free tier you get 0.5–1 vCPU so this usually = 1 worker,
@@ -49,7 +50,7 @@ function startServer() {
       if (!origin || allowed.includes(origin)) return callback(null, true);
       callback(new Error(`CORS: origin ${origin} not allowed`));
     },
-    credentials: true,
+    credentials: true,  
   }));
   app.use(express.json({ limit: '1mb' })); // reduced from 2mb — 1mb is plenty for exam responses
   app.use(morgan(process.env.NODE_ENV === 'production' ? 'combined' : 'dev'));
@@ -92,6 +93,7 @@ function startServer() {
   app.use('/api/dashboard', dashboardRoutes);
   app.use('/api/ai',        aiTutorRoutes);
   app.use('/api/admin',     adminRoutes);
+  app.use('/api/feedback', feedbackRoutes);
 
   app.get('/api/health', (req, res) =>
     res.json({ success: true, message: 'NEET PG Platform API running', timestamp: new Date() })

@@ -48,6 +48,19 @@ const userSchema = new mongoose.Schema(
       // Topic-level accuracy map: { 'Medicine::Cardiology': { correct, attempted }, ... }
       topicAccuracy:      { type: Map, of: mongoose.Schema.Types.Mixed, default: {} },
     },
+
+     feedback: {
+      rating:              { type: Number, min: 1, max: 5 },
+      comment:             { type: String, maxlength: 500 },
+      category:            {
+        type: String,
+        enum: ['Bug', 'Suggestion', 'Content Error', 'General'],
+        default: 'General',
+      },
+      submittedAt:         { type: Date },
+      testsCompletedAtTime:{ type: Number },
+    },
+
     lastActive: { type: Date, default: Date.now },
   },
   { timestamps: true }
