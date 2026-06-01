@@ -18,6 +18,21 @@ const TABS = ['💬 AI Chat', '⚡ Generate Test', '📚 Generate MCQs'];
 
 export default function AiTutorPage() {
   const [activeTab, setTab] = useState(0);
+  return (
+    <div style={{
+      display: 'flex', flexDirection: 'column',
+      alignItems: 'center', justifyContent: 'center',
+      minHeight: '60vh', textAlign: 'center', gap: 12,
+    }}>
+      <div style={{ fontSize: 36 }}>🔧</div>
+      <h2 style={{ fontFamily: "'Lora', Georgia, serif", fontSize: 22, color: '#1a1a18' }}>
+        AI Features Coming Soon
+      </h2>
+      <p style={{ color: '#6b6860', maxWidth: 380, lineHeight: 1.6 }}>
+        We're currently working on AI features and will update you as soon as they're ready.
+      </p>
+    </div>
+  );
 
   return (
     <div style={{ padding: '32px 28px', maxWidth: 1000, margin: '0 auto' }}>

@@ -5,19 +5,26 @@ const useAuthStore = create((set, get) => ({
   user:    null,
   token:   localStorage.getItem('neet_token') || null,
   loading: false,
+   initializing: !!localStorage.getItem('neet_token'),
   error:   null,
 
   // Hydrate user from stored token
   init: async () => {
     const token = localStorage.getItem('neet_token');
-    if (!token) return;
+    if (!token){
+      set({ initializing: false });
+      return;
+    } 
+      
     try {
       set({ loading: true });
       const { data } = await authAPI.getMe();
-      set({ user: data.user, token, loading: false });
+      set({ user: data.user, token});
     } catch {
       localStorage.removeItem('neet_token');
-      set({ user: null, token: null, loading: false });
+      set({ user: null, token: null});
+    } finally{
+      set({ initializing: false });
     }
   },
 
@@ -49,12 +56,18 @@ const useAuthStore = create((set, get) => ({
     }
   },
 
-  logout: () => {
+  logout: async () => {
+    try {
+      await authAPI.logout();
+    } catch (_) {
+      // Even if server call fails, clear local state
+    }
     localStorage.removeItem('neet_token');
     set({ user: null, token: null, error: null });
   },
 
   clearError: () => set({ error: null }),
 }));
+
 
 export default useAuthStore;

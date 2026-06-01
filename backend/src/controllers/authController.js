@@ -1,6 +1,7 @@
 const jwt = require('jsonwebtoken');
-const { validationResult } = require('express-validator');
+const { body, validationResult } = require('express-validator');
 const User = require('../models/User');
+const { revokeToken } = require('../middleware/auth');
 
 const signToken = (id) =>
   jwt.sign({ id }, process.env.JWT_SECRET, {
@@ -36,13 +37,22 @@ const register = async (req, res) => {
 };
 
 // POST /api/auth/login
+// FIX: Added express-validator to prevent NoSQL injection via email field
 const login = async (req, res) => {
+  // Validate before touching the DB
+  const errors = validationResult(req);
+  if (!errors.isEmpty()) {
+    return res.status(400).json({ success: false, errors: errors.array() });
+  }
   try {
     const { email, password } = req.body;
-    if (!email || !password) {
-      return res.status(400).json({ success: false, message: 'Email and password required' });
+
+    // Extra guard: reject non-string inputs (NoSQL injection uses objects)
+    if (typeof email !== 'string' || typeof password !== 'string') {
+      return res.status(400).json({ success: false, message: 'Invalid input' });
     }
-    const user = await User.findOne({ email }).select('+password');
+
+    const user = await User.findOne({ email: email.toLowerCase().trim() }).select('+password');
     if (!user || !(await user.comparePassword(password))) {
       return res.status(401).json({ success: false, message: 'Invalid credentials' });
     }
@@ -67,7 +77,7 @@ const getMe = async (req, res) => {
 // PATCH /api/auth/me
 const updateMe = async (req, res) => {
   try {
-    const allowed = ['name', 'targetExam'];
+    const allowed = ['name', 'targetExam']; // never allow role here
     const updates = {};
     allowed.forEach((f) => { if (req.body[f] !== undefined) updates[f] = req.body[f]; });
     const user = await User.findByIdAndUpdate(req.user._id, updates, { new: true, runValidators: true });
@@ -77,4 +87,11 @@ const updateMe = async (req, res) => {
   }
 };
 
-module.exports = { register, login, getMe, updateMe };
+// POST /api/auth/logout  <-- NEW
+// FIX: Blacklists the current token so it can't be reused after logout
+const logout = (req, res) => {
+  if (req.token) revokeToken(req.token);
+  res.json({ success: true, message: 'Logged out' });
+};
+
+module.exports = { register, login, getMe, updateMe, logout };

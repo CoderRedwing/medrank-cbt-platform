@@ -8,6 +8,14 @@ const {
   chat,
 } = require('../controllers/aiTutorController');
 
+// Temporary: AI features under development
+router.use((req, res) => {
+  res.status(503).json({
+    success: false,
+    message: "We're currently working on AI features. We'll update you soon!",
+  });
+});
+
 // All AI routes require auth
 router.use(protect);
 

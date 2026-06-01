@@ -16,6 +16,7 @@ import OverallAnalysisPage from './pages/OverallAnalysisPage.jsx';
 import HistoryPage         from './pages/HistoryPage.jsx';
 import ProfilePage         from './pages/ProfilePage.jsx';
 import AiTutorPage         from './pages/AiTutorPage.jsx';
+import LandingPage from './pages/LandingPage.jsx';
 
 // Admin pages
 import AdminDashboard from './pages/admin/AdminDashboard.jsx';
@@ -26,19 +27,20 @@ import AdminSettings  from './pages/admin/AdminSettings.jsx';
 
 /* ── Auth guard ─────────────────────────────────────────────────── */
 function ProtectedRoute({ children }) {
-  const { token, loading } = useAuthStore();
+  const { token, initializing } = useAuthStore();
   const location = useLocation();
-  if (loading) return <LoadingScreen message="Loading your profile…" />;
-  if (!token)  return <Navigate to="/login" state={{ from: location }} replace />;
+  // Only block on initializing (app boot), not on login/register loading
+  if (initializing) return <LoadingScreen message="Loading your profile…" />;
+  if (!token)       return <Navigate to="/login" state={{ from: location }} replace />;
   return children;
 }
 
 /* ── Admin guard ────────────────────────────────────────────────── */
 function AdminRoute({ children }) {
-  const { user, token, loading } = useAuthStore();
+  const { user, token, initializing } = useAuthStore();
   const location = useLocation();
-  if (loading) return <LoadingScreen message="Verifying access…" />;
-  if (!token)  return <Navigate to="/login" state={{ from: location }} replace />;
+  if (initializing)          return <LoadingScreen message="Verifying access…" />;
+  if (!token)                return <Navigate to="/login" state={{ from: location }} replace />;
   if (user?.role !== 'admin') return <Navigate to="/dashboard" replace />;
   return children;
 }
@@ -48,9 +50,9 @@ const S = ({ children }) => <AppLayout>{children}</AppLayout>;
 const A = ({ children }) => <AdminLayout>{children}</AdminLayout>;
 
 export default function App() {
-  const { init, loading } = useAuthStore();
+  const { init, initializing } = useAuthStore();
   useEffect(() => { init(); }, []);
-  if (loading) return <LoadingScreen message="Initialising…" />;
+  if (initializing) return <LoadingScreen message="Initialising…" />;
 
   return (
     <BrowserRouter>
@@ -79,7 +81,7 @@ export default function App() {
         <Route path="/admin/settings"  element={<AdminRoute><A><AdminSettings /></A></AdminRoute>} />
 
         {/* Redirects */}
-        <Route path="/" element={<Navigate to="/dashboard" replace />} />
+        <Route path="/" element={<LandingPage />} /> 
         <Route path="*" element={<Navigate to="/dashboard" replace />} />
       </Routes>
     </BrowserRouter>
