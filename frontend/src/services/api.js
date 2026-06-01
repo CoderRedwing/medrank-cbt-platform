@@ -33,7 +33,7 @@ api.interceptors.response.use(
 export const authAPI = {
   register: (data)    => api.post('/auth/register', data),
   login:    (data)    => api.post('/auth/login', data),
-  getMe:    ()        => api.get('/auth/me'),
+  getMe:    ()        => api.get('/auth/me', { timeout: 8000 }),
   updateMe: (data)    => api.patch('/auth/me', data),
 };
 

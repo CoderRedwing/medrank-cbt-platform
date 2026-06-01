@@ -24,7 +24,7 @@ const useAuthStore = create((set, get) => ({
       localStorage.removeItem('neet_token');
       set({ user: null, token: null});
     } finally{
-      set({ initializing: false });
+      set({ initializing: false , loading: false});
     }
   },
 
@@ -53,6 +53,8 @@ const useAuthStore = create((set, get) => ({
       const msg = err.response?.data?.message || 'Login failed';
       set({ loading: false, error: msg });
       return { success: false, message: msg };
+    } finally{
+      set({ loading: false });
     }
   },
 
