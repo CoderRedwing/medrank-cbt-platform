@@ -13,7 +13,7 @@ export default function LandingPage() {
   const [ratingData, setRatingData] = React.useState(null);
 
   React.useEffect(() => {
-    fetch('/api/feedback/stats')
+    fetch(`${import.meta.env.VITE_API_URL || ''}/feedback/stats`)
     .then(r => r.json())
     .then(d => { if (d.success) setRatingData(d.data); })
     .catch(() => {});

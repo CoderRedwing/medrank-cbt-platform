@@ -117,7 +117,7 @@ export default function AdminPapers() {
                 const isSelected = selectedPaper?.id === pid;
                 return (
                   <button key={pid} onClick={()=>loadPaper(pid)} style={{
-                    width:'100%', textAlign:'left', padding:'11px 14px', background:'none', border:'none', cursor:'pointer',
+                    width:'100%', textAlign:'left', padding:'11px 14px', border:'none', cursor:'pointer',
                     borderBottom:'1px solid var(--clr-border)',
                     background: isSelected ? 'rgba(245,158,11,.1)' : 'transparent',
                     borderLeft: isSelected ? '3px solid #f59e0b' : '3px solid transparent',
