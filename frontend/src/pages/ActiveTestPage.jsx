@@ -1,10 +1,12 @@
 import { useEffect, useRef, useState } from 'react';
+import FeedbackModal from '../components/FeedbackModal.jsx';
 import { useNavigate } from 'react-router-dom';
 import useTestStore from '../store/testStore';
 import { Btn, Spinner } from '../components/ui/index.jsx';
 import { formatTime, difficultyColor } from '../utils/helpers';
 
 export default function ActiveTestPage() {
+  const [showFeedback, setShowFeedback] = useState(false);
   const {
     questions, responses, currentIndex, timeRemainingS, sessionMeta, status,
     selectAnswer, saveReason, toggleReview, goTo, goNext, goPrev, tickTimer, submitTest,
@@ -19,7 +21,6 @@ export default function ActiveTestPage() {
   // Redirect if no active session
   useEffect(() => {
     if (status === 'idle') navigate('/tests');
-    if (status === 'submitted') navigate(`/analysis/${useTestStore.getState().sessionId}`);
   }, [status]);
 
   // Timer tick
@@ -35,13 +36,18 @@ export default function ActiveTestPage() {
   }, []);
 
   const handleSubmit = async (timedOut = false) => {
-    clearInterval(timerRef.current);
-    setSubmitting(true);
-    const taken = Math.floor((Date.now() - startTimeRef.current) / 1000);
-    await submitTest(taken);
-    setSubmitting(false);
+  clearInterval(timerRef.current);
+  setConfirmSubmit(false); // ← close confirm modal first
+  setSubmitting(true);
+  const taken = Math.floor((Date.now() - startTimeRef.current) / 1000);
+  const result = await submitTest(taken);
+  setSubmitting(false);
+  if (result?.success) {
+    setShowFeedback(true);
+  } else {
     navigate(`/analysis/${useTestStore.getState().sessionId}`);
-  };
+  }
+};
 
   if (status === 'loading' || !questions.length) return (
     <div style={{ display: 'flex', justifyContent: 'center', padding: 80 }}><Spinner size={36} /></div>
@@ -310,6 +316,12 @@ export default function ActiveTestPage() {
           </div>
         </div>
       )}
+      {showFeedback && (
+      <FeedbackModal onClose={() => {
+      setShowFeedback(false);
+      navigate(`/analysis/${useTestStore.getState().sessionId}`);
+      }} />
+     )}
     </div>
   );
 }
