@@ -89,6 +89,36 @@ const getAnalysis = async (req, res) => {
     if (session.status !== 'submitted') {
       return res.status(400).json({ success: false, message: 'Test not yet submitted' });
     }
+
+      const needsBackfill = session.responses.some(r => !r.question_text);
+    if (needsBackfill) {
+      const { loadFullPaper, loadSubjectPaper, loadTopicBank } = require('../config/dataset');
+      let sourceQuestions = [];
+      try {
+        if (session.test_type === 'full_paper') {
+          sourceQuestions = loadFullPaper(session.paper_ref)?.questions || [];
+        } else if (session.test_type === 'subject_paper') {
+          sourceQuestions = loadSubjectPaper(session.paper_ref)?.questions || [];
+        } else if (session.test_type === 'topic_wise') {
+          sourceQuestions = loadTopicBank(session.paper_ref)?.questions || [];
+        }
+      } catch (e) {
+        console.warn('Backfill failed:', e.message);
+      }
+      const qMap = {};
+      sourceQuestions.forEach(q => { qMap[q.question_id] = q; });
+
+      session.responses = session.responses.map(r => {
+        const q = qMap[r.question_id];
+        return {
+          ...r._doc,
+          question_text: r.question_text || q?.question_text || 'Question not available',
+          options:       r.options?.A ? r.options : (q?.options || {}),
+          explanation:   r.explanation  || q?.explanation  || 'No explanation available',
+        };
+      });
+    }
+    
     res.json({
       success: true,
       data: {

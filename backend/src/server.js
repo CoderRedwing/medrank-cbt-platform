@@ -121,5 +121,14 @@ function startServer() {
     console.log(`Worker ${process.pid} → http://localhost:${PORT} [${process.env.NODE_ENV || 'development'}]`);
   });
 
+  if (process.env.NODE_ENV === 'production') {
+    setInterval(async () => {
+      try {
+        await fetch(`https://medrank-cbt-platform.onrender.com/api/health`);
+        console.log('Self-ping OK');
+      } catch (_) {}
+    }, 14 * 60 * 1000);
+  }
+
   module.exports = app;
 }

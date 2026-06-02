@@ -80,7 +80,7 @@ export default function TestSelectionPage() {
         ))}
       </div>
 
-      <div style={{ display: 'grid', gridTemplateColumns: '1fr 320px', gap: 20 }}>
+      <div style={{ display: 'grid', gridTemplateColumns: '1fr 320px', gap: 20, alignItems: 'start' }}>
 
         {/* Left — paper list */}
         <div>
@@ -109,7 +109,7 @@ export default function TestSelectionPage() {
                   <h3 style={{ fontSize: 13, fontWeight: 700, color: 'var(--clr-text-muted)', textTransform: 'uppercase', letterSpacing: '0.06em', marginBottom: 8 }}>
                     {subject}
                   </h3>
-                  <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
+                  <div style={{ maxHeight: 500, overflowY: 'auto', display: 'flex', flexDirection: 'column', gap: 6 }}>
                     {papers.map((p) => (
                       <PaperCard
                         key={p.paper_id}
@@ -179,7 +179,7 @@ export default function TestSelectionPage() {
         </div>
 
         {/* Right — config panel */}
-        <div style={{ position: 'sticky', top: 24, height: 'fit-content' }}>
+        <div style={{ position: 'sticky', top: 24, height: 'fit-content', alignSelf: 'flex-start' }}>
           <Card>
             <h3 style={{ fontFamily: 'var(--font-display)', fontWeight: 700, fontSize: 15, marginBottom: 16 }}>
               Test Configuration

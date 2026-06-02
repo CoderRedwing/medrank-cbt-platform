@@ -152,6 +152,35 @@ const submitTest = async (sessionId, userId, allResponses, timeTakenSec) => {
     });
   }
 
+
+  // ── BUILD question map from JSON source ───────────────────────────────
+  let sourceQuestions = [];
+  try {
+    if (session.test_type === 'full_paper') {
+      sourceQuestions = loadFullPaper(session.paper_ref)?.questions || [];
+    } else if (session.test_type === 'subject_paper') {
+      sourceQuestions = loadSubjectPaper(session.paper_ref)?.questions || [];
+    } else if (session.test_type === 'topic_wise') {
+      sourceQuestions = loadTopicBank(session.paper_ref)?.questions || [];
+    }
+  } catch (e) {
+    console.warn('Could not load source questions for snapshot:', e.message);
+  }
+
+  const qMap = {};
+  sourceQuestions.forEach(q => { qMap[q.question_id] = q; });
+  // ─────────────────────────────────────────────────────────────────────
+
+  // ── Snapshot question text/options/explanation into each response ─────
+  session.responses.forEach(resp => {
+    const q = qMap[resp.question_id];
+    if (q) {
+      resp.question_text = q.question_text || q.question || q.stem || '';
+      resp.options       = q.options || {};
+      resp.explanation   = q.explanation || q.explanation_text || '';
+    }
+  });
+
   // Compute analysis
   const analysis = computeAnalysis(session.responses);
 

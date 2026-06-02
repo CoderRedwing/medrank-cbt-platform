@@ -23,6 +23,15 @@ const questionResponseSchema = new mongoose.Schema(
     time_spent_sec:  { type: Number, default: 0 },
     // Was the question marked for review?
     marked_review:   { type: Boolean, default: false },
+
+    question_text:   { type: String, default: '' },   // snapshot of question
+    options: {                                         // snapshot of options
+      A: { type: String, default: '' },
+      B: { type: String, default: '' },
+      C: { type: String, default: '' },
+      D: { type: String, default: '' },
+    },
+    explanation:     { type: String, default: '' }, 
   },
   { _id: false }
 );

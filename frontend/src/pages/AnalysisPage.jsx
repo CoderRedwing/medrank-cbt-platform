@@ -20,7 +20,9 @@ export default function AnalysisPage() {
 
   useEffect(() => {
     testAPI.getAnalysis(sessionId)
-      .then((r) => setData(r.data.data))
+      .then((r) => {
+        console.log("BACKEND DATA RECEIVED:", r.data.data.responses);
+        setData(r.data.data)})
       .catch(console.error)
       .finally(() => setLoading(false));
   }, [sessionId]);
@@ -321,79 +323,246 @@ export default function AnalysisPage() {
 /* ── Single Question Review Card ──────────────────────────────────── */
 function QuestionReviewCard({ r, idx }) {
   const [open, setOpen] = useState(false);
-  const statusColor = r.is_correct ? '#10b981' : r.is_attempted ? '#ef4444' : '#7c8499';
-  const statusLabel = r.is_correct ? '✓ Correct' : r.is_attempted ? '✗ Incorrect' : '○ Skipped';
+
+  const finalQuestionText = r.question_text || r.question || "Question text not available";
+
+  // ── Status config ────────────────────────────────────────────────────────
+  const status = r.is_correct ? 'correct' : r.is_attempted ? 'incorrect' : 'skipped';
+  const statusCfg = {
+    correct:   { label: 'Correct',   icon: '✓', bg: '#f0fdf4', border: '#86efac', color: '#166534', leftBar: '#22c55e' },
+    incorrect: { label: 'Incorrect', icon: '✗', bg: '#fef2f2', border: '#fca5a5', color: '#991b1b', leftBar: '#ef4444' },
+    skipped:   { label: 'Skipped',   icon: '○', bg: 'var(--clr-surface)',  border: 'var(--clr-border)', color: 'var(--clr-text-muted)', leftBar: '#94a3b8' },
+  }[status];
+
+  // ── Difficulty config ────────────────────────────────────────────────────
+  const diffCfg = {
+    Easy:      { bg: '#f0fdf4', color: '#166534', border: '#86efac' },
+    Moderate:  { bg: '#fffbeb', color: '#92400e', border: '#fcd34d' },
+    Hard:      { bg: '#fff7ed', color: '#9a3412', border: '#fdba74' },
+    'Very Hard':{ bg: '#fef2f2', color: '#991b1b', border: '#fca5a5' },
+  };
+  const diff = diffCfg[r.difficulty] || diffCfg['Moderate'];
+
+  // ── Option renderer (handles both Array and Object shapes) ───────────────
+  const renderOptions = () => {
+    let entries = [];
+    if (Array.isArray(r.options)) {
+      entries = r.options.map((text, i) => [String.fromCharCode(65 + i), text]);
+    } else if (r.options && typeof r.options === 'object') {
+      entries = Object.entries(r.options);
+    }
+
+    if (entries.length === 0) return null;
+
+    return entries.map(([letter, text]) => {
+      const isCorrect  = letter === r.correct_answer;
+      const isSelected = letter === r.selected_answer;
+      const isWrong    = isSelected && !isCorrect;
+
+      const optStyle = {
+        display: 'flex',
+        alignItems: 'flex-start',
+        gap: 10,
+        padding: '10px 14px',
+        borderRadius: 8,
+        border: `1px solid ${isCorrect ? '#86efac' : isWrong ? '#fca5a5' : 'var(--clr-border)'}`,
+        background: isCorrect ? '#f0fdf4' : isWrong ? '#fef2f2' : 'var(--clr-surface2)',
+        transition: 'background 0.15s',
+      };
+
+      const letterColor = isCorrect ? '#166534' : isWrong ? '#991b1b' : 'var(--clr-text-muted)';
+      const textColor   = isCorrect ? '#166534' : isWrong ? '#991b1b' : 'var(--clr-text)';
+
+      return (
+        <div key={letter} style={optStyle}>
+          {/* Letter bubble */}
+          <span style={{
+            flexShrink: 0,
+            width: 22, height: 22,
+            borderRadius: '50%',
+            background: isCorrect ? '#22c55e' : isWrong ? '#ef4444' : 'var(--clr-surface3)',
+            color: isCorrect || isWrong ? '#fff' : 'var(--clr-text-muted)',
+            fontSize: 11, fontWeight: 700,
+            display: 'flex', alignItems: 'center', justifyContent: 'center',
+          }}>
+            {letter}
+          </span>
+
+          {/* Option text */}
+          <span style={{ flex: 1, fontSize: 13, lineHeight: 1.6, color: textColor }}>
+            {text}
+          </span>
+
+          {/* Right tag */}
+          {isCorrect && (
+            <span style={{
+              flexShrink: 0, fontSize: 11, fontWeight: 600,
+              color: '#166534', background: '#dcfce7',
+              padding: '2px 8px', borderRadius: 99, marginTop: 1,
+            }}>
+              ✓ Correct
+            </span>
+          )}
+          {isWrong && (
+            <span style={{
+              flexShrink: 0, fontSize: 11, fontWeight: 600,
+              color: '#991b1b', background: '#fee2e2',
+              padding: '2px 8px', borderRadius: 99, marginTop: 1,
+            }}>
+              ✗ Your answer
+            </span>
+          )}
+        </div>
+      );
+    });
+  };
+
+  // ── Marks display ────────────────────────────────────────────────────────
+  const marksColor = r.marks_awarded > 0 ? '#166534' : r.marks_awarded < 0 ? '#991b1b' : 'var(--clr-text-muted)';
+  const marksLabel = r.marks_awarded > 0 ? `+${r.marks_awarded}` : `${r.marks_awarded}`;
 
   return (
-    <Card style={{ borderLeft: `3px solid ${statusColor}` }}>
+    <div style={{
+      background: 'var(--clr-surface)',
+      border: '1px solid var(--clr-border)',
+      borderLeft: `3px solid ${statusCfg.leftBar}`,
+      borderRadius: 10,
+      overflow: 'hidden',
+      marginBottom: 6,
+    }}>
+
+      {/* ── Header (always visible) ── */}
       <div
         onClick={() => setOpen(!open)}
-        style={{ cursor: 'pointer', display: 'flex', alignItems: 'flex-start', gap: 12 }}
+        style={{
+          display: 'flex', alignItems: 'flex-start', gap: 12,
+          padding: '12px 16px', cursor: 'pointer',
+        }}
       >
-        <span style={{ flexShrink: 0, fontSize: 12, fontWeight: 700, color: statusColor, minWidth: 80 }}>
-          {statusLabel}
+        {/* Status badge */}
+        <span style={{
+          flexShrink: 0,
+          display: 'inline-flex', alignItems: 'center', gap: 4,
+          fontSize: 11, fontWeight: 600,
+          padding: '3px 9px', borderRadius: 99,
+          background: statusCfg.bg,
+          color: statusCfg.color,
+          border: `1px solid ${statusCfg.border}`,
+          marginTop: 1,
+        }}>
+          {statusCfg.icon} {statusCfg.label}
         </span>
-        <div style={{ flex: 1, fontSize: 14, lineHeight: 1.6 }}>
-          {r.question_text?.length > 120 ? r.question_text.slice(0, 120) + '…' : r.question_text}
+
+        {/* Question preview */}
+        <p style={{
+          flex: 1, fontSize: 14, lineHeight: 1.55,
+          color: 'var(--clr-text)', margin: 0,
+        }}>
+          {finalQuestionText.length > 110
+            ? finalQuestionText.slice(0, 110) + '…'
+            : finalQuestionText}
+        </p>
+
+        {/* Marks + chevron */}
+        <div style={{ flexShrink: 0, display: 'flex', alignItems: 'center', gap: 10 }}>
+          <span style={{ fontSize: 12, fontWeight: 700, color: marksColor }}>
+            {marksLabel} marks
+          </span>
+          <span style={{
+            fontSize: 11, color: 'var(--clr-text-muted)',
+            transform: open ? 'rotate(180deg)' : 'rotate(0deg)',
+            transition: 'transform 0.2s', display: 'inline-block',
+          }}>▼</span>
         </div>
-        <span style={{ color: 'var(--clr-text-muted)', flexShrink: 0 }}>{open ? '▲' : '▼'}</span>
       </div>
 
+      {/* ── Expanded body ── */}
       {open && (
-        <div style={{ marginTop: 14 }}>
+        <div style={{ borderTop: '1px solid var(--clr-border)', padding: '16px 16px 14px' }}>
+
           {/* Full question */}
-          <p style={{ fontSize: 14, lineHeight: 1.7, marginBottom: 14, color: 'var(--clr-text)' }}>{r.question_text}</p>
+          <p style={{
+            fontSize: 14, lineHeight: 1.75,
+            color: 'var(--clr-text)', marginBottom: 14,
+            fontWeight: 500,
+          }}>
+            {finalQuestionText}
+          </p>
 
           {/* Options */}
           <div style={{ display: 'flex', flexDirection: 'column', gap: 6, marginBottom: 14 }}>
-            {r.options && Object.entries(r.options).map(([letter, text]) => {
-              const isCorrect  = letter === r.correct_answer;
-              const isSelected = letter === r.selected_answer;
-              let bg = 'var(--clr-surface2)';
-              let border = 'var(--clr-border)';
-              let color  = 'var(--clr-text-muted)';
-              if (isCorrect)  { bg = 'rgba(16,185,129,0.1)'; border = '#10b981'; color = '#10b981'; }
-              if (isSelected && !isCorrect) { bg = 'rgba(239,68,68,0.1)'; border = '#ef4444'; color = '#ef4444'; }
-              return (
-                <div key={letter} style={{ display: 'flex', alignItems: 'flex-start', gap: 10, padding: '8px 12px', borderRadius: 8, background: bg, border: `1px solid ${border}` }}>
-                  <span style={{ fontWeight: 700, color, flexShrink: 0 }}>{letter}.</span>
-                  <span style={{ fontSize: 13, color }}>{text}</span>
-                  {isCorrect   && <span style={{ marginLeft: 'auto', flexShrink: 0, color: '#10b981', fontSize: 12 }}>✓ Correct answer</span>}
-                  {isSelected && !isCorrect && <span style={{ marginLeft: 'auto', flexShrink: 0, color: '#ef4444', fontSize: 12 }}>✗ Your answer</span>}
-                </div>
-              );
-            })}
+            {renderOptions()}
           </div>
 
-          {/* Student's reason */}
+          {/* Student reasoning */}
           {r.student_reason && (
-            <div style={{ marginBottom: 12, padding: '10px 14px', background: 'rgba(99,102,241,0.08)', borderRadius: 8, border: '1px solid rgba(99,102,241,0.2)' }}>
-              <div style={{ fontSize: 11, color: 'var(--clr-primary)', fontWeight: 700, marginBottom: 4 }}>YOUR REASONING</div>
-              <p style={{ fontSize: 13, color: 'var(--clr-text-muted)', lineHeight: 1.6 }}>{r.student_reason}</p>
+            <div style={{
+              marginBottom: 10, padding: '10px 14px',
+              background: 'rgba(99,102,241,0.07)',
+              border: '1px solid rgba(99,102,241,0.18)',
+              borderRadius: 8,
+            }}>
+              <div style={{ fontSize: 10, fontWeight: 700, letterSpacing: '0.07em', color: 'var(--clr-primary)', marginBottom: 4 }}>
+                YOUR REASONING
+              </div>
+              <p style={{ fontSize: 13, color: 'var(--clr-text-muted)', lineHeight: 1.6, margin: 0 }}>
+                {r.student_reason}
+              </p>
             </div>
           )}
 
           {/* Explanation */}
-          <div style={{ padding: '10px 14px', background: 'rgba(16,185,129,0.06)', borderRadius: 8, border: '1px solid rgba(16,185,129,0.2)' }}>
-            <div style={{ fontSize: 11, color: '#10b981', fontWeight: 700, marginBottom: 4 }}>EXPLANATION</div>
-            <p style={{ fontSize: 13, color: 'var(--clr-text)', lineHeight: 1.7 }}>{r.explanation}</p>
+          <div style={{
+            padding: '10px 14px', marginBottom: 14,
+            background: '#f0fdf4',
+            border: '1px solid #86efac',
+            borderRadius: 8,
+          }}>
+            <div style={{ fontSize: 10, fontWeight: 700, letterSpacing: '0.07em', color: '#166534', marginBottom: 5 }}>
+              EXPLANATION
+            </div>
+            <p style={{ fontSize: 13, color: '#14532d', lineHeight: 1.75, margin: 0 }}>
+              {r.explanation || "No explanation available."}
+            </p>
           </div>
 
-          {/* Meta */}
-          <div style={{ display: 'flex', gap: 10, marginTop: 10, flexWrap: 'wrap' }}>
-            <span style={{ fontSize: 11, color: 'var(--clr-text-muted)', background: 'var(--clr-surface2)', padding: '2px 8px', borderRadius: 99 }}>
+          {/* Meta row */}
+          <div style={{ display: 'flex', alignItems: 'center', gap: 6, flexWrap: 'wrap' }}>
+            <span style={{
+              fontSize: 11, padding: '2px 9px', borderRadius: 99,
+              background: 'var(--clr-surface2)', color: 'var(--clr-text-muted)',
+              border: '1px solid var(--clr-border)',
+            }}>
               {r.subject}
             </span>
-            {r.topic && <span style={{ fontSize: 11, color: 'var(--clr-text-muted)', background: 'var(--clr-surface2)', padding: '2px 8px', borderRadius: 99 }}>{r.topic}</span>}
-            <span style={{ fontSize: 11, color: difficultyColor(r.difficulty).text, background: difficultyColor(r.difficulty).bg, padding: '2px 8px', borderRadius: 99 }}>
-              {r.difficulty}
-            </span>
-            <span style={{ fontSize: 11, color: statusColor, fontWeight: 700, marginLeft: 'auto' }}>
-              {r.marks_awarded > 0 ? `+${r.marks_awarded}` : r.marks_awarded} marks
+            {r.topic && (
+              <span style={{
+                fontSize: 11, padding: '2px 9px', borderRadius: 99,
+                background: 'var(--clr-surface2)', color: 'var(--clr-text-muted)',
+                border: '1px solid var(--clr-border)',
+              }}>
+                {r.topic}
+              </span>
+            )}
+            {r.subtopic && (
+              <span style={{
+                fontSize: 11, padding: '2px 9px', borderRadius: 99,
+                background: 'var(--clr-surface2)', color: 'var(--clr-text-muted)',
+                border: '1px solid var(--clr-border)',
+              }}>
+                {r.subtopic}
+              </span>
+            )}
+            <span style={{
+              fontSize: 11, padding: '2px 9px', borderRadius: 99,
+              background: diff.bg, color: diff.color,
+              border: `1px solid ${diff.border}`,
+            }}>
+              {r.difficulty || 'Moderate'}
             </span>
           </div>
         </div>
       )}
-    </Card>
+    </div>
   );
 }
