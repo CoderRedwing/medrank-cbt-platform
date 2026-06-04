@@ -1153,5 +1153,39 @@
       "Dermatology",
       "Forensic Medicine"
     ]
+  },
+
+  {
+    "paper_id": "FP_36",
+    "paper_number": 36,
+    "paper_title": "NEET PG Full Mock Paper 36",
+    "total_questions": 200,
+    "difficulty_mix": {
+      "Easy": "20%",
+      "Moderate": "40%",
+      "Hard": "30%",
+      "Very Hard": "10%"
+    },
+    "subjects_covered": [
+      "Medicine",
+      "Surgery",
+      "Pathology",
+      "Pharmacology",
+      "OBGYN",
+      "Microbiology",
+      "Pediatrics",
+      "PSM",
+      "Anatomy",
+      "Physiology",
+      "Biochemistry",
+      "ENT",
+      "Ophthalmology",
+      "Orthopedics",
+      "Psychiatry",
+      "Radiology",
+      "Anaesthesia",
+      "Dermatology",
+      "Forensic Medicine"
+    ]
   }
 ]

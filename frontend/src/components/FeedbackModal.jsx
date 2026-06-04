@@ -9,7 +9,7 @@ export default function FeedbackModal({ onClose }) {
   const [category, setCategory] = useState('General');
   const [loading,  setLoading]  = useState(false);
   const [done,     setDone]     = useState(false);
-  const { user }                = useAuthStore();
+  const { user, init } = useAuthStore();
 
   // Don't show if already rated
   if (user?.feedback?.rating) return null;
@@ -19,6 +19,7 @@ export default function FeedbackModal({ onClose }) {
     setLoading(true);
     try {
       await api.post('/feedback', { rating, comment, category });
+      await init();
       setDone(true);
       setTimeout(onClose, 2000);
     } catch (err) {
