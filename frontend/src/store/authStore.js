@@ -36,7 +36,10 @@ const useAuthStore = create((set, get) => ({
       set({ user: data.user, token: data.token, loading: false });
       return { success: true };
     } catch (err) {
-      const msg = err.response?.data?.message || 'Registration failed';
+      const data = err.response?.data;
+      const msg = data?.message 
+  || data?.errors?.[0]?.msg  // ← validation errors
+  || 'Registration failed';
       set({ loading: false, error: msg });
       return { success: false, message: msg };
     }

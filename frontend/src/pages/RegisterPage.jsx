@@ -39,7 +39,8 @@ export default function RegisterPage() {
           <form onSubmit={handleSubmit} style={{ marginTop: 16, display: 'flex', flexDirection: 'column', gap: 16 }}>
             <Field label="Full Name" value={form.name} onChange={set('name')} placeholder="Dr. Priya Sharma" />
             <Field label="Email" type="email" value={form.email} onChange={set('email')} placeholder="you@example.com" />
-            <Field label="Password" type="password" value={form.password} onChange={set('password')} placeholder="Min 6 characters" />
+            <Field label="Password" type="password" value={form.password} 
+              onChange={set('password')} placeholder="Min 8 chars, 1 uppercase, 1 number" />
 
             <div>
               <label style={{ display: 'block', fontSize: 13, fontWeight: 500, color: 'var(--clr-text-muted)', marginBottom: 6 }}>
