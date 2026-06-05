@@ -2,6 +2,8 @@ const User        = require('../models/User');
 const TestSession = require('../models/TestSession');
 
 // POST /api/feedback  — submit rating
+const VALID_CATEGORIES = ['General', 'UI', 'Questions', 'Performance', 'AI Tutor'];
+
 const submitFeedback = async (req, res) => {
   try {
     const { rating, comment, category } = req.body;
@@ -9,27 +11,28 @@ const submitFeedback = async (req, res) => {
     if (!rating || rating < 1 || rating > 5)
       return res.status(400).json({ success: false, message: 'Rating must be between 1 and 5' });
 
-    // Guard 1: already rated
-    const user = await User.findById(req.user._id);
+    const [user, testCount] = await Promise.all([
+      User.findById(req.user._id),
+      TestSession.countDocuments({ user: req.user._id, status: 'submitted' }),
+    ]);
+
+    if (!user)
+      return res.status(404).json({ success: false, message: 'User not found' });
+
     if (user.feedback?.rating)
       return res.status(400).json({ success: false, message: 'You have already submitted a rating' });
 
-    // Guard 2: must have completed at least 1 test
-    const testCount = await TestSession.countDocuments({
-      user: req.user._id, status: 'submitted'
-    });
     if (testCount < 1)
       return res.status(403).json({ success: false, message: 'Complete at least one test to leave a rating' });
 
-    // Guard 3: account older than 3 days
-    const ageDays = (Date.now() - user.createdAt) / (1000 * 60 * 60 * 24);
-    if (ageDays < 1)
-      return res.status(403).json({ success: false, message: 'Account must be at least 3 days old to rate' });
+    // const ageDays = (Date.now() - user.createdAt) / (1000 * 60 * 60 * 24);
+    // if (ageDays < 1)
+    //   return res.status(403).json({ success: false, message: 'Account must be at least 1 days old to rate' });
 
     user.feedback = {
       rating,
       comment:              comment?.trim().slice(0, 500) || '',
-      category:             category || 'General',
+      category:             VALID_CATEGORIES.includes(category) ? category : 'General',
       submittedAt:          new Date(),
       testsCompletedAtTime: testCount,
     };
