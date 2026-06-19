@@ -3,11 +3,13 @@
   "paper_type": "topic_wise",
   "subject": "Biochemistry",
   "topic": "Metabolism",
-  "total_questions": 4,
+  "total_questions": 5,
   "difficulty_distribution": {
-    "Easy": 4
+    "Easy": 1,
+    "Medium": 3,
+    "Hard": 1
   },
-  "created_at": "2026-05-30",
+  "created_at": "2026-06-06",
   "questions": [
     {
       "question_id": "TW_BIOCHEMI_METABOLISM_Q001",
@@ -15,14 +17,14 @@
       "paper_ref": "TW_BIOCHEMI_METABOLISM",
       "subject": "Biochemistry",
       "topic": "Metabolism",
-      "subtopic": null,
+      "subtopic": "Amino Acid Metabolism",
       "difficulty": "Easy",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Phenylketonuria (PKU): enzyme deficient?",
+      "question_text": "A 2-month-old male infant is brought to the clinic for a routine check-up. The mother notes that the child has been increasingly irritable and exhibits a peculiar, musty odor in his urine. Physical examination reveals a noticeably fair complexion, light blonde hair, and early developmental delay. A deficiency in which of the following enzymes is responsible for this condition?",
       "options": {
         "A": "Tyrosine hydroxylase",
         "B": "Phenylalanine hydroxylase",
@@ -38,14 +40,14 @@
       "paper_ref": "TW_BIOCHEMI_METABOLISM",
       "subject": "Biochemistry",
       "topic": "Metabolism",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Lysosomal Storage Diseases",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Gaucher disease: enzyme deficient?",
+      "question_text": "A 34-year-old male presents with persistent fatigue, bone pain, and abdominal fullness. Physical examination reveals massive splenomegaly and moderate hepatomegaly. Bone marrow aspirate is performed, showing large, lipid-laden macrophages with a distinctive cytological appearance resembling 'wrinkled tissue paper'. Which of the following enzymes is deficient in this patient?",
       "options": {
         "A": "Hexosaminidase A",
         "B": "Glucocerebrosidase (beta-glucosidase)",
@@ -61,19 +63,19 @@
       "paper_ref": "TW_BIOCHEMI_METABOLISM",
       "subject": "Biochemistry",
       "topic": "Metabolism",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Carbohydrate Metabolism",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Enzyme deficient in G6PD deficiency?",
+      "question_text": "A 24-year-old military recruit traveling abroad is prescribed primaquine for malaria prophylaxis. A few days later, he presents to an emergency department with severe fatigue, dark, tea-colored urine, and yellowish discoloration of his sclera. Lab work demonstrates an acute episode of hemolytic anemia. This clinical presentation is fundamentally caused by a functional deficiency in an enzyme that serves which cellular role?",
       "options": {
-        "A": "Hexokinase",
-        "B": "Glucose-6-phosphate dehydrogenase",
-        "C": "Pyruvate kinase",
-        "D": "Aldolase"
+        "A": "First committed step of glycolysis to generate ATP",
+        "B": "Rate-limiting step of the pentose phosphate pathway to maintain reduced glutathione",
+        "C": "Final step of anaerobic glycolysis in red blood cells",
+        "D": "Cleavage of fructose-1,6-bisphosphate during stress"
       },
       "correct_answer": "B",
       "explanation": "G6PD deficiency: X-linked. G6PD generates NADPH via pentose phosphate pathway → maintains GSH → protects RBCs from oxidative stress. Trigger: infections, drugs (primaquine, dapsone)."
@@ -84,14 +86,14 @@
       "paper_ref": "TW_BIOCHEMI_METABOLISM",
       "subject": "Biochemistry",
       "topic": "Metabolism",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Carbohydrate Metabolism",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Rate-limiting enzyme of glycolysis?",
+      "question_text": "A biochemistry student is studying cell culture metabolic dynamics under conditions of high intracellular ATP and citrate concentrations. She observes a profound slowing down of glucose utilization through the glycolytic pathway. Which of the following rate-limiting enzymes of glycolysis is directly inhibited by these high-energy state indicators?",
       "options": {
         "A": "Hexokinase",
         "B": "Phosphofructokinase-1 (PFK-1)",
@@ -100,6 +102,29 @@
       },
       "correct_answer": "B",
       "explanation": "PFK-1 is the key regulatory enzyme of glycolysis. Inhibited by: ATP, citrate. Activated by: AMP, ADP, fructose-2,6-bisphosphate (most potent activator). Site of glycolytic control."
+    },
+    {
+      "question_id": "TW_BIOCHEMI_METABOLISM_Q005",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_BIOCHEMI_METABOLISM",
+      "subject": "Biochemistry",
+      "topic": "Metabolism",
+      "subtopic": "Purine Metabolism",
+      "difficulty": "Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 14-month-old boy is brought to the pediatric clinic due to severe developmental delays, spasticity, and a striking tendency to bite his own lips and fingers, causing noticeable ulcerations. The parents also report finding orange, sand-like crystals in his diapers. This severe neurodevelopmental disorder is caused by a failure of the purine salvage pathway due to a total deficiency of which enzyme?",
+      "options": {
+        "A": "Adenosine deaminase (ADA)",
+        "B": "Hypoxanthine-guanine phosphoribosyltransferase (HGPRT)",
+        "C": "Xanthine oxidase",
+        "D": "Phosphoribosylpyrophosphate (PRPP) synthetase"
+      },
+      "correct_answer": "B",
+      "explanation": "This case describes Lesch-Nyhan syndrome, an X-linked recessive disorder characterized by intellectual disability, severe self-mutilation, and hyperuricemia (orange crystals in diaper). It is caused by a structural or functional absence of HGPRT, which converts hypoxanthine to IMP and guanine to GMP in the purine salvage pathway, causing excess purine synthesis and uric acid overproduction."
     }
   ]
 }

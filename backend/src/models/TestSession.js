@@ -7,7 +7,7 @@ const questionResponseSchema = new mongoose.Schema(
     subject:         { type: String, required: true },
     topic:           { type: String, default: '' },
     subtopic:        { type: String, default: '' },
-    difficulty:      { type: String, enum: ['Easy', 'Moderate', 'Hard', 'Very Hard'] },
+    difficulty:      { type: String, enum: ['Easy', 'Medium', 'Hard', 'Very Hard','Moderate'] },
     // Student's selected option (null = unanswered)
     selected_answer: { type: String, enum: ['A', 'B', 'C', 'D', null], default: null },
     correct_answer:  { type: String, enum: ['A', 'B', 'C', 'D'] },
@@ -53,6 +53,10 @@ const testSessionSchema = new mongoose.Schema(
     },
     // Reference to the paper/bank used
     paper_ref:   { type: String, required: true }, // e.g. "FP_01", "SP_MEDICINE_02"
+    difficulty: { 
+      type: String, 
+      enum: ['Easy', 'Medium', 'Hard', 'Very Hard', 'Moderate'],  
+    },
     paper_title: { type: String, default: '' },
     // Subject / topic scope (for subject/topic tests)
     subject:     { type: String, default: '' },

@@ -3,11 +3,13 @@
   "paper_type": "topic_wise",
   "subject": "Microbiology",
   "topic": "Parasitology",
-  "total_questions": 3,
+  "total_questions": 10,
   "difficulty_distribution": {
-    "Easy": 3
+    "Easy": 2,
+    "Medium": 6,
+    "Hard": 2
   },
-  "created_at": "2026-05-30",
+  "created_at": "2026-06-06",
   "questions": [
     {
       "question_id": "TW_MICROBIO_PARASITOLOGY_Q001",
@@ -62,7 +64,7 @@
       "subject": "Microbiology",
       "topic": "Parasitology",
       "subtopic": null,
-      "difficulty": "Easy",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
@@ -77,6 +79,167 @@
       },
       "correct_answer": "C",
       "explanation": "P. falciparum: ring forms (multiple rings/cell, accole forms), banana/crescent-shaped gametocytes. Maurer's clefts. Causes cerebral malaria, severe anemia, blackwater fever."
+    },
+    {
+      "question_id": "TW_MICROBIO_PARASITOLOGY_Q004",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MICROBIO_PARASITOLOGY",
+      "subject": "Microbiology",
+      "topic": "Parasitology",
+      "subtopic": null,
+      "difficulty": "Medium",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 24-year-old male presents with foul-smelling, watery, greasy diarrhea accompanied by significant abdominal bloating and flatulence after returning from a camping and hiking trip in the Rocky Mountains. Stool microscopy reveals flagellated, pear-shaped trophozoites with two nuclei and a distinct sucking disc. What is the mechanism of action of the first-line medication used to treat this condition?",
+      "options": {
+        "A": "Inhibition of microtubule polymerization by binding to beta-tubulin",
+        "B": "Forming free radicals within the cell that disrupt DNA helical structures",
+        "C": "Binding to 30S ribosomal subunits to block protein synthesis",
+        "D": "Inhibiting the enzyme chitin synthase within the protozoan wall"
+      },
+      "correct_answer": "B",
+      "explanation": "The patient has Giardiasis caused by Giardia lamblia, acquired from drinking contaminated wilderness water. The description matches its characteristic trophozoite. First-line therapy is Metronidazole, which is reduced intracellularly into reactive nitrogen free radicals that damage parasite DNA."
+    },
+    {
+      "question_id": "TW_MICROBIO_PARASITOLOGY_Q005",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MICROBIO_PARASITOLOGY",
+      "subject": "Microbiology",
+      "topic": "Parasitology",
+      "subtopic": null,
+      "difficulty": "Medium",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 38-year-old female presents with persistent, profuse, foul-smelling green vaginal discharge accompanied by intense vulvar pruritus and burning on urination. Speculum examination demonstrates erythema of the vaginal mucosa with punctate hemorrhages over the cervix ('strawberry cervix'). Vaginal pH is measured at 6.0. Wet mount microscopy confirms motile, flagellated organisms. Which statement regarding management is correct?",
+      "options": {
+        "A": "Treat the patient only; partner treatment is unnecessary without symptoms",
+        "B": "Prescribe topical Clotrimazole cream for 7 days",
+        "C": "Treat both the patient and sexual partner simultaneously with oral Metronidazole",
+        "D": "Administer a single intramuscular injection of Ceftriaxone"
+      },
+      "correct_answer": "C",
+      "explanation": "This patient has Trichomoniasis caused by Trichomonas vaginalis. It presents with a classic strawberry cervix, elevated vaginal pH (>4.5), and motile flagellated trophozoites on wet mount. Because it is a sexually transmitted infection, simultaneous treatment of both sexual partners with oral Metronidazole or Tinidazole is required to prevent reinfection."
+    },
+    {
+      "question_id": "TW_MICROBIO_PARASITOLOGY_Q006",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MICROBIO_PARASITOLOGY",
+      "subject": "Microbiology",
+      "topic": "Parasitology",
+      "subtopic": null,
+      "difficulty": "Medium",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 29-year-old female at 12 weeks of gestation presents to the clinic for a routine evaluation. She reports owning three outdoor cats and occasionally cleaning the litter box. Serological screenings show positive anti-Toxoplasma IgM and low-avidity IgG titers, confirming acute gestational toxoplasmosis. To reduce the risk of transplacental transmission to the fetus, which drug should be immediately initiated?",
+      "options": {
+        "A": "Pyrimethamine plus Sulfadiazine",
+        "B": "Spiramycin",
+        "C": "Trimethoprim-Sulfamethoxazole",
+        "D": "Albendazole"
+      },
+      "correct_answer": "B",
+      "explanation": "In acute maternal toxoplasmosis acquired during the first trimester, Spiramycin is utilized for fetal prophylaxis because it concentrates heavily in the placenta and lacks the teratogenic risks of antifolates. Pyrimethamine-Sulfadiazine is reserved for later trimesters if fetal infection has already been documented via amniocentesis."
+    },
+    {
+      "question_id": "TW_MICROBIO_PARASITOLOGY_Q007",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MICROBIO_PARASITOLOGY",
+      "subject": "Microbiology",
+      "topic": "Parasitology",
+      "subtopic": null,
+      "difficulty": "Medium",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "An 8-year-old boy is brought to the pediatrician due to intense perianal itching, predominantly at night, which disrupts his sleep. The physician performs a cellulose tape test over the perianal skin in the early morning. Microscopic evaluation demonstrates asymmetric, clear eggs flat on one side. What is the standard first-line therapeutic agent?",
+      "options": {
+        "A": "Praziquantel",
+        "B": "Pyrantel pamoate or Mebendazole",
+        "C": "Ivermectin",
+        "D": "Diethylcarbamazine"
+      },
+      "correct_answer": "B",
+      "explanation": "The clinical picture matches Enterobiasis (pinworm infection) caused by Enterobius vermicularis. Diagnosis is made via the Scotch tape test identifying flattened D-shaped eggs. First-line management involves Pyrantel pamoate or Albendazole/Mebendazole, given as an initial dose and repeated after 2 weeks to eliminate newly hatched larvae."
+    },
+    {
+      "question_id": "TW_MICROBIO_PARASITOLOGY_Q008",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MICROBIO_PARASITOLOGY",
+      "subject": "Microbiology",
+      "topic": "Parasitology",
+      "subtopic": null,
+      "difficulty": "Medium",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 35-year-old immigrant from East Africa presents with recurrent, painless gross hematuria. Cystoscopy reveals chronic inflammation and hyperplastic nodules near the bladder trigone. Microscopic analysis of a concentrated terminal urine sample reveals large oval eggs with a distinctive, sharp terminal spine. Chronic infection with this parasite predisposes the patient to which type of malignancy?",
+      "options": {
+        "A": "Transitional cell carcinoma of the bladder",
+        "B": "Squamous cell carcinoma of the bladder",
+        "C": "Adenocarcinoma of the prostate",
+        "D": "Renal cell carcinoma"
+      },
+      "correct_answer": "B",
+      "explanation": "Schistosoma hematobium is endemic to parts of Africa and the Middle East. It localizes to the venous plexus of the urinary bladder. Chronic irritation from terminal-spined eggs causes squamous metaplasia of the bladder epithelium, highly predisposing patients to Squamous Cell Carcinoma of the bladder."
+    },
+    {
+      "question_id": "TW_MICROBIO_PARASITOLOGY_Q009",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MICROBIO_PARASITOLOGY",
+      "subject": "Microbiology",
+      "topic": "Parasitology",
+      "subtopic": null,
+      "difficulty": "Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "An immunocompromised 40-year-old HIV patient with a CD4 count of 80 cells/uL presents with non-bloody, profuse, watery diarrhea and severe abdominal cramping. A modified acid-fast stain of the stool sample reveals round, oocysts measuring 4–5 micrometers that stain bright red against a blue background. Which structural adaptation allows this organism to withstand standard water chlorination methods?",
+      "options": {
+        "A": "Thick, multi-layered oocyst wall composed of chitin and proteins",
+        "B": "Innate ability to convert into a calcium-shielded vegetative spore",
+        "C": "A dense carbohydrate capsule that prevents oxidative damage",
+        "D": "An outer flagellar sheath that repels halogen ions"
+      },
+      "correct_answer": "A",
+      "explanation": "The patient has Cryptosporidiosis, a common cause of intractable diarrhea in AIDS patients. Cryptosporidium parvum oocysts are small (4-5 um) and modified acid-fast positive. Their highly resistant, multi-layered outer wall makes them virtually impervious to traditional water chlorination protocols, necessitating filtration or ozone treatment."
+    },
+    {
+      "question_id": "TW_MICROBIO_PARASITOLOGY_Q010",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MICROBIO_PARASITOLOGY",
+      "subject": "Microbiology",
+      "topic": "Parasitology",
+      "subtopic": null,
+      "difficulty": "Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 43-year-old male from a rural farming community presents with abdominal fullness, discomfort, and a slow-growing palpable mass in the right upper quadrant. An abdominal ultrasound demonstrates a large, well-circumscribed cyst in the right hepatic lobe containing multiple smaller internal 'daughter cysts' and a thick laminated wall. What life-threatening complication must the surgical team prevent during surgical removal or aspiration of this lesion?",
+      "options": {
+        "A": "Fulminant hepatic failure from hepatocyte disruption",
+        "B": "Disseminated intravascular coagulation from thrombin-like factors",
+        "C": "Anaphylactic shock from leakage of highly antigenic hydatid fluid",
+        "D": "Acute portal vein thrombosis from mechanical pressure drop"
+      },
+      "correct_answer": "C",
+      "explanation": "This patient has Echinococcosis (hydatid cyst disease) caused by Echinococcus granulosus. The cyst contains daughter cysts and antigenic fluid. If the cyst ruptures or leaks during removal or aspiration, it can induce severe anaphylactic shock. To mitigate this risk, surgeons inject scolicidal agents (like hypertonic saline) before carefully resecting the cyst."
     }
   ]
 }

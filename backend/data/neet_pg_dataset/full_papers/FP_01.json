@@ -6,7 +6,7 @@
   "pattern": "NEET PG 2024+ Pattern",
   "difficulty_mix": {
     "Easy": "20%",
-    "Moderate": "40%",
+    "Medium": "40%",
     "Hard": "30%",
     "Very Hard": "10%"
   },

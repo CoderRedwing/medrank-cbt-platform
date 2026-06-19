@@ -41,7 +41,7 @@
       "type": "string",
       "enum": [
         "Easy",
-        "Moderate",
+        "Medium",
         "Hard",
         "Very Hard"
       ]

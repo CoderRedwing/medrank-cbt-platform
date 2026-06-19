@@ -3,11 +3,13 @@
   "paper_type": "topic_wise",
   "subject": "Forensic Medicine",
   "topic": "Asphyxia and Toxicology",
-  "total_questions": 2,
+  "total_questions": 5,
   "difficulty_distribution": {
-    "Easy": 2
+    "Easy": 1,
+    "Medium": 3,
+    "Hard": 1
   },
-  "created_at": "2026-05-30",
+  "created_at": "2026-06-06",
   "questions": [
     {
       "question_id": "TW_FORENSIC_ASPHYXIA_AND_Q001",
@@ -15,22 +17,22 @@
       "paper_ref": "TW_FORENSIC_ASPHYXIA_AND",
       "subject": "Forensic Medicine",
       "topic": "Asphyxia and Toxicology",
-      "subtopic": null,
+      "subtopic": "Asphyxia",
       "difficulty": "Easy",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Diatom test (Incinerator test) is done for?",
+      "question_text": "The body of a deceased individual is recovered from a local river, and an autopsy is conducted to establish the cause of death. The forensic pathologist extracts tissue from the deep bone marrow of the intact femur and performs an acid digestion/incinerator test. The recovery of microscopic, siliceous diatom shells from this closed organ site provides conclusive evidence for which of the following?",
       "options": {
-        "A": "Carbon monoxide poisoning",
-        "B": "Drowning diagnosis",
-        "C": "Strychnine poisoning",
-        "D": "Cyanide poisoning"
+        "A": "Postmortem dumping of a murdered body into water",
+        "B": "Antemortem drowning where the individual was alive when submerged",
+        "C": "Acute accidental carbon monoxide poisoning",
+        "D": "Chronic heavy metal toxicity from industrial runoff"
       },
       "correct_answer": "B",
-      "explanation": "Diatom test (Getler/Owen test): siliceous diatom shells found in bone marrow/viscera confirm antemortem drowning (diatoms can only enter circulation when heart is beating). Speciation confirms water source."
+      "explanation": "Diatom test (Getler/Owen test): siliceous diatom shells found in bone marrow/viscera confirm antemortem drowning (diatoms can only enter circulation when heart is beating). Speciation confirms water source.[cite: 20]"
     },
     {
       "question_id": "TW_FORENSIC_ASPHYXIA_AND_Q002",
@@ -38,22 +40,91 @@
       "paper_ref": "TW_FORENSIC_ASPHYXIA_AND",
       "subject": "Forensic Medicine",
       "topic": "Asphyxia and Toxicology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Toxicology",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Carbon monoxide poisoning: cherry-red color of skin is due to?",
+      "question_text": "An autopsy is conducted on a victim found dead inside a sealed garage containing a vehicle with a running engine. The forensic pathologist notes a striking, characteristic cherry-red discoloration across the skin, mucous membranes, and internal visceral organs. What chemical compound formation is directly responsible for this distinct postmortem finding?",
       "options": {
-        "A": "Cyanosis",
-        "B": "Carboxyhemoglobin (HbCO) formation",
-        "C": "Methemoglobin",
-        "D": "Venous congestion"
+        "A": "Methemoglobin induced by nitrite exposure",
+        "B": "Carboxyhemoglobin (HbCO) due to inhalation of carbon monoxide",
+        "C": "Cyanmethemoglobin due to cyanide gas exposure",
+        "D": "Sulfhemoglobin resulting from hydrogen sulfide inhalation"
       },
       "correct_answer": "B",
-      "explanation": "CO poisoning: HbCO (cherry-pink/red discoloration of mucous membranes, lividity, organs). CO has 240x affinity for Hb vs O2. Treatment: 100% O2 (hyperbaric in severe). CO also binds cytochrome oxidase."
+      "explanation": "CO poisoning: HbCO (cherry-pink/red discoloration of mucous membranes, lividity, organs). CO has 240x affinity for Hb vs O2. Treatment: 100% O2 (hyperbaric in severe). CO also binds cytochrome oxidase.[cite: 20]"
+    },
+    {
+      "question_id": "TW_FORENSIC_ASPHYXIA_AND_Q003",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_FORENSIC_ASPHYXIA_AND",
+      "subject": "Forensic Medicine",
+      "topic": "Asphyxia and Toxicology",
+      "subtopic": "Toxicology",
+      "difficulty": "Medium",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 45-year-old male is brought to the emergency department unconscious following a fire in an enclosed warehouse. His labs reveal a severe lactic acidosis, and his breath smells faintly of bitter almonds. Assuming concurrent cyanide toxicity alongside smoke inhalation, what is the mechanism of action of cyanide at the cellular level?",
+      "options": {
+        "A": "Inhibition of acetylcholinesterase at neuromuscular junctions",
+        "B": "Irreversible inhibition of cytochrome c oxidase ($aa_3$) in the mitochondrial electron transport chain",
+        "C": "Blockade of voltage-gated sodium channels in myocardial tissue",
+        "D": "Competitive binding to the oxygen-binding sites of myoglobin molecules"
+      },
+      "correct_answer": "B",
+      "explanation": "Cyanide binds to the ferric iron ($Fe^{3+}$) in cytochrome c oxidase (complex IV) of the mitochondrial electron transport chain, halting aerobic respiration. This forces cells into anaerobic metabolism, leading to rapid cellular hypoxia and severe lactic acidosis. A bitter almond odor is characteristic."
+    },
+    {
+      "question_id": "TW_FORENSIC_ASPHYXIA_AND_Q004",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_FORENSIC_ASPHYXIA_AND",
+      "subject": "Forensic Medicine",
+      "topic": "Asphyxia and Toxicology",
+      "subtopic": "Asphyxia",
+      "difficulty": "Medium",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "During an autopsy of a suspected homicide case involving neck compression, the pathologist documents a fractured hyoid bone, a discontinuous and oblique ligature mark located entirely above the thyroid cartilage, and pale, dry underlying subcutaneous neck tissues without deep muscle bruising. These specific findings align most closely with which mechanism?",
+      "options": {
+        "A": "Homicidal manual strangulation",
+        "B": "Ante-mortem suicidal hanging",
+        "C": "Post-mortem suspension of a body to simulate hanging",
+        "D": "Homicidal ligature strangulation"
+      },
+      "correct_answer": "B",
+      "explanation": "In hanging, the ligature mark is typically oblique, non-continuous, and positioned high up on the neck above the thyroid cartilage. A fractured hyoid bone is common in older individuals. Conversely, homicidal strangulation typically presents with a low, horizontal, continuous ligature mark with heavy bruising of the underlying neck muscles."
+    },
+    {
+      "question_id": "TW_FORENSIC_ASPHYXIA_AND_Q005",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_FORENSIC_ASPHYXIA_AND",
+      "subject": "Forensic Medicine",
+      "topic": "Asphyxia and Toxicology",
+      "subtopic": "Toxicology",
+      "difficulty": "Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A deceased individual is discovered in a rural farming community. Autopsy reveals extensive, generalized hyperpigmentation ('raindrop' pigmentation on the trunk), hyperkeratosis of the palms and soles, and multiple cutaneous squamous cell carcinomas. Toxicology testing on the hair and nail fragments is ordered. What chronic environmental poison or toxin is responsible for these multisystem skin manifestations?",
+      "options": {
+        "A": "Chronic lead poisoning (Plumbism)",
+        "B": "Chronic arsenic poisoning (Arsenicism)",
+        "C": "Acute organophosphate toxicity",
+        "D": "Mercury toxicity (Hydrargyrism)"
+      },
+      "correct_answer": "B",
+      "explanation": "Chronic arsenic poisoning causes characteristic cutaneous signs including 'raindrop' hyperpigmentation, palmar-plantar hyperkeratosis, and increased risk of skin cancers (SCC, BCC). It deposits in keratin-rich tissues like hair and nails (where Aldrich-Mees lines may also be seen), making them ideal matrices for forensic confirmation."
     }
   ]
 }

@@ -3,11 +3,13 @@
   "paper_type": "topic_wise",
   "subject": "Medicine",
   "topic": "Neurology",
-  "total_questions": 8,
+  "total_questions": 10,
   "difficulty_distribution": {
-    "Easy": 8
+    "Easy": 2,
+    "Medium": 6,
+    "Hard": 2
   },
-  "created_at": "2026-05-30",
+  "created_at": "2026-06-06",
   "questions": [
     {
       "question_id": "TW_MEDICINE_NEUROLOGY_Q001",
@@ -15,22 +17,22 @@
       "paper_ref": "TW_MEDICINE_NEUROLOGY",
       "subject": "Medicine",
       "topic": "Neurology",
-      "subtopic": null,
+      "subtopic": "Movement Disorders",
       "difficulty": "Easy",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Resting tremor, cogwheel rigidity, bradykinesia, postural instability — diagnosis?",
+      "question_text": "A 64-year-old male presents with a 1-year history of a progressive 'shaking' in his right hand at rest, which improves when he reaches for objects. His family notes that he now walks with a stooped posture, has micrographic handwriting, and displays a notable lack of facial expression. On examination, there is an asymmetric 'pill-rolling' tremor and resistance to passive movement that yields a jerky sensation. What is the primary clinical diagnosis?",
       "options": {
         "A": "Essential tremor",
         "B": "Parkinson's disease",
         "C": "Wilson's disease",
-        "D": "Huntington's disease"
+        "D": "Huntington's chorea"
       },
       "correct_answer": "B",
-      "explanation": "Parkinson's disease: TRAP (Tremor-Rigidity-Akinesia-Postural instability). Loss of dopaminergic neurons in substantia nigra. Lewy bodies."
+      "explanation": "The patient exhibits the classic clinical tetrad of Parkinson's disease: asymmetric resting tremor, cogwheel rigidity, bradykinesia (masked facies, micrographia), and postural instability. The underlying pathology involves degeneration of dopaminergic neurons within the substantia nigra pars compacta and intracellular accumulation of alpha-synuclein (Lewy bodies)."
     },
     {
       "question_id": "TW_MEDICINE_NEUROLOGY_Q002",
@@ -38,37 +40,14 @@
       "paper_ref": "TW_MEDICINE_NEUROLOGY",
       "subject": "Medicine",
       "topic": "Neurology",
-      "subtopic": null,
+      "subtopic": "Cranial Nerve Disorders",
       "difficulty": "Easy",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "CSF in bacterial meningitis shows?",
-      "options": {
-        "A": "High glucose, low protein, lymphocytes",
-        "B": "Low glucose, high protein, neutrophils",
-        "C": "Normal glucose, high protein, lymphocytes",
-        "D": "Low glucose, low protein, neutrophils"
-      },
-      "correct_answer": "B",
-      "explanation": "Bacterial meningitis: low glucose (<45 mg/dL), high protein, neutrophilic pleocytosis. Viral: normal/high glucose, moderate protein, lymphocytes."
-    },
-    {
-      "question_id": "TW_MEDICINE_NEUROLOGY_Q003",
-      "paper_type": "topic_wise",
-      "paper_ref": "TW_MEDICINE_NEUROLOGY",
-      "subject": "Medicine",
-      "topic": "Neurology",
-      "subtopic": null,
-      "difficulty": "Easy",
-      "question_type": "single_best_answer",
-      "image_based": false,
-      "marks_correct": 4,
-      "marks_incorrect": -1,
-      "marks_unanswered": 0,
-      "question_text": "A patient with trigeminal neuralgia: electric shock-like pain in V2/V3 territory. Drug of choice?",
+      "question_text": "A 45-year-old female presents with severe, episodic, electric shock-like pain on the right side of her face. The episodes last for a few seconds and are triggered by light touch, brushing her teeth, or cold wind striking her cheek. Neurological examination reveals no focal sensory deficits. What is the first-line pharmacological agent of choice for this condition?",
       "options": {
         "A": "Amitriptyline",
         "B": "Carbamazepine",
@@ -76,7 +55,30 @@
         "D": "Phenytoin"
       },
       "correct_answer": "B",
-      "explanation": "Carbamazepine (tegretol) is DOC for trigeminal neuralgia. Blocks sodium channels. If refractory: MVD (microvascular decompression)."
+      "explanation": "Trigeminal neuralgia manifests as sudden, brief, severe, stabbing/electric shock-like pain restricted to the distribution of the trigeminal nerve branches (typically V2 and V3). Carbamazepine is the established first-line medical treatment of choice, acting by stabilizing hyperexcited nerve membranes via voltage-gated sodium channel block."
+    },
+    {
+      "question_id": "TW_MEDICINE_NEUROLOGY_Q003",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MEDICINE_NEUROLOGY",
+      "subject": "Medicine",
+      "topic": "Neurology",
+      "subtopic": "Central Nervous System Infections",
+      "difficulty": "Medium",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 22-year-old male student is brought to the emergency department with a 24-hour history of high fever, severe headache, photophobia, and altered consciousness. On physical examination, his temperature is 103.1°F (39.5°C), and both Kernig's and Brudzinski's signs are strongly positive. An urgent lumbar puncture is performed. Which of the following cerebrospinal fluid (CSF) profiles is most consistent with this diagnosis?",
+      "options": {
+        "A": "Elevated glucose, low protein, lymphocytic pleocytosis",
+        "B": "Low glucose, markedly elevated protein, neutrophilic pleocytosis",
+        "C": "Normal glucose, moderately elevated protein, lymphocytic pleocytosis",
+        "D": "Profoundly low glucose, low protein, eosinophilic pleocytosis"
+      },
+      "correct_answer": "B",
+      "explanation": "The clinical presentation is classic for acute community-acquired bacterial meningitis. The characteristic CSF signature in bacterial meningitis consists of an elevated opening pressure, a marked polymorphonuclear (neutrophilic) leukocytosis, significantly elevated protein levels (due to blood-brain barrier disruption), and a decreased CSF-to-serum glucose ratio (<0.4, or absolute CSF glucose <45 mg/dL) because of bacterial consumption."
     },
     {
       "question_id": "TW_MEDICINE_NEUROLOGY_Q004",
@@ -84,22 +86,22 @@
       "paper_ref": "TW_MEDICINE_NEUROLOGY",
       "subject": "Medicine",
       "topic": "Neurology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Spinal Cord Lesions",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Brown-Séquard syndrome: ipsilateral findings include?",
+      "question_text": "A 28-year-old male is brought to the trauma bay after sustaining a stab wound to his posterior thoracic back. Neurological examination reveals complete hemisection of the right side of the spinal cord at the T10 vertebral level (Brown-Séquard syndrome). Which of the following constellations of symptoms below the level of the lesion will be found on the ipsilateral (right) side of his body?",
       "options": {
-        "A": "Loss of pain and temperature",
-        "B": "Loss of proprioception and motor",
-        "C": "Loss of all sensation",
-        "D": "Contralateral motor weakness"
+        "A": "Loss of pain and temperature sensation matching UMN motor weakness",
+        "B": "Loss of conscious proprioception, vibration sense, and spastic motor weakness",
+        "C": "Complete anesthesia to all sensory modalities with lower motor neuron flaccidity",
+        "D": "Loss of pain and temperature with intact proprioception and normal motor strength"
       },
       "correct_answer": "B",
-      "explanation": "Brown-Séquard (hemisection): IPSILATERAL — UMN weakness + loss of proprioception/vibration. CONTRALATERAL — loss of pain/temperature 2-3 levels below."
+      "explanation": "Spinal cord hemisection (Brown-Séquard syndrome) results in distinct patterns due to the decussation pathways of the tracts. On the IPSILATERAL side below the lesion, it causes loss of proprioception, vibration, and fine touch (dorsal column crosses in medulla) along with upper motor neuron weakness/paralysis (corticospinal tract crosses in medulla). Loss of pain and temperature occurs on the CONTRALATERAL side (spinothalamic tract crosses 1-2 segments above origin)."
     },
     {
       "question_id": "TW_MEDICINE_NEUROLOGY_Q005",
@@ -107,22 +109,22 @@
       "paper_ref": "TW_MEDICINE_NEUROLOGY",
       "subject": "Medicine",
       "topic": "Neurology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Stroke & Cerebrovascular Disease",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Contraindication to thrombolysis in acute ischemic stroke?",
+      "question_text": "A 72-year-old male is brought to the emergency department exactly 2 hours after developing sudden left-sided hemiplegia and slurred speech. A non-contrast head CT scan rules out acute intracranial hemorrhage. When evaluating the patient for intravenous tissue plasminogen activator (IV tPA) therapy, which of the following clinical findings constitutes an absolute contraindication?",
       "options": {
-        "A": "Age >80",
-        "B": "BP 160/90",
-        "C": "Blood glucose 8 mmol/L",
-        "D": "Recent surgery <2 weeks"
+        "A": "Advanced age >80 years old",
+        "B": "Initial blood pressure reading of 165/95 mmHg",
+        "C": "Random blood glucose level of 144 mg/dL",
+        "D": "Major open abdominal surgery performed 10 days ago"
       },
       "correct_answer": "D",
-      "explanation": "Absolute CI to tPA: recent major surgery <14 days, hemorrhage, BP >185/110 (uncontrolled), INR >1.7. Age >80 is NOT absolute CI."
+      "explanation": "Absolute contraindications to IV thrombolysis (tPA) in acute ischemic stroke are designed to prevent catastrophic bleeding. A major surgery within the past 14 days is an absolute contraindication due to risk of severe surgical site hemorrhage. Age >80 is a relative consideration but not absolute. Blood pressure must be controlled below 185/110 mmHg to safely initiate tPA."
     },
     {
       "question_id": "TW_MEDICINE_NEUROLOGY_Q006",
@@ -130,22 +132,22 @@
       "paper_ref": "TW_MEDICINE_NEUROLOGY",
       "subject": "Medicine",
       "topic": "Neurology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Stroke & Cerebrovascular Disease",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A 70-year-old develops sudden onset left-sided weakness lasting 15 minutes. CT head normal. Next step?",
+      "question_text": "A 70-year-old man with a history of hypertension and dyslipidemia experiences a sudden onset of left arm weakness and difficulty speaking while watching television. The symptoms completely resolve spontaneously within 15 minutes. He arrives at the emergency room 1 hour later, where a non-contrast CT head scan is entirely normal. What is the most appropriate immediate antiplatelet management strategy for this patient?",
       "options": {
-        "A": "Aspirin + clopidogrel",
-        "B": "IV tPA",
-        "C": "MRI brain",
-        "D": "Carotid Doppler"
+        "A": "Initiate dual antiplatelet therapy with Aspirin and Clopidogrel immediately",
+        "B": "Administer immediate low-dose intravenous tPA thrombolysis infusion",
+        "C": "Defer antiplatelets until a high-resolution brain MRI is completed",
+        "D": "Order an urgent carotid Doppler ultrasound and prescribe low-dose aspirin monotherapy"
       },
       "correct_answer": "A",
-      "explanation": "TIA: aspirin + clopidogrel (dual antiplatelet) for 21 days. ABCD² score guides risk. tPA is for ischemic stroke within 4.5 hours."
+      "explanation": "The patient has experienced a transient ischemic attack (TIA). Based on landmark trials (CHANCE/POINT), for patients presenting with high-risk TIA (or minor ischemic stroke), the immediate initiation of dual antiplatelet therapy (DAPT) with Aspirin and Clopidogrel for the first 21 days significantly reduces the short-term risk of a recurrent stroke compared to aspirin monotherapy."
     },
     {
       "question_id": "TW_MEDICINE_NEUROLOGY_Q007",
@@ -153,22 +155,22 @@
       "paper_ref": "TW_MEDICINE_NEUROLOGY",
       "subject": "Medicine",
       "topic": "Neurology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Epilepsy",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Drug of choice for status epilepticus?",
+      "question_text": "A 24-year-old female is brought to the emergency room by paramedics due to continuous generalized tonic-clonic activity lasting for 12 minutes without any periods of consciousness between episodes. Intravenous access is established. Which of the following is the immediate first-line drug of choice to abort this active seizure state?",
       "options": {
-        "A": "Phenytoin",
-        "B": "Lorazepam IV",
-        "C": "Valproate",
-        "D": "Phenobarbitone"
+        "A": "Intravenous Phenytoin loading dose",
+        "B": "Intravenous Lorazepam bolus",
+        "C": "Intravenous Sodium Valproate",
+        "D": "Intravenous Phenobarbitone infusion"
       },
       "correct_answer": "B",
-      "explanation": "Status epilepticus: benzodiazepines first (lorazepam IV or diazepam). If persistent: levetiracetam/valproate/phenytoin. Propofol for refractory."
+      "explanation": "The patient is in status epilepticus (defined as continuous seizure activity lasting >5 minutes or recurrent seizures without regaining consciousness). The established first-line emergent therapy to abort status epilepticus is an intravenous benzodiazepine, specifically IV Lorazepam (0.1 mg/kg given as a bolus), due to its rapid onset and long half-life in the central nervous system. If IV access is unavailable, IM Midazolam is preferred."
     },
     {
       "question_id": "TW_MEDICINE_NEUROLOGY_Q008",
@@ -176,22 +178,68 @@
       "paper_ref": "TW_MEDICINE_NEUROLOGY",
       "subject": "Medicine",
       "topic": "Neurology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Central Nervous System Infections",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Cowdry type A inclusion bodies are seen in?",
+      "question_text": "A 43-year-old female presents with acute onset of fever, psychiatric behavioral changes, and focal seizures localized to the temporal lobe. Brain MRI displays asymmetric hyperintensity in the medial temporal lobes. Histopathological brain biopsy reveals eosinophilic intranuclear inclusion bodies within neurons and glia. What are these characteristic inclusion bodies called, and what is the underlying pathogen?",
       "options": {
-        "A": "CMV encephalitis",
-        "B": "HSV encephalitis",
-        "C": "Rabies",
-        "D": "JC virus"
+        "A": "Owl eye inclusions; Cytomegalovirus (CMV)",
+        "B": "Cowdry Type A inclusions; Herpes Simplex Virus 1 (HSV-1)",
+        "C": "Negri bodies; Lyssavirus (Rabies)",
+        "D": "Cowdry Type B inclusions; JC Polyomavirus"
       },
       "correct_answer": "B",
-      "explanation": "HSV encephalitis: Cowdry type A inclusions in neurons/oligodendrocytes. CMV: 'owl eye' inclusions. Rabies: Negri bodies. JC: Cowdry B."
+      "explanation": "Herpes Simplex Virus-1 (HSV-1) encephalitis characteristically targets the temporal and inferior frontal lobes, causing localized necrosis, seizures, and psychiatric/behavioral symptoms. The hallmark histopathological finding is Cowdry Type A intranuclear inclusion bodies within degenerating neurons and glia. CMV displays cytomegaly with 'owl eye' intranuclear/intracytoplasmic inclusions; Rabies features intracytoplasmic Negri bodies."
+    },
+    {
+      "question_id": "TW_MEDICINE_NEUROLOGY_Q009",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MEDICINE_NEUROLOGY",
+      "subject": "Medicine",
+      "topic": "Neurology",
+      "subtopic": "Demyelinating Diseases",
+      "difficulty": "Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 28-year-old female presents with subacute, unilateral visual blurry vision accompanied by pain with eye movements. She also notes a transient worsening of generalized weakness when taking hot showers (Uhthoff's phenomenon). Optic neuritis is suspected. What is the most sensitive diagnostic finding seen on lumbar CSF analysis that supports this diagnosis?",
+      "options": {
+        "A": "Presence of oligoclonal IgG bands distinct from serum bands",
+        "B": "Marked pleocytosis exceeding 500 cells/μL with low glucose",
+        "C": "Elevated opening pressure with positive 14-3-3 protein",
+        "D": "Marked xanthochromia with high protein count"
+      },
+      "correct_answer": "A",
+      "explanation": "The patient is presenting with manifestations typical of Multiple Sclerosis (optic neuritis and Uhthoff's phenomenon). CSF analysis supportively demonstrates intrathecal synthesis of immunoglobulins, manifesting as oligoclonal IgG bands on gel electrophoresis that are absent in a matching serum sample."
+    },
+    {
+      "question_id": "TW_MEDICINE_NEUROLOGY_Q010",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MEDICINE_NEUROLOGY",
+      "subject": "Medicine",
+      "topic": "Neurology",
+      "subtopic": "Neuromuscular Junction Disorders",
+      "difficulty": "Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 62-year-old male smoker presents with progressive proximal muscle weakness that improves with repeated activity. He also reports dry mouth and erectile dysfunction. Autonomic dysfunction is suspected alongside a neuromuscular junction disorder. Electromyography reveals an incremental response on high-frequency repetitive nerve stimulation. What autoantibody drives this pathology, and what underlying malignancy must be urgently evaluated?",
+      "options": {
+        "A": "Anti-AChR antibody; Thymoma",
+        "B": "Anti-P/Q-type voltage-gated calcium channel (VGCC) antibody; Small cell lung carcinoma",
+        "C": "Anti-MuSK antibody; Gastric adenocarcinoma",
+        "D": "Anti-Yo antibody; Ovarian carcinoma"
+      },
+      "correct_answer": "B",
+      "explanation": "The clinical profile (proximal weakness that improves with exertion—unlike myasthenia gravis—plus autonomic features and an incremental response on repetitive nerve stimulation) indicates Lambert-Eaton Myasthenic Syndrome (LEMS). LEMS is mediated by autoantibodies against pre-synaptic P/Q-type voltage-gated calcium channels. It acts as a paraneoplastic syndrome strongly associated with Small Cell Lung Carcinoma (SCLC)."
     }
   ]
 }

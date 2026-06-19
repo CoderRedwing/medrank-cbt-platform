@@ -3,11 +3,13 @@
   "paper_type": "topic_wise",
   "subject": "Medicine",
   "topic": "Infectious Diseases",
-  "total_questions": 5,
+  "total_questions": 10,
   "difficulty_distribution": {
-    "Easy": 5
+    "Easy": 2,
+    "Medium": 6,
+    "Hard": 2
   },
-  "created_at": "2026-05-30",
+  "created_at": "2026-06-06",
   "questions": [
     {
       "question_id": "TW_MEDICINE_INFECTIOUS_D_Q001",
@@ -15,22 +17,22 @@
       "paper_ref": "TW_MEDICINE_INFECTIOUS_D",
       "subject": "Medicine",
       "topic": "Infectious Diseases",
-      "subtopic": null,
+      "subtopic": "HIV/AIDS",
       "difficulty": "Easy",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "CD4 count at which PCP prophylaxis with cotrimoxazole is started in HIV?",
+      "question_text": "A 31-year-old male newly diagnosed with HIV infection returns to the clinic for his initial laboratory review. His baseline CD4 T-lymphocyte count is reported as 180 cells/μL. In addition to initiating combination antiretroviral therapy (ART), primary prophylaxis against Pneumocystis jirovecii pneumonia (PCP) should be immediately started using which threshold standard?",
       "options": {
-        "A": "<500 cells/μL",
-        "B": "<350 cells/μL",
-        "C": "<200 cells/μL",
-        "D": "<100 cells/μL"
+        "A": "When the CD4 count drops below 500 cells/μL",
+        "B": "When the CD4 count drops below 350 cells/μL",
+        "C": "When the CD4 count drops below 200 cells/μL",
+        "D": "When the CD4 count drops below 100 cells/μL"
       },
       "correct_answer": "C",
-      "explanation": "PCP (Pneumocystis jirovecii) prophylaxis: cotrimoxazole when CD4 <200. MAC prophylaxis: azithromycin when CD4 <50."
+      "explanation": "Primary prophylaxis against Pneumocystis jirovecii pneumonia (PCP) using Co-trimoxazole (TMP-SMX) is strictly indicated in HIV-infected patients when their CD4+ T-cell count drops below 200 cells/μL (or if they develop an AIDS-defining illness like oral thrush). Prophylaxis for MAC is initiated below 50 cells/μL."
     },
     {
       "question_id": "TW_MEDICINE_INFECTIOUS_D_Q002",
@@ -38,22 +40,22 @@
       "paper_ref": "TW_MEDICINE_INFECTIOUS_D",
       "subject": "Medicine",
       "topic": "Infectious Diseases",
-      "subtopic": null,
+      "subtopic": "Malaria",
       "difficulty": "Easy",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Drug of choice for Pneumocystis jirovecii pneumonia (PCP)?",
+      "question_text": "An epidemiologist is reviewing malaria transmission dynamics in a specific zone. Among the non-falciparum human malaria species, which pathogen is uniquely characterized by having the longest incubation period (often ranging from 18 to 40 days) and a distinct propensity to cause immune complex-mediated nephrotic syndrome?",
       "options": {
-        "A": "Fluconazole",
-        "B": "Co-trimoxazole (TMP-SMX)",
-        "C": "Amphotericin B",
-        "D": "Voriconazole"
+        "A": "Plasmodium vivax",
+        "B": "Plasmodium ovale",
+        "C": "Plasmodium malariae",
+        "D": "Plasmodium knowlesi"
       },
-      "correct_answer": "B",
-      "explanation": "PCP treatment: high-dose TMP-SMX (cotrimoxazole) x21 days. Add prednisolone if PaO2 <70 mmHg. LDH elevated, silver stain/immunofluorescence diagnostic."
+      "correct_answer": "C",
+      "explanation": "Plasmodium malariae is responsible for quartan malaria (72-hour fever cycles) and possesses the longest incubation period among the common Plasmodium species. Chronic infection with P. malariae is uniquely linked to the development of immune complex-mediated glomerulonephritis and nephrotic syndrome in children. Unlike P. vivax and P. ovale, it lacks a hypnozoite liver stage."
     },
     {
       "question_id": "TW_MEDICINE_INFECTIOUS_D_Q003",
@@ -61,22 +63,22 @@
       "paper_ref": "TW_MEDICINE_INFECTIOUS_D",
       "subject": "Medicine",
       "topic": "Infectious Diseases",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Opportunistic Infections",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Non-falciparum malaria with longest incubation period?",
+      "question_text": "A 38-year-old male with an unknown HIV status presents with a 3-week history of exertional dyspnea, non-productive cough, and low-grade fever. On examination, he is tachypneic and has oral candidiasis. Chest X-ray reveals diffuse, bilateral perihilar interstitial infiltrates, and arterial blood gas shows a PaO2 of 64 mmHg. Induced sputum stain confirms the presence of Pneumocystis jirovecii. Which of the following is the definitive first-line pharmacological treatment?",
       "options": {
-        "A": "P. vivax",
-        "B": "P. ovale",
-        "C": "P. malariae",
-        "D": "P. knowlesi"
+        "A": "Fluconazole induction followed by oral itraconazole",
+        "B": "High-dose Co-trimoxazole (Trimethoprim-Sulfamethoxazole) combined with adjunctive corticosteroids",
+        "C": "Intravenous Liposomal Amphotericin B",
+        "D": "Intravenous Voriconazole monotherapy"
       },
-      "correct_answer": "C",
-      "explanation": "P. malariae: quartan malaria, incubation 18-40 days. Causes nephrotic syndrome. No hypnozoites. P. vivax/ovale: relapse from hypnozoites, treat with primaquine."
+      "correct_answer": "B",
+      "explanation": "The first-line therapeutic regimen for active Pneumocystis jirovecii pneumonia (PCP) is high-dose Co-trimoxazole (TMP-SMX) for 21 days. Because this patient's arterial blood gas demonstrates moderate-to-severe hypoxemia (defined as PaO2 < 70 mmHg or an alveolar-arterial oxygen gradient ≥ 35 mmHg), adjunctive corticosteroids must be co-administered before or with the first dose of antibiotics to prevent clinical deterioration driven by organism lysis."
     },
     {
       "question_id": "TW_MEDICINE_INFECTIOUS_D_Q004",
@@ -84,22 +86,22 @@
       "paper_ref": "TW_MEDICINE_INFECTIOUS_D",
       "subject": "Medicine",
       "topic": "Infectious Diseases",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Arboviruses",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Dengue: thrombocytopenia is due to?",
+      "question_text": "A 26-year-old female is admitted during a monsoon outbreak with acute-onset high fever, severe retro-orbital headache, diffuse maculopapular rash, and profound myalgias. Laboratory testing confirms Dengue fever via NS1 antigen positive status. Her platelet count is noted to drop precipitously from 150,000/mm³ to 32,000/mm³ on day 4 of the illness. What is the primary underlying pathophysiology responsible for this severe thrombocytopenia?",
       "options": {
-        "A": "Bone marrow suppression only",
-        "B": "Antibody-mediated platelet destruction and marrow suppression",
-        "C": "DIC only",
-        "D": "Hypersplenism only"
+        "A": "Direct viral-induced bone marrow suppression exclusively",
+        "B": "A combination of direct bone marrow suppression and antibody-mediated peripheral platelet destruction",
+        "C": "Consumptive coagulopathy driven by low-grade disseminated intravascular coagulation (DIC)",
+        "D": "Splenic sequestration caused by acute portal hypertension"
       },
       "correct_answer": "B",
-      "explanation": "Dengue thrombocytopenia: direct marrow suppression + antibody cross-reactivity with platelets. Platelet transfusion threshold: <10,000 or active bleeding."
+      "explanation": "Thrombocytopenia in Dengue virus infection is multifactorial. During the early phase, the virus causes direct acute bone marrow suppression, affecting megakaryocytopoiesis. In the later/critical phase, immune-mediated mechanisms dominate, where anti-dengue antibodies cross-react with platelets and endothelial cells, leading to accelerated peripheral platelet destruction and clearance."
     },
     {
       "question_id": "TW_MEDICINE_INFECTIOUS_D_Q005",
@@ -107,22 +109,137 @@
       "paper_ref": "TW_MEDICINE_INFECTIOUS_D",
       "subject": "Medicine",
       "topic": "Infectious Diseases",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Arboviruses",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Chikungunya vs Dengue: differentiating feature?",
+      "question_text": "During an urban vector-borne disease outbreak, multiple patients present with acute febrile illnesses accompanied by skin rashes and musculoskeletal symptoms. When clinically differentiating Chikungunya virus infection from Dengue virus infection, which of the following features serves as the most prominent hallmark of Chikungunya?",
       "options": {
-        "A": "Fever pattern",
-        "B": "Arthralgia more prominent in chikungunya",
-        "C": "Rash more common in dengue",
-        "D": "Thrombocytopenia only in chikungunya"
+        "A": "Saddleback fever patterns that resolve within 48 hours",
+        "B": "Severe, bilateral, and symmetrical polyarthralgias that can persist for months",
+        "C": "A higher incidence of plasma leakage and hemorrhagic manifestations",
+        "D": "Isolated severe thrombocytopenia without leukopenia"
       },
       "correct_answer": "B",
-      "explanation": "Chikungunya: severe symmetrical polyarthritis/arthralgia (can persist for months) is the hallmark. Dengue: myalgia, headache, retro-orbital pain, thrombocytopenia more prominent."
+      "explanation": "While both Dengue and Chikungunya present with fever, rash, and body aches, Chikungunya is classically distinguished by severe, debilitating, bilateral, and symmetrical polyarthralgias/arthritis targeting small joints of the hands and feet, which frequently progresses to a chronic phase lasting months or years. Dengue features more prominent retro-orbital pain, visceral plasma leakage, and profound cytopenias."
+    },
+    {
+      "question_id": "TW_MEDICINE_INFECTIOUS_D_Q006",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MEDICINE_INFECTIOUS_D",
+      "subject": "Medicine",
+      "topic": "Infectious Diseases",
+      "subtopic": "Bacterial Infections",
+      "difficulty": "Medium",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 35-year-old male presents with a 2-week history of step-ladder fever, dry cough, abdominal pain, and constipation. On examination, bradycardia relative to the high fever is noted, along with faint erythematous macules on his abdomen. Which diagnostic test provides the highest diagnostic yield during the first week of this illness?",
+      "options": {
+        "A": "Widal serology test",
+        "B": "Blood culture",
+        "C": "Stool culture",
+        "D": "Urine culture"
+      },
+      "correct_answer": "B",
+      "explanation": "The clinical picture of a step-ladder fever, relative bradycardia (Faget's sign), and rose spots on the abdomen points to Typhoid fever (Enteric fever caused by Salmonella typhi). During the first week of infection, blood cultures are the gold standard and have the highest diagnostic yield (approx. 90%), while stool cultures become positive later in weeks 2 and 3."
+    },
+    {
+      "question_id": "TW_MEDICINE_INFECTIOUS_D_Q007",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MEDICINE_INFECTIOUS_D",
+      "subject": "Medicine",
+      "topic": "Infectious Diseases",
+      "subtopic": "Spirochetes",
+      "difficulty": "Medium",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 29-year-old male presents with a painless, indurated ulcer with clean margins on his glans penis. Accompanied by painless bilateral inguinal lymphadenopathy, primary syphilis is suspected. Which diagnostic investigation is preferred to directly visualize the organism from the ulcer exudate?",
+      "options": {
+        "A": "Venereal Disease Research Laboratory (VDRL) test",
+        "B": "Fluorescent Treponemal Antibody Absorption (FTA-ABS) test",
+        "C": "Darkfield microscopy",
+        "D": "Enzyme-linked immunosorbent assay (ELISA)"
+      },
+      "correct_answer": "C",
+      "explanation": "A classic painless chancre indicates primary syphilis. Darkfield microscopy of serous fluid from the lesion provides immediate confirmation by visualizing the motile spirochetes (Treponema pallidum). Serological tests like VDRL and FTA-ABS can often yield false-negative results during the very early stages of a primary chancre."
+    },
+    {
+      "question_id": "TW_MEDICINE_INFECTIOUS_D_Q008",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MEDICINE_INFECTIOUS_D",
+      "subject": "Medicine",
+      "topic": "Infectious Diseases",
+      "subtopic": "Zoonoses",
+      "difficulty": "Medium",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 42-year-old sewage treatment worker presents with sudden high fever, severe myalgias (specifically tracking the calves), conjunctival suffusion without purulent discharge, and mild jaundice. Serum creatinine and bilirubin are elevated. Which pathogen is the most likely driver of this presentation?",
+      "options": {
+        "A": "Leptospira interrogans",
+        "B": "Brucella melitensis",
+        "C": "Rickettsia prowazekii",
+        "D": "Coxiella burnetii"
+      },
+      "correct_answer": "A",
+      "explanation": "The clinical combination of severe calf tenderness, conjunctival suffusion, occupational exposure to sewage or rodent urine, and renal/hepatic dysfunction characterizes severe Leptospirosis (Weil's disease), caused by the spirochete Leptospira interrogans."
+    },
+    {
+      "question_id": "TW_MEDICINE_INFECTIOUS_D_Q009",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MEDICINE_INFECTIOUS_D",
+      "subject": "Medicine",
+      "topic": "Infectious Diseases",
+      "subtopic": "Deep Fungal Infections",
+      "difficulty": "Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 40-year-old male with poorly controlled HIV (CD4 count 45 cells/μL) presents with a progressive headache, low-grade fever, and confusion over 3 weeks. Physical examination shows mild nuchal rigidity. Lumbar puncture reveals elevated opening pressure, low glucose, and high protein. Lumbar CSF stained with India ink reveals encapsulated yeast cells. What is the most appropriate induction therapeutic regimen for this patient?",
+      "options": {
+        "A": "High-dose oral fluconazole monotherapy for 8 weeks",
+        "B": "Intravenous Liposomal Amphotericin B combined with Flucytosine for at least 2 weeks",
+        "C": "Intravenous Voriconazole combined with Caspofungin",
+        "D": "Intravenous Ceftriaxone and Vancomycin"
+      },
+      "correct_answer": "B",
+      "explanation": "The patient has Cryptococcal meningitis, confirmed by India ink staining of CSF in an advanced immunosuppressed state. The guidelines call for an aggressive induction therapy consisting of intravenous liposomal amphotericin B plus oral flucytosine for a minimum of 2 weeks, followed by consolidation therapy with oral fluconazole."
+    },
+    {
+      "question_id": "TW_MEDICINE_INFECTIOUS_D_Q010",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MEDICINE_INFECTIOUS_D",
+      "subject": "Medicine",
+      "topic": "Infectious Diseases",
+      "subtopic": "Protozoal Infections",
+      "difficulty": "Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 38-year-old HIV-positive patient (CD4 count 80 cells/μL) presents with focal neurological deficits, a high-grade fever, and generalized seizures. A contrast-enhanced brain MRI displays multiple ring-enhancing lesions localized within the basal ganglia with surrounding vasogenic edema. Brain biopsy reveals crescent-shaped tachyzoites. What is the standard drug regimen of choice for treating this infection?",
+      "options": {
+        "A": "Sulfadiazine and Pyrimethamine, supplemented with Leucovorin (folinic acid)",
+        "B": "Trimethoprim-Sulfamethoxazole high-dose monotherapy",
+        "C": "Intravenous ganciclovir induction therapy",
+        "D": "Pyrimethamine and Clindamycin without folinic acid"
+      },
+      "correct_answer": "A",
+      "explanation": "Multiple ring-enhancing lesions in the basal ganglia of an AIDS patient are highly characteristic of Toxoplasma encephalitis, driven by Toxoplasma gondii. The preferred first-line therapeutic management consists of Pyrimethamine and Sulfadiazine. Leucovorin (folinic acid) must be co-administered to prevent bone marrow toxicity induced by pyrimethamine's antifolate mechanism."
     }
   ]
 }

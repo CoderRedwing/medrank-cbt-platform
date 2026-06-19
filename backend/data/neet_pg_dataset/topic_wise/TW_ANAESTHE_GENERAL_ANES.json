@@ -3,11 +3,12 @@
   "paper_type": "topic_wise",
   "subject": "Anaesthesia",
   "topic": "General Anesthesia",
-  "total_questions": 3,
+  "total_questions": 6,
   "difficulty_distribution": {
-    "Easy": 3
+    "Medium": 2,
+    "Hard": 4
   },
-  "created_at": "2026-05-30",
+  "created_at": "2026-06-06",
   "questions": [
     {
       "question_id": "TW_ANAESTHE_GENERAL_ANES_Q001",
@@ -16,21 +17,21 @@
       "subject": "Anaesthesia",
       "topic": "General Anesthesia",
       "subtopic": null,
-      "difficulty": "Easy",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "ASA physical status grade IV?",
+      "question_text": "A 68-year-old male presents for a pre-anesthetic evaluation prior to an elective total hip arthroplasty. His medical history is significant for an acute myocardial infarction 3 months ago, for which he received a drug-eluting stent. He currently experiences dyspnea on minimal exertion (walking less than 100 meters) and occasional orthopnea. On examination, bilateral basal crepitations and pedal edema are noted. How should this patient's physical status be classified according to the American Society of Anesthesiologists (ASA) grading?",
       "options": {
-        "A": "Normal healthy patient",
-        "B": "Mild systemic disease",
-        "C": "Severe systemic disease",
-        "D": "Severe systemic disease, constant threat to life"
+        "A": "ASA Class II",
+        "B": "ASA Class III",
+        "C": "ASA Class IV",
+        "D": "ASA Class V"
       },
-      "correct_answer": "D",
-      "explanation": "ASA classification: I=healthy, II=mild disease (well-controlled DM/HTN), III=severe disease (uncontrolled DM, COPD), IV=constant threat to life (recent MI, severe CHF), V=moribund, VI=brain-dead for organ donation."
+      "correct_answer": "C",
+      "explanation": "The ASA physical status classification system categorizes patients based on systemic health. ASA Class IV is defined as a patient with a severe systemic disease that is a constant threat to life. This patient had a recent myocardial infarction (<6 months ago) and presents with symptomatic, severe congestive heart failure (dyspnea on minimal exertion, orthopnea, crepitations), which carries an exceptionally high perioperative risk and constitutes an ongoing threat to life."
     },
     {
       "question_id": "TW_ANAESTHE_GENERAL_ANES_Q002",
@@ -39,21 +40,21 @@
       "subject": "Anaesthesia",
       "topic": "General Anesthesia",
       "subtopic": null,
-      "difficulty": "Easy",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Mallampati class III indicates?",
+      "question_text": "During a pre-operative airway assessment of a 45-year-old obese female scheduled for a laparoscopic cholecystectomy, the anesthesiologist asks her to sit upright, open her mouth maximally, and protrude her tongue without phonating. On visualization, only the soft palate is visible; the uvula and tonsillar pillars are completely obscured by the base of the tongue. What is the Mallampati classification for this patient, and what does it primarily imply?",
       "options": {
-        "A": "Full visibility of tonsils and uvula",
-        "B": "Only soft palate visible (difficult airway)",
-        "C": "Soft palate, fauces, uvula visible",
-        "D": "Only hard palate visible"
+        "A": "Class II; indicates an easily manageable airway with conventional direct laryngoscopy",
+        "B": "Class III; indicates a high probability of a difficult airway and intubation",
+        "C": "Class IV; indicates that only the hard palate is visible and requires immediate tracheostomy",
+        "D": "Class III; indicates an adequate glottic view but a high risk of aspiration"
       },
       "correct_answer": "B",
-      "explanation": "Mallampati: I=tonsils+uvula+pillars, II=uvula+soft palate, III=only soft palate, IV=only hard palate. Class III/IV predict difficult intubation. Also assess: neck mobility, mouth opening, thyromental distance."
+      "explanation": "The Mallampati classification evaluates the relationship between tongue size and oral cavity anatomy to predict intubation difficulty. In Class III, only the soft palate is visible (the uvula and pillars are hidden). Mallampati Class III and IV are strongly correlated with poor glottic visualization during direct laryngoscopy (Cormack-Lehane grades 3 and 4), signaling a significantly higher probability of a difficult airway requiring advanced preparation (e.g., video laryngoscope or fiberoptic intubation)."
     },
     {
       "question_id": "TW_ANAESTHE_GENERAL_ANES_Q003",
@@ -62,21 +63,90 @@
       "subject": "Anaesthesia",
       "topic": "General Anesthesia",
       "subtopic": null,
-      "difficulty": "Easy",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Minimum alveolar concentration (MAC): definition?",
+      "question_text": "An 82-year-old female with chronic mild cognitive impairment is undergoing an emergency exploratory laparotomy under general anesthesia with Sevoflurane. The attending anesthesiologist meticulously titrates the end-tidal concentration of the volatile agent to match her physiological demands. Which of the following statements correctly identifies the definition of Minimum Alveolar Concentration (MAC) and the factors influencing it in this patient?",
       "options": {
-        "A": "Concentration causing unconsciousness in 50%",
-        "B": "Alveolar concentration preventing movement in response to surgical stimulus in 50% of patients",
-        "C": "Lethal concentration in 50%",
-        "D": "Concentration causing amnesia in 100%"
+        "A": "MAC is the concentration that prevents movement in response to surgical stimulus in 50% of individuals; it will be higher in this patient due to her advanced age.",
+        "B": "MAC is the concentration causing unconsciousness in 50% of individuals; it remains independent of age but decreases with hypothermia.",
+        "C": "MAC is the concentration preventing movement in response to surgical incision in 50% of individuals; it is significantly reduced in this patient due to senile neurodegeneration and advanced age.",
+        "D": "MAC is the alveolar concentration causing surgical immobility in 95% of individuals; it is increased by central nervous system depressants."
       },
-      "correct_answer": "B",
-      "explanation": "MAC: minimum alveolar concentration at 1 ATM at which 50% of patients don't move to surgical incision. Desflurane MAC=6%, Sevoflurane=2%, Isoflurane=1.15%. Decreased by: old age, hypothermia, opioids."
+      "correct_answer": "C",
+      "explanation": "Minimum Alveolar Concentration (MAC) is the alveolar concentration of an inhalational anesthetic at 1 atmosphere that prevents gross purposeful movement in response to a standard surgical incision in 50% of patients. MAC is not fixed; it decreases significantly with advanced age (roughly a 6% decrease per decade after age 40) due to age-related changes in brain physiology, neurodegeneration, and increased sensitivity to CNS depressants. Therefore, this 82-year-old patient will require a much lower concentration of Sevoflurane to achieve 1 MAC compared to a younger adult."
+    },
+    {
+      "question_id": "TW_ANAESTHE_GENERAL_ANES_Q004",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_ANAESTHE_GENERAL_ANES",
+      "subject": "Anaesthesia",
+      "topic": "General Anesthesia",
+      "subtopic": null,
+      "difficulty": "Medium",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 32-year-old pregnant female at 38 weeks gestation presents to the emergency room with an obstructed labor and is rushed for an emergency Cesarean section under general anesthesia. Following pre-oxygenation and rapid sequence induction, the anesthetist attempts to insert the laryngoscope blade but faces an extremely restricted view. On checking the airway parameters, which physiological and anatomical change associated with pregnancy is most likely responsible for making intubation difficult in this patient?",
+      "options": {
+        "A": "Decreased vascularity and mucosal thinning of the upper respiratory tract",
+        "B": "Increased functional residual capacity (FRC) causing rapid oxygen desaturation",
+        "C": "Weight gain, breast engorgement, and upper airway mucosal edema/friability",
+        "D": "Delayed gastric emptying leading to physical displacement of the larynx superiorly"
+      },
+      "correct_answer": "C",
+      "explanation": "Pregnancy induces significant anatomical and physiological modifications that make airway management challenging. Progesterone and estrogen cause systemic fluid retention, leading to upper airway mucosal edema, hypervascularity, and friability. Furthermore, weight gain and breast engorgement can physically obstruct the handle of a standard laryngoscope, hindering optimal positioning. This increases the failure rate of intubation in obstetric patients significantly compared to the general population."
+    },
+    {
+      "question_id": "TW_ANAESTHE_GENERAL_ANES_Q005",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_ANAESTHE_GENERAL_ANES",
+      "subject": "Anaesthesia",
+      "topic": "General Anesthesia",
+      "subtopic": null,
+      "difficulty": "Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "During an elective craniotomy for a temporal lobe tumor under general anesthesia, the anesthesia team plans to minimize intracranial pressure (ICP) spikes. They decide to utilize a balanced anesthetic technique. Which of the following inhalational agents should be avoided or used with extreme caution because it uncouples cerebral blood flow (CBF) from cerebral metabolic rate of oxygen ($CMRO_2$) to the greatest extent, potentially increasing ICP?",
+      "options": {
+        "A": "Sevoflurane",
+        "B": "Isoflurane",
+        "C": "Halothane",
+        "D": "Propofol"
+      },
+      "correct_answer": "C",
+      "explanation": "In neuroanesthesia, maintaining control over intracranial pressure is vital. Volatile anesthetics typically decrease the cerebral metabolic rate ($CMRO_2$) but cause intrinsic cerebral vasodilation, which can increase cerebral blood flow (CBF)—a phenomenon known as 'uncoupling'. Among the volatile agents, Halothane causes the most profound cerebral vasodilation and significantly impairs autoregulation, leading to the largest increase in CBF and ICP. Modern agents like Sevoflurane and Isoflurane have a much milder vasodilatory profile when used at concentrations below 1 MAC."
+    },
+    {
+      "question_id": "TW_ANAESTHE_GENERAL_ANES_Q006",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_ANAESTHE_GENERAL_ANES",
+      "subject": "Anaesthesia",
+      "topic": "General Anesthesia",
+      "subtopic": null,
+      "difficulty": "Medium",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 35-year-old male is undergoing an elective inguinal hernia repair under general anesthesia. Twenty minutes after the administration of volatile anesthetics and succinylcholine, the anesthesia workstation's capnograph demonstrates an alarming, progressive rise in end-tidal carbon dioxide ($EtCO_2$) up to 75 mmHg, despite increasing the minute ventilation. The patient is noted to be severely tachycardic, hypertensive, and has generalized muscle rigidity. Which of the following is the immediate drug of choice to target the underlying pathophysiology of this crisis?",
+      "options": {
+        "A": "Intravenous Dantrolene sodium via rapid bolus",
+        "B": "Intravenous Amiodarone to stabilize the heart rate",
+        "C": "Sodium bicarbonate to correct the severe metabolic acidosis",
+        "D": "Physostigmine to reverse neuromuscular blockade"
+      },
+      "correct_answer": "A",
+      "explanation": "The patient is experiencing Malignant Hyperthermia (MH), a rare but life-threatening hypermetabolic crisis triggered by volatile anesthetics or succinylcholine. The underlying pathology involves genetic mutations in the ryanodine receptor (RYR1), leading to uncontrolled calcium release from the sarcoplasmic reticulum, causing sustained muscle contraction, extreme heat generation, ATP depletion, and massive $CO_2$ production (reflected as skyrocketing $EtCO_2$). The definitive treatment is Intravenous Dantrolene, which acts directly as a ryanodine receptor antagonist to inhibit calcium release."
     }
   ]
 }

@@ -2,6 +2,7 @@ const jwt = require('jsonwebtoken');
 const { body, validationResult } = require('express-validator');
 const User = require('../models/User');
 const { revokeToken } = require('../middleware/auth');
+const { sendWelcomeEmail } = require('../services/emailServices'); // ← NEW
 
 const signToken = (id) =>
   jwt.sign({ id }, process.env.JWT_SECRET, {
@@ -30,6 +31,10 @@ const register = async (req, res) => {
       return res.status(400).json({ success: false, message: 'Email already registered' });
     }
     const user = await User.create({ name, email, password, targetExam });
+
+    // Send welcome email — fire and forget, never blocks the response
+    sendWelcomeEmail({ name, email, targetExam }).catch(() => {});
+
     sendToken(user, 201, res);
   } catch (err) {
     res.status(500).json({ success: false, message: err.message });
@@ -37,9 +42,7 @@ const register = async (req, res) => {
 };
 
 // POST /api/auth/login
-// FIX: Added express-validator to prevent NoSQL injection via email field
 const login = async (req, res) => {
-  // Validate before touching the DB
   const errors = validationResult(req);
   if (!errors.isEmpty()) {
     return res.status(400).json({ success: false, errors: errors.array() });
@@ -47,7 +50,6 @@ const login = async (req, res) => {
   try {
     const { email, password } = req.body;
 
-    // Extra guard: reject non-string inputs (NoSQL injection uses objects)
     if (typeof email !== 'string' || typeof password !== 'string') {
       return res.status(400).json({ success: false, message: 'Invalid input' });
     }
@@ -77,7 +79,7 @@ const getMe = async (req, res) => {
 // PATCH /api/auth/me
 const updateMe = async (req, res) => {
   try {
-    const allowed = ['name', 'targetExam']; // never allow role here
+    const allowed = ['name', 'targetExam'];
     const updates = {};
     allowed.forEach((f) => { if (req.body[f] !== undefined) updates[f] = req.body[f]; });
     const user = await User.findByIdAndUpdate(req.user._id, updates, { new: true, runValidators: true });
@@ -87,8 +89,7 @@ const updateMe = async (req, res) => {
   }
 };
 
-// POST /api/auth/logout  <-- NEW
-// FIX: Blacklists the current token so it can't be reused after logout
+// POST /api/auth/logout
 const logout = (req, res) => {
   if (req.token) revokeToken(req.token);
   res.json({ success: true, message: 'Logged out' });

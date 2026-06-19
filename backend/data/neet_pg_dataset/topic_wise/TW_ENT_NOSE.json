@@ -3,11 +3,13 @@
   "paper_type": "topic_wise",
   "subject": "ENT",
   "topic": "Nose",
-  "total_questions": 2,
+  "total_questions": 5,
   "difficulty_distribution": {
-    "Easy": 2
+    "Easy": 1,
+    "Medium": 3,
+    "Hard": 1
   },
-  "created_at": "2026-05-30",
+  "created_at": "2026-06-06",
   "questions": [
     {
       "question_id": "TW_ENT_NOSE_Q001",
@@ -15,22 +17,22 @@
       "paper_ref": "TW_ENT_NOSE",
       "subject": "ENT",
       "topic": "Nose",
-      "subtopic": null,
+      "subtopic": "Epistaxis",
       "difficulty": "Easy",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Saddle nose deformity is caused by?",
+      "question_text": "An 8-year-old boy is brought to the emergency department with active bleeding from his left nostril after picking his nose. The bleeding is easily controlled with direct anterior digital compression. From which highly vascular anatomical site on the anterior septum did this epistaxis most likely originate?",
       "options": {
-        "A": "Rhinophyma",
-        "B": "Destruction of nasal septal cartilage (syphilis, Wegener's, relapsing polychondritis, trauma)",
-        "C": "Nasal polyps",
-        "D": "Hypertrophied inferior turbinate"
+        "A": "Woodruff's plexus",
+        "B": "Little's area (Kiesselbach's plexus)",
+        "C": "Posterior ethmoidal territory",
+        "D": "Inferior turbinate meatus"
       },
       "correct_answer": "B",
-      "explanation": "Saddle nose: collapse of dorsum from cartilage/bone destruction. Causes: tertiary syphilis (classic), Wegener's GPA, relapsing polychondritis, trauma, cocaine abuse."
+      "explanation": "Little's area/Kiesselbach's plexus: anterior inferior nasal septum — confluence of 4 arteries (branches of anterior ethmoidal, sphenopalatine, superior labial, greater palatine). 90% of nosebleeds."
     },
     {
       "question_id": "TW_ENT_NOSE_Q002",
@@ -38,22 +40,91 @@
       "paper_ref": "TW_ENT_NOSE",
       "subject": "ENT",
       "topic": "Nose",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Nasal Deformities",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Most common site of epistaxis?",
+      "question_text": "A 36-year-old male with a history of severe granulomatosis with polyangiitis (Wegener's) presents for evaluation of a progressive facial change. On examination, there is a prominent structural collapse of the middle third of the nasal dorsum. Destruction of which structural framework is responsible for this saddle nose deformity?",
       "options": {
-        "A": "Posterior septal vessels",
-        "B": "Little's area (Kiesselbach's plexus)",
-        "C": "Inferior turbinate",
-        "D": "Roof of nasal cavity"
+        "A": "Hypertrophy of the alar cartilages",
+        "B": "Destruction of the nasal septal cartilage and bony support",
+        "C": "Atrophy of the soft tissue rhinophyma complex",
+        "D": "Fibrosis of the ethmoid sinus osteomeatal unit"
       },
       "correct_answer": "B",
-      "explanation": "Little's area/Kiesselbach's plexus: anterior inferior nasal septum — confluence of 4 arteries (branches of anterior ethmoidal, sphenopalatine, superior labial, greater palatine). 90% of nosebleeds."
+      "explanation": "Saddle nose: collapse of dorsum from cartilage/bone destruction. Causes: tertiary syphilis (classic), Wegener's GPA, relapsing polychondritis, trauma, cocaine abuse."
+    },
+    {
+      "question_id": "TW_ENT_NOSE_Q002_2",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_ENT_NOSE",
+      "subject": "ENT",
+      "topic": "Nose",
+      "subtopic": "Rhinitis and Sinusitis",
+      "difficulty": "Medium",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 27-year-old female presents with persistent clear rhinorrhea, sneezing bursts, and bilateral nasal congestion every spring. Physical examination shows pale, bluish, boggy inferior turbinates and a transverse skin crease across her nasal bridge. What is the fundamental immunological mechanism driving this presentation?",
+      "options": {
+        "A": "Type IV delayed-type hypersensitivity reaction",
+        "B": "Type I IgE-mediated hypersensitivity reaction",
+        "C": "Type II cytotoxic antibody reaction",
+        "D": "Autonomic non-allergic vasomotor hyperreactivity"
+      },
+      "correct_answer": "B",
+      "explanation": "Allergic rhinitis is driven by a Type I IgE-mediated hypersensitivity reaction against inhaled allergens. Signs include pale, boggy nasal mucosa, allergic shiners, and an 'allergic salute' crease on the nose."
+    },
+    {
+      "question_id": "TW_ENT_NOSE_Q003",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_ENT_NOSE",
+      "subject": "ENT",
+      "topic": "Nose",
+      "subtopic": "Nasal Masses",
+      "difficulty": "Medium",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 48-year-old male with a known history of aspirin-exacerbated respiratory disease (Samter's triad) complains of progressive bilateral nasal obstruction and anosmia. Anterior rhinoscopy reveals multiple smooth, translucent, grape-like masses insensitive to touch that originate from the ethmoid sinuses. What is the diagnosis?",
+      "options": {
+        "A": "Antrochoanal polyps",
+        "B": "Ethmoidal nasal polyps",
+        "C": "Inverted papilloma",
+        "D": "Juvenile nasopharyngeal angiofibroma"
+      },
+      "correct_answer": "B",
+      "explanation": "Ethmoidal polyps are multiple, bilateral, painless, translucent masses seen commonly in adults, often associated with allergies, asthma, and aspirin sensitivity (Samter's triad). Antrochoanal polyps are typically single, unilateral, and arise from the maxillary sinus."
+    },
+    {
+      "question_id": "TW_ENT_NOSE_Q004",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_ENT_NOSE",
+      "subject": "ENT",
+      "topic": "Nose",
+      "subtopic": "Nasal Masses",
+      "difficulty": "Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 14-year-old boy presents with severe, unprovoked, recurrent unilateral posterior epistaxis and progressive left-sided nasal obstruction. Rhinology examination reveals a large, lobulated, highly vascular expansile mass filling the posterior nasal cavity. Contrast CT shows widening of the pterygopalatine fossa with anterior displacement of the posterior maxillary sinus wall (Holman-Miller sign). What is the most likely diagnosis?",
+      "options": {
+        "A": "Esthesioneuroblastoma",
+        "B": "Juvenile Nasopharyngeal Angiofibroma (JNA)",
+        "C": "Squamous cell carcinoma of the nasopharynx",
+        "D": "Inverted Schneiderian papilloma"
+      },
+      "correct_answer": "B",
+      "explanation": "Juvenile Nasopharyngeal Angiofibroma (JNA) is a benign but locally aggressive, highly vascular tumor that occurs almost exclusively in adolescent males. It presents with the classic dyad of recurrent profuse epistaxis and unilateral nasal obstruction. The pathognomonic radiological sign is the Holman-Miller sign (anterior bowing of the posterior wall of the maxillary antrum)."
     }
   ]
 }

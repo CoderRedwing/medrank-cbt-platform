@@ -3,11 +3,13 @@
   "paper_type": "topic_wise",
   "subject": "Forensic Medicine",
   "topic": "Legal Medicine",
-  "total_questions": 2,
+  "total_questions": 5,
   "difficulty_distribution": {
-    "Easy": 2
+    "Easy": 1,
+    "Medium": 3,
+    "Hard": 1
   },
-  "created_at": "2026-05-30",
+  "created_at": "2026-06-06",
   "questions": [
     {
       "question_id": "TW_FORENSIC_LEGAL_MEDICI_Q001",
@@ -15,22 +17,22 @@
       "paper_ref": "TW_FORENSIC_LEGAL_MEDICI",
       "subject": "Forensic Medicine",
       "topic": "Legal Medicine",
-      "subtopic": null,
+      "subtopic": "Medical Jurisprudence",
       "difficulty": "Easy",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Rape examination: must be done by?",
+      "question_text": "A 22-year-old female survivor of an alleged sexual assault is brought to an emergency department for medical evaluation and forensic evidence collection. Under the provisions of modern Indian criminal law (BNSS / BNS, which updated the previous CrPC / IPC framework), who is legally authorized to conduct this medical examination?",
       "options": {
-        "A": "Male doctor only",
-        "B": "Any registered medical practitioner (male or female)",
-        "C": "Female doctor only",
-        "D": "Forensic expert only"
+        "A": "A male medical practitioner only, provided a police officer is present",
+        "B": "Any registered medical practitioner (male or female) with the mandatory informed consent of the survivor",
+        "C": "Only a board-certified forensic medicine expert inside a government mortuary",
+        "D": "A female judicial magistrate exclusively"
       },
       "correct_answer": "B",
-      "explanation": "Rape examination (as per BNS/BNSS replacing IPC/CrPC): to be conducted by any registered medical practitioner. Consent of survivor is mandatory. Report to be sent to police. Evidence: DNA, swabs, injuries."
+      "explanation": "Rape examination (as per BNS/BNSS replacing IPC/CrPC): to be conducted by any registered medical practitioner. Consent of survivor is mandatory. Report to be sent to police. Evidence: DNA, swabs, injuries.[cite: 21]"
     },
     {
       "question_id": "TW_FORENSIC_LEGAL_MEDICI_Q002",
@@ -38,22 +40,91 @@
       "paper_ref": "TW_FORENSIC_LEGAL_MEDICI",
       "subject": "Forensic Medicine",
       "topic": "Legal Medicine",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Consent in Medicine",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Age of consent for medical procedures in India (IPC/BNS)?",
+      "question_text": "A 15-year-old high school student requests an elective cosmetic or non-emergency surgical procedure on their own accord. According to the legal standards governing the age of consent for valid medical interventions in India, what is the age requirement, and how does the law interpret this situation?",
       "options": {
-        "A": "16 years",
-        "B": "18 years",
-        "C": "12 years",
-        "D": "21 years"
+        "A": "16 years; the patient can independently sign a legally binding consent form",
+        "B": "18 years; the patient is legally a minor, and valid consent must be obtained from a parent or legal guardian",
+        "C": "12 years; any child over 12 can independently authorize any major surgery under the BNS",
+        "D": "21 years; parental consent is required for all individuals under this age"
       },
       "correct_answer": "B",
-      "explanation": "Age of consent in India: 18 years. Below 18: guardian's consent required (exception: emergency, mature minor doctrine). Under POCSO Act, all sexual activity with <18 is criminal regardless of consent."
+      "explanation": "Age of consent in India: 18 years. Below 18: guardian's consent required (exception: emergency, mature minor doctrine). Under POCSO Act, all sexual activity with <18 is criminal regardless of consent.[cite: 21]"
+    },
+    {
+      "question_id": "TW_FORENSIC_LEGAL_MEDICI_Q003",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_FORENSIC_LEGAL_MEDICI",
+      "subject": "Forensic Medicine",
+      "topic": "Legal Medicine",
+      "subtopic": "Medical Negligence",
+      "difficulty": "Medium",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A surgeon inadvertently leaves a surgical laparotomy sponge inside a patient's abdominal cavity during an emergency cholecystectomy, leading to a severe postoperative pelvic abscess. In a court of law, which legal doctrine applies due to the self-evident nature of the negligence, shifting the burden of proof onto the defending physician?",
+      "options": {
+        "A": "Respondeat superior",
+        "B": "Res ipsa loquitur",
+        "C": "Volenti non fit injuria",
+        "D": "Novus actus interveniens"
+      },
+      "correct_answer": "B",
+      "explanation": "Res ipsa loquitur ('the thing speaks for itself') is a legal doctrine that applies when an injury occurs that would not normally happen without negligence, the instrument of injury was under the exclusive control of the doctor, and there is no contributory negligence. It shifts the burden of proof onto the doctor to show they weren't negligent."
+    },
+    {
+      "question_id": "TW_FORENSIC_LEGAL_MEDICI_Q004",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_FORENSIC_LEGAL_MEDICI",
+      "subject": "Forensic Medicine",
+      "topic": "Legal Medicine",
+      "subtopic": "Witness Evidence",
+      "difficulty": "Medium",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A practicing general practitioner receives a formal judicial document ordering them to appear in a court of law on a specified date and time to provide testimony regarding a trauma case they managed. What is the legal name of this document, and what is the penalty for willful non-compliance without a valid reason?",
+      "options": {
+        "A": "Conduct money; no criminal or civil penalties apply",
+        "B": "Subpoena / Summons; contempt of court and potential issuance of a warrant",
+        "C": "Affidavit; immediate loss of medical registration license",
+        "D": "Inquest report; a fine levied by the local medical council"
+      },
+      "correct_answer": "B",
+      "explanation": "A subpoena (or summons) is a formal writ issued by a court ordering a witness to appear and give testimony. Failure to obey a subpoena without a lawful excuse constitutes contempt of court, and a bailable or non-bailable warrant can be issued to compel attendance."
+    },
+    {
+      "question_id": "TW_FORENSIC_LEGAL_MEDICI_Q005",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_FORENSIC_LEGAL_MEDICI",
+      "subject": "Forensic Medicine",
+      "topic": "Legal Medicine",
+      "subtopic": "Medical Jurisprudence",
+      "difficulty": "Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "An individual commits a violent assault under the acute influence of an intoxicant. During the legal proceedings, the defense attempts to claim complete exemption from criminal liability using the legal defense of insanity/intoxication under the provisions of the Bharatiya Nyaya Sanhita (BNS). Under what precise condition is involuntary intoxication recognized as an absolute defense?",
+      "options": {
+        "A": "The individual voluntarily consumed alcohol but underestimated its psychoactive potency",
+        "B": "The intoxicating substance was administered to the individual without their knowledge or against their explicit will",
+        "C": "The individual has a documented history of severe chronic substance use disorder",
+        "D": "The individual experienced a severe emotional trigger immediately after drinking"
+      },
+      "correct_answer": "B",
+      "explanation": "Under Indian law (traditionally Section 85 IPC, now maintained in the modern BNS framework), involuntary intoxication is a complete defense only if the intoxicating substance was administered without the person's knowledge or against their will, AND it rendered them completely incapable of knowing the nature of the act or that it was wrong/contrary to law. Voluntary intoxication does not absolve an individual of intent or knowledge."
     }
   ]
 }

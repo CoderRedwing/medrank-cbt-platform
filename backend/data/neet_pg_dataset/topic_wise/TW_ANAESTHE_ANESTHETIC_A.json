@@ -5,9 +5,9 @@
   "topic": "Anesthetic Agents",
   "total_questions": 2,
   "difficulty_distribution": {
-    "Easy": 2
+    "Hard": 2
   },
-  "created_at": "2026-05-30",
+  "created_at": "2026-06-06",
   "questions": [
     {
       "question_id": "TW_ANAESTHE_ANESTHETIC_A_Q001",
@@ -16,21 +16,21 @@
       "subject": "Anaesthesia",
       "topic": "Anesthetic Agents",
       "subtopic": null,
-      "difficulty": "Easy",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Ketamine mechanism and unique property?",
+      "question_text": "A 7-year-old boy with a known history of severe refractory bronchial asthma is brought to the emergency department in status asthmaticus. He is experiencing severe respiratory distress, showing intercostal retractions and a silent chest on auscultation. Due to imminent respiratory failure, the decision is made to perform rapid sequence intubation. Which of the following induction agents is most appropriate for this patient, and what is its primary mechanism of action?",
       "options": {
-        "A": "GABA agonist, causes respiratory depression",
-        "B": "NMDA antagonist — dissociative anesthesia, bronchodilation, preserves airway reflexes",
-        "C": "Volatile agent, hepatotoxic",
-        "D": "Propofol-like — GABA agonist, rapid awakening"
+        "A": "Propofol; acts as a potent GABA-A receptor agonist causing immediate smooth muscle relaxation",
+        "B": "Ketamine; acts as an NMDA receptor antagonist providing bronchodilation while preserving airway reflexes",
+        "C": "Etomidate; blocks voltage-gated sodium channels while maintaining hemodynamic stability",
+        "D": "Thiopentone; stimulates central respiratory centers and induces profound muscle relaxation"
       },
       "correct_answer": "B",
-      "explanation": "Ketamine: NMDA receptor antagonist → dissociative anesthesia. Unique: maintains airway reflexes, causes bronchodilation (good in asthma/status asthmaticus), increases HR/BP. Causes emergence hallucinations."
+      "explanation": "This patient is in severe status asthmaticus and requires an induction agent that provides bronchodilation. Ketamine is a dissociative anesthetic that acts primarily as an NMDA receptor antagonist. It induces catecholamine release, leading to significant bronchodilation, making it the ideal induction agent for patients with severe bronchospasm or asthma. Additionally, it preserves protective airway reflexes and respiratory drive compared to other agents, though emergence delirium remains a known postoperative adverse effect."
     },
     {
       "question_id": "TW_ANAESTHE_ANESTHETIC_A_Q002",
@@ -39,21 +39,21 @@
       "subject": "Anaesthesia",
       "topic": "Anesthetic Agents",
       "subtopic": null,
-      "difficulty": "Easy",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Suxamethonium (succinylcholine) mechanism?",
+      "question_text": "A 24-year-old male is brought to the emergency department with a severe crush injury to both lower limbs sustained in a road traffic accident 4 days ago. He is scheduled for an urgent wound debridement under general anesthesia. During rapid sequence induction, the resident administers a neuromuscular blocking agent. Within minutes, the patient develops profound sinus bradycardia followed by cardiac arrest. An ECG reveals peaked T waves and prolonged PR intervals. Which of the following best explains the mechanism of the drug responsible for this presentation?",
       "options": {
-        "A": "Non-depolarizing NM blocker",
-        "B": "Depolarizing NM blocker (mimics ACh at NMJ continuously)",
-        "C": "Acetylcholinesterase inhibitor",
-        "D": "Calcium channel blocker"
+        "A": "Competitive antagonism of nicotinic acetylcholine receptors at the neuromuscular junction",
+        "B": "Persistent activation and depolarization of nicotinic receptors leading to massive intracellular potassium efflux",
+        "C": "Inhibition of acetylcholinesterase leading to an acute cholinergic crisis and hyperkalemia",
+        "D": "Blockade of presynaptic calcium channels preventing the release of endogenous acetylcholine"
       },
       "correct_answer": "B",
-      "explanation": "Succinylcholine: depolarizing NMB — persistently activates NMJ → phase I (depolarizing) block → fasciculations then flaccid paralysis. Fastest onset (60s), shortest duration (10min). Triggers malignant hyperthermia."
+      "explanation": "The patient experienced hyperkalemic cardiac arrest following the administration of Suxamethonium (succinylcholine), a depolarizing neuromuscular blocker. In patients with prolonged immobilization, major burns, or massive crush injuries (>24-48 hours old), there is an upregulation of immature, extrajunctional nicotinic acetylcholine receptors. When succinylcholine binds to and persistently depolarizes these receptors, it causes a massive shift of potassium from intracellular to extracellular spaces, inducing severe hyperkalemia, peaked T waves, bradyarrhythmias, and potential cardiac arrest."
     }
   ]
 }

@@ -42,10 +42,10 @@ export const testAPI = {
   listPapers:   ()                        => api.get('/tests/papers'),
   startTest:    (body)                    => api.post('/tests/start', body),
   saveResponse: (sessionId, body)         => api.patch(`/tests/${sessionId}/response`, body),
-  submitTest:   (sessionId, body)         => api.post(`/tests/${sessionId}/submit`, body),
+  submitTest:   (sessionId, body)         => api.post(`/tests/${sessionId}/submit`, body, { timeout: 120000 }),
   getHistory:   (page = 1, limit = 20)   => api.get(`/tests/history?page=${page}&limit=${limit}`),
   getSession:   (sessionId)              => api.get(`/tests/${sessionId}`),
-  getAnalysis:  (sessionId)              => api.get(`/tests/${sessionId}/analysis`),
+  getAnalysis:  (sessionId)  => api.get(`/tests/${sessionId}/analysis`, { timeout: 60000 }),
 };
 
 /* ── Dashboard ────────────────────────────────────────────────────── */

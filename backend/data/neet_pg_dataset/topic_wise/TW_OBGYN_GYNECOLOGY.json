@@ -3,11 +3,13 @@
   "paper_type": "topic_wise",
   "subject": "OBGYN",
   "topic": "Gynecology",
-  "total_questions": 5,
+  "total_questions": 10,
   "difficulty_distribution": {
-    "Easy": 5
+    "Easy": 2,
+    "Medium": 6,
+    "Hard": 2
   },
-  "created_at": "2026-05-30",
+  "created_at": "2026-06-06",
   "questions": [
     {
       "question_id": "TW_OBGYN_GYNECOLOGY_Q001",
@@ -62,7 +64,7 @@
       "subject": "OBGYN",
       "topic": "Gynecology",
       "subtopic": null,
-      "difficulty": "Easy",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
@@ -85,7 +87,7 @@
       "subject": "OBGYN",
       "topic": "Gynecology",
       "subtopic": null,
-      "difficulty": "Easy",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
@@ -108,7 +110,7 @@
       "subject": "OBGYN",
       "topic": "Gynecology",
       "subtopic": null,
-      "difficulty": "Easy",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
@@ -123,6 +125,121 @@
       },
       "correct_answer": "B",
       "explanation": "Dermoid cyst (mature cystic teratoma): most common benign ovarian tumor in reproductive age. Contains ectodermal elements (hair, teeth, sebum). Rokitansky protuberance."
+    },
+    {
+      "question_id": "TW_OBGYN_GYNECOLOGY_Q006",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_OBGYN_GYNECOLOGY",
+      "subject": "OBGYN",
+      "topic": "Gynecology",
+      "subtopic": null,
+      "difficulty": "Medium",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 26-year-old nulliparous female presents with chronic, severe pelvic pain that worsens significantly during menstruation (dysmenorrhea) and intercourse (dyspareunia). She has been trying to conceive for 2 years without success. Pelvic examination reveals a fixed, retroverted uterus and tender nodules along the uterosacral ligaments. Transvaginal ultrasound demonstrates an adnexal mass with diffuse, low-level internal echoes ('ground glass appearance'). What is the definitive method of diagnosis?",
+      "options": {
+        "A": "Serial serum CA-125 measurements",
+        "B": "Diagnostic laparoscopy with biopsy of lesions",
+        "C": "Pelvic Magnetic Resonance Imaging (MRI)",
+        "D": "Endometrial biopsy"
+      },
+      "correct_answer": "B",
+      "explanation": "This clinical presentation is highly indicative of Endometriosis, with the ultrasound showcasing an endometrioma ('chocolate cyst'). While imaging and symptoms point to the diagnosis, visualization and histological confirmation via laparoscopy remain the diagnostic gold standard."
+    },
+    {
+      "question_id": "TW_OBGYN_GYNECOLOGY_Q007",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_OBGYN_GYNECOLOGY",
+      "subject": "OBGYN",
+      "topic": "Gynecology",
+      "subtopic": null,
+      "difficulty": "Medium",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 53-year-old postmenopausal female presents with a 2-week history of painless vaginal bleeding. She has a history of type 2 diabetes and obesity (BMI 34 kg/m²). She has never been pregnant. Transvaginal ultrasound shows an endometrial stripe measuring 11 mm. What is the most appropriate next step in the clinical evaluation of this patient?",
+      "options": {
+        "A": "Reassure the patient and repeat the ultrasound in 6 months",
+        "B": "Initiate continuous combination hormone replacement therapy",
+        "C": "Perform an endometrial biopsy",
+        "D": "Schedule an immediate total laparoscopic hysterectomy"
+      },
+      "correct_answer": "C",
+      "explanation": "Postmenopausal bleeding (PMB) is the classic presentation of endometrial cancer until proven otherwise. Risk factors include obesity, diabetes, and nulliparity due to unopposed estrogen. An endometrial thickness >4 mm in a postmenopausal woman warrants tissue sampling via endometrial biopsy or D&C to rule out hyperplasia or malignancy."
+    },
+    {
+      "question_id": "TW_OBGYN_GYNECOLOGY_Q008",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_OBGYN_GYNECOLOGY",
+      "subject": "OBGYN",
+      "topic": "Gynecology",
+      "subtopic": null,
+      "difficulty": "Medium",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 31-year-old female presents to her gynecologist due to an abnormal screening Pap smear showing High-Grade Squamous Intraepithelial Lesion (HSIL). What is the next mandatory step in management?",
+      "options": {
+        "A": "Repeat the Pap smear in 6 months",
+        "B": "Perform a reflex HPV DNA test",
+        "C": "Colposcopy with directed biopsies",
+        "D": "Empirical Loop Electrosurgical Excision Procedure (LEEP)"
+      },
+      "correct_answer": "C",
+      "explanation": "An HSIL Pap smear result carries a high risk of underlying cervical intraepithelial neoplasia (CIN 2/3) or invasive cervical carcinoma. Immediate evaluation via colposcopy with endocervical sampling/directed biopsies is required. Reflex HPV testing is not indicated for high-grade cytology as management will not change based on the status."
+    },
+    {
+      "question_id": "TW_OBGYN_GYNECOLOGY_Q009",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_OBGYN_GYNECOLOGY",
+      "subject": "OBGYN",
+      "topic": "Gynecology",
+      "subtopic": null,
+      "difficulty": "Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 62-year-old postmenopausal female presents with an adnexal mass. Surgical staging confirms a stage IA granulosa cell tumor of the ovary. Histopathological evaluation reveals sheets of cells organized around small fluid-filled cavities containing eosinophilic debris, resembling immature follicles. What are these diagnostic structures called, and what serum marker is utilized to monitor for recurrence?",
+      "options": {
+        "A": "Schiller-Duval bodies; Alpha-fetoprotein (AFP)",
+        "B": "Call-Exner bodies; Inhibin B",
+        "C": "Psammoma bodies; CA-125",
+        "D": "Reinke crystals; Testosterone"
+      },
+      "correct_answer": "B",
+      "explanation": "Granulosa cell tumors are sex cord-stromal malignancies that secrete estrogen. Microscopic evaluation classically demonstrates Call-Exner bodies (microfollicular spaces containing eosinophilic fluid). Inhibin B is highly sensitive and specific for these tumors, making it the ideal biomarker for tracking disease recurrence."
+    },
+    {
+      "question_id": "TW_OBGYN_GYNECOLOGY_Q010",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_OBGYN_GYNECOLOGY",
+      "subject": "OBGYN",
+      "topic": "Gynecology",
+      "subtopic": null,
+      "difficulty": "Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 16-year-old adolescent female presents with primary amenorrhea. Physical examination reveals normal breast development but completely absent axillary and pubic hair. Pelvic ultrasound reveals a short, blind-ending vaginal pouch and an completely absent uterus and fallopian tubes. Karyotype analysis confirms a 46,XY chromosomal profile. What is the most definitive underlying pathophysiology?",
+      "options": {
+        "A": "Defective synthesis of 17-alpha-hydroxylase",
+        "B": "A mutation in the gene encoding the androgen receptor causing complete tissue insensitivity",
+        "C": "Agenesis of the Mullerian ducts (Mayer-Rokitansky-Kuster-Hauser syndrome)",
+        "D": "Inability of the fetal testes to produce anti-Mullerian hormone (AMH)"
+      },
+      "correct_answer": "B",
+      "explanation": "This patient presents with Complete Androgen Insensitivity Syndrome (CAIS). Testes develop normally in utero and secrete testosterone and AMH. AMH causes regression of the Mullerian ducts, so no uterus or upper vagina forms. Due to completely non-functional androgen receptors, peripheral tissues respond to converted estrogen, resulting in female secondary traits (breasts) but no androgen-dependent hair growth (axillary/pubic)."
     }
   ]
 }

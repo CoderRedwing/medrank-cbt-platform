@@ -3,11 +3,13 @@
   "paper_type": "topic_wise",
   "subject": "Medicine",
   "topic": "Gastroenterology",
-  "total_questions": 6,
+  "total_questions": 10,
   "difficulty_distribution": {
-    "Easy": 6
+    "Easy": 2,
+    "Medium": 6,
+    "Hard": 2
   },
-  "created_at": "2026-05-30",
+  "created_at": "2026-06-06",
   "questions": [
     {
       "question_id": "TW_MEDICINE_GASTROENTERO_Q001",
@@ -15,22 +17,22 @@
       "paper_ref": "TW_MEDICINE_GASTROENTERO",
       "subject": "Medicine",
       "topic": "Gastroenterology",
-      "subtopic": null,
+      "subtopic": "Celiac Disease",
       "difficulty": "Easy",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Celiac disease antibody for diagnosis?",
+      "question_text": "A 24-year-old female presents with a 6-month history of chronic bloating, intermittent diarrhea, and unintentional weight loss. On examination, she has pallor and an itchy, vesicular rash on her extensor surfaces. Laboratory evaluation reveals microcytic anemia. Screening for which of the following serological markers is the most appropriate initial diagnostic step?",
       "options": {
-        "A": "Anti-gliadin IgG",
-        "B": "Anti-endomysial IgA",
-        "C": "Anti-tTG IgA",
-        "D": "Anti-DGP IgG"
+        "A": "Anti-gliadin IgG antibodies",
+        "B": "Anti-endomysial IgA antibodies",
+        "C": "Anti-tissue transglutaminase (anti-tTG) IgA antibodies",
+        "D": "Anti-deamidated gliadin peptide (DGP) IgG antibodies"
       },
       "correct_answer": "C",
-      "explanation": "Anti-tTG IgA (tissue transglutaminase) is most sensitive/specific for celiac disease. Confirm with duodenal biopsy (villous atrophy, crypt hyperplasia, intraepithelial lymphocytes)."
+      "explanation": "The clinical picture of chronic diarrhea, weight loss, iron deficiency anemia, and dermatitis herpetiformis (itchy vesicular rash on extensors) is highly specific for Celiac disease. Anti-tTG IgA is the initial screening test of choice due to its high sensitivity and specificity. IgA levels should be checked concurrently to rule out selective IgA deficiency."
     },
     {
       "question_id": "TW_MEDICINE_GASTROENTERO_Q002",
@@ -38,37 +40,14 @@
       "paper_ref": "TW_MEDICINE_GASTROENTERO",
       "subject": "Medicine",
       "topic": "Gastroenterology",
-      "subtopic": null,
+      "subtopic": "Malabsorption Syndromes",
       "difficulty": "Easy",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Most accurate predictor of prognosis in cirrhosis?",
-      "options": {
-        "A": "Child-Pugh score",
-        "B": "MELD score",
-        "C": "Albumin level",
-        "D": "PT/INR alone"
-      },
-      "correct_answer": "B",
-      "explanation": "MELD score (bilirubin, INR, creatinine) is most accurate for 90-day mortality and organ allocation. Child-Pugh uses 5 variables including ascites/encephalopathy."
-    },
-    {
-      "question_id": "TW_MEDICINE_GASTROENTERO_Q003",
-      "paper_type": "topic_wise",
-      "paper_ref": "TW_MEDICINE_GASTROENTERO",
-      "subject": "Medicine",
-      "topic": "Gastroenterology",
-      "subtopic": null,
-      "difficulty": "Easy",
-      "question_type": "single_best_answer",
-      "image_based": false,
-      "marks_correct": 4,
-      "marks_incorrect": -1,
-      "marks_unanswered": 0,
-      "question_text": "Whipple's disease organism?",
+      "question_text": "A 52-year-old male farm worker presents with a 4-month history of steatorrhea, severe migratory polyarthralgias, intermittent low-grade fever, and neurological confusion. Endoscopic duodenal biopsy reveals heavy infiltration of the lamina propria with Periodic acid–Schiff (PAS)-positive macrophages. Which of the following is the causative organism of this patient's condition?",
       "options": {
         "A": "Yersinia enterocolitica",
         "B": "Tropheryma whipplei",
@@ -76,7 +55,30 @@
         "D": "Campylobacter jejuni"
       },
       "correct_answer": "B",
-      "explanation": "Whipple's disease: T. whipplei (actinomycete). PAS-positive macrophages in small bowel. Triad: malabsorption, arthralgia, fever."
+      "explanation": "Whipple's disease is a systemic illness caused by the actinomycete Tropheryma whipplei. The classic clinical triad/tetrad includes malabsorption (steatorrhea, weight loss), migratory large-joint arthralgias, fever, and central nervous system or cardiac manifestations. Diagnosis is confirmed by demonstrating PAS-positive macrophages containing rod-shaped bacilli in the small bowel mucosa."
+    },
+    {
+      "question_id": "TW_MEDICINE_GASTROENTERO_Q003",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MEDICINE_GASTROENTERO",
+      "subject": "Medicine",
+      "topic": "Gastroenterology",
+      "subtopic": "Cirrhosis",
+      "difficulty": "Medium",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 58-year-old male with decompensated liver cirrhosis secondary to chronic hepatitis C infection is being evaluated for liver transplantation listing. To prioritize organ allocation based on the patient's objective short-term mortality risk, which of the following scoring systems is the most accurate and widely utilized predictor?",
+      "options": {
+        "A": "Child-Pugh Classification score",
+        "B": "Model for End-Stage Liver Disease (MELD) score",
+        "C": "Serum Albumin and Platelet Ratio Index (APRI)",
+        "D": "Fibrosis-4 (FIB-4) Index"
+      },
+      "correct_answer": "B",
+      "explanation": "The MELD score relies on objective laboratory parameters (Serum Bilirubin, Serum Creatinine, and INR, along with Sodium in MELD-Na) to predict 90-day mortality in patients with end-stage liver disease. Because it does not contain subjective variables like ascites or encephalopathy (which are found in the Child-Pugh system), it is used globally for liver transplant organ allocation priority."
     },
     {
       "question_id": "TW_MEDICINE_GASTROENTERO_Q004",
@@ -84,22 +86,22 @@
       "paper_ref": "TW_MEDICINE_GASTROENTERO",
       "subject": "Medicine",
       "topic": "Gastroenterology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Hepatitis",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Hepatitis B surface antigen (HBsAg) persists >6 months indicates?",
+      "question_text": "A 34-year-old routine blood donor is referred to the gastroenterology clinic after testing positive for Hepatitis B virus surface antigen (HBsAg). On reviewing his medical records, it is observed that he had tested positive for HBsAg exactly 7 months prior during an insurance screening. He remains completely asymptomatic with normal transaminase levels. How should this patient's serological status be classified?",
       "options": {
-        "A": "Acute hepatitis B",
-        "B": "Chronic hepatitis B",
-        "C": "Resolved infection",
-        "D": "Vaccination response"
+        "A": "Acute Hepatitis B infection with an extended incubation window",
+        "B": "Chronic Hepatitis B infection",
+        "C": "Resolved past Hepatitis B infection with persistent antigenemia",
+        "D": "Anomalous hyper-response to prior Hepatitis B vaccination"
       },
       "correct_answer": "B",
-      "explanation": "HBsAg >6 months = chronic HBV infection. HBsAb = immunity (post-infection or vaccine). HBcAb IgM = acute infection."
+      "explanation": "Chronic Hepatitis B infection is defined by the persistence of HBsAg in the serum for more than 6 months. The absence of symptoms or normal transaminase levels indicates he may be in a chronic infection state (such as the HBeAg-negative chronic infection/carrier phase), but the persistence of HBsAg strictly establishes chronicity."
     },
     {
       "question_id": "TW_MEDICINE_GASTROENTERO_Q005",
@@ -107,14 +109,14 @@
       "paper_ref": "TW_MEDICINE_GASTROENTERO",
       "subject": "Medicine",
       "topic": "Gastroenterology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Metabolic Liver Diseases",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Wilson's disease: gene mutated?",
+      "question_text": "A 19-year-old university student is evaluated for new-onset dysarthria, resting tremors, and emotional lability. Physical examination reveals a golden-brown ring at the limbus of the cornea on slit-lamp examination. Lab studies reveal elevated serum transaminases and a decreased ceruloplasmin level. A loss-of-function mutation in which of the following genes is responsible for this patient's presentation?",
       "options": {
         "A": "HFE gene",
         "B": "ATP7B gene",
@@ -122,7 +124,7 @@
         "D": "ABCB4 gene"
       },
       "correct_answer": "B",
-      "explanation": "Wilson's disease: ATP7B mutation (chromosome 13) → copper accumulation. Features: Kayser-Fleischer rings, liver disease, neuropsychiatric symptoms."
+      "explanation": "The patient is presenting with Wilson's disease (hepatolenticular degeneration), characterized by neuropsychiatric symptoms, liver dysfunction, and Kayser-Fleischer rings. Wilson's disease is an autosomal recessive disorder caused by mutations in the ATP7B gene on chromosome 13, which encodes a copper-transporting P-type ATPase, leading to impaired biliary copper excretion and defective ceruloplasmin incorporation."
     },
     {
       "question_id": "TW_MEDICINE_GASTROENTERO_Q006",
@@ -130,22 +132,114 @@
       "paper_ref": "TW_MEDICINE_GASTROENTERO",
       "subject": "Medicine",
       "topic": "Gastroenterology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Hepatorenal Syndrome",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Hepatorenal syndrome: most important differentiating feature from pre-renal AKI?",
+      "question_text": "A 54-year-old male with a history of alcohol-induced liver cirrhosis and tense ascites is hospitalized due to an abrupt increase in serum creatinine from 0.9 mg/dL to 2.3 mg/dL over 48 hours. Urinalysis reveals no casts, no proteinuria, and a urine sodium concentration of 6 mEq/L. Diuretics are discontinued, and he is given an aggressive fluid challenge with intravenous albumin (1 g/kg/day) for 48 hours. Despite this, his serum creatinine continues to rise to 2.7 mg/dL. What is the most definitive clinical feature differentiating this condition from classic pre-renal acute kidney injury (AKI)?",
       "options": {
-        "A": "Elevated creatinine",
-        "B": "No improvement with fluid challenge",
-        "C": "Oliguria",
-        "D": "Hyponatremia"
+        "A": "The profound elevation of serum creatinine levels out of proportion to BUN",
+        "B": "The failure of renal function to improve after a standardized 48-hour fluid challenge with albumin",
+        "C": "The development of extreme oliguria with a urine volume <100 mL/day",
+        "D": "The presence of profound dilutional hyponatremia"
       },
       "correct_answer": "B",
-      "explanation": "HRS: renal failure in cirrhosis that does NOT improve with 1.5L albumin challenge. Urine Na <10 mEq/L, no proteinuria, no obstruction."
+      "explanation": "Hepatorenal Syndrome (HRS) is a form of functional renal failure seen in advanced cirrhosis driven by severe splanchnic vasodilation. While it shares features with pre-renal AKI (low urine sodium <10 mEq/L, bland sediment), the defining diagnostic criteria requires that the renal impairment shows no response/improvement after at least 48 hours of diuretic withdrawal and intravascular volume expansion using intravenous albumin."
+    },
+    {
+      "question_id": "TW_MEDICINE_GASTROENTERO_Q007",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MEDICINE_GASTROENTERO",
+      "subject": "Medicine",
+      "topic": "Gastroenterology",
+      "subtopic": "Inflammatory Bowel Disease",
+      "difficulty": "Medium",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 24-year-old female presents with chronic bloody diarrhea, lower abdominal cramping, and tenesmus. Colonoscopy reveals continuous inflammation extending from the rectum up to the splenic flexure with loss of vascular pattern and friable mucosa. What is the most characteristic histological finding associated with this condition?",
+      "options": {
+        "A": "Transmural inflammation with non-caseating granulomas",
+        "B": "Crypt abscesses and mucosal inflammation limited to the mucosa and submucosa",
+        "C": "Subepithelial collagen band deposition",
+        "D": "Tropheryma whipplei inside PAS-positive macrophages"
+      },
+      "correct_answer": "B",
+      "explanation": "The clinical presentation and continuous rectal-involved pattern point to Ulcerative Colitis. Histologically, UC features mucosal and submucosal inflammation with architectural distortion, cryptitis, and crypt abscesses, lacking the transmural granulomas characteristic of Crohn's disease."
+    },
+    {
+      "question_id": "TW_MEDICINE_GASTROENTERO_Q008",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MEDICINE_GASTROENTERO",
+      "subject": "Medicine",
+      "topic": "Gastroenterology",
+      "subtopic": "Gastric Disorders",
+      "difficulty": "Medium",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 44-year-old male presents with recurrent, severe epigastric burning pain. Endoscopy reveals multiple peptic ulcers located in atypical regions, including the distal duodenum and jejunum. His fasting serum gastrin level is highly elevated. Which diagnostic test is the most appropriate next step to confirm a gastrinoma?",
+      "options": {
+        "A": "H. pylori urea breath test",
+        "B": "Secretin stimulation test",
+        "C": "24-hour gastric pH monitoring",
+        "D": "Serum pepsinogen levels"
+      },
+      "correct_answer": "B",
+      "explanation": "Symptomatic atypical multiple ulcers with hypergastrinemia suggest Zollinger-Ellison syndrome (gastrinoma). The secretin stimulation test is the most specific provocative test; secretin paradoxically stimulates gastrin release from gastrinoma cells while suppressing it in normal G cells."
+    },
+    {
+      "question_id": "TW_MEDICINE_GASTROENTERO_Q009",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MEDICINE_GASTROENTERO",
+      "subject": "Medicine",
+      "topic": "Gastroenterology",
+      "subtopic": "Esophageal Disorders",
+      "difficulty": "Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 48-year-old male presents with a 6-month history of progressive dysphagia to both solids and liquids, accompanied by regurgitation of undigested food and weight loss. Barium swallow shows a dilated esophagus with a smooth, tapered narrowing at the lower esophageal sphincter ('bird's beak' appearance). What is the definitive gold-standard diagnostic modality to confirm this patient's underlying motility defect?",
+      "options": {
+        "A": "High-resolution esophageal manometry",
+        "B": "24-hour ambulatory esophageal pH impedance testing",
+        "C": "Upper gastrointestinal endoscopy with tissue biopsy",
+        "D": "Computed tomography (CT) of the chest and abdomen"
+      },
+      "correct_answer": "A",
+      "explanation": "The clinical presentation and barium swallow findings are classic for achalasia, an esophageal motility disorder caused by degeneration of the myenteric plexus. While barium swallow and endoscopy are important initial steps, high-resolution esophageal manometry is the gold standard, showing incomplete relaxation of the lower esophageal sphincter (LES) upon swallowing and aperistalsis in the smooth muscle esophagus."
+    },
+    {
+      "question_id": "TW_MEDICINE_GASTROENTERO_Q010",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MEDICINE_GASTROENTERO",
+      "subject": "Medicine",
+      "topic": "Gastroenterology",
+      "subtopic": "Complications of Cirrhosis",
+      "difficulty": "Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 54-year-old male with a history of decompensated alcoholic cirrhosis is brought to the emergency department with altered mental status and asterixis. Paracentesis is performed to evaluate his worsening ascites. The ascitic fluid analysis demonstrates a serum-ascites albumin gradient (SAAG) of 1.4 g/dL and an absolute polymorphonuclear leukocyte (PMN) count of 280 cells/mm³. What is the immediate first-line therapeutic management strategy?",
+      "options": {
+        "A": "Intravenous loop diuretics combined with aggressive fluid restriction",
+        "B": "Empiric intravenous antibiotic therapy with a third-generation cephalosporin (e.g., Cefotaxime)",
+        "C": "Immediate placement of a transjugular intrahepatic portosystemic shunt (TIPS)",
+        "D": "High-dose oral lactulose titrated to 5-6 soft bowel movements per day"
+      },
+      "correct_answer": "B",
+      "explanation": "The patient has spontaneous bacterial peritonitis (SBP), indicated by an ascitic fluid PMN count ≥ 250 cells/mm³ in a patient with portal hypertension (SAAG ≥ 1.1 g/dL). SBP requires immediate empiric treatment with an intravenous third-generation cephalosporin like cefotaxime to combat enteric gram-negative aerobes. While lactulose manages the secondary hepatic encephalopathy, treating the underlying infection is the absolute life-saving priority."
     }
   ]
 }

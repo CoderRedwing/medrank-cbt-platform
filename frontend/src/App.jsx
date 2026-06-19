@@ -4,6 +4,7 @@ import useAuthStore from './store/authStore';
 import AppLayout   from './components/layout/AppLayout.jsx';
 import AdminLayout from './components/layout/AdminLayout.jsx';
 import { LoadingScreen } from './components/ui/index.jsx';
+import AIRPredictorPage from './pages/Airpredictorpage.jsx';
 
 // Student pages
 import LoginPage           from './pages/LoginPage.jsx';
@@ -60,6 +61,7 @@ export default function App() {
         {/* Public */}
         <Route path="/login"    element={<LoginPage />} />
         <Route path="/register" element={<RegisterPage />} />
+        <Route path="/air-predictor" element={<AIRPredictorPage />} />
 
         {/* Student routes */}
         <Route path="/dashboard" element={<ProtectedRoute><S><DashboardPage /></S></ProtectedRoute>} />

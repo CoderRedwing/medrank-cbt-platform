@@ -3,11 +3,13 @@
   "paper_type": "topic_wise",
   "subject": "ENT",
   "topic": "Ear",
-  "total_questions": 4,
+  "total_questions": 5,
   "difficulty_distribution": {
-    "Easy": 4
+    "Easy": 1,
+    "Medium": 3,
+    "Hard": 1
   },
-  "created_at": "2026-05-30",
+  "created_at": "2026-06-06",
   "questions": [
     {
       "question_id": "TW_ENT_EAR_Q001",
@@ -15,19 +17,19 @@
       "paper_ref": "TW_ENT_EAR",
       "subject": "ENT",
       "topic": "Ear",
-      "subtopic": null,
+      "subtopic": "Audiology",
       "difficulty": "Easy",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Rinne's test negative (BC>AC) indicates?",
+      "question_text": "During a routine clinical assessment, a 19-year-old male with a history of recurrent ear infections is evaluated using a 512 Hz tuning fork. The Rinne test on the left side is negative, demonstrating that bone conduction is heard longer than air conduction (BC > AC). This finding is indicative of which clinical condition?",
       "options": {
-        "A": "Normal hearing",
-        "B": "Sensorineural hearing loss",
-        "C": "Conductive hearing loss",
-        "D": "Mixed hearing loss"
+        "A": "Normal physiological hearing profile",
+        "B": "Sensorineural hearing loss on the left side",
+        "C": "Conductive hearing loss on the left side",
+        "D": "Contralateral mixed hearing loss"
       },
       "correct_answer": "C",
       "explanation": "Rinne's test: Normal/SNHL: AC>BC (positive). Conductive HL: BC>AC (negative — bone conduction better than air). Weber: lateralizes to affected ear (conductive) or better ear (SNHL)."
@@ -38,19 +40,19 @@
       "paper_ref": "TW_ENT_EAR",
       "subject": "ENT",
       "topic": "Ear",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Middle Ear Disorders",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Otosclerosis: type of hearing loss?",
+      "question_text": "A 28-year-old female presents with progressive, bilateral hearing loss that worsened significantly during her recent pregnancy. Pure-tone audiometry demonstrates a conductive hearing loss with an isolated dip in bone conduction thresholds at 2000 Hz. What is the diagnosis, and what specific sign is described on the audiogram?",
       "options": {
-        "A": "Sensorineural",
-        "B": "Mixed",
-        "C": "Conductive with Carhart's notch on audiogram",
-        "D": "Pure sensorineural high frequency loss"
+        "A": "Presbycusis; Schwartz sign",
+        "B": "Meniere's disease; Hennebert's sign",
+        "C": "Otosclerosis; Carhart's notch",
+        "D": "Acoustic neuroma; Hittselberger's notch"
       },
       "correct_answer": "C",
       "explanation": "Otosclerosis: abnormal bone remodeling fixing stapes footplate → conductive hearing loss. Audiogram: Carhart's notch at 2000 Hz. Tympanometry: As (shallow) type. Treatment: stapedectomy."
@@ -61,19 +63,19 @@
       "paper_ref": "TW_ENT_EAR",
       "subject": "ENT",
       "topic": "Ear",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Anatomy",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Chorda tympani nerve: function?",
+      "question_text": "A 36-year-old male undergoes a tympanomastoid surgery for extensive cholestatoma. Postoperatively, he notes that food tastes unusual, describing a metallic sensation, and he has dry mouth on the ipsilateral side. A structural injury to which middle ear nerve structure accounts for these specific findings?",
       "options": {
-        "A": "Motor to tympanic membrane",
-        "B": "Taste from anterior 2/3 tongue + secretomotor to submandibular gland",
-        "C": "Pain from ear",
-        "D": "Motor to stapedius"
+        "A": "Tympanic branch of Glossopharyngeal nerve (Jacobson's nerve)",
+        "B": "Chorda tympani nerve",
+        "C": "Greater petrosal nerve branch",
+        "D": "Nerve to stapedius"
       },
       "correct_answer": "B",
       "explanation": "Chorda tympani (branch of CN VII): taste from anterior 2/3 tongue, secretomotor to submandibular + sublingual glands. Passes through middle ear. Damaged in middle ear surgery → loss of taste."
@@ -84,22 +86,45 @@
       "paper_ref": "TW_ENT_EAR",
       "subject": "ENT",
       "topic": "Ear",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Inner Ear Disorders",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Presbycusis: audiogram shows?",
+      "question_text": "A 74-year-old male is brought by his daughter due to progressive, bilateral difficulty hearing in noisy environments. He mentions that he can hear people talking but struggles to understand the words clearly. Pure tone audiometry displays a symmetric, sloping sensorineural hearing loss predominantly affecting the high frequencies. What is the most likely diagnosis?",
       "options": {
-        "A": "Low frequency loss",
-        "B": "High frequency sensorineural loss bilaterally",
-        "C": "Flat conductive loss",
-        "D": "Single frequency notch"
+        "A": "Otosclerosis",
+        "B": "Presbycusis",
+        "C": "Ototoxicity",
+        "D": "Chronic suppurative otitis media"
       },
       "correct_answer": "B",
       "explanation": "Presbycusis (age-related hearing loss): bilateral symmetric high-frequency sensorineural hearing loss (cochlear hair cell degeneration). Most common cause of SNHL in elderly."
+    },
+    {
+      "question_id": "TW_ENT_EAR_Q005",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_ENT_EAR",
+      "subject": "ENT",
+      "topic": "Ear",
+      "subtopic": "Inner Ear Disorders",
+      "difficulty": "Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 42-year-old female presents with episodic attacks of severe spinning vertigo, each lasting roughly 2 to 3 hours, accompanied by a roaring tinnitus and a sensation of fullness in her left ear. Audiometric evaluation over time confirms a fluctuating, low-frequency sensorineural hearing loss. What is the underlying mechanical etiology of this clinical syndrome?",
+      "options": {
+        "A": "Ischemic infarction of the labyrinthine artery",
+        "B": "Endolymphatic hydrops leading to increased endolymph volume and pressure",
+        "C": "Ectopic displacement of calcium carbonate otoconia into the posterior semicircular canal",
+        "D": "Vestibular nerve inflammation driven by latent herpes simplex reactivation"
+      },
+      "correct_answer": "B",
+      "explanation": "Meniere's disease is characterized by the classic tetrad of episodic vertigo, fluctuating low-frequency SNHL, roaring tinnitus, and aural fullness. It is caused by endolymphatic hydrops, an abnormal accumulation and pressure elevation of endolymph within the membranous labyrinth."
     }
   ]
 }

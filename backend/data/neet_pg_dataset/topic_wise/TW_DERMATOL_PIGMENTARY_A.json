@@ -3,11 +3,13 @@
   "paper_type": "topic_wise",
   "subject": "Dermatology",
   "topic": "Pigmentary and Immune",
-  "total_questions": 3,
+  "total_questions": 5,
   "difficulty_distribution": {
-    "Easy": 3
+    "Easy": 1,
+    "Medium": 3,
+    "Hard": 1
   },
-  "created_at": "2026-05-30",
+  "created_at": "2026-06-06",
   "questions": [
     {
       "question_id": "TW_DERMATOL_PIGMENTARY_A_Q001",
@@ -15,22 +17,22 @@
       "paper_ref": "TW_DERMATOL_PIGMENTARY_A",
       "subject": "Dermatology",
       "topic": "Pigmentary and Immune",
-      "subtopic": null,
+      "subtopic": "Drug Reactions",
       "difficulty": "Easy",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Acanthosis nigricans is associated with?",
+      "question_text": "A 30-year-old male presents with a well-demarcated, round, dusky-erythematous plaque on his left forearm that appeared 12 hours after taking cotrimoxazole for a urinary tract infection. He recalls having an identical-looking lesion on the exact same location of his forearm the last time he took this medication. Which of the following is a characteristic feature of this specific cutaneous drug reaction?",
       "options": {
-        "A": "Hypothyroidism",
-        "B": "Insulin resistance/type 2 diabetes mellitus",
-        "C": "Cushing's disease",
-        "D": "Addison's disease"
+        "A": "Occurs in completely random, different sites with each drug exposure",
+        "B": "Recurs at the exact same site on re-exposure to the offending drug",
+        "C": "Presents as a generalized, head-to-toe morbilliform eruption from onset",
+        "D": "Fades rapidly within hours leaving no trace of hyperpigmentation"
       },
       "correct_answer": "B",
-      "explanation": "Acanthosis nigricans: velvety hyperpigmented thickening at neck, axillae, groins. Associated with insulin resistance (most common), DM2, obesity, PCOS. Malignant AN: associated with gastric Ca."
+      "explanation": "FDE: oval/round well-demarcated erythematous plaque at SAME site on re-exposure. Residual hyperpigmentation. Common drugs: cotrimoxazole, NSAIDs, metronidazole, tetracycline."
     },
     {
       "question_id": "TW_DERMATOL_PIGMENTARY_A_Q002",
@@ -38,22 +40,22 @@
       "paper_ref": "TW_DERMATOL_PIGMENTARY_A",
       "subject": "Dermatology",
       "topic": "Pigmentary and Immune",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Pigmentary Disorders",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Vitiligo: pathophysiology?",
+      "question_text": "A 45-year-old obese male presents to the dermatology clinic noting a dark, thickened area of skin around his neck and axillae. On physical examination, the physician observes velvety, hyperpigmented plaques in these flexural folds. This clinical sign is most tightly associated with which underlying pathophysiological mechanism?",
       "options": {
-        "A": "Melanocyte overactivity",
-        "B": "Autoimmune destruction of melanocytes",
-        "C": "Melanin transfer defect",
-        "D": "Enzyme defect in melanin synthesis"
+        "A": "Severe thyroid hormone deficiency leading to myxedema deposition",
+        "B": "Insulin resistance resulting in activation of insulin-like growth factor (IGF-1) receptors",
+        "C": "Hypercortisolism causing direct epidermal breakdown",
+        "D": "Autoimmune-mediated hypermelanosis"
       },
       "correct_answer": "B",
-      "explanation": "Vitiligo: autoimmune destruction of melanocytes → depigmented macules. Associated: autoimmune thyroid disease, DM1, Addison's. Wood's lamp: bright white fluorescence. Treatment: topical steroids, tacrolimus, NBUVB."
+      "explanation": "Acanthosis nigricans: velvety hyperpigmented thickening at neck, axillae, groins. Associated with insulin resistance (most common), DM2, obesity, PCOS. Malignant AN: associated with gastric Ca."
     },
     {
       "question_id": "TW_DERMATOL_PIGMENTARY_A_Q003",
@@ -61,22 +63,68 @@
       "paper_ref": "TW_DERMATOL_PIGMENTARY_A",
       "subject": "Dermatology",
       "topic": "Pigmentary and Immune",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Pigmentary Disorders",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Fixed drug eruption (FDE): characteristic feature?",
+      "question_text": "A 26-year-old female presents with multiple asymptomatic, sharply demarcated, completely depigmented patches on the dorsum of both hands and around her mouth. She has a family history of autoimmune thyroiditis. What is the fundamental cellular mechanism driving her current dermatological presentation?",
       "options": {
-        "A": "Occurs in different sites each time",
-        "B": "Recurs at same site on re-exposure to drug",
-        "C": "Generalized from onset",
-        "D": "Never pigments"
+        "A": "Melanocyte overactivity and hyperplasia",
+        "B": "Autoimmune destruction of functional melanocytes",
+        "C": "Defective melanosome transfer to keratinocytes",
+        "D": "Enzyme defect in tyrosine-mediated melanin synthesis"
       },
       "correct_answer": "B",
-      "explanation": "FDE: oval/round well-demarcated erythematous plaque at SAME site on re-exposure. Residual hyperpigmentation. Common drugs: cotrimoxazole, NSAIDs, metronidazole, tetracycline."
+      "explanation": "Vitiligo: autoimmune destruction of melanocytes → depigmented macules. Associated: autoimmune thyroid disease, DM1, Addison's. Wood's lamp: bright white fluorescence. Treatment: topical steroids, tacrolimus, NBUVB."
+    },
+    {
+      "question_id": "TW_DERMATOL_PIGMENTARY_A_Q004",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_DERMATOL_PIGMENTARY_A",
+      "subject": "Dermatology",
+      "topic": "Pigmentary and Immune",
+      "subtopic": "Immune-Mediated Skin Diseases",
+      "difficulty": "Medium",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 34-year-old female presents with severe, painful, itchy purple spots on her wrists and ankles. On physical examination, the dermatologist describes the lesions as violaceous, polygonal, flat-topped papules. Close inspection of the surface of these papules reveals fine, white lacy streaks. What is this clinical sign called, and what condition does it confirm?",
+      "options": {
+        "A": "Auspitz sign; Psoriasis vulgaris",
+        "B": "Wickham's striae; Lichen planus",
+        "C": "Nikolsky sign; Pemphigus vulgaris",
+        "D": "Darier's sign; Mastocytosis"
+      },
+      "correct_answer": "B",
+      "explanation": "Lichen planus is characterized by the '6 Ps': Pruritic, Purple, Polygonal, Planar, Papules, and Plaques. The characteristic lacy white lines visible on the surface of the lesions are known as Wickham's striae. Histologically, it demonstrates a band-like lymphocytic infiltrate at the dermo-epidermal junction with saw-tooth rete ridges."
+    },
+    {
+      "question_id": "TW_DERMATOL_PIGMENTARY_A_Q005",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_DERMATOL_PIGMENTARY_A",
+      "subject": "Dermatology",
+      "topic": "Pigmentary and Immune",
+      "subtopic": "Immune-Mediated Skin Diseases",
+      "difficulty": "Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 62-year-old male is admitted to the hospital with extensive, tense cutaneous blisters covering his trunk and thighs. The blisters are remarkably sturdy, resisting rupture when digital pressure is applied directly to the margins (negative Nikolsky sign). Skin biopsy shows subepidermal split formation, and direct immunofluorescence demonstrates a linear pattern of IgG and C3 deposition along the basement membrane zone. Which specific molecular structures are targeted by autoantibodies in this patient's disease?",
+      "options": {
+        "A": "Desmoglein 1 and Desmoglein 3 within desmosomes",
+        "B": "BP180 and BP230 within hemidesmosomes",
+        "C": "Type IV collagen fibers within lamina densa",
+        "D": "Anchoring fibrils of Type VII collagen"
+      },
+      "correct_answer": "B",
+      "explanation": "The clinical description of tense blisters with a negative Nikolsky sign and subepidermal cleavage is diagnostic of Bullous Pemphigoid. This autoimmune blistering disease is driven by autoantibodies targeting hemidesmosomal proteins (specifically BP180/Type XVII collagen and BP230). This contrasts with Pemphigus Vulgaris, which features flaccid blisters (positive Nikolsky sign) due to intraepidermal cleavage from desmoglein targeting."
     }
   ]
 }

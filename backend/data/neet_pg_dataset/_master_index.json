@@ -52,12 +52,12 @@
   ],
   "difficulty_levels": [
     "Easy",
-    "Moderate",
+    "Medium",
     "Hard",
     "Very Hard"
   ],
   "file_structure": {
-    "full_papers/": "FP_01.json ... FP_35.json + _index.json",
+    "full_papers/": "FP_01.json ... FP_36.json + _index.json",
     "subject_papers/": "SP_<SUBJECT>_<NN>.json + _index.json",
     "topic_wise/": "TW_<SUBJECT>_<TOPIC>.json + _index.json",
     "_schema.json": "Full JSON schema for all objects",

@@ -3,11 +3,13 @@
   "paper_type": "topic_wise",
   "subject": "ENT",
   "topic": "Pharynx and Larynx",
-  "total_questions": 2,
+  "total_questions": 5,
   "difficulty_distribution": {
-    "Easy": 2
+    "Easy": 1,
+    "Medium": 3,
+    "Hard": 1
   },
-  "created_at": "2026-05-30",
+  "created_at": "2026-06-06",
   "questions": [
     {
       "question_id": "TW_ENT_PHARYNX_AND__Q001",
@@ -15,22 +17,22 @@
       "paper_ref": "TW_ENT_PHARYNX_AND_",
       "subject": "ENT",
       "topic": "Pharynx and Larynx",
-      "subtopic": null,
+      "subtopic": "Pharyngeal Masses",
       "difficulty": "Easy",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Juvenile nasopharyngeal angiofibroma (JNA): characteristics?",
+      "question_text": "A 15-year-old boy presents to the ENT clinic with a 6-month history of progressive, painless right-sided nasal obstruction and recurrent episodes of spontaneous, severe unilateral epistaxis. Nasopharyngoscopy reveals a highly vascular, lobulated mass originating near the margin of the sphenopalatine foramen. What is the biological nature and primary demographic profile associated with this tumor?",
       "options": {
-        "A": "Common in girls",
-        "B": "Benign hypervascular tumor in adolescent boys, arising from sphenopalatine foramen",
-        "C": "Malignant",
-        "D": "Anterior nasal cavity origin"
+        "A": "Malignant carcinoma predominantly seen in adult females",
+        "B": "Benign hypervascular tumor occurring almost exclusively in adolescent boys",
+        "C": "Infectious granuloma common in elderly immunodeficient patients",
+        "D": "Inverted papilloma showing a strong predilection for young girls"
       },
       "correct_answer": "B",
-      "explanation": "JNA: benign but locally aggressive, highly vascular. Adolescent males only. Arises from sphenopalatine foramen. Presents with recurrent unilateral epistaxis. Diagnosis: CT (do NOT biopsy)."
+      "explanation": "JNA: benign but locally aggressive, highly vascular. Adolescent males only. Arises from sphenopalatine foramen. Presents with recurrent unilateral epistaxis. Diagnosis: CT (do NOT biopsy).[cite: 19]"
     },
     {
       "question_id": "TW_ENT_PHARYNX_AND__Q002",
@@ -38,22 +40,91 @@
       "paper_ref": "TW_ENT_PHARYNX_AND_",
       "subject": "ENT",
       "topic": "Pharynx and Larynx",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Laryngeal Disorders",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Most common cause of hoarseness in adults?",
+      "question_text": "A 34-year-old primary school teacher presents with a 5-day history of sudden-onset, profound hoarseness of voice, rhinorrhea, and a dry, hacking cough following a recent upper respiratory tract illness. Indirect laryngoscopy shows diffuse erythema and mild edema of the vocal folds, which still move symmetrically. What is the most likely diagnosis and primary treatment recommendation?",
       "options": {
-        "A": "Laryngeal carcinoma",
-        "B": "Vocal cord nodule",
-        "C": "Acute laryngitis (infective)",
-        "D": "Hypothyroidism"
+        "A": "Laryngeal squamous cell carcinoma; urgent surgical resection",
+        "B": "Acute laryngitis; voice rest and aggressive hydration",
+        "C": "Vocal cord nodule; immediate micro-laryngeal surgery",
+        "D": "Hypothyroidism-induced vocal fold infiltration; thyroid replacement therapy"
       },
-      "correct_answer": "C",
-      "explanation": "Most common cause of hoarseness: acute laryngitis (viral). Chronic hoarseness >3 weeks: evaluate for laryngeal Ca. Vocal cord nodules: singers/voice misuse. Unilateral vocal cord palsy: consider lung/mediastinal pathology."
+      "correct_answer": "B",
+      "explanation": "Most common cause of hoarseness: acute laryngitis (viral). Chronic hoarseness >3 weeks: evaluate for laryngeal Ca. Vocal cord nodules: singers/voice misuse. Unilateral vocal cord palsy: consider lung/mediastinal pathology.[cite: 19]"
+    },
+    {
+      "question_id": "TW_ENT_PHARYNX_AND__Q003",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_ENT_PHARYNX_AND_",
+      "subject": "ENT",
+      "topic": "Pharynx and Larynx",
+      "subtopic": "Pharyngeal Disorders",
+      "difficulty": "Medium",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 62-year-old male presents with a sensation of food catching in his throat, chronic halitosis, and occasional regurgitation of undigested food that occurs hours after eating. Barium swallow study demonstrates a significant outpouching of the pharyngeal mucosa through a structural site of weakness in the lower pharyngeal constrictor muscle. What is the name of this pouch and the specific anatomical space it herniates through?",
+      "options": {
+        "A": "Zenker's diverticulum; Killian's dehiscence",
+        "B": "Traction diverticulum; Piriform recess",
+        "C": "Meckel's diverticulum; Hesselbach's triangle",
+        "D": "Epiphrenic diverticulum; Laimer's triangle"
+      },
+      "correct_answer": "A",
+      "explanation": "Zenker's diverticulum is a false diverticulum representing a herniation of mucosa through Killian's dehiscence, an anatomical weak area located between the thyropharyngeus and cricopharyngeus parts of the inferior constrictor muscle. Clinical hallmarks include dysphagia, halitosis, and regurgitation of undigested food."
+    },
+    {
+      "question_id": "TW_ENT_PHARYNX_AND__Q004",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_ENT_PHARYNX_AND_",
+      "subject": "ENT",
+      "topic": "Pharynx and Larynx",
+      "subtopic": "Laryngeal Disorders",
+      "difficulty": "Medium",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 58-year-old male with a heavy 40 pack-year smoking history and a history of chronic alcohol consumption presents with progressive, persistent hoarseness of voice spanning 5 weeks, alongside localized referred otalgia. Fiberoptic laryngoscopy reveals an exophytic, ulcerated lesion on the middle third of the left true vocal cord. What is the priority next step in managing this patient?",
+      "options": {
+        "A": "Empiric speech therapy and follow-up in 3 months",
+        "B": "Direct laryngoscopy with biopsy under general anesthesia",
+        "C": "High-dose oral corticosteroid therapy for 2 weeks",
+        "D": "Empiric anti-reflux management with proton pump inhibitors"
+      },
+      "correct_answer": "B",
+      "explanation": "Any patient with chronic hoarseness lasting greater than 3 weeks, especially with high-risk factors like smoking and alcohol, must undergo prompt definitive evaluation (laryngoscopy and tissue biopsy) to rule out laryngeal carcinoma. Referred ear pain (otalgia) via CN X points toward a progressive laryngeal pathology.[cite: 19]"
+    },
+    {
+      "question_id": "TW_ENT_PHARYNX_AND__Q005",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_ENT_PHARYNX_AND_",
+      "subject": "ENT",
+      "topic": "Pharynx and Larynx",
+      "subtopic": "Laryngeal Nerve Injury",
+      "difficulty": "Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 45-year-old female undergoes a total thyroidectomy for a large multinodular goiter. Immediately post-removal in the recovery bay, she develops severe inspiratory stridor and acute respiratory distress, necessitating emergency endotracheal intubation. Operative review reveals structural damage to both recurrent laryngeal nerves. In what position are the vocal cords locked following this bilateral injury?",
+      "options": {
+        "A": "Fully abducted position",
+        "B": "Median or paramedian position",
+        "C": "Cadaveric position",
+        "D": "Alternating spastic position"
+      },
+      "correct_answer": "B",
+      "explanation": "Bilateral acute recurrent laryngeal nerve injury causes the vocal cords to lose their abductor drive (provided solely by the posterior cricoarytenoid muscles) while preserving some tensor pull from the cricothyroid muscle (innervated by the superior laryngeal nerve). Consequently, the cords drop into a median or paramedian position, narrowing the glottic airway completely and causing acute stridor."
     }
   ]
 }

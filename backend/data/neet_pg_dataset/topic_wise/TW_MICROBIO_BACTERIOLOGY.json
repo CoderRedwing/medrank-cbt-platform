@@ -3,11 +3,13 @@
   "paper_type": "topic_wise",
   "subject": "Microbiology",
   "topic": "Bacteriology",
-  "total_questions": 4,
+  "total_questions": 10,
   "difficulty_distribution": {
-    "Easy": 4
+    "Easy": 2,
+    "Medium": 6,
+    "Hard": 2
   },
-  "created_at": "2026-05-30",
+  "created_at": "2026-06-06",
   "questions": [
     {
       "question_id": "TW_MICROBIO_BACTERIOLOGY_Q001",
@@ -15,22 +17,22 @@
       "paper_ref": "TW_MICROBIO_BACTERIOLOGY",
       "subject": "Microbiology",
       "topic": "Bacteriology",
-      "subtopic": null,
+      "subtopic": "Bacterial Enzymes",
       "difficulty": "Easy",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Urease-positive organisms include all EXCEPT?",
+      "question_text": "A 54-year-old male with a history of recurrent urinary tract infections presents with severe right flank pain and hematuria. An abdominal X-ray reveals a large, radiopaque staghorn calculus occupying the renal pelvis. Urine culture isolates a Gram-negative rod that produces a swarming pattern on agar plates. Splitting of urea by the bacterial enzyme urease is key to the pathogenesis of these stones. Which of the following organisms lacks this specific enzyme activity?[cite: 15]",
       "options": {
-        "A": "H. pylori",
+        "A": "Helicobacter pylori",
         "B": "Proteus mirabilis",
-        "C": "Klebsiella",
+        "C": "Klebsiella pneumoniae",
         "D": "Pseudomonas aeruginosa"
       },
       "correct_answer": "D",
-      "explanation": "Urease-positive: H. pylori, Proteus, Klebsiella, Cryptococcus, Ureaplasma. Pseudomonas is urease NEGATIVE. Remember: urease causes struvite stones."
+      "explanation": "The scenario describes a struvite/staghorn stone caused by a urease-producing organism, classically Proteus mirabilis (noted for its swarming motility). Urease hydrolyzes urea into ammonia, raising urine pH and precipitating magnesium ammonium phosphate. H. pylori, Proteus, and Klebsiella are well-known urease-positive organisms. Pseudomonas aeruginosa is urease-negative[cite: 15]."
     },
     {
       "question_id": "TW_MICROBIO_BACTERIOLOGY_Q002",
@@ -38,22 +40,22 @@
       "paper_ref": "TW_MICROBIO_BACTERIOLOGY",
       "subject": "Microbiology",
       "topic": "Bacteriology",
-      "subtopic": null,
+      "subtopic": "Rickettsial Diagnostics",
       "difficulty": "Easy",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Diphtheria toxin inhibits protein synthesis by?",
+      "question_text": "A 28-year-old forest ranger presents with high fever, severe headache, and a maculopapular rash that began on his wrists and ankles before spreading centripetally to his trunk. The clinical history suggests a tick-borne rickettsial infection. In resource-limited settings, a classic agglutination test is performed that relies on the cross-reactivity of patient antibodies with specific Proteus antigens. This diagnostic test is known as the:[cite: 15]",
       "options": {
-        "A": "Blocking peptidyl transferase",
-        "B": "ADP-ribosylation of EF-2",
-        "C": "Cleaving 28S rRNA",
-        "D": "Inhibiting aminoacyl-tRNA binding"
+        "A": "Widal test",
+        "B": "Weil-Felix test",
+        "C": "Paul-Bunnell test",
+        "D": "Elek immunodiffusion test"
       },
       "correct_answer": "B",
-      "explanation": "Diphtheria toxin: ADP-ribosylates EF-2 (elongation factor 2) → halts translocation → protein synthesis inhibition. Similar to Pseudomonas exotoxin A."
+      "explanation": "The Weil-Felix test is a heterophile agglutination test used to detect rickettsial antibodies in a patient's serum. It relies on shared carbohydrate antigens between Rickettsia species and certain strains of non-motile Proteus (OX-19, OX-2, and OX-K). While being replaced by specific assays like IFA, it remains a classic high-yield concept for rickettsial screening. The Widal test is for enteric fever[cite: 15]."
     },
     {
       "question_id": "TW_MICROBIO_BACTERIOLOGY_Q003",
@@ -61,22 +63,22 @@
       "paper_ref": "TW_MICROBIO_BACTERIOLOGY",
       "subject": "Microbiology",
       "topic": "Bacteriology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Bacterial Toxins",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Weil-Felix test is positive in?",
+      "question_text": "A 7-year-old unimmunized boy presents with a sore throat, low-grade fever, and difficulty swallowing. On physical examination, a thick, adherent, grayish pseudomembrane is observed covering the tonsils and pharynx; attempting to scrape it causes bleeding. The causative organism secretes an AB exotoxin. What is the precise molecular mechanism of action of this toxin?[cite: 15]",
       "options": {
-        "A": "Typhoid",
-        "B": "Rickettsial infections",
-        "C": "Brucellosis",
-        "D": "Leptospirosis"
+        "A": "Inhibition of peptidyl transferase on the 50S ribosomal subunit",
+        "B": "ADP-ribosylation of Elongation Factor 2 (EF-2)",
+        "C": "Cleavage of 28S ribosomal RNA via an N-glycosidase mechanism",
+        "D": "Competitive inhibition of aminoacyl-tRNA binding to the A site"
       },
       "correct_answer": "B",
-      "explanation": "Weil-Felix: cross-reaction between Rickettsia and Proteus OX antigens (OX-2, OX-19, OX-K). Used as surrogate test for rickettsial infections."
+      "explanation": "The patient has clinical diphtheria caused by Corynebacterium diphtheriae. Diphtheria toxin is an AB toxin that catalyzes the ADP-ribosylation of Elongation Factor 2 (EF-2). This halts the translocation step of protein translation, leading to cell death and pseudomembrane formation in the upper respiratory tract. Pseudomonas exotoxin A shares this identical mechanism[cite: 15]."
     },
     {
       "question_id": "TW_MICROBIO_BACTERIOLOGY_Q004",
@@ -84,22 +86,160 @@
       "paper_ref": "TW_MICROBIO_BACTERIOLOGY",
       "subject": "Microbiology",
       "topic": "Bacteriology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Antimicrobial Resistance",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Gonorrhea: site of chromosomal resistance mechanism?",
+      "question_text": "A 24-year-old male presents with acute dysuria and a purulent, thick urethral discharge. A Gram stain of the exudate reveals Gram-negative intracellular diplococci. Due to the global rise of antimicrobial resistance in Neisseria gonorrhoeae, the clinician reviews resistance mechanisms. Which of the following options correctly matches a plasmid-mediated resistance mechanism versus a chromosomally-mediated mechanism in this pathogen?[cite: 15]",
       "options": {
-        "A": "Beta-lactamase (plasmid)",
-        "B": "Altered PBP2 (chromosomal)",
-        "C": "Efflux pump",
-        "D": "Porin mutation"
+        "A": "Plasmid-mediated production of TEM-1 beta-lactamase vs Chromosomally-mediated alterations in Penicillin-Binding Protein 2 (PBP2)",
+        "B": "Plasmid-mediated porin mutations vs Chromosomally-mediated efflux pump activation",
+        "C": "Plasmid-mediated mutations in DNA gyrase vs Chromosomally-mediated beta-lactamase production",
+        "D": "Plasmid-mediated aminoglycoside modifying enzymes vs Chromosomally-mediated target site methylation"
+      },
+      "correct_answer": "A",
+      "explanation": "Neisseria gonorrhoeae possesses both plasmid- and chromosomally-mediated resistance mechanisms. High-level penicillin resistance in PPNG (Penicillinase-Producing Neisseria gonorrhoeae) is plasmid-mediated via the TEM-1 beta-lactamase gene. In contrast, low-level, gradual penicillin resistance develops via chromosomal mutations that structurally alter Penicillin-Binding Protein 2 (PBP2, encoded by the penA gene), reducing drug binding affinity[cite: 15]."
+    },
+    {
+      "question_id": "TW_MICROBIO_BACTERIOLOGY_Q005",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MICROBIO_BACTERIOLOGY",
+      "subject": "Microbiology",
+      "topic": "Bacteriology",
+      "subtopic": "Staphylococcal Toxins",
+      "difficulty": "Medium",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 22-year-old female presents to the emergency department with a sudden onset of high fever, vomiting, watery diarrhea, and a diffuse macular erythroderma rash resembling a sunburn that includes her palms and soles. She is currently on her menstrual period and notes using high-absorbency tampons. Her blood pressure is 78/44 mmHg. What is the role of the toxin responsible for this presentation?",
+      "options": {
+        "A": "Cleavage of desmoglein-1 in the stratum granulosum",
+        "B": "Cross-linking the beta-chain of the T-cell receptor with Class II MHC molecules",
+        "C": "Inactivation of the 60S ribosomal subunit by removing an adenine residue",
+        "D": "Constitutive activation of adenylate cyclase via G-protein ribosylation"
       },
       "correct_answer": "B",
-      "explanation": "N. gonorrhoeae resistance: chromosomally-mediated reduced susceptibility (altered PBP + efflux + porin) or plasmid-mediated (beta-lactamase = PPNG). Ceftriaxone is current DOC."
+      "explanation": "The scenario describes Staphylococcal Toxic Shock Syndrome (TSS) driven by Toxic Shock Syndrome Toxin-1 (TSST-1), acting as a superantigen. Superantigens bypass normal antigen processing by cross-linking the variable beta-chain of T-cell receptors directly with MHC Class II molecules on antigen-presenting cells. This triggers a massive, non-specific release of cytokines (IL-1, IL-2, TNF-alpha) causing shock."
+    },
+    {
+      "question_id": "TW_MICROBIO_BACTERIOLOGY_Q006",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MICROBIO_BACTERIOLOGY",
+      "subject": "Microbiology",
+      "topic": "Bacteriology",
+      "subtopic": "Enteric Fever",
+      "difficulty": "Medium",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 29-year-old male presents with a 9-day history of step-ladder pattern fever, dry cough, abdominal discomfort, and constipation. On physical examination, his pulse is 62/min despite a temperature of 103.1°F (relative bradycardia), and faint salmon-colored macules are noted on his abdomen. If a diagnostic cultivation workflow is initiated during this first to second week of illness, which sample source offers the highest sensitivity?",
+      "options": {
+        "A": "Stool culture",
+        "B": "Blood culture",
+        "C": "Urine culture",
+        "D": "Saliva PCR"
+      },
+      "correct_answer": "B",
+      "explanation": "The clinical picture describes Enteric (Typhoid) Fever caused by Salmonella Typhi. For diagnostic isolation, the 'BARAS' timeline dictates that Blood culture is most sensitive in the 1st-2nd week (up to 90% positive), Agglutination (Widal) in the 2nd week, Stool culture in the 3rd week, and Urine culture in the 4th week. Bone marrow aspirate culture remains the single most sensitive method overall, but blood is the primary clinical sample early on."
+    },
+    {
+      "question_id": "TW_MICROBIO_BACTERIOLOGY_Q007",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MICROBIO_BACTERIOLOGY",
+      "subject": "Microbiology",
+      "topic": "Bacteriology",
+      "subtopic": "Clostridial Pathogenesis",
+      "difficulty": "Medium",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 45-year-old farmer sustains a deep puncture wound to his right foot from a rusted iron nail. Five days later, he presents with stiffness in his jaw, difficulty swallowing, and painful, involuntary spasms of his back muscles causing a backward arching posture. The toxin secreted by the causative organism acts by traveling via retrograde axonal transport. What is its precise mechanism inside the spinal cord interneurons?",
+      "options": {
+        "A": "Cleavage of synaptobrevin, preventing the release of GABA and glycine",
+        "B": "Inhibition of acetylcholinesterase at the motor endplate",
+        "C": "Blocking the release of acetylcholine from presynaptic terminals",
+        "D": "Upregulation of cyclic AMP leading to hyper-polarization of motor neurons"
+      },
+      "correct_answer": "A",
+      "explanation": "The presentation is tetanus, caused by tetanospasmin released by Clostridium tetani. Tetanospasmin is a zinc metalloprotease that cleaves SNARE proteins (specifically synaptobrevin) in inhibitory spinal interneurons (Renshaw cells). This blocks the exocytosis of inhibitory neurotransmitters GABA and glycine, causing uninhibited alpha-motor neuron firing that leads to lockjaw and opisthotonus."
+    },
+    {
+      "question_id": "TW_MICROBIO_BACTERIOLOGY_Q008",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MICROBIO_BACTERIOLOGY",
+      "subject": "Microbiology",
+      "topic": "Bacteriology",
+      "subtopic": "Streptococcal Diagnostics",
+      "difficulty": "Medium",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 9-year-old girl presents with a 2-week history of periorbital edema, dark tea-colored urine, and mild hypertension. She had a crusting skin infection on her legs (impetigo) 3 weeks ago. Urinalysis reveals dysmorphic red blood cells and protein casts. To support the clinical diagnosis of post-streptococcal glomerulonephritis following a skin infection, which antibody test is most sensitive?",
+      "options": {
+        "A": "Anti-Streptolysin O (ASO) titer",
+        "B": "Anti-DNase B titer",
+        "C": "Rheumatoid Factor Titer",
+        "D": "Heterophile antibody assay"
+      },
+      "correct_answer": "B",
+      "explanation": "Post-streptococcal glomerulonephritis (PSGN) can follow either pharyngeal or cutaneous Group A Streptococcal infections. While Anti-Streptolysin O (ASO) titers rise significantly after pharyngitis, skin lipids neutralize streptolysin O, leading to low or absent ASO responses in pyoderma-associated PSGN. Anti-DNase B (and anti-hyaluronidase) is the most reliable and sensitive marker to confirm a preceding skin infection."
+    },
+    {
+      "question_id": "TW_MICROBIO_BACTERIOLOGY_Q009",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MICROBIO_BACTERIOLOGY",
+      "subject": "Microbiology",
+      "topic": "Bacteriology",
+      "subtopic": "Zoonotic Bacteriology",
+      "difficulty": "Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 34-year-old veterinarian presents with a 3-week history of undulant fever (fever peaking in the evening and dropping by morning), profuse drenching night sweats with a peculiar moldy odor, arthralgia, and generalized fatigue. On examination, there is mild hepatosplenomegaly. Blood cultures incubated in a specialized biphasic Castaneda medium are positive for a slow-growing, small Gram-negative coccobacillus. What is the most appropriate initial combination drug therapy?",
+      "options": {
+        "A": "Penicillin G plus Ceftriaxone for 10 days",
+        "B": "Doxycycline plus Rifampicin for 6 weeks",
+        "C": "Azithromycin monotherapy for 3 days",
+        "D": "Ciprofloxacin plus Metronidazole for 2 weeks"
+      },
+      "correct_answer": "B",
+      "explanation": "The clinical history of an undulant fever pattern in a vet alongside moldy sweats points to Brucellosis (likely Brucella melitensis or abortus). Because Brucella is an intracellular pathogen, it requires prolonged combination therapy to prevent relapse. The WHO-recommended regimen is oral Doxycycline plus Rifampicin taken daily for a minimum duration of 6 weeks."
+    },
+    {
+      "question_id": "TW_MICROBIO_BACTERIOLOGY_Q010",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MICROBIO_BACTERIOLOGY",
+      "subject": "Microbiology",
+      "topic": "Bacteriology",
+      "subtopic": "Atypical Bacteriology",
+      "difficulty": "Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 52-year-old accountant presents with a 5-day history of high fever, dry cough, severe headache, confusion, and watery diarrhea. Chest X-ray demonstrates patchy, unilobar consolidation. Labs show a sodium level of 124 mEq/L (severe hyponatremia) and elevated transaminases. Sputum Gram stain shows numerous neutrophils but fails to identify a dominant organism. Growth is eventually obtained on Buffered Charcoal Yeast Extract (BCYE) agar supplemented with L-cysteine. How is this pathogen primarily transmitted?",
+      "options": {
+        "A": "Direct respiratory droplet inhalation from an infected individual",
+        "B": "Inhalation of aerosols generated from contaminated environmental water sources",
+        "C": "Ingestion of unpasteurized dairy products",
+        "D": "Fecal-oral transmission via contaminated food handling"
+      },
+      "correct_answer": "B",
+      "explanation": "The presentation of atypical pneumonia associated with multi-system extrapulmonary features (diarrhea, CNS confusion, hyponatremia) and growth on BCYE agar confirms Legionnaires' disease, caused by Legionella pneumophila. Legionella lives within environmental aquatic biofilms and amoebae, and is transmitted via inhalation of contaminated aerosols (e.g., from air conditioning cooling towers, misters, or showers). There is no person-to-person transmission."
     }
   ]
 }

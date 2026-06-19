@@ -3,11 +3,13 @@
   "paper_type": "topic_wise",
   "subject": "Dermatology",
   "topic": "Skin Basics and Infections",
-  "total_questions": 3,
+  "total_questions": 5,
   "difficulty_distribution": {
-    "Easy": 3
+    "Easy": 1,
+    "Medium": 3,
+    "Hard": 1
   },
-  "created_at": "2026-05-30",
+  "created_at": "2026-06-06",
   "questions": [
     {
       "question_id": "TW_DERMATOL_SKIN_BASICS__Q001",
@@ -15,19 +17,19 @@
       "paper_ref": "TW_DERMATOL_SKIN_BASICS_",
       "subject": "Dermatology",
       "topic": "Skin Basics and Infections",
-      "subtopic": null,
+      "subtopic": "Infections",
       "difficulty": "Easy",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Tzanck smear is positive in?",
+      "question_text": "A 24-year-old female presents to the urgent care clinic with a 3-day history of painful, fluid-filled blisters on her right lip. The clinician performs a bedside Tzanck smear on a scraping from the base of an unroofed vesicle. Which of the following cytological findings on light microscopy confirms the diagnosis of Herpes Simplex Virus?",
       "options": {
-        "A": "Tinea infections",
-        "B": "HSV and VZV (acantholytic cells/multinucleate giant cells)",
-        "C": "Bacterial infections",
-        "D": "Syphilis"
+        "A": "Branching hyphae and budding yeast cells",
+        "B": "Acantholytic cells and multinucleated giant cells",
+        "C": "Gram-negative intracellular diplococci",
+        "D": "Extracellular spirochetes showing corkscrew motility"
       },
       "correct_answer": "B",
       "explanation": "Tzanck smear: scraping from base of vesicle → multinucleated giant cells/acantholytic cells in HSV and VZV (chickenpox). Also positive in pemphigus vulgaris (acantholytic cells, no giant cells)."
@@ -38,19 +40,19 @@
       "paper_ref": "TW_DERMATOL_SKIN_BASICS_",
       "subject": "Dermatology",
       "topic": "Skin Basics and Infections",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Fungal Infections",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Dermatophyte infection of nails?",
+      "question_text": "A 43-year-old manual laborer presents with yellow-brown discoloration, significant thickening, and subungual hyperkeratosis affecting several toenails over the past 6 months. Microscopic examination of nail clippings with a 10% potassium hydroxide (KOH) preparation reveals septate hyphae. Given that *Trichophyton rubrum* is isolated, what is the diagnosis and the first-line systemic management?",
       "options": {
-        "A": "Paronychia",
-        "B": "Onychomycosis (tinea unguium)",
-        "C": "Melanonychia",
-        "D": "Leukonychia"
+        "A": "Acute paronychia; oral amoxicillin-clavulanate",
+        "B": "Onychomycosis (tinea unguium); oral terbinafine",
+        "C": "Pseudomonadal chloronychia; topical ciprofloxacin",
+        "D": "Distal leukonychia; behavioral modification"
       },
       "correct_answer": "B",
       "explanation": "Tinea unguium (onychomycosis): most common nail infection. Subungual hyperkeratosis, distal/lateral onycholysis. Most common organism: T. rubrum. Treatment: terbinafine (oral, 6-12 weeks)."
@@ -61,22 +63,68 @@
       "paper_ref": "TW_DERMATOL_SKIN_BASICS_",
       "subject": "Dermatology",
       "topic": "Skin Basics and Infections",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Papulosquamous Disorders",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Auspitz's sign is seen in?",
+      "question_text": "A 35-year-old male presents with chronic, sharply demarcated erythematous plaques covered with silvery-white scales on his extensor elbows and knees. During physical examination, the physician gently removes one of the micaceous scales, resulting in multiple pinpoint bleeding spots from the underlying dermal papillae. What is this clinical phenomenon and its associated pathology?",
       "options": {
-        "A": "Lichen planus",
-        "B": "Psoriasis",
-        "C": "Pemphigus",
-        "D": "SLE"
+        "A": "Wickham's sign; Lichen planus",
+        "B": "Auspitz sign; Psoriasis",
+        "C": "Nikolsky sign; Pemphigus vulgaris",
+        "D": "Asboe-Hansen sign; Bullous pemphigoid"
       },
       "correct_answer": "B",
       "explanation": "Auspitz sign: pinpoint bleeding on removing psoriatic scale (thinned suprapapillary epidermis). Other psoriasis signs: Koebner, candle grease, Woronoff's ring. Nail: pitting (most common), oil drop."
+    },
+    {
+      "question_id": "TW_DERMATOL_SKIN_BASICS__Q004",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_DERMATOL_SKIN_BASICS_",
+      "subject": "Dermatology",
+      "topic": "Skin Basics and Infections",
+      "subtopic": "Infections",
+      "difficulty": "Medium",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 9-year-old child is brought to the clinic with an itchy rash on his scalp. Examination reveals a localized, patchy area of hair loss filled with broken hair shafts appearing as tiny black dots close to the skin surface. Cervical lymphadenopathy is present. Wood's lamp examination does not show fluorescence. What is the most likely diagnosis?",
+      "options": {
+        "A": "Alopecia areata",
+        "B": "Tinea capitis (black dot variant)",
+        "C": "Trichotillomania",
+        "D": "Seborrheic dermatitis"
+      },
+      "correct_answer": "B",
+      "explanation": "Black dot tinea capitis is an endothrix dermatophyte infection (commonly caused by Trichophyton tonsurans) where hair shafts break right at the alveolar level. It typically does not fluoresce under Wood's lamp, distinguishing it from microsporum infections."
+    },
+    {
+      "question_id": "TW_DERMATOL_SKIN_BASICS__Q005",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_DERMATOL_SKIN_BASICS_",
+      "subject": "Dermatology",
+      "topic": "Skin Basics and Infections",
+      "subtopic": "Skin Basics",
+      "difficulty": "Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A skin biopsy from a patient demonstrating extreme sensitivity to sunlight reveals a structural mutation in desmosomal proteins. Under electron microscopy, the pathologist identifies a severe structural defect in the specialized cell junctions anchoring the intermediate filament cytoskeleton of adjacent keratinocytes. Which cellular junction is compromised, and what is its specific structural transmembrane linkage protein?",
+      "options": {
+        "A": "Gap junction; Connexin 26",
+        "B": "Desmosome; Cadherin family members (Desmogleins/Desmocollins)",
+        "C": "Hemidesmosome; Integrin alpha-6 beta-4",
+        "D": "Tight junction; Claudin and Occludin complex"
+      },
+      "correct_answer": "B",
+      "explanation": "Desmosomes (maculae adherentes) act as intercellular rivets providing mechanical strength by linking the intermediate filament cytoskeletons (keratin) of adjacent epithelial cells. They are composed of transmembrane cadherins, namely desmogleins and desmocollins, which are target antigens in blistering conditions like pemphigus."
     }
   ]
 }
