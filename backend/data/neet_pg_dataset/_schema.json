@@ -170,11 +170,11 @@
     },
     "total_questions": {
       "type": "integer",
-      "value": 100
+      "value": 50
     },
     "duration_minutes": {
       "type": "integer",
-      "value": 90
+      "value": 45
     },
     "marking_scheme": {
       "type": "object"
@@ -188,7 +188,7 @@
     "questions": {
       "type": "array",
       "items": "question_object",
-      "length": 100
+      "length": 50
     }
   },
   "topic_bank_object": {

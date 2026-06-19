@@ -116,6 +116,12 @@ const getAnalysis = async (req, res) => {
           question_text: r.question_text || q?.question_text || 'Question not available',
           options:       r.options?.A ? r.options : (q?.options || {}),
           explanation:   r.explanation  || q?.explanation  || 'No explanation available',
+
+          // ─── Image-based question support ───────────────────────────
+          is_image_based: r.is_image_based ?? q?.is_image_based ?? q?.image_based ?? false,
+          image_url:      r.image_url   || q?.image_url   || '',
+          image_title:    r.image_title || q?.image_title || '',
+          key_findings:   (r.key_findings && r.key_findings.length) ? r.key_findings : (q?.key_findings || []),
         };
       });
     }

@@ -82,6 +82,12 @@ const createTestSession = async (userId, options) => {
     student_reason:  '',
     time_spent_sec:  0,
     marked_review:   false,
+
+    // ─── Image-based question support ───────────────────────────────────
+    is_image_based:  q.is_image_based || q.image_based || false,
+    image_url:       q.image_url   || '',
+    image_title:     q.image_title || '',
+    key_findings:    q.key_findings || [],
   }));
 
   const session = await TestSession.create({
@@ -180,6 +186,12 @@ const submitTest = async (sessionId, userId, allResponses, timeTakenSec) => {
       resp.question_text = q.question_text || q.question || q.stem || '';
       resp.options       = q.options || {};
       resp.explanation   = q.explanation || q.explanation_text || '';
+
+      // ─── Image-based question support ─────────────────────────────────
+      resp.is_image_based = q.is_image_based ?? q.image_based ?? false;
+      resp.image_url      = q.image_url   || '';
+      resp.image_title    = q.image_title || '';
+      resp.key_findings    = q.key_findings || [];
     }
   });
 

@@ -32,6 +32,10 @@ const questionResponseSchema = new mongoose.Schema(
       D: { type: String, default: '' },
     },
     explanation:     { type: String, default: '' }, 
+    is_image_based:  { type: Boolean, default: false },
+    image_url:       { type: String, default: '' },
+    image_title:     { type: String, default: '' },
+    key_findings:    { type: [String], default: [] },
   },
   { _id: false }
 );

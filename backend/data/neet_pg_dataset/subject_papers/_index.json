@@ -297,13 +297,13 @@
     "paper_id": "SP_ANATOMY_01",
     "subject": "Anatomy",
     "paper_number": 1,
-    "total_questions": 100
+    "total_questions": 50
   },
   {
     "paper_id": "SP_ANATOMY_02",
     "subject": "Anatomy",
     "paper_number": 2,
-    "total_questions": 100
+    "total_questions": 50
   },
   {
     "paper_id": "SP_ANATOMY_03",
@@ -435,13 +435,13 @@
     "paper_id": "SP_ANAESTHE_01",
     "subject": "Anaesthesia",
     "paper_number": 1,
-    "total_questions": 100
+    "total_questions": 50
   },
   {
     "paper_id": "SP_ANAESTHE_02",
     "subject": "Anaesthesia",
     "paper_number": 2,
-    "total_questions": 100
+    "total_questions": 50
   },
   {
     "paper_id": "SP_DERMATOL_01",

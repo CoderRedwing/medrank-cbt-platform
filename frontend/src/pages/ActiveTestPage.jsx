@@ -145,6 +145,9 @@ export default function ActiveTestPage() {
   const timerBorder    = timerPct > 25 ? '#86efac' : timerPct > 10 ? '#fcd34d' : '#fca5a5';
   const sectionMins    = Math.round((currentSection?.timeRemainingS ?? sectionMaxS) / 60);
 
+  // ─── Image-based question detection ──────────────────────────────────
+  const isImageBased = !!(q?.is_image_based || q?.image_based);
+
   /* ── Section submit ──────────────────────────────────────────── */
   const handleSectionSubmit = () => {
     setConfirmSection(false);
@@ -302,54 +305,168 @@ export default function ActiveTestPage() {
             {q?.topic && (
               <span style={{ fontSize: 11, color: 'var(--clr-text-muted)' }}>· {q.topic}</span>
             )}
+            {isImageBased && (
+              <span style={{
+                fontSize: 11, color: '#185FA5', background: '#E6F1FB',
+                padding: '2px 9px', borderRadius: 99, border: '1px solid #B5D4F4',
+                display: 'inline-flex', alignItems: 'center', gap: 4,
+              }}>
+                🖼️ Image-based
+              </span>
+            )}
           </div>
 
-          {/* Question text */}
-          <MathText
-            text={q?.question_text}
-            style={{
-              display: 'block', fontSize: 16, lineHeight: 1.75,
-              color: 'var(--clr-text)', fontWeight: 400,
-              marginBottom: 24, maxWidth: 780,
-            }}
-          />
+          {isImageBased ? (
+            /* ════════════════════════════════════════════════════════
+               IMAGE-BASED QUESTION LAYOUT (2-column)
+            ════════════════════════════════════════════════════════ */
+            <div style={{
+              display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 20,
+              alignItems: 'start', marginBottom: 24, maxWidth: 1080,
+            }}>
+              {/* Image panel */}
+              <div style={{
+                background: 'var(--clr-surface2)', border: '1px solid var(--clr-border)',
+                borderRadius: 10, overflow: 'hidden',
+              }}>
+                <div style={{
+                  padding: '8px 12px', borderBottom: '1px solid var(--clr-border)',
+                  background: 'var(--clr-surface)', fontSize: 11, fontWeight: 600,
+                  color: 'var(--clr-text-muted)', textTransform: 'uppercase', letterSpacing: '0.05em',
+                }}>
+                  {q.image_title || 'Clinical Image'}
+                </div>
+                <div style={{ padding: 12 }}>
+                  {q.image_url ? (
+                    <img
+                      src={q.image_url}
+                      alt={q.image_title || 'Clinical image'}
+                      style={{
+                        width: '100%', borderRadius: 8, marginBottom: 10,
+                        border: '1px solid var(--clr-border)', display: 'block',
+                      }}
+                    />
+                  ) : (
+                    <div style={{
+                      aspectRatio: '4/3', background: 'var(--clr-surface)',
+                      border: '1px solid var(--clr-border)', borderRadius: 8,
+                      display: 'flex', alignItems: 'center', justifyContent: 'center',
+                      marginBottom: 10, color: 'var(--clr-text-muted)', fontSize: 12,
+                    }}>
+                      No image available
+                    </div>
+                  )}
+                  {Array.isArray(q.key_findings) && q.key_findings.length > 0 && (
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: 5 }}>
+                      {q.key_findings.map((finding, i) => (
+                        <div key={i} style={{ display: 'flex', alignItems: 'flex-start', gap: 7 }}>
+                          <span style={{
+                            width: 5, height: 5, borderRadius: '50%',
+                            background: '#6366f1', flexShrink: 0, marginTop: 6,
+                          }} />
+                          <span style={{ fontSize: 12, lineHeight: 1.55, color: 'var(--clr-text-muted)' }}>
+                            {finding}
+                          </span>
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              </div>
 
-          {/* Options */}
-          <div style={{ display: 'flex', flexDirection: 'column', gap: 8, marginBottom: 28, maxWidth: 780 }}>
-            {q && Object.entries(q.options).map(([letter, text]) => {
-              const chosen = resp.selected_answer === letter;
-              return (
-                <button
-                  key={letter}
-                  onClick={() => selectAnswer(q.question_id, letter)}
-                  style={{
-                    display: 'flex', alignItems: 'flex-start', gap: 12,
-                    padding: '12px 16px', borderRadius: 8, textAlign: 'left',
-                    cursor: 'pointer', width: '100%', transition: 'all 0.12s',
-                    background: chosen ? 'rgba(99,102,241,0.08)' : 'var(--clr-surface)',
-                    border: `1px solid ${chosen ? '#6366f1' : 'var(--clr-border)'}`,
-                    color: 'var(--clr-text)', outline: 'none',
-                  }}
-                  onMouseEnter={(e) => { if (!chosen) e.currentTarget.style.borderColor = 'var(--clr-text-muted)'; }}
-                  onMouseLeave={(e) => { if (!chosen) e.currentTarget.style.borderColor = 'var(--clr-border)'; }}
-                >
-                  <span style={{
-                    width: 26, height: 26, borderRadius: '50%', flexShrink: 0,
-                    display: 'grid', placeItems: 'center',
-                    background: chosen ? '#6366f1' : 'var(--clr-surface2)',
-                    color: chosen ? '#fff' : 'var(--clr-text-muted)',
-                    fontSize: 12, fontWeight: 600, transition: 'all 0.12s',
-                  }}>
-                    {letter}
-                  </span>
-                  <MathText
-                    text={text}
-                    style={{ fontSize: 14, lineHeight: 1.65, paddingTop: 3, display: 'inline-block' }}
-                  />
-                </button>
-              );
-            })}
-          </div>
+              {/* Stem + options */}
+              <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
+                <MathText
+                  text={q?.question_text}
+                  style={{ display: 'block', fontSize: 15, lineHeight: 1.7, color: 'var(--clr-text)' }}
+                />
+                <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
+                  {Object.entries(q.options).map(([letter, text]) => {
+                    const chosen = resp.selected_answer === letter;
+                    return (
+                      <button
+                        key={letter}
+                        onClick={() => selectAnswer(q.question_id, letter)}
+                        style={{
+                          display: 'flex', alignItems: 'flex-start', gap: 12,
+                          padding: '10px 14px', borderRadius: 8, textAlign: 'left',
+                          cursor: 'pointer', width: '100%', transition: 'all 0.12s',
+                          background: chosen ? 'rgba(99,102,241,0.08)' : 'var(--clr-surface)',
+                          border: `1px solid ${chosen ? '#6366f1' : 'var(--clr-border)'}`,
+                          color: 'var(--clr-text)', outline: 'none',
+                        }}
+                        onMouseEnter={(e) => { if (!chosen) e.currentTarget.style.borderColor = 'var(--clr-text-muted)'; }}
+                        onMouseLeave={(e) => { if (!chosen) e.currentTarget.style.borderColor = 'var(--clr-border)'; }}
+                      >
+                        <span style={{
+                          width: 24, height: 24, borderRadius: '50%', flexShrink: 0,
+                          display: 'grid', placeItems: 'center',
+                          background: chosen ? '#6366f1' : 'var(--clr-surface2)',
+                          color: chosen ? '#fff' : 'var(--clr-text-muted)',
+                          fontSize: 11, fontWeight: 600,
+                        }}>
+                          {letter}
+                        </span>
+                        <MathText text={text} style={{ fontSize: 13, lineHeight: 1.6, paddingTop: 2 }} />
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+            </div>
+          ) : (
+            /* ════════════════════════════════════════════════════════
+               STANDARD QUESTION LAYOUT (unchanged from before)
+            ════════════════════════════════════════════════════════ */
+            <>
+              {/* Question text */}
+              <MathText
+                text={q?.question_text}
+                style={{
+                  display: 'block', fontSize: 16, lineHeight: 1.75,
+                  color: 'var(--clr-text)', fontWeight: 400,
+                  marginBottom: 24, maxWidth: 780,
+                }}
+              />
+
+              {/* Options */}
+              <div style={{ display: 'flex', flexDirection: 'column', gap: 8, marginBottom: 28, maxWidth: 780 }}>
+                {q && Object.entries(q.options).map(([letter, text]) => {
+                  const chosen = resp.selected_answer === letter;
+                  return (
+                    <button
+                      key={letter}
+                      onClick={() => selectAnswer(q.question_id, letter)}
+                      style={{
+                        display: 'flex', alignItems: 'flex-start', gap: 12,
+                        padding: '12px 16px', borderRadius: 8, textAlign: 'left',
+                        cursor: 'pointer', width: '100%', transition: 'all 0.12s',
+                        background: chosen ? 'rgba(99,102,241,0.08)' : 'var(--clr-surface)',
+                        border: `1px solid ${chosen ? '#6366f1' : 'var(--clr-border)'}`,
+                        color: 'var(--clr-text)', outline: 'none',
+                      }}
+                      onMouseEnter={(e) => { if (!chosen) e.currentTarget.style.borderColor = 'var(--clr-text-muted)'; }}
+                      onMouseLeave={(e) => { if (!chosen) e.currentTarget.style.borderColor = 'var(--clr-border)'; }}
+                    >
+                      <span style={{
+                        width: 26, height: 26, borderRadius: '50%', flexShrink: 0,
+                        display: 'grid', placeItems: 'center',
+                        background: chosen ? '#6366f1' : 'var(--clr-surface2)',
+                        color: chosen ? '#fff' : 'var(--clr-text-muted)',
+                        fontSize: 12, fontWeight: 600, transition: 'all 0.12s',
+                      }}>
+                        {letter}
+                      </span>
+                      <MathText
+                        text={text}
+                        style={{ fontSize: 14, lineHeight: 1.65, paddingTop: 3, display: 'inline-block' }}
+                      />
+                    </button>
+                  );
+                })}
+              </div>
+            </>
+          )}
 
           {/* Reason textarea */}
           <div style={{ maxWidth: 780, marginBottom: 16 }}>
