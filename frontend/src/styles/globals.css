@@ -89,3 +89,8 @@ input, textarea, select { font-family: inherit; }
 .animate-slideIn { animation: slideIn .3s ease both; }
 .animate-pulse   { animation: pulse 1.5s ease infinite; }
 .animate-spin    { animation: spin 1s linear infinite; }
+
+@keyframes slideDown {
+  from { opacity: 0; transform: translateX(-50%) translateY(-10px); }
+  to   { opacity: 1; transform: translateX(-50%) translateY(0); }
+}

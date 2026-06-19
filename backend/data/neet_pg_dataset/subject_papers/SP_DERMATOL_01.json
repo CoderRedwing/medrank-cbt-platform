@@ -13,7 +13,7 @@
   },
   "difficulty_mix": {
     "Easy": "25%",
-    "Moderate": "45%",
+    "Medium": "45%",
     "Hard": "25%",
     "Very Hard": "5%"
   },

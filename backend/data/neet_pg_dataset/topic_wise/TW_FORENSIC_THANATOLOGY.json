@@ -3,11 +3,13 @@
   "paper_type": "topic_wise",
   "subject": "Forensic Medicine",
   "topic": "Thanatology",
-  "total_questions": 3,
+  "total_questions": 5,
   "difficulty_distribution": {
-    "Easy": 3
+    "Easy": 1,
+    "Medium": 3,
+    "Hard": 1
   },
-  "created_at": "2026-05-30",
+  "created_at": "2026-06-06",
   "questions": [
     {
       "question_id": "TW_FORENSIC_THANATOLOGY_Q001",
@@ -15,19 +17,19 @@
       "paper_ref": "TW_FORENSIC_THANATOLOGY",
       "subject": "Forensic Medicine",
       "topic": "Thanatology",
-      "subtopic": null,
+      "subtopic": "Postmortem Changes",
       "difficulty": "Easy",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Putrefaction: first sign?",
+      "question_text": "During an autopsy of an individual found dead in an apartment 48 hours post-mortem during a mild spring season, the forensic pathologist observes a distinct greenish discoloration localized specifically over the right iliac fossa. What chemical process is primarily responsible for generating this initial external sign of putrefaction?",
       "options": {
-        "A": "Skin slippage",
-        "B": "Greenish discoloration of right iliac fossa (cecum area)",
-        "C": "Marbling",
-        "D": "Bloating"
+        "A": "Bacterial breakdown of melanocytes producing melanin residue",
+        "B": "Interaction of cecal bacterial hydrogen sulfide ($H_2S$) with hemoglobin to form sulfhemoglobin",
+        "C": "Acute systemic pooling of deoxygenated venous blood following cardiac standstill",
+        "D": "Fungal synthesis of copper-dependent porphyrin compounds inside the abdominal wall"
       },
       "correct_answer": "B",
       "explanation": "Putrefaction: first sign is greenish discoloration of right iliac fossa (cecal bacteria: H2S + Hb → green sulfhemoglobin). Then marbling, bloating, skin slippage. Rate influenced by temperature and environment."
@@ -38,19 +40,19 @@
       "paper_ref": "TW_FORENSIC_THANATOLOGY",
       "subject": "Forensic Medicine",
       "topic": "Thanatology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Postmortem Changes",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Post-mortem caloricity (temperature rise after death)?",
+      "question_text": "An institutional investigator reviews a medical-legal case where a patient died within an unconditioned room. The core body temperature recorded 1 hour post-mortem unexpectedly demonstrated an absolute rise instead of a gradual fall. In which clinical scenario is this phenomenon of post-mortem caloricity classically expected?",
       "options": {
-        "A": "Never occurs",
-        "B": "Seen in strychnine poisoning and status epilepticus deaths (heat generated from muscle activity)",
-        "C": "Occurs in all deaths",
-        "D": "Only in drowning"
+        "A": "Suicidal ingestion of a massive dose of oral benzodiazepines",
+        "B": "Fatal poisoning with strychnine or death following status epilepticus",
+        "C": "Accidental hypothermic immersion in an ice-water lake",
+        "D": "Sudden terminal myocardial infarction during quiet sleep"
       },
       "correct_answer": "B",
       "explanation": "PM caloricity: rise in body temperature after death. Seen in: strychnine poisoning (convulsions continuing after death), tetanus, status epilepticus, typhoid, pontine hemorrhage."
@@ -61,22 +63,68 @@
       "paper_ref": "TW_FORENSIC_THANATOLOGY",
       "subject": "Forensic Medicine",
       "topic": "Thanatology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Postmortem Changes",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Rigor mortis: sequence of development?",
+      "question_text": "A body is discovered at a crime scene, and the initial physical evaluation demonstrates that rigor mortis is firmly established in the muscles of the jaw and face, but has not yet fully locked the lower skeletal extremities. What rule or law governs this predictable, sequential craniocaudal progression of muscular rigidity?",
       "options": {
-        "A": "Starts in jaw, descends (Nysten's law)",
-        "B": "Starts in feet, ascends",
-        "C": "Simultaneous throughout body",
-        "D": "Starts in hands"
+        "A": "Nysten's law",
+        "B": "Casper's dictum",
+        "C": "Sommer's rule",
+        "D": "Henry's physiological principle"
       },
       "correct_answer": "A",
       "explanation": "Rigor mortis: follows Nysten's law — starts in jaw/neck, then trunk, then lower limbs. Onset: 1-2 hours. Maximum: 12 hours. Passes off: 36-48 hours. Due to ATP depletion → actin-myosin cross-linking."
+    },
+    {
+      "question_id": "TW_FORENSIC_THANATOLOGY_Q004",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_FORENSIC_THANATOLOGY",
+      "subject": "Forensic Medicine",
+      "topic": "Thanatology",
+      "subtopic": "Postmortem Changes",
+      "difficulty": "Medium",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "During an autopsy of an unidentified decomposed body pulled from an arid terrain, the pathologist observes that the skin and tissues are hard, dry, brittle, dark brown, and structurally intact, completely arresting the typical liquefactive putrefactive process. What is this unique post-mortem phenomenon?",
+      "options": {
+        "A": "Saponification (Adipocere formation)",
+        "B": "Mummification",
+        "C": "Maceration",
+        "D": "Cadaveric spasm"
+      },
+      "correct_answer": "B",
+      "explanation": "Mummification is a modification of putrefaction characterized by the dehydration and drying of the body tissues, which turn brown/black and leathery. It requires a hot, dry, airy environment and preserves the structural configuration of the features and wounds."
+    },
+    {
+      "question_id": "TW_FORENSIC_THANATOLOGY_Q005",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_FORENSIC_THANATOLOGY",
+      "subject": "Forensic Medicine",
+      "topic": "Thanatology",
+      "subtopic": "Postmortem Changes",
+      "difficulty": "Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 32-year-old soldier is shot through the medulla oblongata during a highly stressful, intense hand-to-hand combat engagement. Immediately upon death, his right hand completely skips the initial phase of post-mortem flaccidity and instantly rigidifies, tightly clamping the handle of his combat knife. What is the diagnosis and the underlying pathophysiological differentiation from standard rigor mortis?",
+      "options": {
+        "A": "Early onset rigor mortis; driven by sudden cold ambient temperatures",
+        "B": "Cadaveric spasm (Instantaneous rigor); driven by extreme terminal nervous tension and immediate regional ATP depletion",
+        "C": "Post-mortem lividity fixation; driven by rapid hemolysis",
+        "D": "Heat stiffening; driven by immediate denaturation of muscular structural actin proteins"
+      },
+      "correct_answer": "B",
+      "explanation": "Cadaveric spasm (instantaneous rigor) occurs at the exact moment of death without a preceding stage of primary flaccidity. It is typically associated with sudden, violent deaths accompanied by intense emotional tension or physical exhaustion (e.g., battlefields, drowning, suicides), resulting in immediate localized ATP depletion that preserves the last voluntary act."
     }
   ]
 }

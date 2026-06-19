@@ -19,10 +19,11 @@ const startTest = async (req, res) => {
       return res.status(400).json({ success: false, message: 'test_type and paper_ref are required' });
     }
     const session = await testService.createTestSession(req.user._id, {
-      test_type, paper_ref, questionCount, difficulty,
+      test_type, paper_ref, questionCount
     });
     res.status(201).json({ success: true, data: session });
   } catch (err) {
+    console.error("DEBUG - START TEST FAILED:", err.message);
     res.status(400).json({ success: false, message: err.message });
   }
 };

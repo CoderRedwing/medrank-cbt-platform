@@ -66,6 +66,7 @@ export default function AnalysisPage() {
     <div style={{ padding: '28px 28px', maxWidth: 1050, margin: '0 auto' }}>
 
       {/* Header */}
+      // REPLACE WITH:
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: 24 }}>
         <div>
           <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 22, fontWeight: 800 }}>{paper_title}</h1>
@@ -74,7 +75,15 @@ export default function AnalysisPage() {
             {time_taken_sec > 0 && ` · Time taken: ${formatTime(time_taken_sec)}`}
           </p>
         </div>
-        <Btn variant="secondary" onClick={() => navigate('/tests')}>New Test</Btn>
+        <div style={{ display: 'flex', gap: 8 }}>
+          <Btn
+            variant="secondary"
+            onClick={() => navigate(`/air-predictor?score=${score.raw}&max=${score.max}`)}
+          >
+            🎯 Predict AIR
+          </Btn>
+          <Btn variant="secondary" onClick={() => navigate('/tests')}>New Test</Btn>
+        </div>
       </div>
 
       {/* Score cards */}

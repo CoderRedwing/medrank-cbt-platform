@@ -3,11 +3,13 @@
   "paper_type": "topic_wise",
   "subject": "Microbiology",
   "topic": "Virology",
-  "total_questions": 4,
+  "total_questions": 10,
   "difficulty_distribution": {
-    "Easy": 4
+    "Easy": 2,
+    "Medium": 6,
+    "Hard": 2
   },
-  "created_at": "2026-05-30",
+  "created_at": "2026-06-06",
   "questions": [
     {
       "question_id": "TW_MICROBIO_VIROLOGY_Q001",
@@ -62,7 +64,7 @@
       "subject": "Microbiology",
       "topic": "Virology",
       "subtopic": null,
-      "difficulty": "Easy",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
@@ -85,7 +87,7 @@
       "subject": "Microbiology",
       "topic": "Virology",
       "subtopic": null,
-      "difficulty": "Easy",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
@@ -100,6 +102,144 @@
       },
       "correct_answer": "B",
       "explanation": "Parvovirus B19: infects erythroid progenitors → aplastic crisis in patients with high RBC turnover (sickle cell, hereditary spherocytosis). Also causes fifth disease (slapped cheek) and hydrops fetalis."
+    },
+    {
+      "question_id": "TW_MICROBIO_VIROLOGY_Q005",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MICROBIO_VIROLOGY",
+      "subject": "Microbiology",
+      "topic": "Virology",
+      "subtopic": null,
+      "difficulty": "Medium",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 19-year-old college student presents with fatigue, sore throat, and generalized tender lymphadenopathy for 10 days. Physical examination reveals mild splenomegaly and exudative pharyngitis. A peripheral blood smear shows atypical lymphocytes with abundant cytoplasm indenting surrounding red blood cells. A Monospot test is positive. Which of the following is the most common mechanism of oncogenesis associated with this virus?",
+      "options": {
+        "A": "Direct integration of viral DNA into the host p53 gene",
+        "B": "Expression of viral oncogenes LMP-1 and EBNA-2 that drive B-cell proliferation",
+        "C": "Activation of host proto-oncogenes by viral retrotransposons",
+        "D": "Inhibition of the Rb tumor suppressor protein by viral E7 protein"
+      },
+      "correct_answer": "B",
+      "explanation": "The patient has Infectious Mononucleosis caused by the Epstein-Barr virus (EBV). EBV targets B cells via CD21. It immortalizes B cells by expressing Latent Membrane Protein-1 (LMP-1, mimicking CD40 signaling) and EBV Nuclear Antigen-2 (EBNA-2, upregulating cyclin D). This drives proliferation and increases the risk of malignancies like Burkitt lymphoma."
+    },
+    {
+      "question_id": "TW_MICROBIO_VIROLOGY_Q006",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MICROBIO_VIROLOGY",
+      "subject": "Microbiology",
+      "topic": "Virology",
+      "subtopic": null,
+      "difficulty": "Medium",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 6-month-old infant is brought to the emergency department in January with poor feeding, tachypnea, wheezing, and intercostal retractions. Nasopharyngeal PCR confirms Respiratory Syncytial Virus (RSV) infection. What structural component of this virus is responsible for inducing cell-to-cell fusion, leading to multinucleated giant cells?",
+      "options": {
+        "A": "Hemagglutinin-Neuraminidase (HN) protein",
+        "B": "Fusion (F) glycoprotein",
+        "C": "Matrix (M) protein",
+        "D": "G protein"
+      },
+      "correct_answer": "B",
+      "explanation": "RSV belongs to the Paramyxoviridae family. The Fusion (F) protein on its envelope induces the plasma membranes of adjacent infected cells to merge, forming characteristic multinucleated syncytia. Palivizumab is a monoclonal antibody directed against the F protein used for prophylaxis in high-risk infants."
+    },
+    {
+      "question_id": "TW_MICROBIO_VIROLOGY_Q007",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MICROBIO_VIROLOGY",
+      "subject": "Microbiology",
+      "topic": "Virology",
+      "subtopic": null,
+      "difficulty": "Medium",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 45-year-old chronic hemodialysis patient undergoes routine screening. Her labs demonstrate elevated serum transaminases. Serologic testing yields the following results: HBsAg negative, Anti-HBs positive, Anti-HBc IgG positive. What is the correct interpretation of this serological profile?",
+      "options": {
+        "A": "Acute Hepatitis B infection",
+        "B": "Immunity due to Hepatitis B vaccination",
+        "C": "Immunity due to resolved natural Hepatitis B infection",
+        "D": "Chronic Hepatitis B carrier state"
+      },
+      "correct_answer": "C",
+      "explanation": "The presence of Anti-HBs indicates immunity. The key differentiator between natural recovery and vaccination is Anti-HBc (antibody to the core antigen). Because the vaccine contains only the surface antigen, vaccinated individuals will be Anti-HBc negative. A positive Anti-HBc IgG indicates natural exposure and subsequent resolution."
+    },
+    {
+      "question_id": "TW_MICROBIO_VIROLOGY_Q008",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MICROBIO_VIROLOGY",
+      "subject": "Microbiology",
+      "topic": "Virology",
+      "subtopic": null,
+      "difficulty": "Medium",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 32-year-old male presents with a 4-day history of high fever, retro-orbital headache, severe joint and muscle pain ('breakbone fever'), and a generalized maculopapular rash. He recently returned from a trip to the Caribbean. Laboratory work shows leukopenia and thrombocytopenia. If he is infected with a different serotype of this virus in the future, he faces a significantly higher risk of severe hemorrhagic fever. What mechanism causes this phenomenon?",
+      "options": {
+        "A": "Antigenic drift of non-structural proteins",
+        "B": "Antibody-dependent enhancement (ADE)",
+        "C": "Complementation by a coinfecting helper virus",
+        "D": "Direct integration into megakaryocytes"
+      },
+      "correct_answer": "B",
+      "explanation": "The patient has Dengue fever (a flavivirus transmitted by Aedes mosquitoes). There are four distinct serotypes. Secondary infection with a heterologous serotype causes Antibody-Dependent Enhancement (ADE), where non-neutralizing antibodies facilitate virus entry into macrophages via Fc receptors, triggering a cytokine storm and leading to Dengue Hemorrhagic Fever."
+    },
+    {
+      "question_id": "TW_MICROBIO_VIROLOGY_Q009",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MICROBIO_VIROLOGY",
+      "subject": "Microbiology",
+      "topic": "Virology",
+      "subtopic": null,
+      "difficulty": "Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 3-year-old child presents with a 2-day history of low-grade fever, vomiting, and non-bloody watery diarrhea. Stool electron microscopy demonstrates non-enveloped, icosahedral viral particles with a wheel-like appearance. This virus infects mature enterocytes on the villi of the small intestine. Which viral protein acts as an enterotoxin to induce secretory diarrhea by altering intracellular calcium levels?",
+      "options": {
+        "A": "VP4",
+        "B": "VP7",
+        "C": "NSP4",
+        "D": "NSP1"
+      },
+      "correct_answer": "C",
+      "explanation": "The virus described is Rotavirus (Reoviridae family, double-stranded segmented RNA). It features a characteristic wheel-like appearance ('rota'). It produces a non-structural viral enterotoxin called NSP4, which triggers a phospholipase C-dependent pathway that elevates intracellular calcium levels, disrupting tight junctions and inducing secretory diarrhea."
+    },
+    {
+      "question_id": "TW_MICROBIO_VIROLOGY_Q010",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MICROBIO_VIROLOGY",
+      "subject": "Microbiology",
+      "topic": "Virology",
+      "subtopic": null,
+      "difficulty": "Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A molecular biology laboratory isolates a mutant strain of Hepatitis B virus (HBV) from a patient experiencing treatment failure. Sequencing reveals a specific mutation within the viral gene responsible for synthesizing the reverse transcriptase domain. Which unique property characterizes the replication cycle of this partially double-stranded DNA Hepadnavirus?",
+      "options": {
+        "A": "Replication entirely inside the host cytoplasm using host RNA polymerases",
+        "B": "Transcription of a full-length pregenomic RNA template which is then reverse-transcribed into viral DNA within core particles",
+        "C": "Direct transformation of host mRNA into viral genomic fragments via viral integrase",
+        "D": "Utilization of rolling-circle replication exclusively within the host mitochondria"
+      },
+      "correct_answer": "B",
+      "explanation": "Hepatitis B is a DNA virus but undergoes replication through an RNA intermediate. Inside the host nucleus, its partial dsDNA is repaired into covalently closed circular DNA (cccDNA). Host machinery transcribes this into a full-length pregenomic RNA template. The viral polymerase (acting as a reverse transcriptase) then reverse-transcribes this RNA intermediate back into partial dsDNA inside assembling cytoplasmic core particles."
     }
   ]
 }

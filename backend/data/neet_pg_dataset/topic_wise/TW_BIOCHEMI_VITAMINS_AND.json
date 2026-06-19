@@ -3,11 +3,13 @@
   "paper_type": "topic_wise",
   "subject": "Biochemistry",
   "topic": "Vitamins and Nutrition",
-  "total_questions": 4,
+  "total_questions": 5,
   "difficulty_distribution": {
-    "Easy": 4
+    "Easy": 1,
+    "Medium": 3,
+    "Hard": 1
   },
-  "created_at": "2026-05-30",
+  "created_at": "2026-06-06",
   "questions": [
     {
       "question_id": "TW_BIOCHEMI_VITAMINS_AND_Q001",
@@ -15,40 +17,17 @@
       "paper_ref": "TW_BIOCHEMI_VITAMINS_AND",
       "subject": "Biochemistry",
       "topic": "Vitamins and Nutrition",
-      "subtopic": null,
+      "subtopic": "Water Soluble Vitamins",
       "difficulty": "Easy",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Vitamin B12 deficiency: laboratory finding?",
-      "options": {
-        "A": "Microcytic anemia",
-        "B": "Macrocytic anemia with hypersegmented neutrophils",
-        "C": "Normocytic anemia",
-        "D": "Microcytic anemia with target cells"
-      },
-      "correct_answer": "B",
-      "explanation": "B12/folate deficiency: megaloblastic anemia — macrocytic (MCV >100), hypersegmented neutrophils (>5 lobes), glossitis. B12 also causes subacute combined degeneration of cord (not folate)."
-    },
-    {
-      "question_id": "TW_BIOCHEMI_VITAMINS_AND_Q002",
-      "paper_type": "topic_wise",
-      "paper_ref": "TW_BIOCHEMI_VITAMINS_AND",
-      "subject": "Biochemistry",
-      "topic": "Vitamins and Nutrition",
-      "subtopic": null,
-      "difficulty": "Easy",
-      "question_type": "single_best_answer",
-      "image_based": false,
-      "marks_correct": 4,
-      "marks_incorrect": -1,
-      "marks_unanswered": 0,
-      "question_text": "Scurvy: pathophysiology?",
+      "question_text": "An elderly male who lives completely alone and subsists exclusively on a diet of tea and dry toast presents with recurrent bleeding gums, poor wound healing, and painful swelling around his knees. Physical examination shows distinctive 'corkscrew' body hairs with extensive perifollicular hemorrhages. What is the primary underlying pathophysiology of this condition?",
       "options": {
         "A": "Vitamin D deficiency",
-        "B": "Vitamin C deficiency → impaired collagen synthesis",
+        "B": "Vitamin C deficiency → impaired hydroxylation of proline and lysine residues",
         "C": "Vitamin K deficiency",
         "D": "Calcium deficiency"
       },
@@ -56,23 +35,46 @@
       "explanation": "Scurvy: Vitamin C (ascorbic acid) deficiency → impaired hydroxylation of proline/lysine → abnormal collagen → perifollicular hemorrhage, corkscrew hair, bleeding gums, poor wound healing."
     },
     {
-      "question_id": "TW_BIOCHEMI_VITAMINS_AND_Q003",
+      "question_id": "TW_BIOCHEMI_VITAMINS_AND_Q002",
       "paper_type": "topic_wise",
       "paper_ref": "TW_BIOCHEMI_VITAMINS_AND",
       "subject": "Biochemistry",
       "topic": "Vitamins and Nutrition",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Water Soluble Vitamins",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Vitamin K: mechanism of action?",
+      "question_text": "A 58-year-old male with a history of a total gastrectomy for severe peptic ulcer disease presents to his primary care physician complaining of progressive numbness and tingling in both lower limbs, alongside a sore, smooth tongue. A peripheral blood smear exhibits macrocytic erythrocytes and hypersegmented neutrophils. What additional finding or diagnostic association differentiates this condition from a folate deficiency?",
       "options": {
-        "A": "Antioxidant",
+        "A": "Presence of microcytic target cells",
+        "B": "Subacute combined degeneration of the spinal cord",
+        "C": "Isolated elevations of serum iron levels",
+        "D": "Rapid response to dietary ascorbic acid supplementation"
+      },
+      "correct_answer": "B",
+      "explanation": "B12/folate deficiency: megaloblastic anemia — macrocytic (MCV >100), hypersegmented neutrophils (>5 lobes), glossitis. B12 also causes subacute combined degeneration of cord (not folate)."
+    },
+    {
+      "question_id": "TW_BIOCHEMI_VITAMINS_AND_Q003",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_BIOCHEMI_VITAMINS_AND",
+      "subject": "Biochemistry",
+      "topic": "Vitamins and Nutrition",
+      "subtopic": "Fat Soluble Vitamins",
+      "difficulty": "Medium",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A newborn infant who was delivered at home without immediate medical care is brought to the hospital on day 3 of life due to continuous oozing from the umbilical cord stump and broad bruising along the extremities. Lab results show a markedly prolonged prothrombin time (PT). Which of the following describes the mechanism of action of the nutritional factor required to treat this infant?",
+      "options": {
+        "A": "Antioxidant protection of cellular membranes",
         "B": "Cofactor for gamma-carboxylation of clotting factors II, VII, IX, X",
-        "C": "Co-enzyme for carboxylase",
+        "C": "Co-enzyme for pyruvate carboxylase",
         "D": "Retinoic acid receptor ligand"
       },
       "correct_answer": "B",
@@ -84,14 +86,14 @@
       "paper_ref": "TW_BIOCHEMI_VITAMINS_AND",
       "subject": "Biochemistry",
       "topic": "Vitamins and Nutrition",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Water Soluble Vitamins",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Pellagra is deficiency of?",
+      "question_text": "A 42-year-old female with chronic alcohol use disorder presents with a symmetric, rough, hyperpigmented rash distributed in a ring-like pattern around her lower neck. She also reports recurrent watery diarrhea and mild memory loss over the past month. A deficiency in which of the following vitamins explains this constellation of signs?",
       "options": {
         "A": "Vitamin B1 (thiamine)",
         "B": "Vitamin B3 (niacin/nicotinamide)",
@@ -100,6 +102,29 @@
       },
       "correct_answer": "B",
       "explanation": "Pellagra: niacin (B3) deficiency. 3 D's: Dermatitis, Diarrhea, Dementia. Casal's necklace (photosensitive skin around neck). Also in isoniazid use (depletes pyridoxine needed for niacin synthesis)."
+    },
+    {
+      "question_id": "TW_BIOCHEMI_VITAMINS_AND_Q005",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_BIOCHEMI_VITAMINS_AND",
+      "subject": "Biochemistry",
+      "topic": "Vitamins and Nutrition",
+      "subtopic": "Fat Soluble Vitamins",
+      "difficulty": "Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 4-year-old child with a history of severe fat malabsorption due to cystic fibrosis is brought to the neurology clinic for progressive neurological deterioration. Physical examination reveals an absence of deep tendon reflexes, loss of proprioception and vibratory sensation, and a broad-based, ataxic gait. Hemolysis of red blood cells is noted on peripheral analysis. This presentation closely mimics Friedreich ataxia but is due entirely to a deficiency of which vitamin?",
+      "options": {
+        "A": "Vitamin A",
+        "B": "Vitamin E",
+        "C": "Vitamin B6",
+        "D": "Vitamin K"
+      },
+      "correct_answer": "B",
+      "explanation": "Vitamin E deficiency presents with neurological symptoms that look almost identical to Friedreich ataxia (spinocerebellar tract degeneration, loss of proprioception/vibration, ataxia, loss of DTRs) along with hemolytic anemia due to increased fragility of red blood cell membranes. It is a classic complication in conditions causing severe lipid malabsorption like cystic fibrosis or abetalipoproteinemia."
     }
   ]
 }

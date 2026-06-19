@@ -1,7 +1,7 @@
 {
   "name": "neet-pg-platform-backend",
   "version": "1.0.0",
-  "description": "NEET PG Test Platform \u2014 REST API",
+  "description": "NEET PG Test Platform — REST API",
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",
@@ -11,18 +11,19 @@
     "seed:admin": "node src/utils/seedAdmin.js"
   },
   "dependencies": {
-    "express": "^4.18.2",
-    "mongoose": "^7.6.3",
-    "dotenv": "^16.3.1",
-    "cors": "^2.8.5",
-    "helmet": "^7.1.0",
-    "express-rate-limit": "^7.1.5",
-    "morgan": "^1.10.0",
-    "jsonwebtoken": "^9.0.2",
+    "@anthropic-ai/sdk": "^0.24.0",
     "bcryptjs": "^2.4.3",
-    "uuid": "^9.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.5",
     "express-validator": "^7.0.1",
-    "@anthropic-ai/sdk": "^0.24.0"
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.6.3",
+    "morgan": "^1.10.0",
+    "nodemailer": "^9.0.1",
+    "uuid": "^9.0.1"
   },
   "devDependencies": {
     "nodemon": "^3.0.2"

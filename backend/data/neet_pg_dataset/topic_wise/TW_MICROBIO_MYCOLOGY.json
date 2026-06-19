@@ -3,11 +3,13 @@
   "paper_type": "topic_wise",
   "subject": "Microbiology",
   "topic": "Mycology",
-  "total_questions": 2,
+  "total_questions": 10,
   "difficulty_distribution": {
-    "Easy": 2
+    "Easy": 2,
+    "Medium": 6,
+    "Hard": 2
   },
-  "created_at": "2026-05-30",
+  "created_at": "2026-06-06",
   "questions": [
     {
       "question_id": "TW_MICROBIO_MYCOLOGY_Q001",
@@ -54,6 +56,190 @@
       },
       "correct_answer": "B",
       "explanation": "Microsporum species: yellow-green fluorescence under Wood's lamp. Trichophyton species: no fluorescence. Most common tinea capitis in USA: T. tonsurans (endothrix)."
+    },
+    {
+      "question_id": "TW_MICROBIO_MYCOLOGY_Q003",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MICROBIO_MYCOLOGY",
+      "subject": "Microbiology",
+      "topic": "Mycology",
+      "subtopic": null,
+      "difficulty": "Medium",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 34-year-old HIV-positive patient presenting with a CD4 count of 45 cells/uL complains of progressive short-term memory loss and severe headaches. A lumbar puncture reveals an elevated opening pressure, and cryptococcal antigen testing is strongly positive. Which of the following is the most appropriate initial treatment regimen?",
+      "options": {
+        "A": "Oral Fluconazole monotherapy for 8 weeks",
+        "B": "Intravenous Amphotericin B lipid complex plus Liposomal Nystatin",
+        "C": "Intravenous Liposomal Amphotericin B plus oral Flucytosine",
+        "D": "Intravenous Caspofungin plus oral Voriconazole"
+      },
+      "correct_answer": "C",
+      "explanation": "The standard induction therapy for cryptococcal meningitis in immunocompromised individuals is the combination of intravenous Amphotericin B and oral Flucytosine for at least 2 weeks, followed by consolidation therapy with Fluconazole. Echinocandins like Caspofungin have no activity against Cryptococcus."
+    },
+    {
+      "question_id": "TW_MICROBIO_MYCOLOGY_Q004",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MICROBIO_MYCOLOGY",
+      "subject": "Microbiology",
+      "topic": "Mycology",
+      "subtopic": null,
+      "difficulty": "Medium",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 42-year-old male construction worker from the Ohio River Valley presents with chronic cough, low-grade fever, and unintentional weight loss over 3 months. Chest X-ray demonstrates a solitary pulmonary nodule with hilar lymphadenopathy. A tissue biopsy reveals small, intracellular yeast forms within macrophages. Which of the following dimorphic fungi is the most likely causative agent?",
+      "options": {
+        "A": "Blastomyces dermatitidis",
+        "B": "Histoplasma capsulatum",
+        "C": "Coccidioides immitis",
+        "D": "Paracoccidioides brasiliensis"
+      },
+      "correct_answer": "B",
+      "explanation": "Histoplasma capsulatum is endemic to the Mississippi and Ohio River Valleys, often associated with bird or bat droppings (found in construction/caves). Morphologically, it is characterized by tiny intracellular budding yeasts residing inside macrophages."
+    },
+    {
+      "question_id": "TW_MICROBIO_MYCOLOGY_Q005",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MICROBIO_MYCOLOGY",
+      "subject": "Microbiology",
+      "topic": "Mycology",
+      "subtopic": null,
+      "difficulty": "Medium",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 55-year-old female poorly controlled diabetic presents with an acute, rapidly progressive, painful necrotic ulceration over her right nasal turbinate and hard palate. She has associated periorbital swelling and proptosis. Direct KOH mount examination of the nasal scrapings shows broad, ribbon-like, non-septate hyphae branching at right angles (90°). What is the recommended first-line medical intervention?",
+      "options": {
+        "A": "Intravenous Voriconazole",
+        "B": "High-dose Intravenous Amphotericin B and surgical debridement",
+        "C": "Oral Itraconazole",
+        "D": "Intravenous Anidulafungin"
+      },
+      "correct_answer": "B",
+      "explanation": "This clinical presentation represents Mucormycosis, a medical emergency common in diabetic ketoacidosis or immunosuppressed patients. The hallmark diagnostic feature is broad, non-septate hyphae with 90° branching. Treatment mandates urgent aggressive surgical debridement combined with systemic Amphotericin B. Voriconazole is ineffective against Mucorales."
+    },
+    {
+      "question_id": "TW_MICROBIO_MYCOLOGY_Q006",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MICROBIO_MYCOLOGY",
+      "subject": "Microbiology",
+      "topic": "Mycology",
+      "subtopic": null,
+      "difficulty": "Medium",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 28-year-old avid gardener presents with a chain of nodules along the lymphatic drainage pathway of his right forearm. He recalls scratching his arm on a rose bush thorn 3 weeks ago. The nodules are subcutaneous, painless, and some have ulcerated. What is the classic microscopic appearance of this organism when cultured at 37°C?",
+      "options": {
+        "A": "Thick-walled spherules filled with endospores",
+        "B": "Cigar-shaped budding yeasts",
+        "C": "Yeasts with broad-based budding",
+        "D": "Septate hyphae with rosette-like conidiophores"
+      },
+      "correct_answer": "B",
+      "explanation": "The vignette describes Sporotrichosis ('rose gardener's disease') caused by Sporothrix schenckii. It exhibits thermal dimorphism: at room temperature (25°C), it forms mold with mold/rosette arrangements; at body temperature (37°C) or in tissue, it morphs into diagnostic cigar-shaped budding yeasts."
+    },
+    {
+      "question_id": "TW_MICROBIO_MYCOLOGY_Q007",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MICROBIO_MYCOLOGY",
+      "subject": "Microbiology",
+      "topic": "Mycology",
+      "subtopic": null,
+      "difficulty": "Medium",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 30-year-old male presents with patchy hypopigmented macules over his upper back and chest that do not tan during sun exposure. A skin scraping scales easily and is treated with potassium hydroxide (KOH) and methylene blue. Microscopic evaluation demonstrates short, curved unbranched hyphae mixed with spherical yeast cells resembling 'spaghetti and meatballs'. What organism is responsible?",
+      "options": {
+        "A": "Malassezia furfur",
+        "B": "Microsporum gypseum",
+        "C": "Trichophyton rubrum",
+        "D": "Epidermophyton floccosum"
+      },
+      "correct_answer": "A",
+      "explanation": "Malassezia furfur causes Tinea versicolor. Degradation of lipids produces dicarboxylic acids, which inhibit tyrosinase and alter melanin production, leading to localized hypopigmentation or hyperpigmentation. The characteristic appearance on KOH mount is described as 'spaghetti and meatballs'."
+    },
+    {
+      "question_id": "TW_MICROBIO_MYCOLOGY_Q008",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MICROBIO_MYCOLOGY",
+      "subject": "Microbiology",
+      "topic": "Mycology",
+      "subtopic": null,
+      "difficulty": "Medium",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 68-year-old patient with neutropenia following chemotherapy for acute myeloid leukemia develops a high fever unreactive to broad-spectrum antibacterials. High-resolution chest CT demonstrates multiple pulmonary nodules surrounded by a rim of ground-glass opacity ('halo sign'). A biopsy of a nodule confirms narrow, septate hyphae branching at an angle of roughly 45 degrees. What is the diagnosis?",
+      "options": {
+        "A": "Invasive Candidiasis",
+        "B": "Invasive Aspergillosis",
+        "C": "Zygomycosis",
+        "D": "Pneumocystis pneumonia"
+      },
+      "correct_answer": "B",
+      "explanation": "Invasive Aspergillosis is a leading cause of fungal infection in neutropenic patients. The CT 'halo sign' corresponds to focal necrosis and hemorrhage around the lesion. Histopathology reveals thin, regular, septate hyphae with acute-angle (45°) dichotomous branching."
+    },
+    {
+      "question_id": "TW_MICROBIO_MYCOLOGY_Q009",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MICROBIO_MYCOLOGY",
+      "subject": "Microbiology",
+      "topic": "Mycology",
+      "subtopic": null,
+      "difficulty": "Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "An institutionalized 45-year-old male with long-standing indwelling central lines develops fungal septicemia. Blood cultures grow yeasts that produce smooth pink/cream colonies on Sabouraud dextrose agar. On cornmeal agar, the organism demonstrates pseudohyphae with abundant blastoconidia but completely lacks chlamydoconidia. Molecular testing confirms the isolate is intrinsically resistant to Fluconazole and displays decreased susceptibility to Amphotericin B. Identify the species.",
+      "options": {
+        "A": "Candida albicans",
+        "B": "Candida glabrata",
+        "C": "Candida krusei",
+        "D": "Candida tropicalis"
+      },
+      "correct_answer": "C",
+      "explanation": "Candida krusei is well-recognized for its innate (intrinsic) resistance to Fluconazole and frequently exhibits higher minimum inhibitory concentrations (MICs) to Amphotericin B. Candida glabrata has acquired/inducible resistance rather than absolute intrinsic resistance and does not typically form pseudohyphae on cornmeal agar (it forms only small blastoconidia)."
+    },
+    {
+      "question_id": "TW_MICROBIO_MYCOLOGY_Q010",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MICROBIO_MYCOLOGY",
+      "subject": "Microbiology",
+      "topic": "Mycology",
+      "subtopic": null,
+      "difficulty": "Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 39-year-old HIV patient from Southeast Asia presents with fever, generalized lymphadenopathy, hepatosplenomegaly, and distinctive umbilicated skin papules on his face and trunk. Blood culture on Sabouraud agar at 25°C demonstrates flat, downy colonies that rapidly produce a characteristic soluble, blood-red/wine-colored pigment diffusing throughout the agar. Which organism is causing this dissemination?",
+      "options": {
+        "A": "Talaromyces marneffei",
+        "B": "Cryptococcus gattii",
+        "C": "Histoplasma capsulatum var. duboisii",
+        "D": "Penicillium chrysogenum"
+      },
+      "correct_answer": "A",
+      "explanation": "Talaromyces marneffei (formerly Penicillium marneffei) is an opportunistic dimorphic fungus endemic to Southeast Asia (especially Thailand, Vietnam, Southern China). It presents with fever, weight loss, and molluscum-like umbilicated skin lesions. Its definitive mycological signature is a diffusible red pigment produced during the mold phase at 25°C."
     }
   ]
 }

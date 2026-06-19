@@ -3,11 +3,13 @@
   "paper_type": "topic_wise",
   "subject": "Medicine",
   "topic": "Rheumatology",
-  "total_questions": 8,
+  "total_questions": 20,
   "difficulty_distribution": {
-    "Easy": 8
+    "Easy": 4,
+    "Medium": 12,
+    "Hard": 4
   },
-  "created_at": "2026-05-30",
+  "created_at": "2026-06-06",
   "questions": [
     {
       "question_id": "TW_MEDICINE_RHEUMATOLOGY_Q001",
@@ -15,22 +17,22 @@
       "paper_ref": "TW_MEDICINE_RHEUMATOLOGY",
       "subject": "Medicine",
       "topic": "Rheumatology",
-      "subtopic": null,
+      "subtopic": "Systemic Lupus Erythematosus",
       "difficulty": "Easy",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Most common cause of death in SLE?",
+      "question_text": "A 32-year-old female diagnosed with Systemic Lupus Erythematosus (SLE) 8 years ago is being monitored in the rheumatology clinic. Her disease has been well managed with hydroxychloroquine and low-dose prednisone. When counseling this patient regarding long-term survivorship, health optimization, and risk modification, what is currently the leading cause of mortality in patients with established chronic SLE?[cite: 14]",
       "options": {
-        "A": "Renal failure",
-        "B": "Infection",
-        "C": "Cardiovascular disease",
-        "D": "CNS lupus"
+        "A": "Acute proliferative lupus nephritis leading to uremic failure",
+        "B": "Opportunistic bacterial infections secondary to immunosuppression",
+        "C": "Accelerated cardiovascular disease secondary to premature atherosclerosis",
+        "D": "Severe diffuse central nervous system vasculitis and cerebritis"
       },
       "correct_answer": "C",
-      "explanation": "Modern SLE: cardiovascular disease (accelerated atherosclerosis) is now the leading cause of death. Historically renal failure was first."
+      "explanation": "While acute flare complications like lupus nephritis or secondary infections remain significant hazards in early disease stages, long-term survival data shows that accelerated coronary artery disease/cardiovascular disease (driven by chronic inflammation and steroid use) is the leading cause of death in patients with established, long-standing SLE[cite: 14]."
     },
     {
       "question_id": "TW_MEDICINE_RHEUMATOLOGY_Q002",
@@ -38,22 +40,22 @@
       "paper_ref": "TW_MEDICINE_RHEUMATOLOGY",
       "subject": "Medicine",
       "topic": "Rheumatology",
-      "subtopic": null,
+      "subtopic": "Systemic Sclerosis",
       "difficulty": "Easy",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "CREST syndrome includes all EXCEPT?",
+      "question_text": "A 44-year-old female presents with thick skin over her fingers, subcutaneous nodules over her elbows that occasionally extrude a chalky white material, and episodic blanching of her fingertips when exposed to cold water. She also reports severe heartburn and dysphagia to solid foods. Slit-lamp exam of her lips reveals dilated capillaries. Which of the following features is classically ABSENT from this specific clinical syndrome?[cite: 14]",
       "options": {
-        "A": "Calcinosis",
-        "B": "Raynaud's",
-        "C": "Esophageal dysmotility",
-        "D": "Telangiectasia"
+        "A": "Subcutaneous dystrophic calcinosis deposits",
+        "B": "Severe acute scleroderma renal crisis with malignant hypertension",
+        "C": "Fibrotic dysmotility of the lower two-thirds of the esophagus",
+        "D": "Blanching followed by cyanosis in digital extremities (Raynaud's)"
       },
       "correct_answer": "B",
-      "explanation": "CREST = Calcinosis, Raynaud's, Esophageal dysmotility, Sclerodactyly, Telangiectasia. Raynaud's IS included — the trick is if Renal is listed (not part of CREST). All 5 are present."
+      "explanation": "The patient presents with CREST syndrome (Limited Cutaneous Systemic Sclerosis): Calcinosis, Raynaud's phenomenon, Esophageal dysmotility, Sclerodactyly, and Telangiectasia. Acute, life-threatening scleroderma renal crisis is classically associated with Diffuse Cutaneous Systemic Sclerosis (anti-Scl-70/topoisomerase positive) rather than the limited CREST variant (anti-centromere positive)[cite: 14]."
     },
     {
       "question_id": "TW_MEDICINE_RHEUMATOLOGY_Q003",
@@ -61,22 +63,22 @@
       "paper_ref": "TW_MEDICINE_RHEUMATOLOGY",
       "subject": "Medicine",
       "topic": "Rheumatology",
-      "subtopic": null,
+      "subtopic": "Systemic Lupus Erythematosus",
       "difficulty": "Easy",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Anti-Smith (anti-Sm) antibody is MOST specific for?",
+      "question_text": "A 26-year-old female presents with multiple joint pains, oral ulcers, and a history of sun sensitivity. Initial lab testing reveals a positive Antinuclear Antibody (ANA) with a homogeneous pattern at a titer of 1:320. Which of the following autoantibodies should be ordered next due to its near 99% specificity for confirming a diagnosis of Systemic Lupus Erythematosus?[cite: 14]",
       "options": {
-        "A": "RA",
-        "B": "SLE",
-        "C": "Sjogren's",
-        "D": "Systemic sclerosis"
+        "A": "Anti-cyclic citrullinated peptide (Anti-CCP) antibody",
+        "B": "Anti-Smith (Anti-Sm) antibody",
+        "C": "Anti-SS-A (Ro) antibody",
+        "D": "Anti-centromere antibody"
       },
       "correct_answer": "B",
-      "explanation": "Anti-Sm is highly specific for SLE (30% sensitivity, 99% specificity). Anti-dsDNA is also specific and correlates with disease activity."
+      "explanation": "While ANA is highly sensitive for SLE, it lacks specificity. Anti-Smith (Anti-Sm) antibody is highly specific (~99%) for SLE, making it a definitive confirmatory marker, though its sensitivity is low (around 30%). Anti-dsDNA is also highly specific and tracks with disease activity, whereas Anti-CCP is specific for Rheumatoid Arthritis[cite: 14]."
     },
     {
       "question_id": "TW_MEDICINE_RHEUMATOLOGY_Q004",
@@ -84,22 +86,22 @@
       "paper_ref": "TW_MEDICINE_RHEUMATOLOGY",
       "subject": "Medicine",
       "topic": "Rheumatology",
-      "subtopic": null,
+      "subtopic": "Lupus Nephritis",
       "difficulty": "Easy",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A child has butterfly rash, arthritis, and renal involvement. ANA positive. Best confirmatory test?",
+      "question_text": "A 14-year-old girl presents with a striking erythematous rash across her cheeks and nasal bridge that spares the nasolabial folds, bilateral knee swelling, and significant lower limb edema. Urinalysis shows 3+ proteinuria and red blood cell casts. Antinuclear antibody (ANA) testing returns strongly positive. Which autoantibody profile is most useful to confirm this diagnosis and monitor for active lupus nephritis flares?[cite: 14]",
       "options": {
-        "A": "Anti-CCP",
-        "B": "Anti-dsDNA",
-        "C": "Anti-Ro",
-        "D": "Anti-Jo1"
+        "A": "Anti-histone antibodies",
+        "B": "Anti-double stranded DNA (anti-dsDNA) antibodies",
+        "C": "Anti-Jo-1 antibodies",
+        "D": "Anti-U1 RNP antibodies"
       },
       "correct_answer": "B",
-      "explanation": "Anti-dsDNA confirms SLE and correlates with disease activity/nephritis. Anti-Smith is most specific but anti-dsDNA is used for monitoring."
+      "explanation": "The patient has clinical features of SLE with renal involvement (Lupus Nephritis). Anti-dsDNA antibodies are highly specific for SLE, correlate strongly with the development of lupus nephritis, and fluctuate with disease activity. Tracking anti-dsDNA titers along with serum complement levels (C3, C4) is standard practice to monitor for active flares[cite: 14]."
     },
     {
       "question_id": "TW_MEDICINE_RHEUMATOLOGY_Q005",
@@ -107,22 +109,22 @@
       "paper_ref": "TW_MEDICINE_RHEUMATOLOGY",
       "subject": "Medicine",
       "topic": "Rheumatology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Vasculitis",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Churg-Strauss syndrome (EGPA) is associated with?",
+      "question_text": "A 38-year-old male with a history of chronic severe asthma and allergic rhinitis presents with a new-onset drop-foot on the left side and palpable purpura on his lower legs. Lab panels reveal marked peripheral blood eosinophilia (28%). Serological testing reveals a positive perinuclear antineutrophil cytoplasmic antibody (p-ANCA) pattern targeting myeloperoxidase (MPO). What is the most likely diagnosis?[cite: 14]",
       "options": {
-        "A": "p-ANCA (MPO)",
-        "B": "c-ANCA (PR3)",
-        "C": "ANA",
-        "D": "Anti-GBM"
+        "A": "Granulomatosis with Polyangiitis (GPA)",
+        "B": "Eosinophilic Granulomatosis with Polyangiitis (EGPA)",
+        "C": "Microscopic Polyangiitis (MPA)",
+        "D": "Anti-Glomerular Basement Membrane disease"
       },
-      "correct_answer": "A",
-      "explanation": "Eosinophilic granulomatosis with polyangiitis (Churg-Strauss): p-ANCA (anti-MPO) positive. Triad: asthma, eosinophilia, vasculitis."
+      "correct_answer": "B",
+      "explanation": "Eosinophilic Granulomatosis with Polyangiitis (EGPA), historically called Churg-Strauss syndrome, is a small-vessel vasculitis characterized by a clinical triad of severe asthma, prominent tissue/peripheral eosinophilia, and necrotizing vasculitis. It is strongly associated with p-ANCA (anti-MPO) positivity. GPA (Wegener's) is typically associated with c-ANCA (anti-PR3)[cite: 14]."
     },
     {
       "question_id": "TW_MEDICINE_RHEUMATOLOGY_Q006",
@@ -130,22 +132,22 @@
       "paper_ref": "TW_MEDICINE_RHEUMATOLOGY",
       "subject": "Medicine",
       "topic": "Rheumatology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Rheumatoid Arthritis",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Pannus formation is a feature of?",
+      "question_text": "A 48-year-old female presents with symmetrical pain, swelling, and morning stiffness lasting over an hour in both her wrists and metacarpophalangeal (MCP) joints for the past 3 months. Histopathological evaluation of the affected synovium reveals hypertrophied villi composed of vascularized granulation tissue, proliferating fibroblasts, and inflammatory cells that are actively eroding the articular cartilage. What is this pathognomonic finding called?[cite: 14]",
       "options": {
-        "A": "Osteoarthritis",
-        "B": "Rheumatoid arthritis",
-        "C": "Gout",
-        "D": "Pseudogout"
+        "A": "Osteophytic spurring",
+        "B": "Pannus formation",
+        "C": "Tophi deposition",
+        "D": "Aschoff nodule"
       },
       "correct_answer": "B",
-      "explanation": "Pannus = granulation tissue in RA that erodes cartilage and bone. Anti-CCP (anti-citrullinated protein antibody) is most specific for RA."
+      "explanation": "The patient has Rheumatoid Arthritis (RA). The hallmark pathological lesion of RA is a pannus—an abnormal membrane of vascularized granulation tissue derived from hyperplastic synovium. The pannus overlies and releases collagenases and stromal enzymes that actively destroy articular cartilage and lead to subchondral bone erosions[cite: 14]."
     },
     {
       "question_id": "TW_MEDICINE_RHEUMATOLOGY_Q007",
@@ -153,22 +155,22 @@
       "paper_ref": "TW_MEDICINE_RHEUMATOLOGY",
       "subject": "Medicine",
       "topic": "Rheumatology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Sjogren's Syndrome",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Which antibody in Sjogren's syndrome is associated with neonatal lupus and heart block?",
+      "question_text": "A 29-year-old pregnant female at 16 weeks of gestation with a history of Sjögren's syndrome is being monitored by her obstetrician. Her serological profile is positive for anti-Ro/SSA antibodies. The fetus is at high risk for developing neonatal lupus syndrome via transplacental antibody passage. Which of the following fetal complications represents the most severe permanent manifestation of this condition?[cite: 14]",
       "options": {
-        "A": "Anti-Sm",
-        "B": "Anti-dsDNA",
-        "C": "Anti-Ro (SSA)",
-        "D": "Anti-La (SSB)"
+        "A": "Transient photosensitive annular skin lesions",
+        "B": "Congenital complete heart block due to AV nodal fibrosis",
+        "C": "Reversible autoimmune thrombocytopenia",
+        "D": "Self-limiting neonatal hepatitis with mild icterus"
       },
-      "correct_answer": "C",
-      "explanation": "Anti-Ro/SSA crosses placenta causing neonatal lupus (rash, cytopenias, complete heart block). Anti-La/SSB less commonly associated."
+      "correct_answer": "B",
+      "explanation": "Maternal anti-Ro/SSA (and less frequently anti-La/SSB) antibodies can cross the placenta and cause neonatal lupus. While the cutaneous and hematological manifestations are transient and resolve as maternal antibodies clear, injury to the fetal cardiac conduction system can cause irreversible fibrosis of the AV node, resulting in congenital complete heart block, which carries significant mortality and typically requires a permanent pacemaker[cite: 14]."
     },
     {
       "question_id": "TW_MEDICINE_RHEUMATOLOGY_Q008",
@@ -176,22 +178,298 @@
       "paper_ref": "TW_MEDICINE_RHEUMATOLOGY",
       "subject": "Medicine",
       "topic": "Rheumatology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Dermatomyositis",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Gottron's papules and heliotrope rash are features of?",
+      "question_text": "A 42-year-old female presents with subacute, progressive, symmetrical proximal muscle weakness, stating she has difficulty rising from a low chair and combing her hair. Physical examination reveals violaceous, dusky-red papules over her metacarpophalangeal and interphalangeal joints, along with a periorbital purplish heliotrope rash. Serum creatine kinase is highly elevated. Which autoantibody profile is most characteristically associated with this specific presentation?[cite: 14]",
       "options": {
-        "A": "SLE",
-        "B": "Systemic sclerosis",
-        "C": "Dermatomyositis",
-        "D": "Polymyositis"
+        "A": "Anti-dsDNA antibody",
+        "B": "Anti-Scl-70 antibody",
+        "C": "Anti-Mi-2 antibody",
+        "D": "Anti-Jo-1 antibody"
       },
       "correct_answer": "C",
-      "explanation": "Dermatomyositis: Gottron's papules (over knuckles), heliotrope rash (periorbital), shawl sign, V-sign. Anti-Mi-2 antibody."
+      "explanation": "The patient presents with pathognomonic cutaneous signs of Dermatomyositis: Gottron's papules (over the knuckles) and a heliotrope rash (periorbital edema and erythema), alongside proximal muscle weakness. Anti-Mi-2 (targeted against a nuclear helicase component) is highly specific for classic dermatomyositis and is associated with a favorable treatment response. Anti-Jo-1 is linked with the anti-synthetase syndrome variant[cite: 14]."
+    },
+    {
+      "question_id": "TW_MEDICINE_RHEUMATOLOGY_Q009",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MEDICINE_RHEUMATOLOGY",
+      "subject": "Medicine",
+      "topic": "Rheumatology",
+      "subtopic": "Gouty Arthritis",
+      "difficulty": "Medium",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 54-year-old male wakes up in the middle of the night with excruciating, throbbing pain, warmth, and marked swelling in his right first metatarsophalangeal joint. He notes that even the pressure of a bedsheet causes severe pain. He reports consuming a large steak dinner with several beers last evening. Polarized light microscopy of fluid aspirated from the joint would most likely reveal which of the following characteristics?",
+      "options": {
+        "A": "Positively birefringent, rhomboid-shaped crystals",
+        "B": "Negatively birefringent, needle-shaped crystals",
+        "C": "Amorphous calcium phosphate precipitates lacking birefringence",
+        "D": "Bipyramidal envelope-shaped lipid crystals"
+      },
+      "correct_answer": "B",
+      "explanation": "The clinical presentation describes acute podagra, typical of acute gouty arthritis, precipitated by purine-rich food and alcohol consumption. The diagnostic gold standard is the visualization of monosodium urate (MSU) crystals in synovial fluid under polarized light microscopy, which appear as needle-shaped and strongly negatively birefringent (yellow when parallel to the slow axis of the compensator)."
+    },
+    {
+      "question_id": "TW_MEDICINE_RHEUMATOLOGY_Q010",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MEDICINE_RHEUMATOLOGY",
+      "subject": "Medicine",
+      "topic": "Rheumatology",
+      "subtopic": "Ankylosing Spondylitis",
+      "difficulty": "Medium",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 27-year-old male presents with low back pain and stiffness that has progressed gradually over the past 8 months. He notes that the stiffness is worst in the morning, lasting up to 2 hours, but significantly improves with exercise and hot showers. Physical examination shows restricted forward flexion of the lumbar spine (modified Schober's test). An X-ray of the pelvis reveals bilateral sacroiliitis. Which of the following human leukocyte antigens (HLA) is strongly associated with this condition?",
+      "options": {
+        "A": "HLA-DR4",
+        "B": "HLA-B27",
+        "C": "HLA-DQ8",
+        "D": "HLA-B51"
+      },
+      "correct_answer": "B",
+      "explanation": "The patient has clinical and radiological features of Ankylosing Spondylitis (AS), a prototype seronegative spondyloarthropathy characterized by inflammatory back pain and sacroiliitis. There is an extremely strong association (>90% of cases) between Ankylosing Spondylitis and the class I major histocompatibility complex allele HLA-B27."
+    },
+    {
+      "question_id": "TW_MEDICINE_RHEUMATOLOGY_Q011",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MEDICINE_RHEUMATOLOGY",
+      "subject": "Medicine",
+      "topic": "Rheumatology",
+      "subtopic": "Antiphospholipid Syndrome",
+      "difficulty": "Medium",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 29-year-old female with a history of two consecutive spontaneous first-trimester miscarriages presents to the emergency room with sudden right-sided calf pain and swelling. Compression ultrasonography confirms a deep vein thrombosis. Laboratory evaluation reveals a prolonged activated partial thromboplastin time (aPTT) that does not correct when mixed 1:1 with normal pooled plasma, along with a false-positive VDRL test. What is the most likely diagnosis?",
+      "options": {
+        "A": "Disseminated Intravascular Coagulation (DIC)",
+        "B": "Antiphospholipid Syndrome (APS)",
+        "C": "Immune Thrombocytopenic Purpura (ITP)",
+        "D": "Factor V Leiden mutation"
+      },
+      "correct_answer": "B",
+      "explanation": "The presentation of recurrent pregnancy loss and venous thrombosis combined with an uncorrected prolonged aPTT (lupus anticoagulant effect) and false-positive syphilis serology (due to anticardiolipin cross-reactivity) is classic for Antiphospholipid Syndrome (APS). APS is an autoimmune prothrombotic state caused by antibodies directed against phospholipid-binding proteins like beta-2-glycoprotein I."
+    },
+    {
+      "question_id": "TW_MEDICINE_RHEUMATOLOGY_Q012",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MEDICINE_RHEUMATOLOGY",
+      "subject": "Medicine",
+      "topic": "Rheumatology",
+      "subtopic": "Pseudogout",
+      "difficulty": "Medium",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 72-year-old female presents with acute pain, redness, and swelling in her left knee. An X-ray of the knee reveals linear calcification of the articular cartilage (chondrocalcinosis). Synovial fluid aspiration is performed to rule out septic arthritis. Polarized light microscopy of the fluid demonstrates weakly positively birefringent, rhomboid-shaped crystals. What is the chemical composition of these crystals?",
+      "options": {
+        "A": "Monosodium urate monohydrate",
+        "B": "Calcium pyrophosphate dihydrate (CPPD)",
+        "C": "Calcium hydroxyapatite",
+        "D": "Cholesterol crystals"
+      },
+      "correct_answer": "B",
+      "explanation": "Chondrocalcinosis combined with acute monoarthritis in an elderly patient points to Calcium Pyrophosphate Deposition (CPPD) disease, or pseudogout. CPPD crystals are rhomboid/brick-shaped and show weak positive birefringence under polarized light, distinguishing them from the needle-shaped, strongly negatively birefringent urate crystals seen in gout."
+    },
+    {
+      "question_id": "TW_MEDICINE_RHEUMATOLOGY_Q013",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MEDICINE_RHEUMATOLOGY",
+      "subject": "Medicine",
+      "topic": "Rheumatology",
+      "subtopic": "Rheumatoid Arthritis Treatment",
+      "difficulty": "Medium",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 36-year-old female with newly diagnosed severe Rheumatoid Arthritis is initiated on low-dose oral prednisone for immediate bridging symptom relief alongside a first-line disease-modifying antirheumatic drug (DMARD). The clinician orders a baseline complete blood count, liver function tests, and a baseline serum creatinine, counseling the patient that she must take supplemental folic acid to prevent oral ulcers and macrocytic anemia. Which DMARD was prescribed?",
+      "options": {
+        "A": "Sulfasalazine",
+        "B": "Methotrexate",
+        "C": "Hydroxychloroquine",
+        "D": "Leflunomide"
+      },
+      "correct_answer": "B",
+      "explanation": "Methotrexate (MTX) is the anchor first-line conventional synthetic DMARD for active rheumatoid arthritis. It acts as a competitive inhibitor of dihydrofolate reductase, disrupting purine synthesis. Co-administration of folic acid is mandatory to minimize standard toxicities such as stomatitis/oral ulcers, bone marrow suppression, and macrocytic anemia, without compromising its anti-inflammatory efficacy."
+    },
+    {
+      "question_id": "TW_MEDICINE_RHEUMATOLOGY_Q014",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MEDICINE_RHEUMATOLOGY",
+      "subject": "Medicine",
+      "topic": "Rheumatology",
+      "subtopic": "Systemic Sclerosis Antibody",
+      "difficulty": "Medium",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 45-year-old female presents with tightening of the skin over her fingers, face, and trunk extending proximal to her elbows and knees over the last 6 months. She reports severe exertional dyspnea. Pulmonary function testing demonstrates a restrictive lung defect, and high-resolution chest CT shows diffuse interstitial lung disease. Which of the following antibodies is most specific for this diffuse form of systemic sclerosis?",
+      "options": {
+        "A": "Anti-centromere antibody",
+        "B": "Anti-Scl-70 (Anti-topoisomerase I) antibody",
+        "C": "Anti-Jo-1 antibody",
+        "D": "Anti-Smith antibody"
+      },
+      "correct_answer": "B",
+      "explanation": "The patient has Diffuse Cutaneous Systemic Sclerosis, characterized by rapid skin thickening extending proximal to the elbows/knees and early, frequent visceral organ involvement such as interstitial lung disease (ILD). Anti-Scl-70 (targeting DNA topoisomerase I) is highly specific for the diffuse variant and correlates with a higher risk of pulmonary fibrosis, whereas anti-centromere is specific for limited systemic sclerosis (CREST)."
+    },
+    {
+      "question_id": "TW_MEDICINE_RHEUMATOLOGY_Q015",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MEDICINE_RHEUMATOLOGY",
+      "subject": "Medicine",
+      "topic": "Rheumatology",
+      "subtopic": "Reactive Arthritis",
+      "difficulty": "Medium",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 23-year-old male presents with painful swelling of his right knee and left ankle, along with burning pain on urination and crusting lesions on the soles of his feet (keratoderma blennorrhagicum). He recalls having a severe bout of watery, bloody diarrhea 3 weeks ago after an outdoor barbecue. Synovial fluid cultures are sterile. What is the primary pathophysiological driver of this condition?",
+      "options": {
+        "A": "Direct septic invasion of the joint space by enteric bacteria",
+        "B": "An asymmetric, sterile autoimmune HLA-B27-linked reactivity triggered by an antecedent infection",
+        "C": "Deposition of immune complexes within small vessels leading to leukocytoclastic vasculitis",
+        "D": "Urate crystal-induced activation of the NLRP3 inflammasome"
+      },
+      "correct_answer": "B",
+      "explanation": "The triad of asymmetric oligoarthritis, urethritis, and conjunctivitis/mucocutaneous lesions (keratoderma blennorrhagicum) describes Reactive Arthritis (ReA), historically called Reiter's syndrome. ReA is a sterile, HLA-B27-associated immune-mediated arthropathy triggered 1-4 weeks after a gastrointestinal (e.g., Campylobacter, Salmonella, Shigella) or urogenital (Chlamydia) infection."
+    },
+    {
+      "question_id": "TW_MEDICINE_RHEUMATOLOGY_Q016",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MEDICINE_RHEUMATOLOGY",
+      "subject": "Medicine",
+      "topic": "Rheumatology",
+      "subtopic": "Polymicrobiography / Polymyalgia Rheumatica",
+      "difficulty": "Medium",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 67-year-old female presents with a 2-month history of severe bilateral aching and stiffness in her shoulders and pelvic girdle, which is most pronounced in the morning and lasts for 2 hours. She reports no muscle weakness but complains of profound fatigue. Lab panels reveal an ESR of 85 mm/hr and normal creatine kinase levels. The patient shows a dramatic improvement in symptoms within 48 hours of starting low-dose Prednisone. What is the most likely diagnosis?",
+      "options": {
+        "A": "Polymyositis",
+        "B": "Polymyalgia Rheumatica (PMR)",
+        "C": "Fibromyalgia",
+        "D": "Inclusion Body Myositis"
+      },
+      "correct_answer": "B",
+      "explanation": "Polymyalgia Rheumatica (PMR) occurs in patients over 50 and presents with proximal girdle aching and morning stiffness without true motor weakness. It is characterized by a significantly elevated ESR/CRP but normal muscle enzymes (CK), distinguishing it from polymyositis. Its rapid, complete response to low-dose corticosteroids (10-15 mg/day) is highly characteristic."
+    },
+    {
+      "question_id": "TW_MEDICINE_RHEUMATOLOGY_Q017",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MEDICINE_RHEUMATOLOGY",
+      "subject": "Medicine",
+      "topic": "Rheumatology",
+      "subtopic": "Giant Cell Arteritis",
+      "difficulty": "Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 71-year-old female presents with a new-onset, severe, right-sided throbbing headache, scalp tenderness when brushing her hair, and cramping pain in her jaw muscles when chewing food. Her ESR is 98 mm/hr. While arranging for a temporal artery biopsy, she reports a brief episode of transient, painless blurring of vision in her right eye. What is the most appropriate immediate action?",
+      "options": {
+        "A": "Reassure the patient and wait for the definitive histopathology report",
+        "B": "Administer high-dose intravenous Methylprednisolone pulse therapy immediately",
+        "C": "Initiate low-dose aspirin and schedule a follow-up appointment in one week",
+        "D": "Order an urgent contrast-enhanced CT scan of the brain to rule out ischemic stroke"
+      },
+      "correct_answer": "B",
+      "explanation": "The patient has signs of Giant Cell (Temporal) Arteritis (GCA) with jaw claudication, scalp tenderness, and amaurosis fugax, indicating impending permanent visual loss due to ophthalmic artery occlusion. Because of the immediate hazard of blindness, high-dose systemic corticosteroid therapy must be started immediately upon clinical suspicion; treatment must never be delayed for biopsy scheduling or results."
+    },
+    {
+      "question_id": "TW_MEDICINE_RHEUMATOLOGY_Q018",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MEDICINE_RHEUMATOLOGY",
+      "subject": "Medicine",
+      "topic": "Rheumatology",
+      "subtopic": "Polyarteritis Nodosa",
+      "difficulty": "Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 45-year-old male with a history of chronic Hepatitis B virus infection presents with severe abdominal pain post-meals, a 10 kg weight loss, significant hypertension, and a painful right foot drop. Laboratory tests reveal an elevated serum creatinine and a negative ANCA panel. A mesenteric angiogram demonstrates multiple segmentally dilated aneurysms alternating with focal stenosis ('string of pearls' appearance) in medium-sized visceral arteries. What is the primary pathology?",
+      "options": {
+        "A": "Granulomatous inflammation of the aortic arch",
+        "B": "Leukocytoclastic vasculitis of the dermal post-capillary venules",
+        "C": "Necrotizing immune-complex mediated inflammation of medium-sized muscular arteries",
+        "D": "Non-inflammatory fibromuscular dysplasia of the renal arteries"
+      },
+      "correct_answer": "C",
+      "explanation": "The patient has Polyarteritis Nodosa (PAN), a systemic medium-vessel necrotizing vasculitis strongly associated with Hepatitis B virus infection. PAN typically causes mesenteric ischemia (abdominal angina), mononeuritis multiplex (foot drop), renal artery involvement causing hypertension, and leaves the pulmonary vasculature spared. It is classically ANCA-negative and demonstrates segmentally microaneurysmal dilatation on angiography."
+    },
+    {
+      "question_id": "TW_MEDICINE_RHEUMATOLOGY_Q019",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MEDICINE_RHEUMATOLOGY",
+      "subject": "Medicine",
+      "topic": "Rheumatology",
+      "subtopic": "Mixed Connective Tissue Disease",
+      "difficulty": "Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 34-year-old female presents with an overlapping clinical spectrum featuring severe Raynaud's phenomenon, swollen 'sausage-like' fingers (dactylitis), proximal muscle weakness, and polyarthritis. Laboratory workup reveals a positive speckled antinuclear antibody (ANA) pattern at a 1:640 titer. Which of the following highly specific autoantibody markers is required to confirm a diagnosis of Mixed Connective Tissue Disease (MCTD)?",
+      "options": {
+        "A": "Anti-dsDNA antibodies",
+        "B": "Anti-U1 ribonucleoprotein (U1-RNP) antibodies",
+        "C": "Anti-Jo-1 (histidyl-tRNA synthetase) antibodies",
+        "D": "Anti-smooth muscle antibodies"
+      },
+      "correct_answer": "B",
+      "explanation": "Mixed Connective Tissue Disease (MCTD) is a distinct overlap syndrome combining clinical features of SLE, systemic sclerosis, and polymyositis. The diagnostic hallmark and absolute requirement for defining MCTD is the presence of high titers of circulating anti-U1 ribonucleoprotein (U1-RNP) antibodies in the absence of other specific markers like anti-dsDNA or anti-Sm."
+    },
+    {
+      "question_id": "TW_MEDICINE_RHEUMATOLOGY_Q020",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_MEDICINE_RHEUMATOLOGY",
+      "subject": "Medicine",
+      "topic": "Rheumatology",
+      "subtopic": "Felty's Syndrome",
+      "difficulty": "Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 58-year-old male with a 15-year history of severe, deforming, seropositive Rheumatoid Arthritis presents with recurrent lower respiratory tract infections and non-healing skin ulcers over his shins. On physical examination, prominent splenomegaly is noted. Laboratory studies reveal a profound neutropenia with an absolute neutrophil count (ANC) of 450/μL. What is the diagnosis?",
+      "options": {
+        "A": "Caplan's syndrome",
+        "B": "Felty's syndrome",
+        "C": "Systemic amyloidosis",
+        "D": "Large granular lymphocytic leukemia"
+      },
+      "correct_answer": "B",
+      "explanation": "Felty's syndrome is a severe, long-standing complication of seropositive Rheumatoid Arthritis defined by a clinical triad of: Rheumatoid Arthritis, Splenomegaly, and Neutropenia. This state leads to a high susceptibility to recurrent bacterial infections and lower extremity ulcerations due to immune-mediated peripheral destruction of neutrophils."
     }
   ]
 }

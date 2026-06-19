@@ -147,7 +147,7 @@
     "bank_id": "TW_MICROBIO_MYCOLOGY",
     "subject": "Microbiology",
     "topic": "Mycology",
-    "total_questions": 2
+    "total_questions": 10
   },
   {
     "bank_id": "TW_PSM_EPIDEMIOLOGY",
@@ -208,6 +208,12 @@
     "subject": "Anatomy",
     "topic": "Embryology",
     "total_questions": 3
+  },
+  {
+    "bank_id": "TW_ANATOMY_EMBRYOLOGY_HISTO",
+    "subject": "Anatomy",
+    "topic": "Embryology and Histology",
+    "total_questions": 20
   },
   {
     "bank_id": "TW_ANATOMY_GENERAL_ANAT",
@@ -339,7 +345,7 @@
     "bank_id": "TW_ANAESTHE_GENERAL_ANES",
     "subject": "Anaesthesia",
     "topic": "General Anesthesia",
-    "total_questions": 3
+    "total_questions": 6
   },
   {
     "bank_id": "TW_ANAESTHE_ANESTHETIC_A",
@@ -351,7 +357,7 @@
     "bank_id": "TW_DERMATOL_SKIN_BASICS_",
     "subject": "Dermatology",
     "topic": "Skin Basics and Infections",
-    "total_questions": 3
+    "total_questions": 5
   },
   {
     "bank_id": "TW_DERMATOL_PIGMENTARY_A",

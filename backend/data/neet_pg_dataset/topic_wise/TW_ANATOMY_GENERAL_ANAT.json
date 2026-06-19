@@ -5,9 +5,10 @@
   "topic": "General Anatomy",
   "total_questions": 16,
   "difficulty_distribution": {
-    "Easy": 16
+    "Medium": 6,
+    "Hard": 10
   },
-  "created_at": "2026-05-30",
+  "created_at": "2026-06-06",
   "questions": [
     {
       "question_id": "TW_ANATOMY_GENERAL_ANAT_Q001",
@@ -16,21 +17,21 @@
       "subject": "Anatomy",
       "topic": "General Anatomy",
       "subtopic": null,
-      "difficulty": "Easy",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A patient presents with sudden painless loss of vision. Best initial investigation?",
+      "question_text": "A 19-year-old college football player suffers a severe inversion injury to his right ankle during a game. On physical examination, there is marked edema, localized point tenderness just anterior and inferior to the lateral malleolus, and an anterior drawer test of the ankle is positive. Which type of joint classification is primarily involved here, and which specific structural component has most likely been torn?",
       "options": {
-        "A": "CT angiography",
-        "B": "MRI",
-        "C": "Ultrasound",
-        "D": "ECG"
+        "A": "Syndesmosis; Anterior tibiofibular ligament",
+        "B": "Ginglymus joint; Anterior talofibular ligament",
+        "C": "Condyloid joint; Calcaneofibular ligament",
+        "D": "Saddle joint; Posterior talofibular ligament"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Anatomy concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "The ankle joint (talocrural joint) is a classic hinge or ginglymus variety of synovial joint. An inversion injury to a plantarflexed ankle most commonly damages the lateral collateral ligament complex. The anterior talofibular ligament (ATFL) is the weakest component of this complex and is the first to tear during severe inversion stress, leading to a positive anterior drawer sign of the ankle. Syndesmotic injuries ('high ankle sprains') involve the tibiofibular syndesmosis and are typically caused by eversion and external rotation."
     },
     {
       "question_id": "TW_ANATOMY_GENERAL_ANAT_Q002",
@@ -39,21 +40,21 @@
       "subject": "Anatomy",
       "topic": "General Anatomy",
       "subtopic": null,
-      "difficulty": "Easy",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A young woman presents with progressive proximal muscle weakness and rash. Most likely diagnosis?",
+      "question_text": "A pediatric orthopedic surgeon reviews a pelvic radiograph of a 5-year-old child showing normal development. The surgeon notes that the three primary bony components of the hip bone are still separated by a distinct Y-shaped cartilaginous zone within the acetabular cavity. What type of joint is this cartilaginous zone classification, and which cells are responsible for its interstitial growth?",
       "options": {
-        "A": "Pulmonary embolism",
-        "B": "Acute pancreatitis",
-        "C": "Aortic dissection",
-        "D": "DKA"
+        "A": "Symphysis; Osteoblasts",
+        "B": "Synchondrosis; Chondrocytes",
+        "C": "Syndesmosis; Fibroblasts",
+        "D": "Gomphosis; Ameloblasts"
       },
-      "correct_answer": "C",
-      "explanation": "Integrated Anatomy concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "The Y-shaped cartilage separating the ilium, ischium, and pubis within the acetabulum is the triradiate cartilage. This is a primary cartilaginous joint, or synchondrosis, where bone segments are united by hyaline cartilage. Interstitial growth within this cartilage is driven strictly by the proliferation and hypertrophy of chondrocytes within their lacunae. Primary cartilaginous joints typically ossify completely (synostosis) by late adolescence or early adulthood."
     },
     {
       "question_id": "TW_ANATOMY_GENERAL_ANAT_Q003",
@@ -62,21 +63,21 @@
       "subject": "Anatomy",
       "topic": "General Anatomy",
       "subtopic": null,
-      "difficulty": "Easy",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A child presents with recurrent respiratory tract infections. Most likely diagnosis?",
+      "question_text": "A 14-year-old boy presents to the clinic with persistent knee pain after a growth spurt. An X-ray reveals a healthy tibial tuberosity developing from a secondary ossification center. Based on the principles of general osteology, what type of bone modification is a tuberosity, and what mechanical influence promotes its structural development?",
       "options": {
-        "A": "Pulmonary embolism",
-        "B": "Acute pancreatitis",
-        "C": "Aortic dissection",
-        "D": "DKA"
+        "A": "Altered vascular supply causing ectopic endochondral bone formation",
+        "B": "Traction epiphysis developing under the influence of tensile pulling forces from a muscle tendon",
+        "C": "Pressure epiphysis developing under compressive forces to transmit systemic weight",
+        "D": "Atavistic bone element representing a phylogenetically lost skeletal appendage"
       },
-      "correct_answer": "C",
-      "explanation": "Integrated Anatomy concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "A traction epiphysis is a secondary ossification center that develops under the mechanical influence of tensile forces, typically exerted by the pulling action of an attached muscle or tendon. The tibial tuberosity is a classic traction epiphysis shaped by the quadriceps femoris traction via the patellar ligament. Inflammation at this site during rapid growth is clinically known as Osgood-Schlatter disease. Pressure epiphyses, on the other hand, form the weight-bearing articular ends of long bones."
     },
     {
       "question_id": "TW_ANATOMY_GENERAL_ANAT_Q004",
@@ -85,21 +86,21 @@
       "subject": "Anatomy",
       "topic": "General Anatomy",
       "subtopic": null,
-      "difficulty": "Easy",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A patient presents with sudden painless loss of vision. Most likely diagnosis?",
+      "question_text": "A 25-year-old male is brought to the emergency department after a high-velocity car crash. Imaging reveals a displaced fracture of the mid-shaft of the clavicle. During anatomical reconstruction, the surgical team discusses the unique developmental features of this bone. Which of the following statements correctly highlights the general osteological characteristics of the clavicle?",
       "options": {
-        "A": "Pulmonary embolism",
-        "B": "Acute pancreatitis",
-        "C": "Aortic dissection",
-        "D": "DKA"
+        "A": "It is the only long bone that develops completely via endochondral ossification within the appendicular skeleton",
+        "B": "It contains a prominent medullary cavity that houses active hematopoietic bone marrow throughout adult life",
+        "C": "It is the first long bone in the body to begin ossification, utilizing intramembranous ossification with two primary centers",
+        "D": "It lacks any secondary ossification centers and ceases longitudinal growth before puberty"
       },
       "correct_answer": "C",
-      "explanation": "Integrated Anatomy concept designed in NEET PG + INI-CET pattern."
+      "explanation": "The clavicle is highly unique in general anatomy. It is the first long bone in the body to begin the process of ossification (during the 5th-6th week of intrauterine life). Unlike almost all other long bones of the extremities, it ossifies primarily via intramembranous ossification from two primary centers, though its sternal end develops a secondary center via endochondral ossification later. It also possesses no true medullary cavity."
     },
     {
       "question_id": "TW_ANATOMY_GENERAL_ANAT_Q005",
@@ -108,21 +109,21 @@
       "subject": "Anatomy",
       "topic": "General Anatomy",
       "subtopic": null,
-      "difficulty": "Easy",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
-      "image_based": true,
+      "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A chronic smoker presents with hemoptysis and weight loss. Most likely organism?",
+      "question_text": "A biopsy specimen of a skeletal muscle is studied under a light microscope. The tissue reveals bundled muscle fibers wrapped together in a dense, well-defined connective tissue sheath containing small intramuscular arterioles and nerves. At a general anatomical and histological level, what is this specific connective tissue sheath called?",
       "options": {
-        "A": "Staphylococcus aureus",
-        "B": "Klebsiella",
-        "C": "Pseudomonas",
-        "D": "E. coli"
+        "A": "Epimysium",
+        "B": "Perimysium",
+        "C": "Endomysium",
+        "D": "Deep Fascia"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Anatomy concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "Skeletal muscle architecture is systematically organized by connective tissue investments. The 'Perimysium' is the dense fibroelastic layer that groups individual muscle fibers into functional bundles or fascicles, and it carries larger blood vessels and nerves. The 'Epimysium' envelopes the entire external boundary of the gross muscle, while the 'Endomysium' is a delicate layer of reticular fibers surrounding each separate muscle cell/fiber."
     },
     {
       "question_id": "TW_ANATOMY_GENERAL_ANAT_Q006",
@@ -131,21 +132,21 @@
       "subject": "Anatomy",
       "topic": "General Anatomy",
       "subtopic": null,
-      "difficulty": "Easy",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A patient presents with sudden painless loss of vision. Underlying mechanism?",
+      "question_text": "A 34-year-old professional weightlifter experiences sudden, sharp pain in his right shoulder while executing a heavy bench press. Evaluation reveals a rupture of the long head of the biceps brachii tendon near its proximal origin. Histological analysis of a tendon specimen would show which predominant tissue arrangement, and what type of cell populates its matrix?",
       "options": {
-        "A": "Autoimmune destruction",
-        "B": "Type I hypersensitivity",
-        "C": "Fat necrosis",
-        "D": "Toxin-mediated injury"
+        "A": "Dense irregular connective tissue; Fibroblasts arranged in random clusters",
+        "B": "Dense regular connective tissue; Fibrocytes (tendon cells) arranged in parallel rows",
+        "C": "Elastic connective tissue; Mast cells embedded within an amorphous ground substance",
+        "D": "Specialized reticular tissue; Histiocytes lining dense vascular networks"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Anatomy concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "Tendons and ligaments are classic examples of dense regular connective tissue. This architectural structure consists of densely packed, thick collagen fibers running strictly parallel to each other, optimized to withstand unidirectional mechanical tensile stress. The cellular population consists almost entirely of inactive fibrocytes (tendon cells) squeezed in linear, parallel rows between the dense collagen bundles."
     },
     {
       "question_id": "TW_ANATOMY_GENERAL_ANAT_Q007",
@@ -154,21 +155,21 @@
       "subject": "Anatomy",
       "topic": "General Anatomy",
       "subtopic": null,
-      "difficulty": "Easy",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A 52-year-old diabetic male presents with fever, hypotension, and tachycardia. Most likely organism?",
+      "question_text": "A 65-year-old chronic smoker presents with worsening hoarseness of voice. An endoscopic laryngeal biopsy is obtained. Histological review of the epiglottis demonstrates a specialized cartilage type characterized by its resistance to calcification and high flexibility. Which type of cartilage forms the structural framework of the epiglottis, and what structural fiber prevents it from easily calcifying?",
       "options": {
-        "A": "Staphylococcus aureus",
-        "B": "Klebsiella",
-        "C": "Pseudomonas",
-        "D": "E. coli"
+        "A": "Hyaline cartilage; Abundant Type II collagen fibers",
+        "B": "Fibrocartilage; Alternating dense parallel tracks of Type I collagen",
+        "C": "Elastic cartilage; Interlocking networks of branching elastic fibers",
+        "D": "Articular cartilage; Concentric rings of dense mineralized matrices"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Anatomy concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "C",
+      "explanation": "The epiglottis, corniculate, cuneiform, and the apices of the arytenoid cartilages are made up of elastic cartilage. This type of cartilage is highly flexible, resilient, and famously does not undergo physiological calcification or ossification with aging, unlike hyaline structures (such as the thyroid and cricoid cartilages). Its matrix is defined by a dense, rich network of branching elastic fibers intermixed with Type II collagen."
     },
     {
       "question_id": "TW_ANATOMY_GENERAL_ANAT_Q008",
@@ -177,13 +178,13 @@
       "subject": "Anatomy",
       "topic": "General Anatomy",
       "subtopic": null,
-      "difficulty": "Easy",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Muscles of mastication: all EXCEPT?",
+      "question_text": "A 45-year-old male presents with severe pain while chewing, localized near his temporomandibular joint. Neurological assessment shows intact generalized sensory distribution across the face, but there is noticeable weakness during jaw clenching. A pathology affecting the muscles of mastication is suspected. Which of the following muscles should be intact because it is NOT a primary muscle of mastication?",
       "options": {
         "A": "Masseter",
         "B": "Temporalis",
@@ -191,7 +192,7 @@
         "D": "Medial pterygoid"
       },
       "correct_answer": "C",
-      "explanation": "Muscles of mastication (CN V3): masseter, temporalis, medial/lateral pterygoid. Buccinator is a muscle of facial expression (CN VII). Buccinator aids chewing but not a muscle of mastication."
+      "explanation": "The primary muscles of mastication are the masseter, temporalis, medial pterygoid, and lateral pterygoid muscles, all of which are embryologically derived from the first pharyngeal arch and are innervated by the mandibular division of the trigeminal nerve ($CN\u0020V_3$)[cite: 4]. The buccinator muscle, although it functionally aids chewing by keeping food pushed between the teeth, is classified as a muscle of facial expression[cite: 4]. It is embryologically derived from the second pharyngeal arch and is innervated by the facial nerve ($CN\u0020VII$)[cite: 4]."
     },
     {
       "question_id": "TW_ANATOMY_GENERAL_ANAT_Q009",
@@ -200,21 +201,21 @@
       "subject": "Anatomy",
       "topic": "General Anatomy",
       "subtopic": null,
-      "difficulty": "Easy",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A chronic smoker presents with hemoptysis and weight loss. Underlying mechanism?",
+      "question_text": "An orthopedic oncology fellow examines a specimen of long bone cortical tissue under a polarizing microscope. She identifies functional structural units consisting of concentric lamellae of bone matrix surrounding a central longitudinal neurovascular canal. What is the precise name of these functional units, and how do adjacent central canals communicate horizontally with each other?",
       "options": {
-        "A": "Autoimmune destruction",
-        "B": "Type I hypersensitivity",
-        "C": "Fat necrosis",
-        "D": "Toxin-mediated injury"
+        "A": "Trabeculae; via canaliculi channels",
+        "B": "Osteons (Haversian systems); via Volkmann's canals",
+        "C": "Lacunae; via periosteal primary perforating cracks",
+        "D": "Sharpey's fibers; via internal endosteal fenestrations"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Anatomy concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "Compact bone is organized into cylindrical structural units called Osteons or Haversian systems. Each osteon features concentric rings of matrix surrounding a central longitudinal Haversian canal containing microscopic blood vessels and nerves. Transverse or horizontal connections that link these longitudinal Haversian canals to each other, to the periosteum, and to the medullary cavity are called Volkmann's (perforating) canals."
     },
     {
       "question_id": "TW_ANATOMY_GENERAL_ANAT_Q010",
@@ -223,21 +224,21 @@
       "subject": "Anatomy",
       "topic": "General Anatomy",
       "subtopic": null,
-      "difficulty": "Easy",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A chronic smoker presents with hemoptysis and weight loss. Best initial investigation?",
+      "question_text": "During a compound fracture repair of the femur, a surgeon notes that the thick fibrous connective tissue layer covering the outer non-articular surface of the bone has been partially stripped away. This layer is crucial for providing attachment to tendons and aiding appositional bone growth. What is this layer, and what is its inner cellular layer called?",
       "options": {
-        "A": "CT angiography",
-        "B": "MRI",
-        "C": "Ultrasound",
-        "D": "ECG"
+        "A": "Endosteum; osteolytic lining",
+        "B": "Periosteum; osteogenic layer",
+        "C": "Perichondrium; fibrous matrix",
+        "D": "Synovium; endothelial layer"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Anatomy concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "The periosteum is a dense fibrous membrane covering the external surfaces of bones except at their articular joints. It has an outer dense fibrous layer and an inner cellular, osteogenic layer. This inner layer contains osteoprogenitor cells that can differentiate into osteoblasts, making it directly responsible for appositional bone growth (growth in thickness) and bone fracture healing."
     },
     {
       "question_id": "TW_ANATOMY_GENERAL_ANAT_Q011",
@@ -246,21 +247,21 @@
       "subject": "Anatomy",
       "topic": "General Anatomy",
       "subtopic": null,
-      "difficulty": "Easy",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A patient presents with altered sensorium, ataxia, and ophthalmoplegia. Underlying mechanism?",
+      "question_text": "An anatomical dissection demonstrates a group of multipolar neuron cell bodies clustered together outside the central nervous system. These neurons receive preganglionic fibers that utilize acetylcholine and project postganglionic axons to smooth muscle targets. What is the structural classification of this group of neuronal cell bodies?",
       "options": {
-        "A": "Autoimmune destruction",
-        "B": "Type I hypersensitivity",
-        "C": "Fat necrosis",
-        "D": "Toxin-mediated injury"
+        "A": "Nucleus in the central nervous system",
+        "B": "Autonomic ganglion",
+        "C": "Dorsal root ganglion",
+        "D": "Somatic motor cortex unit"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Anatomy concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "A collection of neuron cell bodies located outside the Central Nervous System (CNS) is defined as a ganglion. Because these cell bodies receive preganglionic inputs and project to visceral effectors like smooth muscle, it is specifically an autonomic ganglion (sympathetic or parasympathetic). A collection of cell bodies inside the CNS is called a nucleus. Dorsal root ganglia contain pseudounipolar sensory neurons, not multipolar motor neurons."
     },
     {
       "question_id": "TW_ANATOMY_GENERAL_ANAT_Q012",
@@ -269,21 +270,21 @@
       "subject": "Anatomy",
       "topic": "General Anatomy",
       "subtopic": null,
-      "difficulty": "Easy",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A patient develops acute breathlessness after prolonged immobilization. Most likely organism?",
+      "question_text": "A neurosurgeon operates on a peripheral nerve injury and explains to a trainee the structural layers protecting nerve fibers. The layer currently being sutured is a tough, dense outermost connective tissue sheath that surrounds the entire gross peripheral nerve trunk. What is this layer called?",
       "options": {
-        "A": "Staphylococcus aureus",
-        "B": "Klebsiella",
-        "C": "Pseudomonas",
-        "D": "E. coli"
+        "A": "Endoneurium",
+        "B": "Perineurium",
+        "C": "Epineurium",
+        "D": "Myelin sheath"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Anatomy concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "C",
+      "explanation": "Peripheral nerves have three connective tissue coverings. The epineurium is the thick, dense outermost layer that encloses the entire peripheral nerve trunk and cushions it from external trauma. The perineurium is a specialized epithelial-like barrier layer that wraps a group of fibers called a fascicle, providing a blood-nerve barrier. The endoneurium is a delicate layer wrapping each individual microscopic axon."
     },
     {
       "question_id": "TW_ANATOMY_GENERAL_ANAT_Q013",
@@ -292,21 +293,21 @@
       "subject": "Anatomy",
       "topic": "General Anatomy",
       "subtopic": null,
-      "difficulty": "Easy",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Recurrent laryngeal nerve: surgical danger in?",
+      "question_text": "A 52-year-old female presents with an enlarging solitary nodule in the left lobe of her thyroid gland. Fineneedle aspiration confirms papillary thyroid carcinoma, and she undergoes a total thyroidectomy. During isolation of the inferior thyroid artery, the surgical resident must carefully preserve a nerve running in close proximity within the tracheoesophageal groove. Injury to this structural nerve will clinically present as which symptom?",
       "options": {
-        "A": "Lobectomy",
-        "B": "Total thyroidectomy",
-        "C": "Parathyroidectomy",
-        "D": "Parotidectomy"
+        "A": "Complete inability to abduct the vocal cord leading to hoarseness or airway compromise",
+        "B": "Loss of sensory perception from the laryngeal mucosa superior to the vocal folds",
+        "C": "Inability to tense the vocal cords due to paralysis of the cricothyroid muscle",
+        "D": "Inability to depress the hyoid bone during deglutition"
       },
-      "correct_answer": "B",
-      "explanation": "RLN runs in tracheoesophageal groove. At highest risk during total thyroidectomy. Right RLN loops around subclavian artery; Left loops around arch of aorta (longer, more vulnerable in mediastinal surgery)."
+      "correct_answer": "A",
+      "explanation": "The nerve in danger within the tracheoesophageal groove during a total thyroidectomy is the recurrent laryngeal nerve (RLN)[cite: 4]. The RLN supplies intrinsic motor control to all muscles of the larynx except the cricothyroid muscle (supplied by the external laryngeal nerve). Crucially, it supplies the posterior cricoarytenoid muscle, which is the sole abductor of the vocal cords. Unilateral injury leads to hoarseness, while bilateral injury can cause acute airway obstruction due to the vocal cords remaining in an adducted position."
     },
     {
       "question_id": "TW_ANATOMY_GENERAL_ANAT_Q014",
@@ -315,21 +316,21 @@
       "subject": "Anatomy",
       "topic": "General Anatomy",
       "subtopic": null,
-      "difficulty": "Easy",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
-      "image_based": true,
+      "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A chronic alcoholic presents with abdominal pain radiating to the back. Most likely organism?",
+      "question_text": "A histology slide of a blood vessel reveals a prominent, undulating internal elastic lamina separating the tunica intima from the tunica media. The tunica media is thick and contains multiple layers of circularly arranged smooth muscle cells with very little elastic fiber content. What general classification of blood vessel is this?",
       "options": {
-        "A": "Staphylococcus aureus",
-        "B": "Klebsiella",
-        "C": "Pseudomonas",
-        "D": "E. coli"
+        "A": "Large elastic artery",
+        "B": "Medium-sized muscular artery",
+        "C": "Arteriolar resistance vessel",
+        "D": "Large continuous vein"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Anatomy concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "Medium-sized (muscular) arteries are characterized by a highly distinct, scalloped internal elastic lamina and a tunica media dominated entirely by smooth muscle cells rather than elastic sheets. This structure allows them to constrict or dilate to regulate local blood flow. Large elastic arteries (like the aorta) have a tunica media dominated by fenestrated sheets of elastic fibers to dampen systolic pressures."
     },
     {
       "question_id": "TW_ANATOMY_GENERAL_ANAT_Q015",
@@ -338,21 +339,21 @@
       "subject": "Anatomy",
       "topic": "General Anatomy",
       "subtopic": null,
-      "difficulty": "Easy",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A patient develops sudden severe tearing chest pain radiating to the back. Underlying mechanism?",
+      "question_text": "A researcher studies the specialized microvascular endothelium of lymphoid organs under an electron microscope. She observes unique post-capillary venules lined by plump, cuboidal endothelial cells instead of standard simple squamous cells. These specialized venules facilitate the selective extravasation of recirculating lymphocytes into the lymph node cortex. What is the specific structural name of these venules?",
       "options": {
-        "A": "Autoimmune destruction",
-        "B": "Type I hypersensitivity",
-        "C": "Fat necrosis",
-        "D": "Toxin-mediated injury"
+        "A": "Fenestrated sinusoids",
+        "B": "High endothelial venules (HEVs)",
+        "C": "Vasa vasorum channels",
+        "D": "Marginal zone sinuses"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Anatomy concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "High Endothelial Venules (HEVs) are highly specialized post-capillary venules found in secondary lymphoid organs (such as lymph nodes, tonsils, and Peyer's patches, but notably not in the spleen). They are uniquely lined by tall, plump cuboidal endothelial cells that express specific adhesion molecules (addressins), allowing lymphocytes migrating through the blood to slow down and extravasate into the lymphoid tissue."
     },
     {
       "question_id": "TW_ANATOMY_GENERAL_ANAT_Q016",
@@ -361,21 +362,21 @@
       "subject": "Anatomy",
       "topic": "General Anatomy",
       "subtopic": null,
-      "difficulty": "Easy",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A pregnant woman presents with hypertension and proteinuria. Best initial investigation?",
+      "question_text": "During a cross-sectional imaging session of a long bone, an anatomist highlights a region located between the expanded articular end and the elongated central shaft. This specific transitional zone is where active longitudinal growth occurs in a developing child. What is the correct term for this region?",
       "options": {
-        "A": "CT angiography",
-        "B": "MRI",
-        "C": "Ultrasound",
-        "D": "ECG"
+        "A": "Diaphysis",
+        "B": "Epiphysis",
+        "C": "Metaphysis",
+        "D": "Apophysis"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Anatomy concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "C",
+      "explanation": "In long bone structural anatomy, the metaphysis is the transitional zone connecting the diaphysis (shaft) to the epiphysis (articular end). In growing children, the metaphysis contains the epiphyseal growth plate and is a zone of rapid endochondral ossification and bone remodeling. Because it is highly vascularized with hairpin capillary loops, it is also the most common site for hematogenous osteomyelitis seeds in children."
     }
   ]
 }

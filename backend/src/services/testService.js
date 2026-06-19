@@ -1,3 +1,5 @@
+// testService.js ke top mein add karo
+const { invalidateDashboardCache } = require('../controllers/dashboardController');
 const TestSession = require('../models/TestSession');
 const {
   loadFullPaper,
@@ -214,6 +216,7 @@ const submitTest = async (sessionId, userId, allResponses, timeTakenSec) => {
       lastActive: new Date(),
     },
   });
+  invalidateDashboardCache(userId);
 
   return session;
 };
