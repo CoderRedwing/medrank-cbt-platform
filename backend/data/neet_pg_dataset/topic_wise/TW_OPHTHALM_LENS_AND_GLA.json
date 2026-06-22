@@ -3,11 +3,14 @@
   "paper_type": "topic_wise",
   "subject": "Ophthalmology",
   "topic": "Lens and Glaucoma",
-  "total_questions": 3,
+  "total_questions": 10,
   "difficulty_distribution": {
-    "Easy": 3
+    "Easy": 2,
+    "Medium": 2,
+    "Hard": 4,
+    "Very Hard": 2
   },
-  "created_at": "2026-05-30",
+  "created_at": "2026-06-21",
   "questions": [
     {
       "question_id": "TW_OPHTHALM_LENS_AND_GLA_Q001",
@@ -15,22 +18,22 @@
       "paper_ref": "TW_OPHTHALM_LENS_AND_GLA",
       "subject": "Ophthalmology",
       "topic": "Lens and Glaucoma",
-      "subtopic": null,
+      "subtopic": "Glaucoma — Intraocular Pressure & Tonometry",
       "difficulty": "Easy",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Primary open-angle glaucoma: optic disc finding?",
+      "question_text": "A 52-year-old male presents for a routine eye examination. He has no ocular complaints. His best-corrected visual acuity is 6/6 in both eyes. The ophthalmologist measures the intraocular pressure using Goldmann applanation tonometry and records 18 mmHg in the right eye and 19 mmHg in the left. The optic discs are normal on fundoscopy with a cup-to-disc ratio of 0.3 bilaterally. Which of the following best describes the normal range of intraocular pressure and the instrument considered the gold standard for its measurement?",
       "options": {
-        "A": "Papilledema",
-        "B": "Increased cup-to-disc ratio (CDR >0.5)",
-        "C": "Pale disc",
-        "D": "Normal disc"
+        "A": "5–9 mmHg; Schiotz indentation tonometer",
+        "B": "10–21 mmHg; Goldmann applanation tonometer",
+        "C": "22–30 mmHg; non-contact (air-puff) tonometer",
+        "D": "10–21 mmHg; dynamic contour tonometer"
       },
       "correct_answer": "B",
-      "explanation": "POAG: progressive optic neuropathy. CDR >0.5 or asymmetry >0.2 is significant. Superotemporal and inferotemporal RNFL loss first → arcuate scotomas. Gradual, painless, peripheral vision loss."
+      "explanation": "The normal intraocular pressure (IOP) range is 10–21 mmHg (mean ~16 mmHg, SD ~3 mmHg) as measured by Goldmann applanation tonometry (GAT), which is the universally accepted gold standard. GAT is based on the Imbert–Fick law: the force required to flatten a standard area (3.06 mm diameter circle) of the cornea equals the IOP. It is mildly influenced by central corneal thickness (CCT): a thicker cornea falsely elevates readings and a thinner cornea falsely lowers them — hence pachymetry is performed in all glaucoma suspects. Non-contact (air-puff) tonometers are useful for screening but less accurate. Schiotz tonometry measures indentation and is now largely obsolete. 'Ocular hypertension' is defined as IOP >21 mmHg with no glaucomatous optic nerve or visual field damage; it is not synonymous with glaucoma."
     },
     {
       "question_id": "TW_OPHTHALM_LENS_AND_GLA_Q002",
@@ -38,22 +41,22 @@
       "paper_ref": "TW_OPHTHALM_LENS_AND_GLA",
       "subject": "Ophthalmology",
       "topic": "Lens and Glaucoma",
-      "subtopic": null,
+      "subtopic": "Cataract — Metabolic and Systemic Associations",
       "difficulty": "Easy",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Normal intraocular pressure range?",
+      "question_text": "A 3-month-old infant is referred by the neonatologist for an ophthalmology review after newborn metabolic screening returned positive. The infant has poor feeding, jaundice, and hepatomegaly. Slit-lamp examination under sedation reveals a bilateral 'oil-droplet' opacity in the posterior part of the lens. Urine reducing substances are positive (but glucose oxidase strip is negative, ruling out glucose). Which metabolic disorder is most likely, and what is the mechanism of lens opacity formation?",
       "options": {
-        "A": "5-10 mmHg",
-        "B": "10-21 mmHg",
-        "C": "22-30 mmHg",
-        "D": "<5 mmHg"
+        "A": "Diabetes mellitus; sorbitol accumulation via the aldose reductase pathway causing osmotic lens swelling",
+        "B": "Classic galactosemia (GALT deficiency) or galactokinase deficiency; accumulation of galactitol in the lens via aldose reductase causing osmotic damage",
+        "C": "Wilson's disease; copper deposition in the anterior lens capsule forming a sunflower cataract",
+        "D": "Hypocalcemia; posterior subcapsular opacification from calcium–phosphate deposition"
       },
       "correct_answer": "B",
-      "explanation": "Normal IOP: 10-21 mmHg (Goldmann applanation tonometry is gold standard). Ocular hypertension: IOP >21 without glaucomatous damage. Primary open-angle glaucoma: often IOP >21."
+      "explanation": "The oil-droplet (or lamellar/zonular) cataract in a neonate with positive urine reducing substances (non-glucose) is pathognomonic of galactosemia — either classic galactosemia (galactose-1-phosphate uridyltransferase, GALT deficiency) or galactokinase deficiency. Excess galactose is converted by aldose reductase to galactitol, which accumulates within lens fibres, drawing in water osmotically and causing the oil-droplet opacity seen on retroillumination. Treatment is a galactose-free diet; if started very early (within weeks), the cataract may partially reverse. Wilson's disease (hepatolenticular degeneration) causes a sunflower cataract — a greenish-golden anterior lens capsule deposit of copper — best seen on slit-lamp and not visually significant. Hypocalcaemia (hypoparathyroidism, pseudohypoparathyroidism) causes small white punctate or flaky posterior subcapsular opacities. Diabetic cataracts arise from sorbitol accumulation and classically present as bilateral snowflake (anterior and posterior subcapsular) opacities in poorly controlled young diabetics."
     },
     {
       "question_id": "TW_OPHTHALM_LENS_AND_GLA_Q003",
@@ -61,22 +64,203 @@
       "paper_ref": "TW_OPHTHALM_LENS_AND_GLA",
       "subject": "Ophthalmology",
       "topic": "Lens and Glaucoma",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Primary Open-Angle Glaucoma — Optic Disc and Visual Field",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Cataract in galactosemia: morphology?",
+      "question_text": "A 58-year-old male with no ocular symptoms is found on screening to have an IOP of 26 mmHg bilaterally. Goldmann visual field testing shows bilateral arcuate scotomas denser superiorly. Pachymetry reveals central corneal thickness of 510 microns bilaterally. On fundoscopy, both discs show a cup-to-disc ratio of 0.7 with notching of the inferotemporal neuroretinal rim and a splinter haemorrhage at the 7 o'clock position of the right disc. Which statement best describes the earliest and most characteristic visual field defect in primary open-angle glaucoma and the anatomical basis for its location?",
       "options": {
-        "A": "Nuclear cataract",
-        "B": "Oil-droplet cataract (posterior)",
-        "C": "Sunflower cataract",
-        "D": "Christmas tree cataract"
+        "A": "Central scotoma; due to early damage to the papillomacular bundle",
+        "B": "Inferior altitudinal defect; due to occlusion of the superior branch retinal artery",
+        "C": "Bjerrum (arcuate) scotoma in the Bjerrum area (10°–20° from fixation); due to loss of arcuate retinal nerve fibre bundles from the superotemporal and inferotemporal disc poles",
+        "D": "Bitemporal hemianopia; due to chiasmal compression by a pituitary adenoma"
+      },
+      "correct_answer": "C",
+      "explanation": "In primary open-angle glaucoma (POAG), the retinal nerve fibre layer (RNFL) is damaged earliest at the superotemporal and inferotemporal poles of the optic disc (the 'watershed zones' of disc perfusion), where the nerve fibre bundles are thickest and most vulnerable. Loss of these arcuate nerve fibre bundles produces an arcuate (Bjerrum) scotoma in the Bjerrum area — an arc-shaped defect running from the blind spot, arching above or below fixation, to the horizontal nasal raphe. Because the inferotemporal pole is often damaged first, the superior visual field is lost first (producing an inferior arcuate scotoma). Early defects include a nasal step (asymmetric depression across the horizontal meridian in the nasal field) and a paracentral scotoma adjacent to the blind spot. Central vision and the papillomacular bundle are characteristically spared until very late in POAG — the patient is often unaware of severe visual field loss (explaining the 'silent blinder' reputation). The disc haemorrhage (Drance haemorrhage) is an important sign of active glaucomatous damage, particularly in normal-tension glaucoma."
+    },
+    {
+      "question_id": "TW_OPHTHALM_LENS_AND_GLA_Q004",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_OPHTHALM_LENS_AND_GLA",
+      "subject": "Ophthalmology",
+      "topic": "Lens and Glaucoma",
+      "subtopic": "Cataract Surgery — Complications",
+      "difficulty": "Medium",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 65-year-old woman undergoes uneventful right phacoemulsification and in-the-bag IOL implantation for a nuclear sclerotic cataract. On day 1 postoperative review she is comfortable with vision of 6/9. At the 6-week follow-up visit she reports progressive painless blurring of the operated eye. Slit-lamp examination shows a clear cornea and a well-positioned IOL. The posterior capsule appears opacified with a wrinkled, whitish membrane behind the IOL optic. What is this complication, what is its cellular mechanism, and what is the definitive treatment?",
+      "options": {
+        "A": "Anterior capsule contraction syndrome; fibrosis of the anterior capsule remnant; treated with Nd:YAG laser anterior capsulotomy",
+        "B": "Posterior capsule opacification (PCO), also called 'after-cataract' or secondary cataract; migration and proliferation of residual lens epithelial cells (Elschnig pearls) along the posterior capsule; treated with Nd:YAG laser posterior capsulotomy",
+        "C": "Toxic anterior segment syndrome (TASS); toxic inflammatory reaction to surgical irrigants; treated with intensive topical corticosteroids",
+        "D": "IOL dislocation into the vitreous; zonular dehiscence; treated with pars plana vitrectomy and IOL exchange"
       },
       "correct_answer": "B",
-      "explanation": "Galactosemia/galactokinase deficiency: lamellar (zonular) and oil-droplet cataract (posterior). Wilson's disease: sunflower cataract. Hypocalcemia/steroids: posterior subcapsular."
+      "explanation": "Posterior capsule opacification (PCO) — the most common late complication of extracapsular cataract extraction and phacoemulsification — occurs when residual lens epithelial cells (LECs) from the equatorial lens bow (E-cells) migrate posteriorly onto the capsule and undergo fibrous metaplasia or form Elschnig pearls (regenerative bladder cells with a characteristic 'fish-egg' appearance on slit-lamp). The result is a wrinkled, opacified posterior capsule that degrades optical quality, causes glare, and reduces best-corrected acuity. PCO is definitively treated by Nd:YAG laser posterior capsulotomy, which creates a central opening in the opacified membrane — a quick, painless, outpatient procedure. Risks include transient IOP spike (pre-treat with apraclonidine), IOL pitting, and rarely cystoid macular oedema or retinal detachment (especially in high myopes). PCO incidence is reduced by square-edge IOL design (acts as a mechanical barrier to LEC migration) and by thorough cortex removal during surgery."
+    },
+    {
+      "question_id": "TW_OPHTHALM_LENS_AND_GLA_Q005",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_OPHTHALM_LENS_AND_GLA",
+      "subject": "Ophthalmology",
+      "topic": "Lens and Glaucoma",
+      "subtopic": "Acute Primary Angle-Closure Glaucoma",
+      "difficulty": "Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 62-year-old hypermetropic female presents to casualty at 10 PM with sudden onset severe right-sided headache, nausea, vomiting, and blurred vision. She had been watching television in a dimly lit room. On examination, the right eye is acutely red with a rock-hard globe, corneal epithelial oedema giving a 'steamy' appearance, a mid-dilated non-reactive pupil, and a shallow anterior chamber. IOP is 58 mmHg. The fellow eye also has a shallow anterior chamber on oblique flashlight examination. What is the sequence of pathophysiological events leading to this acute presentation, and which topical agent is contraindicated in its initial management?",
+      "options": {
+        "A": "Trabecular meshwork obstruction by pigment granules → secondary open-angle glaucoma; topical beta-blockers are contraindicated",
+        "B": "Pupil block by the lens → peripheral iris bowing anteriorly → mechanical obstruction of the trabecular meshwork by apposition of the peripheral iris → acute IOP rise; topical anticholinergics (mydriatics such as atropine) are contraindicated",
+        "C": "Neovascularisation of the angle by VEGF → fibrovascular membrane occluding the trabecular meshwork → IOP rise; topical prostaglandin analogues are contraindicated",
+        "D": "Suprachoroidal haemorrhage compressing the trabecular meshwork → IOP rise; topical carbonic anhydrase inhibitors are contraindicated"
+      },
+      "correct_answer": "B",
+      "explanation": "This is acute primary angle-closure glaucoma (APACG). The classic predisposing anatomy is a short axial length (hypermetropia), shallow anterior chamber, thick and anteriorly placed lens, and narrow iridocorneal angle. The mechanism is pupil block: aqueous produced by the ciliary body cannot flow freely from the posterior to the anterior chamber through the pupil (blocked between the posterior iris surface and the anterior lens), creating a pressure gradient that bows the peripheral iris anteriorly (iris bombé). This appositional closure of the angle mechanically obstructs the trabecular meshwork, acutely elevating IOP. Dim light/emotional stress → physiological mydriasis reaches the critical mid-dilation range (~4–6 mm) where pupil block is maximal, precipitating the attack. Initial emergency treatment: topical pilocarpine 2% (miotic — pulls iris away from the angle and breaks pupil block), topical timolol, topical apraclonidine, systemic acetazolamide (IV or oral), and IV mannitol if needed. Anticholinergics (atropine, cyclopentolate, tropicamide) cause mydriasis which worsens pupil block and are absolutely contraindicated. Definitive treatment is Nd:YAG laser peripheral iridotomy (or surgical iridectomy), which creates an alternative aqueous pathway bypassing the pupil, equalising the pressure gradient and opening the angle. The fellow eye also requires prophylactic laser iridotomy given its similarly narrow angle."
+    },
+    {
+      "question_id": "TW_OPHTHALM_LENS_AND_GLA_Q006",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_OPHTHALM_LENS_AND_GLA",
+      "subject": "Ophthalmology",
+      "topic": "Lens and Glaucoma",
+      "subtopic": "Glaucoma — Optic Disc Imaging",
+      "difficulty": "Hard",
+      "question_type": "single_best_answer",
+      "image_based": true,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 55-year-old male with a 3-year history of treated primary open-angle glaucoma presents for his annual review. He is on latanoprost 0.005% once nightly to both eyes. His IOP today is 16 mmHg bilaterally. The slit-lamp photograph of the right optic disc (above) is taken with a 90D lens. Based on the disc appearance shown, which single finding most specifically indicates glaucomatous structural damage and carries the highest risk of imminent visual field progression?",
+      "options": {
+        "A": "A cup-to-disc ratio of 0.6, indicating pathological cupping",
+        "B": "A flame-shaped haemorrhage at the inferotemporal disc margin (Drance haemorrhage), indicating active axonal loss",
+        "C": "A pale optic disc, indicating non-glaucomatous optic atrophy",
+        "D": "Peripapillary atrophy (beta zone), indicating chorioretinal degeneration"
+      },
+      "correct_answer": "B",
+      "explanation": "A Drance haemorrhage — a splinter or flame-shaped haemorrhage at the margin of the optic disc, typically at the inferotemporal or superotemporal pole — is the single most specific sign of active glaucomatous axonal loss. It results from rupture of a disc surface capillary as axons are damaged and represents ongoing structural deterioration. Its presence is strongly associated with subsequent localised RNFL loss detectable on OCT and with the development of a new or deepening scotoma in the corresponding area of the visual field (usually within 6–12 months). It is particularly characteristic of normal-tension glaucoma (NTG) but can occur in any form. Because it signifies inadequate IOP control despite an apparently normal IOP reading, its detection should prompt target IOP reassessment and consideration of treatment escalation. A CDR of 0.6 alone is non-specific (large physiological cups exist in large discs). Peripapillary beta-zone atrophy (loss of RPE and choriocapillaris) is a supportive sign of glaucoma but is also seen in myopia and is not specific for active damage.",
+      "is_image_based": true,
+      "image_title": "Fundus Photograph — Right Optic Disc, 90D Slit-Lamp Biomicroscopy",
+      "image_url": "",
+      "key_findings": [
+        "A fundus photograph of the right optic disc taken through a 90D lens showing increased cup-to-disc ratio of approximately 0.7",
+        "A flame-shaped (splinter) haemorrhage is visible at the inferotemporal disc margin between the 6 and 7 o'clock positions",
+        "Notching of the inferotemporal neuroretinal rim with focal loss of the normal 'ISNT rule' configuration (inferior rim thinnest rather than thickest)",
+        "A wedge-shaped RNFL defect is visible in the inferotemporal quadrant as a darker streak extending from the disc margin",
+        "Beta-zone peripapillary atrophy is present temporally"
+      ]
+    },
+    {
+      "question_id": "TW_OPHTHALM_LENS_AND_GLA_Q007",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_OPHTHALM_LENS_AND_GLA",
+      "subject": "Ophthalmology",
+      "topic": "Lens and Glaucoma",
+      "subtopic": "Pseudoexfoliation Glaucoma",
+      "difficulty": "Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 70-year-old male presents for cataract surgery evaluation. He reports gradual, painless visual decline in the left eye over 2 years. IOP is 34 mmHg left eye and 18 mmHg right eye. Slit-lamp examination of the left eye reveals a greyish-white, dandruff-like material deposited on the anterior lens capsule in a characteristic bull's-eye pattern (central disc and peripheral zone with a clear intermediate zone). The same material is seen on the pupil margin and the trabecular meshwork on gonioscopy. The pupils dilate poorly. He also has a nuclear sclerotic cataract left eye. What is the diagnosis, and which TWO surgical complications are substantially increased in this condition compared to routine age-related cataract?",
+      "options": {
+        "A": "Pigment dispersion syndrome; increased risk of suprachoroidal haemorrhage and endophthalmitis",
+        "B": "Pseudoexfoliation syndrome (PXF); increased risk of zonular dialysis/posterior capsule rupture (due to zonular weakness) and vitreous loss during phacoemulsification",
+        "C": "Anterior uveitis with synechiae; increased risk of corneal decompensation and cystoid macular oedema",
+        "D": "Fuchs heterochromic iridocyclitis; increased risk of glaucoma and cataract but no additional surgical risk"
+      },
+      "correct_answer": "B",
+      "explanation": "Pseudoexfoliation syndrome (PXF) is characterised by the production and deposition of an abnormal fibrillar extracellular material (pseudoexfoliative material) derived from abnormal basement membranes of lens epithelium, ciliary epithelium, iris, and trabecular endothelium. It is the most common identifiable cause of secondary open-angle glaucoma worldwide and the most common cause of unilateral glaucoma in the elderly. The classic anterior lens capsule appearance — a central disc + peripheral ring separated by a clear zone scraped by the iris — is pathognomonic. Crucially, PXF material deposits along and within the zonular fibres (zonules of Zinn), causing progressive zonular fragility and weakness. This creates significant intraoperative risks during phacoemulsification: (1) zonular dialysis (partial or complete rupture) during capsulorrhexis or during phacoemulsification, leading to lens or nuclear drop into vitreous; (2) posterior capsule rupture and vitreous prolapse; (3) poor pupillary dilation (due to iris sphincter involvement and posterior synechiae formation) limiting surgical access. Poor mydriasis is managed with iris hooks or Malyugin rings intraoperatively. Postoperatively, IOL decentration and late in-the-bag subluxation (even years after surgery) can occur due to ongoing zonular deterioration. Patients must be counselled preoperatively about the increased risk."
+    },
+    {
+      "question_id": "TW_OPHTHALM_LENS_AND_GLA_Q008",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_OPHTHALM_LENS_AND_GLA",
+      "subject": "Ophthalmology",
+      "topic": "Lens and Glaucoma",
+      "subtopic": "Congenital Glaucoma — Buphthalmos",
+      "difficulty": "Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 4-month-old infant is brought by the parents with complaints of excessive tearing, photophobia, and blepharospasm since birth. On examination under general anaesthesia, the cornea of the right eye measures 13 mm in diameter (normal <10.5 mm at birth, <11.5 mm by 1 year) with corneal clouding. A 'tramline' pattern of linear corneal opacification is visible. IOP under anaesthesia is 30 mmHg. Gonioscopy reveals an absent angle recess with the iris inserting directly into the trabecular meshwork. What is the diagnosis, what are the linear corneal opacities called, and what is the first-line surgical treatment?",
+      "options": {
+        "A": "Congenital rubella syndrome; Descemet membrane folds; treated with antiviral therapy",
+        "B": "Primary congenital (infantile) glaucoma (buphthalmos); Haab's striae (breaks in Descemet's membrane caused by corneal stretching); first-line treatment is surgical — trabeculotomy or goniotomy",
+        "C": "Megalocornea; no pathological significance; no treatment required",
+        "D": "Birth trauma with forceps injury; corneal oedema; treated with hypertonic saline drops"
+      },
+      "correct_answer": "B",
+      "explanation": "Primary congenital glaucoma (PCG) results from maldevelopment of the trabecular meshwork and anterior chamber angle (failure of the Barkan membrane to thin and the angle structures to differentiate normally), causing outflow obstruction and elevated IOP from birth or early infancy. The classic triad of symptoms is epiphora (tearing), photophobia, and blepharospasm — caused by corneal oedema and epithelial bullae. Chronically elevated IOP in the first 3 years of life causes the entire globe to enlarge (buphthalmos — 'ox eye') because the infant sclera is distensible. Corneal diameter >11.5 mm in an infant is pathological. As the cornea stretches, Descemet's membrane develops horizontal or curvilinear breaks called Haab's striae; these are permanent and cause irregular astigmatism and amblyopia. Management is primarily surgical (not medical, unlike adult glaucoma): trabeculotomy (opening the Schlemm's canal into the anterior chamber) or goniotomy (direct incision of the trabecular meshwork under gonioscopic visualisation) are the procedures of choice. Medical treatment with timolol or dorzolamide is a temporising measure only. Early surgery is critical to prevent irreversible amblyopia and optic nerve damage."
+    },
+    {
+      "question_id": "TW_OPHTHALM_LENS_AND_GLA_Q009",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_OPHTHALM_LENS_AND_GLA",
+      "subject": "Ophthalmology",
+      "topic": "Lens and Glaucoma",
+      "subtopic": "Glaucoma Medications — Mechanism and Side Effects",
+      "difficulty": "Very Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 66-year-old male with primary open-angle glaucoma and a target IOP of ≤15 mmHg is currently on latanoprost 0.005% once nightly and dorzolamide 2% twice daily. His IOP remains at 19–20 mmHg despite good compliance confirmed on pharmacy records. His cardiologist has advised against beta-blockers due to a history of severe asthma and second-degree heart block (Mobitz type II). He is a builder and mentions noticing periorbital skin darkening and increased eyelash growth since starting latanoprost. The ophthalmologist considers adding a third agent. Which drug should be added, and through which mechanism does it primarily lower IOP?",
+      "options": {
+        "A": "Brimonidine 0.2% (selective alpha-2 adrenergic agonist); reduces aqueous production and increases uveoscleral outflow",
+        "B": "Timolol 0.5% (non-selective beta-blocker); reduces aqueous production by blocking beta-2 receptors on the ciliary epithelium",
+        "C": "Pilocarpine 2% (muscarinic agonist); reduces uveoscleral outflow by contracting the ciliary muscle",
+        "D": "Apraclonidine 1% (alpha-1 and alpha-2 agonist); long-term IOP reduction by reducing episcleral venous pressure"
+      },
+      "correct_answer": "A",
+      "explanation": "This patient is on maximum tolerated medical therapy excluding beta-blockers (contraindicated by severe asthma — bronchospasm risk, and Mobitz II heart block — risk of complete heart block). The correct addition is brimonidine 0.2%, a highly selective alpha-2 adrenergic agonist that lowers IOP by two complementary mechanisms: (1) reducing aqueous humour production (by decreasing cAMP in the ciliary epithelium, reducing active secretion) and (2) increasing uveoscleral outflow. It is an excellent alternative when beta-blockers are contraindicated. Important side effects include allergic conjunctivitis (in ~25% with prolonged use), fatigue, dry mouth, and — critically — it crosses the blood–brain barrier and can cause profound CNS depression, apnoea, and bradycardia in infants and young children (therefore avoid in children under 5 and nursing mothers). Timolol is contraindicated here. Pilocarpine actually decreases uveoscleral outflow (ciliary muscle contraction tightens the scleral spur, collapsing uveoscleral spaces) and increases conventional trabecular outflow; it causes miosis and brow ache and is poorly tolerated. Apraclonidine (less selective, penetrates the CNS less) is only used short-term (before/after laser procedures) due to rapid tachyphylaxis and high allergy rate; it does not reduce episcleral venous pressure. The cosmetic changes noted on latanoprost (prostaglandin F2α analogue) — periorbital skin hyperpigmentation, hypertrichosis, and increased iris pigmentation — are well-recognised class effects from increased melanogenesis."
+    },
+    {
+      "question_id": "TW_OPHTHALM_LENS_AND_GLA_Q010",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_OPHTHALM_LENS_AND_GLA",
+      "subject": "Ophthalmology",
+      "topic": "Lens and Glaucoma",
+      "subtopic": "Lens Subluxation and Ectopia Lentis",
+      "difficulty": "Very Hard",
+      "question_type": "single_best_answer",
+      "image_based": true,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 16-year-old tall, thin male with an arm span greater than his height and arachnodactyly presents with bilateral reduced visual acuity not correctable by standard spectacles. The slit-lamp photograph above (taken in the undilated state) shows the finding in the right eye. He also has a high-arched palate and pectus excavatum. Echocardiography reveals aortic root dilatation. His urine nitroprusside test is negative. Based on the clinical photograph and the systemic features, what is the most likely diagnosis, in which direction is the lens typically displaced in this condition versus homocystinuria, and what is the most dangerous acute ocular emergency that can arise from this lens position?",
+      "options": {
+        "A": "Homocystinuria; lens displaced inferotemporally; most dangerous complication is retinal detachment",
+        "B": "Marfan syndrome; lens displaced superotemporally (upward and outward); most dangerous acute complication is pupillary block glaucoma from anterior lens dislocation into the pupil or anterior chamber",
+        "C": "Weill–Marchesani syndrome; lens displaced inferiorly (microspherophakia); most dangerous complication is ischaemic optic neuropathy",
+        "D": "Ehlers–Danlos syndrome; lens displaced inferiorly; most dangerous complication is corneal perforation"
+      },
+      "correct_answer": "B",
+      "explanation": "This presentation — Marfanoid habitus (tall, thin, arachnodactyly, pectus excavatum, high-arched palate), aortic root dilatation, and bilateral lens subluxation with a negative urine nitroprusside test (ruling out homocystinuria) — is classic Marfan syndrome, caused by mutations in the FBN1 gene encoding fibrillin-1, which is integral to the structural integrity of zonular fibres. In Marfan syndrome, the lens is classically displaced superotemporally (up and out) due to defective but not absent zonules (differentiating it from Weill–Marchesani); in homocystinuria (defective cystathionine beta-synthase), the lens is displaced inferotemporally (down and in) because zonules are completely disrupted rather than just weakened, and there is an increased risk of thromboembolic events under general anaesthesia. The slit-lamp will show the lens equator and stretched, broken zonular remnants across the pupil. The most dangerous acute complication is pupillary block glaucoma: if the subluxated lens dislocates anteriorly through the pupil into the anterior chamber, it can physically obstruct aqueous outflow, causing a catastrophic acute IOP rise (sometimes >60 mmHg) that constitutes an ophthalmic emergency requiring immediate mydriasis to pull the lens back, followed by positioning (supine), acetazolamide, hyperosmotic agents, and urgent lens extraction (lensectomy) to prevent permanent optic nerve damage. Posterior dislocation into the vitreous is managed conservatively unless it causes uveitis or glaucoma.",
+      "is_image_based": true,
+      "image_title": "Slit-Lamp Photograph — Right Eye, Undilated Pupil",
+      "image_url": "",
+      "key_findings": [
+        "A slit-lamp photograph of the right anterior segment showing a clear crystalline lens that is displaced superotemporally — the lens equator and the edge of the lens are visible across the inferior pupillary margin in the undilated state",
+        "Stretched and partially broken zonular fibres are faintly visible as fine strands across the inferotemporal pupillary zone",
+        "The anterior chamber depth is asymmetric — slightly deeper inferonasally where the lens has moved away",
+        "Iridodonesis (tremulous iris) is suggested by the slit-lamp image with the iris appearing slightly unsupported inferiorly",
+        "The cornea is clear and the posterior segment is not visible in this anterior segment photograph"
+      ]
     }
   ]
 }

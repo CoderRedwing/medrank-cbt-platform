@@ -3,11 +3,14 @@
   "paper_type": "topic_wise",
   "subject": "Ophthalmology",
   "topic": "Retina and Optics",
-  "total_questions": 2,
+  "total_questions": 10,
   "difficulty_distribution": {
-    "Easy": 2
+    "Easy": 2,
+    "Medium": 2,
+    "Hard": 4,
+    "Very Hard": 2
   },
-  "created_at": "2026-05-30",
+  "created_at": "2026-06-21",
   "questions": [
     {
       "question_id": "TW_OPHTHALM_RETINA_AND_O_Q001",
@@ -15,22 +18,22 @@
       "paper_ref": "TW_OPHTHALM_RETINA_AND_O",
       "subject": "Ophthalmology",
       "topic": "Retina and Optics",
-      "subtopic": null,
+      "subtopic": "Diabetic Retinopathy — Classification and First Signs",
       "difficulty": "Easy",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Retinoblastoma: inheritance?",
+      "question_text": "A 48-year-old male with a 12-year history of poorly controlled type 2 diabetes mellitus (HbA1c 9.8%) presents for a routine eye check. He has no visual complaints. Fundoscopy of both eyes reveals scattered tiny red dots at the posterior pole, confirmed on fluorescein angiography to be focal outpouchings from capillary walls that leak fluorescein dye. There are no haemorrhages, hard exudates, cotton wool spots, or new vessels. What are these lesions, why do they form in diabetic retinopathy, and what is the significance of detecting them at this stage?",
       "options": {
-        "A": "X-linked recessive",
-        "B": "Autosomal recessive",
-        "C": "Autosomal dominant (RB1 gene, Knudson's 2-hit)",
-        "D": "Sporadic only"
+        "A": "Dot haemorrhages — ruptured capillaries; indicate severe non-proliferative disease",
+        "B": "Microaneurysms — the earliest clinically detectable lesion of diabetic retinopathy, resulting from selective loss of pericytes (which normally provide structural support to retinal capillaries) causing focal outpouching of the capillary wall; their detection indicates subclinical microvascular damage and mandates tight glycaemic, blood pressure, and lipid control to slow progression",
+        "C": "Hard exudates — lipid and protein leakage from damaged capillaries; indicate clinically significant macular oedema",
+        "D": "Cotton wool spots — nerve fibre layer infarcts from arteriolar occlusion; indicate pre-proliferative disease"
       },
-      "correct_answer": "C",
-      "explanation": "Retinoblastoma: RB1 gene (tumor suppressor, chromosome 13q14). Knudson's 2-hit hypothesis. Hereditary: AD, bilateral, younger. Sporadic: unilateral, older. Leukocoria + strabismus."
+      "correct_answer": "B",
+      "explanation": "Microaneurysms are the earliest ophthalmoscopically detectable lesion of diabetic retinopathy. They result from selective loss of pericytes (the mural cells surrounding retinal capillaries) caused by chronic hyperglycaemia-induced oxidative stress and advanced glycation end-product accumulation. Pericytes normally regulate capillary tone and provide structural support; their loss weakens the capillary wall, allowing focal outpouching (microaneurysms). On fluorescein angiography (FFA), microaneurysms appear as tiny, hyperfluorescent dots that leak dye. On fundoscopy, they appear as tiny red dots, predominantly temporal to the fovea. They precede haemorrhages, exudates, and neovascularisation. The progression of diabetic retinopathy follows: microaneurysms → dot-blot haemorrhages → hard exudates (lipoprotein leakage) → cotton wool spots (nerve fibre layer infarcts, pre-proliferative) → intraretinal microvascular abnormalities (IRMA) → neovascularisation (proliferative DR). Detecting microaneurysms alone indicates mild NPDR — the critical intervention is optimising systemic risk factors (HbA1c target <7%, BP <130/80, statins) and annual retinal review."
     },
     {
       "question_id": "TW_OPHTHALM_RETINA_AND_O_Q002",
@@ -38,22 +41,226 @@
       "paper_ref": "TW_OPHTHALM_RETINA_AND_O",
       "subject": "Ophthalmology",
       "topic": "Retina and Optics",
-      "subtopic": null,
+      "subtopic": "Retinoblastoma — Genetics and Presentation",
       "difficulty": "Easy",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Diabetic retinopathy: first sign?",
+      "question_text": "A 2-year-old male child is brought by his parents after they noticed a white reflex in his right eye in photographs taken with flash. On examination, the red reflex is absent in the right eye and replaced by a white/yellow glow (leukocoria). Dilated fundoscopy under general anaesthesia reveals a white retinal mass with calcification. B-scan ultrasonography confirms intraocular calcification. The left eye is normal. His maternal uncle had bilateral eye tumours as an infant and wears prosthetic eyes. Which genetic mechanism best explains this tumour, and what is the risk to any future siblings of this child?",
       "options": {
-        "A": "Neovascularization",
-        "B": "Microaneurysms",
-        "C": "Hard exudates",
-        "D": "Cotton wool spots"
+        "A": "X-linked recessive inheritance of the TP53 gene; 25% risk to brothers only",
+        "B": "Autosomal dominant inheritance with incomplete penetrance; RB1 tumour suppressor gene on chromosome 13q14; Knudson's two-hit hypothesis — in hereditary cases, the first hit is a germline mutation (inherited) and the second hit is a somatic mutation; risk to siblings is approximately 45% if one parent carries the germline mutation",
+        "C": "Autosomal recessive inheritance; both RB1 alleles must be somatically mutated in the same cell; no hereditary risk to siblings",
+        "D": "Chromosomal aneuploidy (trisomy 13); risk to siblings depends on parental karyotype"
       },
       "correct_answer": "B",
-      "explanation": "DR progression: microaneurysms (earliest) → dot/blot hemorrhages → hard exudates → cotton wool spots (NPDR) → neovascularization (PDR). FFA: leakage from microaneurysms."
+      "explanation": "Retinoblastoma is caused by biallelic inactivation of the RB1 tumour suppressor gene (chromosome 13q14), as explained by Knudson's two-hit hypothesis. In hereditary retinoblastoma (~40% of cases): the first hit is a germline mutation (present in every cell), and a second somatic hit in any retinal cell suffices to cause tumour — hence bilateral, multifocal disease and earlier onset (median age ~12 months). The family history (bilateral disease in the maternal uncle) confirms the germline mutation. In sporadic retinoblastoma (~60%): both hits are somatic, occurring in the same retinal cell — hence typically unilateral, unifocal, and later onset (~24 months). Inheritance of the germline mutation follows autosomal dominant transmission with ~90% penetrance. Siblings of a child with hereditary retinoblastoma have a ~45% risk of carrying the germline mutation. Additional risks in germline carriers: trilateral retinoblastoma (bilateral ocular + pinealoblastoma), and significantly increased risk of second primary malignancies (osteosarcoma, soft tissue sarcomas, melanoma) particularly in the radiation field — hence radiotherapy is avoided where possible. Leukocoria is the commonest presentation; strabismus (from visual loss) is the second commonest."
+    },
+    {
+      "question_id": "TW_OPHTHALM_RETINA_AND_O_Q003",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_OPHTHALM_RETINA_AND_O",
+      "subject": "Ophthalmology",
+      "topic": "Retina and Optics",
+      "subtopic": "Rhegmatogenous Retinal Detachment",
+      "difficulty": "Medium",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 45-year-old high myope (−10 D bilaterally) presents with a 2-day history of sudden onset floaters and flashes of light (photopsia) in the left eye, followed by a 'curtain' or 'shadow' rising from the inferior visual field. Visual acuity is 6/9. Slit-lamp examination with a 3-mirror contact lens reveals a horseshoe-shaped (U-shaped) tear at the superotemporal periphery with subretinal fluid extending to involve the macula. The vitreous shows tobacco dust (Shafer's sign). Which of the following correctly identifies the type of retinal detachment, the mechanism of tear formation, and the appropriate surgical principle?",
+      "options": {
+        "A": "Exudative (secondary) retinal detachment — fluid accumulation from choroidal disease (e.g., VKH, posterior scleritis) without a retinal break; treated with systemic corticosteroids",
+        "B": "Tractional retinal detachment — fibrovascular membrane contraction in proliferative diabetic retinopathy; treated with pars plana vitrectomy",
+        "C": "Rhegmatogenous retinal detachment — posterior vitreous detachment (PVD) exerts traction on areas of vitreoretinal adhesion, tearing the sensory retina (rhegma = break); liquefied vitreous passes through the break into the subretinal space, separating the neurosensory retina from the RPE; surgical principle is to close all retinal breaks (via cryotherapy or laser) and relieve vitreoretinal traction (scleral buckle or vitrectomy with tamponade)",
+        "D": "Combined tractional-rhegmatogenous RD — from proliferative vitreoretinopathy; treated with silicone oil tamponade alone"
+      },
+      "correct_answer": "C",
+      "explanation": "Rhegmatogenous RD (RRD) is the most common type and results from a full-thickness break in the neurosensory retina that allows liquefied vitreous to enter the subretinal space. The mechanism: age-related or myopia-related synchysis (liquefaction) of the vitreous leads to posterior vitreous detachment (PVD). Where vitreoretinal adhesion is abnormally strong (e.g., at the vitreous base, lattice degeneration, meridional folds), the detaching vitreous exerts traction that tears the retina — typically a horseshoe (U-shaped) flap tear, with the apex pointing anteriorly (toward the ora serrata). High myopia, previous cataract surgery, trauma, and lattice degeneration are the major risk factors. Tobacco dust (Shafer's sign) — pigment cells from the RPE in the anterior vitreous — is pathognomonic of a full-thickness retinal break. Photopsia = vitreoretinal traction stimulating photoreceptors; floaters = vitreous haemorrhage or pigment; field defect direction is opposite to the RD location (superior RD → inferior field loss). Macula-off RD is an ophthalmic emergency requiring surgery within 24 hours to preserve central vision. Surgical options: pneumatic retinopexy (gas bubble + laser, for superior breaks), scleral buckle (indents the sclera to close breaks and relieve traction), or pars plana vitrectomy + gas/silicone tamponade. In exudative RD, the subretinal fluid shifts with posture and there is no break."
+    },
+    {
+      "question_id": "TW_OPHTHALM_RETINA_AND_O_Q004",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_OPHTHALM_RETINA_AND_O",
+      "subject": "Ophthalmology",
+      "topic": "Retina and Optics",
+      "subtopic": "Refractive Errors and Optics",
+      "difficulty": "Medium",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 10-year-old child is brought with difficulty seeing the blackboard at school. His mother notes he holds books very close to his face but can read small print easily. On retinoscopy under cycloplegia (to eliminate accommodation), the reflex is 'against movement' in both principal meridians. Subjective refraction shows −3.00 DS in each eye, correcting vision to 6/6. His axial length by A-scan biometry measures 26 mm (normal ~23.5 mm). Which refractive error does this child have, what is the most common structural basis in paediatric cases, and what myopia control intervention has the strongest current evidence?",
+      "options": {
+        "A": "Hypermetropia — the parallel rays focus behind the retina due to a short axial length; corrected with convex (+) lenses; atropine drops are the primary treatment",
+        "B": "Myopia (axial myopia) — parallel rays focus in front of the retina due to an increased axial length (26 mm); corrected with concave (−) lenses; low-dose atropine 0.01% has the strongest evidence for myopia progression control in children",
+        "C": "Astigmatism — unequal curvature of the cornea in different meridians; corrected with cylindrical lenses; orthokeratology is contraindicated",
+        "D": "Presbyopia — reduced amplitude of accommodation from lens sclerosis; corrected with reading (convex) lenses; no myopia control is indicated"
+      },
+      "correct_answer": "B",
+      "explanation": "Myopia (short-sightedness) results from parallel rays of light (from distant objects) focusing anterior to the retina when accommodation is relaxed. Axial myopia (the most common form in children) is caused by an increased axial length of the globe — here 26 mm versus the normal ~23.5 mm. Each 1 mm increase in axial length corresponds to approximately −3 D of myopia. On retinoscopy, the 'against movement' reflex confirms myopia; under cycloplegia (paralysing accommodation with cyclopentolate or atropine), the full refractive error is revealed. Concave (minus, diverging) lenses move the focal point back onto the retina. Myopia progression in children is a major concern due to the increased lifetime risk of sight-threatening complications (retinal detachment, myopic maculopathy, glaucoma, cataract) with high myopia (>−6 D or axial length >26 mm). Myopia control strategies: low-dose atropine 0.01%/night (strongest pharmacological evidence, reduces progression ~50–60%); orthokeratology (overnight rigid contact lenses that flatten the cornea); multifocal contact lenses/spectacles. Increased outdoor time (≥2 hours/day) is the most evidence-based preventive measure for myopia onset. The 'against movement' reflex in retinoscopy = myopia; 'with movement' = hypermetropia."
+    },
+    {
+      "question_id": "TW_OPHTHALM_RETINA_AND_O_Q005",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_OPHTHALM_RETINA_AND_O",
+      "subject": "Ophthalmology",
+      "topic": "Retina and Optics",
+      "subtopic": "Age-Related Macular Degeneration — Wet vs Dry",
+      "difficulty": "Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 74-year-old female with a history of smoking presents with a 2-week history of sudden deterioration in central vision in the right eye and distortion of straight lines (metamorphopsia) when reading. She has had soft drusen and pigment irregularity in both maculae for 3 years. Amsler grid testing shows wavy, distorted lines in the central 10 degrees. Fundoscopy of the right eye reveals a greyish-green subretinal membrane with surrounding subretinal fluid and a small subretinal haemorrhage at the macula. OCT macula shows a hyperreflective lesion beneath the RPE and neurosensory retina with overlying intraretinal and subretinal fluid. What is the diagnosis, what is the pathological vessel responsible, and what is the current first-line treatment?",
+      "options": {
+        "A": "Dry AMD with geographic atrophy — RPE and photoreceptor atrophy; treated with AREDS2 vitamin supplementation",
+        "B": "Wet (neovascular) AMD — choroidal neovascularisation (CNV) from breaks in Bruch's membrane allows new vessels from the choriocapillaris to grow under the RPE and neurosensory retina; these vessels leak fluid causing metamorphopsia and haemorrhage; first-line treatment is intravitreal anti-VEGF therapy (ranibizumab, bevacizumab, or aflibercept)",
+        "C": "Central serous chorioretinopathy — focal RPE leak causing a serous neurosensory detachment; treated with observation or photodynamic therapy with verteporfin",
+        "D": "Diabetic macular oedema — cystoid intraretinal oedema from diabetic microangiopathy; treated with intravitreal anti-VEGF or laser"
+      },
+      "correct_answer": "B",
+      "explanation": "Wet (exudative/neovascular) AMD is characterised by choroidal neovascularisation (CNV): new blood vessels from the choriocapillaris penetrate through defects in Bruch's membrane and grow beneath the RPE (Type 1 CNV, occult) or between the RPE and the neurosensory retina (Type 2 CNV, classic). These immature vessels leak plasma proteins and blood, causing subretinal fluid, intraretinal oedema, RPE detachment, and subretinal haemorrhage — all producing metamorphopsia and rapid central vision loss. OCT is the key diagnostic tool: it identifies the CNV membrane as a hyperreflective fibrovascular lesion, with associated fluid compartments. Wet AMD accounts for ~10% of AMD cases but 90% of severe vision loss from AMD. Risk factors: age, smoking (doubles risk), drusen burden, family history, CFH/ARMS2 gene variants. First-line treatment is intravitreal anti-VEGF injections (ranibizumab/Lucentis, bevacizumab/Avastin, aflibercept/Eylea, faricimab/Vabysmo) — monthly loading doses followed by a treat-and-extend regimen. Anti-VEGF arrests but rarely reverses CNV, halting progression in ~90% and improving vision in ~30%. Dry AMD (geographic atrophy) has no proven curative treatment; AREDS2 supplements (vitamins C, E, zinc, copper, lutein, zeaxanthin) reduce risk of progression from intermediate to advanced AMD."
+    },
+    {
+      "question_id": "TW_OPHTHALM_RETINA_AND_O_Q006",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_OPHTHALM_RETINA_AND_O",
+      "subject": "Ophthalmology",
+      "topic": "Retina and Optics",
+      "subtopic": "Central Retinal Artery Occlusion",
+      "difficulty": "Hard",
+      "question_type": "single_best_answer",
+      "image_based": true,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 65-year-old male with known atrial fibrillation and hypertension presents with sudden, painless, complete loss of vision in the left eye that began 90 minutes ago. Visual acuity is hand movements. There is a left relative afferent pupillary defect. The fundus photograph above is taken at presentation. What is the diagnosis, what is the pathognomonic fundal finding visible in the image, and what is the critical systemic investigation that must be performed urgently given the risk to the patient's life?",
+      "options": {
+        "A": "Central retinal vein occlusion; tortuous, dilated veins with flame haemorrhages in all four quadrants ('stormy sunset'); urgent carotid Doppler",
+        "B": "Central retinal artery occlusion (CRAO); diffuse retinal whitening (oedema from ischaemia) with a cherry-red spot at the fovea (where the thin retina allows the underlying choroidal circulation to show through); urgent cardio-embolic workup — ECG, echocardiogram, carotid Doppler — as CRAO is a 'brain attack equivalent' with ~10–15% risk of stroke within 7 days",
+        "C": "Anterior ischaemic optic neuropathy; pale swollen optic disc with splinter haemorrhages; urgent ESR and CRP for giant cell arteritis",
+        "D": "Vitreous haemorrhage; loss of red reflex with normal fundal view obscured; urgent B-scan ultrasound"
+      },
+      "correct_answer": "B",
+      "explanation": "Central retinal artery occlusion (CRAO) presents with sudden, complete, painless monocular visual loss (the most acute onset of any ophthalmic emergency), a dense RAPD, and the pathognomonic fundal picture: (1) diffuse retinal pallor/whitening from inner retinal ischaemia/oedema (the central retinal artery supplies the inner 2/3 of the retina) and (2) a cherry-red spot at the fovea — the foveola has only a single layer of ganglion cells and receives most of its nutrition from the underlying choriocapillaris (supplied by the posterior ciliary arteries, unaffected by CRA occlusion), allowing the normal orange-red choroidal reflex to contrast against the surrounding ischaemic white retina. The most common cause is thromboembolism (carotid atherosclerosis, cardiac emboli — AF being a major source). Ocular massage, anterior chamber paracentesis, hyperventilation (CO2 vasodilatation), and high-flow oxygen are temporising measures but have minimal proven benefit beyond 90–100 minutes (the inner retina tolerates ~100 minutes of ischaemia). CRAO is now classified as a 'TIA equivalent' — ~10–15% of patients suffer an ischaemic stroke within 7 days. Urgent neurovascular assessment (non-contrast CT head, CT angiography, carotid Doppler, ECG, echocardiogram, FBC, ESR, CRP) should be initiated in a stroke unit setting. If giant cell arteritis is suspected (age >50, headache, jaw claudication, ESR elevation), high-dose steroids must be started immediately.",
+      "is_image_based": true,
+      "image_title": "Fundus Photograph — Left Eye, Colour Fundus Photography",
+      "image_url": "",
+      "key_findings": [
+        "A colour fundus photograph of the left eye showing generalised retinal whitening (opacification) at the posterior pole due to inner retinal oedema",
+        "A cherry-red spot is visible at the fovea — a bright orange-red circular area contrasting sharply against the surrounding white ischaemic retina",
+        "The optic disc appears slightly pale with indistinct margins",
+        "The retinal arterioles appear attenuated (thread-like, narrowed) with 'cattle-trucking' (segmented blood column) visible in some arterioles",
+        "The retinal veins appear relatively normal in calibre, without haemorrhages or tortuosity"
+      ]
+    },
+    {
+      "question_id": "TW_OPHTHALM_RETINA_AND_O_Q007",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_OPHTHALM_RETINA_AND_O",
+      "subject": "Ophthalmology",
+      "topic": "Retina and Optics",
+      "subtopic": "Proliferative Diabetic Retinopathy — High-Risk Characteristics",
+      "difficulty": "Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 38-year-old male with type 1 diabetes for 22 years presents with a 1-week history of sudden visual loss in the left eye. Visual acuity is 6/6 right eye and counting fingers left eye. Fundoscopy of the left eye is obscured by a dense vitreous haemorrhage. B-scan ultrasonography shows a vitreous haemorrhage with an attached retina. The right eye shows neovascularisation at the disc (NVD) occupying one-third of the disc area. What is the staging of the right eye, which feature makes it a 'high-risk characteristic' according to the Diabetic Retinopathy Study (DRS), and what is the first-line treatment for the right eye?",
+      "options": {
+        "A": "Severe non-proliferative diabetic retinopathy; the presence of NVD does not alone constitute high risk; observe with 3-monthly review",
+        "B": "Proliferative diabetic retinopathy (PDR) with high-risk characteristics (HRC) — defined as NVD ≥ one-quarter to one-third disc area, or any NVD with vitreous/preretinal haemorrhage, or NVE ≥ half disc area with vitreous/preretinal haemorrhage; first-line treatment is panretinal photocoagulation (PRP) or intravitreal anti-VEGF (ranibizumab)",
+        "C": "Advanced diabetic eye disease — tractional retinal detachment involving the macula; immediate pars plana vitrectomy",
+        "D": "Moderate NPDR; hard exudates at the macula are the high-risk characteristic; focal laser photocoagulation to the macula"
+      },
+      "correct_answer": "B",
+      "explanation": "Proliferative diabetic retinopathy (PDR) is defined by the presence of neovascularisation — new vessels on the disc (NVD) or elsewhere on the retina (NVE) — arising in response to retinal ischaemia-driven VEGF secretion. The Diabetic Retinopathy Study (DRS) defined High-Risk Characteristics (HRC) that confer a >50% risk of severe visual loss within 2 years without treatment: (1) NVD ≥ ¼–⅓ disc area in size; (2) any NVD with vitreous or preretinal haemorrhage; (3) NVE ≥ ½ disc area with vitreous or preretinal haemorrhage. This patient's right eye has NVD of one-third disc area — meeting HRC criterion 1. The left eye has PDR complicated by vitreous haemorrhage. First-line treatment for PDR with HRC: panretinal photocoagulation (PRP) — 1200–1600 laser burns to the peripheral retina to ablate ischaemic retina and reduce VEGF drive, causing regression of neovascularisation. The DRCR.net Protocol S trial showed intravitreal ranibizumab is non-inferior to PRP and better preserves peripheral visual field and reduces vitrectomy rate; anti-VEGF is now an alternative first-line for PDR with HRC. For the left eye with dense vitreous haemorrhage and no clearing after 4–6 weeks, pars plana vitrectomy (PPV) is indicated — this allows simultaneous treatment of any underlying tractional detachment, endolaser PRP, and clearing of haemorrhage."
+    },
+    {
+      "question_id": "TW_OPHTHALM_RETINA_AND_O_Q008",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_OPHTHALM_RETINA_AND_O",
+      "subject": "Ophthalmology",
+      "topic": "Retina and Optics",
+      "subtopic": "Retinitis Pigmentosa",
+      "difficulty": "Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 25-year-old male presents with a 5-year progressive history of difficulty seeing at night (nyctalopia) and narrowing of his peripheral vision. He reports his father and one sibling have similar problems. Visual acuity is 6/12 bilaterally. Visual field testing shows bilateral concentric constriction (tunnel vision). Fundoscopy reveals waxy pallor of the optic discs, attenuated retinal arterioles, and a classical pigmentary change in the mid-peripheral retina. ERG (electroretinogram) is markedly subnormal/extinguished. Which cells are primarily affected first in this condition, which pigmentary pattern is classically described, and which systemic syndrome must be excluded due to its life-threatening cardiac complication?",
+      "options": {
+        "A": "Cone photoreceptors primarily; bull's-eye maculopathy pattern; Bardet-Biedl syndrome",
+        "B": "Rod photoreceptors primarily (causing nyctalopia and peripheral field loss first); bone spicule pigmentation in the mid-peripheral retina (pigment from damaged RPE migrates along retinal vessels); Usher syndrome must be excluded; also exclude Kearns-Sayre syndrome (mitochondrial inheritance, associated with complete heart block — potentially fatal)",
+        "C": "Retinal pigment epithelium (RPE) exclusively; drusen pattern at the macula; Refsum disease",
+        "D": "Retinal ganglion cells primarily; optic atrophy pattern; Leber hereditary optic neuropathy"
+      },
+      "correct_answer": "B",
+      "explanation": "Retinitis pigmentosa (RP) is a heterogeneous group of inherited dystrophies characterised by progressive degeneration of photoreceptors, beginning with rod photoreceptors (causing nyctalopia — night blindness — and peripheral visual field constriction as the earliest symptoms) and later involving cones (causing central visual loss). The pathognomonic fundal triad is: (1) waxy disc pallor, (2) attenuated retinal arterioles, and (3) bone-spicule pigmentation (RPE cells migrate perivascularly into the inner retina, forming the characteristic spicular deposits) in the mid-peripheral retina. ERG is the most sensitive test — rod responses are extinguished early. Inheritance: autosomal dominant (most common, RHODOPSIN mutation most frequent), autosomal recessive (ABCA4, RPE65), X-linked (RPGR — most severe). Systemic associations critical to identify: Usher syndrome (AR, RP + congenital sensorineural deafness — most common cause of deaf-blindness, must refer for audiological assessment); Kearns-Sayre syndrome (mitochondrial, RP-like pigmentary retinopathy + progressive external ophthalmoplegia + complete heart block — potentially fatal, requires cardiac monitoring and pacemaker); Refsum disease (AR, phytanic acid storage, RP + cerebellar ataxia + polyneuropathy — treated with phytanic acid-restricted diet); Bardet-Biedl syndrome (RP + obesity + polydactyly + renal anomalies + cognitive impairment + hypogonadism). Management: vitamin A palmitate (15,000 IU/day) may slow progression; genetic counselling; low vision aids; gene therapy trials."
+    },
+    {
+      "question_id": "TW_OPHTHALM_RETINA_AND_O_Q009",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_OPHTHALM_RETINA_AND_O",
+      "subject": "Ophthalmology",
+      "topic": "Retina and Optics",
+      "subtopic": "Optical Principles — Prisms and Lenses",
+      "difficulty": "Very Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 6-year-old child with a right convergent squint (esotropia) of 20 prism dioptres is being assessed for optical treatment. He has a cycloplegic refraction of +4.00 DS right eye and +4.25 DS left eye. His squint reduces from 20 to 4 prism dioptres on wearing his full hypermetropic correction. The residual 4-PD squint persists equally for distance and near. Which of the following correctly describes the optics of a prism, how spectacle correction of hypermetropia reduces the squint, and why the residual 4-PD deviation requires surgical correction rather than further optical treatment?",
+      "options": {
+        "A": "A prism deviates light toward its apex; hypermetropic spectacles increase accommodative demand; the residual squint is due to uncorrected astigmatism requiring cylindrical lens correction",
+        "B": "A prism deviates light toward its base, and the image perceived by the eye is displaced toward the apex; the full hypermetropic correction eliminates the excess accommodative convergence driving the esotropia (fully accommodative esotropia), reducing the deviation; the residual 4-PD non-accommodative component has a structural/muscle imbalance aetiology that does not respond to optical treatment and requires surgical correction (medial rectus recession ± lateral rectus resection)",
+        "C": "A prism deviates light toward its base; hypermetropic correction decreases convergence by reducing the AC/A ratio; residual squint is treated with bifocal spectacles with a high add",
+        "D": "A prism deviates light toward its apex; hypermetropic correction relaxes accommodation and therefore all convergence; any residual squint after full optical correction is due to poor compliance with spectacle wear"
+      },
+      "correct_answer": "B",
+      "explanation": "Prism optics: a prism bends (refracts) light toward its BASE; the eye perceives the image displaced toward the APEX. This is used therapeutically — a prism placed base-out in front of an esotropic eye displaces the image nasally, helping to align the visual axes and eliminate diplopia, or used diagnostically in the prism cover test. Accommodative esotropia: in a hypermetrope, the eye must accommodate to clear blurred images; accommodation is neurally linked to convergence (the AC/A ratio — accommodative convergence per dioptre of accommodation). Excessive AC drives esotropia. Full optical correction of the hypermetropia with convex lenses provides the focusing that was previously requiring accommodation, thus eliminating the accommodative convergence drive. If the squint is fully accommodative, full spectacle correction normalises alignment. Partially accommodative esotropia (as here): after full optical correction, a residual non-accommodative deviation persists — this represents a structural muscle imbalance (or a congenital component) that is refractory to any optical treatment. Surgical correction is required: medial rectus recession (weakening) ± lateral rectus resection (strengthening) to align the eyes. High-add bifocals (e.g., +3.00 add) are used when there is a high AC/A ratio causing a convergence excess pattern (esotropia worse for near than distance), reducing the near deviation by decreasing the near accommodative demand — not applicable to a uniform residual deviation."
+    },
+    {
+      "question_id": "TW_OPHTHALM_RETINA_AND_O_Q010",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_OPHTHALM_RETINA_AND_O",
+      "subject": "Ophthalmology",
+      "topic": "Retina and Optics",
+      "subtopic": "Retinoblastoma — Staging and Management",
+      "difficulty": "Very Hard",
+      "question_type": "single_best_answer",
+      "image_based": true,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 20-month-old female is referred with leukocoria in the right eye. Examination under anaesthesia and the RetCam fundus image above confirm the diagnosis. MRI orbit and brain shows a large intraocular mass filling the right globe with no evidence of optic nerve extension beyond the lamina cribrosa, choroidal invasion <3mm, no extraocular extension, and no intracranial disease. The left eye shows two small tumour seeds <3mm each confined entirely posterior to the equator, away from the disc and fovea. Based on the International Classification of Retinoblastoma (ICRB), how would you classify each eye, and what is the appropriate management strategy for each?",
+      "options": {
+        "A": "Right eye: Group E; Left eye: Group A — Right eye: external beam radiotherapy; Left eye: cryotherapy alone",
+        "B": "Right eye: Group D or E (large tumour with possible vitreous/subretinal seeding); Left eye: Group A (discrete tumours ≤3mm, no seeds, posterior to equator) — Right eye: primary enucleation (given large tumour and risk of optic nerve involvement despite imaging); Left eye: focal therapy (laser photocoagulation or cryotherapy) without systemic chemotherapy given Group A classification",
+        "C": "Right eye: Group A; Left eye: Group E — Right eye: intra-arterial chemotherapy; Left eye: enucleation",
+        "D": "Both eyes: Group C — bilateral intra-arterial ophthalmic artery chemotherapy (IAC) with melphalan"
+      },
+      "correct_answer": "B",
+      "explanation": "The International Classification of Retinoblastoma (ICRB) stratifies eyes by likelihood of globe salvage: Group A (smallest risk) — discrete tumours ≤3mm, no seeds, posterior to equator; Group B — larger discrete tumours >3mm or any anterior to equator, or macular/peripapillary location, or subretinal fluid <5mm, no seeds; Group C — local seeds (subretinal or vitreous) <3mm from tumour; Group D — diffuse seeds (>3mm from tumour, or >3 clock hours subretinal seeds); Group E (highest risk) — large tumour (>50% globe volume), rubeosis, neovascular glaucoma, vitreous or subretinal haemorrhage, or anterior segment involvement. Right eye: a large mass filling the globe with concern for extensive involvement → Group D or E. Despite no imaging evidence of optic nerve or extraocular extension, the size of the tumour and potential for microscopic seeding makes primary enucleation the safest option — it provides histopathological staging (identifying high-risk features: choroidal invasion >3mm, post-laminar optic nerve involvement, scleral extension — which mandate adjuvant chemotherapy). Left eye: two discrete tumours ≤3mm posterior to the equator with no seeds → Group A — managed with focal therapy only (diode laser photocoagulation for small posterior tumours <1.5mm thick; cryotherapy for peripheral tumours), with no systemic chemotherapy required. Intra-arterial chemotherapy (IAC, ophthalmic artery infusion with melphalan) is used for Groups B–D eyes to avoid enucleation. External beam radiotherapy is largely abandoned in children due to the risk of secondary malignancies in RB1 germline carriers.",
+      "is_image_based": true,
+      "image_title": "RetCam Fundus Image — Right Eye Under Examination Under Anaesthesia",
+      "image_url": "",
+      "key_findings": [
+        "A wide-field RetCam fundus photograph of the right eye showing a large, white, calcified intraocular mass arising from the retina occupying a significant portion of the vitreous cavity",
+        "The tumour surface is irregular with areas of chalky white calcification interspersed with necrotic-appearing yellowish areas",
+        "Vitreous seeding — small white tumour deposits scattered in the vitreous cavity adjacent to the main mass — are visible",
+        "The optic disc is partially obscured by the mass but the tumour does not appear to be directly arising from the disc",
+        "The surrounding retina shows extensive detachment with the retina draped over the inferior tumour margin"
+      ]
     }
   ]
 }

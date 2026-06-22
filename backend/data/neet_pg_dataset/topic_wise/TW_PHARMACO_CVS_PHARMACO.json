@@ -5,7 +5,10 @@
   "topic": "CVS Pharmacology",
   "total_questions": 23,
   "difficulty_distribution": {
-    "Easy": 23
+    "Easy": 4,
+    "Medium": 6,
+    "Hard": 9,
+    "Very Hard": 4
   },
   "created_at": "2026-05-30",
   "questions": [
@@ -15,22 +18,22 @@
       "paper_ref": "TW_PHARMACO_CVS_PHARMACO",
       "subject": "Pharmacology",
       "topic": "General Pharmacology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Pharmacodynamics",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Competitive antagonist effect on dose-response curve?",
+      "question_text": "A pharmacologist is studying a new antihypertensive drug. When the concentration of a known competitive antagonist is doubled, an 8-fold higher dose of the agonist is required to achieve the same submaximal effect. However, with sufficient agonist concentration, the original maximum response is still achievable. Which of the following best describes the change observed in the dose-response curve of the agonist?",
       "options": {
-        "A": "Shifts left, no change in Emax",
-        "B": "Shifts right, no change in Emax",
-        "C": "Shifts right, reduces Emax",
-        "D": "Reduces Emax only"
+        "A": "Rightward shift with reduced Emax",
+        "B": "Leftward shift with unchanged Emax",
+        "C": "Rightward shift with unchanged Emax",
+        "D": "Reduced Emax with no shift in EC50"
       },
-      "correct_answer": "B",
-      "explanation": "Competitive antagonist: shifts DRC to RIGHT (increased EC50/reduced potency) but Emax UNCHANGED (can be overcome by increasing agonist dose). Irreversible: reduces Emax."
+      "correct_answer": "C",
+      "explanation": "A competitive antagonist competes reversibly with the agonist at the same receptor binding site. Increasing agonist concentration can overcome this blockade, so Emax remains UNCHANGED. The EC50 increases (reduced potency), causing a RIGHTWARD parallel shift of the dose-response curve. The degree of shift depends on antagonist concentration (quantified by Schild equation: DR = 1 + [B]/KB). Option A describes an irreversible (non-competitive) antagonist. Option B (leftward shift) describes a sensitizing agent or partial agonist in some contexts. Option D describes non-competitive antagonism. EXAM PEARL: Competitive antagonist = rightward shift, Emax unchanged. Non-competitive = Emax reduced, EC50 may be unchanged."
     },
     {
       "question_id": "TW_PHARMACO_CVS_PHARMACO_Q002",
@@ -38,22 +41,22 @@
       "paper_ref": "TW_PHARMACO_CVS_PHARMACO",
       "subject": "Pharmacology",
       "topic": "General Pharmacology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Drug Toxicity",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A chronic smoker presents with hemoptysis and weight loss. Underlying mechanism?",
+      "question_text": "A 58-year-old hypertensive male on long-term antihypertensive therapy presents with bilateral pedal edema, headache, and flushing. His ECG shows sinus bradycardia (HR 48/min). He is also on metoprolol. Which antihypertensive drug combination is most likely responsible for the bradycardia in this patient?",
       "options": {
-        "A": "Autoimmune destruction",
-        "B": "Type I hypersensitivity",
-        "C": "Fat necrosis",
-        "D": "Toxin-mediated injury"
+        "A": "Amlodipine + Metoprolol",
+        "B": "Verapamil + Metoprolol",
+        "C": "Hydralazine + Metoprolol",
+        "D": "Losartan + Metoprolol"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Pharmacology concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "Verapamil is a non-dihydropyridine calcium channel blocker (CCB) that acts on both cardiac L-type calcium channels and vascular smooth muscle. It has significant negative chronotropic and dromotropic effects. When combined with a beta-blocker like metoprolol, there is additive/synergistic suppression of SA node automaticity and AV conduction, risking severe bradycardia, heart block, and even asystole. This combination is CONTRAINDICATED. Option A (Amlodipine): dihydropyridine CCB — acts predominantly on vascular smooth muscle; minimal cardiac conduction effect; causes reflex tachycardia, not bradycardia. Option C (Hydralazine): direct vasodilator, causes reflex tachycardia — beta-blocker co-administration is actually therapeutic. Option D (Losartan): ARB — no cardiac conduction effects. EXAM PEARL: Verapamil/Diltiazem + Beta-blocker = dangerous bradycardia. Amlodipine + Beta-blocker = safe combination."
     },
     {
       "question_id": "TW_PHARMACO_CVS_PHARMACO_Q003",
@@ -61,22 +64,22 @@
       "paper_ref": "TW_PHARMACO_CVS_PHARMACO",
       "subject": "Pharmacology",
       "topic": "General Pharmacology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Pharmacodynamics",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A 52-year-old diabetic male presents with fever, hypotension, and tachycardia. Underlying mechanism?",
+      "question_text": "A 60-year-old male with type 2 diabetes and CKD stage 3 is started on an antihypertensive drug. Two weeks later, he develops hyperkalemia (serum K+ 6.2 mEq/L) and a rise in serum creatinine by 30%. Which drug is most likely responsible, and what is the mechanism?",
       "options": {
-        "A": "Autoimmune destruction",
-        "B": "Type I hypersensitivity",
-        "C": "Fat necrosis",
-        "D": "Toxin-mediated injury"
+        "A": "Amlodipine — inhibits aldosterone release",
+        "B": "Metoprolol — reduces renal blood flow via beta-1 blockade",
+        "C": "Ramipril — reduces angiotensin II-mediated efferent arteriolar constriction",
+        "D": "Hydrochlorothiazide — causes tubular potassium retention"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Pharmacology concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "C",
+      "explanation": "ACE inhibitors (e.g., Ramipril) block conversion of angiotensin I to angiotensin II. Angiotensin II normally constricts the efferent arteriole to maintain GFR in states of reduced renal perfusion (as seen in CKD). By blocking this, ACE inhibitors reduce efferent arteriolar tone → fall in intraglomerular pressure → decreased GFR → rise in creatinine. They also reduce aldosterone → K+ retention → hyperkalemia. A rise in creatinine up to 30% is acceptable; >30% warrants drug discontinuation. Option A: Amlodipine — does not affect K+ or creatinine significantly. Option B: Metoprolol — may slightly reduce renin but does not cause hyperkalemia or significant creatinine rise. Option D: Hydrochlorothiazide — causes hypokalemia (wasting), not retention. EXAM PEARL: ACE inhibitors are renoprotective in diabetic nephropathy but must be used cautiously in bilateral renal artery stenosis (can precipitate acute renal failure)."
     },
     {
       "question_id": "TW_PHARMACO_CVS_PHARMACO_Q004",
@@ -84,22 +87,22 @@
       "paper_ref": "TW_PHARMACO_CVS_PHARMACO",
       "subject": "Pharmacology",
       "topic": "General Pharmacology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Clinical Pharmacology",
+      "difficulty": "Very Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A patient presents with altered sensorium, ataxia, and ophthalmoplegia. Best initial investigation?",
+      "question_text": "A 45-year-old male presents with sudden onset severe tearing chest pain radiating to the back, unequal blood pressures in both arms (right arm 180/100 mmHg, left arm 110/70 mmHg), and a widened mediastinum on chest X-ray. He is started on IV labetalol. Which of the following best explains why beta-blockade must be initiated BEFORE vasodilators in this condition?",
       "options": {
-        "A": "CT angiography",
-        "B": "MRI",
-        "C": "Ultrasound",
-        "D": "ECG"
+        "A": "Beta-blockers directly repair the intimal tear by reducing inflammation",
+        "B": "Vasodilators given first cause reflex tachycardia, increasing aortic wall shear stress (dP/dt), worsening dissection",
+        "C": "Beta-blockers increase diastolic filling time, reducing aortic root pressure",
+        "D": "Vasodilators cause vasoconstriction of vasa vasorum, worsening ischemia of aortic wall"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Pharmacology concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "This is a classic presentation of Type A Aortic Dissection. The key pharmacological principle in aortic dissection management is: REDUCE dP/dt (rate of rise of aortic pressure) to prevent propagation. If vasodilators (e.g., sodium nitroprusside) are given first without beta-blockade, the drop in blood pressure triggers baroreceptor-mediated reflex tachycardia and increased sympathetic drive. This increases heart rate and force of contraction → increases dP/dt → greater shear stress on the dissection flap → dissection propagates. Beta-blockade first blunts this reflex. Target HR: 60/min, SBP: 100–120 mmHg. Drug of choice: IV Labetalol (alpha + beta blocker) or Esmolol + Nitroprusside. Option A: Beta-blockers have no direct effect on the intimal tear. Option C: Increasing diastolic filling time is a benefit in angina, not the reason here. Option D: Vasodilators dilate, not constrict, vascular beds. EXAM PEARL: Aortic dissection = beta-blocker FIRST, then vasodilator. This sequence is a classic INI-CET trap."
     },
     {
       "question_id": "TW_PHARMACO_CVS_PHARMACO_Q005",
@@ -107,22 +110,22 @@
       "paper_ref": "TW_PHARMACO_CVS_PHARMACO",
       "subject": "Pharmacology",
       "topic": "General Pharmacology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Drug Interactions",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A chronic smoker presents with hemoptysis and weight loss. Most likely diagnosis?",
+      "question_text": "A 35-year-old woman with systemic lupus erythematosus (SLE) develops hypertension. She is started on hydralazine. After 6 months, she presents with arthralgia, positive ANA (antinuclear antibody), and anti-histone antibodies. Her original SLE markers are unchanged. What is the most likely diagnosis and mechanism?",
       "options": {
-        "A": "Pulmonary embolism",
-        "B": "Acute pancreatitis",
-        "C": "Aortic dissection",
-        "D": "DKA"
+        "A": "SLE flare due to inadequate immunosuppression",
+        "B": "Drug-induced lupus erythematosus (DILE) due to hydralazine",
+        "C": "Serum sickness reaction to hydralazine metabolites",
+        "D": "Overlap syndrome with rheumatoid arthritis"
       },
-      "correct_answer": "C",
-      "explanation": "Integrated Pharmacology concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "Hydralazine is a well-known cause of Drug-Induced Lupus Erythematosus (DILE). Mechanism: Hydralazine inhibits DNA methylation → altered T-cell gene expression → loss of self-tolerance → autoantibody production. Key features: positive ANA, anti-histone antibodies (most specific for DILE), arthralgia, rash. Notably ABSENT in DILE: anti-dsDNA antibodies, renal/CNS involvement (unlike true SLE). Resolves on drug discontinuation. Other DILE-causing drugs: Procainamide (most common), Isoniazid, Quinidine, Methyldopa, Minocycline (mnemonic: PHISM — Procainamide, Hydralazine, Isoniazid, SHe-IM). Option A: SLE flare would show elevated anti-dsDNA, complement consumption. Option C: Serum sickness involves immune complexes, urticaria, fever — no anti-histone. Option D: Overlap syndromes present differently without temporal drug correlation. EXAM PEARL: Anti-histone antibodies = hallmark of DILE. Anti-dsDNA = true SLE."
     },
     {
       "question_id": "TW_PHARMACO_CVS_PHARMACO_Q006",
@@ -130,22 +133,22 @@
       "paper_ref": "TW_PHARMACO_CVS_PHARMACO",
       "subject": "Pharmacology",
       "topic": "General Pharmacology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Ocular Pharmacology",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A patient presents with sudden painless loss of vision. Underlying mechanism?",
+      "question_text": "A 67-year-old male with hypertension and atrial fibrillation on long-term amiodarone therapy presents with bilateral painless progressive visual blurring. Slit-lamp examination reveals golden-brown corneal microdeposits. Fundoscopy is normal. Visual acuity is mildly reduced. Which of the following statements about this condition is MOST ACCURATE?",
       "options": {
-        "A": "Autoimmune destruction",
-        "B": "Type I hypersensitivity",
-        "C": "Fat necrosis",
-        "D": "Toxin-mediated injury"
+        "A": "Corneal deposits indicate irreversible toxicity and drug must be stopped immediately",
+        "B": "Corneal microdeposits (vortex keratopathy) are dose-dependent, usually asymptomatic, and not an indication to stop amiodarone",
+        "C": "This finding is specific to amiodarone and does not occur with other drugs",
+        "D": "The deposits are due to calcium phosphate precipitation and respond to vitamin D restriction"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Pharmacology concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "Amiodarone causes vortex keratopathy (cornea verticillata) — whorl-like golden-brown microdeposits in the basal epithelium of the cornea due to drug accumulation (amiodarone is highly lipophilic and concentrates in tissues). Key points: (1) Present in virtually ALL patients on long-term amiodarone (90–100%). (2) Usually ASYMPTOMATIC or cause mild visual haze/colored halos around lights. (3) NOT an indication to stop amiodarone. (4) Reversible on drug discontinuation. The serious ocular toxicity of amiodarone is optic neuropathy (rare, bilateral disc swelling, significant vision loss — MAY require drug cessation). Option A: Corneal deposits alone do not require drug stoppage. Option C: Vortex keratopathy also occurs with chloroquine, hydroxychloroquine, tamoxifen, indomethacin. Option D: Deposits are lipid-drug complexes, not calcium phosphate. EXAM PEARL: Amiodarone toxicity targets: Thyroid (hypo/hyper), Lung (fibrosis), Liver (hepatitis), Skin (photosensitivity, blue-grey), Eye (corneal deposits — benign; optic neuropathy — serious), Peripheral neuropathy."
     },
     {
       "question_id": "TW_PHARMACO_CVS_PHARMACO_Q007",
@@ -153,22 +156,22 @@
       "paper_ref": "TW_PHARMACO_CVS_PHARMACO",
       "subject": "Pharmacology",
       "topic": "CVS Pharmacology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Antiarrhythmics",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Amiodarone: longest half-life?",
+      "question_text": "A 55-year-old male with persistent atrial fibrillation is being evaluated for cardioversion. He has been on amiodarone for 8 months. His thyroid function tests show suppressed TSH with elevated free T4. He is asymptomatic. Which of the following best explains why amiodarone has an extremely long half-life of 40–55 days?",
       "options": {
-        "A": "12 hours",
-        "B": "24 hours",
-        "C": "2-3 weeks",
-        "D": "40-55 days"
+        "A": "Amiodarone undergoes extensive enterohepatic recirculation",
+        "B": "Amiodarone is highly protein-bound in plasma, preventing renal filtration",
+        "C": "Amiodarone is highly lipophilic with an enormous volume of distribution (>60 L/kg), accumulating in fat, liver, and lung",
+        "D": "Amiodarone inhibits its own hepatic metabolism through CYP2D6 inhibition"
       },
-      "correct_answer": "D",
-      "explanation": "Amiodarone: half-life 40-55 days (average 50 days). Contains iodine, causes thyroid dysfunction, pulmonary fibrosis, corneal deposits, photosensitivity. Class III antiarrhythmic."
+      "correct_answer": "C",
+      "explanation": "Amiodarone's extraordinarily long half-life (40–55 days; range 26–107 days) is primarily due to its massive volume of distribution (Vd >60 L/kg). Being highly lipophilic, it accumulates extensively in adipose tissue, liver, lung, and thyroid. This creates a large tissue reservoir from which the drug slowly releases back into plasma, prolonging its elimination. Clinical implications: (1) Steady-state requires months without loading dose. (2) Adverse effects persist long after drug discontinuation. (3) Drug interactions (CYP inhibition — warfarin, digoxin) continue for weeks after stopping. Option A: Enterohepatic recirculation contributes to prolonged action in some drugs (e.g., rifampicin) but is not the primary reason for amiodarone's long half-life. Option B: Protein binding slows distribution but does not account for the months-long half-life. Option D: Amiodarone is a CYP inhibitor (2D6, 3A4) but autoinhibition of its own metabolism is not the primary pharmacokinetic reason. EXAM PEARL: Amiodarone = Class III antiarrhythmic (Vaughan-Williams). Contains 37% iodine by weight. Thyroid dysfunction: most common systemic toxicity. Pulmonary toxicity: most dangerous."
     },
     {
       "question_id": "TW_PHARMACO_CVS_PHARMACO_Q008",
@@ -176,22 +179,22 @@
       "paper_ref": "TW_PHARMACO_CVS_PHARMACO",
       "subject": "Pharmacology",
       "topic": "General Pharmacology",
-      "subtopic": null,
+      "subtopic": "Teratology",
       "difficulty": "Easy",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "FDA Pregnancy category X drug?",
+      "question_text": "A 28-year-old woman with acne vulgaris is prescribed isotretinoin. Before starting therapy, she is enrolled in a pregnancy prevention program. Which of the following drugs shares the same FDA pregnancy risk category X classification as isotretinoin and is also commonly used in a cardiovascular context?",
       "options": {
-        "A": "Metformin",
-        "B": "Warfarin (1st trimester)",
-        "C": "Thalidomide",
-        "D": "Paracetamol"
+        "A": "Metoprolol",
+        "B": "Atorvastatin",
+        "C": "Amlodipine",
+        "D": "Metformin"
       },
-      "correct_answer": "C",
-      "explanation": "Category X (absolute contraindication in pregnancy): thalidomide, isotretinoin, methotrexate, statins, warfarin (1st trimester teratogenic → category X). Note: FDA removed letter system in 2015 but USMLE/NEET use it."
+      "correct_answer": "B",
+      "explanation": "FDA Pregnancy Category X drugs are those where risks clearly outweigh benefits — ABSOLUTELY CONTRAINDICATED in pregnancy. Statins (including atorvastatin, rosuvastatin, simvastatin) are Category X because cholesterol is essential for fetal development; statins inhibit HMG-CoA reductase → reduced cholesterol synthesis → fetal neural tube and limb defects. Other Category X drugs: Isotretinoin, Thalidomide, Methotrexate, Warfarin (1st trimester), Finasteride, Misoprostol, Bosentan. Option A: Metoprolol = Category C (used cautiously in pregnancy). Option C: Amlodipine = Category C. Option D: Metformin = Category B (considered safe, used in gestational diabetes). EXAM PEARL: Cardiovascular drugs in pregnancy: Safe: Methyldopa, Hydralazine, Labetalol. Avoid: ACE inhibitors/ARBs (Category D/X — fetal renal agenesis). Statins = Category X."
     },
     {
       "question_id": "TW_PHARMACO_CVS_PHARMACO_Q009",
@@ -199,22 +202,22 @@
       "paper_ref": "TW_PHARMACO_CVS_PHARMACO",
       "subject": "Pharmacology",
       "topic": "General Pharmacology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Autonomic Pharmacology",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A young woman presents with progressive proximal muscle weakness and rash. Most appropriate management?",
+      "question_text": "A 42-year-old woman presents with progressive proximal muscle weakness, heliotrope rash, and Gottron's papules over the knuckles. CPK is markedly elevated. She is diagnosed with dermatomyositis. Her physician considers starting her on methotrexate. Which of the following pharmacokinetic interactions is most critical to counsel this patient about regarding concurrent NSAID use?",
       "options": {
-        "A": "IV fluids and insulin",
-        "B": "Observation",
-        "C": "Steroids only",
-        "D": "Oral antibiotics"
+        "A": "NSAIDs inhibit CYP3A4, reducing methotrexate clearance and increasing hepatotoxicity",
+        "B": "NSAIDs reduce renal blood flow and tubular secretion, causing methotrexate retention and toxicity",
+        "C": "NSAIDs displace methotrexate from tissue binding sites, causing redistribution toxicity",
+        "D": "NSAIDs induce CYP2C8, increasing methotrexate metabolism to toxic metabolites"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Pharmacology concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "Methotrexate is primarily renally excreted via glomerular filtration and active tubular secretion (OAT transporters). NSAIDs inhibit prostaglandin-mediated afferent arteriolar dilation → reduce renal blood flow and GFR. Additionally, NSAIDs directly compete with methotrexate for OAT1/OAT3 tubular secretion. Both mechanisms reduce methotrexate clearance → drug accumulation → severe toxicity (mucositis, pancytopenia, nephrotoxicity, hepatotoxicity). This is a dangerous, potentially fatal drug interaction. Option A: Methotrexate is not significantly metabolized by CYP3A4; it is renally excreted. Option C: Plasma protein displacement is a transient mechanism; not the primary concern with MTX + NSAIDs. Option D: CYP2C8 induction is not the relevant mechanism here. EXAM PEARL: Methotrexate toxicity is reversed by Leucovorin (folinic acid). MTX + NSAIDs = DANGEROUS interaction. MTX is also a folate antagonist — teratogenic (Category X)."
     },
     {
       "question_id": "TW_PHARMACO_CVS_PHARMACO_Q010",
@@ -222,22 +225,31 @@
       "paper_ref": "TW_PHARMACO_CVS_PHARMACO",
       "subject": "Pharmacology",
       "topic": "General Pharmacology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "ECG Interpretation in Pharmacology",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": true,
+      "image_title": "12-Lead ECG showing prolonged QT interval with polymorphic VT",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Torsades_de_Pointes.png/800px-Torsades_de_Pointes.png",
+      "key_findings": [
+        "Markedly prolonged QTc interval (>550 ms)",
+        "Polymorphic ventricular tachycardia with characteristic twisting of QRS complexes around the isoelectric baseline",
+        "Irregular RR intervals during the tachycardia episode",
+        "Preceding long-short RR interval sequence (pause-dependent initiation)",
+        "Torsades de pointes (TdP) morphology"
+      ],
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A chronic smoker presents with hemoptysis and weight loss. Best initial investigation?",
+      "question_text": "A 62-year-old male with atrial fibrillation is started on a new antiarrhythmic drug. One week later, he presents with recurrent syncope. The ECG shown above reveals the arrhythmia. His serum potassium is 2.9 mEq/L and magnesium is 0.6 mEq/L. Which antiarrhythmic drug is most likely responsible, and what is the first-line treatment?",
       "options": {
-        "A": "CT angiography",
-        "B": "MRI",
-        "C": "Ultrasound",
-        "D": "ECG"
+        "A": "Amiodarone; treatment is DC cardioversion",
+        "B": "Sotalol; treatment is IV magnesium sulfate",
+        "C": "Lidocaine; treatment is IV potassium chloride infusion",
+        "D": "Adenosine; treatment is temporary cardiac pacing"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Pharmacology concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "The ECG shows Torsades de Pointes (TdP) — a form of polymorphic ventricular tachycardia associated with prolonged QT interval. Sotalol (Class III + Class II antiarrhythmic) is a classic cause of QT prolongation and TdP due to potassium channel blockade (Ikr), especially in the presence of hypokalemia and hypomagnesemia, which further impair repolarization. First-line treatment of TdP: IV Magnesium Sulfate (2g IV bolus) — effective even in normomagnesemic patients, by stabilizing cardiac membranes. Also: correct electrolyte imbalances (K+, Mg2+); overdrive pacing (for bradycardia-dependent TdP); isoproterenol (to increase heart rate). Option A: DC cardioversion may terminate an episode but is not first-line; amiodarone itself mildly prolongs QT but less commonly causes TdP than other Class III agents. Option C: Lidocaine (Class IB) shortens QT, does not cause TdP. Option D: Adenosine terminates SVT, not TdP. EXAM PEARL: QT-prolonging drugs = Quinidine, Sotalol, Haloperidol, Amiodarone, Erythromycin, Chloroquine. Mnemonic: QSHAEC. TdP treatment = IV Magnesium Sulfate (first-line)."
     },
     {
       "question_id": "TW_PHARMACO_CVS_PHARMACO_Q011",
@@ -245,22 +257,22 @@
       "paper_ref": "TW_PHARMACO_CVS_PHARMACO",
       "subject": "Pharmacology",
       "topic": "General Pharmacology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Pharmacokinetics",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Drug with zero-order kinetics at therapeutic doses?",
+      "question_text": "A 28-year-old epileptic male on phenytoin 300 mg/day has a plasma level of 12 mcg/mL (therapeutic). His dose is increased to 350 mg/day (17% increase). His new plasma level is 24 mcg/mL (100% increase), and he develops nystagmus, ataxia, and diplopia. Which pharmacokinetic property of phenytoin BEST explains this disproportionate rise?",
       "options": {
-        "A": "Penicillin",
-        "B": "Warfarin",
-        "C": "Phenytoin",
-        "D": "Digoxin"
+        "A": "Phenytoin is a prodrug requiring hepatic activation to its toxic form",
+        "B": "Phenytoin undergoes zero-order kinetics at therapeutic levels due to saturation of hepatic hydroxylation enzymes",
+        "C": "Phenytoin has a very short half-life causing accumulation with dose changes",
+        "D": "Phenytoin induces its own metabolism leading to unpredictable plasma levels"
       },
-      "correct_answer": "C",
-      "explanation": "Phenytoin exhibits zero-order kinetics at therapeutic doses (saturated enzyme system). Small dose increase → disproportionate rise in plasma levels → toxicity."
+      "correct_answer": "B",
+      "explanation": "Phenytoin exhibits Michaelis-Menten (capacity-limited / saturable / zero-order) kinetics at therapeutic plasma concentrations. The hepatic enzyme (CYP2C9) responsible for phenytoin hydroxylation (parahydroxylation) becomes SATURATED at plasma levels within the therapeutic range (10–20 mcg/mL). Once saturated: a small increase in dose → disproportionately large rise in plasma levels (zero-order: fixed amount eliminated per unit time regardless of concentration). This explains why a 17% dose increase led to a 100% plasma level increase → toxicity (nystagmus, ataxia, diplopia — at >20 mcg/mL). Option A: Phenytoin is an active drug, not a prodrug; its metabolite (HPPH) is inactive. Option C: Phenytoin has a long half-life (22 hours at low levels; >24 hours at saturated levels), contributing to accumulation. Option D: Phenytoin is an enzyme inducer (CYP2C9, CYP3A4) but autoinduction plays minimal role compared to its saturation kinetics. EXAM PEARL: Drugs with zero-order kinetics: Phenytoin, Ethanol, Aspirin (high dose). Small dose increases → toxic levels. Therapeutic drug monitoring (TDM) is mandatory."
     },
     {
       "question_id": "TW_PHARMACO_CVS_PHARMACO_Q012",
@@ -268,22 +280,22 @@
       "paper_ref": "TW_PHARMACO_CVS_PHARMACO",
       "subject": "Pharmacology",
       "topic": "General Pharmacology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Pulmonary Thromboembolism",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A patient develops acute breathlessness after prolonged immobilization. Most likely organism?",
+      "question_text": "A 55-year-old male, post right total knee replacement, develops sudden onset dyspnea, pleuritic chest pain, and hypoxia on day 4. His D-dimer is markedly elevated. CT pulmonary angiography confirms bilateral pulmonary embolism. He is hemodynamically stable. Which of the following is the MOST APPROPRIATE initial anticoagulation strategy?",
       "options": {
-        "A": "Staphylococcus aureus",
-        "B": "Klebsiella",
-        "C": "Pseudomonas",
-        "D": "E. coli"
+        "A": "Immediate warfarin with a target INR of 2–3",
+        "B": "Unfractionated heparin IV infusion followed by warfarin with INR-guided bridging",
+        "C": "Rivaroxaban 15 mg twice daily for 21 days, then 20 mg once daily",
+        "D": "Dabigatran 150 mg twice daily as monotherapy from day 1"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Pharmacology concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "C",
+      "explanation": "For acute hemodynamically stable PE, current guidelines (ESC 2019, ACCP 2021) recommend DOACs (Direct Oral Anticoagulants) as first-line therapy, preferably rivaroxaban or apixaban, as they do not require bridging and have comparable efficacy with better safety profiles than heparin-warfarin. Rivaroxaban protocol: 15 mg BD × 21 days (treatment dose) → 20 mg OD maintenance. Option A: Warfarin alone from day 1 is INCORRECT — warfarin has a delayed onset (requires 3–5 days for anticoagulation via factor depletion) and also paradoxically causes protein C/S depletion first (transient hypercoagulable state). Must always bridge with heparin or DOAC. Option B: Heparin-warfarin bridging is appropriate but now considered second-line; used when DOACs are contraindicated (severe renal failure, antiphospholipid syndrome, valvular AF). Option D: Dabigatran (direct thrombin inhibitor) requires 5–10 days of parenteral anticoagulation FIRST before switching — cannot be used as day 1 monotherapy (unlike rivaroxaban/apixaban). EXAM PEARL: Rivaroxaban/Apixaban = monotherapy for DVT/PE (no bridging). Dabigatran/Edoxaban = needs 5–10 days parenteral first."
     },
     {
       "question_id": "TW_PHARMACO_CVS_PHARMACO_Q013",
@@ -291,22 +303,22 @@
       "paper_ref": "TW_PHARMACO_CVS_PHARMACO",
       "subject": "Pharmacology",
       "topic": "General Pharmacology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Ophthalmic Emergency",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A patient presents with sudden painless loss of vision. Best initial investigation?",
+      "question_text": "A 70-year-old male with known hypertension and atrial fibrillation on warfarin presents with sudden, complete, painless loss of vision in the right eye. Fundoscopy reveals a 'blood and thunder' appearance — diffuse retinal hemorrhages, disc edema, and dilated tortuous veins in all quadrants. What is the most likely diagnosis and which aspect of his drug history is most relevant?",
       "options": {
-        "A": "CT angiography",
-        "B": "MRI",
-        "C": "Ultrasound",
-        "D": "ECG"
+        "A": "Central retinal artery occlusion; warfarin provides no protection against arterial emboli",
+        "B": "Central retinal vein occlusion; hypertension and warfarin-induced over-anticoagulation may contribute to venous stasis",
+        "C": "Acute angle closure glaucoma; anticholinergic effect of warfarin precipitates drainage block",
+        "D": "Vitreous hemorrhage; warfarin-induced coagulopathy causes spontaneous bleeding"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Pharmacology concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "The 'blood and thunder' fundoscopy — diffuse flame-shaped hemorrhages in all 4 quadrants, disc edema, dilated tortuous veins — is PATHOGNOMONIC of Central Retinal Vein Occlusion (CRVO). Risk factors: hypertension (most common), hyperlipidemia, diabetes, glaucoma, hyperviscosity states. The relevance of warfarin: Over-anticoagulation (supratherapeutic INR) can contribute to venous bleeding tendency, but CRVO in this patient is primarily driven by hypertensive venous endothelial damage. Option A: Central Retinal Artery Occlusion (CRAO) presents as sudden painless vision loss but fundoscopy shows a PALE retina with cherry-red spot at macula — not blood and thunder. CRAO resembles a stroke and is treated like one. Option C: Acute angle closure glaucoma — presents with PAINFUL red eye, corneal edema, mid-dilated non-reactive pupil. Warfarin has no anticholinergic effect. Option D: Vitreous hemorrhage causes sudden vision loss but presents as floaters, dark streaks — fundoscopy shows no view (hemorrhage blocks visualization). EXAM PEARL: CRVO = Blood and thunder. CRAO = Cherry red spot on pale retina. Both = sudden painless vision loss but completely different appearances."
     },
     {
       "question_id": "TW_PHARMACO_CVS_PHARMACO_Q014",
@@ -314,22 +326,31 @@
       "paper_ref": "TW_PHARMACO_CVS_PHARMACO",
       "subject": "Pharmacology",
       "topic": "General Pharmacology",
-      "subtopic": null,
+      "subtopic": "Immunodeficiency Pharmacology",
       "difficulty": "Easy",
       "question_type": "single_best_answer",
       "image_based": true,
+      "image_title": "Chest X-ray showing bilateral perihilar haziness in an immunocompromised child",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/PCP_pneumonia_X-ray.jpg/800px-PCP_pneumonia_X-ray.jpg",
+      "key_findings": [
+        "Bilateral perihilar and basal interstitial infiltrates",
+        "Ground-glass haziness in both lung fields",
+        "No lobar consolidation or pleural effusion",
+        "Hyperinflated lung fields with flattened diaphragms",
+        "No cardiomegaly"
+      ],
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A child presents with recurrent respiratory tract infections. Underlying mechanism?",
+      "question_text": "A 4-year-old child with known X-linked agammaglobulinemia (XLA) presents with recurrent sino-pulmonary infections, including three episodes of pneumonia in 12 months. The chest X-ray shown above reveals bilateral interstitial infiltrates. Which of the following prophylactic pharmacological interventions is the cornerstone of management to prevent future infections in this child?",
       "options": {
-        "A": "Autoimmune destruction",
-        "B": "Type I hypersensitivity",
-        "C": "Fat necrosis",
-        "D": "Toxin-mediated injury"
+        "A": "Monthly IV immunoglobulin (IVIG) replacement therapy",
+        "B": "Daily oral cotrimoxazole prophylaxis",
+        "C": "Subcutaneous G-CSF injections to boost neutrophil count",
+        "D": "Daily oral itraconazole antifungal prophylaxis"
       },
       "correct_answer": "A",
-      "explanation": "Integrated Pharmacology concept designed in NEET PG + INI-CET pattern."
+      "explanation": "X-linked Agammaglobulinemia (XLA, Bruton's disease) is caused by BTK (Bruton's tyrosine kinase) gene mutation → absent B-cell maturation → profound hypogammaglobulinemia (absent IgG, IgA, IgM). These patients are susceptible to encapsulated bacteria (Streptococcus pneumoniae, Haemophilus influenzae), enteroviruses, and Giardia. The cornerstone of treatment is IVIG replacement therapy every 3–4 weeks to maintain trough IgG levels >500 mg/dL. This provides passive humoral immunity. Option B: Cotrimoxazole prophylaxis is used in PCP prevention in HIV/AIDS and SCID, not the primary intervention in XLA. Option C: G-CSF stimulates neutrophil production — used in neutropenia (e.g., SCN, cyclophosphamide-induced). XLA has normal neutrophils; the defect is B-cell/antibody. Option D: Antifungal prophylaxis is indicated in T-cell deficiencies (DiGeorge, SCID, CGD) — fungal infections are not the primary concern in XLA. EXAM PEARL: Antibody deficiencies (XLA, CVID) = IVIG. T-cell deficiencies (DiGeorge) = thymus transplant. Combined (SCID) = HSCT. CGD = IFN-gamma + cotrimoxazole."
     },
     {
       "question_id": "TW_PHARMACO_CVS_PHARMACO_Q015",
@@ -337,22 +358,22 @@
       "paper_ref": "TW_PHARMACO_CVS_PHARMACO",
       "subject": "Pharmacology",
       "topic": "General Pharmacology",
-      "subtopic": null,
+      "subtopic": "Pharmacokinetics",
       "difficulty": "Easy",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Volume of distribution >1 L/kg suggests?",
+      "question_text": "A pharmacologist is studying two drugs: Drug X has a plasma concentration of 2 mcg/mL after a 100 mg IV dose, while Drug Y has a plasma concentration of 50 mcg/mL after the same 100 mg IV dose. Which of the following conclusions about volume of distribution (Vd) is CORRECT?",
       "options": {
-        "A": "Drug stays in plasma",
-        "B": "Drug extensively tissue-bound",
-        "C": "Drug renally cleared",
-        "D": "Drug has short half-life"
+        "A": "Drug X has lower Vd and is more likely to cause CNS side effects",
+        "B": "Drug Y has higher Vd and is extensively distributed to peripheral tissues",
+        "C": "Drug X has higher Vd and is likely extensively distributed to tissues such as fat and muscle",
+        "D": "Drug Y has higher Vd and is not amenable to hemodialysis in overdose"
       },
-      "correct_answer": "B",
-      "explanation": "High Vd: drug is extensively distributed to tissues (e.g., amiodarone Vd >60 L/kg). Low Vd (<0.1 L/kg): drug confined to plasma (heparin, warfarin)."
+      "correct_answer": "C",
+      "explanation": "Volume of Distribution (Vd) = Dose / Plasma concentration. Drug X: Vd = 100 mg / 2 mcg/mL = 100 mg / 0.002 mg/mL = 50,000 mL = 50 L. Drug Y: Vd = 100 mg / 50 mcg/mL = 100 mg / 0.05 mg/mL = 2,000 mL = 2 L. Drug X has a HIGH Vd (50 L) — indicating extensive tissue distribution. Drug Y has a LOW Vd (2 L) — indicating confinement mostly to plasma. Interpretation: High Vd drugs accumulate in adipose tissue, muscles, and other organs (e.g., amiodarone Vd >60 L/kg, chloroquine Vd 200–800 L/kg). Low Vd drugs stay in plasma (warfarin ~0.14 L/kg, heparin). Option A: Drug X (high Vd) is MORE likely to penetrate CNS, not less. Option B: Drug Y has LOWER Vd (2 L), confined to plasma. Option D: Drug Y's LOW Vd actually makes it MORE amenable to hemodialysis (drug is accessible in plasma). High Vd drugs are NOT amenable to dialysis. EXAM PEARL: High Vd = tissue distribution, NOT removed by dialysis (e.g., TCAs, digoxin). Low Vd = plasma-confined, amenable to dialysis (lithium, salicylates, metformin)."
     },
     {
       "question_id": "TW_PHARMACO_CVS_PHARMACO_Q016",
@@ -360,22 +381,22 @@
       "paper_ref": "TW_PHARMACO_CVS_PHARMACO",
       "subject": "Pharmacology",
       "topic": "CVS Pharmacology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Cardiac Glycosides",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Digoxin toxicity: most common cardiac arrhythmia?",
+      "question_text": "A 70-year-old male with heart failure and atrial fibrillation is on digoxin 0.25 mg/day. He presents with anorexia, nausea, and yellow-green visual disturbances (xanthopsia). His ECG shows: regularized rhythm (HR 54/min), grouped beating with a 2:1 pattern, P waves visible but with prolonged PR interval (280 ms) followed by blocked P waves. His serum digoxin level is 3.2 ng/mL (therapeutic: 0.5–2.0 ng/mL). Serum K+ is 2.8 mEq/L. What is the MOST likely ECG diagnosis and what is the FIRST step in management?",
       "options": {
-        "A": "AF",
-        "B": "Ventricular fibrillation",
-        "C": "PVCs and bigeminy",
-        "D": "SVT"
+        "A": "Ventricular bigeminy; give IV amiodarone immediately",
+        "B": "Paroxysmal atrial tachycardia with 2:1 block (PAT with block); stop digoxin and correct hypokalemia",
+        "C": "Complete heart block; insert temporary transvenous pacing immediately",
+        "D": "Wenckebach (Mobitz type I) AV block; continue digoxin with dose reduction"
       },
-      "correct_answer": "C",
-      "explanation": "Digoxin toxicity: most common arrhythmia = PVCs (especially bigeminy). Also causes: paroxysmal atrial tachycardia with block (PAT with block) — hallmark. Treatment: digoxin-specific Fab."
+      "correct_answer": "B",
+      "explanation": "This is a classic presentation of Digoxin Toxicity with the hallmark ECG finding of Paroxysmal Atrial Tachycardia with 2:1 AV block (PAT with block) — pathognomonic for digoxin toxicity. Features: Atrial rate ~100–250/min with regular ventricular response at half the atrial rate (2:1 block). The combination of increased atrial automaticity (digoxin increases phase 4 slope) + AV nodal conduction delay (digoxin enhances vagal tone on AV node) is unique to digoxin. Xanthopsia (yellow-green visual halos) and GI symptoms (anorexia, nausea) are classic non-cardiac digoxin toxicity signs. Hypokalemia (K+ 2.8) markedly potentiates digoxin toxicity by increasing Na-K-ATPase sensitivity to digoxin. Management: (1) STOP digoxin immediately. (2) Correct hypokalemia (potassium supplementation — K+ competes with digoxin at Na-K-ATPase). (3) Digoxin-specific Fab antibodies (Digibind/DigiFab) for life-threatening toxicity. Option A: PVCs/bigeminy is the MOST COMMON arrhythmia in digoxin toxicity but PAT with block is the MOST CHARACTERISTIC. IV amiodarone is not indicated here. Option C: Complete heart block requires pacing but is not described here. Option D: Wenckebach shows progressive PR prolongation with dropped beat — different from 2:1 pattern shown. EXAM PEARL: Digoxin toxicity arrhythmias: Most common = PVCs, bigeminy. Most characteristic/pathognomonic = PAT with block. Treatment = Digoxin-Fab (Digibind). Hypokalemia potentiates toxicity."
     },
     {
       "question_id": "TW_PHARMACO_CVS_PHARMACO_Q017",
@@ -383,22 +404,22 @@
       "paper_ref": "TW_PHARMACO_CVS_PHARMACO",
       "subject": "Pharmacology",
       "topic": "General Pharmacology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Hypertensive Emergency",
+      "difficulty": "Very Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A patient develops sudden severe tearing chest pain radiating to the back. Most likely organism?",
+      "question_text": "A 52-year-old male presents to the emergency with BP 200/120 mmHg, sudden onset severe interscapular tearing pain, and pulse deficit in the left radial artery compared to the right. CT aortogram confirms Stanford Type B aortic dissection (confined to descending aorta, distal to left subclavian artery). He is hemodynamically stable. Which of the following is the MOST APPROPRIATE immediate pharmacological management?",
       "options": {
-        "A": "Staphylococcus aureus",
-        "B": "Klebsiella",
-        "C": "Pseudomonas",
-        "D": "E. coli"
+        "A": "IV Sodium Nitroprusside alone, targeting SBP < 120 mmHg immediately",
+        "B": "IV Labetalol (or Esmolol) to target HR < 60/min, followed by sodium nitroprusside if BP target not achieved",
+        "C": "Oral Amlodipine and Metoprolol combination as Type B is managed conservatively",
+        "D": "IV Hydralazine as first line to rapidly reduce BP and prevent propagation"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Pharmacology concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "Stanford Type B aortic dissection (descending aorta, distal to left subclavian) is managed medically unless complicated (malperfusion, rupture, refractory pain). The pharmacological principle is: REDUCE aortic wall stress by lowering dP/dt (rate of pressure change) AND blood pressure. Protocol: STEP 1 — IV Beta-blocker FIRST (Labetalol or Esmolol): Reduces HR to <60/min and reduces force of ventricular contraction → reduces dP/dt → prevents propagation of dissection. Target HR: 55–65 bpm. STEP 2 — IV Vasodilator (Sodium Nitroprusside or Nicardipine) if BP still elevated (target SBP 100–120 mmHg). Why beta-blocker first? Vasodilator alone causes reflex tachycardia and increased sympathetic drive → increases dP/dt → worsens dissection. Labetalol (alpha + beta blocker) is ideal as single agent as it reduces both HR and BP. Option A: Nitroprusside alone → reflex tachycardia → increased dP/dt → dangerous. Option C: Oral agents are not appropriate for acute dissection in emergency setting. Option D: Hydralazine is a pure vasodilator → reflex tachycardia → contraindicated as first-line in aortic dissection. EXAM PEARL: Aortic dissection BP management = Beta-blocker FIRST (reduce dP/dt), then vasodilator. Type A = surgical emergency. Type B = medical management (unless complicated)."
     },
     {
       "question_id": "TW_PHARMACO_CVS_PHARMACO_Q018",
@@ -406,22 +427,22 @@
       "paper_ref": "TW_PHARMACO_CVS_PHARMACO",
       "subject": "Pharmacology",
       "topic": "CVS Pharmacology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "RAAS Pharmacology",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "ACE inhibitor that causes cough due to?",
+      "question_text": "A 55-year-old male with hypertension and diabetic nephropathy is started on enalapril. After 3 weeks, he develops a dry, persistent, non-productive cough that is severely affecting his sleep. He has no wheezing or fever. His BP is well-controlled. What is the BEST next step?",
       "options": {
-        "A": "Increased angiotensin II",
-        "B": "Accumulation of bradykinin",
-        "C": "Decreased aldosterone",
-        "D": "Hyperkalemia"
+        "A": "Add inhaled salbutamol to manage the cough and continue enalapril",
+        "B": "Reduce enalapril dose by half and monitor",
+        "C": "Switch to an ARB (e.g., losartan) which provides equivalent renoprotection without causing cough",
+        "D": "Switch to a beta-blocker and discontinue enalapril"
       },
-      "correct_answer": "B",
-      "explanation": "ACE inhibitors: bradykinin accumulation (ACE also degrades bradykinin) → prostaglandin-mediated cough. Incidence ~15-20%. Switch to ARB (no effect on bradykinin)."
+      "correct_answer": "C",
+      "explanation": "ACE inhibitors (enalapril, ramipril, lisinopril) cause dry cough in 10–20% of patients (up to 40% in Asian populations) due to accumulation of bradykinin and substance P (ACE normally degrades these). Bradykinin stimulates prostaglandin synthesis → irritates bronchial C-fibers → cough. ARBs (angiotensin receptor blockers: losartan, valsartan, telmisartan) block AT1 receptors directly and do NOT affect ACE → bradykinin is not accumulated → NO cough. ARBs provide equivalent renoprotection in diabetic nephropathy (reduce proteinuria, slow GFR decline). This is the standard switch when ACE inhibitor cough occurs. Option A: Salbutamol treats bronchospasm, not bradykinin-mediated cough — ineffective. Option B: Dose reduction does not eliminate cough (it is a class effect, not dose-dependent). Option D: Beta-blockers do not provide the same renoprotection via RAAS blockade; switching to them loses the nephroprotective benefit specific to RAAS blockers. EXAM PEARL: ACE inhibitor cough = bradykinin accumulation. Switch to ARB. ACE inhibitors are CONTRAINDICATED in pregnancy (Category D/X) — cause fetal renal agenesis (potter sequence). Both ACE inhibitors and ARBs are contraindicated in bilateral renal artery stenosis."
     },
     {
       "question_id": "TW_PHARMACO_CVS_PHARMACO_Q019",
@@ -429,22 +450,22 @@
       "paper_ref": "TW_PHARMACO_CVS_PHARMACO",
       "subject": "Pharmacology",
       "topic": "General Pharmacology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Hypertension in Pregnancy",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A pregnant woman presents with hypertension and proteinuria. Best initial investigation?",
+      "question_text": "A 29-year-old primigravida at 34 weeks gestation presents with BP 162/108 mmHg, 3+ proteinuria on dipstick, and bilateral pedal edema. She complains of headache and visual blurring. Platelet count: 88,000/µL, LFTs: raised AST/ALT. She is diagnosed with severe pre-eclampsia with HELLP syndrome. Which of the following antihypertensive regimens is MOST APPROPRIATE for acute management?",
       "options": {
-        "A": "CT angiography",
-        "B": "MRI",
-        "C": "Ultrasound",
-        "D": "ECG"
+        "A": "IV Enalapril to rapidly lower blood pressure and reduce proteinuria",
+        "B": "IV Hydralazine or IV Labetalol for acute BP control, with IV Magnesium Sulfate for seizure prophylaxis",
+        "C": "Oral Nifedipine alone is sufficient; magnesium is only needed after a seizure occurs",
+        "D": "IV Sodium Nitroprusside with fetal monitoring as it is the most potent vasodilator available"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Pharmacology concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "Severe pre-eclampsia with HELLP syndrome requires: (1) Acute BP control: Target SBP <160, DBP <110. First-line IV agents: IV Hydralazine (5 mg IV bolts q20 min, max 20 mg) OR IV Labetalol (20 mg IV, then 40–80 mg q10 min). Oral Nifedipine (immediate release, 10 mg) is also acceptable. (2) Seizure prophylaxis: IV Magnesium Sulfate (4 g loading dose over 15–20 min, then 1–2 g/hr maintenance) — reduces eclampsia risk by 50% (mechanism: blocks NMDA glutamate receptors in brain, reduces cerebral vasospasm). (3) Definitive treatment: Delivery. Option A: ACE inhibitors/ARBs are ABSOLUTELY CONTRAINDICATED in pregnancy (all trimesters in true pre-eclampsia management context — fetal renal toxicity, oligohydramnios, renal tubular dysgenesis, Potter sequence). Option C: Magnesium is given PROPHYLACTICALLY in severe pre-eclampsia — not only after eclampsia. Option D: Sodium nitroprusside = risk of fetal cyanide toxicity (metabolized to cyanide/thiocyanate which crosses placenta) — avoided in pregnancy. EXAM PEARL: Pre-eclampsia BP control = Hydralazine / Labetalol / Nifedipine. Seizure prophylaxis = IV MgSO4. NEVER use ACE inhibitors/ARBs/Nitroprusside in pregnancy."
     },
     {
       "question_id": "TW_PHARMACO_CVS_PHARMACO_Q020",
@@ -452,22 +473,22 @@
       "paper_ref": "TW_PHARMACO_CVS_PHARMACO",
       "subject": "Pharmacology",
       "topic": "CVS Pharmacology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Vasodilators",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Hydralazine mechanism?",
+      "question_text": "A 30-year-old woman at 28 weeks gestation develops hypertensive emergency (BP 180/115 mmHg). She is started on IV hydralazine. Her obstetrician also prescribes long-term oral methyldopa. Regarding hydralazine's mechanism of action, which of the following is CORRECT, and which predictable adverse effect requires co-administration of a beta-blocker in non-pregnant hypertensive patients?",
       "options": {
-        "A": "Beta-1 blocker",
-        "B": "Calcium channel blocker",
-        "C": "Direct arteriolar vasodilator",
-        "D": "ACE inhibitor"
+        "A": "Hydralazine is a calcium channel blocker; co-administration with beta-blocker prevents coronary vasospasm",
+        "B": "Hydralazine directly relaxes arteriolar smooth muscle; reflex tachycardia and increased cardiac output require beta-blocker co-administration",
+        "C": "Hydralazine blocks alpha-1 receptors; postural hypotension requires beta-blocker co-administration",
+        "D": "Hydralazine inhibits ACE; hyperkalemia requires beta-blocker co-administration to reduce aldosterone"
       },
-      "correct_answer": "C",
-      "explanation": "Hydralazine: direct arteriolar smooth muscle relaxation → decreased SVR → reflex tachycardia. Used in hypertensive emergency in pregnancy (with methyldopa)."
+      "correct_answer": "B",
+      "explanation": "Hydralazine is a DIRECT-ACTING arteriolar vasodilator. Mechanism: Opens K+ channels and possibly inhibits IP3-mediated calcium release in vascular smooth muscle → selective arteriolar dilation → reduced systemic vascular resistance (SVR). Venous side less affected. Consequence: Reduced BP → baroreceptor-mediated reflex sympathetic activation → reflex tachycardia + increased cardiac output + renin release → sodium/water retention. In non-pregnant patients: co-administration with a beta-blocker (prevents reflex tachycardia) and a diuretic (prevents fluid retention) is recommended. In pregnancy: Reflex tachycardia is less problematic and it is considered safe — drug of choice for hypertensive emergencies in pregnancy. Causes drug-induced lupus with long-term use (anti-histone antibodies). Option A: Hydralazine is NOT a CCB. Option C: Hydralazine does not block alpha-1 receptors (that's prazosin). Option D: Hydralazine is NOT an ACE inhibitor. EXAM PEARL: Hydralazine = direct arteriolar vasodilator. Safe in pregnancy. Causes lupus-like syndrome. Reflex tachycardia → use with beta-blocker + diuretic in non-pregnant. Safe in pregnancy without beta-blocker."
     },
     {
       "question_id": "TW_PHARMACO_CVS_PHARMACO_Q021",
@@ -475,22 +496,31 @@
       "paper_ref": "TW_PHARMACO_CVS_PHARMACO",
       "subject": "Pharmacology",
       "topic": "General Pharmacology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Retinal Vascular Occlusion",
+      "difficulty": "Very Hard",
       "question_type": "single_best_answer",
       "image_based": true,
+      "image_title": "Fundoscopy image showing central retinal artery occlusion",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Fundus_photograph_of_normal_right_eye.jpg/800px-Fundus_photograph_of_normal_right_eye.jpg",
+      "key_findings": [
+        "Diffuse retinal pallor (ischemic whitening) of the posterior pole",
+        "Cherry-red spot at the fovea centralis (fovea appears red against surrounding pale retina)",
+        "Attenuated (narrowed) retinal arteries throughout",
+        "Absence of hemorrhages (differentiates from CRVO)",
+        "Optic disc appears slightly pale"
+      ],
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A patient presents with sudden painless loss of vision. Most likely diagnosis?",
+      "question_text": "A 65-year-old male with hypertension, atrial fibrillation on warfarin (INR 1.6 — subtherapeutic), and hyperlipidemia presents with sudden complete painless loss of vision in the left eye of 2 hours duration. Visual acuity is hand movements only. The fundoscopy image shown above demonstrates the characteristic finding. Which of the following pharmacological interventions, if initiated WITHIN the therapeutic window, offers the best chance of visual recovery?",
       "options": {
-        "A": "Pulmonary embolism",
-        "B": "Acute pancreatitis",
-        "C": "Aortic dissection",
-        "D": "DKA"
+        "A": "Immediate IV heparin infusion to prevent clot propagation in the central retinal artery",
+        "B": "Intra-arterial tPA (thrombolysis) into the ophthalmic artery within 4–6 hours, combined with ocular massage and IOP-lowering agents",
+        "C": "Intravitreal anti-VEGF injection (ranibizumab) to prevent retinal neovascularization",
+        "D": "IV dexamethasone to reduce retinal inflammation and restore arterial flow"
       },
-      "correct_answer": "C",
-      "explanation": "Integrated Pharmacology concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "The fundoscopy shows CENTRAL RETINAL ARTERY OCCLUSION (CRAO) — diffuse retinal pallor with cherry-red spot at fovea (fovea has no inner layers so underlying choroidal circulation shows through, appearing red against the pale, ischemic surrounding retina). CRAO is a TRUE ocular emergency (retinal equivalent of stroke). The retinal ischemia tolerance is ~90–100 minutes. Management options within therapeutic window (<4.5–6 hours): (1) Ocular massage (dislodge embolus, improve perfusion). (2) IOP-lowering agents (acetazolamide, topical timolol — increase retinal arterial perfusion pressure by reducing IOP). (3) Intra-arterial thrombolysis (tPA into ophthalmic artery) — emerging evidence; selective cases <4.5 hours. (4) Carbogen (5% CO2 + 95% O2) inhalation — vasodilation + increased O2 delivery. Option A: IV heparin prevents new clot formation but does NOT dissolve the existing embolus causing CRAO. Option C: Anti-VEGF is used for CRVO-related macular edema or neovascularization — not acute CRAO treatment. Option D: Steroids are used in Giant Cell Arteritis-related CRAO — not routine acute CRAO management. EXAM PEARL: CRAO = Cherry-red spot. CRVO = Blood and thunder. CRAO is embolic (from carotid or cardiac source). Subtherapeutic warfarin INR (1.6) → cardioembolic risk in AF. Target INR in AF = 2–3."
     },
     {
       "question_id": "TW_PHARMACO_CVS_PHARMACO_Q022",
@@ -498,22 +528,22 @@
       "paper_ref": "TW_PHARMACO_CVS_PHARMACO",
       "subject": "Pharmacology",
       "topic": "General Pharmacology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Enzyme Induction",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Enzyme inducer that also induces its own metabolism (autoinduction)?",
+      "question_text": "A 32-year-old epileptic male on carbamazepine 400 mg twice daily develops breakthrough seizures after 6 weeks of initially good seizure control. His plasma carbamazepine levels, measured at initiation and now, are significantly lower despite the same dose. Which of the following pharmacokinetic phenomena BEST explains this observation and what is the clinical implication?",
       "options": {
-        "A": "Phenobarbitone",
-        "B": "Carbamazepine",
-        "C": "Rifampicin",
-        "D": "Phenytoin"
+        "A": "Carbamazepine undergoes first-pass metabolism that increases over time due to improved hepatic blood flow",
+        "B": "Carbamazepine induces CYP3A4, including its own metabolism (autoinduction), reducing plasma levels over 3–4 weeks, requiring dose titration upward",
+        "C": "Carbamazepine is converted to a toxic epoxide metabolite that competes with the parent drug for plasma protein binding",
+        "D": "Carbamazepine inhibits its own renal tubular secretion, causing initial high and later low plasma levels"
       },
       "correct_answer": "B",
-      "explanation": "Carbamazepine: autoinduction — induces CYP3A4 including its own metabolism. Initial dose needs increase after 3-4 weeks. Rifampicin also induces but less 'auto'."
+      "explanation": "Carbamazepine is the classic example of autoinduction — it induces CYP3A4 (the primary enzyme responsible for its own metabolism). When first started, CYP3A4 activity is at baseline → adequate plasma levels and seizure control. Over 3–4 weeks, CYP3A4 is progressively induced → increased metabolism of carbamazepine → lower plasma levels → breakthrough seizures. Clinical implication: The dose must be gradually titrated upward over the first 4–6 weeks after initiation. Also note: Carbamazepine induces CYP3A4 for OTHER drugs too (oral contraceptives — reduced efficacy; warfarin — reduced anticoagulation; other AEDs). Carbamazepine active metabolite: Carbamazepine-10,11-epoxide (has antiepileptic activity but also causes toxicity — diplopia, dizziness). Option A: First-pass metabolism is fixed anatomically; hepatic blood flow changes don't explain autoinduction. Option C: The epoxide metabolite exists but does not compete for protein binding to cause this phenomenon. Option D: Carbamazepine is hepatically metabolized, not renally secreted. EXAM PEARL: Autoinduction = Carbamazepine (induces CYP3A4 including its own). Enzyme inducers (CBC mnemonic): Carbamazepine, Barbiturates (phenobarbitone), Carbamazepine, Rifampicin, Phenytoin, St. John's Wort."
     },
     {
       "question_id": "TW_PHARMACO_CVS_PHARMACO_Q023",
@@ -521,22 +551,22 @@
       "paper_ref": "TW_PHARMACO_CVS_PHARMACO",
       "subject": "Pharmacology",
       "topic": "General Pharmacology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Pancreatitis Pharmacology",
+      "difficulty": "Very Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A chronic alcoholic presents with abdominal pain radiating to the back. Best initial investigation?",
+      "question_text": "A 48-year-old chronic alcoholic male presents with severe epigastric pain radiating to the back, vomiting, and abdominal guarding. Serum amylase is 1800 U/L and lipase is 2400 U/L. CT abdomen shows pancreatic necrosis involving 50% of the gland with peripancreatic fat stranding. He is admitted to ICU. On day 5, he develops fever (38.9°C), worsening abdominal pain, and leukocytosis. CT-guided fine needle aspiration of the necrotic area reveals gram-negative bacilli. Which antibiotic has the BEST pharmacokinetic profile for penetrating into pancreatic necrotic tissue and is recommended in this setting?",
       "options": {
-        "A": "CT angiography",
-        "B": "MRI",
-        "C": "Ultrasound",
-        "D": "ECG"
+        "A": "IV Ceftriaxone — broad spectrum coverage and excellent CNS penetration",
+        "B": "IV Imipenem-Cilastatin — carbapenems have proven pancreatic tissue penetration and broad gram-negative coverage",
+        "C": "IV Vancomycin — effective against MRSA which is the most common organism in infected pancreatic necrosis",
+        "D": "IV Colistin — last resort agent with best lipophilicity for necrotic tissue penetration"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Pharmacology concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "Infected pancreatic necrosis is a serious complication of severe acute pancreatitis with high mortality. The key pharmacokinetic requirement is PANCREATIC TISSUE PENETRATION. Most antibiotics achieve poor concentrations in pancreatic tissue due to inflammation-mediated changes in vascularity. Carbapenems (Imipenem, Meropenem) have demonstrated the best pancreatic tissue penetration in pharmacokinetic studies. They achieve bactericidal concentrations in necrotic pancreatic tissue. Spectrum: excellent against gram-negative bacilli (most common: E. coli, Klebsiella), anaerobes, and most gram-positives. Other antibiotics with good pancreatic penetration: Fluoroquinolones (ciprofloxacin), Metronidazole (anaerobes), Clindamycin. Note: Routine prophylactic antibiotics in sterile necrosis are NOT recommended (Cochrane evidence — no benefit, increases resistance). Antibiotics are indicated when INFECTION is confirmed (as in this case — FNA positive). Management also includes: CT-guided or surgical debridement (step-up approach). Option A: Ceftriaxone — poor pancreatic tissue penetration; CNS penetration is irrelevant here. Option C: MRSA is NOT the most common organism in infected pancreatic necrosis — gram-negatives predominate. Vancomycin penetrates poorly into pancreatic tissue. Option D: Colistin is a last-resort agent for MDR gram-negatives; not first choice for pancreatic necrosis. EXAM PEARL: Infected pancreatic necrosis = Carbapenems (best pancreatic penetration). Prophylactic antibiotics in sterile pancreatitis = NOT recommended. Ranson's criteria / BISAP / CT Severity Index = prognostic scoring in pancreatitis."
     }
   ]
 }

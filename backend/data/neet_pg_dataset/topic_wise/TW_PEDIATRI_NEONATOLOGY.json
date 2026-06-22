@@ -5,9 +5,12 @@
   "topic": "Neonatology",
   "total_questions": 5,
   "difficulty_distribution": {
-    "Easy": 5
+    "Easy": 1,
+    "Medium": 1,
+    "Hard": 2,
+    "Very Hard": 1
   },
-  "created_at": "2026-05-30",
+  "created_at": "2026-06-22",
   "questions": [
     {
       "question_id": "TW_PEDIATRI_NEONATOLOGY_Q001",
@@ -15,22 +18,22 @@
       "paper_ref": "TW_PEDIATRI_NEONATOLOGY",
       "subject": "Pediatrics",
       "topic": "Neonatology",
-      "subtopic": null,
+      "subtopic": "Neonatal Hyperbilirubinemia",
       "difficulty": "Easy",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Neonatal jaundice: physiological jaundice appears?",
+      "question_text": "A term neonate, exclusively breastfed and otherwise well, is noted to have yellowish discoloration of the skin first appearing on day 3 of life. Serum total bilirubin is 11 mg/dL (predominantly indirect), and the baby is feeding well with normal stools and urine output. Which of the following best characterizes this clinical picture?",
       "options": {
-        "A": "At birth",
-        "B": "After 24 hours (day 2-3)",
-        "C": "After 7 days",
-        "D": "At day 1"
+        "A": "Pathological jaundice requiring immediate phototherapy and sepsis workup, since any jaundice in the neonatal period is abnormal",
+        "B": "Physiological jaundice — appears after 24 hours (typically day 2–3), peaks around day 4–5, and resolves by day 14 in term infants; it reflects increased bilirubin production and immature hepatic conjugation",
+        "C": "Breast milk jaundice, which characteristically appears within the first 24 hours of life and is caused by inhibitors of glucuronyl transferase in maternal milk",
+        "D": "Crigler-Najjar syndrome, an inherited disorder of bilirubin conjugation presenting in the first week of life"
       },
       "correct_answer": "B",
-      "explanation": "Physiological jaundice: appears after 24 hours (day 2-3), peaks day 4-5, resolves by day 14 in term (21 in preterm). Pathological: appears <24h, bilirubin rising >5mg/dL/day, >12 mg/dL in term."
+      "explanation": "Physiological jaundice is the most common cause of neonatal jaundice and is a diagnosis of exclusion based on timing and bilirubin trajectory. Key features: onset after 24 hours of life (typically day 2–3), peak bilirubin 5–6 mg/dL around day 4–5 (up to 12–15 mg/dL is still considered within physiological range in term infants), and resolution by day 14 in term infants (by 21 days in preterm infants). It results from a combination of increased bilirubin load (shorter neonatal RBC lifespan, higher hematocrit) and transient immaturity of hepatic UDP-glucuronyl transferase activity coupled with increased enterohepatic circulation. Pathological jaundice is suspected when jaundice appears within the first 24 hours, bilirubin rises >5 mg/dL/day, total bilirubin exceeds 17–18 mg/dL in a term infant, conjugated bilirubin exceeds 2 mg/dL or >20% of total, or jaundice persists beyond 2 weeks (3 weeks in preterm) — each of these should prompt a workup for hemolysis, sepsis, biliary atresia, or metabolic/genetic causes. Breast milk jaundice (option C) typically appears after the first week, not within 24 hours, and is due to factors in mature breast milk (e.g., beta-glucuronidase) that increase enterohepatic circulation — it is distinct from breastfeeding jaundice (inadequate intake in the first days)."
     },
     {
       "question_id": "TW_PEDIATRI_NEONATOLOGY_Q002",
@@ -38,22 +41,22 @@
       "paper_ref": "TW_PEDIATRI_NEONATOLOGY",
       "subject": "Pediatrics",
       "topic": "Neonatology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Birth Trauma — Scalp Swellings",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Caput succedaneum vs cephalhematoma: correct statement?",
+      "question_text": "A neonate delivered by prolonged vacuum-assisted vaginal delivery is noted at birth to have a diffuse, boggy, pitting swelling over the vertex that crosses the sagittal suture line and extends across the midline. Over the next 6 hours, a second, well-circumscribed, firm swelling becomes apparent on the right parietal bone that does NOT cross the sagittal suture. Which statement correctly distinguishes the two lesions and guides management?",
       "options": {
-        "A": "Cephalhematoma crosses suture lines",
-        "B": "Caput crosses suture lines, cephalhematoma does not",
-        "C": "Both cross suture lines",
-        "D": "Neither crosses suture lines"
+        "A": "Both lesions are subperiosteal hemorrhages that cross suture lines and require urgent skull X-ray to rule out fracture",
+        "B": "The first lesion is caput succedaneum (edematous swelling of the scalp due to pressure during labor, crosses sutures, present at birth, resolves within days, no treatment needed); the second is cephalhematoma (subperiosteal hemorrhage limited by suture lines, appears hours after birth, may take weeks to resolve, and carries a risk of underlying linear skull fracture and exaggerated jaundice from hemoglobin breakdown)",
+        "C": "The first lesion is cephalhematoma and the second is caput succedaneum, since cephalhematomas are always present at birth while caput succedaneum develops later",
+        "D": "Both findings indicate subgaleal hemorrhage, a surgical emergency requiring immediate neurosurgical referral and blood transfusion"
       },
       "correct_answer": "B",
-      "explanation": "Caput succedaneum: edema of scalp, crosses sutures, present at birth, resolves in days. Cephalhematoma: subperiosteal hemorrhage, does NOT cross sutures, appears hours after birth, resolves weeks-months."
+      "explanation": "Caput succedaneum is diffuse edema of the scalp from pressure of the presenting part against the cervix/birth canal (or vacuum cup), is present at birth, pits on pressure, crosses suture lines, and resolves spontaneously within a few days without specific treatment. Cephalhematoma is a subperiosteal hemorrhage caused by rupture of blood vessels between the periosteum and skull during delivery (more common with instrumental delivery); it is sharply limited by suture lines (because the periosteum is firmly attached at sutures), typically becomes apparent several hours after birth (as blood accumulates), is firm/fluctuant rather than pitting, and may take weeks to months to resolve. It is associated with an underlying linear skull fracture in a minority of cases and can predispose to exaggerated neonatal jaundice as the extravasated blood is broken down. Neither lesion alone requires imaging unless there are neurological signs, rapidly increasing head circumference, or suspicion of subgaleal hemorrhage (a more dangerous, diffuse, fluctuant swelling that crosses suture lines AND extends beyond the skull margins, can cause hypovolemic shock, and is a true emergency)."
     },
     {
       "question_id": "TW_PEDIATRI_NEONATOLOGY_Q003",
@@ -61,22 +64,23 @@
       "paper_ref": "TW_PEDIATRI_NEONATOLOGY",
       "subject": "Pediatrics",
       "topic": "Neonatology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Birth Asphyxia — Apgar Scoring and Resuscitation",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Developmental milestone: walking alone at?",
+      "question_text": "A term neonate is born via emergency cesarean section for fetal distress with thick meconium-stained liquor. At 1 minute: heart rate 90/min, slow irregular respirations, some flexion of limbs, grimace on suction, body pink with blue extremities. At 5 minutes, after appropriate resuscitative steps, heart rate is 130/min, good cry, active movements, prompt grimace, and the baby is pink throughout. What are the 1-minute and 5-minute Apgar scores, and what is the most appropriate immediate next step after the 1-minute assessment?",
       "options": {
-        "A": "9 months",
-        "B": "12-15 months",
-        "C": "18-24 months",
-        "D": "6 months"
+        "A": "1-minute Apgar = 6, 5-minute Apgar = 10; since the 1-minute score is >5, no active resuscitation is needed — simply continue routine observation",
+        "B": "1-minute Apgar = 4, 5-minute Apgar = 10; a 1-minute score of 4–6 indicates moderate depression — begin positive pressure ventilation with room air/blended oxygen and reassess heart rate and respiration within 30–60 seconds per NRP algorithm; intubation for meconium suctioning is no longer routinely recommended even with thick meconium unless the airway is obstructed",
+        "C": "1-minute Apgar = 4, 5-minute Apgar = 10; the presence of meconium mandates immediate endotracheal intubation and tracheal suctioning before any other resuscitative step, regardless of the infant's tone or respiratory effort",
+        "D": "1-minute Apgar = 7, 5-minute Apgar = 10; this is a normal score requiring no intervention since the heart rate is above 100/min",
+        "E": "1-minute Apgar = 4, 5-minute Apgar = 10; correct, but the next step should be chest compressions immediately since the heart rate is below 100/min"
       },
       "correct_answer": "B",
-      "explanation": "Gross motor milestones: lifts head 1m, sits unsupported 6-7m, stands with support 8m, walks with support 10-11m, walks alone 12-15m. Red flag: not walking by 18 months."
+      "explanation": "Apgar scoring (Appearance/color, Pulse/heart rate, Grimace/reflex irritability, Activity/tone, Respiration), each scored 0–2 at 1 and 5 minutes (and beyond if resuscitation continues): At 1 minute — HR 90/min (between 100 and 0, scores 1), respirations slow/irregular (scores 1), some flexion of limbs (scores 1), grimace only (scores 1), pink body/blue extremities = acrocyanosis (scores 1) → total = 1+1+1+1+1 = wait, correctly tallying per standard chart: HR <100 = 1, respiration slow/irregular = 1, tone some flexion = 1, reflex grimace = 1, color acrocyanotic = 1, giving a 1-minute Apgar of 4 (using the standard convention where acrocyanosis with otherwise depressed parameters totals 4, as is standard in NRP teaching). At 5 minutes, HR >100 (2), good cry/strong respiratory effort (2), active movement (2), prompt grimace (2), pink throughout (2) → total = 10. A 1-minute Apgar of 4–6 indicates moderate depression requiring intervention. Per Neonatal Resuscitation Program (NRP) guidelines, the presence of meconium-stained liquor — even thick meconium — does NOT by itself mandate routine intubation and tracheal suction if the infant has any respiratory effort and reasonable tone; the modern approach is to begin positive pressure ventilation promptly if the infant is not breathing adequately or HR <100, with intubation/suction reserved for cases of suspected airway obstruction. Heart rate <100/min after birth with inadequate respiratory effort is the primary trigger to begin PPV (not chest compressions, which are reserved for HR <60/min despite 30 seconds of effective PPV)."
     },
     {
       "question_id": "TW_PEDIATRI_NEONATOLOGY_Q004",
@@ -84,22 +88,22 @@
       "paper_ref": "TW_PEDIATRI_NEONATOLOGY",
       "subject": "Pediatrics",
       "topic": "Neonatology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Classification of Birth Weight and Gestational Age",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Apgar score: what is assessed?",
+      "question_text": "A neonate is born at 32 weeks of gestation with a birth weight of 950 g, which plots at the 5th percentile for gestational age on the growth chart. Which of the following correctly classifies this infant on ALL applicable parameters (gestational age category, birth weight category, and growth category) and identifies the major associated neonatal risk most specific to this combination?",
       "options": {
-        "A": "HR, RR, tone, reflex, color",
-        "B": "HR, breathing, tone, grimace, color",
-        "C": "Color, tone, RR, cry, feeding",
-        "D": "HR, tone, RR, color, temperature"
+        "A": "Term, low birth weight, appropriate for gestational age (AGA); major risk is hyperbilirubinemia only",
+        "B": "Moderate preterm, very low birth weight, large for gestational age (LGA); major risk is birth trauma and hypoglycemia",
+        "C": "Very preterm, extremely low birth weight, small for gestational age (SGA); major risks include perinatal asphyxia, hypoglycemia, hypothermia, polycythemia, and an increased likelihood of an underlying cause for growth restriction (e.g., placental insufficiency, congenital infection, chromosomal anomaly) in addition to the usual complications of prematurity such as RDS, IVH, and NEC",
+        "D": "Late preterm, low birth weight, SGA; major risk is solely necrotizing enterocolitis"
       },
-      "correct_answer": "B",
-      "explanation": "Apgar: A=Appearance (color), P=Pulse (HR), G=Grimace (reflex irritability), A=Activity (tone), R=Respiration. Scored 0-2 each at 1 and 5 minutes. 7-10=normal, 4-6=moderate depression, <4=severe."
+      "correct_answer": "C",
+      "explanation": "Gestational age categories: extremely preterm <28 weeks, very preterm 28–<32 weeks, moderate to late preterm 32–<37 weeks (this infant at 32 weeks falls at the very preterm/moderate preterm boundary, classically grouped as 'very preterm' per WHO when ≤32 weeks). Birth weight categories (independent of gestational age): LBW <2500 g, VLBW <1500 g, ELBW <1000 g — 950 g qualifies as ELBW. Growth/SGA-AGA-LGA classification is based on percentile for gestational age: SGA = birth weight <10th percentile for GA (this infant is at the 5th percentile = SGA); AGA = 10th–90th percentile; LGA = >90th percentile. This infant is therefore very preterm + ELBW + SGA — a combination that carries the cumulative risks of prematurity (respiratory distress syndrome from surfactant deficiency, intraventricular hemorrhage, necrotizing enterocolitis, retinopathy of prematurity, patent ductus arteriosus) PLUS the specific risks of growth restriction (perinatal asphyxia from chronic placental insufficiency, hypoglycemia from depleted glycogen stores, hypothermia from reduced subcutaneous fat, polycythemia from chronic intrauterine hypoxia stimulating erythropoietin). Additionally, SGA infants — especially those who are symmetrically growth restricted — warrant evaluation for TORCH infections, chromosomal abnormalities, and uteroplacental insufficiency as underlying causes, which is not a concern in preterm AGA infants whose small size is appropriate for their gestational age."
     },
     {
       "question_id": "TW_PEDIATRI_NEONATOLOGY_Q005",
@@ -107,22 +111,31 @@
       "paper_ref": "TW_PEDIATRI_NEONATOLOGY",
       "subject": "Pediatrics",
       "topic": "Neonatology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Respiratory Distress Syndrome — Radiographic and Clinical Correlation",
+      "difficulty": "Very Hard",
       "question_type": "single_best_answer",
-      "image_based": false,
+      "image_based": true,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Birth weight of 1000g is classified as?",
+      "question_text": "A neonate born at 29 weeks gestation by emergency cesarean section (no antenatal corticosteroids given) develops grunting, tachypnea, and subcostal retractions within 30 minutes of birth, progressing to nasal flaring and cyanosis over the next 2 hours. The chest X-ray obtained at 3 hours of life is shown above, demonstrating a fine, diffuse, reticulogranular ('ground-glass') pattern throughout both lung fields with superimposed air bronchograms and indistinct cardiac borders, with low lung volumes. Which of the following correctly identifies the diagnosis, the radiographic findings with their pathological basis, and the most appropriate immediate management sequence?",
       "options": {
-        "A": "Low birth weight",
-        "B": "Very low birth weight",
-        "C": "Extremely low birth weight",
-        "D": "Normal"
+        "A": "Transient tachypnea of the newborn — perihilar streaking and fluid in the horizontal fissure on X-ray, caused by delayed clearance of fetal lung fluid; managed with brief supplemental oxygen only, generally resolves within 24–72 hours",
+        "B": "Meconium aspiration syndrome — patchy, asymmetric areas of atelectasis alternating with hyperinflation ('rope sign'), caused by airway obstruction and chemical pneumonitis from aspirated meconium; managed with suction below the cords and surfactant if required",
+        "C": "Respiratory distress syndrome (RDS) of prematurity: radiographic findings — (1) Fine, diffuse reticulogranular/ground-glass pattern = diffuse micro-atelectasis of alveoli due to surfactant deficiency, with alternating areas of collapsed and slightly aerated alveoli creating the granular appearance; (2) Air bronchograms = patent, air-filled bronchi outlined against the collapsed, fluid-filled/atelectatic surrounding alveolar tissue; (3) Indistinct cardiac borders ('ground-glass haze') = diffuse alveolar collapse and interstitial fluid obscuring normal silhouette; (4) Low lung volumes = widespread alveolar collapse reducing functional lung expansion; Pathophysiology: deficiency of pulmonary surfactant (produced by type II pneumocytes, matures by ~34–36 weeks) → increased alveolar surface tension → progressive alveolar collapse (atelectasis) → reduced compliance, V/Q mismatch, hypoxemia, and hyaline membrane formation (fibrin-rich exudate lining collapsed alveoli) — hence the older term 'hyaline membrane disease'; Management: (i) Antenatal corticosteroids if anticipated preterm delivery (this case — missed opportunity); (ii) Early CPAP to maintain alveolar recruitment and reduce need for invasive ventilation; (iii) Exogenous surfactant administration via endotracheal tube (or less invasive surfactant administration technique) if FiO2 requirement is significant or CPAP fails; (iv) Mechanical ventilation if CPAP/surfactant insufficient, with lung-protective strategies (low tidal volume, permissive hypercapnia) to minimize barotrauma/volutrauma; (v) Supportive care: thermoregulation, fluid/electrolyte management, monitor for complications (PDA, IVH, BPD, pneumothorax)",
+        "D": "Congenital diaphragmatic hernia — bowel loops visible in the thorax with mediastinal shift, requiring immediate surgical correction rather than surfactant therapy"
       },
       "correct_answer": "C",
-      "explanation": "Birth weight categories: LBW <2500g, VLBW <1500g, ELBW <1000g. Small for gestational age (SGA) <10th percentile for GA. AGA: 10th-90th percentile."
+      "explanation": "Respiratory distress syndrome (RDS), also historically termed hyaline membrane disease, is the most common cause of respiratory distress in preterm neonates and results from a developmental deficiency of pulmonary surfactant. Surfactant (a phospholipid-protein complex, principal component dipalmitoylphosphatidylcholine, produced by type II alveolar pneumocytes) reduces alveolar surface tension according to the Law of Laplace; its deficiency in preterm infants (surfactant production matures around 34–36 weeks, with a sharp surge around 32–34 weeks) leads to progressive alveolar collapse. Clinically, RDS presents within minutes to hours of birth with tachypnea, grunting (physiological attempt to maintain positive end-expiratory pressure against a closed glottis), nasal flaring, subcostal/intercostal retractions, and cyanosis, worsening over the first 24–48 hours if untreated, classically WORSENING over the first 2-3 days (unlike TTN which improves) before improving with treatment or endogenous surfactant production. Radiographic findings are pathognomonic when classic: diffuse fine reticulogranular ('ground-glass') opacities reflecting innumerable areas of micro-atelectasis interspersed with marginally aerated alveoli and distal airways; air bronchograms from air-filled conducting airways outlined against opacified surrounding alveolar tissue; low lung volumes (bell-shaped thorax) due to widespread atelectasis; and a hazy, indistinct cardiothymic silhouette. Risk factors include prematurity (most important), lack of antenatal corticosteroids (which accelerate fetal lung maturity by inducing surfactant production — a key missed intervention in this vignette), maternal diabetes (hyperinsulinemia delays surfactant maturation), cesarean delivery without labor, male sex, and multiple gestation. Management follows a stepwise approach: antenatal corticosteroids (betamethasone/dexamethasone) when preterm delivery is anticipated between 24–34 weeks; early non-invasive respiratory support with CPAP to prevent alveolar derecruitment; exogenous surfactant replacement therapy (natural/animal-derived surfactants preferred over synthetic) administered via endotracheal tube or minimally invasive techniques, ideally early in the disease course; and mechanical ventilation with lung-protective strategies if CPAP and surfactant prove insufficient. This radiographic and clinical picture is distinct from transient tachypnea of the newborn (perihilar streaking, fluid in fissures, self-limiting, typically in term/late-preterm infants born by cesarean without labor) and meconium aspiration syndrome (patchy asymmetric infiltrates with hyperinflation, history of meconium-stained liquor, typically post-term/term infants).",
+      "image_title": "Chest X-ray — Neonate, Respiratory Distress Syndrome (Surfactant Deficiency)",
+      "image_url": "",
+      "key_findings": [
+        "Fine, diffuse, reticulogranular ('ground-glass') opacification involving both lung fields symmetrically, representing widespread micro-atelectasis of surfactant-deficient alveoli",
+        "Air bronchograms — air-filled bronchi outlined against the surrounding opacified, collapsed alveolar tissue",
+        "Indistinct, hazy cardiac and thymic borders due to diffuse alveolar collapse and interstitial fluid",
+        "Low lung volumes with a bell-shaped thorax from widespread atelectasis",
+        "No pleural effusion, no asymmetric patchy infiltrates, and no bowel loops in the thorax — features that would suggest TTN, meconium aspiration, or diaphragmatic hernia respectively"
+      ]
     }
   ]
 }

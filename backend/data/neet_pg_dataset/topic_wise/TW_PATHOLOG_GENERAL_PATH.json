@@ -5,492 +5,526 @@
   "topic": "General Pathology",
   "total_questions": 21,
   "difficulty_distribution": {
-    "Easy": 21
+    "Easy": 3,
+    "Medium": 5,
+    "Hard": 9,
+    "Very Hard": 4
   },
-  "created_at": "2026-05-30",
+  "created_at": "2026-06-21",
   "questions": [
+
     {
       "question_id": "TW_PATHOLOG_GENERAL_PATH_Q001",
       "paper_type": "topic_wise",
       "paper_ref": "TW_PATHOLOG_GENERAL_PATH",
       "subject": "Pathology",
       "topic": "General Pathology",
-      "subtopic": null,
+      "subtopic": "Cell Cycle — Labile, Stable, Permanent Cells",
       "difficulty": "Easy",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Stable cells include?",
+      "question_text": "A 45-year-old man undergoes partial hepatectomy for a benign liver adenoma. Postoperatively, the remnant liver regenerates to near-normal volume within 6 weeks. Which cell cycle category best describes hepatocytes, and what is the molecular trigger for their re-entry into the cell cycle after partial hepatectomy?",
       "options": {
-        "A": "Neurons",
-        "B": "Cardiac myocytes",
-        "C": "Hepatocytes",
-        "D": "Erythrocytes"
+        "A": "Labile cells; triggered by stem cell factor (SCF) from bone marrow",
+        "B": "Stable (quiescent) cells in G0; re-enter the cell cycle triggered by hepatocyte growth factor (HGF), EGF, and TGF-α released after hepatic injury and loss of mass",
+        "C": "Permanent cells; regeneration occurs through hypertrophy of remaining hepatocytes only, not cell division",
+        "D": "Labile cells; constitutively proliferating via Wnt/β-catenin signalling without external trigger"
       },
-      "correct_answer": "C",
-      "explanation": "Cell cycle: Labile (always dividing: epithelium, bone marrow), Stable (G0, can re-enter: hepatocytes, renal tubular cells), Permanent (terminally differentiated: neurons, cardiac myocytes)."
+      "correct_answer": "B",
+      "explanation": "Cell populations are classified by proliferative capacity: Labile (continuously dividing, never leave the cell cycle) — surface epithelia (skin, GIT, respiratory tract), bone marrow haematopoietic cells, germinal epithelium; Stable (quiescent, in G0, but can re-enter cell cycle on demand) — hepatocytes, renal tubular cells, smooth muscle cells, fibroblasts, endothelial cells, pancreatic acinar cells, osteoblasts; Permanent (terminally differentiated, cannot divide) — neurons, cardiac myocytes, skeletal muscle cells. After 70% partial hepatectomy, HGF (from Kupffer cells, stellate cells, and platelets) binds MET receptor on hepatocytes → Ras/MAPK and PI3K/AKT signalling → G1 entry → hepatocyte proliferation. EGF and TGF-α amplify this response. The liver regains full mass within 6–8 weeks — a striking demonstration of stable cell regenerative capacity. TGF-β acts as the 'stop signal' when mass is restored. This concept is commonly tested as: hepatocytes = stable cells = can regenerate after injury, unlike neurons (permanent) or unlike gut epithelium (labile — always proliferating)."
     },
+
     {
       "question_id": "TW_PATHOLOG_GENERAL_PATH_Q002",
       "paper_type": "topic_wise",
       "paper_ref": "TW_PATHOLOG_GENERAL_PATH",
       "subject": "Pathology",
       "topic": "General Pathology",
-      "subtopic": null,
+      "subtopic": "Immunodeficiency — Recurrent Infections and Pathogen Patterns",
       "difficulty": "Easy",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A child presents with recurrent respiratory tract infections. Most likely organism?",
+      "question_text": "A 6-month-old male infant presents with recurrent severe bacterial infections including pneumonia and septicaemia since 4 months of age. His maternal uncle died in infancy from similar infections. Serum immunoglobulins: IgG <100 mg/dL (markedly low), IgA and IgM undetectable. Flow cytometry: CD19+ B cells absent; CD3+ T cells normal. Which of the following best describes the underlying immunodeficiency and the most commonly implicated organism in such patients?",
       "options": {
-        "A": "Staphylococcus aureus",
-        "B": "Klebsiella",
-        "C": "Pseudomonas",
-        "D": "E. coli"
+        "A": "DiGeorge syndrome (T-cell deficiency); most common organism is Pneumocystis jirovecii",
+        "B": "X-linked agammaglobulinaemia (Bruton's disease) — BTK gene mutation on Xq22 → failure of pre-B to mature B cell differentiation → absent circulating B cells and absent immunoglobulins of all classes; most common organisms are encapsulated bacteria (Streptococcus pneumoniae, Haemophilus influenzae, Staphylococcus aureus) — without opsonising antibodies, these cannot be phagocytosed effectively",
+        "C": "Common variable immunodeficiency (CVID); presents in adolescence; low IgG with normal B cell numbers",
+        "D": "Severe combined immunodeficiency (SCID); both T and B cells absent; most common organism is Candida"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Pathology concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "X-linked agammaglobulinaemia (XLA — Bruton, 1952): X-linked recessive, affects males (maternal uncle pattern). Mutation in BTK (Bruton's tyrosine kinase) gene on Xq22 — BTK is essential for pre-B cell receptor signalling → pre-B cells cannot mature into B cells → absent circulating B cells (CD19−) and absent all immunoglobulin classes. Maternal IgG protects infants until ~4–6 months (transferred transplacentally) — hence infections begin after 4–6 months when maternal antibodies wane. Absent antibodies → failure of opsonisation → susceptibility to encapsulated bacteria (Streptococcus pneumoniae, H. influenzae type b, Neisseria meningitidis, Staphylococcus aureus, Klebsiella). Also susceptible to enteroviruses (echovirus meningoencephalitis — as humoral immunity is critical for viral clearance). T cell function is intact → not susceptible to fungi, intracellular organisms, or opportunistic infections (unlike SCID). Treatment: monthly IVIG (intravenous immunoglobulin) for life. Differential: CVID (acquired, presents age 20–30, both sexes, B cells present but dysfunctional — cannot class-switch); Selective IgA deficiency (most common primary immunodeficiency — isolated IgA deficiency, recurrent mucosal infections, anaphylaxis to blood products)."
     },
+
     {
       "question_id": "TW_PATHOLOG_GENERAL_PATH_Q003",
       "paper_type": "topic_wise",
       "paper_ref": "TW_PATHOLOG_GENERAL_PATH",
       "subject": "Pathology",
       "topic": "General Pathology",
-      "subtopic": null,
+      "subtopic": "Necrosis — Types and Organ-specific Patterns",
       "difficulty": "Easy",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A patient presents with sudden painless loss of vision. Underlying mechanism?",
+      "question_text": "A 68-year-old man with atrial fibrillation develops sudden-onset left-sided weakness and aphasia. CT brain at 6 hours shows no haemorrhage. He dies on day 5. Autopsy of the brain at the area of infarction shows a soft, liquefied, cavity-like lesion with complete dissolution of tissue architecture. Which type of necrosis is this, and what is the principal reason the brain undergoes this pattern rather than the pattern seen in myocardial or renal infarction?",
       "options": {
-        "A": "Autoimmune destruction",
-        "B": "Type I hypersensitivity",
-        "C": "Fat necrosis",
-        "D": "Toxin-mediated injury"
+        "A": "Coagulative necrosis; because the brain has a high protein content that denatures rapidly on ischaemia",
+        "B": "Liquefactive necrosis; because the brain has a high lipid content and abundant hydrolytic enzymes (from neurons, oligodendroglia, and recruited microglia/neutrophils) with relatively little structural protein — enzymatic digestion overwhelms coagulation, resulting in complete liquefaction of the infarcted tissue",
+        "C": "Caseous necrosis; because the brain is prone to tuberculous involvement in elderly patients",
+        "D": "Fat necrosis; because white matter is predominantly composed of myelin (lipid) which undergoes saponification"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Pathology concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "Types of necrosis and their organ specificity: Coagulative necrosis — most common; ischaemia in solid organs (heart, kidney, spleen, liver); protein denaturation preserves cell 'ghost' outlines — architecture maintained despite cell death; caused by protein cross-linking from denatured enzymes; Liquefactive necrosis — brain infarction (ischaemia) AND any bacterial/fungal abscess anywhere; brain undergoes liquefactive necrosis because: (1) extremely high lipid content (myelin sheaths, cell membranes); (2) high concentration of hydrolytic enzymes (lysosomal hydrolases from neurons, astrocytes, microglia); (3) relatively low protein scaffold — enzymatic digestion vastly exceeds coagulation → complete tissue dissolution → cavity; Caseous necrosis — TB and some fungi (Histoplasma, Coccidioides); structureless cheese-like material; neither ghost outlines (coagulative) nor fluid (liquefactive) — amorphous eosinophilic debris; due to hypersensitivity and lipid-rich cell wall of mycobacteria; Fat necrosis — pancreatic (enzymatic — lipase cleaves triglycerides → fatty acid + calcium → calcium soaps/saponification) and traumatic (breast — mechanical disruption of fat cells); Fibrinoid necrosis — immune complex deposition in vessel walls (vasculitis, malignant hypertension, pre-eclampsia); Gangrenous necrosis — coagulative + liquefactive (wet gangrene with superimposed bacterial infection) or coagulative only (dry gangrene — atherosclerosis of limbs)."
     },
+
     {
       "question_id": "TW_PATHOLOG_GENERAL_PATH_Q004",
       "paper_type": "topic_wise",
       "paper_ref": "TW_PATHOLOG_GENERAL_PATH",
       "subject": "Pathology",
       "topic": "General Pathology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Wound Healing — Keloid vs Hypertrophic Scar",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Keloid vs hypertrophic scar: differentiating feature?",
+      "question_text": "A 24-year-old dark-skinned woman undergoes ear piercing. Six months later she develops a firm, raised, rubbery lesion at the piercing site that extends 2 cm beyond the original wound margins onto surrounding normal skin. It is progressively growing and is pruritic. A similar lesion developed after a burn on her forearm 2 years ago. Biopsy shows haphazardly arranged, thick, eosinophilic collagen bundles (keloid collagen). Which of the following correctly contrasts this lesion with a hypertrophic scar at the molecular level?",
       "options": {
-        "A": "Keloid stays within wound margins",
-        "B": "Hypertrophic scar extends beyond wound",
-        "C": "Keloid extends beyond wound margins",
-        "D": "Both are the same"
+        "A": "Both lesions contain predominantly Type I collagen; the only difference is the extent of scarring beyond wound margins",
+        "B": "Keloid: extends beyond wound margins, does not regress, predominantly Type III collagen (vs Type I in normal scar), increased TGF-β1 signalling driving fibroblast hyperproliferation and collagen overproduction, thick haphazard collagen bundles, absent myofibroblasts; hypertrophic scar: stays within wound margins, may regress spontaneously (6–18 months), predominantly Type III collagen (same as keloid) but collagen arranged in nodular whorled pattern with abundant myofibroblasts (α-SMA positive), responds better to compression therapy",
+        "C": "Hypertrophic scar contains Type III collagen; keloid contains Type I collagen — this reversal of the normal collagen ratio distinguishes them histologically",
+        "D": "Keloid is caused by infection at the wound site; hypertrophic scar is caused by excessive mechanical tension; collagen type is identical in both"
       },
-      "correct_answer": "C",
-      "explanation": "Keloid: extends BEYOND wound margins, does not regress spontaneously, type III > type I collagen, more common in dark skin. Hypertrophic: within margins, may regress."
+      "correct_answer": "B",
+      "explanation": "Wound healing scar disorders (high-yield NEET PG topic): Normal scar: initial Type III collagen (wound strength 70% of normal at 3 months) gradually remodelled by MMP collagenases to Type I collagen (tensile strength returns to 80% of original — never fully restored). Keloid: extends beyond wound margins (pathognomonic — distinguishes from hypertrophic scar); site predilection — earlobes, deltoid, presternal, jaw; familial tendency; more common in dark-skinned individuals; does NOT regress spontaneously; recurs after simple excision alone (25–100% recurrence); collagen: thick, haphazardly arranged, hypocellular, relatively acellular; molecular basis: excessive TGF-β1/β2 → fibroblast hyperactivation → failure of apoptosis of wound fibroblasts → ongoing collagen production beyond the wound healing period; treatment: triamcinolone acetonide intralesional injection + pressure + surgery (high recurrence unless combined modality). Hypertrophic scar: confined within wound margins; may regress 6–18 months after injury; associated with deep dermal burns, wounds crossing skin tension lines; collagen: nodular whorled pattern, abundant myofibroblasts (α-SMA+); responds to pressure garments and silicone sheets; molecular basis: TGF-β1 predominance (same as keloid but more localised), higher myofibroblast activity → wound contraction. Key exam distinction: Keloid = extends BEYOND wound margins; Hypertrophic = WITHIN margins."
     },
+
     {
       "question_id": "TW_PATHOLOG_GENERAL_PATH_Q005",
       "paper_type": "topic_wise",
       "paper_ref": "TW_PATHOLOG_GENERAL_PATH",
       "subject": "Pathology",
       "topic": "General Pathology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Necrosis — Coagulative vs Liquefactive, All Organs",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Coagulative necrosis is seen in all EXCEPT?",
+      "question_text": "A 55-year-old male with hypertension and diabetes presents with acute onset severe chest pain. Troponin I is 12 ng/mL (elevated). He is treated medically. On day 4, echocardiography shows a wall motion abnormality in the anterior wall. If a biopsy of the infarcted myocardium were taken at day 4, which histological changes would be expected, and which organ is the EXCEPTION to the organ that develops coagulative necrosis after ischaemic infarction?",
       "options": {
-        "A": "Myocardial infarction",
-        "B": "Renal infarction",
-        "C": "Brain infarction",
-        "D": "Splenic infarction"
+        "A": "Day 4 biopsy shows: neutrophil infiltration beginning to be replaced by macrophages and granulation tissue at the edges; exception organ is the liver (undergoes liquefactive necrosis due to high lipase content)",
+        "B": "Day 4 myocardium shows: coagulative necrosis — loss of nuclear staining (karyolysis/karyorrhexis/pyknosis), preserved ghost outlines of dead cardiomyocytes, heavy neutrophilic infiltrate (peak 24–72 hrs) now transitioning to macrophages beginning phagocytosis of debris; contraction band necrosis (hypereosinophilic transverse bands) at the periphery of the infarct where reperfusion occurred; exception organ = BRAIN — undergoes liquefactive necrosis (not coagulative) due to high lipid content, high hydrolytic enzyme activity, and low structural protein",
+        "C": "Day 4 biopsy shows: granuloma formation with giant cells; exception organ is the kidney (undergoes haemorrhagic infarction due to dual blood supply)",
+        "D": "Day 4 biopsy shows: fibrinoid necrosis with immunoglobulin deposition; no organ is an exception — all organs develop coagulative necrosis"
       },
-      "correct_answer": "C",
-      "explanation": "Brain infarction → LIQUEFACTIVE necrosis (rich in hydrolytic enzymes and fat). All other solid organs: coagulative necrosis (cell architecture preserved)."
+      "correct_answer": "B",
+      "explanation": "Timeline of myocardial infarction histology (must memorise for NEET PG): 0–4 hours: no light microscopy changes (wavy fibres on EM); 4–12 hours: early coagulative necrosis — hypereosinophilic fibres, beginning nuclear changes; 12–24 hours: frank coagulative necrosis, pyknosis/karyorrhexis; 1–3 days: peak neutrophilic infiltration (PMNs phagocytose debris); Day 3–7: macrophages replace neutrophils, phagocytosis of dead cells, granulation tissue begins at edges; 1–3 weeks: granulation tissue (fibroblasts + capillaries + collagen); >6 weeks: dense collagen scar (fibrous scar). Contraction band necrosis (hypereosinophilic transverse bands of contracted sarcomeres): occurs at periphery of infarct in areas of reperfusion; caused by calcium influx into dead cells following reperfusion → massive sarcomere contraction; also seen in catecholamine excess (phaeochromocytoma, cocaine toxicity). Coagulative necrosis: occurs in all ischaemic infarcts EXCEPT the brain. Organ distribution of necrosis types: Coagulative — heart, kidney, spleen, liver (zone 3/centrilobular in right heart failure — 'nutmeg liver'); Liquefactive — brain (ischaemia), and ALL abscesses (bacterial/fungal); Caseous — TB, Histoplasma; Fat necrosis — pancreas (enzymatic), breast (traumatic); Fibrinoid — vasculitis, autoimmune (SLE), malignant hypertension."
     },
+
     {
       "question_id": "TW_PATHOLOG_GENERAL_PATH_Q006",
       "paper_type": "topic_wise",
       "paper_ref": "TW_PATHOLOG_GENERAL_PATH",
       "subject": "Pathology",
       "topic": "General Pathology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Cell Death — Apoptosis: Intrinsic vs Extrinsic Pathways",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Apoptosis is characterized by?",
+      "question_text": "A 35-year-old woman is diagnosed with breast carcinoma. Tumour biopsy shows overexpression of BCL-2 protein. Her oncologist explains that BCL-2 overexpression is associated with tumour resistance to chemotherapy. Which of the following best explains the role of BCL-2 in the intrinsic apoptotic pathway and why its overexpression confers chemotherapy resistance?",
       "options": {
-        "A": "Cell swelling and lysis",
-        "B": "Cell shrinkage and nuclear condensation",
-        "C": "Inflammation",
-        "D": "Organelle swelling"
+        "A": "BCL-2 is a pro-apoptotic protein; its overexpression activates caspase-9 directly, causing tumour cell death — overexpression should increase sensitivity to chemotherapy",
+        "B": "BCL-2 is an anti-apoptotic protein located on the outer mitochondrial membrane; it inhibits BAX and BAK (pro-apoptotic BH123 proteins) from forming pores in the mitochondrial membrane, thereby preventing cytochrome c release; overexpression blocks the intrinsic (mitochondrial) apoptotic pathway — most chemotherapy drugs act by inducing DNA damage → p53 activation → upregulation of BAX → intrinsic pathway apoptosis; BCL-2 overexpression blocks this step → tumour cells survive despite DNA damage → chemotherapy resistance",
+        "C": "BCL-2 activates the extrinsic apoptotic pathway via FAS-L/FAS interaction; overexpression increases FAS signalling and caspase-8 activation, causing paradoxical resistance",
+        "D": "BCL-2 is a caspase-3 inhibitor located in the cytoplasm; it blocks the execution phase of apoptosis regardless of whether intrinsic or extrinsic pathways are activated"
       },
       "correct_answer": "B",
-      "explanation": "Apoptosis: programmed death, cell shrinkage, chromatin condensation (pyknosis), karyorrhexis, apoptotic bodies (phagocytosed — NO inflammation). Caspase-dependent."
+      "explanation": "Apoptosis pathways: Intrinsic (mitochondrial) pathway: triggered by DNA damage, oxidative stress, growth factor withdrawal, ER stress → p53 upregulates BAX, BID, BAD, BIM (pro-apoptotic BCL-2 family members with BH3 domains) → BAX/BAK oligomerise → mitochondrial outer membrane permeabilisation (MOMP) → cytochrome c released into cytosol → binds APAF-1 → forms apoptosome → activates caspase-9 → activates caspase-3 (executioner) → apoptosis. BCL-2, BCL-XL, MCL-1 (anti-apoptotic) — located on outer mitochondrial membrane — inhibit BAX/BAK by binding their BH3 domains. Extrinsic (death receptor) pathway: FAS (CD95) + FAS-L, TRAIL + DR4/DR5, TNF + TNFR1 → FADD adaptor → caspase-8 activation → caspase-3; BID bridges extrinsic to intrinsic. Apoptosis morphology: cell shrinkage (opposite of necrosis — swelling), chromatin condensation (pyknosis → karyorrhexis), membrane blebbing, apoptotic bodies (membrane-bound fragments phagocytosed by neighbouring cells/macrophages) → NO inflammation (intact membranes prevent DAMPs release). BCL-2 clinical relevance: overexpressed in follicular lymphoma (t(14;18) — BCL-2 gene juxtaposed to IgH enhancer → BCL-2 constitutively overexpressed); chronic lymphocytic leukaemia (CLL); treatment: venetoclax (selective BCL-2 inhibitor, BH3 mimetic) — approved for CLL and AML. Chemotherapy resistance via BCL-2: most cytotoxic drugs kill via intrinsic pathway (DNA damage → p53 → BAX) — BCL-2 blocks this terminal step."
     },
+
     {
       "question_id": "TW_PATHOLOG_GENERAL_PATH_Q007",
       "paper_type": "topic_wise",
       "paper_ref": "TW_PATHOLOG_GENERAL_PATH",
       "subject": "Pathology",
       "topic": "General Pathology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Acute Pancreatitis — Fat Necrosis and Pathogenesis",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A chronic alcoholic presents with abdominal pain radiating to the back. Best initial investigation?",
+      "question_text": "A 42-year-old alcoholic male presents with severe epigastric pain radiating to the back, vomiting, and fever. Serum amylase is 1800 U/L and lipase is 3200 U/L. CT abdomen shows pancreatic oedema with peripancreatic fat stranding and small fluid collections. Serum calcium is 6.8 mg/dL. Which of the following best explains the mechanism of hypocalcaemia in this clinical setting and the type of necrosis present in the peripancreatic fat?",
       "options": {
-        "A": "CT angiography",
-        "B": "MRI",
-        "C": "Ultrasound",
-        "D": "ECG"
+        "A": "Hypocalcaemia is due to vitamin D deficiency from alcoholism; peripancreatic fat shows coagulative necrosis due to ischaemia from thrombosis of peripancreatic vessels",
+        "B": "Hypocalcaemia results from enzymatic fat necrosis: activated pancreatic lipase cleaves triglycerides in peripancreatic fat cells into glycerol + free fatty acids → free fatty acids chelate calcium ions (saponification → calcium soaps — chalk-white deposits); this sequesters ionised calcium in the retroperitoneum → hypocalcaemia; the necrosis pattern is ENZYMATIC FAT NECROSIS — microscopically: shadowy outlines of dead fat cells (acellular ghost adipocytes), surrounded by basophilic granular calcium deposits (saponification), and an inflammatory infiltrate",
+        "C": "Hypocalcaemia is due to PTH suppression by hypomagnesaemia from alcoholism; peripancreatic fat shows caseous necrosis as seen in TB-related pancreatitis",
+        "D": "Hypocalcaemia is caused by acute tubular necrosis of the kidney reducing calcium reabsorption; the necrosis in peripancreatic fat is liquefactive due to neutrophilic infiltration"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Pathology concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "Acute pancreatitis — fat necrosis mechanism: Premature activation of trypsinogen → trypsin within pancreatic acinar cells → activates phospholipase A2 and lipase → lipase cleaves triglycerides in peripancreatic adipocytes → glycerol + free fatty acids (FFAs). FFAs are highly reactive → combine with calcium ions (Ca2+) forming insoluble calcium soaps (saponification, calcium stearate/palmitate) → white chalky deposits visible grossly at surgery (classic gross appearance of fat necrosis). This sequestration of calcium in the abdomen/retroperitoneum removes calcium from the systemic circulation → hypocalcaemia (serum Ca2+ <8 mg/dL is a Ranson criterion indicating severe pancreatitis, <7 mg/dL causes tetany). Microscopy of enzymatic fat necrosis: ghost outlines of adipocytes (cell membranes destroyed, cytoplasm replaced by saponified material), basophilic granular calcium deposits, surrounding acute inflammation. Traumatic fat necrosis (breast): mechanical destruction of adipocytes → lipid released → macrophage phagocytosis → fat-filled macrophages (lipophages) → foreign body giant cell reaction → fibrosis → firm breast lump mimicking carcinoma. Saponification = soap formation = key word for fat necrosis in exams. Hypocalcaemia in acute pancreatitis: also partly due to hypoalbuminaemia (total calcium low but ionised calcium may be normal) — always correct for albumin or measure ionised calcium."
     },
+
     {
       "question_id": "TW_PATHOLOG_GENERAL_PATH_Q008",
       "paper_type": "topic_wise",
       "paper_ref": "TW_PATHOLOG_GENERAL_PATH",
       "subject": "Pathology",
       "topic": "General Pathology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Calcification — Psammoma Bodies and Dystrophic vs Metastatic",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Psammoma bodies are seen in all EXCEPT?",
+      "question_text": "A 38-year-old woman presents with a neck swelling. Fine needle aspiration cytology shows papillary clusters of follicular cells with nuclear grooves, nuclear pseudo-inclusions (Orphan Annie eye nuclei), and small concentric lamellated calcified structures within the tissue fragments. Serum calcium is normal. Which of the following correctly identifies the type of calcification, the mechanism of its formation, and the tumours where it is characteristically found?",
       "options": {
-        "A": "Papillary thyroid Ca",
-        "B": "Meningioma",
-        "C": "Serous cystadenocarcinoma ovary",
-        "D": "Mucinous adenocarcinoma colon"
+        "A": "Metastatic calcification — calcium deposited in normal tissue due to hypercalcaemia; seen in hyperparathyroidism and sarcoidosis",
+        "B": "Psammoma bodies — a form of dystrophic calcification (calcium deposits in dead or degenerating tissue with normal serum calcium); formed by concentric lamellated hydroxyapatite deposition around a necrotic tumour cell core (initiated by apoptotic cell death → membrane calcification → progressive concentric mineral deposition → lamellated 'onion-skin' whorls); classically found in: papillary thyroid carcinoma, serous cystadenocarcinoma of the ovary, meningioma, papillary renal cell carcinoma, and Mesothelioma — NOT found in mucinous tumours (follicular thyroid Ca, mucinous ovarian Ca, medullary thyroid Ca)",
+        "C": "Psammoma bodies are a form of metastatic calcification; they indicate hypercalcaemia and are found in all thyroid tumours equally",
+        "D": "Dystrophic calcification with normal morphology; seen specifically in Hashimoto's thyroiditis and indicates autoimmune destruction"
       },
-      "correct_answer": "D",
-      "explanation": "Psammoma bodies: concentric calcified lamellations. Seen in papillary thyroid Ca, meningioma, serous ovarian Ca, papillary renal Ca. NOT mucinous tumors."
+      "correct_answer": "B",
+      "explanation": "Calcification types: Dystrophic calcification: calcium deposition in DEAD, NECROTIC, or DEGENERATING tissue; serum calcium NORMAL; no metabolic derangement; examples: atherosclerotic plaques, tuberculous caseous necrosis (Ghon complex calcification), psammoma bodies in tumours, calcification in old haematoma, calcium deposits in damaged heart valves. Metastatic calcification: calcium deposition in NORMAL, VIABLE tissue; caused by HYPERCALCAEMIA or hyperphosphataemia; systemic calcium/phosphate derangement; sites: lungs (alveolar septa), kidney (nephrocalcinosis), gastric mucosa, blood vessels, cornea; causes: hyperparathyroidism, hypervitaminosis D, milk-alkali syndrome, sarcoidosis, multiple myeloma, widespread bone metastases. Psammoma bodies (Greek: psammos = sand): concentric lamellated calcified spherules (onion-skin layers of calcium phosphate); mechanism: apoptotic/necrotic tumour cell → membrane serves as nidus → calcium deposition → progressive layering → psammoma body; the concentric layers reflect episodic calcification. Mnemonic for tumours with psammoma bodies — PSaMMoma: Papillary thyroid carcinoma, Serous ovarian carcinoma (cystadenocarcinoma), Meningioma, Mesothelioma (and papillary renal cell Ca). NOT in: follicular thyroid Ca, medullary thyroid Ca (amyloid stroma instead), mucinous ovarian Ca, Hurthle cell carcinoma. Clinical significance: psammoma bodies on FNA of thyroid → strong evidence of papillary thyroid carcinoma even without other nuclear features."
     },
+
     {
       "question_id": "TW_PATHOLOG_GENERAL_PATH_Q009",
       "paper_type": "topic_wise",
       "paper_ref": "TW_PATHOLOG_GENERAL_PATH",
       "subject": "Pathology",
       "topic": "General Pathology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Chronic Inflammation — Granuloma Formation and Caseation",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A chronic smoker presents with hemoptysis and weight loss. Underlying mechanism?",
+      "question_text": "A 30-year-old man presents with fever, night sweats, weight loss, and productive cough for 8 weeks. Sputum AFB smear is positive. Lung biopsy shows a granuloma consisting of a central area of structureless eosinophilic debris surrounded by epithelioid macrophages, Langhans giant cells, and a peripheral rim of lymphocytes. Which cytokine is the MOST CRITICAL for granuloma formation and maintenance, and what is the mechanism of caseation specific to mycobacterial infection?",
       "options": {
-        "A": "Autoimmune destruction",
-        "B": "Type I hypersensitivity",
-        "C": "Fat necrosis",
-        "D": "Toxin-mediated injury"
+        "A": "IL-4 is the critical cytokine; caseation is caused by direct cytotoxicity of mycobacterial exotoxins on macrophages",
+        "B": "IFN-γ (interferon-gamma) is the master regulator of granuloma formation — secreted by CD4+ Th1 cells (activated by IL-12 from macrophages) → IFN-γ activates macrophages to become epithelioid cells (increased phagocytic and secretory activity) and fuse into giant cells; caseation in TB is caused by: (1) delayed-type hypersensitivity (Type IV) — T cell-mediated immune response; (2) mycobacterial cell wall lipids (mycolic acid, cord factor/trehalose-6,6'-dimycolate) trigger TNF-α release and macrophage death; (3) the necrotic material is a mixture of dead macrophages, lymphocytes, and lipid from mycobacterial walls — the high lipid content gives the cheese-like gross appearance; anti-TNF therapy (infliximab, adalimumab) disrupts granuloma integrity → reactivation of latent TB",
+        "C": "IL-13 is the critical cytokine; caseation is caused by complement-mediated lysis of macrophages trapped in granuloma",
+        "D": "TNF-α alone is sufficient for granuloma formation without IFN-γ; caseation is fibrinoid necrosis caused by immune complex deposition"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Pathology concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "Granuloma formation sequence: Macrophage encounters non-digestible antigen (mycobacteria, fungi, foreign body, silica) → processed by MHC II → presented to CD4+ T cells → IL-12 secreted by macrophages → drives Th1 differentiation → Th1 cells secrete IFN-γ → IFN-γ activates macrophages → epithelioid cells (modified macrophages: abundant cytoplasm, reduced phagocytic function, increased secretory function) → some fuse → Langhans giant cells (nuclei arranged in horseshoe/periphery); others = foreign body giant cells (nuclei randomly arranged). Granuloma structure: Central necrosis (caseation in TB/fungi) → epithelioid macrophages → Langhans giant cells → lymphocytes → fibroblasts (peripheral fibrous rim). Caseation necrosis mechanism: unique to TB and some fungi; caused by combination of: (1) DTH/Type IV hypersensitivity reaction — excessive Th1 response → macrophage apoptosis/necrosis; (2) cord factor (trehalose-6,6'-dimycolate) — mycobacterial virulence factor → inhibits phagosome-lysosome fusion, directly toxic to mitochondria → macrophage death; (3) mycolic acid and other cell wall lipids → released from dead mycobacteria → accumulate in the necrotic centre → give the 'cheesy' consistency and cream-white gross appearance. Granuloma types: Caseating — TB, Histoplasma, Cryptococcus, Coccidioides, leprosy (tuberculoid); Non-caseating — Sarcoidosis, Crohn's disease, Berylliosis, Cat-scratch disease, foreign body reaction, Wegener's (GPA). Clinical implication of anti-TNF: TNF-α is required to maintain granuloma integrity (macrophage survival and epithelioid transformation). Biologics (infliximab, adalimumab, etanercept) → granuloma breakdown → TB reactivation risk; mandatory TB screening (TST/IGRA) before starting any anti-TNF therapy."
     },
+
     {
       "question_id": "TW_PATHOLOG_GENERAL_PATH_Q010",
       "paper_type": "topic_wise",
       "paper_ref": "TW_PATHOLOG_GENERAL_PATH",
       "subject": "Pathology",
       "topic": "General Pathology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Thromboembolism — Virchow's Triad and DVT/PE",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A chronic smoker presents with hemoptysis and weight loss. Most appropriate management?",
+      "question_text": "A 58-year-old woman undergoes total hip replacement for osteoarthritis. On day 4 post-operatively, she develops sudden-onset breathlessness, pleuritic chest pain, and haemoptysis. SpO2 is 90% on room air. ECG shows S1Q3T3 pattern. CT pulmonary angiography confirms bilateral pulmonary emboli. D-dimer is markedly elevated. Which component of Virchow's triad is PREDOMINANTLY responsible for this patient's thromboembolic event, and what specific molecular mechanism underlies endothelial injury-related thrombosis?",
       "options": {
-        "A": "IV fluids and insulin",
-        "B": "Observation",
-        "C": "Steroids only",
-        "D": "Oral antibiotics"
+        "A": "Hypercoagulability predominantly; caused by factor V Leiden mutation activated by surgery",
+        "B": "All three components of Virchow's triad (stasis, endothelial injury, hypercoagulability) contribute, but STASIS predominates in post-operative DVT: prolonged immobilisation → reduced venous flow → loss of laminar flow → platelets contact activated endothelium → thrombus; endothelial injury from surgical trauma exposes subendothelial collagen + von Willebrand factor → platelet adhesion (GPIb-vWF) → platelet activation → TXA2 + ADP release → platelet aggregation (GPIIb/IIIa — fibrinogen bridges) → activation of extrinsic coagulation (TF/VIIa) and intrinsic pathway → fibrin clot",
+        "C": "Hyperviscosity predominantly; caused by dehydration during surgery → increased packed cell volume → red cell aggregation → thrombus",
+        "D": "Endothelial injury exclusively; stasis plays no role in post-operative thrombosis as calf muscle pump is activated by anaesthesia"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Pathology concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "Virchow's triad (Rudolf Virchow, 1856): three conditions predisposing to thrombosis: (1) Endothelial injury/dysfunction: loss of thromboresistant surface (NO, prostacyclin, thrombomodulin, tissue plasminogen activator); exposure of subendothelial collagen and vWF; activation of TF (tissue factor) on damaged endothelium → extrinsic pathway; (2) Abnormal blood flow (stasis or turbulence): stasis — loss of laminar flow, platelets contact endothelium, prevents dilution of activated clotting factors by fresh blood, impairs inflow of clotting inhibitors; seen in: atrial fibrillation, post-operative immobility, varicose veins; turbulence — at aneurysm/atherosclerotic plaque → endothelial injury; (3) Hypercoagulability: primary (inherited) — factor V Leiden (resistance to APC — most common hereditary thrombophilia), prothrombin G20210A mutation, protein C/S deficiency, antithrombin III deficiency, MTHFR mutation (hyperhomocysteinaemia); secondary (acquired) — OCP, pregnancy, malignancy (Trousseau syndrome — migratory thrombophlebitis), nephrotic syndrome (antithrombin III lost in urine), heparin-induced thrombocytopenia (HIT), antiphospholipid syndrome. Post-operative DVT/PE: stasis (immobility) + endothelial injury (surgical trauma) + transient hypercoagulability (acute phase reactants, platelet activation) = all three components. Prevention: LMWH prophylaxis + TED stockings + early mobilisation. ECG in PE: S1Q3T3 (S wave in lead I, Q wave and inverted T wave in lead III) — most specific; sinus tachycardia = most common ECG finding in PE. D-dimer: very high sensitivity (good to RULE OUT PE), low specificity (elevated in many conditions — not diagnostic)."
     },
+
     {
       "question_id": "TW_PATHOLOG_GENERAL_PATH_Q011",
       "paper_type": "topic_wise",
       "paper_ref": "TW_PATHOLOG_GENERAL_PATH",
       "subject": "Pathology",
       "topic": "General Pathology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Pre-eclampsia — Pathogenesis and Fibrinoid Necrosis",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A pregnant woman presents with hypertension and proteinuria. Most likely organism?",
+      "question_text": "A 26-year-old primigravida at 34 weeks gestation presents with headache, visual disturbances, and swelling of face and hands. BP is 158/104 mmHg. Urinalysis shows 3+ proteinuria. Investigations: platelets 88,000/mm³, LDH 680 U/L, serum AST 92 U/L. Peripheral smear shows schistocytes. Renal biopsy (if performed) would show glomerular endotheliosis. Which of the following correctly describes the pathophysiology of this condition and the type of vascular necrosis seen in spiral arteries in severe cases?",
       "options": {
-        "A": "Staphylococcus aureus",
-        "B": "Klebsiella",
-        "C": "Pseudomonas",
-        "D": "E. coli"
+        "A": "Pre-eclampsia is caused by placental abruption → haemorrhage → endothelial activation; spiral arteries show coagulative necrosis",
+        "B": "Pre-eclampsia (and HELLP syndrome — Haemolysis, Elevated Liver enzymes, Low Platelets): caused by failure of physiological trophoblastic invasion of spiral arteries (normally, extravillous trophoblasts invade and remodel spiral arteries into low-resistance, high-capacitance vessels by replacing smooth muscle with fibrinoid material — 'physiological conversion'); in pre-eclampsia, shallow trophoblastic invasion → spiral arteries remain high-resistance → uteroplacental ischaemia → placenta releases sFLT-1 (soluble VEGF receptor, anti-angiogenic) and sENG (soluble endoglin) → systemic endothelial dysfunction → hypertension, proteinuria (glomerular endotheliosis — swollen endothelial cells occlude glomerular capillaries), oedema; severe pre-eclampsia → fibrinoid necrosis of vessel walls (Type III/fibrinoid necrosis — plasma proteins including fibrin impregnate necrotic vessel wall) in myometrium and other organs",
+        "C": "Pre-eclampsia is a Type III hypersensitivity (immune complex) reaction to fetal antigens; spiral arteries show liquefactive necrosis from neutrophil infiltration",
+        "D": "Pre-eclampsia results from maternal cardiac failure reducing placental perfusion; vascular necrosis is caseous, similar to TB, due to granuloma formation"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Pathology concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "Pre-eclampsia pathogenesis (two-stage model): Stage 1 (early, asymptomatic, before 20 weeks): abnormal placentation — failure of physiological transformation of spiral arteries. Normally, extravillous cytotrophoblasts invade the decidua and myometrial spiral arteries, replacing the tunica media smooth muscle and elastic tissue with fibrinoid material → converting high-resistance muscular arteries into low-resistance, dilated, high-flow, low-pressure uteroplacental vessels. In pre-eclampsia, this invasion is shallow → spiral arteries retain their musculoelastic structure → remain vasoconstriction-capable → uteroplacental ischaemia/hypoxia. Stage 2 (symptomatic, >20 weeks): ischaemic/hypoxic placenta releases anti-angiogenic factors — sFLT-1 (soluble FMS-like tyrosine kinase 1; acts as a VEGF 'sink', neutralising circulating VEGF and PIGF) and sENG (soluble endoglin; blocks TGF-β signalling) → systemic endothelial dysfunction → (1) hypertension (loss of NO and prostacyclin vasodilation); (2) proteinuria — glomerular endotheliosis (characteristic renal lesion: swollen, vacuolated glomerular endothelial cells obliterating capillary lumens — diagnosed on EM or renal biopsy); (3) oedema (increased capillary permeability). HELLP syndrome: severe pre-eclampsia complication — Haemolysis (microangiopathic — schistocytes, elevated LDH), Elevated Liver enzymes (hepatic sinusoidal fibrin deposition → periportal necrosis), Low Platelets (consumption in microthrombi). Fibrinoid necrosis of spiral arteries in severe pre-eclampsia: plasma proteins (fibrin, immunoglobulins, complement) impregnate the necrotic vessel wall → eosinophilic fibrillar material replacing the normal wall architecture → 'acute atherosis' (lipid-laden macrophages in the vessel wall, similar to early atherosclerosis — specifically associated with pre-eclampsia)."
     },
+
     {
       "question_id": "TW_PATHOLOG_GENERAL_PATH_Q012",
       "paper_type": "topic_wise",
       "paper_ref": "TW_PATHOLOG_GENERAL_PATH",
       "subject": "Pathology",
       "topic": "General Pathology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Pulmonary Embolism — Pathogenesis and Infarction Pattern",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A patient develops acute breathlessness after prolonged immobilization. Most likely diagnosis?",
+      "question_text": "A 65-year-old bed-ridden cancer patient develops sudden pleuritic chest pain and haemoptysis. CT pulmonary angiogram confirms a saddle embolus at the bifurcation of the pulmonary trunk. Echocardiography shows right ventricular (RV) dilatation with D-sign (flattening of the interventricular septum). Troponin I is elevated. Which of the following best explains why pulmonary infarction is relatively uncommon despite pulmonary embolism, and what the elevated troponin indicates in this context?",
       "options": {
-        "A": "Pulmonary embolism",
-        "B": "Acute pancreatitis",
-        "C": "Aortic dissection",
-        "D": "DKA"
+        "A": "Pulmonary infarction is uncommon because the bronchial arteries always provide sufficient collateral supply regardless of embolus size; elevated troponin indicates concurrent acute MI from coronary spasm",
+        "B": "Pulmonary infarction is uncommon because the lung has a DUAL blood supply (pulmonary artery + bronchial artery from aorta); small-medium emboli are compensated by bronchial artery collaterals → no infarction (just haemorrhage); infarction occurs only when: (1) embolus is large/peripheral blocking both supplies, (2) pre-existing cardiopulmonary disease (left heart failure, COPD) impairs bronchial artery collateral flow — infarction pattern: haemorrhagic, wedge-shaped, pleural-based (Hampton's hump on CXR); elevated troponin indicates RIGHT VENTRICULAR MYOCARDIAL INJURY/NECROSIS — massive PE → acute RV pressure overload → RV wall tension exceeds RV coronary perfusion pressure → subendocardial RV ischaemia → RV myocardial necrosis → troponin leak; this is a marker of severity and indicates high-risk PE (haemodynamic compromise + RV dysfunction + troponin elevation = massive PE → systemic thrombolysis or catheter-directed therapy)",
+        "C": "Pulmonary infarction is uncommon because alveolar oxygen diffusion directly sustains lung parenchyma without blood supply; elevated troponin is a false positive due to cross-reactivity with pulmonary surfactant proteins",
+        "D": "Pulmonary infarction always occurs with any pulmonary embolism; the elevated troponin reflects hepatic injury from right heart failure causing Budd-Chiari syndrome"
       },
-      "correct_answer": "C",
-      "explanation": "Integrated Pathology concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "Pulmonary embolism consequences depend on embolus size and cardiopulmonary reserve: (1) Massive PE (>50% obstruction or haemodynamic compromise): acute cor pulmonale — sudden RV pressure overload → RV dilatation → D-sign on echo (RV pressure exceeds LV → IVS bows toward LV) → reduced LV filling (RV dilation compresses LV) → reduced cardiac output → cardiogenic shock → death. Troponin elevation: RV wall tension increases → RV subendocardial ischaemia (RV coronary supply from aortic root pressure; if RV pressure = aortic pressure, coronary perfusion stops) → RV myonecrosis → troponin release; indicates RV myocardial damage = high-risk PE. (2) Submassive PE (RV dysfunction without haemodynamic compromise): intermediate risk. (3) Small PE: low risk, often clinically silent. Why pulmonary infarction is uncommon: lung parenchyma has three oxygen sources: pulmonary artery, bronchial artery (systemic), and direct oxygen diffusion from alveolar air. Small-moderate emboli → bronchial artery maintains viability → haemorrhagic pulmonary haemorrhage (blood extravasates from infarcted capillaries into alveoli) without true infarction. True pulmonary infarction requires: peripheral embolus + compromised bronchial circulation (L-heart failure = elevated venous pressure impairs bronchial drainage; COPD = diseased bronchial vessels). Pulmonary infarction morphology: haemorrhagic, wedge-shaped, pleural-based lesion; overlying pleuritis (friction rub, pleuritic pain); CXR — Hampton's hump (dome-shaped pleural-based opacity). Treatment of massive PE: systemic thrombolysis (alteplase) if no contraindications; catheter-directed thrombolysis or surgical embolectomy if thrombolysis contraindicated; anticoagulation (LMWH/UFH) for non-massive PE."
     },
+
     {
       "question_id": "TW_PATHOLOG_GENERAL_PATH_Q013",
       "paper_type": "topic_wise",
       "paper_ref": "TW_PATHOLOG_GENERAL_PATH",
       "subject": "Pathology",
       "topic": "General Pathology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Aortic Dissection — Cystic Medial Necrosis and Pathogenesis",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A patient develops sudden severe tearing chest pain radiating to the back. Underlying mechanism?",
+      "question_text": "A 35-year-old tall, thin man with arm span exceeding height and lens subluxation presents with sudden severe tearing chest pain radiating to the back. CT angiogram shows an intimal tear at the ascending aorta with a false lumen extending to the descending aorta (DeBakey Type I). He is taken emergently to the operating theatre. The aortic wall histology shows loss of elastic fibres, degeneration of smooth muscle cells, and accumulation of basophilic ground substance (pools of mucoid material) within the media. Which pathological process underlies aortic dissection in this patient, and what is the molecular defect?",
       "options": {
-        "A": "Autoimmune destruction",
-        "B": "Type I hypersensitivity",
-        "C": "Fat necrosis",
-        "D": "Toxin-mediated injury"
+        "A": "Atherosclerosis of the aortic intima is the primary underlying defect; lipid deposition in the media weakens it",
+        "B": "Cystic medial necrosis (Erdheim's medionecrosis): degeneration of elastic fibres and smooth muscle cells in the tunica media with accumulation of mucoid/myxoid ground substance (pools of proteoglycans — hence 'cystic' spaces on histology); in Marfan syndrome — FBN1 gene mutation (chromosome 15q21) → defective fibrillin-1 → loss of microfibrils → structural weakness of elastic fibres in aortic media + excess TGF-β signalling (fibrillin normally sequesters TGF-β) → increased TGF-β → smooth muscle cell apoptosis → medial degeneration → aortic root dilatation → predisposition to dissection; clinical features: tall stature, arm span > height, arachnodactyly, lens subluxation (ectopia lentis — upward), high-arched palate, mitral valve prolapse, aortic root aneurysm",
+        "C": "Fibromuscular dysplasia — proliferation of medial smooth muscle cells causing dissection; occurs in middle-aged women affecting renal and carotid arteries preferentially",
+        "D": "Polyarteritis nodosa — segmental necrotising vasculitis of medium-sized vessels; affects the aorta in young males with FBN2 mutations"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Pathology concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "Aortic dissection pathology — cystic medial necrosis (CMN): histological term for degeneration of the aortic media seen in Marfan syndrome, Ehlers-Danlos syndrome (Type IV — COL3A1 mutation, type III collagen defect), and idiopathic aortic dissection (hypertension-related). CMN features: loss/fragmentation of elastic fibres, smooth muscle cell dropout (apoptosis), replacement by basophilic mucoid ground substance (glycosaminoglycans/proteoglycans) → the 'cystic' spaces contain mucoid material (not true cysts). The weakened media cannot withstand the pulsatile haemodynamic stress of each cardiac cycle → intimal tear → blood dissects along the media plane → false lumen. DeBakey classification: Type I — intimal tear in ascending aorta, dissection extends to descending aorta; Type II — confined to ascending aorta; Type III — originates in descending aorta (at or distal to left subclavian artery). Stanford: Type A — involves ascending aorta (I+II) → surgical emergency; Type B — descending only (III) → medical management (BP control). Marfan syndrome (FBN1, 15q21, autosomal dominant): aortic root dilatation (95%) → aortic regurgitation → aortic dissection → most common cause of death; also mitral valve prolapse, ectopia lentis (upward — vs homocystinuria: downward), tall stature, arachnodactyly, pectus excavatum. Loeys-Dietz syndrome (TGFBR1/2 mutation): similar to Marfan but with bifid uvula and arterial tortuosity. Ehlers-Danlos IV (COL3A1): arterial, intestinal, uterine rupture — most dangerous EDS subtype."
     },
+
     {
       "question_id": "TW_PATHOLOG_GENERAL_PATH_Q014",
       "paper_type": "topic_wise",
       "paper_ref": "TW_PATHOLOG_GENERAL_PATH",
       "subject": "Pathology",
       "topic": "General Pathology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Granulomatous Inflammation — Classification and Distinguishing Features",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Granulomatous inflammation is caused by all EXCEPT?",
+      "question_text": "A 28-year-old man undergoes colonoscopy for chronic diarrhoea and rectal bleeding. Biopsies show transmural chronic inflammation, non-caseating granulomas in the submucosa, and skip lesions. Serum ACE is normal. A second patient, a 35-year-old woman, has bilateral hilar lymphadenopathy, raised serum ACE, hypercalcaemia, and non-caseating granulomas on transbronchial biopsy. Which single feature BEST distinguishes sarcoidosis granulomas from Crohn's disease granulomas histologically, and what causes hypercalcaemia specifically in sarcoidosis?",
       "options": {
-        "A": "TB",
-        "B": "Sarcoidosis",
-        "C": "Acute appendicitis",
-        "D": "Crohn's disease"
+        "A": "Sarcoidosis granulomas contain caseation; Crohn's granulomas are non-caseating — this is the distinguishing feature; hypercalcaemia is due to osteoclast activation by IL-1",
+        "B": "Sarcoidosis granulomas characteristically contain asteroid bodies (star-shaped eosinophilic inclusions within giant cells) and Schaumann bodies (concentric calcified lamellated inclusions — a form of dystrophic calcification within giant cells), which are absent or very rare in Crohn's; hypercalcaemia in sarcoidosis is caused by 1-alpha-hydroxylase activity in activated macrophages/epithelioid cells within granulomas → conversion of 25-hydroxyvitamin D to 1,25-dihydroxyvitamin D (calcitriol) → increased intestinal calcium absorption and bone resorption → hypercalcaemia (and hypercalciuria → renal stones)",
+        "C": "Crohn's granulomas are perivascular; sarcoidosis granulomas are submucosal — location alone distinguishes them; hypercalcaemia in sarcoidosis is due to PTH-related peptide secretion by granuloma macrophages",
+        "D": "The two conditions are histologically indistinguishable; clinical context alone differentiates them; hypercalcaemia in sarcoidosis is from bone marrow infiltration"
       },
-      "correct_answer": "C",
-      "explanation": "Non-caseating granulomas: sarcoidosis, Crohn's, foreign body, berylliosis. Caseating: TB, histoplasma, leprosy. Acute appendicitis = acute suppurative inflammation."
+      "correct_answer": "B",
+      "explanation": "Non-caseating granulomas: seen in sarcoidosis, Crohn's disease, foreign body reaction, berylliosis, cat-scratch disease, Wegener's (GPA), primary biliary cirrhosis, leprosy (lepromatous — but poorly formed), hypersensitivity pneumonitis. Distinguishing sarcoidosis from Crohn's histologically: both have tight, well-formed non-caseating epithelioid granulomas with Langhans giant cells; sarcoidosis-specific inclusions within giant cells: (1) Asteroid bodies — star-shaped eosinophilic inclusions (lipid crystalline material), highly characteristic of sarcoidosis; (2) Schaumann bodies (conchoid bodies) — concentric lamellated calcified inclusions (calcium and protein) within giant cells — dystrophic calcification within the granuloma. These inclusions are characteristic of sarcoidosis but may rarely occur in other granulomatous diseases. Crohn's granulomas: typically smaller, less well-formed, located anywhere in the bowel wall (transmural — pathognomonic), associated with fissuring ulcers, skip lesions, cobblestone mucosa — granulomas are a minor feature (only 30–40% of biopsies have granulomas). Sarcoidosis hypercalcaemia: unique mechanism — 1-alpha-hydroxylase in activated macrophages and epithelioid cells within granulomas autonomously produces 1,25-dihydroxyvitamin D (calcitriol) from circulating 25-hydroxyvitamin D → calcitriol increases intestinal calcium absorption (via calbindin D-9k upregulation) and stimulates osteoclastic bone resorption → hypercalcaemia; this production is NOT feedback-regulated (unlike renal 1-alpha-hydroxylase which is suppressed by high calcium) → hypercalcaemia persists. Treatment: corticosteroids suppress macrophage 1-alpha-hydroxylase → normalise calcium. Same mechanism in: Lymphomas (lymphoma cells produce calcitriol), Granulomatous infections (TB, histoplasmosis — rarely cause hypercalcaemia)."
     },
+
     {
       "question_id": "TW_PATHOLOG_GENERAL_PATH_Q015",
       "paper_type": "topic_wise",
       "paper_ref": "TW_PATHOLOG_GENERAL_PATH",
       "subject": "Pathology",
       "topic": "General Pathology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Lung Cancer — Smoking-related Carcinogenesis and Cell Types",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A chronic smoker presents with hemoptysis and weight loss. Best initial investigation?",
+      "question_text": "A 60-year-old man with a 40-pack-year smoking history presents with haemoptysis, weight loss, and a right hilar mass on CXR. Bronchoscopy shows a centrally located endobronchial lesion. Biopsy reveals malignant cells arranged in keratin pearls with intercellular bridges. He is also noted to have hypercalcaemia with normal PTH. Which of the following best identifies the tumour type, explains the hypercalcaemia, and describes the sequence of molecular carcinogenesis from normal bronchial epithelium to invasive carcinoma?",
       "options": {
-        "A": "CT angiography",
-        "B": "MRI",
-        "C": "Ultrasound",
-        "D": "ECG"
+        "A": "Small cell lung carcinoma (SCLC); hypercalcaemia from ACTH secretion; carcinogenesis involves c-KIT mutation as the first hit",
+        "B": "Squamous cell carcinoma of the lung (SqCC): centrally located, endobronchial, associated with squamous metaplasia → dysplasia → carcinoma in situ → invasive SqCC sequence; hypercalcaemia caused by PTHrP (PTH-related peptide) secretion by tumour cells → binds PTH receptor → bone resorption + renal calcium retention = humoral hypercalcaemia of malignancy (HHM); molecular carcinogenesis: tobacco carcinogens (polycyclic aromatic hydrocarbons, nitrosamines → form adducts with DNA → mutations) → TP53 mutation (early, chromosome 17p), CDKN2A/p16 loss (chromosome 9p, cell cycle checkpoint lost), PIK3CA, FGFR1 amplification, SOX2 amplification — EGFR mutations and ALK rearrangements are characteristically found in adenocarcinoma (non-smokers), NOT SqCC",
+        "C": "Adenocarcinoma of the lung; peripheral location; hypercalcaemia from bone metastases with osteoclast activation; carcinogenesis involves KRAS mutation as the initiating event in smokers",
+        "D": "Large cell carcinoma; hypercalcaemia from ectopic PTH secretion (not PTHrP); carcinogenesis involves c-MYC amplification as the primary event"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Pathology concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "Lung carcinoma classification (high-yield): Squamous cell carcinoma (SqCC): (1) most common in smokers (strong association); (2) CENTRAL location — arises from bronchial epithelium at segmental/lobar bronchi; (3) endobronchial growth → haemoptysis, obstructive pneumonia; (4) histology: keratin pearls (whorls of keratinised cells), intercellular bridges (desmosomes), individually keratinised cells; (5) paraneoplastic: PTHrP → humoral hypercalcaemia of malignancy (HHM); (6) cavitation common (squamous tumours tend to cavitate). Adenocarcinoma: (1) most common overall (now surpassing SqCC); (2) most common in non-smokers (especially women); (3) PERIPHERAL location — arises from Clara cells/type II pneumocytes; (4) histology: glandular formations, mucin production; (5) driver mutations: EGFR (exon 19 del, exon 21 L858R — targeted by erlotinib, gefitinib, osimertinib), ALK rearrangement (crizotinib, alectinib), ROS1 rearrangement, KRAS mutation (no targeted therapy). Small cell lung carcinoma (SCLC): (1) strongly linked to smoking; (2) central; (3) neuroendocrine — Kulchitsky cells; (4) histology: small blue cells, crush artifact, salt-and-pepper chromatin, neurosecretory granules; (5) paraneoplastic: ACTH (Cushing's), SIADH (hyponatraemia), Lambert-Eaton myasthenic syndrome (anti-VGCC antibodies), Eaton-Lambert; (6) almost never surgical — chemotherapy (platinum + etoposide); (7) Rb loss is universal in SCLC. Humoral hypercalcaemia of malignancy (HHM): PTHrP mimics PTH → PTH1R → bone resorption (osteoclast activation) + renal calcium reabsorption + renal phosphate excretion; PTH is LOW or suppressed (feedback inhibition); seen in SqCC lung, renal cell carcinoma, breast carcinoma, bladder carcinoma."
     },
+
     {
       "question_id": "TW_PATHOLOG_GENERAL_PATH_Q016",
       "paper_type": "topic_wise",
       "paper_ref": "TW_PATHOLOG_GENERAL_PATH",
       "subject": "Pathology",
       "topic": "General Pathology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Autoimmune Myositis — Dermatomyositis Pathogenesis",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A young woman presents with progressive proximal muscle weakness and rash. Most likely diagnosis?",
+      "question_text": "A 32-year-old woman presents with progressive proximal muscle weakness over 3 months (difficulty rising from a chair and combing hair), periorbital heliotrope rash, Gottron's papules over the knuckles, and V-sign erythema on the chest. CPK is 3800 U/L. Muscle biopsy shows perivascular and perimysial inflammatory infiltrate predominantly composed of CD4+ T cells and B cells, with perifascicular atrophy. Aldolase is elevated. Which of the following best describes the pathogenesis of this condition and the muscle biopsy finding that distinguishes it from polymyositis?",
       "options": {
-        "A": "Pulmonary embolism",
-        "B": "Acute pancreatitis",
-        "C": "Aortic dissection",
-        "D": "DKA"
+        "A": "Polymyositis; endomysial infiltrate of CD8+ T cells with MHC-I upregulation on muscle fibres; no perifascicular atrophy",
+        "B": "Dermatomyositis: humoral/complement-mediated microvasculopathy — complement activation (C5b-9 membrane attack complex) → deposition in endomysial capillaries → capillary necrosis and dropout → muscle ischaemia; perifascicular atrophy (atrophy of muscle fibres at the periphery of fascicles — farthest from blood supply, most ischaemic) is PATHOGNOMONIC of dermatomyositis and distinguishes it from polymyositis; inflammatory infiltrate is predominantly perivascular/perimysial (not endomysial) with CD4+ T cells and B cells (humoral); in contrast, polymyositis has endomysial CD8+ T cell infiltrate with direct cytotoxic T cell attack on MHC-I+ muscle fibres — no perifascicular atrophy",
+        "C": "Inclusion body myositis (IBM); rimmed vacuoles and eosinophilic inclusions on muscle biopsy; CD8+ endomysial infiltrate; presents in elderly males and is resistant to immunotherapy",
+        "D": "Polymyalgia rheumatica; normal CPK and muscle biopsy; elevated ESR and CRP; responds dramatically to low-dose corticosteroids"
       },
-      "correct_answer": "C",
-      "explanation": "Integrated Pathology concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "Inflammatory myopathies — distinguishing features: Dermatomyositis (DM): (1) Pathogenesis: HUMORAL/vascular — complement C3 activation → C3b deposition on endomysial capillaries → MAC (C5b-9) → capillary destruction and dropout → hypoperfusion of fascicular periphery → perifascicular atrophy (pathognomonic); (2) Inflammatory cells: perivascular and perimysial CD4+ T cells + B cells + plasmacytoid dendritic cells (IFN-α producing); (3) Myopathology: perifascicular atrophy (peripheral fibres of each fascicle are smallest and most atrophic — watershed ischaemia), ghost capillaries (empty basement membrane tubes without endothelial cells), MHC-I upregulation on all muscle fibres; (4) Skin: heliotrope rash (periorbital violaceous discolouration), Gottron's papules (raised scaly erythematous papules over knuckles/MCP/PIP), V-sign (photodistributed chest erythema), shawl sign; (5) Autoantibodies: anti-Jo-1 (anti-histidyl tRNA synthetase — associated with antisynthetase syndrome: ILD + arthritis + mechanic's hands + Raynaud's), anti-Mi-2 (classic DM), anti-MDA5 (amyopathic DM with severe rapidly progressive ILD); (6) Malignancy association: DM has significant malignancy risk (ovarian, lung, colon, nasopharyngeal) — screen at diagnosis. Polymyositis (PM): (1) Pathogenesis: CELLULAR — CD8+ cytotoxic T cells invade non-necrotic muscle fibres expressing MHC-I (myositis-specific MHC-I upregulation) → perforin/granzyme-mediated fibre destruction; (2) Inflammatory cells: endomysial CD8+ T cells; (3) No perifascicular atrophy; (4) No skin rash. Inclusion body myositis (IBM): endomysial CD8+ T cells + rimmed vacuoles + 15–18 nm tubulofilamentous inclusions (TDP-43, p62 protein aggregates) + eosinophilic cytoplasmic inclusions; distal > proximal weakness (wrist flexors, knee extensors); elderly (>50 years); refractory to immunotherapy."
     },
+
     {
       "question_id": "TW_PATHOLOG_GENERAL_PATH_Q017",
       "paper_type": "topic_wise",
       "paper_ref": "TW_PATHOLOG_GENERAL_PATH",
       "subject": "Pathology",
       "topic": "General Pathology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Retinal Artery Occlusion — Coagulative Necrosis and Ischaemia",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A patient presents with sudden painless loss of vision. Best initial investigation?",
+      "question_text": "A 68-year-old man with known atrial fibrillation presents with sudden, complete, painless loss of vision in the right eye. Fundoscopy shows diffuse retinal oedema and whitening with a cherry-red spot at the fovea. Visual acuity is reduced to hand movements only. Which of the following best identifies the underlying pathological mechanism, the fundoscopic sign explained at the tissue level, and the time-critical management window?",
       "options": {
-        "A": "CT angiography",
-        "B": "MRI",
-        "C": "Ultrasound",
-        "D": "ECG"
+        "A": "Central retinal vein occlusion — flame-shaped haemorrhages and disc oedema; no time-critical window; managed with anti-VEGF injections",
+        "B": "Central retinal artery occlusion (CRAO) — embolic occlusion (cardiac thrombus from AF) of the central retinal artery → ischaemia of the inner retinal layers → coagulative necrosis of the retina; cherry-red spot: the peripheral retina (white/grey — oedematous, infarcted inner layers obscure the choroidal circulation) contrasts with the fovea where the inner retinal layers are ABSENT (fovea = fovea centralis has no inner retinal layers, is thinner, and the choroidal circulation remains visible → red-orange fovea surrounded by white oedematous retina = cherry-red spot); time window: irreversible retinal necrosis begins within 90–100 minutes of occlusion; emergency management: ocular massage (dislodge embolus), reduce IOP (acetazolamide, paracentesis), high-flow oxygen, consider thrombolysis if within 4.5 hours; neurological workup (same mechanism as stroke)",
+        "C": "Vitreous haemorrhage from proliferative diabetic retinopathy; new vessels bleed into vitreous; managed with vitrectomy; cherry-red spot not relevant",
+        "D": "Angle-closure glaucoma; raised IOP causes ischaemia; presents with pain and coloured halos; treated with pilocarpine and acetazolamide"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Pathology concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "Central retinal artery occlusion (CRAO): (1) Aetiology: embolism (cardiac — AF, valvular disease, MI; carotid atherosclerosis — Hollenhorst plaques = cholesterol emboli visible on fundoscopy as bright yellow refractile deposits at arterial bifurcations), in-situ thrombosis (atherosclerosis of CRA), vasospasm (migraine), giant cell arteritis (always check ESR/CRP in patients >50 years — GCA can cause CRAO; if suspected → immediate high-dose corticosteroids before biopsy). (2) Pathology: CRA is an end artery (no collateral supply) → occlusion → ischaemia of inner retinal layers (nerve fibre layer, ganglion cells, inner nuclear layer) → coagulative necrosis (proteins denature, architecture preserved) → retinal oedema and whitening of inner layers. The choroid supplies the outer retinal layers (photoreceptors) → outer retina survives initially. Cherry-red spot mechanism: pale, oedematous, ischaemic inner retina is opaque and white, obscuring the choroidal circulation throughout the fundus — EXCEPT at the fovea, where the inner retinal layers are absent (fovea avascular — centre of fovea = fovea centralis is entirely nourished by the choriocapillaris) → the underlying choroidal circulation remains visible → appears as a red-orange spot surrounded by diffuse white retina. Cherry-red spot DDx: CRAO, Tay-Sachs disease (GM2 gangliosidosis — sphingolipid storage in ganglion cells makes surrounding retina white, fovea clear), Niemann-Pick disease, central retinal artery occlusion, carbon monoxide poisoning, quinine toxicity. (3) Management: ocular massage (rhythmic compression of globe → increases retinal arterial pressure → may dislodge embolus to peripheral vessel), IOP reduction (acetazolamide IV, anterior chamber paracentesis), high-flow oxygen (hyperoxia maintains inner retinal oxygenation via diffusion from choroid), aspirin, thrombolysis (IV tPA if within 4.5 hours — EAGLE trial showed some benefit), and urgent workup for systemic embolic source."
     },
+
     {
       "question_id": "TW_PATHOLOG_GENERAL_PATH_Q018",
       "paper_type": "topic_wise",
       "paper_ref": "TW_PATHOLOG_GENERAL_PATH",
       "subject": "Pathology",
       "topic": "General Pathology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Wernicke-Korsakoff Syndrome — Thiamine Deficiency and Selective Neuronal Necrosis",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A patient presents with altered sensorium, ataxia, and ophthalmoplegia. Most likely diagnosis?",
+      "question_text": "A 48-year-old chronic alcoholic is admitted confused and ataxic. On examination he has horizontal nystagmus, ophthalmoplegia (bilateral lateral rectus palsy), ataxia of gait, and confusion. He is given IV dextrose without thiamine. Shortly after, he deteriorates further. MRI brain shows T2 hyperintensity symmetrically in the mammillary bodies, periaqueductal grey matter, and medial thalami. Which of the following best explains the pathological mechanism of neuronal injury in this condition and why dextrose without thiamine is dangerous?",
       "options": {
-        "A": "Pulmonary embolism",
-        "B": "Acute pancreatitis",
-        "C": "Aortic dissection",
-        "D": "DKA"
+        "A": "Liquefactive necrosis from bacterial meningitis involving the midbrain; dextrose is harmful because it increases CSF glucose promoting bacterial growth",
+        "B": "Wernicke's encephalopathy (thiamine/B1 deficiency): thiamine pyrophosphate (TPP) is a cofactor for three key enzymes — pyruvate dehydrogenase (PDH), α-ketoglutarate dehydrogenase (AKGDH), and transketolase (pentose phosphate pathway); thiamine deficiency → impaired oxidative glucose metabolism → cellular energy failure (ATP depletion) → selective neuronal necrosis in metabolically active, high-demand regions (mammillary bodies, periaqueductal grey, medial thalami, abducens nuclei — cranial nerve VI); also → glutamate accumulation (AKGDH deficiency → ↑ glutamate) → NMDA receptor excitotoxicity → neuronal death; giving IV DEXTROSE (glucose) without thiamine → rapidly depletes the remaining thiamine stores (glucose metabolism demands more TPP) → precipitates or worsens Wernicke's; ALWAYS give thiamine BEFORE or WITH glucose in any alcoholic/malnourished patient",
+        "C": "Wernicke's is caused by vitamin B12 deficiency; subacute combined degeneration of the spinal cord is the pathological substrate; dextrose is harmful because it induces hyperosmolar state",
+        "D": "Central pontine myelinolysis from rapid correction of hyponatraemia; selective demyelination in the pons; dextrose is harmful because rapid osmotic shift damages myelin"
       },
-      "correct_answer": "C",
-      "explanation": "Integrated Pathology concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "Wernicke's encephalopathy (WE) — thiamine (vitamin B1) deficiency: pathophysiology: TPP is essential for: (1) Pyruvate dehydrogenase (PDH) — pyruvate → acetyl-CoA (entry into TCA cycle); (2) α-ketoglutarate dehydrogenase (AKGDH) — TCA cycle step; (3) Transketolase — pentose phosphate pathway (nucleotide synthesis, NADPH production). Thiamine deficiency → block in oxidative metabolism → ATP depletion → failure of Na+/K+-ATPase → cellular depolarisation → NMDA receptor activation → calcium influx → excitotoxic neuronal death. Additionally, AKGDH deficiency → glutamate cannot be converted to succinyl-CoA/succinate → glutamate accumulates → NMDA receptor overstimulation → excitotoxicity. Selective vulnerability: mammillary bodies, periaqueductal grey (midbrain), medial thalami, abducens (VI) and oculomotor (III) nuclei, cerebellar vermis — these areas have: highest metabolic demand, highest thiamine turnover, highest AKGDH concentration. Clinical triad of WE: (1) Ophthalmoplegia (lateral rectus palsy — CN VI nucleus) + nystagmus; (2) Ataxia (cerebellar vermis involvement); (3) Confusion/altered consciousness (thalamic + cortical involvement). Korsakoff psychosis (chronic phase): anterograde amnesia (cannot form new memories) + retrograde amnesia + confabulation — due to irreversible damage to mammillary bodies and dorsomedial thalamus. Dextrose without thiamine: glucose load → increased demand for TPP-dependent enzymes → rapid depletion of marginal thiamine stores → precipitate or worsen WE → NEVER give IV dextrose to a malnourished/alcoholic patient without first giving thiamine 100 mg IV. Treatment: IV thiamine 500 mg TDS for 3–5 days (Pabrinex) → then oral supplementation."
     },
+
     {
       "question_id": "TW_PATHOLOG_GENERAL_PATH_Q019",
       "paper_type": "topic_wise",
       "paper_ref": "TW_PATHOLOG_GENERAL_PATH",
       "subject": "Pathology",
       "topic": "General Pathology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Metaplasia — Barrett's Oesophagus and Progression to Adenocarcinoma",
+      "difficulty": "Very Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Barrett's esophagus: type of metaplasia?",
+      "question_text": "A 55-year-old obese man with a 20-year history of GORD undergoes surveillance endoscopy. Barrett's oesophagus (specialised intestinal metaplasia, C4M6 on Prague classification) is confirmed on biopsy. He is concerned about cancer risk. Which of the following best describes the molecular sequence of progression from Barrett's metaplasia to oesophageal adenocarcinoma, the specific type of metaplasia, and the surveillance/management protocol?",
       "options": {
-        "A": "Squamous to columnar",
-        "B": "Columnar to squamous",
-        "C": "Columnar to transitional",
-        "D": "Squamous to transitional"
+        "A": "Barrett's is columnar to squamous metaplasia (simple columnar to stratified squamous); progression to squamous cell carcinoma follows a hyperplasia → dysplasia sequence; surveillance every 10 years",
+        "B": "Barrett's oesophagus is squamous to columnar metaplasia (normal stratified squamous epithelium of the distal oesophagus → specialised intestinal metaplasia — columnar epithelium with goblet cells, as identified by Alcian blue staining at pH 2.5); it is a form of adaptive metaplasia to chronic acid/bile reflux; molecular progression to adenocarcinoma: acid reflux → CDX2 transcription factor expression → intestinal phenotype → loss of p16/CDKN2A (chromosome 9p — cell cycle checkpoint loss) → TP53 mutation → aneuploidy → low-grade dysplasia → high-grade dysplasia → intramucosal adenocarcinoma → invasive adenocarcinoma; management: high-dose PPI to reduce acid (reduces progression risk); endoscopic surveillance (non-dysplastic BE: every 3–5 years; low-grade dysplasia: every 6–12 months; high-grade dysplasia: endoscopic eradication therapy — radiofrequency ablation [RFA] ± endoscopic mucosal resection [EMR])",
+        "C": "Barrett's is transitional to columnar metaplasia of the gastric cardia extending into the oesophagus; it predisposes to squamous cell carcinoma; treatment is always surgical oesophagectomy for any dysplasia",
+        "D": "Barrett's metaplasia is irreversible once established and cannot be eradicated; progression is inevitable (>30% annual risk of adenocarcinoma per year); management is prophylactic oesophagectomy"
       },
-      "correct_answer": "A",
-      "explanation": "Barrett's: normal squamous epithelium → specialized intestinal metaplasia (columnar with goblet cells). Risk of adenocarcinoma. PPI reduces progression."
+      "correct_answer": "B",
+      "explanation": "Barrett's oesophagus (BE) — detailed pathology: Definition: displacement of the squamocolumnar junction (Z-line) >1 cm proximal to the gastroesophageal junction (GEJ) with histological confirmation of specialised intestinal metaplasia (columnar cells + goblet cells — goblet cells are the sine qua non; identified by Alcian blue at pH 2.5 which stains sulphated mucin in goblet cells blue). Type of metaplasia: SQUAMOUS → COLUMNAR (squamous to glandular/intestinal) — this is the specific type; adaptive response to chronic acid and bile reflux. CDX2: intestine-specific transcription factor normally absent from oesophagus; acid/bile injury → CDX2 expression → drives intestinal differentiation of oesophageal stem cells → Barrett's metaplasia. Molecular progression (Vogelstein-like model for BE → EAC): Reflux injury → CDX2 upregulation → methylation of tumour suppressor genes → p16/CDKN2A loss (chromosome 9p — earliest molecular event, present in non-dysplastic BE) → loss of cell cycle checkpoint → TP53 mutation → accumulation of chromosomal instability (aneuploidy) → acquisition of pro-proliferative (KRAS, CCND1 amplification) and anti-apoptotic changes → low-grade dysplasia (LGD) → high-grade dysplasia (HGD) → intramucosal carcinoma → invasive EAC. Risk factors for progression: length of BE (Prague C and M — C = circumferential length, M = maximal extent; C4M6 means 4 cm circumferential, 6 cm maximal), male sex, obesity, smoking, older age. Annual progression risk: non-dysplastic BE 0.1–0.3%/year; LGD 0.5–1%/year; HGD 5–10%/year. Surveillance: UK/BSG guidelines — non-dysplastic BE: endoscopy every 2–5 years; confirmed LGD: 6-monthly endoscopy or RFA; HGD: RFA ± EMR (for visible nodules/lesions); T1a EAC (mucosal): EMR/ESD curative; T1b (submucosal): oesophagectomy. RFA success: 80–90% eradication of HGD. PPI: reduces acid load, shown to reduce dysplasia progression (observational data; chemoprevention with aspirin under investigation — AspECT trial showed modest benefit)."
     },
+
     {
       "question_id": "TW_PATHOLOG_GENERAL_PATH_Q020",
       "paper_type": "topic_wise",
       "paper_ref": "TW_PATHOLOG_GENERAL_PATH",
       "subject": "Pathology",
       "topic": "General Pathology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Sepsis — Pathogenesis of Septic Shock and Organ Failure",
+      "difficulty": "Very Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A 52-year-old diabetic male presents with fever, hypotension, and tachycardia. Underlying mechanism?",
+      "question_text": "A 58-year-old poorly controlled diabetic male presents with high-grade fever, hypotension (BP 80/50 mmHg), tachycardia (HR 128/min), tachypnoea (RR 28/min), and confusion. He has a gangrenous right foot with crepitus on palpation. Blood cultures grow Gram-negative rods. Lactate is 6.2 mmol/L. He does not respond to 2L IV crystalloid. Which of the following correctly identifies the Sepsis-3 definition of septic shock applicable here, the molecular mechanism by which Gram-negative bacterial LPS triggers the cytokine storm, and the primary mediator responsible for hypotension?",
       "options": {
-        "A": "Autoimmune destruction",
-        "B": "Type I hypersensitivity",
-        "C": "Fat necrosis",
-        "D": "Toxin-mediated injury"
+        "A": "Septic shock (Sepsis-2 SIRS criteria — 2 of: fever, tachycardia, tachypnoea, high WBC); LPS activates B cells directly via CD40; hypotension caused by vasopressin deficiency",
+        "B": "Septic shock (Sepsis-3 definition): sepsis + vasopressor requirement to maintain MAP ≥65 mmHg + serum lactate >2 mmol/L despite adequate fluid resuscitation; mechanism: Gram-negative LPS (lipid A moiety — the toxic component) → binds LPS-binding protein (LBP) in plasma → complex transfers LPS to CD14 (on monocyte/macrophage surface) → presented to TLR-4/MD-2 complex → MyD88-dependent signalling → NF-κB activation → transcription of pro-inflammatory cytokines (TNF-α, IL-1β, IL-6, IL-8, IL-12); TNF-α is the PRIMARY mediator of hypotension: induces iNOS (inducible nitric oxide synthase) in vascular smooth muscle → massive NO production → vasodilation → distributive shock (high cardiac output, low SVR); also causes direct myocardial depression (MDF — myocardial depressant factor)",
+        "C": "Systemic inflammatory response syndrome (SIRS) without sepsis; LPS activates neutrophils via FcγR; hypotension caused by massive histamine release from mast cells (Type I hypersensitivity — anaphylaxis)",
+        "D": "Septic shock; LPS activates the complement cascade via the classical pathway; hypotension caused by bradykinin release from activated complement C2"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Pathology concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "Sepsis-3 definitions (Singer et al., JAMA 2016): Infection: pathogen invasion of normally sterile tissue; Sepsis: life-threatening organ dysfunction caused by a dysregulated host response to infection; operationally defined as SOFA (Sequential Organ Failure Assessment) score ≥2 from baseline; qSOFA (quick SOFA) for bedside screening: altered mentation + RR ≥22 + systolic BP ≤100 (≥2 criteria = suspected sepsis); Septic shock: subset of sepsis with: (1) vasopressor requirement to maintain MAP ≥65 mmHg, AND (2) serum lactate >2 mmol/L (>18 mg/dL), despite adequate fluid resuscitation (≥30 mL/kg crystalloid); mortality >40%. LPS (lipopolysaccharide) — molecular mechanism: LPS = component of Gram-negative bacterial outer membrane; toxic moiety = LIPID A (fatty acid chains attached to glucosamine disaccharide). LPS → binds LPS-binding protein (LBP, acute-phase protein) → LBP-LPS complex transfers LPS to CD14 (GPI-anchored pattern recognition receptor on monocytes/macrophages and dendritic cells) → CD14 presents LPS to TLR-4/MD-2 heterodimer → conformational change → MyD88 (myeloid differentiation factor 88) adaptor protein recruitment → IRAK1/4 → TRAF6 → IκB kinase (IKK) → IκB phosphorylation and degradation → NF-κB nuclear translocation → transcription of TNF-α, IL-1β, IL-6, IL-12, IL-18, tissue factor, iNOS. Hypotension mechanism: TNF-α → iNOS induction in vascular smooth muscle and endothelium → massive sustained NO synthesis → guanylate cyclase → cGMP → smooth muscle relaxation → vasodilation → distributive shock (↑CO, ↓SVR — 'warm shock' early; 'cold shock' late when cardiac output fails); TNF-α also: (1) activates coagulation cascade → DIC (disseminated intravascular coagulation); (2) induces endothelial ICAM-1, E-selectin, VCAM-1 → leukocyte adhesion and diapedesis → organ damage; (3) causes direct myocardial depression (reduced β-adrenergic receptor sensitivity, NO-mediated cardiomyocyte injury). Gram-positive bacteria — sepsis via: teichoic acid and peptidoglycan → TLR-2; superantigens (TSST-1, streptococcal pyrogenic exotoxins) → direct MHC-II + TCR Vβ crosslinking → 20–30% of all T cells activated → massive cytokine release without antigen specificity. Lactate in sepsis: elevated due to tissue hypoperfusion → anaerobic metabolism → pyruvate → lactate; also from inhibition of pyruvate dehydrogenase by endotoxin; lactate >4 mmol/L = worst prognosis."
     },
+
     {
       "question_id": "TW_PATHOLOG_GENERAL_PATH_Q021",
       "paper_type": "topic_wise",
       "paper_ref": "TW_PATHOLOG_GENERAL_PATH",
       "subject": "Pathology",
       "topic": "General Pathology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Retinal Vascular Occlusion — Fundoscopic Findings and Emergency Management",
+      "difficulty": "Very Hard",
       "question_type": "single_best_answer",
       "image_based": true,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A patient presents with sudden painless loss of vision. Most appropriate management?",
+      "question_text": "A 70-year-old hypertensive woman presents with sudden, complete, painless loss of vision in the left eye for 2 hours. The fundoscopic image above shows diffuse retinal whitening/pallor with a bright cherry-red spot at the fovea, attenuated ('cattle-trucking') retinal arterioles, and a pale optic disc. An embolic source is suspected. Which of the following correctly identifies all fundoscopic findings in the image, the pathological basis of each finding, and the appropriate emergency management sequence?",
       "options": {
-        "A": "IV fluids and insulin",
-        "B": "Observation",
-        "C": "Steroids only",
-        "D": "Oral antibiotics"
+        "A": "Central retinal vein occlusion — flame haemorrhages in all four quadrants, disc oedema, dilated tortuous veins; managed with anti-VEGF intravitreal injection",
+        "B": "Central retinal artery occlusion (CRAO): fundoscopic findings in the image — (1) Diffuse retinal whitening/pallor = coagulative necrosis of inner retinal layers (nerve fibre layer, ganglion cell layer, inner plexiform, inner nuclear layers) from ischaemia — the opacified oedematous inner retina appears white; (2) Cherry-red spot at fovea = the fovea (fovea centralis) lacks inner retinal layers and is perfused solely by the choriocapillaris, which is unaffected — red-orange choroidal circulation visible through the thin fovea against surrounding white oedematous retina; (3) Attenuated arterioles with 'cattle-trucking' (segmentation of blood column into discrete segments separated by plasma) = severely reduced arterial flow from occlusion; (4) Pale optic disc = optic nerve ischaemia; Emergency management: (i) Ocular massage (digital massage or Goldmann lens — 5 seconds pressure, release × 10 cycles — aims to dislodge embolus distally), (ii) Reduce IOP: IV acetazolamide 500 mg + topical beta-blocker (timolol) + anterior chamber paracentesis if above fail, (iii) High-flow oxygen (100% O2 — increases retinal oxygenation via diffusion from choroidal circulation), (iv) IV alteplase (tPA) if within 4.5 hours and no contraindications — EAGLE trial; (v) Systemic workup: ECG (AF), carotid Doppler, echocardiogram, lipid profile, FBC, ESR/CRP (GCA), clotting screen; (vi) Aspirin 300 mg",
+        "C": "Diabetic retinopathy — neovascularisation, dot-blot haemorrhages, hard exudates, disc new vessels; managed with pan-retinal photocoagulation",
+        "D": "Papilloedema from raised intracranial pressure — blurred disc margins, venous engorgement, no cherry-red spot; managed with mannitol and dexamethasone"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Pathology concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "Central retinal artery occlusion (CRAO) — comprehensive review: The central retinal artery (CRA) is a branch of the ophthalmic artery (first branch of the internal carotid) → enters optic nerve → supplies inner two-thirds of retina (inner nuclear layer and inner). The outer retina (photoreceptors — rods and cones, outer nuclear layer, outer plexiform layer) is supplied by the choriocapillaris (branches of short posterior ciliary arteries). CRAO = ischaemia of the inner retinal layers. Causes: (1) Embolism — most common: cholesterol emboli (Hollenhorst plaques from carotid atherosclerosis), calcific emboli (cardiac valves), platelet-fibrin emboli (AF, endocarditis); (2) In-situ thrombosis (atherosclerosis of CRA); (3) Giant cell arteritis (GCA — most important to exclude in patients >50 years; GCA involves the short posterior ciliary arteries and ophthalmic artery; check ESR, CRP, temporal artery biopsy; HIGH-DOSE STEROIDS IMMEDIATELY if GCA suspected — before biopsy); (4) Other: vasospasm (Raynaud's, migraine), sickle cell, coagulopathy, antiphospholipid syndrome. Fundoscopic findings explained: Retinal pallor: inner retinal layers → coagulative necrosis → cytotoxic oedema → cells swell with protein denaturation → white/opaque appearance; Cherry-red spot: fovea centralis = avascular zone of the inner retina (no inner retinal layers present — only photoreceptors and their nuclei) → supplied entirely by choriocapillaris → NOT ischaemic → red-orange choroidal circulation visible; surrounding retina is white → cherry-red spot; Cattle-trucking (box-carring): very slow arterial blood flow → red cells aggregate into discrete clumps within the arteriole with clear plasma between them; Disc pallor: optic nerve ischaemia (CRA supplies nerve fibre layer). Management sequence: Emergency — must act within 90–100 minutes for any meaningful vision recovery (irreversible ganglion cell death by 90 min, complete inner retinal infarction by 4 hours): (1) Ocular massage: intermittent pressure on globe → sudden IOP rise then fall → change in arterial pressure → may dislodge embolus; (2) IOP reduction: acetazolamide 500 mg IV (reduces aqueous humour production → lowers IOP → increases perfusion pressure gradient); anterior chamber paracentesis (3rd line); (3) Oxygen: 100% O2 by non-rebreather mask → increases dissolved O2 in aqueous/vitreous → diffuses from choroid to supply ischaemic inner retina; (4) Alteplase: EAGLE randomised trial (2022) — no significant benefit of IV tPA over standard of care; intra-arterial tPA (into ophthalmic artery — IATPA): some case series show benefit; (5) Systemic workup mandatory (same as TIA/stroke — 'eye stroke'): ECG, 24-hour Holter, carotid Doppler ultrasound, echocardiography (transthoracic/transoesophageal), FBC, HbA1c, lipids, ESR, CRP. Prognosis: generally poor — <20% of patients recover useful vision; 90% have permanent severe visual loss; systemic risk: CRAO is associated with 10% risk of stroke within 90 days (same embolic mechanism) — requires urgent neurovascular workup and secondary prevention (antiplatelet/anticoagulation depending on cause).",
+      "image_title": "Fundoscopic Image — Left Eye, Central Retinal Artery Occlusion",
+      "image_url": "",
+      "key_findings": [
+        "Diffuse milky-white/grey pallor of the entire retina except the fovea — representing coagulative necrosis and cytotoxic oedema of the ischaemic inner retinal layers",
+        "Bright cherry-red spot at the fovea centralis — the thin, inner-layer-free fovea allows the intact choroidal circulation to show through against the surrounding white oedematous retina",
+        "Markedly attenuated, thread-like retinal arterioles with visible segmentation of the blood column (cattle-trucking/box-carring pattern) due to severely reduced arterial inflow",
+        "Pale, indistinct optic disc consistent with optic nerve ischaemia",
+        "No haemorrhages, no disc oedema, no neovascularisation — distinguishing features from retinal vein occlusion and diabetic retinopathy"
+      ]
     }
+
   ]
 }

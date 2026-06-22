@@ -5,7 +5,10 @@
   "topic": "General Pharmacology",
   "total_questions": 19,
   "difficulty_distribution": {
-    "Easy": 19
+    "Easy": 3,
+    "Medium": 5,
+    "Hard": 7,
+    "Very Hard": 4
   },
   "created_at": "2026-05-30",
   "questions": [
@@ -15,22 +18,22 @@
       "paper_ref": "TW_PHARMACO_GENERAL_PHAR",
       "subject": "Pharmacology",
       "topic": "General Pharmacology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Pharmacokinetics - Bioavailability",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A chronic smoker presents with hemoptysis and weight loss. Most likely diagnosis?",
+      "question_text": "A 45-year-old patient with severe hepatic cirrhosis (Child-Pugh Class C) is prescribed a drug that normally undergoes 85% first-pass metabolism in the liver. Compared to a healthy individual receiving the same oral dose, which of the following best describes the expected pharmacokinetic change in this patient?",
       "options": {
-        "A": "Pulmonary embolism",
-        "B": "Acute pancreatitis",
-        "C": "Aortic dissection",
-        "D": "DKA"
+        "A": "Decreased bioavailability due to impaired intestinal absorption",
+        "B": "Increased bioavailability due to reduced hepatic first-pass metabolism",
+        "C": "Unchanged bioavailability as renal clearance compensates",
+        "D": "Decreased bioavailability due to reduced hepatic blood flow only"
       },
-      "correct_answer": "C",
-      "explanation": "Integrated Pharmacology concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "First-pass metabolism (pre-systemic metabolism) occurs when a drug absorbed from the gut passes through the portal circulation and is extensively metabolized by the liver before reaching systemic circulation. In severe hepatic cirrhosis, hepatocyte mass is significantly reduced, leading to markedly diminished first-pass extraction. This results in dramatically increased bioavailability of drugs with high first-pass effect (e.g., propranolol, morphine, lidocaine, nitrates). NEET PG/INI-CET Pearl: Drugs with high first-pass effect have the most dramatic increase in bioavailability in liver disease — small oral doses can produce toxic systemic levels. Option A is incorrect: intestinal absorption is generally not significantly impaired in cirrhosis. Option C is incorrect: renal clearance does not compensate for hepatic metabolism. Option D is incorrect: reduced hepatic blood flow contributes, but the primary mechanism is loss of hepatocyte metabolic capacity. Classic trap: Students confuse reduced hepatic blood flow (portal hypertension) with reduced enzyme capacity — both contribute, but enzyme loss drives bioavailability increase. High-yield drugs: propranolol, morphine, GTN, lignocaine — all show dramatically increased bioavailability in liver disease."
     },
     {
       "question_id": "TW_PHARMACO_GENERAL_PHAR_Q002",
@@ -38,22 +41,22 @@
       "paper_ref": "TW_PHARMACO_GENERAL_PHAR",
       "subject": "Pharmacology",
       "topic": "General Pharmacology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Pharmacokinetics - Drug Distribution",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A patient presents with sudden painless loss of vision. Best initial investigation?",
+      "question_text": "A 68-year-old woman is prescribed warfarin for atrial fibrillation. She is concurrently on phenylbutazone for arthritis. Two weeks later, she presents with spontaneous gum bleeding and hematuria. INR is found to be supratherapeutic. Which pharmacokinetic mechanism best explains this interaction?",
       "options": {
-        "A": "CT angiography",
-        "B": "MRI",
-        "C": "Ultrasound",
-        "D": "ECG"
+        "A": "Phenylbutazone inhibits CYP2C9, reducing warfarin metabolism",
+        "B": "Phenylbutazone displaces warfarin from plasma protein binding sites, transiently increasing free warfarin",
+        "C": "Phenylbutazone induces renal tubular secretion of warfarin metabolites",
+        "D": "Phenylbutazone increases GI absorption of warfarin by altering gastric pH"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Pharmacology concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "Warfarin is highly plasma protein-bound (~99%). Phenylbutazone (and other NSAIDs like aspirin) can displace warfarin from albumin binding sites, transiently increasing the free (pharmacologically active) fraction of warfarin. Although displacement alone is transient (free drug is redistributed and eliminated), phenylbutazone also inhibits CYP2C9-mediated metabolism of S-warfarin and reduces platelet function, creating a clinically dangerous combination. NEET PG Trap: The classic teaching is 'protein binding displacement' as the primary mechanism, but in clinical reality, CYP inhibition by phenylbutazone is equally or more important for sustained elevation. For exam purposes, protein displacement is the 'textbook answer' here, but integrated understanding includes enzyme inhibition. Option A is a contributing factor but not the 'best' single mechanism in the context of the classic textbook question. Option C is incorrect: phenylbutazone does not induce tubular secretion of warfarin. Option D is incorrect: gastric pH changes are not the mechanism here. High-yield pearl: Warfarin interactions are a favorite topic in NEET PG/INI-CET. Drugs that displace warfarin from protein binding: NSAIDs, sulfonamides, chloral hydrate, valproate."
     },
     {
       "question_id": "TW_PHARMACO_GENERAL_PHAR_Q003",
@@ -61,22 +64,22 @@
       "paper_ref": "TW_PHARMACO_GENERAL_PHAR",
       "subject": "Pharmacology",
       "topic": "General Pharmacology",
-      "subtopic": null,
+      "subtopic": "Teratogenicity - FDA Pregnancy Categories",
       "difficulty": "Easy",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "FDA Pregnancy category X drug?",
+      "question_text": "A 26-year-old woman in her 10th week of pregnancy is incidentally found to be on a drug that is classified as FDA Pregnancy Category X. She is otherwise healthy. Which of the following drugs is correctly classified as Category X?",
       "options": {
         "A": "Metformin",
-        "B": "Warfarin (1st trimester)",
+        "B": "Labetalol",
         "C": "Thalidomide",
-        "D": "Paracetamol"
+        "D": "Methyldopa"
       },
       "correct_answer": "C",
-      "explanation": "Category X (absolute contraindication in pregnancy): thalidomide, isotretinoin, methotrexate, statins, warfarin (1st trimester teratogenic → category X). Note: FDA removed letter system in 2015 but USMLE/NEET use it."
+      "explanation": "FDA Pregnancy Category X drugs are those where studies in animals or humans have shown fetal abnormalities, or where the risks clearly outweigh any possible benefit — they are ABSOLUTELY CONTRAINDICATED in pregnancy. Classic Category X drugs (NEET PG high-yield list): Thalidomide (phocomelia — seal limb deformity), Isotretinoin (retinoic acid embryopathy — craniofacial, cardiac, CNS defects), Methotrexate, Statins (HMG-CoA reductase inhibitors), Warfarin (Category X in 1st trimester — fetal warfarin syndrome: nasal hypoplasia, stippled epiphyses), Finasteride, Misoprostol, Ribavirin. Option A — Metformin: Category B (used in gestational diabetes). Option B — Labetalol: Category C (used for hypertension in pregnancy). Option D — Methyldopa: Category B (drug of choice for chronic hypertension in pregnancy). NEET PG Pearl: The FDA removed the letter-category system in 2015, replacing it with narrative labels, but USMLE, NEET PG, and FMGE continue to test the classic A/B/C/D/X system. Important trap: Warfarin is Category D in 2nd/3rd trimesters but Category X in 1st trimester due to teratogenicity."
     },
     {
       "question_id": "TW_PHARMACO_GENERAL_PHAR_Q004",
@@ -84,22 +87,22 @@
       "paper_ref": "TW_PHARMACO_GENERAL_PHAR",
       "subject": "Pharmacology",
       "topic": "General Pharmacology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Pharmacodynamics - Receptor Mechanisms",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A patient presents with sudden painless loss of vision. Underlying mechanism?",
+      "question_text": "A researcher is studying a new drug that produces maximum tissue response (Emax) at only 10% receptor occupancy. The remaining 90% of receptors are unoccupied even at maximal effect. Which of the following pharmacodynamic concepts best describes this phenomenon?",
       "options": {
-        "A": "Autoimmune destruction",
-        "B": "Type I hypersensitivity",
-        "C": "Fat necrosis",
-        "D": "Toxin-mediated injury"
+        "A": "Tachyphylaxis",
+        "B": "Spare receptors (receptor reserve)",
+        "C": "Competitive antagonism",
+        "D": "Partial agonism"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Pharmacology concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "Spare receptors (receptor reserve) refer to the phenomenon where maximum pharmacological effect (Emax) is achieved without occupying all available receptors. This occurs because the coupling efficiency between receptor activation and the downstream effector cascade is very high. Key features: Emax is reached at low receptor occupancy (e.g., 10% here). The remaining 90% are 'spare' — they serve as a buffer, increasing sensitivity and prolonging response when receptor numbers decrease. High receptor reserve → leftward shift of DRC → increased potency. Clinical significance: Cells with high receptor reserve are very sensitive to agonists; partial loss of receptors (e.g., by irreversible antagonist) may not reduce Emax until the reserve is exhausted. Option A — Tachyphylaxis: Rapid decrease in response to repeated doses of a drug (e.g., ephedrine, nitrates). Option C — Competitive antagonism: Reversible antagonist competing for same binding site, shifting DRC right, Emax unchanged. Option D — Partial agonism: Drug that activates receptor but cannot produce full Emax even at 100% receptor occupancy. NEET PG/INI-CET Pearl: Spare receptors explain why irreversible antagonists reduce Emax only after the receptor reserve is depleted — a classic pharmacodynamics question."
     },
     {
       "question_id": "TW_PHARMACO_GENERAL_PHAR_Q005",
@@ -107,22 +110,22 @@
       "paper_ref": "TW_PHARMACO_GENERAL_PHAR",
       "subject": "Pharmacology",
       "topic": "General Pharmacology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Drug Metabolism - Phase I Reactions",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A patient develops acute breathlessness after prolonged immobilization. Most likely organism?",
+      "question_text": "A 35-year-old man is started on isoniazid (INH) for tuberculosis. Genetic testing reveals he is a 'slow acetylator.' Which of the following best describes the expected pharmacokinetic consequence in this patient compared to a fast acetylator on the same dose?",
       "options": {
-        "A": "Staphylococcus aureus",
-        "B": "Klebsiella",
-        "C": "Pseudomonas",
-        "D": "E. coli"
+        "A": "Higher plasma levels of INH and increased risk of peripheral neuropathy",
+        "B": "Lower plasma levels of INH and increased risk of hepatotoxicity",
+        "C": "Higher plasma levels of INH and increased risk of optic neuritis",
+        "D": "Faster clearance of INH with reduced drug efficacy"
       },
       "correct_answer": "A",
-      "explanation": "Integrated Pharmacology concept designed in NEET PG + INI-CET pattern."
+      "explanation": "Isoniazid (INH) is metabolized primarily by N-acetyltransferase 2 (NAT2) via acetylation (Phase II reaction). Genetic polymorphism in NAT2 divides the population into: Slow acetylators: Lower enzyme activity → higher plasma INH levels → prolonged drug exposure → increased risk of peripheral neuropathy (due to INH competing with pyridoxine/Vitamin B6). Fast acetylators: Higher enzyme activity → rapid INH clearance → lower plasma levels → potentially reduced efficacy and increased hepatotoxicity (because faster conversion to hepatotoxic metabolites). Key clinical pearls: Slow acetylators: at risk for INH peripheral neuropathy, SLE-like syndrome with procainamide/hydralazine, drug toxicity. Fast acetylators: at risk for INH treatment failure in intermittent therapy, higher rates of isoniazid-induced hepatotoxicity. Option B is INCORRECT: hepatotoxicity is MORE common in fast acetylators (toxic acetyl-hydrazine metabolite accumulation). Option C is INCORRECT: optic neuritis is associated with ethambutol, not INH. Option D is INCORRECT: slow acetylators have SLOWER clearance. Population frequencies (NEET pearl): ~50% slow acetylators in Europeans/Americans; ~90% fast acetylators in Japanese/Eskimos; Indians are ~40-60% slow acetylators."
     },
     {
       "question_id": "TW_PHARMACO_GENERAL_PHAR_Q006",
@@ -130,22 +133,22 @@
       "paper_ref": "TW_PHARMACO_GENERAL_PHAR",
       "subject": "Pharmacology",
       "topic": "General Pharmacology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Pharmacodynamics - Dose-Response Relationship",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Competitive antagonist effect on dose-response curve?",
+      "question_text": "A pharmacologist is comparing two drugs acting on the same receptor. Drug A produces a maximum response of 80% even at the highest dose tested, while Drug B produces 100% maximum response. Drug A has a higher binding affinity than Drug B. Which of the following statements best characterizes Drug A?",
       "options": {
-        "A": "Shifts left, no change in Emax",
-        "B": "Shifts right, no change in Emax",
-        "C": "Shifts right, reduces Emax",
-        "D": "Reduces Emax only"
+        "A": "Full agonist with high potency",
+        "B": "Competitive antagonist with high affinity",
+        "C": "Partial agonist — high affinity but low intrinsic efficacy",
+        "D": "Irreversible antagonist causing receptor downregulation"
       },
-      "correct_answer": "B",
-      "explanation": "Competitive antagonist: shifts DRC to RIGHT (increased EC50/reduced potency) but Emax UNCHANGED (can be overcome by increasing agonist dose). Irreversible: reduces Emax."
+      "correct_answer": "C",
+      "explanation": "The scenario describes a drug with: High receptor binding affinity (binds strongly). Submaximal Emax (80% vs Drug B's 100%) — cannot produce full response. This is the definition of a PARTIAL AGONIST: a drug that binds to and activates a receptor but has LOWER INTRINSIC EFFICACY (alpha/epsilon) than a full agonist, so it can never produce the full Emax regardless of dose. Key concepts: Intrinsic efficacy (α): ability of a drug to activate the receptor once bound. Full agonist: α = 1 (maximum activation). Partial agonist: 0 < α < 1 (submaximal activation). Antagonist: α = 0 (binds but does not activate). Clinical examples of partial agonists: Buprenorphine (opioid partial agonist — ceiling effect on respiratory depression), Buspirone (5-HT1A partial agonist), Aripiprazole (dopamine D2 partial agonist), Pindolol (beta-blocker with partial agonist activity = intrinsic sympathomimetic activity/ISA). Option A is INCORRECT: a full agonist produces 100% Emax. Option B is INCORRECT: a competitive antagonist would have zero intrinsic activity. Option D is INCORRECT: irreversible antagonism reduces Emax by depleting receptor reserve, but the drug itself is not an agonist. NEET PG trap: Partial agonists can act as functional antagonists in the presence of a full agonist (they compete for the receptor but produce less effect)."
     },
     {
       "question_id": "TW_PHARMACO_GENERAL_PHAR_Q007",
@@ -153,22 +156,22 @@
       "paper_ref": "TW_PHARMACO_GENERAL_PHAR",
       "subject": "Pharmacology",
       "topic": "General Pharmacology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Drug Metabolism - Enzyme Induction/Autoinduction",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Enzyme inducer that also induces its own metabolism (autoinduction)?",
+      "question_text": "A 28-year-old epileptic woman is started on carbamazepine 200 mg twice daily. After 3 weeks, her seizures are initially controlled, but seizure frequency increases despite good compliance. Plasma carbamazepine levels are found to be subtherapeutic despite an unchanged dose. Which mechanism best explains this finding?",
       "options": {
-        "A": "Phenobarbitone",
-        "B": "Carbamazepine",
-        "C": "Rifampicin",
-        "D": "Phenytoin"
+        "A": "Carbamazepine inhibits its own metabolism via CYP2D6",
+        "B": "Carbamazepine induces CYP3A4, accelerating its own metabolism (autoinduction)",
+        "C": "Increased renal clearance of carbamazepine due to urinary alkalinization",
+        "D": "Carbamazepine activates P-glycoprotein causing reduced intestinal absorption"
       },
       "correct_answer": "B",
-      "explanation": "Carbamazepine: autoinduction — induces CYP3A4 including its own metabolism. Initial dose needs increase after 3-4 weeks. Rifampicin also induces but less 'auto'."
+      "explanation": "Carbamazepine is the CLASSIC example of autoinduction (self-induction of metabolism). Mechanism: Carbamazepine induces CYP3A4 (and other CYP enzymes), which is the very enzyme responsible for its own metabolism. Timeline: Over 3–4 weeks of therapy, enzyme induction gradually increases, leading to accelerated metabolism and FALLING plasma levels — despite unchanged dose. Clinical consequence: Initial seizure control → subsequent loss of control → dose increase required. This is a well-known clinical problem with carbamazepine initiation. Other enzyme inducers (not autoinducers): Rifampicin, Phenobarbitone, Phenytoin (partial autoinduction), St. John's Wort. Option A is INCORRECT: carbamazepine INDUCES (not inhibits) CYP enzymes. Option C is INCORRECT: carbamazepine is primarily hepatically metabolized, not renally excreted. Option D is INCORRECT: P-glycoprotein induction is not the primary mechanism here. NEET PG/INI-CET Pearl: Autoinduction by carbamazepine occurs over 3–4 weeks, requiring dose re-titration. This is a very high-yield topic — carbamazepine is the most classic autoinducer tested."
     },
     {
       "question_id": "TW_PHARMACO_GENERAL_PHAR_Q008",
@@ -176,22 +179,22 @@
       "paper_ref": "TW_PHARMACO_GENERAL_PHAR",
       "subject": "Pharmacology",
       "topic": "General Pharmacology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Pharmacokinetics - Therapeutic Drug Monitoring",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A patient presents with altered sensorium, ataxia, and ophthalmoplegia. Best initial investigation?",
+      "question_text": "A 32-year-old man with epilepsy presents with nystagmus, ataxia, and drowsiness. He is on phenytoin 300 mg/day. His plasma phenytoin level is 28 mcg/mL (therapeutic range: 10–20 mcg/mL). His physician increases the dose to 310 mg/day to better control seizures. What is the MOST dangerous pharmacokinetic consequence of this 10 mg/day dose increase in this patient?",
       "options": {
-        "A": "CT angiography",
-        "B": "MRI",
-        "C": "Ultrasound",
-        "D": "ECG"
+        "A": "Linear increase in plasma level proportional to dose increase",
+        "B": "Disproportionately large increase in plasma concentration due to zero-order kinetics",
+        "C": "Rapid renal clearance due to saturation of tubular reabsorption",
+        "D": "Increased volume of distribution leading to lower effective plasma levels"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Pharmacology concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "Phenytoin exhibits SATURATION (MICHAELIS-MENTEN / ZERO-ORDER) KINETICS at therapeutic doses. At low doses: first-order kinetics (plasma level rises proportionally with dose). As doses increase: hepatic CYP2C9/CYP2C19 enzymes become saturated. Once saturated: even a SMALL dose increase leads to a DISPROPORTIONATELY LARGE increase in plasma levels — because elimination capacity is fixed. This patient is already ABOVE therapeutic range (28 mcg/mL) with signs of toxicity (nystagmus, ataxia, drowsiness). A further 10 mg/day increase could cause SEVERE toxicity (cerebellar syndrome, cardiac arrhythmias). Clinical significance: Phenytoin has a NARROW THERAPEUTIC INDEX. Its non-linear kinetics make dosing unpredictable — therapeutic drug monitoring (TDM) is ESSENTIAL. Option A is INCORRECT: this describes first-order kinetics, which does NOT apply to phenytoin at therapeutic doses. Option C is INCORRECT: tubular reabsorption saturation is not the mechanism. Option D is INCORRECT: Vd does not increase with dose escalation. NEET PG/INI-CET High-Yield: Other drugs with zero-order/saturation kinetics: Ethanol, Aspirin (at high doses), Theophylline (near toxic levels). Phenytoin toxicity signs: nystagmus (first) → ataxia → drowsiness → cardiac arrhythmias."
     },
     {
       "question_id": "TW_PHARMACO_GENERAL_PHAR_Q009",
@@ -199,22 +202,31 @@
       "paper_ref": "TW_PHARMACO_GENERAL_PHAR",
       "subject": "Pharmacology",
       "topic": "General Pharmacology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Pharmacokinetics - Volume of Distribution",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": true,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A child presents with recurrent respiratory tract infections. Underlying mechanism?",
+      "image_title": "Dose-Response Curve Comparison",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Agonist_Dose_Response_Curves_%28EC50%29.svg/800px-Agonist_Dose_Response_Curves_%28EC50%29.svg.png",
+      "key_findings": [
+        "Curve A shows leftward shift compared to Curve B (higher potency)",
+        "Both Curve A and B reach the same Emax (100%)",
+        "Curve C reaches only 60% Emax — a ceiling effect",
+        "EC50 of Curve A is lower than EC50 of Curve B",
+        "Curve C represents submaximal efficacy despite full receptor occupancy"
+      ],
+      "question_text": "The dose-response curves shown represent three drugs acting on the same receptor system. Drug A (leftmost curve) reaches full Emax at a lower dose than Drug B, while Drug C reaches only 60% of maximum response regardless of dose. A patient requires maximum pain relief. Drug B is currently administered at a dose producing 80% effect. If Drug C is co-administered at a high dose, which best describes the expected pharmacodynamic outcome?",
       "options": {
-        "A": "Autoimmune destruction",
-        "B": "Type I hypersensitivity",
-        "C": "Fat necrosis",
-        "D": "Toxin-mediated injury"
+        "A": "Effect will increase to 100% as Drug C adds to Drug B's response",
+        "B": "Effect will decrease, as Drug C (partial agonist) competes with Drug B and limits the response",
+        "C": "No change, as Drug C does not bind to the same receptor",
+        "D": "Effect will remain at 80% as Drug C is an irreversible antagonist"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Pharmacology concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "Drug C is a PARTIAL AGONIST (submaximal Emax of 60%). When a partial agonist is co-administered with a full agonist at the same receptor: The partial agonist competes with the full agonist for receptor binding. At high doses, the partial agonist OCCUPIES more receptors — but each occupied receptor generates LESS response than the full agonist would. Net result: The partial agonist REDUCES the full agonist's effect — it acts as a FUNCTIONAL ANTAGONIST in this context. Clinical example: Buprenorphine (partial opioid agonist) can precipitate withdrawal if given to a patient on full opioid agonists (morphine) — it displaces morphine from receptors but produces less effect. Image interpretation: Curve A = high potency full agonist; Curve B = lower potency full agonist; Curve C = partial agonist (ceiling effect at 60%). Option A is INCORRECT: partial agonists REDUCE, not increase, maximal effect when competing with a full agonist. Option C is INCORRECT: Drug C acts on the SAME receptor (same receptor system). Option D is INCORRECT: Drug C is a partial agonist, not an irreversible antagonist. NEET PG Pearl: Partial agonist dual role: Acts as agonist in absence of full agonist; Acts as antagonist in presence of full agonist — this is a very commonly tested concept."
     },
     {
       "question_id": "TW_PHARMACO_GENERAL_PHAR_Q010",
@@ -222,22 +234,22 @@
       "paper_ref": "TW_PHARMACO_GENERAL_PHAR",
       "subject": "Pharmacology",
       "topic": "General Pharmacology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Pharmacokinetics - Half-life and Steady State",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A 52-year-old diabetic male presents with fever, hypotension, and tachycardia. Underlying mechanism?",
+      "question_text": "A 55-year-old woman with heart failure is started on digoxin (half-life = 40 hours) at a maintenance dose without a loading dose. After how many days will the plasma concentration reach approximately 94% of steady-state levels?",
       "options": {
-        "A": "Autoimmune destruction",
-        "B": "Type I hypersensitivity",
-        "C": "Fat necrosis",
-        "D": "Toxin-mediated injury"
+        "A": "Approximately 2 days",
+        "B": "Approximately 5 days",
+        "C": "Approximately 7 days",
+        "D": "Approximately 10 days"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Pharmacology concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "C",
+      "explanation": "Steady-state concentration (Css) is reached after approximately 4–5 half-lives of a drug with first-order kinetics. After 1 half-life: ~50% of Css. After 2 half-lives: ~75% of Css. After 3 half-lives: ~87.5% of Css. After 4 half-lives: ~93.75% ≈ 94% of Css. After 5 half-lives: ~96.9% of Css (clinically considered steady-state). Calculation for digoxin: Half-life = 40 hours. 4 half-lives = 4 × 40 = 160 hours ≈ 6.67 days ≈ 7 days. So approximately 94% steady-state is reached in ~7 days. Option A (2 days = ~48 hours = 1.2 half-lives → ~57% Css) is INCORRECT. Option B (5 days = 120 hours = 3 half-lives → ~87.5% Css) is INCORRECT. Option D (10 days = 240 hours = 6 half-lives → ~98.4% Css) slightly overshoots 94%. Clinical significance: Loading dose is used to rapidly achieve therapeutic levels when waiting 4–5 half-lives is clinically unacceptable (e.g., in acute heart failure with digoxin, or in life-threatening arrhythmias with amiodarone, t½ = weeks). NEET PG High-Yield: Time to steady state depends ONLY on half-life, NOT on dose or frequency. Changing dose changes the LEVEL of Css but not the TIME to reach it."
     },
     {
       "question_id": "TW_PHARMACO_GENERAL_PHAR_Q011",
@@ -245,22 +257,22 @@
       "paper_ref": "TW_PHARMACO_GENERAL_PHAR",
       "subject": "Pharmacology",
       "topic": "General Pharmacology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Drug Metabolism - CYP450 Inhibition",
+      "difficulty": "Very Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A young woman presents with progressive proximal muscle weakness and rash. Most appropriate management?",
+      "question_text": "A 60-year-old man on warfarin (INR = 2.5, target 2–3) develops a fungal nail infection. His physician prescribes fluconazole. One week later, he presents to the emergency department with hematuria and ecchymoses. INR is now 6.8. Which enzyme interaction explains this dangerous elevation in INR?",
       "options": {
-        "A": "IV fluids and insulin",
-        "B": "Observation",
-        "C": "Steroids only",
-        "D": "Oral antibiotics"
+        "A": "Fluconazole induces CYP2C9, increasing warfarin conversion to inactive metabolites",
+        "B": "Fluconazole inhibits CYP2C9, reducing metabolism of S-warfarin and increasing its anticoagulant effect",
+        "C": "Fluconazole displaces warfarin from vitamin K binding sites in the liver",
+        "D": "Fluconazole increases intestinal absorption of warfarin by inhibiting P-glycoprotein"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Pharmacology concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "This is a classic, clinically dangerous drug interaction: Warfarin pharmacology: Warfarin is a racemic mixture of R-warfarin and S-warfarin. S-warfarin is 3–5× more potent and is metabolized primarily by CYP2C9. R-warfarin is metabolized by CYP1A2 and CYP3A4. Fluconazole: A potent INHIBITOR of CYP2C9 (and also CYP3A4). By inhibiting CYP2C9, fluconazole markedly reduces S-warfarin metabolism → plasma levels of the active S-isomer rise dramatically → enhanced anticoagulation → supratherapeutic INR → bleeding. This is one of the most dangerous and commonly tested drug-drug interactions in pharmacology. Other potent CYP2C9 inhibitors that can dangerously raise INR: Amiodarone, Metronidazole, Fluoxetine, Voriconazole. Option A is INCORRECT: fluconazole is an INHIBITOR, not an inducer of CYP2C9. Option C is INCORRECT: warfarin inhibits Vitamin K epoxide reductase, not the reverse — fluconazole does not compete at this site. Option D is INCORRECT: P-glycoprotein inhibition is not the primary mechanism of this interaction. NEET PG/INI-CET Very High-Yield: Remember CYP2C9 substrates: warfarin (S), NSAIDs, phenytoin, losartan, sulfonylureas. Azole antifungals as CYP inhibitors: Fluconazole > Itraconazole > Ketoconazole (most potent CYP inhibitor: Ketoconazole > Itraconazole > Fluconazole for CYP3A4)."
     },
     {
       "question_id": "TW_PHARMACO_GENERAL_PHAR_Q012",
@@ -268,22 +280,22 @@
       "paper_ref": "TW_PHARMACO_GENERAL_PHAR",
       "subject": "Pharmacology",
       "topic": "General Pharmacology",
-      "subtopic": null,
+      "subtopic": "Pharmacokinetics - Volume of Distribution",
       "difficulty": "Easy",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Volume of distribution >1 L/kg suggests?",
+      "question_text": "A 70 kg patient receives 500 mg of Drug X intravenously. The measured plasma concentration immediately after injection is 0.5 mg/L. What is the volume of distribution (Vd) of Drug X, and what does this value indicate?",
       "options": {
-        "A": "Drug stays in plasma",
-        "B": "Drug extensively tissue-bound",
-        "C": "Drug renally cleared",
-        "D": "Drug has short half-life"
+        "A": "Vd = 1 L/kg — drug remains confined to plasma",
+        "B": "Vd = 14.3 L/kg — drug is extensively distributed to deep tissue compartments",
+        "C": "Vd = 0.07 L/kg — drug is confined to plasma water",
+        "D": "Vd = 50 L — drug distributes into total body water"
       },
       "correct_answer": "B",
-      "explanation": "High Vd: drug is extensively distributed to tissues (e.g., amiodarone Vd >60 L/kg). Low Vd (<0.1 L/kg): drug confined to plasma (heparin, warfarin)."
+      "explanation": "Volume of Distribution (Vd) = Dose / Initial plasma concentration = 500 mg ÷ 0.5 mg/L = 1000 L. Vd per kg = 1000 L ÷ 70 kg = 14.3 L/kg. Interpretation of Vd values: ~3–5 L (0.04–0.07 L/kg): confined to plasma (e.g., heparin, warfarin — highly protein-bound, large molecule). ~12–15 L (0.2 L/kg): confined to extracellular fluid. ~40 L (0.6 L/kg): distributes into total body water. >100–1000 L (>1.4 L/kg): extensively bound to tissues (e.g., amiodarone Vd >60 L/kg, chloroquine Vd ~250 L/kg, digoxin Vd ~7–8 L/kg). A Vd of 14.3 L/kg (1000 L total) indicates the drug is EXTENSIVELY sequestered in peripheral tissues (e.g., bound to muscle, fat, intracellular compartments). Practical implication: A drug with a large Vd is DIFFICULT TO REMOVE by dialysis (because most drug is in tissues, not plasma). Option A — 1 L/kg: this would suggest modest distribution, not plasma confinement. Option C — 0.07 L/kg: this would represent a plasma-confined drug. Option D — 50 L: does not match the calculated value. NEET PG Pearl: Large Vd = lipophilic, tissue-bound, hard to dialyze. Small Vd = hydrophilic, plasma-bound, dialyzable."
     },
     {
       "question_id": "TW_PHARMACO_GENERAL_PHAR_Q013",
@@ -291,22 +303,22 @@
       "paper_ref": "TW_PHARMACO_GENERAL_PHAR",
       "subject": "Pharmacology",
       "topic": "General Pharmacology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Drug Excretion - Renal Clearance",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A pregnant woman presents with hypertension and proteinuria. Best initial investigation?",
+      "question_text": "A 25-year-old woman takes an overdose of a weakly acidic drug (pKa 4.5) in a suicide attempt. She is admitted to the ICU. Urine alkalinization with sodium bicarbonate is initiated. Which mechanism best explains why urine alkalinization enhances renal excretion of this weakly acidic drug?",
       "options": {
-        "A": "CT angiography",
-        "B": "MRI",
-        "C": "Ultrasound",
-        "D": "ECG"
+        "A": "Alkaline urine increases glomerular filtration of the drug by reducing protein binding",
+        "B": "Alkaline urine ionizes the weakly acidic drug, trapping it in tubular lumen and preventing reabsorption",
+        "C": "Alkaline urine increases active tubular secretion of the drug via organic anion transporters",
+        "D": "Alkaline urine converts the drug to a more lipophilic form, increasing tubular secretion"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Pharmacology concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "This is the principle of ION TRAPPING for enhanced drug excretion. Weakly acidic drugs (e.g., aspirin, phenobarbitone, methotrexate) are excreted faster in alkaline urine. Mechanism: In alkaline urine (pH raised by NaHCO3), the weakly acidic drug loses its proton → becomes IONIZED (charged form). Ionized molecules are LIPID-INSOLUBLE and CANNOT diffuse back across the tubular membrane → they are TRAPPED in the tubular lumen → excreted in urine. In acidic urine: the drug remains non-ionized → lipid-soluble → passively reabsorbed back into blood → prolonged effect/toxicity. Henderson-Hasselbalch principle: For a weak acid, alkaline urine (pH >> pKa) → mostly ionized → ion trapping → enhanced excretion. Clinical applications of urine alkalinization: Aspirin overdose (weak acid), Phenobarbitone overdose, Methotrexate toxicity, Forced alkaline diuresis in salicylate poisoning. For weakly BASIC drugs overdose (e.g., amphetamines, quinidine): acidify urine to enhance excretion. Option A is INCORRECT: urine alkalinization does not significantly affect GFR or protein binding. Option C is INCORRECT: tubular secretion is not the mechanism of alkalinization benefit. Option D is INCORRECT: ionization DECREASES lipophilicity (opposite is stated). NEET PG/FMGE High-Yield: Ion trapping is a repeatedly tested concept — memorize acid in alkaline, base in acidic."
     },
     {
       "question_id": "TW_PHARMACO_GENERAL_PHAR_Q014",
@@ -314,22 +326,22 @@
       "paper_ref": "TW_PHARMACO_GENERAL_PHAR",
       "subject": "Pharmacology",
       "topic": "General Pharmacology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Adverse Drug Reactions - Type B (Idiosyncratic)",
+      "difficulty": "Very Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A patient develops sudden severe tearing chest pain radiating to the back. Most likely organism?",
+      "question_text": "A 22-year-old African-American man is given primaquine for Plasmodium vivax malaria. Within 3 days, he develops sudden pallor, jaundice, and dark urine. His blood film shows bite cells and Heinz bodies. This adverse reaction is best classified as which type of adverse drug reaction, and what is the underlying biochemical mechanism?",
       "options": {
-        "A": "Staphylococcus aureus",
-        "B": "Klebsiella",
-        "C": "Pseudomonas",
-        "D": "E. coli"
+        "A": "Type A (augmented) reaction — dose-dependent suppression of bone marrow erythropoiesis",
+        "B": "Type B (idiosyncratic/bizarre) reaction — G6PD deficiency leading to oxidative hemolysis",
+        "C": "Type C (chronic) reaction — cumulative suppression of erythropoietin production",
+        "D": "Type E (end-of-use) reaction — rebound hemolysis after primaquine withdrawal"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Pharmacology concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "This is a classic NEET PG/INI-CET scenario for Type B (Bizarre/Idiosyncratic) ADR. Classification of ADRs (Rawlins-Thompson): Type A (Augmented): Predictable, dose-dependent, extension of pharmacological effect (e.g., hypotension with antihypertensives). Type B (Bizarre/Idiosyncratic): Unpredictable, NOT dose-dependent, patient-specific genetic susceptibility. Type C (Chronic): Related to cumulative dose (e.g., adrenal suppression with long-term steroids). Type D (Delayed): Teratogenicity, carcinogenicity. Type E (End-of-use): Withdrawal reactions. This case: Primaquine (oxidant drug) + G6PD deficiency → Patient cannot produce sufficient NADPH via the hexose monophosphate shunt → Glutathione becomes depleted → Reactive oxygen species oxidize hemoglobin → Formation of Heinz bodies (denatured Hb) → Heinz bodies removed by spleen → Bite cells. Consequence: Acute intravascular hemolytic anemia. G6PD deficiency is X-linked recessive — most common enzyme deficiency worldwide, especially in African-Americans, Mediterranean populations, and South Asians. Other oxidant drugs triggering hemolysis in G6PD deficiency: Dapsone, Sulfonamides, Nitrofurantoin, Rasburicase, Methylene blue. Option A is INCORRECT: bone marrow suppression is not the mechanism; this is not a Type A reaction. Option C is INCORRECT: erythropoietin suppression is not the mechanism. Option D is INCORRECT: primaquine is being actively given, not withdrawn. NEET PG High-Yield: The combination of primaquine + African-American + bite cells + Heinz bodies = G6PD deficiency hemolysis is a CLASSIC examination scenario."
     },
     {
       "question_id": "TW_PHARMACO_GENERAL_PHAR_Q015",
@@ -337,22 +349,31 @@
       "paper_ref": "TW_PHARMACO_GENERAL_PHAR",
       "subject": "Pharmacology",
       "topic": "General Pharmacology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Pharmacokinetics - Drug Absorption",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": true,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A chronic smoker presents with hemoptysis and weight loss. Best initial investigation?",
+      "image_title": "Plasma Drug Concentration-Time Curve",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Pharmacokinetics_of_Drug_Absorption.svg/800px-Pharmacokinetics_of_Drug_Absorption.svg.png",
+      "key_findings": [
+        "Single oral dose administered at time zero",
+        "Rising phase corresponds to absorption exceeding elimination",
+        "Peak plasma concentration (Cmax) at Tmax",
+        "Falling phase: elimination exceeds absorption",
+        "Area under the curve (AUC) reflects total drug exposure and bioavailability"
+      ],
+      "question_text": "The plasma concentration-time curve shown represents an orally administered drug. A bioequivalence study compares two formulations (Brand A and Generic B) of the same drug. Generic B shows the same AUC as Brand A but a higher Cmax and shorter Tmax. Which of the following clinical conclusions is most appropriate?",
       "options": {
-        "A": "CT angiography",
-        "B": "MRI",
-        "C": "Ultrasound",
-        "D": "ECG"
+        "A": "Generic B is bioequivalent to Brand A in all respects",
+        "B": "Generic B has the same total drug exposure but faster absorption, which may cause greater peak toxicity",
+        "C": "Generic B has lower bioavailability despite the same AUC",
+        "D": "Generic B requires a lower dose than Brand A to achieve the same therapeutic effect"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Pharmacology concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "Understanding pharmacokinetic parameters from the concentration-time curve: AUC (Area Under the Curve): Represents TOTAL drug exposure; reflects bioavailability (same AUC = same total absorption). Cmax (Peak plasma concentration): The maximum plasma level reached; related to intensity of effect AND toxicity risk. Tmax (Time to peak concentration): The time at which Cmax occurs; reflects rate of absorption. Analysis: Generic B has the SAME AUC as Brand A → same total bioavailability. But Generic B has HIGHER Cmax and SHORTER Tmax → faster absorption rate. Clinical implication: Faster absorption → higher peak concentration → INCREASED RISK of concentration-dependent adverse effects/toxicity even though total exposure is equal. Bioequivalence criteria (FDA): Same Cmax AND AUC within 80–125% of reference product — because even if total exposure is the same, a markedly higher Cmax from faster absorption can alter the safety/efficacy profile. Example: A modified-release morphine formulation absorbing too quickly would cause opioid toxicity at the same total dose. Option A is INCORRECT: same AUC but different Cmax/Tmax means the formulations are NOT bioequivalent by regulatory standards. Option C is INCORRECT: bioavailability is represented by AUC, which is the same. Option D is INCORRECT: dose adjustment is not indicated by AUC alone. NEET PG/INI-CET pearl: Bioavailability ≠ Bioequivalence — bioequivalence requires similarity in both AUC and Cmax/Tmax."
     },
     {
       "question_id": "TW_PHARMACO_GENERAL_PHAR_Q016",
@@ -360,22 +381,22 @@
       "paper_ref": "TW_PHARMACO_GENERAL_PHAR",
       "subject": "Pharmacology",
       "topic": "General Pharmacology",
-      "subtopic": null,
+      "subtopic": "Pharmacokinetics - Zero-order Kinetics",
       "difficulty": "Easy",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Drug with zero-order kinetics at therapeutic doses?",
+      "question_text": "A 40-year-old epileptic patient on phenytoin presents for routine follow-up. His neurologist explains that this drug requires careful dose monitoring because small dose changes can cause large changes in plasma levels. Which pharmacokinetic characteristic of phenytoin best explains this clinical concern?",
       "options": {
-        "A": "Penicillin",
-        "B": "Warfarin",
-        "C": "Phenytoin",
-        "D": "Digoxin"
+        "A": "Phenytoin has a very long half-life of over 100 hours",
+        "B": "Phenytoin exhibits zero-order (saturation) kinetics at therapeutic doses due to saturable hepatic metabolism",
+        "C": "Phenytoin has a large volume of distribution causing unpredictable plasma levels",
+        "D": "Phenytoin is extensively protein-bound, leading to displacement interactions"
       },
-      "correct_answer": "C",
-      "explanation": "Phenytoin exhibits zero-order kinetics at therapeutic doses (saturated enzyme system). Small dose increase → disproportionate rise in plasma levels → toxicity."
+      "correct_answer": "B",
+      "explanation": "Phenytoin is metabolized by CYP2C9 and CYP2C19 in the liver. These enzymes become SATURATED at therapeutic plasma concentrations (10–20 mcg/mL). Once saturated: the elimination rate becomes CONSTANT (fixed amount per unit time) — this is ZERO-ORDER kinetics (also called Michaelis-Menten or saturation kinetics). Consequence: At therapeutic doses, a small dose increase → disproportionately large rise in plasma concentration → sudden toxicity. Below therapeutic doses: first-order kinetics (a fixed FRACTION eliminated per unit time — proportional rise with dose). This is why phenytoin requires therapeutic drug monitoring (TDM). Phenytoin toxicity signs in order: Nystagmus (earliest) → Ataxia → Diplopia → Drowsiness → Coma. Option A — Half-life: Phenytoin's half-life is variable (7–42 hours) and actually INCREASES at toxic levels due to saturated metabolism, but this is not the primary explanation. Option C — Large Vd: Phenytoin does have moderate Vd (~0.6 L/kg) but this is not why small doses cause large changes. Option D — Protein binding: Phenytoin is 90% protein-bound, and displacement interactions are important, but not the reason for non-linear kinetics. NEET PG High-Yield: Drugs with zero-order kinetics at therapeutic doses: Phenytoin, Ethanol, High-dose Aspirin, Theophylline (near toxic levels)."
     },
     {
       "question_id": "TW_PHARMACO_GENERAL_PHAR_Q017",
@@ -383,22 +404,22 @@
       "paper_ref": "TW_PHARMACO_GENERAL_PHAR",
       "subject": "Pharmacology",
       "topic": "General Pharmacology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Pharmacokinetics - Drug Interactions (CYP Induction)",
+      "difficulty": "Very Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A chronic alcoholic presents with abdominal pain radiating to the back. Best initial investigation?",
+      "question_text": "A 35-year-old HIV-positive woman on oral contraceptive pills (OCP) is started on rifampicin for pulmonary tuberculosis. She is counselled about contraceptive failure. Two months later, she presents with an unexpected pregnancy. Which mechanism best explains the OCP failure?",
       "options": {
-        "A": "CT angiography",
-        "B": "MRI",
-        "C": "Ultrasound",
-        "D": "ECG"
+        "A": "Rifampicin inhibits CYP3A4, increasing estrogen levels and causing implantation failure",
+        "B": "Rifampicin induces CYP3A4, accelerating hepatic metabolism of estrogen and progestin, reducing their plasma levels below therapeutic threshold",
+        "C": "Rifampicin competitively blocks estrogen receptors in the endometrium",
+        "D": "Rifampicin increases GI motility, reducing absorption of oral contraceptive pills"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Pharmacology concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "This is one of the most clinically important drug-drug interactions involving enzyme INDUCTION. Rifampicin: The most potent enzyme INDUCER in clinical use. Induces CYP3A4, CYP2C9, CYP2C19, CYP1A2, and P-glycoprotein. Mechanism of OCP failure: Rifampicin markedly upregulates CYP3A4 → accelerated hepatic metabolism of estrogen (ethinylestradiol) and progestin (levonorgestrel/norethindrone) → plasma levels fall BELOW effective threshold → breakthrough ovulation → pregnancy. This interaction is so clinically significant that alternative non-hormonal contraception (barrier methods, IUCD) is MANDATORY during rifampicin therapy. Rifampicin's enzyme-inducing effect persists for 4–6 weeks after stopping. Other important drugs whose efficacy is reduced by rifampicin (CYP3A4 induction): Antiretrovirals (protease inhibitors, NNRTIs), Cyclosporine, Methadone, Warfarin, Azole antifungals, Corticosteroids, Metoprolol. Option A is INCORRECT: rifampicin INDUCES (not inhibits) CYP3A4. Option C is INCORRECT: rifampicin does not block estrogen receptors. Option D is INCORRECT: increased GI motility is not the mechanism; rifampicin works via CYP induction, not absorption. NEET PG/INI-CET Critical Pearl: Rifampicin + OCP = contraceptive failure is a very commonly tested exam scenario. Always counsel women on rifampicin to use additional non-hormonal contraception."
     },
     {
       "question_id": "TW_PHARMACO_GENERAL_PHAR_Q018",
@@ -406,22 +427,22 @@
       "paper_ref": "TW_PHARMACO_GENERAL_PHAR",
       "subject": "Pharmacology",
       "topic": "General Pharmacology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Pharmacodynamics - Tachyphylaxis",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A chronic smoker presents with hemoptysis and weight loss. Underlying mechanism?",
+      "question_text": "A 50-year-old man with ischemic heart disease is placed on continuous transdermal glyceryl trinitrate (GTN) patches for angina prophylaxis. After 3 days of continuous therapy, he notes his angina is no longer controlled despite continued patch use. GTN levels are confirmed to be adequate. Which mechanism best explains this loss of efficacy?",
       "options": {
-        "A": "Autoimmune destruction",
-        "B": "Type I hypersensitivity",
-        "C": "Fat necrosis",
-        "D": "Toxin-mediated injury"
+        "A": "Pharmacokinetic tolerance — induced CYP3A4 increases GTN metabolism",
+        "B": "Pharmacodynamic tolerance — depletion of sulfhydryl (–SH) groups required for GTN bioactivation, causing nitrate tolerance (tachyphylaxis)",
+        "C": "Receptor downregulation of guanylyl cyclase due to continuous stimulation",
+        "D": "Reflex tachycardia overwhelming the antianginal effect of GTN"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Pharmacology concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "Nitrate tolerance (tachyphylaxis) is a classic pharmacodynamic phenomenon. GTN Mechanism of Action: GTN → biotransformed to nitric oxide (NO) → requires SULFHYDRYL (-SH) groups (from cysteine) for this conversion → NO activates guanylyl cyclase → ↑cGMP → smooth muscle relaxation → vasodilation. Mechanism of Tolerance: With CONTINUOUS nitrate exposure, sulfhydryl groups in vascular smooth muscle become depleted (oxidized). No sulfhydryl groups → GTN cannot be bioactivated to NO → no cGMP production → no vasodilation → loss of antianginal efficacy. Prevention: Nitrate-free interval (8–12 hours, usually at night) allows replenishment of sulfhydryl groups. N-acetylcysteine (NAC) — a sulfhydryl donor — can restore nitrate responsiveness. Option A is INCORRECT: nitrate tolerance is pharmacodynamic, NOT due to enzyme induction (pharmacokinetic tolerance). Option C is INCORRECT: guanylyl cyclase is the downstream effector, not the receptor for nitrates; receptor downregulation of cGMP is not the mechanism. Option D is INCORRECT: reflex tachycardia is an adverse effect of nitrates, not the cause of tolerance. NEET PG High-Yield: Nitrate tolerance = sulfhydryl depletion = pharmacodynamic tolerance. Prevention = nitrate-free interval or N-acetylcysteine. Classic exam trap: Confusing pharmacokinetic vs pharmacodynamic tolerance."
     },
     {
       "question_id": "TW_PHARMACO_GENERAL_PHAR_Q019",
@@ -429,22 +450,31 @@
       "paper_ref": "TW_PHARMACO_GENERAL_PHAR",
       "subject": "Pharmacology",
       "topic": "General Pharmacology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Pharmacokinetics - Drug Clearance",
+      "difficulty": "Very Hard",
       "question_type": "single_best_answer",
       "image_based": true,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A patient presents with sudden painless loss of vision. Most likely diagnosis?",
+      "image_title": "Two-Compartment Pharmacokinetic Model",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Two_compartment_pharmacokinetic_model.svg/800px-Two_compartment_pharmacokinetic_model.svg.png",
+      "key_findings": [
+        "Central compartment (Compartment 1): blood and highly perfused organs",
+        "Peripheral compartment (Compartment 2): muscle, fat, poorly perfused tissues",
+        "Rapid distribution phase (alpha phase): initial steep decline in plasma concentration",
+        "Slower elimination phase (beta phase): reflects true elimination half-life",
+        "Distribution between compartments is reversible and governed by lipophilicity"
+      ],
+      "question_text": "The two-compartment pharmacokinetic model shown depicts the behavior of a highly lipophilic intravenous drug. A 70 kg patient receives an IV bolus and plasma concentrations are monitored. The drug shows a rapid initial decline (alpha phase) followed by a slower terminal phase (beta phase). The drug has a clinical effect that WEARS OFF before elimination is complete. Which phenomenon best explains the clinical termination of drug effect in this scenario?",
       "options": {
-        "A": "Pulmonary embolism",
-        "B": "Acute pancreatitis",
-        "C": "Aortic dissection",
-        "D": "DKA"
+        "A": "Rapid hepatic metabolism eliminates the drug before it can redistribute",
+        "B": "Redistribution of the lipophilic drug from the central (plasma/brain) compartment to peripheral tissues (fat/muscle) terminates the clinical effect",
+        "C": "Tachyphylaxis at the target receptor causes rapid loss of drug response",
+        "D": "Renal clearance eliminates the active drug from the central compartment"
       },
-      "correct_answer": "C",
-      "explanation": "Integrated Pharmacology concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "This question tests the concept of REDISTRIBUTION as the mechanism of termination of drug effect — a principle critical for understanding ultra-short-acting anesthetic and sedative agents. Key Concept — Redistribution: Lipophilic drugs (e.g., thiopentone, propofol, ketamine, fentanyl) rapidly enter highly perfused tissues (brain, heart) from the central compartment — producing rapid onset of effect. Subsequently, the drug redistributes from brain to peripheral compartments (muscle, then fat) down concentration gradients. As brain levels fall, clinical effect terminates — even though the drug is still present in the body (sequestered in fat/muscle). The drug is eventually eliminated slowly from these peripheral depots. Alpha phase (distribution phase): rapid fall in plasma concentration due to tissue distribution. Beta phase (elimination phase): slow fall as drug is released from peripheral tissues and metabolized. Classic example: Thiopentone (thiopental): Single IV dose → rapid unconsciousness (brain uptake) → wakes up in 10–15 min (redistribution to muscle/fat) — despite minimal hepatic elimination yet. If repeated doses given: fat compartment fills up → redistribution cannot occur → prolonged effect (cumulative). Option A is INCORRECT: hepatic metabolism is NOT what terminates the effect of thiopentone within minutes. Option C is INCORRECT: tachyphylaxis is not the mechanism here. Option D is INCORRECT: renal clearance does not terminate the effect of highly lipophilic anesthetics within minutes. NEET PG/INI-CET Very High-Yield: Redistribution = mechanism of termination of action for: Thiopentone (barbiturate), Fentanyl (short-term), Propofol (to some extent), Ketamine. This explains why repeated/cumulative doses of thiopentone cause prolonged recovery."
     }
   ]
 }

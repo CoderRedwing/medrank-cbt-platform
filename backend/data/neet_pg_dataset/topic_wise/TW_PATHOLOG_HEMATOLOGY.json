@@ -5,7 +5,10 @@
   "topic": "Hematology",
   "total_questions": 7,
   "difficulty_distribution": {
-    "Easy": 7
+    "Easy": 1,
+    "Medium": 2,
+    "Hard": 3,
+    "Very Hard": 1
   },
   "created_at": "2026-05-30",
   "questions": [
@@ -15,22 +18,22 @@
       "paper_ref": "TW_PATHOLOG_HEMATOLOGY",
       "subject": "Pathology",
       "topic": "Hematology",
-      "subtopic": null,
+      "subtopic": "Chronic Myeloid Leukemia — Molecular Pathology",
       "difficulty": "Easy",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Philadelphia chromosome is seen in?",
+      "question_text": "A 45-year-old man presents with massive splenomegaly, leukocytosis of 1,20,000/μL with the full myeloid spectrum on peripheral smear, low LAP score, and basophilia. Cytogenetics reveals t(9;22)(q34;q11). Which of the following statements about the molecular consequence of this translocation is MOST accurate?",
       "options": {
-        "A": "AML M3",
-        "B": "CML",
-        "C": "ALL",
-        "D": "Hodgkin's lymphoma"
+        "A": "The fusion gene produces a 210 kDa protein with constitutively activated serine kinase activity",
+        "B": "The BCR-ABL1 fusion protein has constitutively activated tyrosine kinase activity that phosphorylates downstream RAS/MAPK and PI3K/AKT pathways, inhibiting apoptosis and promoting proliferation",
+        "C": "The translocation results in loss of the ABL1 gene on chromosome 9, producing a truncated non-functional protein",
+        "D": "The Philadelphia chromosome is pathognomonic of CML and is never found in acute leukemias"
       },
       "correct_answer": "B",
-      "explanation": "Philadelphia chromosome: t(9;22) BCR-ABL1 fusion. Classic in CML but also in 20-30% adult ALL. Treated with imatinib (TKI)."
+      "explanation": "The t(9;22)(q34;q11) Philadelphia chromosome fuses the BCR gene (chromosome 22) with the ABL1 gene (chromosome 9), creating the BCR-ABL1 fusion oncogene. In CML, the breakpoint in BCR is in the major breakpoint cluster region (M-bcr), producing the p210 BCR-ABL1 protein (not serine kinase — ABL1 is a TYROSINE kinase). This constitutively active tyrosine kinase activates RAS/MAPK (proliferation), PI3K/AKT (survival/anti-apoptosis), and JAK/STAT5 (self-renewal) pathways. Option A is wrong — it is a tyrosine kinase, not serine kinase (although the protein IS 210 kDa in CML). Option D is wrong — Philadelphia chromosome is found in 20–30% of adult B-ALL (minor breakpoint region, m-bcr → p190 protein) and occasionally in AML. Treatment: Imatinib (first-generation TKI) — competitive inhibitor at ATP-binding site of BCR-ABL1. Resistance: T315I gating mutation — resistant to all TKIs except ponatinib."
     },
     {
       "question_id": "TW_PATHOLOG_HEMATOLOGY_Q002",
@@ -38,22 +41,22 @@
       "paper_ref": "TW_PATHOLOG_HEMATOLOGY",
       "subject": "Pathology",
       "topic": "Hematology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Langerhans Cell Histiocytosis — Immunophenotype and Ultrastructure",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Marker for Langerhans cell histiocytosis (LCH)?",
+      "question_text": "A 4-year-old boy presents with lytic skull lesions, a seborrhoeic skin rash involving the scalp, and polyuria/polydipsia. Biopsy of a lytic lesion shows large cells with grooved, folded ('coffee-bean') nuclei, eosinophilic cytoplasm, and admixed eosinophils. Electron microscopy reveals intracytoplasmic tennis racket-shaped organelles. Which immunohistochemical panel would BEST confirm the diagnosis, and which molecular alteration drives the majority of cases?",
       "options": {
-        "A": "CD10",
-        "B": "CD1a + Langerin (CD207)",
-        "C": "CD20",
-        "D": "CD138"
+        "A": "CD20+, CD10+, BCL2+; t(14;18) IGH-BCL2 translocation",
+        "B": "CD1a+, CD207 (Langerin)+, S100+; BRAF V600E mutation in ~55% of cases",
+        "C": "CD15+, CD30+, CD45−; EBV-driven clonal proliferation",
+        "D": "CD138+, CD38+, CD56+; FGFR3 or RAS mutation"
       },
       "correct_answer": "B",
-      "explanation": "LCH: Birbeck granules (tennis racket shape on EM), CD1a+, Langerin (CD207)+, S100+. Involves bone, skin, lung, pituitary (DI)."
+      "explanation": "This is classic Langerhans Cell Histiocytosis (LCH) — the triad of lytic bone lesions + skin rash + diabetes insipidus (pituitary stalk involvement) = Hand-Schüller-Christian disease (multifocal multisystem LCH). The coffee-bean grooved nuclei + Birbeck granules on EM (tennis-racket shaped, arise from Langerin/CD207 receptor internalisation) are pathognomonic. Immunophenotype: CD1a+ (most specific surface marker), CD207/Langerin+ (induces Birbeck granule formation), S100+ (all dendritic cells), CD68+ (variable). BRAF V600E activating mutation is found in ~55% of LCH cases — this is the most common driver mutation (MAP kinase pathway activation). This is therapeutically important: BRAF V600E+ refractory/multisystem LCH can be treated with vemurafenib or dabrafenib. Option A: follicular lymphoma markers. Option C: Reed-Sternberg cell markers (Hodgkin lymphoma). Option D: plasma cell myeloma markers."
     },
     {
       "question_id": "TW_PATHOLOG_HEMATOLOGY_Q003",
@@ -61,22 +64,22 @@
       "paper_ref": "TW_PATHOLOG_HEMATOLOGY",
       "subject": "Pathology",
       "topic": "Hematology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "APML — DIC Mechanism and Treatment",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "APML (AML M3) complication at presentation?",
+      "question_text": "A 28-year-old woman presents with gum bleeding, petechiae, and a prolonged PT and APTT with low fibrinogen and elevated D-dimer. Peripheral smear shows hypergranular blasts with multiple Auer rods ('faggot cells'). Cytogenetics: t(15;17)(q24;q21). She is started on ATRA. Which of the following BEST explains the mechanism by which ATRA reverses the coagulopathy in this condition, AND what is the risk of ATRA therapy that must be monitored?",
       "options": {
-        "A": "Hyperuricemia",
-        "B": "DIC",
-        "C": "Hypokalemia",
-        "D": "CNS involvement"
+        "A": "ATRA activates plasminogen activator inhibitor-1 (PAI-1), reducing fibrinolysis; risk is tumour lysis syndrome causing hyperuricaemia and renal failure",
+        "B": "ATRA induces terminal differentiation of the PML-RARα-blocked promyelocytes into mature neutrophils, clearing the granule-rich blasts that release tissue factor and annexin II (hyperfibrinolysis mediators); the major risk is differentiation syndrome (DS) — a capillary leak syndrome from cytokine storm released by differentiating cells, presenting with fever, weight gain, pulmonary infiltrates, pleural/pericardial effusion, and renal failure",
+        "C": "ATRA directly inhibits thrombin by upregulating antithrombin III, resolving DIC; risk is QTc prolongation from arsenic trioxide co-administration",
+        "D": "ATRA degrades the PML-RARα fusion protein via proteasomal pathway and simultaneously activates Factor VII to correct the coagulopathy; risk is haemorrhagic cystitis"
       },
       "correct_answer": "B",
-      "explanation": "APML: t(15;17) PML-RARA. Associated with DIC at presentation (Auer rods release procoagulants). Treat with ATRA + arsenic trioxide."
+      "explanation": "APML (AML-M3): t(15;17) creates PML-RARα fusion protein, which blocks differentiation at the promyelocyte stage. Promyelocytes are packed with primary azurophilic granules rich in procoagulant substances — tissue factor, cancer procoagulant (cysteine protease), elastase — AND annexin II (overexpressed on APML blasts → binds plasminogen and tPA → hyperfibrinolysis). Together this creates a mixed DIC + hyperfibrinolytic state. ATRA binds RARα portion of PML-RARα → overcomes the differentiation block → promyelocytes differentiate into mature granulocytes → procoagulant granule-bearing blasts disappear → coagulopathy resolves within 2–5 days of ATRA. Differentiation Syndrome (DS): formerly 'ATRA syndrome' — occurs in ~25% of patients. Mechanism: differentiating cells release IL-1β, IL-6, IL-8, TNF-α → capillary leak. Presentation: fever, dyspnoea, weight gain, pulmonary infiltrates, pleuropericardial effusion, renal failure, hypotension. Management: high-dose dexamethasone 10 mg IV BD immediately + temporarily withhold ATRA if severe. Note: Arsenic trioxide (ATO) degrades the PML-RARα protein via the proteasome (this is option D's partial truth) but is not ATRA's mechanism for resolving coagulopathy."
     },
     {
       "question_id": "TW_PATHOLOG_HEMATOLOGY_Q004",
@@ -84,22 +87,22 @@
       "paper_ref": "TW_PATHOLOG_HEMATOLOGY",
       "subject": "Pathology",
       "topic": "Hematology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Haemolytic Anaemia — Peripheral Smear Findings",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
-      "image_based": false,
+      "image_based": true,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Heinz bodies are seen in?",
+      "question_text": "A 25-year-old man from Tamil Nadu presents with episodic haemolytic anaemia triggered by eating fava beans and taking primaquine for malaria prophylaxis. His peripheral smear (shown above) demonstrates red cells with eccentric pale areas ('bite cells'/'blister cells') and, on supravital crystal violet staining, dark inclusion bodies at the periphery of erythrocytes. His direct Coombs test is negative. Which of the following BEST explains the pathophysiology of the inclusion bodies seen and why this patient's reticulocytes are relatively protected during an acute haemolytic episode?",
       "options": {
-        "A": "Iron deficiency anemia",
-        "B": "G6PD deficiency",
-        "C": "Megaloblastic anemia",
-        "D": "Thalassemia"
+        "A": "The inclusions are Pappenheimer bodies (iron aggregates) — reticulocytes are protected because they have functional mitochondria that bypass the pentose phosphate pathway",
+        "B": "The inclusions are Heinz bodies (denatured, precipitated haemoglobin) — reticulocytes are relatively protected during acute crises because they have higher levels of G6PD enzyme (including both the normal and the deficient enzyme isoforms), and also possess alternative NADPH-generating capacity via the hexose monophosphate shunt that is upregulated in young cells",
+        "C": "The inclusions are Howell-Jolly bodies (nuclear remnants) — reticulocytes are unaffected because they are larger and pass more easily through the splenic cords",
+        "D": "The inclusions are Heinz bodies — reticulocytes are fully susceptible and are actually the first cells destroyed, explaining the rapid fall in reticulocyte count during acute haemolysis"
       },
       "correct_answer": "B",
-      "explanation": "Heinz bodies: denatured precipitated hemoglobin in G6PD deficiency (oxidative hemolysis). Seen on crystal violet stain, not Romanowsky stains."
+      "explanation": "G6PD deficiency: X-linked recessive (Xq28). G6PD is the rate-limiting enzyme of the hexose monophosphate (HMP) shunt/pentose phosphate pathway — the ONLY source of NADPH in mature RBCs (which lack mitochondria). NADPH maintains glutathione in reduced form (GSH) via glutathione reductase. GSH neutralises oxidative free radicals. In G6PD deficiency: oxidative stress (fava beans contain vicine/convicine → divicine → ROS; primaquine → hydroxylamine → ROS) → NADPH depleted → GSH depleted → haemoglobin oxidised → denatured precipitated haemoglobin = Heinz bodies. These are detected on crystal violet/brilliant cresyl blue staining (NOT routine Romanowsky stains). Heinz bodies attach to RBC membrane → spleen 'pits' them → leaves behind ghost/blister cells/'bite cells'. Reticulocyte protection: reticulocytes have HIGHER G6PD activity (enzyme levels are highest in young RBCs and decline with cell age — this is why G6PD-A− African variant shows episodic haemolysis of older cells preferentially). They also retain some mitochondrial NADPH generation capacity. The Mediterranean variant (severe) destroys both older and younger cells, causing more severe anaemia. Howell-Jolly bodies (option C) are nuclear remnants seen post-splenectomy. Pappenheimer bodies (option A) are siderotic granules. Option D is incorrect — reticulocytes ARE relatively protected."
     },
     {
       "question_id": "TW_PATHOLOG_HEMATOLOGY_Q005",
@@ -107,22 +110,22 @@
       "paper_ref": "TW_PATHOLOG_HEMATOLOGY",
       "subject": "Pathology",
       "topic": "Hematology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Hodgkin Lymphoma — Immunophenotype and Differential",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Reed-Sternberg cells are pathognomonic of?",
+      "question_text": "A 22-year-old woman presents with painless cervical lymphadenopathy, night sweats, and pruritus. Biopsy shows fibrous bands dividing the lymph node into nodules, with large lacunar cells and classic Reed-Sternberg cells in an inflammatory background of eosinophils, plasma cells, and lymphocytes. Immunohistochemistry: CD15+, CD30+, CD45−, CD20−, PAX5 (weakly+). Which of the following statements about this tumour is MOST accurate?",
       "options": {
-        "A": "Non-Hodgkin lymphoma",
-        "B": "Hodgkin's lymphoma",
-        "C": "Multiple myeloma",
-        "D": "CLL"
+        "A": "This is Nodular Lymphocyte-Predominant Hodgkin Lymphoma (NLPHL); the neoplastic cells (popcorn/LP cells) are CD20+, CD45+, CD15−, CD30− and are EBV-associated in >90% of cases",
+        "B": "This is Nodular Sclerosis Classical Hodgkin Lymphoma (NSCHL), the most common subtype; the Reed-Sternberg cells are derived from germinal centre B-cells that have lost B-cell antigen expression (CD20−, CD45−) but retain weak PAX5; EBV association is least common in this subtype (~10–25%); lacunar cells are RS cells with retraction artefact in formalin-fixed tissue",
+        "C": "This is Mixed Cellularity Classical Hodgkin Lymphoma; EBV is detected in >70% of cases; it is the most common subtype in HIV-positive patients",
+        "D": "This is Lymphocyte-Rich Classical Hodgkin Lymphoma; it has the worst prognosis of all Hodgkin lymphoma subtypes due to high tumour burden"
       },
       "correct_answer": "B",
-      "explanation": "Reed-Sternberg cells: large binucleated 'owl-eye' cells (CD15+, CD30+, CD45-). Classic in nodular sclerosis Hodgkin's lymphoma (most common subtype)."
+      "explanation": "This is Nodular Sclerosis CHL (NSCHL): most common subtype (60–70% of all HL), bimodal age distribution with a peak in young adults (15–35 years), female predominance. Hallmark: collagen bands (fibrous bands from thickened capsule) dividing lymph node into nodules + lacunar cells (RS cells with cytoplasmic retraction in formalin — the cytoplasm retracts leaving the nucleus sitting in a 'lacuna'). Immunophenotype of RS cells: CD30+ (most important, consistent), CD15+ (in ~80%), CD45− (loss of B-cell marker), CD20− (or very dim), PAX5 weakly positive (B-cell transcription factor — confirms B-cell lineage despite antigen loss). EBV association by subtype: Mixed Cellularity >70%, Lymphocyte Depleted >70%, Lymphocyte Rich ~40%, Nodular Sclerosis ~10–25% (LEAST EBV-associated). NLPHL (option A): neoplastic 'popcorn'/'LP' cells are CD20+, CD45+, BCL6+, CD15−, CD30− — distinct entity, not EBV-associated. Mixed Cellularity (option C): most common in HIV+ and elderly patients — this is correct but not what is described here. Lymphocyte Depleted (not lymphocyte-rich, option D) has the worst prognosis."
     },
     {
       "question_id": "TW_PATHOLOG_HEMATOLOGY_Q006",
@@ -130,22 +133,22 @@
       "paper_ref": "TW_PATHOLOG_HEMATOLOGY",
       "subject": "Pathology",
       "topic": "Hematology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Acute Myeloid Leukaemia — Classification and Smear",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
-      "image_based": false,
+      "image_based": true,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Auer rods are found in?",
+      "question_text": "A 55-year-old man presents with fatigue, gum hypertrophy, and skin infiltration. His WBC is 80,000/μL. The peripheral smear image above demonstrates large blasts with abundant greyish cytoplasm, folded/kidney-shaped nuclei, and fine azurophilic granules; some cells show phagocytosed red cells. Cytochemistry: NSE (non-specific esterase) strongly positive, MPO negative. Which FAB subtype and corresponding chromosomal abnormality is MOST likely, and what is the single MOST important prognostic genetic finding that must be sought in this AML subtype?",
       "options": {
-        "A": "ALL",
-        "B": "CLL",
-        "C": "AML",
-        "D": "CML"
+        "A": "AML M3 (APML); t(15;17) — best prognosis; ATRA sensitivity is the key prognostic factor",
+        "B": "AML M5 (Acute Monocytic/Monoblastic Leukaemia); KMT2A (MLL) rearrangement at 11q23 is the most important genetic finding — KMT2A-rearranged AML M5 confers intermediate-to-poor prognosis and is associated with extramedullary disease (gum hypertrophy, skin infiltration, CNS disease) due to high monocyte tissue-homing capacity",
+        "C": "AML M2; t(8;21) RUNX1-RUNX1T1 — good prognosis; the most important prognostic finding is NPM1 mutation",
+        "D": "AML M4 (Acute Myelomonocytic Leukaemia); inv(16) CBFB-MYH11 — good prognosis; most important finding is presence of eosinophilia with abnormal eosinophil granules"
       },
-      "correct_answer": "C",
-      "explanation": "Auer rods: pink/purple needle-like inclusions in blasts (myeloperoxidase-positive azurophilic granules). Pathognomonic of AML. APML (M3) has many Auer rods (faggot cells)."
+      "correct_answer": "B",
+      "explanation": "The combination of: (1) gum hypertrophy + skin infiltration (monocyte/monoblast tissue tropism due to CD11b/CD64 expression and chemokine receptors CCR2/CCR5), (2) large blasts with folded kidney-shaped/lobulated nuclei and grey cytoplasm, (3) NSE strongly positive (monocytic lineage marker — alpha-naphthyl butyrate esterase), (4) MPO negative (monocytic blasts are MPO-negative unlike myeloblasts) — all point to AML M5 (Monoblastic/Monocytic). KMT2A (MLL gene, chromosome 11q23) rearrangements: present in ~20% of AML M4/M5; most common partner — t(9;11) KMT2A-MLLT3 (intermediate prognosis) and t(11;19) KMT2A-ELL (poor prognosis). KMT2A rearranged AML is classified as intermediate-risk in ELN 2022. These blasts also express CD14, CD64, CD11b, CD36, lysozyme. Extramedullary disease (chloroma/leukaemia cutis/gingival infiltration) is FAR more common in monocytic AML (M4/M5) than other subtypes. Important: FLT3-ITD (poor prognosis, seen across subtypes), NPM1 mutation (favourable if without FLT3-ITD), IDH1/IDH2 (therapeutic target — enasidenib/ivosidenib). AML M2 (option C): MPO strongly positive, Auer rods, t(8;21). AML M4 with eosinophilia (option D): inv(16), abnormal eosinophil granules — excellent prognosis."
     },
     {
       "question_id": "TW_PATHOLOG_HEMATOLOGY_Q007",
@@ -153,22 +156,22 @@
       "paper_ref": "TW_PATHOLOG_HEMATOLOGY",
       "subject": "Pathology",
       "topic": "Hematology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Multiple Myeloma — Diagnostic Criteria, Protein Studies and End-Organ Damage",
+      "difficulty": "Very Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Multiple myeloma: characteristic finding on protein electrophoresis?",
+      "question_text": "A 62-year-old man presents with severe backache, anaemia (Hb 8.2 g/dL), hypercalcaemia (Ca 12.4 mg/dL), and creatinine 3.1 mg/dL. Skeletal survey shows multiple punched-out lytic lesions. Serum protein electrophoresis (SPEP) shows a tall narrow spike in the gamma region (M-protein 4.2 g/dL, IgG kappa). Bone marrow biopsy shows 40% plasma cells with 'clock-face' chromatin and eccentric nuclei; immunohistochemistry shows kappa light chain restriction. Urine immunofixation detects Bence-Jones proteins. Which of the following single statements MOST comprehensively and accurately describes the pathogenesis of renal failure in this patient AND identifies the renal lesion that is the MOST common cause of renal failure in myeloma?",
       "options": {
-        "A": "Polyclonal gammopathy",
-        "B": "M-protein (monoclonal spike)",
-        "C": "Absent gamma globulins",
-        "D": "Elevated albumin"
+        "A": "Hypercalcaemia causes nephrocalcinosis and is the primary cause of renal failure; the most common renal lesion is AL amyloidosis (amyloid light-chain nephropathy) causing nephrotic syndrome",
+        "B": "Myeloma cast nephropathy (myeloma kidney): free monoclonal light chains (Bence-Jones proteins) filtered at the glomerulus bind to Tamm-Horsfall protein (uromodulin) secreted by the thick ascending limb of the loop of Henle → form large obstructing casts in the distal tubules and collecting ducts → tubular obstruction + direct tubular toxicity of free light chains → acute tubular injury and interstitial nephritis. This is the MOST COMMON cause of renal failure in myeloma (~40–50% of myeloma renal disease). Contributing factors: dehydration, NSAIDs, contrast agents, hypercalcaemia (tubular dysfunction), and hyperuricaemia worsen cast nephropathy",
+        "C": "Renal failure in myeloma is caused solely by hyperviscosity syndrome from the M-protein obstructing glomerular capillaries; the most common lesion is membranous nephropathy",
+        "D": "Bence-Jones proteins are nephrotoxic only when they deposit in the glomerulus as AL amyloid; the most common renal lesion is light-chain deposition disease (LCDD) causing nodular glomerulosclerosis indistinguishable from diabetic nephropathy"
       },
       "correct_answer": "B",
-      "explanation": "Multiple myeloma: M-protein (IgG most common, then IgA) on SPEP. Bence-Jones proteins in urine. CRAB criteria: hyperCalcemia, Renal failure, Anemia, Bone lesions."
+      "explanation": "Renal failure in Multiple Myeloma — comprehensive: Occurs in 20–50% of myeloma patients. Causes in order of frequency: (1) Myeloma Cast Nephropathy (most common, ~40–50%): Free light chains (FLC) — preferentially kappa in cast nephropathy — are filtered (MW ~22 kDa, below glomerular filtration threshold). In the distal nephron, FLC co-precipitate with Tamm-Horsfall protein (THP/uromodulin) — produced by thick ascending limb cells — forming hard, fractured casts with surrounding giant cell reaction. Direct proximal tubular toxicity of FLC (independent of cast formation) also contributes via lysosomal dysfunction and ROS generation. (2) AL Amyloidosis (~10%): Monoclonal lambda light chains (predominantly lambda, unlike cast nephropathy) form beta-pleated sheet fibrils depositing in mesangium and glomerular capillary walls → nephrotic-range proteinuria, Congo red positive, apple-green birefringence on polarised light. (3) Light Chain Deposition Disease (LCDD) (~5%): Kappa light chains deposit as non-amyloid granular deposits (Congo red NEGATIVE) in mesangium and tubular basement membranes → nodular glomerulosclerosis (Randall-type) — can mimic diabetic nephropathy. (4) Hypercalcaemia: nephrogenic DI, dehydration, tubular dysfunction → worsens cast nephropathy. (5) Hyperviscosity: rare, mainly IgM (Waldenström's), not typical of IgG myeloma. Aggravating factors — NSAIDs, contrast agents, dehydration, bisphosphonates must be avoided. CRAB criteria for myeloma diagnosis: hyperCalcaemia (>11 mg/dL or >1 above ULN), Renal failure (creatinine >2 mg/dL or CrCl <40 mL/min), Anaemia (Hb <10 g/dL or >2 g below normal), Bone lesions (≥1 lytic lesion on CT/PET-CT/X-ray). This patient meets all four CRAB criteria."
     }
   ]
 }

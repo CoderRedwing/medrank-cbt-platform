@@ -42,6 +42,30 @@
     "total_questions": 4
   },
   {
+    "bank_id": "TW_MEDICINE_NEPHROLOGY",
+    "subject": "Medicine",
+    "topic": "Nephrology",
+    "total_questions": 10
+  },
+  {
+    "bank_id": "TW_MEDICINE_HEMATOLOGY",
+    "subject": "Medicine",
+    "topic": "Hematology",
+    "total_questions": 10
+  },
+  {
+    "bank_id": "TW_MEDICINE_HEPATOLOGY",
+    "subject": "Medicine",
+    "topic": "Hepatology",
+    "total_questions": 10
+  },
+  {
+    "bank_id": "TW_MEDICINE_MISCELLANEOUS",
+    "subject": "Medicine",
+    "topic": "MISCELLANEOUS",
+    "total_questions": 10
+  },
+  {
     "bank_id": "TW_SURGERY_GENERAL_SURG",
     "subject": "Surgery",
     "topic": "General Surgery Basics",
@@ -99,7 +123,7 @@
     "bank_id": "TW_PHARMACO_ANS_PHARMACO",
     "subject": "Pharmacology",
     "topic": "ANS Pharmacology",
-    "total_questions": 23
+    "total_questions": 20
   },
   {
     "bank_id": "TW_PHARMACO_CVS_PHARMACO",
@@ -111,7 +135,7 @@
     "bank_id": "TW_PHARMACO_ANTIMICROBIA",
     "subject": "Pharmacology",
     "topic": "Antimicrobials",
-    "total_questions": 6
+    "total_questions": 15
   },
   {
     "bank_id": "TW_PHARMACO_CNS_PHARMACO",
@@ -177,13 +201,13 @@
     "bank_id": "TW_OBGYN_OBSTETRICS",
     "subject": "OBGYN",
     "topic": "Obstetrics",
-    "total_questions": 5
+    "total_questions": 9
   },
   {
     "bank_id": "TW_OBGYN_GYNECOLOGY",
     "subject": "OBGYN",
     "topic": "Gynecology",
-    "total_questions": 5
+    "total_questions": 10
   },
   {
     "bank_id": "TW_PEDIATRI_NEONATOLOGY",
@@ -195,7 +219,7 @@
     "bank_id": "TW_PEDIATRI_PEDIATRIC_SY",
     "subject": "Pediatrics",
     "topic": "Pediatric Systemic",
-    "total_questions": 4
+    "total_questions": 5
   },
   {
     "bank_id": "TW_ANATOMY_GROSS_ANATOM",
@@ -279,37 +303,37 @@
     "bank_id": "TW_OPHTHALM_CORNEA_AND_E",
     "subject": "Ophthalmology",
     "topic": "Cornea and External Eye",
-    "total_questions": 2
+    "total_questions": 7
   },
   {
     "bank_id": "TW_OPHTHALM_LENS_AND_GLA",
     "subject": "Ophthalmology",
     "topic": "Lens and Glaucoma",
-    "total_questions": 3
+    "total_questions": 10
   },
   {
     "bank_id": "TW_OPHTHALM_RETINA_AND_O",
     "subject": "Ophthalmology",
     "topic": "Retina and Optics",
-    "total_questions": 2
+    "total_questions": 10
   },
   {
     "bank_id": "TW_OPHTHALM_NEURO-OPHTHA",
     "subject": "Ophthalmology",
     "topic": "Neuro-ophthalmology",
-    "total_questions": 2
+    "total_questions": 10
   },
   {
     "bank_id": "TW_ORTHOPED_TRAUMA",
     "subject": "Orthopedics",
     "topic": "Trauma",
-    "total_questions": 4
+    "total_questions": 20
   },
   {
     "bank_id": "TW_ORTHOPED_INFECTIONS_A",
     "subject": "Orthopedics",
     "topic": "Infections and Tumors",
-    "total_questions": 3
+    "total_questions": 10
   },
   {
     "bank_id": "TW_PSYCHIAT_PSYCHIATRIC_",

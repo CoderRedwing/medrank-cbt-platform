@@ -3,9 +3,12 @@
   "paper_type": "topic_wise",
   "subject": "Physiology",
   "topic": "Neurophysiology",
-  "total_questions": 2,
+  "total_questions": 5,
   "difficulty_distribution": {
-    "Easy": 2
+    "Easy": 1,
+    "Medium": 1,
+    "Hard": 2,
+    "Very Hard": 1
   },
   "created_at": "2026-05-30",
   "questions": [
@@ -15,22 +18,22 @@
       "paper_ref": "TW_PHYSIOLO_NEUROPHYSIOL",
       "subject": "Physiology",
       "topic": "Neurophysiology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Cerebellar Physiology",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Cerebellum lesion: ipsilateral or contralateral signs?",
+      "question_text": "A 52-year-old man presents with a 3-week history of progressive unsteadiness. On examination, he has difficulty performing rapid alternating movements of the right hand, his right-sided finger-nose test shows intention tremor that worsens as he approaches the target, and he walks with a wide-based gait veering to the right. MRI reveals a lesion in the right cerebellar hemisphere. Which of the following best explains why ALL his deficits are on the RIGHT side despite the cerebellum being a paired structure?",
       "options": {
-        "A": "Contralateral",
-        "B": "Ipsilateral",
-        "C": "Bilateral",
-        "D": "No definite laterality"
+        "A": "The cerebellum crosses at the level of the medulla, so right cerebellar lesions cause left-sided signs",
+        "B": "The cerebellum exerts ipsilateral control because its output crosses at the superior cerebellar peduncle, then crosses back via the corticospinal tract — the double-crossing results in ipsilateral coordination",
+        "C": "The cerebellar vermis alone controls ipsilateral limb coordination; hemisphere lesions cause contralateral signs",
+        "D": "Cerebellar signs are always bilateral regardless of lesion side"
       },
       "correct_answer": "B",
-      "explanation": "Cerebellar lesion: IPSILATERAL signs (cerebellum does not decussate). Features: DASHING — Dysdiadochokinesia, Ataxia (gait), Scanning speech, Hypotonia, Intention tremor, Nystagmus, Gait (wide-based)."
+      "explanation": "CEREBELLAR LATERALITY — The double-decussation principle: The cerebellum produces IPSILATERAL signs — a right cerebellar lesion causes right-sided deficits. Anatomical explanation: Cerebellar output (dentate nucleus → superior cerebellar peduncle) → CROSSES in the midbrain (decussation of superior cerebellar peduncles at level of inferior colliculus) → reaches contralateral red nucleus/VL thalamus → projects to contralateral motor cortex → corticospinal tract CROSSES AGAIN at the medullary pyramids. Net result: right cerebellum → left thalamus/cortex → right spinal cord/limbs. TWO CROSSINGS = IPSILATERAL control. Functional divisions of cerebellum: Vestibulocerebellum (flocculonodular lobe): balance, eye movements, gait → vermal/midline lesions → truncal ataxia, nystagmus. Spinocerebellum (vermis + intermediate zone): limb coordination → hemispheric lesions → limb ataxia, intention tremor, dysmetria. Cerebrocerebellum (lateral hemispheres): motor planning, skilled movements → learning of motor sequences. Features of cerebellar lesions (DASHING): Dysdiadochokinesia — impaired rapid alternating movements. Ataxia — gait, truncal or limb. Scanning (staccato) speech — dysarthria. Hypotonia — reduced muscle tone, pendular reflexes. Intention tremor — worsens toward target (cf. resting tremor of Parkinson's). Nystagmus — fast phase toward lesion side. Gait — wide-based, veering toward lesion side. Option A — INCORRECT: single crossing would give contralateral signs; the double-crossing is the key. Option C — INCORRECT: vermal lesions cause truncal/gait ataxia (bilateral truncal); hemisphere lesions cause ipsilateral LIMB ataxia. Option D — INCORRECT: unilateral hemisphere lesions cause predominantly ipsilateral signs. NEET PG/INI-CET Pearl: Cerebellum = IPSILATERAL. Basal ganglia = CONTRALATERAL. Cerebral cortex = CONTRALATERAL (via crossed pyramidal tract)."
     },
     {
       "question_id": "TW_PHYSIOLO_NEUROPHYSIOL_Q002",
@@ -38,22 +41,100 @@
       "paper_ref": "TW_PHYSIOLO_NEUROPHYSIOL",
       "subject": "Physiology",
       "topic": "Neurophysiology",
-      "subtopic": null,
+      "subtopic": "UMN vs LMN Lesions",
+      "difficulty": "Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 65-year-old man presents with right-sided weakness, increased tone, brisk deep tendon reflexes, and an upgoing plantar response. Two weeks later, he develops visible twitching in the right arm muscles at rest and progressive muscle wasting. EMG shows fibrillations and positive sharp waves. Which diagnosis and underlying neurophysiological explanation best accounts for the COMBINATION of both UMN and LMN signs in the same patient?",
+      "options": {
+        "A": "Multiple sclerosis — demyelination of both motor cortex and peripheral nerves simultaneously",
+        "B": "Amyotrophic lateral sclerosis (ALS) — simultaneous degeneration of both upper motor neurons (corticospinal tract) and lower motor neurons (anterior horn cells), producing mixed UMN + LMN signs",
+        "C": "Syringomyelia — central cord cavitation causing LMN signs at lesion level and UMN signs below; cannot explain cortical signs",
+        "D": "Brown-Séquard syndrome — hemisection causing ipsilateral UMN and contralateral LMN deficits"
+      },
+      "correct_answer": "B",
+      "explanation": "UMN vs LMN — Neurophysiology and Clinical Differentiation: UMN (Upper Motor Neuron): Located in motor cortex → internal capsule → brainstem → corticospinal tract → synapse on anterior horn cells. UMN lesion features: Spastic paralysis (clasp-knife), Increased muscle tone, Hyperreflexia (exaggerated DTRs), Babinski sign (extensor plantar) — PATHOGNOMONIC, Clonus, No significant muscle wasting, No fasciculations. LMN (Lower Motor Neuron): Anterior horn cells → ventral root → peripheral nerve → neuromuscular junction → muscle. LMN lesion features: Flaccid paralysis, Decreased/absent tone, Hyporeflexia or areflexia, Downgoing plantar (or absent), Muscle wasting/atrophy, Fasciculations (spontaneous LMN firing), Fibrillations on EMG. ALS (Amyotrophic Lateral Sclerosis / Motor Neuron Disease): Simultaneously affects BOTH UMN (lateral corticospinal tracts) and LMN (anterior horn cells). Hallmark: Mixed UMN + LMN signs in the SAME or DIFFERENT limbs. No sensory involvement (purely motor). Worst prognosis: bulbar involvement (dysphagia, dysarthria). The combination of spasticity + hyperreflexia (UMN) WITH fasciculations + wasting + EMG fibrillations (LMN) in the same patient = ALS until proven otherwise. Option A — MS: demyelinating disease primarily affecting UMN pathways; pure LMN signs (fasciculations, wasting, EMG fibrillations) are NOT seen. Option C — Syringomyelia: central cord cavity → LMN at cavity level (anterior horn), UMN below; sensory dissociation (cape distribution); does NOT produce the diffuse mixed pattern of ALS. Option D — Brown-Séquard: hemisection; ipsilateral UMN (corticospinal) + ipsilateral posterior column loss + CONTRALATERAL spinothalamic loss (pain/temp); not UMN + LMN at same level. NEET PG/INI-CET High-Yield: ALS = El Escorial criteria: UMN + LMN signs in ≥3 regions (bulbar, cervical, thoracic, lumbar). No sensory deficit. Riluzole (glutamate antagonist) is the only disease-modifying treatment."
+    },
+    {
+      "question_id": "TW_PHYSIOLO_NEUROPHYSIOL_Q003",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_PHYSIOLO_NEUROPHYSIOL",
+      "subject": "Physiology",
+      "topic": "Neurophysiology",
+      "subtopic": "Sensory Pathways - Spinal Cord Tracts",
+      "difficulty": "Hard",
+      "question_type": "single_best_answer",
+      "image_based": true,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "image_title": "Spinal Cord Cross-Section — Major Tracts",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Spinal_cord_tracts_-_English.svg/800px-Spinal_cord_tracts_-_English.svg.png",
+      "key_findings": [
+        "Dorsal columns (posterior funiculus): ipsilateral fine touch, vibration, proprioception — decussates at medulla (medial lemniscus)",
+        "Lateral corticospinal tract: contralateral voluntary motor control — decussates at medullary pyramids",
+        "Lateral spinothalamic tract: contralateral pain and temperature — decussates within 1–2 spinal segments of entry via anterior white commissure",
+        "Anterior spinothalamic tract: contralateral crude touch and pressure",
+        "Laminar organization: sacral fibers lie most lateral in spinothalamic tract (important for central cord vs extramedullary compression)"
+      ],
+      "question_text": "A 35-year-old man with a history of intravenous drug use presents with progressive weakness and numbness. Neurological examination reveals: loss of pain and temperature sensation from C5 to T1 bilaterally in a 'cape' distribution across the shoulders and upper limbs, with PRESERVED light touch and proprioception in the same area. Power is 3/5 in both upper limbs with wasting and fasciculations. Lower limb examination is normal. Which spinal cord lesion pattern best explains this dissociated sensory loss?",
+      "options": {
+        "A": "Posterior cord syndrome — bilateral dorsal column damage sparing spinothalamic tract",
+        "B": "Syringomyelia — central cavitation of the spinal cord disrupting the decussating spinothalamic fibers in the anterior white commissure while sparing dorsal columns",
+        "C": "Brown-Séquard syndrome — hemisection of the cord at C5",
+        "D": "Anterior cord syndrome — anterior spinal artery infarction sparing only posterior columns"
+      },
+      "correct_answer": "B",
+      "explanation": "DISSOCIATED SENSORY LOSS — Neuroanatomical Basis: The key finding here is DISSOCIATED SENSORY LOSS: Pain and temperature LOST bilaterally (spinothalamic tract affected). Light touch and proprioception PRESERVED (dorsal columns intact). This pattern = involvement of the ANTERIOR WHITE COMMISSURE, where SPINOTHALAMIC fibers cross from both sides. SYRINGOMYELIA: A fluid-filled cavity (syrinx) develops within the central spinal cord. The syrinx PREFERENTIALLY DAMAGES: Anterior horn cells → LMN signs at lesion level (wasting, fasciculations, weakness). Anterior white commissure → BILATERAL spinothalamic fiber interruption → bilateral pain/temp loss. Lateral corticospinal tracts (if large) → UMN signs below. DORSAL COLUMNS are SPARED (peripheral position) → light touch and proprioception preserved. 'CAPE DISTRIBUTION': Cervical syrinx (C5–T1) → bilateral loss of pain/temperature across shoulders, arms — like a cape/shawl. IVDU connection: Chiari malformation type I → tonsillar herniation → altered CSF dynamics → syrinx. Also: trauma, tumors, arachnoiditis. Other cord syndromes for contrast: Posterior cord syndrome: bilateral dorsal column loss (vibration/proprioception), spinothalamic preserved — e.g., tabes dorsalis, subacute combined degeneration. Anterior cord syndrome: bilateral spinothalamic loss + bilateral corticospinal loss (motor) but dorsal columns PRESERVED — e.g., anterior spinal artery infarction. Brown-Séquard (hemisection): Ipsilateral: UMN signs + dorsal column loss. Contralateral: spinothalamic loss (pain/temp). Central cord syndrome: greatest weakness in upper > lower limbs; common in elderly with hyperextension injury. Option A — Posterior cord: would show vibration/proprioception loss, NOT pain/temperature loss. Option C — Brown-Séquard: would be UNILATERAL, not bilateral cape distribution. Option D — Anterior cord: would ALSO affect motor (bilateral weakness, UMN type), not just sensory. NEET PG/INI-CET High-Yield: Syrinx = bilateral suspended dissociated sensory loss + LMN at level + UMN below + autonomic (Horner's if cervical). Cape distribution = classic syringomyelia."
+    },
+    {
+      "question_id": "TW_PHYSIOLO_NEUROPHYSIOL_Q004",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_PHYSIOLO_NEUROPHYSIOL",
+      "subject": "Physiology",
+      "topic": "Neurophysiology",
+      "subtopic": "Nerve Physiology - Action Potential",
       "difficulty": "Easy",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Upper motor neuron lesion signs include?",
+      "question_text": "A physiologist studies nerve conduction in a myelinated peripheral nerve. The nerve is stimulated supramaximally. Which of the following correctly describes the ionic basis of the ACTION POTENTIAL and why myelination increases conduction velocity?",
       "options": {
-        "A": "Flaccid paralysis, fasciculations",
-        "B": "Spastic paralysis, hyperreflexia, upgoing plantar",
-        "C": "Atrophy, absent reflexes",
-        "D": "Fasciculations, muscle wasting"
+        "A": "Depolarization: K+ influx; Repolarization: Na+ efflux; Myelination reduces membrane capacitance at nodes of Ranvier only",
+        "B": "Depolarization: rapid Na+ influx through voltage-gated Na+ channels; Repolarization: K+ efflux through delayed rectifier K+ channels; Myelination allows saltatory conduction (current jumps between nodes of Ranvier), increasing velocity without increasing axon diameter proportionally",
+        "C": "Depolarization: Ca2+ influx; Repolarization: Cl- efflux; Myelination increases axon diameter directly",
+        "D": "Depolarization: Na+ efflux; Repolarization: K+ influx; Myelination works by activating more voltage-gated channels per unit length"
       },
       "correct_answer": "B",
-      "explanation": "UMN lesion: spastic paralysis, increased tone, hyperreflexia, Babinski positive (extensor plantar), no atrophy. LMN lesion: flaccid, hypotonia, hyporeflexia, wasting, fasciculations."
+      "explanation": "NERVE ACTION POTENTIAL — Ionic Basis: Resting membrane potential: −70 mV (maintained by Na+/K+ ATPase and K+ leak channels). Phase 0 — Depolarization: Threshold reached (approximately −55 mV) → voltage-gated Na+ channels (VGSCs) open rapidly → massive Na+ INFLUX → membrane potential rises rapidly toward +30 mV. Phase 1 — Repolarization begins: VGSCs inactivate (absolute refractory period). Voltage-gated K+ channels (delayed rectifiers, IKv) open → K+ EFFLUX → repolarization. Phase 2 — Afterhyperpolarization (undershoot): K+ channels remain open briefly → membrane overshoots to slightly below −70 mV (relative refractory period). MYELINATION and SALTATORY CONDUCTION: Myelin (from Schwann cells in PNS; oligodendrocytes in CNS) wraps axons between nodes of Ranvier. Myelin acts as electrical insulator: Reduces membrane capacitance (less charge needed to depolarize). Reduces ionic current leakage between nodes. Action potential can ONLY be generated at nodes of Ranvier (where VGSCs are concentrated). Current flows passively (electrotonically) from one node to the next → action potential 'jumps' from node to node = SALTATORY CONDUCTION. Effect: Conduction velocity increases dramatically (up to 70–120 m/s in large myelinated fibers vs 0.5–2 m/s in unmyelinated C fibers). Nerve fiber classification: Aα (Ia/Ib): largest, fastest (70–120 m/s), motor and proprioception. Aβ: touch, pressure. Aδ: sharp/fast pain, temperature. C (unmyelinated): slow/burning pain, post-ganglionic autonomic. Option A — INCORRECT: Na+ influx causes depolarization (not K+). Option C — INCORRECT: Ca2+ influx is the mechanism at synaptic terminals and cardiac muscle, not nerve APs. Option D — INCORRECT: Na+ INFLUX (not efflux) causes depolarization. NEET PG Pearl: All-or-none law — action potential does not vary in amplitude with stimulus intensity. Refractory period prevents backward propagation and limits firing frequency."
+    },
+    {
+      "question_id": "TW_PHYSIOLO_NEUROPHYSIOL_Q005",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_PHYSIOLO_NEUROPHYSIOL",
+      "subject": "Physiology",
+      "topic": "Neurophysiology",
+      "subtopic": "Basal Ganglia - Motor Control",
+      "difficulty": "Very Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 60-year-old man presents with progressive resting tremor of the right hand (pill-rolling), bradykinesia, cogwheel rigidity, and shuffling gait. His neurologist explains that the pathology lies in loss of dopaminergic neurons in the substantia nigra pars compacta (SNpc). Using the direct and indirect pathway model of basal ganglia circuitry, which sequence of events best explains how SNpc dopamine loss leads to the motor features of Parkinson's disease?",
+      "options": {
+        "A": "SNpc dopamine loss → increased direct pathway activity → excess thalamic excitation → hyperkinesia",
+        "B": "SNpc dopamine loss → reduced D1-mediated direct pathway (decreased thalamic disinhibition) AND increased D2-mediated indirect pathway activity (increased STN → GPi inhibition of thalamus) → net INCREASED inhibitory output from GPi/SNpr → REDUCED thalamo-cortical drive → hypokinesia/bradykinesia",
+        "C": "SNpc dopamine loss → direct activation of motor cortex via nigrostriatal projections → tremor at rest",
+        "D": "SNpc dopamine loss → reduced indirect pathway activity → decreased GPi output → excess thalamic excitation → resting tremor"
+      },
+      "correct_answer": "B",
+      "explanation": "BASAL GANGLIA CIRCUITRY — Direct and Indirect Pathways: Normal basal ganglia function: The basal ganglia facilitate DESIRED movements and SUPPRESS unwanted movements. KEY CIRCUIT (simplified): Motor cortex → Striatum → GPi/SNpr → Thalamus (VL/VA) → Motor cortex. GPi/SNpr tonically INHIBITS the thalamus (GABAergic). For movement to occur, GPi/SNpr must be DISINHIBITED → thalamus activated → cortex excited. DIRECT PATHWAY (facilitates movement): Striatum (D1 receptors) → DIRECTLY inhibits GPi/SNpr → REDUCES inhibition of thalamus → thalamus excites cortex → MOVEMENT. Dopamine on D1 receptors EXCITES direct pathway → facilitates movement. INDIRECT PATHWAY (suppresses movement): Striatum (D2 receptors) → inhibits GPe → releases STN (subthalamic nucleus) from inhibition → STN excites GPi/SNpr → INCREASES inhibition of thalamus → SUPPRESSES unwanted movement. Dopamine on D2 receptors INHIBITS indirect pathway → reduces suppression of movement. IN PARKINSON'S DISEASE (dopamine loss): Direct pathway: UNDERACTIVE (D1 stimulation lost → less GPi inhibition → GPi more active). Indirect pathway: OVERACTIVE (D2 inhibition lost → GPe inhibited → STN released → STN overdrives GPi → GPi even more active). NET EFFECT: GPi/SNpr OUTPUT MASSIVELY INCREASED → thalamo-cortical pathway OVER-INHIBITED → REDUCED motor cortex activation → BRADYKINESIA, HYPOKINESIA, RIGIDITY. Resting tremor: separate circuit involving basal ganglia-thalamo-cortical loops with re-entrant oscillations. Treatment rationale: Levodopa: dopamine precursor restores D1/D2 stimulation. STN deep brain stimulation (DBS): inhibits overactive STN → reduces GPi output. Option A — INCORRECT: direct pathway is REDUCED (not increased) in Parkinson's → less thalamic excitation, not more. Option C — INCORRECT: dopamine does not directly activate motor cortex; it modulates striatal circuits. Option D — INCORRECT: indirect pathway is INCREASED (not reduced) in Parkinson's; GPi output is increased (not decreased). NEET PG/INI-CET Very High-Yield: Parkinson's = hypokinetic disorder (too much GPi output). Huntington's = hyperkinetic disorder (too little GPi output — GABAergic striatal neurons that inhibit GPi are lost). Hemiballismus = STN lesion → uncontrolled GPi disinhibition → violent flinging movements."
     }
   ]
 }
