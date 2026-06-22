@@ -14,13 +14,13 @@
   },
   "dataset_summary": {
     "full_papers": {
-      "count": 35,
+      "count": 36,
       "questions_each": "185-200",
       "total_questions": 6550
     },
     "subject_papers": {
       "count": 80,
-      "questions_each": 100,
+      "questions_each": 50,
       "total_questions": 8000
     },
     "topic_wise_banks": {

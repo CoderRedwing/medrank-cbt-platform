@@ -3,11 +3,14 @@
   "paper_type": "topic_wise",
   "subject": "Ophthalmology",
   "topic": "Neuro-ophthalmology",
-  "total_questions": 2,
+  "total_questions": 10,
   "difficulty_distribution": {
-    "Easy": 2
+    "Easy": 2,
+    "Medium": 2,
+    "Hard": 4,
+    "Very Hard": 2
   },
-  "created_at": "2026-05-30",
+  "created_at": "2026-06-21",
   "questions": [
     {
       "question_id": "TW_OPHTHALM_NEURO-OPHTHA_Q001",
@@ -15,22 +18,22 @@
       "paper_ref": "TW_OPHTHALM_NEURO-OPHTHA",
       "subject": "Ophthalmology",
       "topic": "Neuro-ophthalmology",
-      "subtopic": null,
+      "subtopic": "Pupillary Abnormalities — Argyll Robertson Pupil",
       "difficulty": "Easy",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Argyll Robertson pupil: characteristics?",
+      "question_text": "A 55-year-old male with a history of untreated syphilis for over 20 years is referred for a neuro-ophthalmic evaluation. On examination, both pupils are small (miotic), irregular in shape, and unequal. When a bright light is shone into each eye, neither pupil constricts. However, when the patient is asked to focus on a near object, both pupils constrict briskly and then re-dilate on looking into the distance. Which of the following best describes this pupillary finding and its anatomical basis?",
       "options": {
-        "A": "Reacts to light, not accommodation",
-        "B": "Does not react to light but reacts to accommodation (near)",
-        "C": "Both reactions absent",
-        "D": "Both reactions present but sluggish"
+        "A": "Adie's tonic pupil — damage to the ciliary ganglion causing both light and near reflex to be absent",
+        "B": "Argyll Robertson pupil — a dorsal midbrain lesion selectively interrupts the light reflex pathway while sparing the near reflex pathway, resulting in light-near dissociation",
+        "C": "Horner's syndrome — interruption of the sympathetic pathway causing miosis with an intact light reflex",
+        "D": "Marcus Gunn (relative afferent) pupillary defect — unilateral optic nerve damage causing asymmetric light response"
       },
       "correct_answer": "B",
-      "explanation": "Argyll Robertson pupil: accommodation-convergence reflex intact, but light reflex ABSENT (midbrain dorsal lesion). Classic in neurosyphilis. Bilateral, irregular, small (miotic) pupils."
+      "explanation": "Argyll Robertson (AR) pupils are the classic ocular manifestation of neurosyphilis (tertiary syphilis involving the dorsal midbrain/periaqueductal region). The key feature is light-near dissociation: the direct and consensual light reflexes are absent bilaterally, but the near reflex (pupillary constriction during accommodation-convergence) is intact. This occurs because the pretectal olivary nucleus (which mediates the light reflex) is selectively damaged by the spirochetal inflammation, while the pathway for the near reflex (which projects through the Edinger-Westphal nucleus via a separate, more ventral route) is preserved. The pupils are characteristically bilateral, small (miotic — possibly due to concurrent damage to sympathetic dilator fibres), irregular (from iris atrophy and posterior synechiae), and fail to dilate well in the dark or with mydriatics. Adie's tonic pupil (ciliary ganglion damage, often post-viral) shows a large, poorly reactive pupil with slow, tonic near response — the opposite morphology. Horner's syndrome (sympathetic chain lesion) causes miosis with a normal light reflex. RAPD is a unilateral afferent defect detected on the swinging flashlight test."
     },
     {
       "question_id": "TW_OPHTHALM_NEURO-OPHTHA_Q002",
@@ -38,22 +41,216 @@
       "paper_ref": "TW_OPHTHALM_NEURO-OPHTHA",
       "subject": "Ophthalmology",
       "topic": "Neuro-ophthalmology",
-      "subtopic": null,
+      "subtopic": "Visual Field Defects — Chiasmal Lesion",
       "difficulty": "Easy",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Bitemporal hemianopia indicates lesion at?",
+      "question_text": "A 38-year-old female presents with a 6-month history of progressive bilateral peripheral vision loss. She reports difficulty seeing objects on either side while looking straight ahead and has recently been involved in a minor traffic accident. She also reports secondary amenorrhoea and galactorrhoea over the past year. MRI brain reveals a suprasellar mass with upward displacement of the optic chiasm. Goldmann perimetry shows loss of the temporal half of the visual field in both eyes. Which of the following correctly identifies the visual field defect and the anatomical reason for it?",
       "options": {
-        "A": "Optic nerve",
-        "B": "Optic chiasm",
-        "C": "Optic tract",
-        "D": "Visual cortex"
+        "A": "Binasal hemianopia — damage to the uncrossed temporal fibres at the lateral chiasm",
+        "B": "Bitemporal hemianopia — compression of the crossing nasal retinal fibres at the optic chiasm, which carry information from the temporal visual fields",
+        "C": "Left homonymous hemianopia — damage to the right optic tract posterior to the chiasm",
+        "D": "Right monocular visual field loss — compression of the right optic nerve"
       },
       "correct_answer": "B",
-      "explanation": "Bitemporal hemianopia: chiasmal lesion (crossing nasal fibers). Pituitary adenoma most common cause. Optic nerve: monocular visual loss. Optic tract/radiation: homonymous hemianopia."
+      "explanation": "Bitemporal hemianopia results from damage to the decussating nasal retinal nerve fibres at the optic chiasm. The nasal retina of each eye (which receives light from the temporal visual field) sends its fibres to cross at the chiasm and join the contralateral optic tract. A compressive chiasmal lesion — most commonly a pituitary adenoma (which grows upward from the sella to compress the inferior chiasm) or a craniopharyngioma — preferentially damages these crossing fibres, producing loss of both temporal visual fields (bitemporal hemianopia). The associated amenorrhoea and galactorrhoea point to a prolactinoma, the most common secretory pituitary adenoma. The junction scotoma (Traquair's junctional scotoma) — an ipsilateral central scotoma with a contralateral superotemporal defect — occurs when the lesion is at the junction of the optic nerve and chiasm, affecting the crossing inferior nasal fibres (Wilbrand's knee). Binasal hemianopia (damage to uncrossed temporal fibres) is rare and can occur with bilateral carotid aneurysm compression."
+    },
+    {
+      "question_id": "TW_OPHTHALM_NEURO-OPHTHA_Q003",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_OPHTHALM_NEURO-OPHTHA",
+      "subject": "Ophthalmology",
+      "topic": "Neuro-ophthalmology",
+      "subtopic": "Third Nerve Palsy — Surgical vs Medical",
+      "difficulty": "Medium",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 58-year-old hypertensive and diabetic male presents with sudden onset painful right-sided ptosis and diplopia since that morning. On examination, the right eye is deviated downward and outward ('down and out') with complete ptosis. The right pupil measures 3 mm and reacts normally to both light and near stimulus. There is no proptosis. CT brain is unremarkable. Which of the following is the most likely underlying cause, and what is the critical pupillary finding that differentiates this from a posterior communicating artery aneurysm?",
+      "options": {
+        "A": "Posterior communicating artery (PCoA) aneurysm; the pupil is spared in aneurysmal third nerve palsy",
+        "B": "Microvascular ischaemic third nerve palsy (diabetic third nerve palsy); the pupil is characteristically spared because ischaemia damages the central core of the nerve while the superficial pupillomotor fibres (supplied by pial vessels) are relatively preserved",
+        "C": "Cavernous sinus thrombosis; pupil sparing occurs because the fourth and sixth nerve are also involved",
+        "D": "Myasthenia gravis; pupil is always spared because it does not involve smooth muscle in this condition"
+      },
+      "correct_answer": "B",
+      "explanation": "A diabetic (microvascular) third nerve palsy classically presents with complete or partial ptosis and ophthalmoplegia (down and out deviation from intact superior oblique [IV] and lateral rectus [VI]) but with PUPIL SPARING. This is the critical differentiating feature. The pupillomotor fibres of CN III run on the superficial outer periphery of the nerve and are supplied by the pial vessels; the central core carrying motor fibres to the extraocular muscles is supplied by vasa nervorum. Microvascular ischaemia (from diabetes, hypertension) preferentially damages the central core (motor fibres), sparing the peripheral pupillomotor fibres. Conversely, a posterior communicating artery aneurysm (PCoA) compresses the nerve from outside, first damaging the superficial pupillomotor fibres → PUPIL IS DILATED AND NON-REACTIVE. Therefore: pupil-involving painful third nerve palsy = aneurysm until proven otherwise → emergency MRA/CTA/DSA. Pupil-sparing painful/painless third nerve palsy in a diabetic/hypertensive = microvascular, managed conservatively with monitoring (resolves in 8–12 weeks). Any pupil-sparing palsy that subsequently develops pupil involvement must be urgently re-imaged."
+    },
+    {
+      "question_id": "TW_OPHTHALM_NEURO-OPHTHA_Q004",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_OPHTHALM_NEURO-OPHTHA",
+      "subject": "Ophthalmology",
+      "topic": "Neuro-ophthalmology",
+      "subtopic": "Papilloedema vs Optic Neuritis",
+      "difficulty": "Medium",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "Two patients present to the ophthalmology clinic with swollen optic discs. Patient A is a 28-year-old female with a 3-day history of painful right eye movement, central visual loss in the right eye (6/60), a relative afferent pupillary defect (RAPD) on the right, and dyschromatopsia. Patient B is a 42-year-old obese female with headache worse on lying down, bilateral blurring of vision, and pulsatile tinnitus; her visual acuity is 6/6 bilaterally and lumbar puncture opening pressure is 38 cmH2O. Which single finding MOST reliably distinguishes papilloedema (Patient B) from optic neuritis (Patient A)?",
+      "options": {
+        "A": "Degree of disc swelling — papilloedema always produces more severe swelling",
+        "B": "Visual acuity — optic neuritis causes significant acute central visual loss while early papilloedema preserves central acuity (only peripheral constriction and an enlarged blind spot initially)",
+        "C": "Presence of disc haemorrhages — these only occur in papilloedema",
+        "D": "Bilaterality — optic neuritis is always unilateral while papilloedema is always bilateral"
+      },
+      "correct_answer": "B",
+      "explanation": "The most reliable distinguishing feature is the effect on central visual acuity. Optic neuritis causes acute, often severe, monocular central visual loss (the inflammatory demyelination affects the optic nerve fibres directly, including the papillomacular bundle), associated with pain on eye movement (due to inflammation of the dural sheath around the nerve), RAPD, and dyschromatopsia (impaired colour vision, particularly red desaturation — often out of proportion to the acuity loss). Patient A's MRI may show an optic nerve lesion and/or brain white matter plaques consistent with demyelination/MS. In contrast, early papilloedema (from raised intracranial pressure, as in idiopathic intracranial hypertension/pseudotumour cerebri in Patient B) characteristically preserves central vision initially; the earliest field defect is an enlarged blind spot followed by nasal step or peripheral constriction. Disc haemorrhages can occur in both conditions. Bilaterality is typical of papilloedema but optic neuritis can rarely be bilateral (especially in NMO spectrum disorder). Treatment differs fundamentally: optic neuritis — IV methylprednisolone (hasten recovery, does not improve final acuity); IIH — weight loss, acetazolamide, CSF diversion procedures if visual field threatened."
+    },
+    {
+      "question_id": "TW_OPHTHALM_NEURO-OPHTHA_Q005",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_OPHTHALM_NEURO-OPHTHA",
+      "subject": "Ophthalmology",
+      "topic": "Neuro-ophthalmology",
+      "subtopic": "Horner Syndrome — Localisation",
+      "difficulty": "Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 45-year-old male smoker presents with a 2-week history of right-sided ptosis and a smaller right pupil. He also reports new-onset hoarseness, difficulty swallowing, and right-sided facial anhidrosis. Chest X-ray reveals a right apical lung mass. On pharmacological testing, instillation of 0.5% apraclonidine into both eyes causes the right pupil to dilate while the left remains unchanged (reversal of anisocoria). Cocaine 4% test confirms the diagnosis of Horner syndrome. Subsequently, hydroxyamphetamine 1% drops are instilled and the right pupil FAILS to dilate. At which level of the three-neuron sympathetic pathway is the lesion, and what is the most likely aetiology?",
+      "options": {
+        "A": "First-order neuron (hypothalamus to ciliospinal centre of Budge, C8–T2); cause is a brainstem stroke",
+        "B": "Third-order (post-ganglionic) neuron (superior cervical ganglion to the eye); cause is Pancoast tumour at the right lung apex directly infiltrating the post-ganglionic sympathetic fibres along the carotid plexus and superior cervical ganglion",
+        "C": "Second-order (pre-ganglionic) neuron (ciliospinal centre of Budge to superior cervical ganglion); cause is Pancoast tumour at the lung apex compressing or infiltrating the pre-ganglionic fibres as they exit through T1",
+        "D": "Third-order neuron; cause is carotid artery dissection"
+      },
+      "correct_answer": "C",
+      "explanation": "Horner syndrome comprises the classic triad: ptosis (superior tarsal muscle/Müller's muscle denervation), miosis (iris dilator denervation), and anhidrosis (if pre-ganglionic or first-order, facial sweat gland denervation). The three-neuron pathway: 1st-order (hypothalamus → ciliospinal centre of Budge, C8–T2 in spinal cord); 2nd-order/pre-ganglionic (C8–T2 → over the lung apex → superior cervical ganglion); 3rd-order/post-ganglionic (superior cervical ganglion → along internal carotid artery into the orbit). Pharmacological localisation: cocaine 4% (blocks noradrenaline reuptake) → dilates a normal pupil; fails to dilate any level of Horner's (confirms diagnosis). Hydroxyamphetamine 1% (releases stored noradrenaline from the post-ganglionic terminal) → dilates if 1st or 2nd order lesion (intact post-ganglionic neuron); FAILS to dilate if 3rd-order lesion (post-ganglionic neuron degenerated, no stored NA). Here, hydroxyamphetamine FAILS → the lesion involves the post-ganglionic neuron. However, the presence of facial anhidrosis (post-ganglionic fibres to the face travel with the external carotid, not internal carotid — suggesting the lesion is at or proximal to the superior cervical ganglion, i.e., pre-ganglionic/2nd-order) contradicts this. In Pancoast tumour, the apical tumour typically compresses the 2nd-order pre-ganglionic fibres at the T1 nerve root exit and also the ganglion itself, causing mixed findings. Classically in NEET PG: Pancoast tumour = 2nd-order (pre-ganglionic) Horner's + ipsilateral anhidrosis + hoarseness (recurrent laryngeal) + dysphagia + ipsilateral arm pain (brachial plexus, C8–T1)."
+    },
+    {
+      "question_id": "TW_OPHTHALM_NEURO-OPHTHA_Q006",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_OPHTHALM_NEURO-OPHTHA",
+      "subject": "Ophthalmology",
+      "topic": "Neuro-ophthalmology",
+      "subtopic": "Internuclear Ophthalmoplegia",
+      "difficulty": "Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 26-year-old female presents with intermittent horizontal diplopia. On examination of eye movements, attempted right gaze reveals: normal abduction of the right eye but failure of adduction of the left eye, with coarse nystagmus in the abducting right eye. Convergence is normal bilaterally. A similar pattern is also seen on left gaze (failure of adduction of the right eye). MRI brain reveals multiple periventricular white matter lesions. What is this ocular motility abnormality called, where precisely is the lesion, and what is the most likely underlying diagnosis?",
+      "options": {
+        "A": "One-and-a-half syndrome; lesion in the right PPRF and right MLF; vascular brainstem infarct",
+        "B": "Bilateral internuclear ophthalmoplegia (INO); bilateral lesions of the medial longitudinal fasciculus (MLF) in the pons, disrupting the signal from the contralateral VI nucleus to the ipsilateral III nucleus subnucleus for medial rectus; most likely multiple sclerosis",
+        "C": "Bilateral sixth nerve palsy; bilateral lesions of the abducens nucleus; most likely raised intracranial pressure",
+        "D": "Bilateral horizontal gaze palsy; bilateral PPRF lesions; most likely Wernicke's encephalopathy"
+      },
+      "correct_answer": "B",
+      "explanation": "Internuclear ophthalmoplegia (INO) is caused by a lesion of the medial longitudinal fasciculus (MLF), the white matter tract that connects the contralateral abducens (VI) nucleus to the ipsilateral oculomotor (III) nucleus subnucleus for the medial rectus. During horizontal conjugate gaze, the signal pathway is: ipsilateral PPRF → ipsilateral VI nucleus → (a) ipsilateral lateral rectus via VI nerve AND (b) contralateral III nucleus via the MLF → contralateral medial rectus. A left MLF lesion impairs left eye adduction on right gaze with nystagmus of the abducting right eye (WAND — With Abducting Nystagmus in the Dominant eye) — the classic INO. Convergence is intact because the convergence pathway bypasses the MLF. Bilateral INO in a young woman with periventricular lesions is the signature of multiple sclerosis — bilateral MLF demyelination is highly specific. In older patients, unilateral INO is more likely due to a paramedian pontine brainstem infarct. One-and-a-half syndrome = ipsilateral horizontal gaze palsy (PPRF + MLF lesion) + INO, leaving only one movement: contralateral eye abduction. Treatment is disease-modifying therapy for MS; individual attacks are managed with IV methylprednisolone."
+    },
+    {
+      "question_id": "TW_OPHTHALM_NEURO-OPHTHA_Q007",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_OPHTHALM_NEURO-OPHTHA",
+      "subject": "Ophthalmology",
+      "topic": "Neuro-ophthalmology",
+      "subtopic": "Ischaemic Optic Neuropathy",
+      "difficulty": "Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 72-year-old male with known hypertension and type 2 diabetes presents with sudden, painless, complete loss of vision in the right eye on waking. He has no history of headache, jaw claudication, or scalp tenderness. Visual acuity in the right eye is hand movements, and there is a dense right inferior altitudinal field defect. Fundoscopy shows a segmentally pale, oedematous right optic disc with a few peripapillary splinter haemorrhages. ESR is 18 mm/hr and CRP is normal. The left eye is normal. What is the diagnosis, what is the characteristic optic disc morphology ('disc at risk') that predisposes to it, and what is the immediate management priority to protect the fellow eye?",
+      "options": {
+        "A": "Giant cell arteritis (arteritic AION); calcified disc drusen is the risk factor; immediate high-dose oral prednisolone to protect the fellow eye",
+        "B": "Non-arteritic anterior ischaemic optic neuropathy (NA-AION); a small, crowded optic disc with a small or absent cup ('disc at risk') predisposes to it; optimise vascular risk factors (BP, glucose, lipids), aspirin — no proven treatment to restore vision but managing risk factors may reduce fellow eye involvement",
+        "C": "Central retinal artery occlusion; optic disc oedema is the risk factor; immediate ocular massage and anterior chamber paracentesis",
+        "D": "Optic neuritis; demyelinating plaques on MRI are the risk factor; IV methylprednisolone"
+      },
+      "correct_answer": "B",
+      "explanation": "Non-arteritic AION (NA-AION) is the most common acute optic neuropathy in patients over 50 and results from ischaemia of the short posterior ciliary arteries supplying the optic disc. It classically presents as sudden, painless monocular visual loss (often noticed on waking — nocturnal hypotension hypothesis), an altitudinal (superior or inferior) field defect, and a pale, swollen disc with peripapillary haemorrhages. The normal ESR/CRP and absence of systemic symptoms (no headache, jaw claudication, scalp tenderness) exclude giant cell (arteritic) AION — the critical distinction, since arteritic AION requires emergency high-dose steroids to prevent fellow eye involvement within 24–72 hours. The 'disc at risk' is a structurally small, crowded optic disc with a small cup-to-disc ratio (or no cup) — the crowded axons in a small scleral canal are vulnerable to ischaemia from minor perfusion pressure drops. Vascular risk factors (hypertension, diabetes, obstructive sleep apnoea, nocturnal hypotension from antihypertensive overuse) are the primary modifiable risks. No treatment reverses vision loss in NA-AION; the fellow eye (which also has a 'disc at risk') has a 15–30% risk of involvement within 5 years, so aggressive risk factor modification is paramount."
+    },
+    {
+      "question_id": "TW_OPHTHALM_NEURO-OPHTHA_Q008",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_OPHTHALM_NEURO-OPHTHA",
+      "subject": "Ophthalmology",
+      "topic": "Neuro-ophthalmology",
+      "subtopic": "Cavernous Sinus Syndrome",
+      "difficulty": "Hard",
+      "question_type": "single_best_answer",
+      "image_based": true,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 60-year-old diabetic male presents with a 5-day history of severe right-sided periorbital pain, proptosis of the right eye, and progressive diplopia. Examination reveals right-sided ptosis, limitation of all extraocular movements of the right eye (both adduction and abduction affected), a fixed mid-dilated right pupil, and reduced sensation over the right forehead and cheek (V1 and V2 distribution). The left eye is normal. The clinical photograph above shows the right orbital findings. Which anatomical structure is affected, which cranial nerves pass through it, and what is the most urgent investigation to differentiate a septic from a non-septic aetiology?",
+      "options": {
+        "A": "Right orbit — CN III, IV, V1, VI affected; urgent CT orbit to exclude retrobulbar haematoma",
+        "B": "Right cavernous sinus — CN III, IV, V1, V2, VI and the sympathetic plexus on the internal carotid artery all pass through it; MRI brain with gadolinium and MR venography (or contrast CT) to differentiate cavernous sinus thrombosis from tumour or aneurysm",
+        "C": "Right superior orbital fissure — CN III, IV, V1, VI affected without V2 involvement; urgent lumbar puncture",
+        "D": "Right orbital apex — CN III, IV, V1, VI and optic nerve (II) affected; plain skull X-ray to identify calcification"
+      },
+      "correct_answer": "B",
+      "explanation": "The combination of: multiple ipsilateral cranial nerve palsies (III, IV, VI → complete ophthalmoplegia; V1 and V2 sensory loss), proptosis (venous congestion), and periorbital pain localises the lesion to the cavernous sinus. The cavernous sinus contains: CN III (oculomotor), CN IV (trochlear), CN V1 (ophthalmic) and V2 (maxillary) in the lateral wall, and CN VI (abducens) and the internal carotid artery with its sympathetic plexus within the sinus itself. V2 involvement (cheek numbness) distinguishes cavernous sinus syndrome from superior orbital fissure syndrome (which involves III, IV, V1, VI only) and orbital apex syndrome (which additionally involves the optic nerve, causing visual loss). In a diabetic patient, septic cavernous sinus thrombosis (from rhinosinusitis, dental sepsis) is a life-threatening emergency requiring IV antibiotics and anticoagulation. Aseptic causes include pituitary apoplexy, internal carotid aneurysm, dural arteriovenous fistula, and metastatic disease. MRI with gadolinium + MR venography is the imaging of choice — it shows sinus filling defects, dural enhancement, and identifies the primary source. Tolosa-Hunt syndrome (idiopathic granulomatous inflammation of the cavernous sinus) is a diagnosis of exclusion that responds dramatically to systemic corticosteroids.",
+      "is_image_based": true,
+      "image_title": "Clinical Photograph — Right Eye, Frontal View",
+      "image_url": "",
+      "key_findings": [
+        "A clinical photograph showing the patient's face from the front with the right eye demonstrating complete ptosis of the upper eyelid",
+        "The right eye appears proptotic with the globe displaced slightly forward compared to the left",
+        "On attempted right lateral gaze the right eye fails to abduct, and on attempted upgaze the right eye fails to elevate",
+        "The right pupil is mid-dilated and non-reactive, contrasting with the normal left pupil",
+        "There is mild periorbital oedema and erythema of the right upper and lower eyelids"
+      ]
+    },
+    {
+      "question_id": "TW_OPHTHALM_NEURO-OPHTHA_Q009",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_OPHTHALM_NEURO-OPHTHA",
+      "subject": "Ophthalmology",
+      "topic": "Neuro-ophthalmology",
+      "subtopic": "Homonymous Visual Field Defects — Localisation",
+      "difficulty": "Very Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 68-year-old right-handed male with atrial fibrillation (not anticoagulated) presents with sudden onset of difficulty reading and bumping into objects on his left side. His visual acuity is 6/6 bilaterally. Goldmann perimetry reveals a left homonymous hemianopia that is highly congruent (nearly identical defects in both eyes) with macular sparing. There is no other neurological deficit. MRI DWI shows an acute infarct in the right occipital lobe involving the calcarine cortex but sparing the occipital pole. Which of the following best explains the pattern of this visual field defect, and what is the significance of macular sparing in this context?",
+      "options": {
+        "A": "Left optic tract lesion — congruence is low and the defect is incongruous because tract fibres from corresponding retinal points are not yet aligned; macular sparing does not occur with tract lesions",
+        "B": "Right occipital (striate/primary visual) cortex infarction — high congruence results from the precise retinotopic mapping in V1 where corresponding retinal points from both eyes are immediately adjacent; macular sparing is due to dual blood supply of the occipital pole (MCA collaterals in addition to PCA) and/or the large cortical representation of the macula",
+        "C": "Right parietal lobe lesion — produces a congruous hemianopia with visual neglect; macular sparing is universal in parietal lesions",
+        "D": "Right optic radiation (temporal lobe, Meyer's loop) lesion — produces a superior quadrantanopia, not a full hemianopia"
+      },
+      "correct_answer": "B",
+      "explanation": "Congruity of homonymous visual field defects increases as the lesion progresses posteriorly along the visual pathway: optic tract lesions are highly incongruous (fibres from corresponding retinal points are not yet neighboured); optic radiation lesions are moderately congruous; occipital (striate cortex, V1) lesions are maximally congruous (the precise retinotopic map in V1 places corresponding points from both eyes in immediately adjacent cortical columns). Macular sparing in occipital infarcts has two explanations: (1) the occipital pole (which subserves the macula) receives dual blood supply from the posterior cerebral artery (PCA) AND collaterals from the middle cerebral artery (MCA) — so when the PCA territory infarcted, the MCA-supplied pole is preserved; (2) the disproportionately large cortical representation of the macula provides a larger 'target' for preservation even with incomplete PCA territory infarction. Practically, macular sparing implies the patient may retain central reading vision and is NOT eligible for driving (DVLA/transport authority still disqualifies hemianopic patients regardless of macular sparing). Lesion localisation summary: optic nerve → monocular; chiasm → bitemporal; tract → incongruous homonymous (contralateral); temporal radiation/Meyer's loop → homonymous superior quadrantanopia ('pie in the sky'); parietal radiation → homonymous inferior quadrantanopia ('pie on the floor'); occipital → congruous homonymous ± macular sparing."
+    },
+    {
+      "question_id": "TW_OPHTHALM_NEURO-OPHTHA_Q010",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_OPHTHALM_NEURO-OPHTHA",
+      "subject": "Ophthalmology",
+      "topic": "Neuro-ophthalmology",
+      "subtopic": "Myasthenia Gravis — Ocular",
+      "difficulty": "Very Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 34-year-old female presents with a 3-month history of variable, asymmetric ptosis that is worse in the evening and after prolonged reading, and intermittent diplopia that changes direction on different days. She denies pain, pupillary abnormalities, or systemic weakness. On examination, sustained upgaze for 60 seconds reproduces worsening ptosis. Applying ice to the closed right eyelid for 2 minutes results in temporary improvement of the ptosis. Edrophonium (Tensilon) test is positive. Anti-AChR antibodies are positive. CT chest reveals an anterior mediastinal mass. Which TWO complications related to the identified chest lesion must be sought and managed, and why is the pupil characteristically spared in this condition?",
+      "options": {
+        "A": "Thymoma with risk of myocarditis and pericarditis; pupil spared because the ciliary ganglion is not involved in myasthenia",
+        "B": "Thymoma with risk of associated pure red cell aplasia and hypogammaglobulinaemia (Good syndrome); the pupil is spared because the iris sphincter and dilator are smooth muscles innervated by the autonomic nervous system and do NOT use nicotinic acetylcholine receptors at the neuromuscular junction — myasthenia only affects nicotinic NMJ receptors of skeletal (striated) extraocular muscles",
+        "C": "Thymoma with risk of malignant transformation to thymic carcinoma and pleural metastasis; pupil is spared because the oculomotor nerve is not affected in myasthenia",
+        "D": "Thymoma with risk of Eaton-Lambert syndrome and autonomic neuropathy; pupil is spared because Eaton-Lambert does not affect cranial nerves"
+      },
+      "correct_answer": "B",
+      "explanation": "Ocular myasthenia gravis (OMG) presents with fatigable, variable ptosis (Cogan's lid twitch sign — the lid overshoots on returning from downgaze to primary position) and diplopia that changes because different motor units fatigue at different rates. The ice test (temporary improvement of ptosis with ice application — cold improves neuromuscular transmission by inhibiting acetylcholinesterase) and Tensilon (edrophonium — AChE inhibitor, reverses ptosis transiently) are bedside diagnostic tests. Anti-AChR antibodies confirm the diagnosis. The pathophysiology is autoimmune destruction/blockade of post-synaptic nicotinic acetylcholine receptors (nAChR) at the neuromuscular junction of skeletal striated muscle. The pupil is invariably SPARED because the iris sphincter and dilator are smooth muscles innervated by the parasympathetic (muscarinic) and sympathetic (adrenergic) systems respectively — neither uses nAChR-mediated neuromuscular junctions targeted by MG. Pupil involvement should immediately prompt reconsideration of the diagnosis (consider aneurysmal CN III palsy, Adie's, etc.). An anterior mediastinal mass in a young woman with MG is a thymoma until proven otherwise (10–15% of MG have thymoma; 30–40% of thymoma patients develop MG). Thymectomy is indicated for thymoma-associated MG. Paraneoplastic associations of thymoma include: pure red cell aplasia (PRCA), hypogammaglobulinaemia (Good syndrome — combined immune deficiency), and polymyositis. Treatment of ocular MG: pyridostigmine (AChE inhibitor), immunosuppressants (prednisolone, azathioprine), and thymectomy for thymoma."
     }
   ]
 }

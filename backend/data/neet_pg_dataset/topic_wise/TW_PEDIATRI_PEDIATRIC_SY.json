@@ -3,11 +3,14 @@
   "paper_type": "topic_wise",
   "subject": "Pediatrics",
   "topic": "Pediatric Systemic",
-  "total_questions": 4,
+  "total_questions": 5,
   "difficulty_distribution": {
-    "Easy": 4
+    "Easy": 1,
+    "Medium": 1,
+    "Hard": 2,
+    "Very Hard": 1
   },
-  "created_at": "2026-05-30",
+  "created_at": "2026-06-22",
   "questions": [
     {
       "question_id": "TW_PEDIATRI_PEDIATRIC_SY_Q001",
@@ -15,22 +18,22 @@
       "paper_ref": "TW_PEDIATRI_PEDIATRIC_SY",
       "subject": "Pediatrics",
       "topic": "Pediatric Systemic",
-      "subtopic": null,
+      "subtopic": "Patent Ductus Arteriosus — Normal Closure",
       "difficulty": "Easy",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Typical CDH (congenital diaphragmatic hernia) presentation at birth?",
+      "question_text": "A healthy term neonate is examined on day 1 of life and a soft systolic murmur is heard, which is no longer audible by day 3. This is most consistent with the normal physiological timeline of which structure, and what triggers its closure?",
       "options": {
-        "A": "Abdominal distension, normal CXR",
-        "B": "Scaphoid abdomen, respiratory distress, bowel sounds in chest",
-        "C": "Vomiting, normal X-ray",
-        "D": "Distended abdomen, mediastinal shift away from hernia"
+        "A": "Foramen ovale; closes immediately at birth due to a sudden drop in pulmonary vascular resistance.",
+        "B": "Ductus arteriosus; functional closure occurs within 24–72 hours of birth, triggered by a rise in arterial oxygen tension and a fall in circulating prostaglandin E2.",
+        "C": "Ductus venosus; closes only after 6 months of age as the liver matures.",
+        "D": "Umbilical arteries; never close spontaneously and require surgical ligation in all cases."
       },
       "correct_answer": "B",
-      "explanation": "CDH: scaphoid abdomen (bowel herniated into chest), respiratory distress at birth. CXR: bowel in chest, mediastinal shift to OPPOSITE side. Bochdalek hernia: posterolateral, mostly left (85%)."
+      "explanation": "The ductus arteriosus connects the main pulmonary artery to the descending aorta in fetal life, allowing blood to bypass the high-resistance, fluid-filled fetal lungs. Its patency in utero is maintained by locally produced and placental prostaglandin E2/PGI2 acting on ductal smooth muscle, combined with the low oxygen tension of fetal blood. After birth, two triggers promote closure: (1) rising arterial PaO2 with breathing directly constricts ductal smooth muscle, and (2) removal of the placental prostaglandin source plus increased pulmonary metabolism rapidly lowers circulating PGE2. This produces functional closure within 24–72 hours in most term infants (the transient murmur described is normal during this closure window), with anatomical fibrotic closure over 2–3 weeks forming the ligamentum arteriosum."
     },
     {
       "question_id": "TW_PEDIATRI_PEDIATRIC_SY_Q002",
@@ -38,22 +41,22 @@
       "paper_ref": "TW_PEDIATRI_PEDIATRIC_SY",
       "subject": "Pediatrics",
       "topic": "Pediatric Systemic",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Transposition of Great Arteries",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Most common cyanotic congenital heart disease at birth?",
+      "question_text": "A term neonate, born to a diabetic mother, develops progressive central cyanosis within the first few hours of life that does NOT improve significantly with 100% supplemental oxygen (hyperoxia test). A single loud second heart sound is heard, with minimal or no murmur. Chest X-ray shows a narrow superior mediastinum with an 'egg-on-string' cardiac silhouette. What is the most likely diagnosis and the immediate medical priority?",
       "options": {
-        "A": "TOF",
-        "B": "TGA (Transposition of great arteries)",
-        "C": "Truncus arteriosus",
-        "D": "Tricuspid atresia"
+        "A": "Tetralogy of Fallot; immediate priority is propranolol to address hypercyanotic spells.",
+        "B": "Transposition of the great arteries; immediate priority is prostaglandin E1 (alprostadil) to maintain ductal patency.",
+        "C": "Persistent pulmonary hypertension of the newborn; managed with inhaled nitric oxide alone.",
+        "D": "Total anomalous pulmonary venous connection; immediate priority is digoxin and diuretics."
       },
       "correct_answer": "B",
-      "explanation": "Most common cyanotic CHD at BIRTH: TGA (complete). Most common cyanotic CHD overall in childhood: TOF. TGA: parallel circuits, needs mixing (ASD/VSD/PDA). Prostaglandin E1 to keep PDA open."
+      "explanation": "Transposition of the great arteries (D-TGA) is the most common cyanotic CHD presenting in the immediate newborn period. In TGA, the aorta arises from the morphologic right ventricle and the pulmonary artery from the morphologic left ventricle, creating two parallel circulations. Because survival is mixing-dependent, the immediate priority is prostaglandin E1 infusion to maintain ductal patency, while arranging urgent balloon atrial septostomy and definitive arterial switch operation."
     },
     {
       "question_id": "TW_PEDIATRI_PEDIATRIC_SY_Q003",
@@ -61,22 +64,22 @@
       "paper_ref": "TW_PEDIATRI_PEDIATRIC_SY",
       "subject": "Pediatrics",
       "topic": "Pediatric Systemic",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Tetralogy of Fallot — Tet Spells",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Fallot's tetralogy: component that determines severity?",
+      "question_text": "A 14-month-old known case of Tetralogy of Fallot suddenly becomes acutely more cyanotic and breathless while crying. The intensity of the previously-heard systolic murmur DECREASES during the episode. The mother holds the knees flexed to the chest. Explain the pathophysiology of this event and the squatting maneuver.",
       "options": {
-        "A": "VSD size",
-        "B": "Degree of RVOT obstruction",
-        "C": "Overriding aorta",
-        "D": "RVH"
+        "A": "The murmur decreases because the VSD has spontaneously closed, which is a sign of clinical improvement.",
+        "B": "Crying triggers infundibular spasm worsening RVOT obstruction (softening the murmur), while squatting increases systemic vascular resistance to improve pulmonary blood flow.",
+        "C": "The squatting maneuver works by directly relaxing the infundibular spasm via a vagal reflex, with no effect on systemic hemodynamics.",
+        "D": "The decrease in murmur intensity suggests that the blood flow through the VSD has normalized and the heart is no longer under stress."
       },
       "correct_answer": "B",
-      "explanation": "TOF severity depends on RVOT (right ventricular outflow tract) obstruction degree. More obstruction → more R-to-L shunting → more cyanosis. Tet spells treated with squatting, knee-chest position."
+      "explanation": "A 'tet spell' occurs when a trigger increases sympathetic tone and contractility, causing acute infundibular spasm that dynamically worsens RVOT obstruction. The systolic ejection murmur often softens or disappears during a severe spell because near-complete obstruction leaves minimal antegrade flow to generate turbulence. Knee-chest positioning increases systemic vascular resistance (raising afterload) and venous return, which favors increased pulmonary blood flow, reducing the right-to-left shunt and terminating the spell."
     },
     {
       "question_id": "TW_PEDIATRI_PEDIATRIC_SY_Q004",
@@ -84,22 +87,54 @@
       "paper_ref": "TW_PEDIATRI_PEDIATRIC_SY",
       "subject": "Pediatrics",
       "topic": "Pediatric Systemic",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Congenital Diaphragmatic Hernia — Initial Resuscitation",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Normal PDA closure: timing?",
+      "question_text": "A term neonate is born with antenatally diagnosed left-sided congenital diaphragmatic hernia. At delivery, the baby has a scaphoid abdomen and severe respiratory distress. Which initial resuscitative step is specifically CONTRAINDICATED, and why?",
       "options": {
-        "A": "At birth (immediate)",
-        "B": "Functional closure 24-72h, anatomical 2-3 weeks",
-        "C": "Only after 6 months",
-        "D": "Never closes spontaneously"
+        "A": "Immediate endotracheal intubation, as it may cause damage to the vocal cords in premature infants.",
+        "B": "Bag-mask (face mask) positive pressure ventilation, as it preferentially inflates herniated bowel loops, worsening lung compression.",
+        "C": "Surfactant administration, as it is only indicated for respiratory distress syndrome in preterm infants.",
+        "D": "Placing the baby in a left lateral decubitus position, as this position has no physiological basis."
       },
       "correct_answer": "B",
-      "explanation": "PDA: functional closure in 24-72h (prostaglandin levels fall, O2 tension rises). Anatomical closure: 2-3 weeks. Preterm infants: indomethacin/ibuprofen to close PDA. If persistent: surgical ligation."
+      "explanation": "A key resuscitation principle in CDH is to avoid bag-mask positive pressure ventilation. Because herniated bowel loops are more distensible than the hypoplastic lung, mask ventilation preferentially inflates these loops, causing progressive gaseous distension that further compresses the lung and mediastinum, rapidly worsening oxygenation and venous return."
+    },
+    {
+      "question_id": "TW_PEDIATRI_PEDIATRIC_SY_Q005",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_PEDIATRI_PEDIATRIC_SY",
+      "subject": "Pediatrics",
+      "topic": "Pediatric Systemic",
+      "subtopic": "Congenital Diaphragmatic Hernia — Radiographic Findings",
+      "difficulty": "Very Hard",
+      "question_type": "single_best_answer",
+      "image_based": true,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "The chest X-ray shows multiple gas-filled, loculated bowel loops occupying the left hemithorax, absence of a visible left hemidiaphragm, mediastinal shift, and an NG tube curling into the left chest. Which interpretation correctly identifies these findings?",
+      "options": {
+        "A": "Congenital lobar emphysema requiring elective lobectomy.",
+        "B": "Left congenital diaphragmatic hernia (Bochdalek type) with intrathoracic stomach, requiring urgent decompression.",
+        "C": "Left-sided pneumothorax with associated gastric volvulus, requiring immediate needle decompression.",
+        "D": "Neonatal pneumonia with parapneumonic effusion, requiring only empirical antibiotic therapy."
+      },
+      "correct_answer": "B",
+      "explanation": "The chest radiograph in CDH characteristically shows multiple gas-filled bowel loops occupying the affected hemithorax, an absent diaphragmatic shadow, significant mediastinal shift, and a scaphoid-appearing abdomen. When the stomach has herniated, an NG tube passed for decompression will be seen curling within the thorax, which is a marker of more severe disease and worse prognosis.",
+      "image_title": "Chest X-ray — Neonate, Left-Sided Congenital Diaphragmatic Hernia with Intrathoracic Stomach",
+      "image_url": "",
+      "key_findings": [
+        "Multiple gas-filled, loculated bowel loops occupying the left hemithorax",
+        "Absent/indiscernible left hemidiaphragm contour due to the diaphragmatic defect itself",
+        "Marked rightward shift of the mediastinum and cardiac silhouette from mass effect and ipsilateral pulmonary hypoplasia",
+        "Paucity of gas in the abdominal cavity, correlating with the clinically scaphoid abdomen",
+        "Nasogastric tube tip curling upward into the left thoracic cavity, confirming intrathoracic herniation of the stomach — a marker of more severe disease and worse prognosis"
+      ]
     }
   ]
 }

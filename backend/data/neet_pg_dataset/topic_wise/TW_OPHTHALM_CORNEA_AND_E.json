@@ -3,11 +3,14 @@
   "paper_type": "topic_wise",
   "subject": "Ophthalmology",
   "topic": "Cornea and External Eye",
-  "total_questions": 2,
+  "total_questions": 7,
   "difficulty_distribution": {
-    "Easy": 2
+    "Easy": 1,
+    "Medium": 2,
+    "Hard": 3,
+    "Very Hard": 1
   },
-  "created_at": "2026-05-30",
+  "created_at": "2026-06-21",
   "questions": [
     {
       "question_id": "TW_OPHTHALM_CORNEA_AND_E_Q001",
@@ -15,22 +18,22 @@
       "paper_ref": "TW_OPHTHALM_CORNEA_AND_E",
       "subject": "Ophthalmology",
       "topic": "Cornea and External Eye",
-      "subtopic": null,
+      "subtopic": "Ocular Trauma — Diagnostic Tests",
       "difficulty": "Easy",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Fluorescein stain is used to identify?",
+      "question_text": "A 24-year-old male presents to the emergency department after a workshop injury with a suspected metallic foreign body to the right eye. On slit-lamp examination, a full-thickness corneal wound is suspected. Concentrated fluorescein dye is instilled over the wound and viewed under cobalt blue light, revealing a visible stream of dye being progressively diluted and washed away by clear fluid welling up from the wound margin. What does this finding represent?",
       "options": {
-        "A": "Conjunctival epithelial defects",
-        "B": "Corneal epithelial defects and aqueous leakage (Seidel's test)",
-        "C": "Iris neovascularization",
-        "D": "Vitreous hemorrhage"
+        "A": "Negative Seidel's sign, indicating only a superficial epithelial abrasion",
+        "B": "Positive Seidel's sign, indicating aqueous humor leakage through a full-thickness corneal or scleral perforation",
+        "C": "Positive Rose Bengal staining, indicating devitalized epithelial cells",
+        "D": "Tear film breakup, indicating underlying dry eye disease"
       },
       "correct_answer": "B",
-      "explanation": "Fluorescein: stains corneal epithelial defects green (cobalt blue light). Seidel's test: fluorescein diluted by leaking aqueous (positive = penetrating injury). Rose Bengal: stains devitalized cells."
+      "explanation": "A positive Seidel's test occurs when concentrated (dark orange) fluorescein dye is diluted to a lighter green streaming pattern by leaking aqueous humor, confirming a full-thickness penetrating corneal or scleral wound. This is an ophthalmic emergency: further manipulation or applying pressure to the globe must be avoided, a protective shield (not a pressure patch) should be placed, and the patient requires urgent surgical exploration and wound repair along with tetanus prophylaxis and systemic antibiotics. Rose Bengal, in contrast, stains devitalized or mucus-deficient epithelial cells rather than indicating a full-thickness leak."
     },
     {
       "question_id": "TW_OPHTHALM_CORNEA_AND_E_Q002",
@@ -38,22 +41,156 @@
       "paper_ref": "TW_OPHTHALM_CORNEA_AND_E",
       "subject": "Ophthalmology",
       "topic": "Cornea and External Eye",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Limbal Stem Cell Deficiency",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Corneal stem cells are located at?",
+      "question_text": "A 35-year-old construction worker sustains an alkali (wet cement) splash injury to the left eye. Six months later he presents with persistent epithelial defects, a hazy and irregular corneal surface, and fine blood vessels growing centrally across the cornea. Slit-lamp examination shows loss of the normal palisades of Vogt at the limbus, with the conjunctival epithelium appearing to extend onto the corneal surface. What is the diagnosis, and which structure has been irreversibly damaged?",
       "options": {
-        "A": "Central cornea",
-        "B": "Limbus (corneoscleral junction)",
-        "C": "Conjunctiva",
-        "D": "Iris"
+        "A": "Limbal stem cell deficiency, due to destruction of the limbal stem cell niche at the palisades of Vogt",
+        "B": "Bullous keratopathy, due to corneal endothelial cell loss",
+        "C": "Band keratopathy, due to calcium deposition in Bowman's layer",
+        "D": "Keratoconus, due to progressive stromal thinning"
+      },
+      "correct_answer": "A",
+      "explanation": "Alkali burns are more destructive than acid burns because the alkali saponifies fatty acids in cell membranes, allowing rapid penetration into deeper ocular tissues. Severe alkali injury destroys the limbal stem cell niche housed within the palisades of Vogt, resulting in limbal stem cell deficiency (LSCD): the cornea loses its normal source of epithelial renewal, conjunctival epithelium migrates centrally ('conjunctivalization'), and chronic persistent epithelial defects with vascularization (pannus) and corneal opacification follow. Because the native stem cell population cannot regenerate, established LSCD requires limbal stem cell transplantation (e.g., conjunctival-limbal autograft or ex vivo expanded stem cell transplantation) rather than simple lubrication or epithelial debridement."
+    },
+    {
+      "question_id": "TW_OPHTHALM_CORNEA_AND_E_Q003",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_OPHTHALM_CORNEA_AND_E",
+      "subject": "Ophthalmology",
+      "topic": "Cornea and External Eye",
+      "subtopic": "Keratoconus",
+      "difficulty": "Medium",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 19-year-old female with a long-standing history of allergic conjunctivitis and frequent eye rubbing presents with progressively blurred vision that is poorly corrected by spectacles. Slit-lamp examination reveals a brownish iron deposition ring at the base of a cone-shaped corneal protrusion, along with fine vertical stress lines deep in the stroma that disappear with gentle external pressure on the globe. Corneal topography shows progressive inferior steepening. What is the diagnosis, and which corneal layer is primarily responsible for the underlying biomechanical instability?",
+      "options": {
+        "A": "Keratoconus, due to progressive thinning and biomechanical weakening of the corneal stroma",
+        "B": "Keratoglobus, due to generalized thinning of the sclera",
+        "C": "Pellucid marginal degeneration, due to isolated peripheral inferior corneal thinning",
+        "D": "Terrien's marginal degeneration, due to superior peripheral corneal thinning"
+      },
+      "correct_answer": "A",
+      "explanation": "Keratoconus is a progressive, typically bilateral but asymmetric, non-inflammatory ectasia caused by thinning and biomechanical weakening of the corneal stroma, strongly associated with chronic eye rubbing, atopy/allergic conjunctivitis, and conditions such as Down syndrome. Classic clinical signs include the Fleischer ring (iron deposition in the basal epithelium at the cone base, best seen with a cobalt blue filter), Vogt's striae (fine vertical stress lines in the deep stroma and Descemet's membrane that characteristically disappear with external pressure on the globe — distinguishing them from true corneal scars), and Munson's sign (a V-shaped protrusion of the lower eyelid on downgaze). Management progresses from spectacles and rigid gas-permeable contact lenses in early disease, to corneal collagen cross-linking to halt progression, to penetrating or deep anterior lamellar keratoplasty in advanced disease."
+    },
+    {
+      "question_id": "TW_OPHTHALM_CORNEA_AND_E_Q004",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_OPHTHALM_CORNEA_AND_E",
+      "subject": "Ophthalmology",
+      "topic": "Cornea and External Eye",
+      "subtopic": "Microbial Keratitis — Acanthamoeba",
+      "difficulty": "Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 45-year-old soft contact lens wearer presents with a painful, red, photophobic eye and reduced vision after swimming in a freshwater lake while wearing his lenses. Examination shows a ring-shaped stromal infiltrate with radial perineural inflammatory lines, and the degree of pain appears markedly disproportionate to the clinical findings. Initial bacterial cultures and Gram stain are negative. What is the most likely causative organism, and which test would confirm the diagnosis?",
+      "options": {
+        "A": "Pseudomonas aeruginosa; confirmed by Gram stain showing gram-negative rods",
+        "B": "Acanthamoeba species; confirmed by corneal scraping with calcofluor white stain or culture on non-nutrient agar with an E. coli overlay",
+        "C": "Fusarium species; confirmed by KOH wet mount showing septate hyphae",
+        "D": "Herpes simplex virus; confirmed by a dendritic fluorescein staining pattern"
       },
       "correct_answer": "B",
-      "explanation": "Corneal epithelial stem cells at LIMBUS (palisades of Vogt). Limbal stem cell deficiency → conjunctivalization of cornea, pannus formation, visual loss. Treatment: limbal stem cell transplant."
+      "explanation": "Acanthamoeba keratitis classically occurs in contact lens wearers exposed to contaminated water sources (lakes, tap water, swimming or showering while wearing lenses) and is frequently misdiagnosed initially as herpetic keratitis because routine bacterial cultures are negative. Hallmark features include severe pain disproportionate to clinical signs (from perineural invasion producing radial keratoneuritis) and a ring-shaped stromal infiltrate, often with an indolent, relapsing course. Diagnosis is confirmed by corneal scraping examined with calcofluor white stain (fluorescent staining of the chitin-containing cyst wall), confocal microscopy (showing double-walled cysts), or culture on non-nutrient agar overlaid with E. coli, which allows trophozoite feeding and growth. Treatment requires prolonged topical biguanides (polyhexamethylene biguanide or chlorhexidine) with or without diamidines; delayed diagnosis significantly worsens visual prognosis."
+    },
+    {
+      "question_id": "TW_OPHTHALM_CORNEA_AND_E_Q005",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_OPHTHALM_CORNEA_AND_E",
+      "subject": "Ophthalmology",
+      "topic": "Cornea and External Eye",
+      "subtopic": "Herpes Zoster Ophthalmicus",
+      "difficulty": "Hard",
+      "question_type": "single_best_answer",
+      "image_based": true,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 29-year-old male presents with a unilateral red, watering, photophobic eye. Three days earlier he developed a vesicular rash over the ipsilateral forehead and the tip and side of the nose, which has now crusted. Corneal sensation is markedly reduced on the affected side. Fluorescein staining under cobalt blue light shows the pattern in the slit-lamp photograph above. What is the diagnosis, and which class of topical medication is absolutely contraindicated at this stage without antiviral cover?",
+      "options": {
+        "A": "Herpes zoster ophthalmicus with dendritic/pseudodendritic keratitis (Hutchinson's sign positive); topical corticosteroids are contraindicated without concurrent antiviral therapy",
+        "B": "Herpes simplex keratitis; topical antibiotics are contraindicated",
+        "C": "Bacterial keratitis; topical antivirals are contraindicated",
+        "D": "Fungal keratitis; topical corticosteroids are first-line therapy"
+      },
+      "correct_answer": "A",
+      "explanation": "Vesicular rash involving the tip of the nose (Hutchinson's sign, reflecting nasociliary nerve/V1 involvement) strongly predicts ocular involvement in herpes zoster ophthalmicus. The combination of reduced corneal sensation (a neurotrophic effect of nerve involvement) and a branching, tapered pseudodendritic epithelial lesion on fluorescein staining (typically more peripheral and lacking the true terminal bulbs of HSV dendrites) confirms HZO keratitis. As with herpes simplex keratitis, topical corticosteroids must never be used on active dendritic/pseudodendritic epithelial disease without antiviral cover, since steroids promote viral replication and can precipitate corneal melting or perforation. Oral antivirals (acyclovir or valacyclovir) are the mainstay of treatment, with topical steroids reserved for later stromal or disciform keratitis and always given under antiviral cover.",
+      "is_image_based": true,
+      "image_title": "Slit-Lamp Photograph — Fluorescein Staining, Cobalt Blue Light",
+      "image_url": "",
+      "key_findings": [
+        "A slit-lamp photograph of the cornea under cobalt blue illumination following fluorescein instillation",
+        "A branching, tapered linear epithelial staining pattern is seen in the paracentral cornea, lacking the well-formed terminal bulbs typical of classic herpes simplex dendrites",
+        "Mild surrounding corneal haze is present with no significant stromal infiltrate",
+        "The anterior chamber appears quiet with no visible hypopyon"
+      ]
+    },
+    {
+      "question_id": "TW_OPHTHALM_CORNEA_AND_E_Q006",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_OPHTHALM_CORNEA_AND_E",
+      "subject": "Ophthalmology",
+      "topic": "Cornea and External Eye",
+      "subtopic": "Corneal Graft Rejection",
+      "difficulty": "Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 50-year-old male, 8 months after penetrating keratoplasty for keratoconus, presents with redness, photophobia, and blurred vision in the grafted eye. Slit-lamp examination shows a line of fine keratic precipitates advancing across the donor corneal endothelium, with localized stromal edema developing in the cornea immediately behind the advancing line. What is the diagnosis, and what is the appropriate first-line treatment?",
+      "options": {
+        "A": "Endothelial graft rejection (Khodadoust line); intensive topical corticosteroids, initially hourly, with systemic steroids considered in severe cases",
+        "B": "Primary graft failure; repeat keratoplasty is the only available option",
+        "C": "Recurrent keratoconus in the graft; fitting of a rigid gas-permeable contact lens",
+        "D": "Suture-related infectious keratitis; topical antibiotics alone"
+      },
+      "correct_answer": "A",
+      "explanation": "Of the four recognized patterns of corneal graft rejection (epithelial, subepithelial, stromal, and endothelial), endothelial rejection is the most clinically significant because it can cause irreversible donor endothelial cell loss. It presents with a line of inflammatory keratic precipitates (the Khodadoust line) progressing across the donor endothelium, leaving corneal edema in the area of endothelium it has already crossed. Prompt recognition allows treatment with intensive topical corticosteroids (often hourly initially), sometimes combined with periocular or systemic steroids, which can halt the rejection process and preserve graft clarity if started early. Delayed treatment allows progressive, irreversible endothelial decompensation, ultimately requiring re-grafting."
+    },
+    {
+      "question_id": "TW_OPHTHALM_CORNEA_AND_E_Q007",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_OPHTHALM_CORNEA_AND_E",
+      "subject": "Ophthalmology",
+      "topic": "Cornea and External Eye",
+      "subtopic": "Fungal Keratitis",
+      "difficulty": "Very Hard",
+      "question_type": "single_best_answer",
+      "image_based": true,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 50-year-old farmer presents with 5 days of pain, redness, and blurred vision in the right eye following a corneal injury from a paddy leaf while harvesting. The slit-lamp photograph above is taken after fluorescein staining. Corneal scraping with a 10% KOH wet mount reveals septate, branching hyphae. Based on the clinical appearance shown and the laboratory finding, what is the most likely causative organism class, what features distinguish this lesion from a typical bacterial keratitis, and what is the appropriate first-line topical therapy?",
+      "options": {
+        "A": "Filamentous fungi (e.g., Fusarium or Aspergillus species); a feathery, irregular infiltrate margin with satellite lesions and a dry, raised surface texture, as opposed to the sharply demarcated infiltrate with hypopyon typical of bacterial keratitis; first-line treatment is topical natamycin 5%",
+        "B": "Yeast-form fungi (Candida species); a smooth, round infiltrate margin; first-line treatment is topical amphotericin B alone",
+        "C": "Gram-positive cocci; a sharply demarcated infiltrate with hypopyon; first-line treatment is a topical fluoroquinolone",
+        "D": "Acanthamoeba species; a ring-shaped infiltrate with radial keratoneuritis; first-line treatment is topical polyhexamethylene biguanide (PHMB)"
+      },
+      "correct_answer": "A",
+      "explanation": "Vegetable matter trauma (paddy leaves, thorns, plant material) sustained during agricultural work is a classic risk factor for fungal keratitis, particularly from filamentous fungi such as Fusarium and Aspergillus species, which are common causes in tropical and agrarian settings. Distinguishing features from bacterial keratitis include feathery, irregular infiltrate margins (representing hyphal extension into adjacent stroma), satellite lesions (separate small infiltrates surrounding the main lesion), and a dry, rough, slightly raised infiltrate surface, typically with a more indolent course than the rapidly progressive, sharply demarcated infiltrate with hypopyon seen in bacterial (especially pneumococcal or pseudomonal) keratitis. The KOH wet mount showing septate, branching hyphae supports Fusarium or Aspergillus (Mucor, by contrast, shows broad, non-septate, ribbon-like hyphae); fungal culture on Sabouraud dextrose agar provides confirmation and speciation. First-line treatment for filamentous fungal keratitis is topical natamycin 5%, which has excellent surface fungicidal activity against filamentous organisms despite limited stromal penetration; topical voriconazole or amphotericin B is preferred for yeast forms or natamycin-resistant infections, and therapeutic penetrating keratoplasty may be required for progressive disease unresponsive to medical therapy.",
+      "is_image_based": true,
+      "image_title": "Slit-Lamp Photograph — Corneal Ulcer with Fluorescein Staining",
+      "image_url": "",
+      "key_findings": [
+        "A slit-lamp photograph of the cornea following fluorescein instillation showing a central corneal ulcer with feathery, irregular, finger-like infiltrate margins extending into the adjacent stroma",
+        "Several small satellite infiltrates are visible separate from but adjacent to the main ulcer",
+        "The infiltrate surface appears dry, rough, and slightly raised rather than smooth",
+        "A thin layer of hypopyon is visible in the inferior anterior chamber",
+        "The surrounding corneal stroma shows mild diffuse haze"
+      ]
     }
   ]
 }

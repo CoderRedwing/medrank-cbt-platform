@@ -3,11 +3,14 @@
   "paper_type": "topic_wise",
   "subject": "Orthopedics",
   "topic": "Infections and Tumors",
-  "total_questions": 3,
+  "total_questions": 10,
   "difficulty_distribution": {
-    "Easy": 3
+    "Easy": 2,
+    "Medium": 2,
+    "Hard": 4,
+    "Very Hard": 2
   },
-  "created_at": "2026-05-30",
+  "created_at": "2026-06-21",
   "questions": [
     {
       "question_id": "TW_ORTHOPED_INFECTIONS_A_Q001",
@@ -15,22 +18,22 @@
       "paper_ref": "TW_ORTHOPED_INFECTIONS_A",
       "subject": "Orthopedics",
       "topic": "Infections and Tumors",
-      "subtopic": null,
+      "subtopic": "Osteosarcoma — Diagnosis and X-ray Features",
       "difficulty": "Easy",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Most common bone tumor (primary malignant)?",
+      "question_text": "A 15-year-old male presents with a 3-month history of progressively worsening pain and swelling around the right knee, worse at night and unrelieved by rest. On examination, there is a firm, tender metaphyseal mass just proximal to the right knee. X-ray of the right distal femur shows a destructive metaphyseal lesion with a fluffy, cloud-like new bone formation, a triangular area of reactive periosteum at the tumour margin, and fine linear radial streaks extending from the cortex. Alkaline phosphatase is markedly elevated. What is the most likely diagnosis, and which two radiological signs are classically described in this tumour?",
       "options": {
-        "A": "Chondrosarcoma",
-        "B": "Osteosarcoma",
-        "C": "Ewing's sarcoma",
-        "D": "Giant cell tumor"
+        "A": "Ewing's sarcoma; onion-peel periosteal reaction and moth-eaten bone",
+        "B": "Osteosarcoma; Codman's triangle (reactive periosteum lifted at the tumour margin forming a triangular shadow) and sunray/sunburst spiculation (fine, radiating spicules of tumour bone perpendicular to the cortex)",
+        "C": "Giant cell tumour; soap-bubble appearance and subarticular location",
+        "D": "Chondrosarcoma; rings and arcs of chondroid calcification in the medullary cavity"
       },
       "correct_answer": "B",
-      "explanation": "Osteosarcoma: most common primary malignant bone tumor (excluding hematological). Metaphysis of distal femur/proximal tibia. Codman's triangle + sunray spiculation on X-ray."
+      "explanation": "Osteosarcoma is the most common primary malignant bone tumour in children and adolescents (excluding haematological malignancies), with a bimodal age distribution peaking in the second decade. It most commonly arises in the metaphysis of long bones, with the distal femur (50%), proximal tibia (25%), and proximal humerus being the most frequent sites — all around the knee. The two pathognomonic radiological signs are: (1) Codman's triangle — a triangular shadow formed by reactive periosteum lifted at the margin of the advancing tumour, representing the angle between the elevated periosteum and the cortex; and (2) sunray (sunburst) spiculation — fine, radiating bone spicules perpendicular to the cortex, representing tumour bone forming along vascular channels. Elevated alkaline phosphatase reflects osteoblastic activity and correlates with tumour burden; it is also a prognostic marker (high ALP = worse prognosis). Night pain, pain at rest, and rapid growth distinguish malignant from benign lesions. Ewing's sarcoma (small round blue cell tumour, EWSR1-FLI1 fusion, diaphysis of long bones and flat bones) shows onion-peel periosteal reaction and moth-eaten bone. GCT is subarticular (epiphyseal) in skeletally mature adults."
     },
     {
       "question_id": "TW_ORTHOPED_INFECTIONS_A_Q002",
@@ -38,22 +41,22 @@
       "paper_ref": "TW_ORTHOPED_INFECTIONS_A",
       "subject": "Orthopedics",
       "topic": "Infections and Tumors",
-      "subtopic": null,
+      "subtopic": "Paget's Disease — Laboratory and Complications",
       "difficulty": "Easy",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Paget's disease: lab findings?",
+      "question_text": "A 72-year-old male presents with progressive bowing deformity of both tibiae, enlargement of his hat size over recent years, and bilateral hearing loss. On examination, the skull is enlarged, and both tibiae show anterior bowing with a warm, thickened cortex palpable. Investigations reveal: Serum calcium 2.4 mmol/L (normal), Serum phosphate 1.1 mmol/L (normal), Alkaline phosphatase 1840 U/L (markedly elevated, normal <130). Urine hydroxyproline is markedly elevated. X-ray skull shows a cotton-wool appearance; tibial X-ray shows thickened, sclerotic, deformed cortex with bowing. Which of the following correctly describes the biochemical profile, the mechanism of hearing loss, and the most feared long-term complication?",
       "options": {
-        "A": "Elevated ALP, normal Ca and PO4",
-        "B": "Elevated Ca, low PO4, elevated ALP",
-        "C": "Low ALP, elevated Ca",
-        "D": "All normal"
+        "A": "Elevated calcium and elevated ALP; hearing loss from nerve compression; most feared complication is pathological fracture",
+        "B": "Normal calcium and phosphate with markedly elevated ALP (bone-specific, reflecting the intense osteoclastic and osteoblastic activity of Paget's); hearing loss is from bony encroachment on the foramen of the auditory canal (VIII nerve compression) and/or ossicular chain involvement; most feared complication is sarcomatous transformation (osteosarcoma arising in Pagetic bone) occurring in <1% but carrying a very poor prognosis",
+        "C": "Low calcium and elevated PTH with elevated ALP; hearing loss from CNS involvement; most feared complication is hypercalcaemia crisis",
+        "D": "Elevated phosphate and normal ALP; hearing loss from labyrinthitis; most feared complication is renal osteodystrophy"
       },
-      "correct_answer": "A",
-      "explanation": "Paget's disease (osteitis deformans): markedly elevated ALP (bone-specific), NORMAL Ca and PO4. Increased bone turnover. Complications: hearing loss, heart failure, sarcomatous transformation (1%)."
+      "correct_answer": "B",
+      "explanation": "Paget's disease of bone (osteitis deformans) is a focal, chronic disorder of bone remodelling characterised by markedly increased osteoclastic resorption followed by disorganised osteoblastic repair, producing structurally weak, enlarged, hypervascular, deformed bone. The pathognomonic biochemical abnormality is a markedly elevated serum alkaline phosphatase (bone-specific isoform) — reflecting the intense osteoblastic activity — with NORMAL serum calcium and phosphate (normal mineral homeostasis is maintained). Urine hydroxyproline (a collagen breakdown product) is also elevated, reflecting osteoclastic resorption. Hearing loss mechanisms in skull Paget's: (1) sensorineural — compression of the VIII cranial nerve at the internal auditory meatus as Pagetic bone encroaches on the canal; (2) conductive — involvement of the ossicles or cochlea. Sarcomatous transformation (most commonly osteosarcoma, rarely fibrosarcoma or chondrosarcoma) occurs in <1% of patients but carries a 5-year survival of <5% — the most feared complication. Suspect it when a previously stable Paget's site develops new rapid swelling, pain, and elevated ALP or LDH. Treatment of Paget's: bisphosphonates (zoledronic acid IV is most effective, normalising ALP and providing remission); alendronate/risedronate orally. Treat active disease (elevated ALP, symptoms, at-risk sites for deformity, nerve compression, or prior to elective orthopaedic surgery near Pagetic bone)."
     },
     {
       "question_id": "TW_ORTHOPED_INFECTIONS_A_Q003",
@@ -61,22 +64,193 @@
       "paper_ref": "TW_ORTHOPED_INFECTIONS_A",
       "subject": "Orthopedics",
       "topic": "Infections and Tumors",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Subacute Osteomyelitis — Brodie's Abscess",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Brodie's abscess: X-ray appearance?",
+      "question_text": "A 14-year-old male presents with an 8-week history of intermittent, dull aching pain around the left ankle, without fever or systemic illness. He gives a history of a minor fall 10 weeks ago. On examination, there is mild tenderness over the distal tibial metaphysis with no local swelling, warmth, or sinus formation. WBC and ESR are mildly elevated. X-ray of the left ankle shows a well-defined, oval lytic lesion approximately 2 cm diameter with a dense sclerotic rim, located in the metaphysis of the distal tibia, with no periosteal reaction. What is the diagnosis, what is the causative organism in the majority of cases, and what distinguishes this condition from an osteoid osteoma radiologically?",
       "options": {
-        "A": "Moth-eaten bone",
-        "B": "Well-defined lytic lesion with sclerotic rim in metaphysis",
-        "C": "Onion peel periosteal reaction",
-        "D": "Sunburst pattern"
+        "A": "Enchondroma; caused by cartilage remnant proliferation; distinguished from osteoid osteoma by the absence of a nidus",
+        "B": "Brodie's abscess (subacute osteomyelitis); caused by Staphylococcus aureus in the majority; distinguished from osteoid osteoma — which also shows a sclerotic lesion but has a central radiolucent nidus <1 cm with night pain classically relieved by aspirin/NSAIDs — by Brodie's being typically larger (>1.5 cm), located in the metaphysis, associated with mildly elevated inflammatory markers, and showing a channel extending toward the growth plate",
+        "C": "Non-ossifying fibroma; caused by fibrous cortical defect; distinguished by eccentric cortical location without sclerosis",
+        "D": "Simple bone cyst; caused by impaired intraosseous venous drainage; distinguished by central metaphyseal location with a 'fallen fragment' sign on plain X-ray"
       },
       "correct_answer": "B",
-      "explanation": "Brodie's abscess: subacute osteomyelitis. Well-defined lytic lesion with sclerotic margin in metaphysis (distal tibia most common). Caused by S. aureus. Treatment: surgical curettage + antibiotics."
+      "explanation": "Brodie's abscess is a form of subacute haematogenous osteomyelitis where the host's immune response partially contains the infection, producing a well-defined, chronic, localised bone abscess without systemic sepsis. It occurs predominantly in children and adolescents, most commonly in the distal tibial metaphysis, with Staphylococcus aureus responsible for approximately 50–75% of cases. The classic X-ray appearance is a well-defined lytic lesion (the abscess cavity containing pus and granulation tissue) surrounded by a dense reactive sclerotic rim, located in the metaphysis. A serpiginous channel extending from the abscess toward the open growth plate (physis) is a highly specific radiological sign of Brodie's abscess. Differential diagnosis from osteoid osteoma: both are metaphyseal sclerotic lesions in young patients. Osteoid osteoma has a central radiolucent nidus ≤1.5 cm (the reactive bone surrounds a small vascular fibrous core), characteristically causes night pain dramatically relieved by aspirin/NSAIDs (prostaglandin production by the nidus), and has normal inflammatory markers. Brodie's has a larger lytic cavity, mildly elevated CRP/ESR, and the serpiginous tract toward the physis. MRI is superior for delineating the extent of medullary involvement and surrounding oedema. Treatment: surgical curettage and washout of the abscess cavity combined with 6 weeks of antibiotics (flucloxacillin for S. aureus)."
+    },
+    {
+      "question_id": "TW_ORTHOPED_INFECTIONS_A_Q004",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_ORTHOPED_INFECTIONS_A",
+      "subject": "Orthopedics",
+      "topic": "Infections and Tumors",
+      "subtopic": "Acute Haematogenous Osteomyelitis",
+      "difficulty": "Medium",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 7-year-old child is brought with 5 days of high fever (39.5°C), severe pain, and inability to bear weight on the right leg. On examination, there is exquisite tenderness, warmth, and swelling over the proximal tibial metaphysis. WBC is 22,000/mm³, CRP 148 mg/L, ESR 80 mm/hr. Blood cultures are sent. X-ray of the right tibia at presentation is essentially normal. What is the diagnosis, why is the initial X-ray typically normal, which investigation would confirm the diagnosis before visible X-ray changes, and why is the metaphysis the preferential site in children?",
+      "options": {
+        "A": "Septic arthritis; X-ray is normal because cartilage is not radio-opaque; MRI confirms diagnosis; preferential site is the synovium because of its high vascularity",
+        "B": "Acute haematogenous osteomyelitis (AHO); X-ray is normal in the first 7–10 days because bony destruction requires 30–50% of bone mineral loss before plain X-ray shows changes; MRI (T2/STIR sequences showing medullary oedema) or bone scintigraphy (Tc-99m) can confirm diagnosis before X-ray changes; the metaphysis is preferentially affected because the terminal capillary loops in the metaphysis are tortuous, slow-flowing sinusoidal vascular spaces lacking phagocytic cells, allowing bacteria to settle and proliferate after transient bacteraemia",
+        "C": "Ewing's sarcoma; X-ray is normal because it is a soft tissue tumour; CT is the investigation of choice; preferred site is the diaphysis",
+        "D": "Transient synovitis; X-ray is normal; ultrasound-guided aspiration confirms sterile joint fluid; preferred site is the hip joint synovium"
+      },
+      "correct_answer": "B",
+      "explanation": "Acute haematogenous osteomyelitis (AHO) is the most common form of bone infection in children, typically following a transient bacteraemia (often from a skin/throat infection or minor trauma). Staphylococcus aureus is the causative organism in >80% of cases. The metaphysis is the classic site due to its unique vascular architecture: the terminal capillary loops at the growth plate are tortuous, slow-flowing sinusoids with fenestrated endothelium and relative absence of resident phagocytes — bacteria lodge here after bacteraemia and proliferate. In neonates, transphyseal vessels allow spread to the epiphysis and adjacent joint → septic arthritis is a frequent complication (especially hip and shoulder, where the metaphysis is intracapsular). X-ray changes are delayed 7–14 days because visible bone destruction requires 30–50% mineral loss — the periosteal reaction (subperiosteal pus lifting the periosteum) is often the first plain X-ray sign (visible ~7–10 days). MRI (T2/STIR hyperintensity in the marrow = oedema; T1 low signal = pus) is the gold standard for early diagnosis and extent mapping. Tc-99m bone scan shows increased uptake within 24–48 hours. Treatment: blood culture then immediate IV antibiotics (antistaphylococcal — flucloxacillin/clindamycin; cover MRSA if community-prevalence warrants). Surgical drainage is indicated for: failure of 48-hour antibiotic response, subperiosteal abscess, or adjacent septic arthritis."
+    },
+    {
+      "question_id": "TW_ORTHOPED_INFECTIONS_A_Q005",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_ORTHOPED_INFECTIONS_A",
+      "subject": "Orthopedics",
+      "topic": "Infections and Tumors",
+      "subtopic": "Giant Cell Tumour of Bone",
+      "difficulty": "Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 32-year-old female presents with a 4-month history of pain and swelling around the right knee. She is skeletally mature (growth plates closed). X-ray of the distal femur shows an eccentric, subarticular (epiphyseal) lytic lesion extending to the articular surface with no sclerotic rim and a 'soap-bubble' trabeculated appearance. There is cortical thinning and expansion. MRI shows a heterogeneous lesion with haemosiderin signal. Open biopsy reveals multinucleated giant cells on a background of mononuclear stromal cells. Which of the following correctly describes the classification of this tumour, its typical radiological location that helps distinguish it from osteosarcoma, and the first-line surgical management?",
+      "options": {
+        "A": "Osteosarcoma; metaphyseal location; neoadjuvant chemotherapy followed by wide resection",
+        "B": "Giant cell tumour (GCT) of bone — a locally aggressive but potentially malignant bone tumour (WHO: intermediate category); the characteristic EPIPHYSEAL (subarticular) location in a skeletally mature patient extending to the articular surface distinguishes it from osteosarcoma (which is metaphyseal); first-line treatment for accessible GCT is extended curettage (intralesional excision) with high-speed burring and adjuvant therapy (phenol, liquid nitrogen, or cement/PMMA packing), which provides lower recurrence than simple curettage; denosumab (anti-RANKL, inhibits osteoclast activity) is used for unresectable or recurrent cases",
+        "C": "Aneurysmal bone cyst; metaphyseal location with fluid-fluid levels on MRI; treated with selective arterial embolisation",
+        "D": "Chondroblastoma; epiphyseal in skeletally immature patients; treated with chemotherapy"
+      },
+      "correct_answer": "B",
+      "explanation": "Giant cell tumour of bone (GCT) is characterised by its classic anatomical location: the epiphysis of long bones in skeletally mature adults (20–40 years), extending to (and often abutting) the articular surface — a feature virtually unique to GCT among primary bone tumours. The distal femur, proximal tibia, and distal radius are the most common sites. The X-ray shows an eccentric, lytic, subarticular lesion with a 'soap-bubble' appearance from residual bony trabeculae, no sclerotic rim (unlike Brodie's abscess or osteoid osteoma), and cortical expansion/thinning. The biopsy hallmark: multinucleated osteoclast-like giant cells (pathological osteoclasts driven by RANKL overexpression by mononuclear stromal cells, which carry an H3F3A mutation in ~90% of cases). GCT is classified as locally aggressive with approximately 25% local recurrence after simple curettage and ~1–3% risk of pulmonary metastases (even histologically benign GCT). Treatment: extended curettage with high-speed burr + local adjuvant (phenol, liquid nitrogen/cryotherapy) + polymethylmethacrylate (PMMA) cement or bone graft, giving local recurrence rates of ~15–20%. Wide resection is reserved for recurrent or expendable bone locations (fibula head, distal radius). Denosumab (anti-RANKL monoclonal antibody) dramatically reduces GCT activity and is used pre-operatively (to consolidate the lesion) or for unresectable/metastatic disease, but tumours regrow on cessation so surgery is still required."
+    },
+    {
+      "question_id": "TW_ORTHOPED_INFECTIONS_A_Q006",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_ORTHOPED_INFECTIONS_A",
+      "subject": "Orthopedics",
+      "topic": "Infections and Tumors",
+      "subtopic": "Ewing's Sarcoma",
+      "difficulty": "Hard",
+      "question_type": "single_best_answer",
+      "image_based": true,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 12-year-old male presents with a 6-week history of fever, weight loss, progressive right thigh pain, and a rapidly enlarging soft tissue mass. His WBC is 14,000/mm³ and LDH is markedly elevated. The plain X-ray image above shows the lesion in the right femur diaphysis. Biopsy reveals small, round, blue cells arranged in sheets with pseudorosette formation, positive for CD99 (MIC-2) and PAS (periodic acid-Schiff stain). Cytogenetics confirms a t(11;22)(q24;q12) translocation. What is the diagnosis, what classical radiological finding is demonstrated in the X-ray, and what is the treatment strategy?",
+      "options": {
+        "A": "Osteosarcoma; sunburst periosteal reaction and Codman's triangle in the metaphysis; surgery-first approach with neoadjuvant chemotherapy",
+        "B": "Ewing's sarcoma; onion-peel (lamellated) periosteal reaction in the diaphysis of the femur with associated permeative ('moth-eaten') bone destruction; treated with multiagent neoadjuvant chemotherapy (VAC/IE — vincristine, doxorubicin, cyclophosphamide alternating with ifosfamide/etoposide), followed by local control (surgery and/or radiotherapy), then adjuvant chemotherapy",
+        "C": "Lymphoma of bone; permeative bone destruction without periosteal reaction; treated with chemotherapy and radiotherapy without surgery",
+        "D": "Metastatic neuroblastoma; moth-eaten bone in the metaphysis; treated with autologous stem cell transplantation"
+      },
+      "correct_answer": "B",
+      "explanation": "Ewing's sarcoma is the second most common primary malignant bone tumour in children, typically occurring in the first two decades. Key distinguishing features from osteosarcoma: Ewing's favours the DIAPHYSIS (mid-shaft) of long bones and flat bones (pelvis, ribs, scapula), whereas osteosarcoma is metaphyseal; Ewing's is histologically a small round blue cell tumour (SRBCT) of neuroectodermal origin; osteosarcoma produces osteoid. Genetics: ~85% carry the t(11;22)(q24;q12) translocation producing the EWSR1-FLI1 fusion oncoprotein (remainder have EWSR1-ERG or EWSR1-ETV1 fusions). Classic X-ray: onion-peel (lamellated/laminar) periosteal reaction — multiple layers of reactive periosteum corresponding to alternating phases of tumour expansion — with a permeative, 'moth-eaten' lytic lesion. A large soft tissue mass (often disproportionately larger than the bony component) is characteristic on MRI. Histology: CD99 (MIC-2) membrane positivity is highly sensitive (not specific — also in lymphoblastic lymphoma); PAS-positive cytoplasmic glycogen. Systemic features (fever, elevated LDH, WBC, weight loss) are common and reflect the systemic nature of the disease (micrometastases present at diagnosis in ~25%). Treatment: multiagent chemotherapy is the cornerstone (VAC/IE protocol); local control with surgery ± radiotherapy for radio-sensitive sites; 5-year survival for localised disease ~70–75%, metastatic disease ~20–30%.",
+      "is_image_based": true,
+      "image_title": "Plain X-ray — Right Femur, AP View",
+      "image_url": "",
+      "key_findings": [
+        "A plain AP radiograph of the right femur showing a diaphyseal lesion in the mid to distal shaft",
+        "Onion-peel (lamellated) periosteal reaction is visible along the lateral femoral cortex — multiple layers of periosteal new bone formation creating a layered appearance",
+        "Permeative, moth-eaten lytic destruction of the medullary cavity and cortex throughout the diaphysis with ill-defined margins",
+        "A large soft tissue mass shadow is visible extending laterally and medially beyond the femoral cortex",
+        "The metaphysis and epiphysis appear relatively spared compared to the diaphyseal involvement"
+      ]
+    },
+    {
+      "question_id": "TW_ORTHOPED_INFECTIONS_A_Q007",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_ORTHOPED_INFECTIONS_A",
+      "subject": "Orthopedics",
+      "topic": "Infections and Tumors",
+      "subtopic": "Septic Arthritis — Diagnosis and Management",
+      "difficulty": "Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 4-year-old child is brought with 3 days of acute onset fever (38.8°C), severe right hip pain, and complete refusal to bear weight on the right leg. On examination, the right hip is held in flexion, abduction, and external rotation (position of maximum joint capacity). Any attempt to move the hip causes intense pain. WBC is 18,000/mm³, CRP is 122 mg/L, ESR 68 mm/hr, temperature 38.8°C. Hip ultrasound shows a joint effusion. A trainee suggests observation with oral antibiotics. Using the Kocher criteria, how many criteria does this child meet, what is the predicted probability of septic arthritis, and what is the correct immediate management?",
+      "options": {
+        "A": "2 Kocher criteria (fever and raised WBC); ~40% probability; treat with IV antibiotics and repeat ultrasound in 48 hours",
+        "B": "4 Kocher criteria (fever >38.5°C, non-weight bearing, WBC >12,000, ESR >40 mm/hr); predicted probability of septic arthritis ~99%; urgent surgical drainage (arthrotomy or arthroscopic washout) is mandatory under general anaesthesia — IV antibiotics alone are inadequate as pus cannot be sterilised by systemic antibiotics and cartilage destruction continues within 8 hours of purulent joint infection",
+        "C": "3 Kocher criteria; ~93% probability; joint aspiration in the emergency department and await culture results before surgical decision",
+        "D": "4 Kocher criteria; ~99% probability; joint aspiration for diagnosis, then IV antibiotics for 6 weeks without surgical drainage if aspiration yields positive culture"
+      },
+      "correct_answer": "B",
+      "explanation": "The Kocher criteria for predicting septic arthritis of the hip are: (1) fever >38.5°C; (2) non-weight bearing; (3) WBC >12,000/mm³; (4) ESR >40 mm/hr. Some centres add CRP >20 mg/L as a fifth criterion. Each additional criterion progressively increases the probability: 1 criterion ~3%, 2 criteria ~40%, 3 criteria ~93%, 4 criteria ~99%. This child meets all four classic criteria. The management of septic arthritis is a surgical emergency: the joint must be decompressed within hours. Purulent synovial fluid (produced by neutrophil proteases, bacterial toxins, and cytokines) destroys articular cartilage by direct enzymatic action — cartilage loss can be irreversible within 8–24 hours. Joint aspiration alone is insufficient for established septic arthritis because: (1) thick pus re-accumulates; (2) loculations prevent complete drainage; (3) the synovial membrane remains a site of ongoing infection. Surgical drainage (arthrotomy or arthroscopic joint washout) is mandatory, followed by IV antistaphylococcal antibiotics (flucloxacillin or cloxacillin; vancomycin if MRSA suspected) for a minimum of 3 weeks total (IV then oral transition). In neonates and infants, the proximal femoral metaphysis is intracapsular — AHO and septic arthritis can coexist (combined infection). Missed or delayed septic arthritis of the hip in a child → avascular necrosis of the femoral head (damage to the lateral epiphyseal vessels from raised intracapsular pressure), coxa magna, growth arrest, and permanent disability."
+    },
+    {
+      "question_id": "TW_ORTHOPED_INFECTIONS_A_Q008",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_ORTHOPED_INFECTIONS_A",
+      "subject": "Orthopedics",
+      "topic": "Infections and Tumors",
+      "subtopic": "Chondrosarcoma",
+      "difficulty": "Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 55-year-old male presents with an 18-month history of dull aching pain in the right pelvis and upper thigh. He was previously told he had an 'enchondroma' in the pelvis 10 years ago but defaulted from follow-up. CT pelvis shows a large, lobulated intramedullary lesion in the right iliac wing with stippled rings-and-arcs chondroid calcification, cortical destruction, and a soft tissue mass. Biopsy shows mildly atypical chondrocytes within a chondroid matrix — classified as Grade 1 chondrosarcoma. Which of the following is correct regarding the treatment of chondrosarcoma and why conventional chemotherapy and radiotherapy play a limited role?",
+      "options": {
+        "A": "Chondrosarcoma is exquisitely sensitive to anthracycline-based chemotherapy; chemotherapy is first-line treatment",
+        "B": "Chondrosarcoma is treated primarily with wide surgical resection (achieving negative margins); conventional chemotherapy and radiotherapy are largely ineffective because chondrosarcoma cells are surrounded by a dense, avascular chondroid matrix that prevents adequate drug and radiation delivery, and the cells have a very low mitotic rate and proliferative index — tumour cells in the lacunae are relatively hypoxic and radioresistant; the exception is mesenchymal and dedifferentiated chondrosarcoma subtypes which have a high-grade component responsive to chemotherapy",
+        "C": "Chondrosarcoma is treated with intra-arterial chemotherapy (IAC); radiotherapy is used as definitive treatment for skull base lesions",
+        "D": "Chondrosarcoma responds to denosumab; bisphosphonates are first-line adjuvant therapy"
+      },
+      "correct_answer": "B",
+      "explanation": "Chondrosarcoma is the third most common primary malignant bone tumour (after osteosarcoma and Ewing's) and the most common in adults over 40. It can arise de novo (primary) or from malignant transformation of an enchondroma or osteochondroma (secondary — risk highest in hereditary multiple exostoses). The pelvis, proximal femur, proximal humerus, and ribs are the most common sites. Grade 1 (low-grade) chondrosarcoma — also called atypical cartilaginous tumour in long bones — has very low metastatic potential (<5%) but can recur locally. The fundamental principle of treatment is wide surgical resection with negative margins: chondrosarcoma is inherently resistant to standard chemotherapy and radiotherapy. The resistance mechanism relates to the tumour's biology: (1) the dense, avascular chondroid extracellular matrix creates a pharmacokinetic barrier to drug penetration; (2) the cells have an extremely low proliferative index (most cytotoxic agents act on dividing cells); (3) hypoxia within the lacunae confers radioresistance. Therefore, unlike osteosarcoma (where neoadjuvant chemotherapy is essential), Grade 1–3 conventional chondrosarcoma is managed surgically. Exceptions: mesenchymal chondrosarcoma (biphasic — high-grade small round cell component + chondroid areas) and dedifferentiated chondrosarcoma (high-grade sarcoma + low-grade chondrosarcoma) have high-grade components that are treated with systemic chemotherapy (similar to osteosarcoma or Ewing's protocols). Proton beam therapy is an option for skull base/axial chondrosarcoma where surgical margins are inadequate."
+    },
+    {
+      "question_id": "TW_ORTHOPED_INFECTIONS_A_Q009",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_ORTHOPED_INFECTIONS_A",
+      "subject": "Orthopedics",
+      "topic": "Infections and Tumors",
+      "subtopic": "Chronic Osteomyelitis — Involucrum and Sequestrum",
+      "difficulty": "Very Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 35-year-old male presents with a 6-month history of chronic discharging sinus over the right tibia following an open fracture treated with external fixation 2 years ago. The sinus intermittently discharges thick, yellowish fluid and small bone fragments. On examination, there is indurated scarring around the sinus, local bone tenderness, and the leg is slightly shortened. X-ray shows a dense, dead bone fragment (sequestrum) within the medullary canal surrounded by a periosteal shell of new bone (involucrum) with cortical holes (cloacae). MRI shows a Brodie's abscess-like cavity extending through the cortex. What are the pathological terms for the dead bone fragment and the surrounding reactive bone shell, how do each form, and which surgical principle governs definitive management?",
+      "options": {
+        "A": "Sequestrum and involucrum; both represent healing bone formation; managed with prolonged antibiotics alone",
+        "B": "Sequestrum (avascular, dead cortical bone cut off from blood supply by subperiosteal pus stripping the periosteum — survives as a nidus for chronic infection as antibiotics cannot penetrate avascular bone) and involucrum (new bone formed by the stripped periosteum enveloping the sequestrum — contains holes called cloacae through which pus tracks to the surface, forming a sinus); definitive management requires sequestrectomy (surgical removal of all sequestrum and infected bone) combined with saucerisation (excision of the involucrum to create a saucer-shaped cavity) and prolonged antibiotics; reconstruction of bone defect by Masquelet technique or bone transport (Ilizarov) if large defect remains",
+        "C": "Cloaca and Garre's sclerosing osteomyelitis; formed by ischaemic necrosis and periosteal irritation respectively; managed with bisphosphonates and hyperbaric oxygen",
+        "D": "Sequestrum and Codman's triangle; sequestrum forms from subperiosteal haematoma; managed with low-dose CT-guided aspiration"
+      },
+      "correct_answer": "B",
+      "explanation": "Chronic osteomyelitis develops when acute osteomyelitis is inadequately treated, especially following open fractures or devascularising injuries. The two cardinal pathological features are: (1) Sequestrum — a fragment of necrotic cortical bone that has lost its blood supply (avascular necrosis of bone). In acute OM, subperiosteal pus strips the periosteum from the cortex, cutting off the periosteal blood supply; the vascular endosteal supply is blocked by thrombosed medullary vessels. The isolated bone fragment dies and persists as a dense, radio-opaque, avascular sequestrum. Because avascular bone is impenetrable to systemic antibiotics and immune cells, it acts as a permanent nidus for bacterial biofilm formation — the reason chronic OM cannot be eradicated with antibiotics alone. (2) Involucrum — new bone formed by the cambium layer of the stripped periosteum, attempting to surround and contain the sequestrum. The periosteum retains osteogenic capacity even when stripped; it lays down a shell of reactive new bone (involucrum) encasing the sequestrum. Holes (cloacae) in the involucrum allow pus to drain through sinuses to the skin surface. Surgical principles: (a) sequestrectomy — complete removal of all dead bone (any residual avascular bone maintains the infection); (b) saucerisation — converting the closed cavity into an open saucer-shaped defect to allow drainage and wound care; (c) dead space management — the resulting bone defect is managed with the Masquelet induced membrane technique (cement spacer + bone grafting) or bone transport using an Ilizarov/Taylor Spatial Frame for large segmental defects; (d) antibiotic therapy — culture-directed, typically 6 weeks; local antibiotic delivery (beads, sponges) is used to achieve high local concentrations at avascular sites."
+    },
+    {
+      "question_id": "TW_ORTHOPED_INFECTIONS_A_Q010",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_ORTHOPED_INFECTIONS_A",
+      "subject": "Orthopedics",
+      "topic": "Infections and Tumors",
+      "subtopic": "Osteosarcoma — Staging and Neoadjuvant Chemotherapy Response",
+      "difficulty": "Very Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 16-year-old male presents with a 2-month history of progressive pain and swelling at the left distal femur. X-ray shows a metaphyseal destructive lesion with Codman's triangle and sunburst spiculation. MRI confirms an intramedullary tumour with extracompartmental soft tissue extension but no neurovascular encasement. CT chest shows no pulmonary metastases. Biopsy confirms conventional high-grade osteosarcoma. He receives 3 cycles of neoadjuvant chemotherapy (MAP protocol: methotrexate, doxorubicin, cisplatin). Surgical resection is performed and the histopathology report states: '95% tumour necrosis.' Which of the following best describes the significance of this histological finding and how it impacts subsequent management?",
+      "options": {
+        "A": "95% necrosis indicates an incomplete surgical margin; re-excision is mandatory regardless of chemotherapy response",
+        "B": "≥90% tumour necrosis (Huvos grade III/IV) is defined as a good histological response to neoadjuvant chemotherapy and is the single most important prognostic factor for osteosarcoma survival — it is associated with ~70–80% 5-year survival; the same chemotherapy agents (MAP) are continued postoperatively for adjuvant chemotherapy; a poor response (<90% necrosis) prompts consideration of second-line or salvage chemotherapy regimens although no adjuvant regimen has convincingly improved poor responders' outcomes",
+        "C": "95% necrosis means the tumour is cured; no adjuvant chemotherapy is required and the patient can be discharged with annual X-ray surveillance only",
+        "D": "95% necrosis is a poor prognostic sign indicating the tumour has developed resistance to neoadjuvant chemotherapy; immediate limb amputation is required"
+      },
+      "correct_answer": "B",
+      "explanation": "Histological tumour necrosis percentage after neoadjuvant chemotherapy is the most important independent prognostic factor in osteosarcoma. The Huvos grading system: Grade I (<50% necrosis — poor response); Grade II (50–90%); Grade III (>90%); Grade IV (100%). The critical threshold is 90%: ≥90% necrosis = good histological responder, ~70–80% 5-year overall survival; <90% necrosis = poor histological responder, ~40–50% 5-year survival. The MAP (methotrexate, doxorubicin/Adriamycin, cisplatin/Platinum) protocol is the standard neoadjuvant and adjuvant regimen. In good responders, the same MAP regimen is continued postoperatively. In poor responders, the theoretical rationale for switching to second-line drugs (e.g., ifosfamide/etoposide — the EURAMOS-1 trial added ifos/etop for poor responders, but did not improve EFS — this remains an area of active research). Neoadjuvant chemotherapy serves two additional purposes beyond achieving tumour necrosis: (1) reducing tumour volume to facilitate limb-salvage surgery by creating a 'pseudocapsule' and shrinking the soft tissue component; (2) treating micrometastatic disease (present in ~80% of patients at diagnosis despite a normal CT chest). Limb-salvage surgery (wide resection with endoprosthetic reconstruction or osteoarticular allograft) is now achieved in ~85–90% of cases with appropriate neoadjuvant treatment; it has equivalent survival to amputation (COSS data) but requires careful patient selection based on neurovascular anatomy and tumour response."
     }
   ]
 }

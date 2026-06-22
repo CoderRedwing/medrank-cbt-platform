@@ -3,11 +3,14 @@
   "paper_type": "topic_wise",
   "subject": "OBGYN",
   "topic": "Obstetrics",
-  "total_questions": 5,
+  "total_questions": 9,
   "difficulty_distribution": {
-    "Easy": 5
+    "Easy": 1,
+    "Medium": 2,
+    "Hard": 4,
+    "Very Hard": 2
   },
-  "created_at": "2026-05-30",
+  "created_at": "2026-06-21",
   "questions": [
     {
       "question_id": "TW_OBGYN_OBSTETRICS_Q001",
@@ -15,22 +18,22 @@
       "paper_ref": "TW_OBGYN_OBSTETRICS",
       "subject": "OBGYN",
       "topic": "Obstetrics",
-      "subtopic": null,
+      "subtopic": "Pregnancy Dating",
       "difficulty": "Easy",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Polyhydramnios is associated with?",
+      "question_text": "A 24-year-old woman with irregular menstrual cycles presents for her first antenatal visit. Her last menstrual period is unreliable for dating. Transvaginal ultrasound shows a single live intrauterine pregnancy with a crown-rump length (CRL) corresponding to 9 weeks 2 days. The sonologist counsels her that this measurement is the single most reliable method available for establishing her expected date of delivery. When CRL is measured between 6 and 13+6 weeks, what is the accepted margin of error for gestational age dating?",
       "options": {
-        "A": "Renal agenesis",
-        "B": "Anencephaly and GI atresias",
-        "C": "Post-term pregnancy",
-        "D": "IUGR"
+        "A": "±3 days",
+        "B": "±5–7 days",
+        "C": "±10 days",
+        "D": "±2 weeks"
       },
       "correct_answer": "B",
-      "explanation": "Polyhydramnios (AFI >25): impaired fetal swallowing (anencephaly, esophageal/duodenal atresia) or increased production. Oligohydramnios: decreased fetal urine output (renal agenesis = Potter sequence)."
+      "explanation": "CRL measured in the first trimester (up to 13+6 weeks) is the most accurate method for gestational age dating, with a margin of error of approximately ±5–7 days. After 14 weeks, biparietal diameter (BPD), head circumference (HC), abdominal circumference (AC), and femur length (FL) are used, with accuracy progressively worsening as pregnancy advances (±2 weeks in the second trimester, ±3 weeks in the third trimester) due to increasing biological variation in fetal growth. Once an accurate first-trimester dating scan establishes the EDD, it should not be revised by later scans."
     },
     {
       "question_id": "TW_OBGYN_OBSTETRICS_Q002",
@@ -38,22 +41,22 @@
       "paper_ref": "TW_OBGYN_OBSTETRICS",
       "subject": "OBGYN",
       "topic": "Obstetrics",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Aneuploidy Screening",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Triple test in 2nd trimester for Down syndrome shows?",
+      "question_text": "A 32-year-old G2P1 at 16 weeks gestation undergoes maternal serum triple-marker screening. Results are reported as: AFP 0.4 MoM, beta-hCG 2.3 MoM, and unconjugated estriol (uE3) 0.6 MoM. Ultrasound shows an increased nuchal fold thickness with no structural cardiac or neural tube defect. Which fetal aneuploidy is most consistent with this biochemical pattern, and which additional marker is added in the quadruple test to refine this specific risk?",
       "options": {
-        "A": "↑AFP, ↑hCG, ↑estriol",
-        "B": "↓AFP, ↑hCG, ↓estriol",
-        "C": "↑AFP, ↓hCG, ↑estriol",
-        "D": "↓AFP, ↓hCG, ↓estriol"
+        "A": "Trisomy 21 (Down syndrome); inhibin A, which is typically elevated",
+        "B": "Trisomy 18 (Edward syndrome); inhibin A, which is typically decreased",
+        "C": "Isolated neural tube defect; AFP alone, with no role for inhibin A",
+        "D": "Trisomy 13 (Patau syndrome); beta-hCG, which is typically decreased"
       },
-      "correct_answer": "B",
-      "explanation": "Down syndrome (T21) triple test: ↓AFP, ↑hCG, ↓unconjugated estriol (uE3). Quadruple test adds inhibin A (↑). Neural tube defects: ↑AFP."
+      "correct_answer": "A",
+      "explanation": "Down syndrome (T21) classically shows ↓AFP, ↑beta-hCG, and ↓unconjugated estriol on the triple test. The quadruple test adds inhibin A, which is also elevated in T21, improving detection sensitivity. This pattern must be distinguished from Edward syndrome (T18), in which all three markers — AFP, hCG, and estriol — are characteristically low ('triple low'), and from open neural tube defects, in which AFP is markedly elevated in isolation with normal hCG and estriol. Increased nuchal fold/translucency further supports an aneuploidy rather than an isolated structural defect."
     },
     {
       "question_id": "TW_OBGYN_OBSTETRICS_Q003",
@@ -61,22 +64,22 @@
       "paper_ref": "TW_OBGYN_OBSTETRICS",
       "subject": "OBGYN",
       "topic": "Obstetrics",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Intrapartum Fetal Monitoring",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Normal fetal heart rate range?",
+      "question_text": "A 28-year-old G1P0 at 39 weeks is in active labor on continuous electronic fetal monitoring. The trace shows a baseline fetal heart rate of 145 bpm with moderate variability (amplitude 6–25 bpm), spontaneous accelerations, and no decelerations. According to the NICHD three-tier fetal heart rate interpretation system, how should this trace be classified and managed?",
       "options": {
-        "A": "100-120 bpm",
-        "B": "110-160 bpm",
-        "C": "160-200 bpm",
-        "D": "80-100 bpm"
+        "A": "Category I — normal; continue routine intrapartum care",
+        "B": "Category II — indeterminate; requires further evaluation and intrauterine resuscitation",
+        "C": "Category III — abnormal; proceed to immediate operative delivery",
+        "D": "Cannot be classified without a simultaneous tocograph reading"
       },
-      "correct_answer": "B",
-      "explanation": "Normal FHR: 110-160 bpm. Tachycardia >160, bradycardia <110. Baseline variability 6-25 bpm = normal. Loss of variability + late decelerations = fetal distress."
+      "correct_answer": "A",
+      "explanation": "A Category I (normal) trace requires ALL of the following: baseline rate 110–160 bpm, moderate variability (6–25 bpm), absence of late or variable decelerations, with early decelerations and accelerations either present or absent. This trace meets every criterion and predicts a normal fetal acid-base status at the time of observation, requiring no intervention. Category II encompasses all traces that do not meet Category I or III criteria (e.g., minimal/absent variability without recurrent decelerations, or variable decelerations with moderate variability) and needs further evaluation. Category III (absent variability with recurrent late/variable decelerations or bradycardia, or a sinusoidal pattern) mandates prompt intrauterine resuscitation and expedited delivery if not rapidly corrected."
     },
     {
       "question_id": "TW_OBGYN_OBSTETRICS_Q004",
@@ -84,22 +87,22 @@
       "paper_ref": "TW_OBGYN_OBSTETRICS",
       "subject": "OBGYN",
       "topic": "Obstetrics",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Amniotic Fluid Disorders",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Magnesium sulfate in eclampsia: first sign of toxicity?",
+      "question_text": "A 29-year-old G3P2 at 32 weeks presents with rapidly increasing abdominal girth and breathlessness. Ultrasound shows an amniotic fluid index (AFI) of 28 cm, a 'double bubble' sign in the fetal abdomen, and absence of a normally filled fetal stomach bubble distal to the proximal dilatation. No CNS or cardiac anomaly is identified. What is the most likely cause of the polyhydramnios in this fetus, and what is its mechanistic basis?",
       "options": {
-        "A": "Respiratory depression",
-        "B": "Loss of patellar reflexes",
-        "C": "Cardiac arrest",
-        "D": "Muscle weakness"
+        "A": "Duodenal atresia; the fetus is unable to swallow and absorb amniotic fluid distal to the obstruction",
+        "B": "Anencephaly; absent brainstem swallowing reflex",
+        "C": "Poorly controlled maternal diabetes; fetal hyperglycemia-induced osmotic polyuria",
+        "D": "Twin-twin transfusion syndrome; recipient twin polyuria"
       },
-      "correct_answer": "B",
-      "explanation": "MgSO4 toxicity sequence: loss of DTRs (8-10 mg/dL) → respiratory paralysis (12-15) → cardiac arrest (>15). Monitor: RR >12/min, UO >25 mL/hr, patellar reflexes present. Antidote: calcium gluconate."
+      "correct_answer": "A",
+      "explanation": "The 'double bubble' sign (dilated stomach + proximal duodenum, with no distal bowel gas) is the classic ultrasound finding of duodenal atresia, resulting from failure of recanalization of the solid-cord stage of duodenal development (weeks 8–10). Because amniotic fluid swallowed by the fetus cannot pass beyond the atretic segment to be absorbed by the distal gut, it accumulates, producing polyhydramnios — one of the GI causes of polyhydramnios (alongside esophageal atresia and other proximal obstructions), as opposed to CNS causes (anencephaly — impaired swallowing reflex) or fetal polyuria states (diabetes, TTTS recipient twin). Duodenal atresia carries a strong association with Down syndrome (~30% of cases), warranting karyotyping."
     },
     {
       "question_id": "TW_OBGYN_OBSTETRICS_Q005",
@@ -107,22 +110,133 @@
       "paper_ref": "TW_OBGYN_OBSTETRICS",
       "subject": "OBGYN",
       "topic": "Obstetrics",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Hypertensive Disorders of Pregnancy",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Crown-rump length (CRL) is most accurate for gestational age in?",
+      "question_text": "A 24-year-old primigravida with severe preeclampsia is started on IV magnesium sulfate (Pritchard regimen) for seizure prophylaxis. Four hours into the infusion, the nurse documents: patellar reflexes absent bilaterally, respiratory rate 14/min, and urine output 35 mL over the last hour. What is the next best step in management?",
       "options": {
-        "A": "1st trimester",
-        "B": "2nd trimester",
-        "C": "3rd trimester",
-        "D": "At delivery"
+        "A": "Continue the infusion unchanged; absent reflexes alone do not indicate clinically significant toxicity",
+        "B": "Stop the infusion immediately and administer IV calcium gluconate",
+        "C": "Stop the infusion and observe without an antidote, since respiratory rate and urine output are still acceptable",
+        "D": "Increase the infusion rate to ensure a therapeutic serum magnesium level is reached"
       },
-      "correct_answer": "A",
-      "explanation": "CRL in 1st trimester (up to 14 weeks) is most accurate for gestational age (±5 days). After 14 weeks: BPD, HC, AC, FL used. 3rd trimester: least accurate (±3 weeks)."
+      "correct_answer": "B",
+      "explanation": "Loss of deep tendon reflexes (occurring at serum Mg2+ ~8–10 mg/dL) is the earliest reliable clinical sign of magnesium toxicity, preceding respiratory depression (12–15 mg/dL) and cardiac arrest (>15 mg/dL). Even though this patient's respiratory rate and urine output remain within the monitoring thresholds (RR >12/min, urine output >25 mL/hr), absent patellar reflexes alone mandate stopping the infusion and administering the antidote — 1 g (10 mL of 10%) IV calcium gluconate over 3 minutes — because reflex loss reflects an already-elevated serum magnesium level that can progress rapidly to respiratory paralysis if untreated."
+    },
+    {
+      "question_id": "TW_OBGYN_OBSTETRICS_Q006",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_OBGYN_OBSTETRICS",
+      "subject": "OBGYN",
+      "topic": "Obstetrics",
+      "subtopic": "Intrapartum Fetal Monitoring",
+      "difficulty": "Hard",
+      "question_type": "single_best_answer",
+      "image_based": true,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 35-year-old G4P3 at 40 weeks in active labor is on continuous electronic fetal monitoring. The cardiotocograph (CTG) strip shown above is obtained. The obstetrician notes that the deceleration trough consistently occurs after the peak of each uterine contraction, with a gradual onset and gradual return to baseline. Based on this pattern and the accompanying baseline variability, what is the underlying pathophysiology, and what is the immediate management?",
+      "options": {
+        "A": "Umbilical cord compression; reposition the mother and perform amnioinfusion",
+        "B": "Uteroplacental insufficiency; left lateral position, maternal oxygen, stop oxytocin, IV fluid bolus, and prepare for expedited delivery if non-resolving",
+        "C": "Fetal head compression during descent; reassurance only, no intervention required",
+        "D": "Maternal pyrexia; administer antipyretics and continue routine monitoring"
+      },
+      "correct_answer": "B",
+      "explanation": "Late decelerations — a gradual-onset dip in FHR with the nadir occurring after the peak of the contraction — reflect a delayed, chemoreceptor-mediated response to transient hypoxemia during uteroplacental insufficiency, where reduced intervillous perfusion during each contraction fails to adequately oxygenate the fetus. Combined with minimal/absent variability (as on this trace), recurrent late decelerations meet Category III criteria and constitute an ominous pattern requiring immediate intrauterine resuscitation: left lateral positioning to relieve aortocaval compression, maternal oxygen, discontinuation of oxytocin, an IV fluid bolus, and correction of any hypotension — followed by expedited operative delivery if the pattern does not resolve. This differs from variable decelerations (abrupt onset/offset, variable timing — cord compression) and early decelerations (mirror the contraction, onset coincides with the contraction peak — benign head compression).",
+      "is_image_based": true,
+      "image_title": "CTG Strip — Intrapartum Continuous Fetal Monitoring",
+      "image_url": "",
+      "key_findings": [
+        "A cardiotocograph tracing with the fetal heart rate channel on top and the uterine contraction (tocograph) channel below",
+        "Baseline fetal heart rate is approximately 130 bpm with minimal variability (amplitude <5 bpm)",
+        "Repetitive U-shaped decelerations with gradual onset and gradual recovery are seen, each beginning after the corresponding contraction has already peaked",
+        "No accelerations are visible throughout the strip",
+        "Uterine contractions are occurring at a frequency of approximately 4 in 10 minutes"
+      ]
+    },
+    {
+      "question_id": "TW_OBGYN_OBSTETRICS_Q007",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_OBGYN_OBSTETRICS",
+      "subject": "OBGYN",
+      "topic": "Obstetrics",
+      "subtopic": "Antepartum Hemorrhage",
+      "difficulty": "Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 31-year-old G2P1 at 34 weeks presents with sudden-onset painless bright red vaginal bleeding. Abdominal examination reveals a soft, non-tender uterus with a high, mobile presenting part. The fetal heart rate is 150 bpm and reassuring. Transabdominal ultrasound suggests a low-lying placenta possibly covering the internal os. What is the most appropriate next step before proceeding to confirm the diagnosis further?",
+      "options": {
+        "A": "Perform a digital vaginal examination to assess cervical dilatation and guide mode of delivery",
+        "B": "Avoid digital vaginal examination; confirm placental location with transvaginal ultrasound, which is safe even in suspected previa",
+        "C": "Proceed directly to emergency cesarean section regardless of gestational age or maternal stability",
+        "D": "Administer oxytocin to expedite vaginal delivery and control bleeding"
+      },
+      "correct_answer": "B",
+      "explanation": "In any case of painless antepartum hemorrhage with a suspected or unconfirmed placenta previa, digital vaginal examination must be avoided ('no PV until previa excluded') because disrupting the fragile previa-placental interface with a finger can provoke sudden, massive, life-threatening hemorrhage. Transvaginal ultrasound (TVS), despite seeming counterintuitive, is safe and is in fact the most accurate method to localize the placenta relative to the internal os, since the probe is positioned in the anterior vaginal fornix without contacting the cervix directly. Subsequent management (expectant versus delivery, vaginal versus cesarean) is then guided by gestational age, the degree of os coverage, and the severity of bleeding."
+    },
+    {
+      "question_id": "TW_OBGYN_OBSTETRICS_Q008",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_OBGYN_OBSTETRICS",
+      "subject": "OBGYN",
+      "topic": "Obstetrics",
+      "subtopic": "Gestational Trophoblastic Disease",
+      "difficulty": "Very Hard",
+      "question_type": "single_best_answer",
+      "image_based": true,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 22-year-old primigravida presents at 10 weeks gestation by dates with hyperemesis, intermittent vaginal bleeding, and a uterine size greater than expected for dates. Serum beta-hCG is markedly elevated at >200,000 mIU/mL. The transvaginal ultrasound shown above is obtained. Genetic analysis of the evacuated tissue reveals a 46,XX karyotype that is entirely of paternal origin, with no identifiable fetal parts. What is the diagnosis, and what is the embryological mechanism of formation?",
+      "options": {
+        "A": "Partial hydatidiform mole; dispermic fertilization of a normal ovum producing a triploid (69,XXY) conceptus with fetal parts",
+        "B": "Complete hydatidiform mole; fertilization of an 'empty' ovum (lacking maternal chromosomes) by a single sperm that duplicates its own genome (or by two sperm), resulting in a conceptus entirely of paternal chromosomal origin with no fetal tissue",
+        "C": "Choriocarcinoma; malignant transformation of villous trophoblast with myometrial and vascular invasion",
+        "D": "Invasive mole; molar tissue penetrating the myometrium without distant metastasis"
+      },
+      "correct_answer": "B",
+      "explanation": "A complete hydatidiform mole arises when an ovum lacking maternal chromosomes ('empty ovum') is fertilized by a single sperm that subsequently duplicates its own haploid genome (~90% of cases, yielding 46,XX, androgenetic/diploid) or, less commonly, by two sperm (dyspermic, yielding 46,XX or 46,XY). Because all chromosomal material is paternal in origin and there is no maternal genomic contribution, diffuse hydropic degeneration of all villi occurs with no embryonic/fetal tissue formation — producing the diffuse vesicular ('snowstorm' or 'honeycomb') pattern on ultrasound and markedly elevated beta-hCG. This is distinct from a partial mole, which results from dispermic fertilization of a normal ovum, producing a triploid (69,XXY) karyotype with identifiable (though abnormal) fetal parts and focal rather than diffuse villous hydrops. Complete moles carry a substantially higher risk of progression to gestational trophoblastic neoplasia (~15–20%) compared with partial moles (~2–5%), mandating serial beta-hCG follow-up after evacuation.",
+      "is_image_based": true,
+      "image_title": "Transvaginal Ultrasound — First Trimester Uterine Cavity",
+      "image_url": "",
+      "key_findings": [
+        "A transvaginal ultrasound image of the uterus showing the endometrial cavity distended with a heterogeneous, diffuse vesicular 'snowstorm' pattern of multiple anechoic cystic spaces of varying sizes",
+        "No gestational sac, fetal pole, or fetal cardiac activity is identified anywhere within the cavity",
+        "Bilateral multiloculated ovarian cystic masses consistent with theca lutein cysts are seen adjacent to the uterus",
+        "No normal placental architecture or amniotic fluid is visualized"
+      ]
+    },
+    {
+      "question_id": "TW_OBGYN_OBSTETRICS_Q009",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_OBGYN_OBSTETRICS",
+      "subject": "OBGYN",
+      "topic": "Obstetrics",
+      "subtopic": "HELLP Syndrome",
+      "difficulty": "Very Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 27-year-old G1P0 at 35 weeks with severe preeclampsia develops epigastric pain. Laboratory workup shows: hemoglobin 8.9 g/dL with schistocytes on peripheral smear, platelet count 68,000/μL, AST 220 U/L, ALT 195 U/L, markedly elevated LDH, and undetectable serum haptoglobin. She subsequently has a generalized tonic-clonic seizure. What is the underlying vascular pathology responsible for both the hemolysis and the hepatic abnormalities in this syndrome, and what is the definitive treatment?",
+      "options": {
+        "A": "Disseminated intravascular coagulation secondary to occult sepsis; treat with fresh frozen plasma alone",
+        "B": "Generalized endothelial dysfunction with fibrin deposition in small hepatic and systemic vessels, causing mechanical red-cell fragmentation (microangiopathic hemolysis) and periportal/focal parenchymal hepatic necrosis; the definitive treatment is delivery of the fetus and placenta once the mother is stabilized",
+        "C": "Primary autoimmune hemolytic anemia superimposed on pregnancy; treat with high-dose corticosteroids alone",
+        "D": "Thrombotic thrombocytopenic purpura unrelated to the preeclampsia; treat with therapeutic plasma exchange alone"
+      },
+      "correct_answer": "B",
+      "explanation": "HELLP syndrome (Hemolysis, Elevated Liver enzymes, Low Platelets) is a severe variant of preeclampsia driven by widespread endothelial injury and vasospasm. Fibrin strands deposited within damaged hepatic sinusoids and the systemic microvasculature shear passing red cells as they squeeze through, producing schistocytes and microangiopathic hemolytic anemia (low haptoglobin, elevated LDH), while the same fibrin deposition within hepatic sinusoids causes periportal and focal parenchymal hepatic necrosis (elevated transaminases, risk of subcapsular hematoma or hepatic rupture). Platelets are consumed at sites of endothelial damage, producing thrombocytopenia. Unlike DIC, TTP, or autoimmune hemolysis, the placenta is the driving pathological source in HELLP — consequently, supportive stabilization (seizure control with magnesium sulfate, blood pressure control, blood product support as needed) is followed by prompt delivery of the fetus and placenta, which is the only definitive treatment, regardless of gestational age once the mother is stabilized."
     }
   ]
 }

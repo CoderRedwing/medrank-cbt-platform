@@ -3,103 +3,514 @@
   "paper_type": "topic_wise",
   "subject": "Orthopedics",
   "topic": "Trauma",
-  "total_questions": 4,
+  "total_questions": 20,
   "difficulty_distribution": {
-    "Easy": 4
+    "Easy": 3,
+    "Medium": 5,
+    "Hard": 8,
+    "Very Hard": 4
   },
-  "created_at": "2026-05-30",
+  "created_at": "2026-06-21",
   "questions": [
+
     {
       "question_id": "TW_ORTHOPED_TRAUMA_Q001",
       "paper_type": "topic_wise",
       "paper_ref": "TW_ORTHOPED_TRAUMA",
       "subject": "Orthopedics",
       "topic": "Trauma",
-      "subtopic": null,
+      "subtopic": "Scoliosis — Cobb's Angle Measurement",
       "difficulty": "Easy",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Cobb's angle is used to measure?",
+      "question_text": "Cobb's angle is measured on a standing AP radiograph of the spine. Which vertebrae are used as landmarks for this measurement?",
       "options": {
-        "A": "Hip dysplasia",
-        "B": "Scoliosis severity",
-        "C": "Kyphosis severity",
-        "D": "Limb length discrepancy"
+        "A": "The two vertebrae at the apex of the curve and the neutral vertebra below",
+        "B": "The uppermost vertebra whose superior endplate tilts maximally toward the concavity, and the lowermost vertebra whose inferior endplate tilts maximally toward the concavity of the curve",
+        "C": "The first and last vertebrae of the curve regardless of endplate tilt",
+        "D": "The two vertebrae immediately above and below the apical vertebra"
       },
       "correct_answer": "B",
-      "explanation": "Cobb's angle: measures scoliosis on standing AP X-ray. Angle between superior endplate of upper end vertebra and inferior endplate of lower end vertebra. <10°: normal variation; >10°: scoliosis."
+      "explanation": "Cobb's angle measures scoliosis severity on a standing AP radiograph. The end vertebrae are identified as: (1) the uppermost vertebra whose superior endplate tilts most toward the concavity (upper end vertebra), and (2) the lowermost vertebra whose inferior endplate tilts most toward the concavity (lower end vertebra). Perpendiculars are drawn to these endplates and the angle between these perpendiculars is the Cobb's angle. Classification: <10° = normal variation (not scoliosis); 10–20° = mild, observe; 20–40° = moderate, bracing; >40–50° = severe, surgical candidate. The apical vertebra (most rotated, most deviated from midline) is used to classify curve type (thoracic, lumbar, thoracolumbar) but is NOT used to measure the Cobb's angle."
     },
+
     {
       "question_id": "TW_ORTHOPED_TRAUMA_Q002",
       "paper_type": "topic_wise",
       "paper_ref": "TW_ORTHOPED_TRAUMA",
       "subject": "Orthopedics",
       "topic": "Trauma",
-      "subtopic": null,
+      "subtopic": "Scoliosis — Clinical Assessment and Risser Sign",
       "difficulty": "Easy",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Most common complication of intramedullary nailing of femur?",
+      "question_text": "A 13-year-old girl is referred for evaluation of spinal curvature. On Adam's forward bending test, a right thoracic rib hump is noted. X-ray confirms idiopathic scoliosis with a Cobb's angle of 28°. The Risser sign on X-ray is grade 1. Which of the following statements about the Risser sign and its clinical implication is CORRECT?",
       "options": {
-        "A": "Infection",
-        "B": "Fat embolism",
-        "C": "Malunion",
-        "D": "Rotational deformity"
+        "A": "Risser grade 1 indicates complete skeletal maturity; no further progression is expected",
+        "B": "Risser grade 1 indicates the iliac apophysis has just begun to ossify (0–25% excursion from anterior superior iliac spine); skeletal growth is near-complete and the risk of curve progression is low",
+        "C": "Risser grade 1 indicates early skeletal immaturity with maximum growth remaining; curve progression risk is high and bracing is most effective at this stage",
+        "D": "Risser grade 5 indicates active growth; surgical correction should be delayed until Risser grade 0"
       },
-      "correct_answer": "B",
-      "explanation": "IMN of femur: reaming releases fat into circulation → fat embolism syndrome (respiratory distress, petechiae, confusion). Also seen after long bone fractures."
+      "correct_answer": "C",
+      "explanation": "The Risser sign grades ossification of the iliac apophysis as a proxy for skeletal maturity. Ossification progresses from the anterior superior iliac spine (ASIS) laterally to posteriorly, then fuses to the ilium. Grade 0: no ossification (maximum growth potential); Grade 1: 0–25% ossification; Grade 2: 25–50%; Grade 3: 50–75%; Grade 4: 75–100%; Grade 5: complete fusion to iliac crest (skeletal maturity). Risser grade 1 means ossification has just begun — the patient still has significant growth remaining and curve progression risk is HIGH (curves progress ~1°/month during the adolescent growth spurt). Bracing (Boston/Milwaukee brace, 18–23 hours/day) is most effective in skeletally immature patients with Cobb's 20–40° and Risser 0–2 to prevent progression to surgical threshold. At Risser 4–5, growth is nearly complete and curves are unlikely to progress further. Surgical indications: Cobb's >45–50° in a growing child, or >50° in skeletally mature patients."
     },
+
     {
       "question_id": "TW_ORTHOPED_TRAUMA_Q003",
       "paper_type": "topic_wise",
       "paper_ref": "TW_ORTHOPED_TRAUMA",
       "subject": "Orthopedics",
       "topic": "Trauma",
-      "subtopic": null,
+      "subtopic": "Scoliosis — Surgical Indications and Curve Types",
       "difficulty": "Easy",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Colles' fracture: classical deformity?",
+      "question_text": "Regarding adolescent idiopathic scoliosis (AIS), which of the following correctly describes the King-Moe classification and the most common curve pattern?",
       "options": {
-        "A": "Dinner fork deformity (dorsal displacement of distal fragment)",
-        "B": "Garden spade deformity",
-        "C": "Bayonet deformity",
-        "D": "Volar angulation"
+        "A": "King Type I is a thoracic curve only; it is the most common pattern",
+        "B": "King Type II (double major curve — right thoracic + left lumbar, with the thoracic curve larger) is the most common pattern; the lumbar curve is structural (does not correct on side bending) and both curves must be fused",
+        "C": "King Type III is a right thoracic curve with a non-structural lumbar curve that corrects on bending; selective thoracic fusion is appropriate",
+        "D": "The Lenke classification has replaced King-Moe; Lenke Type 1 (main thoracic, non-structural lumbar modifier) is the most common, accounting for ~50% of AIS curves, and selective posterior spinal fusion of the thoracic curve is the surgical approach"
       },
-      "correct_answer": "A",
-      "explanation": "Colles' fracture: distal radius fracture with dorsal displacement and radial deviation → dinner fork deformity. Smith's fracture (reverse Colles'): volar displacement → garden spade deformity."
+      "correct_answer": "D",
+      "explanation": "The Lenke classification (2001) has largely replaced the King-Moe system for surgical planning in AIS. Lenke Type 1 (main thoracic curve with non-structural proximal thoracic and lumbar curves) is the most common pattern, accounting for approximately 50% of AIS cases. The Lenke system classifies curves into 6 types based on curve location, and adds a lumbar modifier (A/B/C) and sagittal modifier (-/N/+) for thoracic kyphosis. King-Moe had 5 types but was criticised for poor inter-observer reliability and not accounting for sagittal plane deformity. Selective thoracic fusion (fusing only the thoracic structural curve and leaving the lumbar curve) is appropriate for Lenke Type 1 and 2 when the lumbar curve is non-structural (corrects >25° on lateral bending and is below the stable vertebra). Surgical correction: posterior spinal fusion with pedicle screw instrumentation achieves 50–70% curve correction with expected loss of correction <5° over 10 years."
     },
+
     {
       "question_id": "TW_ORTHOPED_TRAUMA_Q004",
       "paper_type": "topic_wise",
       "paper_ref": "TW_ORTHOPED_TRAUMA",
       "subject": "Orthopedics",
       "topic": "Trauma",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Intramedullary Nailing — Fat Embolism Syndrome",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Posterior dislocation of hip: position of limb?",
+      "question_text": "A 24-year-old male sustains a closed femoral shaft fracture in a road traffic accident. He is haemodynamically stable. On day 2 post-injury (prior to any surgical intervention), he develops progressive breathlessness, confusion, and a petechial rash over the upper chest and conjunctivae. SpO2 is 88% on room air. ABG shows PaO2 of 52 mmHg. Which of the following regarding fat embolism syndrome (FES) is CORRECT?",
       "options": {
-        "A": "Abducted, externally rotated, lengthened",
-        "B": "Adducted, internally rotated, shortened",
-        "C": "Abducted, internally rotated, normal length",
-        "D": "Neutral, shortened"
+        "A": "FES is diagnosed when all three of Gurd's major criteria are present simultaneously; absence of petechiae excludes the diagnosis",
+        "B": "FES classically presents 24–72 hours after long bone fracture or orthopaedic surgery; Gurd's major criteria are: respiratory insufficiency (PaO2 <60 mmHg on room air), neurological dysfunction (confusion/agitation), and petechial rash (pathognomonic — due to fat globules occluding dermal capillaries); diagnosis requires 1 major + 4 minor criteria OR 2 major criteria; treatment is supportive (oxygen/ventilation, corticosteroids remain controversial)",
+        "C": "FES is caused exclusively by mechanical obstruction of pulmonary capillaries by fat globules; biochemical injury does not contribute",
+        "D": "Early surgical fixation of femoral fractures increases the risk of FES compared to conservative traction management"
       },
       "correct_answer": "B",
-      "explanation": "Posterior hip dislocation (most common, 90%): limb held ADDUCTED, INTERNALLY ROTATED, SHORTENED, slightly flexed. Complication: sciatic nerve injury (most common), AVN of femoral head."
+      "explanation": "Fat embolism syndrome (FES) occurs when fat droplets enter the systemic circulation from fractured medullary bone (or from reaming during intramedullary nailing) and cause end-organ dysfunction. It presents 24–72 hours after the index injury (the latent period). Gurd's diagnostic criteria: Major — (1) axillary/subconjunctival petechiae (pathognomonic, caused by fat globules in dermal capillaries); (2) respiratory insufficiency (PaO2 <60 mmHg, SpO2 <90%); (3) cerebral involvement (confusion, agitation, coma). Minor — fever >38.5°C, tachycardia >110, anaemia (Hb drop >20%), thrombocytopenia (<150,000), high ESR, fat globules in urine/sputum, retinal changes. Diagnosis: 1 major + 4 minor OR 2 major + 2 minor criteria. Pathophysiology: two mechanisms — (1) mechanical: fat globules lodge in pulmonary capillaries → V/Q mismatch; (2) biochemical: lipases hydrolyse fat to free fatty acids → direct toxic injury to pneumocytes → ARDS, cerebral oedema, petechiae. Treatment: supportive (high-flow oxygen, mechanical ventilation if ARDS, maintain haemodynamics). Prevention: EARLY surgical fixation of long bone fractures (within 24–48 hours) significantly REDUCES FES risk compared to prolonged traction — this is a key NEET concept (opposite of option D)."
+    },
+
+    {
+      "question_id": "TW_ORTHOPED_TRAUMA_Q005",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_ORTHOPED_TRAUMA",
+      "subject": "Orthopedics",
+      "topic": "Trauma",
+      "subtopic": "Intramedullary Nailing — Reaming vs Unreamed and Compartment Syndrome",
+      "difficulty": "Medium",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 30-year-old polytrauma patient has a closed femoral shaft fracture (AO/OTA 32-B2) and a closed tibial shaft fracture. The orthopaedic team debates reamed vs unreamed intramedullary nailing (IMN) for the tibia. Six hours after tibial IMN, the patient complains of severe unrelenting pain in the calf, which is worsened by passive dorsiflexion of the toes. The calf is tense. Which of the following best describes the priority management and the controversy regarding reamed vs unreamed IMN for tibial fractures?",
+      "options": {
+        "A": "Apply a compression bandage and elevate the limb; reamed nailing is always preferred for tibial fractures as it allows use of a larger nail and reduces non-union",
+        "B": "Immediate four-compartment fasciotomy of the leg is the priority (compartment syndrome is a clinical diagnosis requiring no further investigation before decompression); regarding reaming: reamed nails allow a larger diameter nail (stronger, lower re-fracture and non-union rates) but transiently increase intramedullary pressure and cortical heat — concerns about endosteal blood supply damage; unreamed nails are preferred for open tibial fractures (Gustilo IIIB/C) and when time does not permit reaming; modern evidence (SPRINT trial) shows similar union rates for closed tibial fractures with reamed vs unreamed nails, but reamed nailing has lower rates of implant failure",
+        "C": "Measure compartment pressures and intervene only if pressure >40 mmHg; reamed nailing is contraindicated in all tibial fractures",
+        "D": "Administer IV mannitol and await improvement; unreamed nailing is always superior as it preserves endosteal blood supply"
+      },
+      "correct_answer": "B",
+      "explanation": "Acute compartment syndrome (ACS) of the leg is a surgical emergency. Clinical diagnosis is based on the 6 Ps: Pain (disproportionate, unrelenting), Pressure (tense compartment), Paresthesia (early nerve ischaemia), Paralysis (late — irreversible), Pallor, Pulselessness (very late — do NOT wait for this). The key clinical sign in early ACS is pain on passive stretch of muscles in the involved compartment (passive dorsiflexion of toes stretches the deep posterior and anterior compartments). Management: do NOT wait for pressure measurements if clinical diagnosis is clear — immediate four-compartment fasciotomy (anterior, lateral, superficial posterior, deep posterior compartments) through dual-incision technique. Delta pressure (diastolic BP − compartment pressure) <30 mmHg is the pressure threshold for fasciotomy in equivocal cases. Regarding reaming controversy: reamed IMN for tibia → larger nail diameter → better rotational stability, lower non-union (particularly for isthmal and distal fractures); however, reaming increases intramedullary pressure transiently and generates heat — theoretical risk of endosteal necrosis and systemic fat embolism. The SPRINT trial (2008, n=1226) found similar functional outcomes between reamed and unreamed nails for closed tibial fractures; reamed nails had lower rates of secondary procedures (exchange nailing, dynamisation). For Gustilo IIIB/C open fractures, unreamed or small-diameter nails are preferred to minimise additional vascular insult."
+    },
+
+    {
+      "question_id": "TW_ORTHOPED_TRAUMA_Q006",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_ORTHOPED_TRAUMA",
+      "subject": "Orthopedics",
+      "topic": "Trauma",
+      "subtopic": "Intramedullary Nailing — Femoral Fracture Classification and Entry Point",
+      "difficulty": "Medium",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 35-year-old male sustains a closed mid-shaft femoral fracture (AO/OTA 32-A3, transverse pattern). Intramedullary nailing is planned. The surgeon selects an antegrade femoral nail. Which of the following correctly describes the piriformis fossa entry point versus the trochanteric entry point, and the key intraoperative risk associated with each?",
+      "options": {
+        "A": "Both entry points are equivalent; the piriformis fossa entry risks femoral neck fracture while trochanteric entry risks greater trochanter comminution",
+        "B": "Piriformis fossa entry (classic antegrade nail): entry point is at the tip of the greater trochanter in line with the medullary canal; risk — avascular necrosis of the femoral head (piriformis fossa is close to the lateral epiphyseal vessels); trochanteric entry (trochanteric nail, e.g. TAN, proximal femoral nail): entry at the tip of the greater trochanter, slightly lateral — allows more lateral starting point reducing AVN risk; risk — if used for proximal femoral fractures, inadvertent varus malreduction; both entries are contraindicated in skeletally immature patients (open proximal femoral physis)",
+        "C": "Piriformis fossa entry is used for subtrochanteric fractures; trochanteric entry is used for midshaft fractures only",
+        "D": "The entry point does not affect outcomes; surgeon preference is the only determinant of nail selection"
+      },
+      "correct_answer": "B",
+      "explanation": "Antegrade femoral IMN can be performed through two entry points: (1) Piriformis fossa entry (standard antegrade nail — e.g., Synthes UFN, Smith & Nephew Trigen): the ideal start point is at the piriformis fossa, which is the apex of the greater trochanter in the sagittal plane and medial in the coronal plane — directly in line with the medullary canal. Key risk: the piriformis fossa is in close proximity to the terminal branch of the medial circumflex femoral artery (lateral epiphyseal artery) supplying the femoral head — aggressive retraction or misdirected reaming can damage these vessels causing avascular necrosis (AVN) of the femoral head. This is particularly relevant in paediatric/adolescent patients where the trochanteric apophysis and femoral head vascularity are more vulnerable. (2) Trochanteric entry (greater trochanter nail — e.g., Stryker T2, DePuy Synthes): entry is at the tip of the greater trochanter, lateral to the piriformis fossa. Advantages: lower AVN risk (further from medial circumflex femoral artery branches), technically easier approach, better for obese patients, and allows nail use in subtrochanteric fractures. Risk: if the nail has a medial curve, it may place a varus force on proximal fracture fragments — careful entry point and reduction are required. In skeletally immature patients (open physis), flexible nails (Enders nails via distal femur or retrograde flexible IMN) are preferred to avoid physeal injury."
+    },
+
+    {
+      "question_id": "TW_ORTHOPED_TRAUMA_Q007",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_ORTHOPED_TRAUMA",
+      "subject": "Orthopedics",
+      "topic": "Trauma",
+      "subtopic": "Colles' Fracture — Radiological Parameters and Acceptable Reduction",
+      "difficulty": "Medium",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 62-year-old woman slips on a wet floor and sustains a Colles' fracture of the right distal radius. Pre-reduction X-ray shows: radial inclination 15° (normal 22°), radial length shortened by 6 mm (normal 11–13 mm from ulnar styloid to distal radial articular surface), volar tilt −15° (dorsal tilt of 15°, normal +11° volar tilt), and ulnar variance +4 mm (positive). Following closed reduction under haematoma block, what are the radiological parameters of ACCEPTABLE reduction that would allow management in a below-elbow plaster cast?",
+      "options": {
+        "A": "Radial inclination >15°, radial shortening <5 mm, volar tilt between −5° and +15°, ulnar variance <2 mm",
+        "B": "Acceptable reduction parameters: radial inclination >15° (restoring toward 22°), radial shortening <5 mm relative to the ulna (ulnar variance ≤+2 mm), volar tilt between −5° and +15° (up to 5° dorsal tilt acceptable), no intra-articular step or gap >2 mm; if these are not achieved, surgical fixation (volar locking plate — VLP) is indicated",
+        "C": "Any reduction that corrects the dinner fork deformity clinically is radiologically acceptable; further imaging is unnecessary",
+        "D": "Radial inclination >20°, volar tilt >10°, ulnar variance 0 mm — must achieve anatomical reduction or operate"
+      },
+      "correct_answer": "B",
+      "explanation": "Colles' fracture (Abraham Colles, 1814): transverse fracture of the distal radial metaphysis within 2.5 cm of the radiocarpal joint, with dorsal displacement, dorsal angulation (loss of volar tilt), radial shortening, and radial deviation — producing the classic dinner fork deformity (dorsal displacement of the distal fragment with a prominent distal ulna). Normal radiological parameters: radial inclination (RI) = 22° (15–25°); volar tilt (VT) = +11° (anterior, 5–25°); radial length (RL) = 11–13 mm; ulnar variance = 0 ±1 mm. Acceptable reduction thresholds (Older criteria / AO criteria — commonly tested): RI >15°, VT between −5° and +15° (up to 5° dorsal tilt), radial shortening <5 mm (ulnar variance ≤+2 mm), intra-articular step <2 mm. Below these thresholds, closed reduction + cast is appropriate. Indications for surgical fixation (VLP — volar locking plate is now the most common): failure to achieve or maintain acceptable reduction, intra-articular comminution with step >2 mm, bilateral fractures, associated ulnar fracture (both bone injury), young active patients desiring early mobilisation, and associated median nerve injury. Volar locking plate (Synthes DVR, Depuy Synthes) allows early wrist mobilisation (3–5 weeks) vs cast immobilisation (6 weeks) — superior functional outcomes in active patients <65 years."
+    },
+
+    {
+      "question_id": "TW_ORTHOPED_TRAUMA_Q008",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_ORTHOPED_TRAUMA",
+      "subject": "Orthopedics",
+      "topic": "Trauma",
+      "subtopic": "Colles' Fracture — Complications and Nerve Injuries",
+      "difficulty": "Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 58-year-old woman was treated with closed reduction and below-elbow plaster for a Colles' fracture 8 weeks ago. The fracture has healed but she now presents with burning pain, swelling, stiffness, and hypersensitivity of the entire right hand and wrist. The skin is shiny and atrophic. There is vasomotor instability (the hand alternates between warm and cold). She cannot tolerate even light touch. X-ray shows patchy osteopenia of the carpal bones. Which of the following is the MOST LIKELY diagnosis and its pathophysiology?",
+      "options": {
+        "A": "Sudeck's atrophy (Complex Regional Pain Syndrome Type I — CRPS I); it is a neuropathic pain disorder following tissue injury WITHOUT identifiable nerve injury, characterised by disproportionate pain, allodynia (pain to non-painful stimuli), vasomotor instability, sudomotor changes, and trophic changes; pathophysiology involves central and peripheral sensitisation, sympathetic dysregulation, and neurogenic inflammation; treatment: physiotherapy (graded motor imagery, mirror therapy, desensitisation), sympathetic blocks, ketamine, bisphosphonates for osteopenia",
+        "B": "Carpal tunnel syndrome; caused by median nerve compression; treated with carpal tunnel release",
+        "C": "Malunion of the distal radius; treated with corrective osteotomy and volar locking plate",
+        "D": "Avascular necrosis of the lunate (Kienböck's disease); caused by disrupted blood supply; treated with radial shortening osteotomy"
+      },
+      "correct_answer": "A",
+      "explanation": "Sudeck's atrophy (Paul Sudeck, 1900) is now classified as Complex Regional Pain Syndrome Type I (CRPS I) — previously reflex sympathetic dystrophy (RSD). It is the most characteristic late complication of Colles' fracture, occurring in ~2–5% of cases. CRPS I: no identifiable nerve injury (CRPS II = causalgia, with identifiable nerve injury). Budapest Criteria for diagnosis: (1) Continuing pain disproportionate to any inciting event; (2) At least one symptom in 3 of 4 categories: sensory (hyperalgesia/allodynia), vasomotor (temperature/colour asymmetry), sudomotor/oedema, motor/trophic; (3) At least one sign in 2 of 4 categories at time of evaluation; (4) No other diagnosis better explains the signs/symptoms. Radiological hallmark: Sudeck's atrophy — patchy juxta-articular osteopenia of the carpals (bone marrow oedema and increased osteoclastic activity driven by sympathetic nervous system). Three-phase bone scan: increased uptake in all three phases (blood flow, blood pool, delayed) in the affected bones. Pathophysiology: exaggerated neuroinflammatory response → peripheral sensitisation (C-fibre and A-delta nociceptors) → central sensitisation (spinal wind-up, cortical reorganisation) → sympathetically maintained pain (SMP). Treatment: early mobilisation and physiotherapy are cornerstone; pharmacological: NSAIDs, gabapentin/pregabalin, tricyclics, bisphosphonates (reduce bone loss); interventional: stellate ganglion block or lumbar sympathetic block for SMP; ketamine infusion for refractory cases."
+    },
+
+    {
+      "question_id": "TW_ORTHOPED_TRAUMA_Q009",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_ORTHOPED_TRAUMA",
+      "subject": "Orthopedics",
+      "topic": "Trauma",
+      "subtopic": "Colles' Fracture — Comparison with Smith's and Barton's Fractures",
+      "difficulty": "Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 28-year-old motorcyclist falls on a flexed wrist and sustains a distal radius fracture. X-ray lateral view shows the distal radial fragment displaced VOLARLY (anteriorly). On a second X-ray of a different patient, a shear fracture of the volar lip of the distal radius is seen with volar subluxation of the carpus on the radius. Match each injury to its correct eponym, mechanism, and the key treatment difference:",
+      "options": {
+        "A": "Both are Colles' fractures; treatment is identical — below-elbow cast",
+        "B": "Patient 1 = Smith's fracture (reverse Colles' — extraarticular, volar displacement of distal fragment; FOSH onto a flexed wrist; garden spade deformity — wrist falls forward; requires DORSAL plaster slab in supination for conservative management, but most are unstable and require volar locking plate); Patient 2 = Barton's fracture (intraarticular shear fracture of the volar rim with carpal subluxation volarly — true fracture-dislocation; ALWAYS requires surgical fixation with a volar buttress plate as the carpal bones cannot be held reduced without internal fixation)",
+        "C": "Patient 1 = Barton's fracture; Patient 2 = Smith's fracture; both treated with above-elbow plaster",
+        "D": "Patient 1 = Galeazzi fracture; Patient 2 = Monteggia fracture; both require ORIF of the radius and reduction of the respective dislocation"
+      },
+      "correct_answer": "B",
+      "explanation": "Distal radius fracture eponyms (a favourite NEET PG topic): (1) Colles' fracture — extraarticular, dorsal displacement and dorsal angulation of distal fragment, falls on outstretched hand (FOOSH) with wrist extended → dinner fork deformity; (2) Smith's fracture (reverse Colles') — extraarticular, VOLAR displacement and volar angulation, falls on flexed wrist (FOSH) or direct blow to dorsum → garden spade deformity (wrist droops forward). Treatment: above-knee cast in supination is sometimes used but these fractures are inherently unstable; volar locking plate (VLP) is now the preferred definitive treatment for most Smith's fractures. (3) Barton's fracture — INTRAARTICULAR shear fracture of either the volar (volar Barton's, more common) or dorsal (dorsal Barton's) lip of the distal radius, with subluxation of the carpus along with the fracture fragment — it is a true fracture-dislocation. Surgical fixation is MANDATORY: volar Barton's → volar buttress plate; dorsal Barton's → dorsal plate. Conservative management is impossible to maintain reduction as the carpus subluxes with the fragment. (4) Chauffeur's fracture (Hutchinson's fracture) — intraarticular avulsion fracture of the radial styloid, caused by direct impact or traction through the radial collateral ligament (e.g., steering wheel kick-back). Galeazzi fracture: radial shaft fracture + distal radioulnar joint (DRUJ) disruption. Monteggia fracture: ulnar shaft fracture + radial head dislocation."
+    },
+
+    {
+      "question_id": "TW_ORTHOPED_TRAUMA_Q010",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_ORTHOPED_TRAUMA",
+      "subject": "Orthopedics",
+      "topic": "Trauma",
+      "subtopic": "Posterior Hip Dislocation — Complications and Emergency Management",
+      "difficulty": "Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 32-year-old male is brought to the emergency department after a head-on road traffic accident (dashboard injury). He is haemodynamically stable. The right lower limb is held in flexion, adduction, and internal rotation and is shortened. AP pelvis X-ray confirms posterior dislocation of the right hip. CT pelvis shows no associated acetabular fracture. The orthopaedic resident plans to attempt closed reduction in 4 hours after completing other trauma investigations. Which of the following is the MOST CRITICAL reason to perform closed reduction URGENTLY (within 6 hours) and the complication that correlates with delay?",
+      "options": {
+        "A": "Urgent reduction is needed to prevent sciatic nerve injury; delay beyond 4 hours causes permanent nerve damage",
+        "B": "Urgent reduction (within 6 hours, ideally within 2–4 hours) is critical to minimise the risk of avascular necrosis (AVN) of the femoral head; the dislocated femoral head compresses or kinks the retinacular vessels (terminal branches of the medial circumflex femoral artery supplying the posterosuperior femoral head) — the longer the dislocation, the greater the ischaemia time and risk of AVN (risk increases from ~5% if reduced within 6 hours to >50% if unreduced beyond 24 hours); sciatic nerve injury (particularly the common peroneal division) occurs in ~10–13% of posterior dislocations and is already present at the time of injury — reduction does not prevent it but may relieve traction",
+        "C": "Reduction is urgent only if sciatic nerve palsy is present; in the absence of neurology, it can be deferred to next morning",
+        "D": "The urgency of reduction depends on the patient's pain score; if adequate analgesia is achieved, reduction can be done electively within 24 hours"
+      },
+      "correct_answer": "B",
+      "explanation": "Posterior hip dislocation is the most common type (90%), typically from dashboard injury (knee strikes dashboard → force transmitted along femur → posterior hip dislocation). The femoral head dislocates posterosuperiorly out of the acetabulum. Blood supply to the femoral head: the medial circumflex femoral artery (MCFA, branch of profunda femoris) supplies ~80% of the femoral head via retinacular vessels running along the posterosuperior femoral neck within the joint capsule. In a posterior dislocation, these retinacular vessels are stretched, kinked, or torn — producing ischaemia of the femoral head. Time is critical: AVN risk is ~5% if reduced within 2–4 hours, ~10–15% within 6 hours, and rises steeply (>50%) beyond 24 hours of dislocation. Hence the orthopaedic emergency: reduce within 6 hours (some advocate 2 hours for best outcomes). Reduction technique: Allis manoeuvre (patient supine, hip flexed 90°, in-line traction with hip flexed → internal → external rotation) or Stimson technique (patient prone, hip hanging off table, downward traction). Always under procedural sedation/GA. Post-reduction: immediate CT to rule out acetabular wall fracture, intra-articular fragments (interposed osteochondral fragment prevents concentric reduction — will require arthroscopic or open removal). Sciatic nerve injury: occurs in 10–13%, mainly the common peroneal division (foot drop, loss of dorsiflexion); most recover spontaneously in 6–12 months. Thompson-Epstein classification grades associated acetabular fracture severity."
+    },
+
+    {
+      "question_id": "TW_ORTHOPED_TRAUMA_Q011",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_ORTHOPED_TRAUMA",
+      "subject": "Orthopedics",
+      "topic": "Trauma",
+      "subtopic": "Hip Dislocation — Classification and Associated Fractures",
+      "difficulty": "Hard",
+      "question_type": "single_best_answer",
+      "image_based": true,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 28-year-old male is involved in a high-speed RTA. The AP pelvis X-ray image shown above demonstrates a posterior dislocation of the right hip with an associated posterior acetabular wall fracture involving an estimated 40% of the posterior wall. Post-reduction CT confirms the posterior wall fragment is displaced 5 mm and the hip is concentrically reduced. Using the Thompson-Epstein classification and the Stewart-Milford stability criteria, which of the following correctly identifies the fracture type, the determinant of hip stability, and the surgical indication?",
+      "options": {
+        "A": "Thompson-Epstein Type I (no fracture); hip is stable; manage with traction for 6 weeks",
+        "B": "Thompson-Epstein Type II (posterior dislocation + single posterior wall fragment); stability determined by the size of the posterior wall fragment — fractures involving >40–50% of the posterior wall (assessed on CT) are associated with hip INSTABILITY (posterior wall buttresses the femoral head against posterior subluxation); the Matta/Keith criteria: if >50% of the posterior wall is involved, surgical fixation (ORIF of posterior wall with buttress plate ± lag screws) is mandatory; 25–50% is a 'grey zone' requiring dynamic fluoroscopic examination under anaesthesia to assess stability",
+        "C": "Thompson-Epstein Type V (dislocation + femoral head fracture); treated with femoral head prosthetic replacement",
+        "D": "This injury requires total hip replacement; internal fixation is contraindicated due to AVN risk"
+      },
+      "correct_answer": "B",
+      "explanation": "Thompson-Epstein classification of posterior hip dislocations: Type I — no fracture or minor chip; Type II — single large posterior wall fragment; Type III — comminuted posterior wall fracture; Type IV — posterior wall + posterior column fracture; Type V — dislocation + femoral head fracture (Pipkin sub-classification). The posterior acetabular wall is the critical buttress preventing posterior subluxation of the femoral head. The key question after reduction is hip stability. Posterior wall involvement determines stability: <25% posterior wall — usually stable, manage conservatively (protected weight-bearing 6–12 weeks); 25–50% — indeterminate, requires dynamic stress examination under general anaesthesia (fluoroscopy: hip flexed 90°, adducted 20°, internally rotated — apply posterior force; if >2 mm subluxation, UNSTABLE → operate); >50% — virtually always unstable → ORIF. ORIF technique: Kocher-Langenbeck approach (patient prone/lateral decubitus), reduction of the posterior wall fragment, fixation with 3.5mm lag screws + spring plate or reconstruction plate (anti-glide/buttress configuration). Timing: ORIF of associated acetabular fracture within 2–5 days after closed reduction and patient resuscitation (ideally before post-traumatic fibrosis sets in). Long-term complications: AVN of femoral head (~10–15%), post-traumatic osteoarthritis (most common long-term complication, ~30–40%), sciatic nerve palsy.",
+      "image_title": "AP Pelvis X-ray — Posterior Hip Dislocation with Posterior Wall Fracture",
+      "image_url": "",
+      "key_findings": [
+        "AP pelvis radiograph showing the right femoral head displaced superolaterally, above and posterior to the acetabulum — confirming posterior dislocation",
+        "The right lower limb is internally rotated (lesser trochanter less visible on the right compared to left)",
+        "A displaced bony fragment is visible posterior to the acetabulum, representing the posterior acetabular wall fracture",
+        "The left hip is normally located for comparison — femoral head concentrically seated in the acetabulum with preserved joint space",
+        "Shenton's line is broken on the right, confirming disruption of the hip joint"
+      ]
+    },
+
+    {
+      "question_id": "TW_ORTHOPED_TRAUMA_Q012",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_ORTHOPED_TRAUMA",
+      "subject": "Orthopedics",
+      "topic": "Trauma",
+      "subtopic": "Anterior Hip Dislocation — Features and Comparison",
+      "difficulty": "Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 40-year-old male is brought following a motor vehicle accident. Examination of the right lower limb shows the hip is held in ABDUCTION, EXTERNAL ROTATION, and the limb appears LENGTHENED. He complains of groin pain. AP pelvis X-ray shows the femoral head medial to and below the acetabulum, overlying the obturator foramen. What is the diagnosis, the mechanism, the neurovascular complication specific to this type (versus posterior dislocation), and the technique for closed reduction?",
+      "options": {
+        "A": "Posterior hip dislocation; same mechanism as dashboard injury; sciatic nerve injury; Allis manoeuvre",
+        "B": "Anterior hip dislocation (obturator/inferior type — femoral head displaces into the obturator foramen); mechanism: forced abduction + external rotation (e.g., hip abducted when door crushed inward); neurovascular complication: femoral nerve and femoral vessels compression (anterior dislocation places the femoral head in close proximity to the femoral neurovascular bundle in the femoral triangle — risk of femoral nerve neuropraxia and femoral artery compression); reduction: Allis manoeuvre modified — traction in line with the deformity (abduction + external rotation), then internal rotation and adduction to seat the femoral head back into the acetabulum; alternatively, Bigelow's manoeuvre (circumduction)",
+        "C": "Central hip dislocation (protrusio); mechanism: axial force along femur; neurovascular complication: superior gluteal artery injury; treatment: skeletal traction",
+        "D": "Anterior hip dislocation (pubic/superior type); identical to posterior dislocation clinically; same complications and reduction technique"
+      },
+      "correct_answer": "B",
+      "explanation": "Anterior hip dislocations constitute approximately 10% of all traumatic hip dislocations. Types: (1) Inferior (obturator) — femoral head comes to rest over the obturator foramen; hip is in abduction, flexion, and external rotation; (2) Superior (pubic/iliac) — femoral head comes to rest anterosuperiorly; hip is in extension, abduction, and external rotation. Mechanism: forced abduction and external rotation (opposite of the flexion-adduction mechanism of posterior dislocation). Clinical comparison with posterior dislocation: Posterior — adduction, internal rotation, shortening, sciatic nerve at risk; Anterior — abduction, external rotation, lengthening (or normal length), femoral neurovascular bundle at risk. Femoral nerve injury: neuropraxia causing anterior thigh numbness and quadriceps weakness (inability to extend knee). Femoral artery: compression may cause distal limb ischaemia — always check distal pulses. Femoral head fracture (Pipkin injury) is more common with anterior dislocation than posterior. AVN risk: lower in anterior dislocation (~5%) than posterior (~10–15%), as the retinacular vessels are less compromised. Reduction: under GA/procedural sedation — in-line traction in position of deformity (abduction + external rotation), then convert to flexion, internal rotation, and adduction to lever the femoral head back over the acetabular rim."
+    },
+
+    {
+      "question_id": "TW_ORTHOPED_TRAUMA_Q013",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_ORTHOPED_TRAUMA",
+      "subject": "Orthopedics",
+      "topic": "Trauma",
+      "subtopic": "Scoliosis — Congenital and Neuromuscular Types",
+      "difficulty": "Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 6-year-old boy with spastic cerebral palsy (GMFCS level IV) is referred for progressive spinal deformity. Standing AP spine X-ray is not possible (he cannot stand). Supine AP spine X-ray shows a 65° left thoracolumbar curve with marked pelvic obliquity. His parents report difficulty with seating. Which of the following correctly contrasts neuromuscular scoliosis with adolescent idiopathic scoliosis regarding curve characteristics, timing of intervention, and goals of surgery?",
+      "options": {
+        "A": "Neuromuscular scoliosis behaves identically to AIS; bracing is equally effective; surgery is indicated at the same Cobb's threshold",
+        "B": "Neuromuscular scoliosis (NMS) — from CP, Duchenne MD, spinal muscular atrophy, myelomeningocele — differs from AIS: curves are typically larger at presentation, progress relentlessly (even after skeletal maturity), are frequently associated with pelvic obliquity (impairing sitting balance), and almost universally require instrumentation from the thoracic spine to the pelvis (Unit Rod or pedicle screw constructs extending to S1/ilium) to correct pelvic obliquity; bracing is NOT effective in NMS (does not halt progression) but may improve seating posture temporarily; surgical threshold is lower (40–50° with pelvic obliquity and seating difficulty) and goals differ from AIS — in NMS, goals are correcting pelvic obliquity for sitting balance, preventing pulmonary decline, and facilitating nursing/carer activities rather than cosmesis",
+        "C": "Neuromuscular scoliosis is treated with halo-gravity traction alone for curves above 60°; surgery is reserved for 90°+ curves",
+        "D": "In CP, scoliosis is always flexible (correctable on bending films) and can be managed with selective muscle injections of botulinum toxin"
+      },
+      "correct_answer": "B",
+      "explanation": "Neuromuscular scoliosis (NMS) is caused by muscle imbalance and loss of postural control secondary to an underlying neurological or myopathic disorder. Common causes: cerebral palsy (spastic and dyskinetic), Duchenne muscular dystrophy (DMD), spinal muscular atrophy (SMA), myelomeningocele, Friedreich's ataxia. Key differences from AIS: (1) Curves are long C-shaped (single major curve extending from thoracic to lumbar spine) often with pelvic obliquity — unlike the S-shaped double curves typical of AIS; (2) Progression continues after skeletal maturity — unlike AIS where progression slows at Risser 5; (3) Associated with restrictive pulmonary disease (FVC declines as curve increases — in DMD, FVC <30% predicted is a surgical contraindication); (4) Bracing — cannot halt curve progression in NMS (trunk musculature too weak to respond to corrective forces) but custom moulded seating and spinal orthoses may temporarily improve sitting tolerance; (5) Surgery extends to pelvis — pelvic obliquity (tilt of sacrum and pelvis, causing one ischial tuberosity higher than the other) impairs sitting balance and causes pressure sores; instrumentation must extend to S1/iliac wings (Galveston technique or iliac screws) to correct pelvic obliquity and level the pelvis; (6) Goals: in AIS, surgery is primarily cosmetic (straightening the spine). In NMS, surgery aims to improve sitting balance, halt pulmonary deterioration, and facilitate nursing care. Timing: in DMD, surgery should be performed before FVC falls below 40–50% (pulmonary window); in SMA and CP, earlier surgery is preferred when curves reach 40–50° to prevent pelvic obliquity from becoming fixed."
+    },
+
+    {
+      "question_id": "TW_ORTHOPED_TRAUMA_Q014",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_ORTHOPED_TRAUMA",
+      "subject": "Orthopedics",
+      "topic": "Trauma",
+      "subtopic": "Femoral Shaft Fracture — Damage Control Orthopaedics",
+      "difficulty": "Very Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 25-year-old male polytrauma patient arrives following a high-speed RTA. He has a closed right femoral shaft fracture, a closed head injury (GCS 11, CT head showing frontal contusion without haematoma), a pulmonary contusion (bilateral infiltrates on CXR, PaO2/FiO2 ratio = 240), and blunt abdominal trauma (FAST positive — free fluid in Morrison's pouch, haemodynamically responsive after 2L crystalloid). Haematocrit is 28%. The trauma surgeon plans to take him to the operating theatre urgently. The orthopaedic team is consulted regarding femoral fracture management. Which management strategy best reflects current Damage Control Orthopaedics (DCO) principles for this patient?",
+      "options": {
+        "A": "Proceed immediately with definitive intramedullary nailing of the femur during the same anaesthetic as the laparotomy — combining procedures reduces total anaesthetic exposure",
+        "B": "Apply skeletal traction and defer all orthopaedic surgery for 2 weeks until the patient is completely stable",
+        "C": "Apply temporary external fixation (spanning external fixator across the femoral fracture — 'damage control orthopaedics') during or after the abbreviated laparotomy; reassess the patient at 48–72 hours using the 'borderline' patient criteria (pH, lactate, base excess, coagulation, temperature) — convert to definitive IMN only when the patient is physiologically optimised (pH >7.25, lactate <2 mmol/L, temperature >35°C, INR <1.5, no ongoing haemodynamic instability); this avoids the 'second hit' phenomenon where definitive femoral nailing in a physiologically compromised patient triggers systemic inflammatory response syndrome (SIRS), ARDS, and multi-organ failure",
+        "D": "Perform definitive femoral nailing immediately — delay increases fat embolism risk and is more dangerous than the anaesthetic risk"
+      },
+      "correct_answer": "C",
+      "explanation": "Damage Control Orthopaedics (DCO) is a staged approach to musculoskeletal injuries in polytrauma patients who cannot safely tolerate prolonged definitive surgery. Background — the 'two-hit model': the primary injury (fracture, haemorrhage) primes the immune system (first hit). Definitive surgical fixation (prolonged reaming, nailing, blood loss, heat) in a physiologically depleted patient constitutes the second hit — triggering an overwhelming systemic inflammatory response (cytokine storm: IL-6, IL-1β, TNF-α), ARDS, SIRS, and MOF. This is why early total care (ETC — immediate definitive IMN within 24 hours) is appropriate ONLY in stable patients ('stable' or 'borderline' criteria met). Patient classification (Pape/EAST guidelines): Stable — normal physiology → ETC (IMN within 24 hours); Borderline — injury severity score (ISS) >40, bilateral lung contusion (PaO2/FiO2 <300), hypotension responsive to resuscitation, coagulopathy — DCO (external fixator, then convert to IMN at 48–72 hours when physiologically optimised); Unstable — ongoing haemodynamic instability, severe coagulopathy, hypothermia (<35°C), acidosis (pH <7.2) — DCO mandatory; In extremis — damage control surgery for life-threatening haemorrhage only, fracture management completely deferred. This patient is 'borderline' (GCS depression, bilateral pulmonary contusion PaO2/FiO2 240, haemoperitoneum, anaemia) → DCO: temporary external fixation during laparotomy, then IMN at 48–72 hours when physiologically optimised. External fixator application: distal femur pin + proximal tibia pin + connecting bar → rapid provisional stabilisation, reduces haemorrhage, allows nursing, reduces pain. Conversion to IMN: standard within 2 weeks (pin site infection risk increases after 2 weeks)."
+    },
+
+    {
+      "question_id": "TW_ORTHOPED_TRAUMA_Q015",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_ORTHOPED_TRAUMA",
+      "subject": "Orthopedics",
+      "topic": "Trauma",
+      "subtopic": "Colles' Fracture — Distal Radioulnar Joint and Associated Injuries",
+      "difficulty": "Very Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 48-year-old woman sustains a Colles' fracture treated with volar locking plate (VLP) fixation. At 3-month review, her wrist range of motion is near normal but she complains of persistent ulnar-sided wrist pain, clicking during forearm rotation, and pain when gripping and rotating (e.g., turning a door handle). Examination shows tenderness over the distal radioulnar joint (DRUJ) and ulnar fovea, positive DRUJ ballottement test, and reduced and painful forearm rotation. Post-fixation X-ray shows the distal radius length and inclination are anatomically restored. MRI arthrogram of the wrist shows a full-thickness tear of the triangular fibrocartilage complex (TFCC) at its ulnar foveal attachment. Which of the following correctly describes the anatomy of the TFCC, why it is commonly injured with Colles' fractures, and the management of a foveal TFCC tear?",
+      "options": {
+        "A": "TFCC is a volar ligamentous complex; injury is always associated with ulna styloid fracture; treated with above-elbow cast for 6 weeks",
+        "B": "The TFCC (triangular fibrocartilage complex — Palmer's classification) comprises: central articular disc (avascular, does not heal), radioulnar ligaments (superficial — insert into ulnar styloid; deep/foveal — insert into ulnar fovea and are the primary stabilisers of the DRUJ), ulnocarpal ligaments (ulnolunate, ulnotriquetral), ECU tendon sheath, and meniscus homologue; Colles' fractures commonly injure the TFCC through: (1) rotational force transmitted to the DRUJ at the time of fracture; (2) associated ulnar styloid fracture (base fractures disrupt the foveal insertion of the deep radioulnar ligaments → DRUJ instability); foveal tears (Palmer Class 1B) cause DRUJ instability; management: arthroscopic or open foveal reattachment (transosseous suture repair through ulnar fovea) is required for persistent instability after fracture healing — conservative management (immobilisation in supination) fails for complete foveal tears",
+        "C": "TFCC injuries are always managed non-operatively; the DRUJ stabilises spontaneously after radius fracture healing",
+        "D": "Foveal TFCC tears are treated with Darrach procedure (distal ulna excision); this is the first-line surgery for all TFCC tears post-Colles' fracture"
+      },
+      "correct_answer": "B",
+      "explanation": "The triangular fibrocartilage complex (TFCC) is the primary stabiliser of the distal radioulnar joint (DRUJ) and the ulnocarpal joint. It is an anatomically complex structure described by Palmer (1989): (1) Central articular disc — hyaline fibrocartilage bridging the sigmoid notch of the radius to the base of the ulnar styloid; avascular in its central portion (does not heal — central tears managed arthroscopically with debridement); (2) Deep radioulnar ligaments (foveal ligaments) — insert into the ulnar fovea (at the base of the ulnar styloid and ulnar neck); these are the PRIMARY stabilisers of the DRUJ and prevent dorsal-volar translation of the ulna head; (3) Superficial radioulnar ligaments — insert into the ulnar styloid tip; less critical for DRUJ stability; (4) Ulnocarpal ligaments (ulnolunate and ulnotriquetral); (5) ECU subsheath; (6) Meniscus homologue. Palmer Classification: Class 1 = traumatic; 1A = central perforation; 1B = ulnar avulsion (foveal or styloid — most relevant with Colles' fractures); 1C = distal avulsion; 1D = radial avulsion. Class 2 = degenerative (DRUJ arthrosis progression). Colles' fracture-TFCC relationship: The DRUJ is disrupted in up to 50% of distal radius fractures. Mechanism: at the time of injury, the rotation/translation forces that produce the distal radius fracture also shear the foveal attachment of the deep radioulnar ligaments. Additionally, base-of-ulnar-styloid fractures (which carry the foveal ligament attachment) invariably produce DRUJ instability if displaced. Foveal (Palmer 1B) tear management: (1) Acute (<6 weeks): long-arm cast in forearm supination for 6 weeks (reduces the DRUJ and offloads the TFCC — may allow healing of peripheral vascular tears); (2) Chronic or failed conservative: arthroscopic or open foveal reattachment — transosseous pull-through suture technique reattaching the ligament to the ulnar fovea (Atzei/Nakamura technique); (3) DRUJ arthrosis (late): Darrach procedure (distal ulna excision), Sauvé-Kapandji (DRUJ fusion + proximal ulna pseudarthrosis), or ulnar head replacement."
+    },
+
+    {
+      "question_id": "TW_ORTHOPED_TRAUMA_Q016",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_ORTHOPED_TRAUMA",
+      "subject": "Orthopedics",
+      "topic": "Trauma",
+      "subtopic": "Posterior Hip Dislocation — Pipkin Classification and Femoral Head Fractures",
+      "difficulty": "Very Hard",
+      "question_type": "single_best_answer",
+      "image_based": true,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 35-year-old male sustains a dashboard injury. Following closed reduction of a posterior hip dislocation, the post-reduction AP pelvis X-ray and CT scan (image shown) reveal a fracture of the femoral head. The femoral head fracture fragment is inferior to the fovea capitis (below the weight-bearing zone), and the acetabulum is intact. No femoral neck fracture is present. Using the Pipkin classification, identify the fracture type, describe why the anatomical location of the fragment relative to the fovea determines management, and select the most appropriate treatment:",
+      "options": {
+        "A": "Pipkin Type III (femoral head fracture + femoral neck fracture); this requires prosthetic replacement regardless of fragment location",
+        "B": "Pipkin Type I (femoral head fracture fragment INFERIOR to the fovea capitis — below the weight-bearing zone of the femoral head, in the non-articular region); because the fragment is below the fovea, it is outside the weight-bearing articular surface; if the hip is concentrically reduced and the fragment is not interposed in the joint (confirmed on CT), conservative management (protected weight-bearing, avoidance of hip flexion >90° for 6 weeks) is appropriate — the fragment may be excised arthroscopically if it causes impingement; Pipkin Type II (fragment ABOVE the fovea — within the weight-bearing zone) requires ORIF (to restore the articular surface and prevent post-traumatic arthritis) via surgical hip dislocation (Ganz approach) or anterior approach",
+        "C": "Pipkin Type II (femoral head fracture above the fovea); managed with total hip replacement as the femoral head is compromised",
+        "D": "Pipkin Type IV (femoral head + acetabular fracture); managed with pelvic reconstruction and cemented THR"
+      },
+      "correct_answer": "B",
+      "explanation": "Pipkin classification of femoral head fractures associated with hip dislocation: Type I — fracture fragment below the fovea capitis (non-weight-bearing, infrafoveal zone, below the ligamentum teres attachment); Type II — fracture fragment above the fovea (weight-bearing articular surface, suprafoveal zone); Type III — any femoral head fracture + femoral neck fracture (worst prognosis — AVN rate extremely high, almost always requires prosthetic replacement); Type IV — femoral head fracture (I or II) + acetabular fracture (requires reconstruction of both). The fovea capitis is the central pit on the femoral head at the attachment of the ligamentum teres — it divides the femoral head into weight-bearing (superior/suprafoveal) and non-weight-bearing (inferior/infrafoveal) zones. Clinical significance of location: Pipkin I — if the hip reduces concentrically (fragment not interposed, confirmed on CT) and the hip is stable, non-operative management is appropriate; if the fragment is large and displaced >1 cm with joint incongruity, arthroscopic excision or open excision via surgical dislocation; Pipkin II — fracture disrupts the weight-bearing articular surface → post-traumatic arthritis if not anatomically reduced → ORIF via surgical hip dislocation (trochanteric flip osteotomy, Ganz approach — safe surgical dislocation preserving the retinacular vessels) with 3.5mm/2.7mm countersunk screws or Herbert screws; Pipkin III — femoral neck fracture means AVN is almost inevitable → hemiarthroplasty (young patient: attempt ORIF of neck + head; elderly: THR); Pipkin IV — requires acetabular reconstruction + femoral head management based on Type I/II. Overall: AVN risk rises with increasing Pipkin type.",
+      "image_title": "Post-Reduction CT Pelvis — Right Hip, Coronal and Axial Sections",
+      "image_url": "",
+      "key_findings": [
+        "Coronal CT section showing the right femoral head concentrically reduced within the acetabulum",
+        "A fracture fragment is visible at the inferomedial aspect of the right femoral head, below the level of the fovea capitis",
+        "The fragment is small (~1 cm), with minimal articular step-off (<1 mm), and is not interposed in the joint space",
+        "The superior weight-bearing dome of the femoral head is intact",
+        "The posterior acetabular wall is intact with no fracture identified",
+        "Axial section confirms concentric reduction with no intra-articular loose body"
+      ]
+    },
+
+    {
+      "question_id": "TW_ORTHOPED_TRAUMA_Q017",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_ORTHOPED_TRAUMA",
+      "subject": "Orthopedics",
+      "topic": "Trauma",
+      "subtopic": "Scoliosis — Congenital Vertebral Anomalies and Natural History",
+      "difficulty": "Very Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 2-year-old child is referred for evaluation of spinal deformity. AP spine X-ray shows a 38° right thoracic curve with a fully segmented hemivertebra at T8 on the right. The hemivertebra has a growth plate on both its superior and inferior surfaces. There is no contralateral bar. MRI spine is normal (no tethered cord, no syrinx). Which of the following correctly describes the classification of this congenital vertebral anomaly, its expected natural history with specific progression rate, and the surgical treatment of choice?",
+      "options": {
+        "A": "Fully segmented hemivertebra (Winter classification Type I); progression rate 1–2°/year; treated with observation until skeletal maturity, then spinal fusion",
+        "B": "Fully segmented hemivertebra (Winter Type I — has disc spaces and growth plates above and below it; is fully mobile); this has the WORST natural history of all hemivertebra types, progressing at 2–3°/year (range 1–5°/year), because both adjacent growth plates are active and asymmetric — the hemivertebra side grows faster than the opposite side; semi-segmented (one fused end plate) progresses at 1–2°/year; non-segmented (both end plates fused/blocked vertebra) — minimal or no progression; treatment of choice for a fully segmented hemivertebra causing progressive deformity in a young child: hemivertebra resection (HVR) — surgical removal of the entire hemivertebra and posterior instrumented fusion of the adjacent one or two levels; this is superior to in-situ fusion (does not correct the deformity) and growing rod constructs (does not address the cause); HVR at age 1–4 years before secondary curve develops gives the best correction and prevents compensatory deformity",
+        "C": "Unilateral unsegmented bar (Winter Type II); most severe defect; treated with growing rods until skeletal maturity",
+        "D": "Block vertebra; no growth potential; progression is 4–5°/year; treatment is observation only"
+      },
+      "correct_answer": "B",
+      "explanation": "Congenital scoliosis results from failure of vertebral formation (hemivertebra — partial vertebral body) or failure of segmentation (bars — bony bridges preventing growth). Winter classification: Type I — failure of formation (hemivertebra); Type II — failure of segmentation (unilateral bar, block vertebra); Type III — mixed (hemivertebra + contralateral bar — WORST prognosis, progresses 5–10°/year). Hemivertebra subtypes: (1) Fully segmented — disc spaces and growth plates on both superior and inferior surfaces; fully mobile; HIGHEST progression rate (2–3°/year); (2) Semi-segmented — one end is fused to adjacent vertebra (one growth plate absent); moderate progression (1–2°/year); (3) Non-segmented (incarcerated) — both ends fused (incorporated into adjacent bodies); minimal or no progression. The combination of a fully segmented hemivertebra OPPOSITE a contralateral unsegmented bar (Type III) creates maximal asymmetric growth → worst case scenario (progression 5–10°/year). MRI spine at diagnosis: mandatory in ALL congenital scoliosis (15–20% have associated intraspinal anomalies: tethered spinal cord, diastematomyelia, syrinx, lipoma — must be addressed before scoliosis surgery). Associated anomalies: VACTERL (vertebral anomalies, anorectal malformations, cardiac defects, tracheo-oesophageal fistula, renal anomalies, limb defects); VACTERL screening with renal ultrasound and echocardiogram is mandatory. Surgical management: Hemivertebra resection (HVR) is now the gold standard for fully segmented hemivertebra causing progressive deformity. Combined anterior + posterior approach, or posterior-only approach: excision of the hemivertebra body, disc above and below, and pedicle; shortsegment posterior instrumented fusion (1 level above, 1 level below); corrects the primary curve and prevents secondary compensatory curves from developing. Best results when performed early (age 1–4 years, before secondary structural curves form)."
+    },
+
+    {
+      "question_id": "TW_ORTHOPED_TRAUMA_Q018",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_ORTHOPED_TRAUMA",
+      "subject": "Orthopedics",
+      "topic": "Trauma",
+      "subtopic": "Intramedullary Nailing — Complications: Malrotation, Knee Pain, and Broken Nails",
+      "difficulty": "Medium",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 22-year-old male underwent antegrade intramedullary nailing for a mid-shaft femoral fracture 6 months ago. The fracture has united. He now complains of anterior knee pain and difficulty with activities requiring kneeling. On examination, there is tenderness directly over the tibial tubercle and proximal patellar tendon. X-ray shows the distal tip of the femoral nail protruding ~10 mm beyond the distal femoral cortex into the suprapatellar pouch. Which of the following best explains the mechanism of knee pain after antegrade femoral nailing and the other most common complication of femoral IMN to be tested in NEET PG?",
+      "options": {
+        "A": "The knee pain is due to hardware failure (broken nail); treated with nail exchange",
+        "B": "Anterior knee pain after antegrade femoral nailing is multifactorial: (1) nail prominence — a nail tip protruding beyond the distal cortex irritates the suprapatellar synovium and patellar tendon during knee flexion; (2) surgical approach — splitting the vastus medialis or iliotibial band during nail insertion damages the knee extensor mechanism; (3) periosteal stripping at the knee during exposure; treatment: if symptomatic, nail removal after confirmed union (minimum 18 months); the other most common and clinically important complication of femoral IMN is ROTATIONAL MALUNION (malrotation) — during closed nailing, the rotational alignment of the femoral fragments cannot be verified fluoroscopically in all cases; asymmetric anteversion produces a leg that is internally or externally rotated relative to the contralateral side; clinical assessment: compare foot progression angle and assess for asymmetric limb rotation; CT-based rotational profile is the definitive measurement; correction requires derotational osteotomy if symptomatic (>15° malalignment)",
+        "C": "Knee pain is exclusively caused by septic arthritis of the knee following nail insertion; urgent joint washout is indicated",
+        "D": "Rotational malunion is not a complication of antegrade femoral nailing; it only occurs with retrograde nailing"
+      },
+      "correct_answer": "B",
+      "explanation": "Anterior knee pain is the most frequently reported long-term complaint after antegrade femoral intramedullary nailing, occurring in 33–57% of patients (Kemenczei et al., systematic review). Mechanisms: (1) Nail prominence at the distal tip — a proud nail tip beyond the distal cortex impinges on the suprapatellar synovium and posterior patellar tendon fibres during knee flexion, creating mechanical irritation; (2) Surgical approach trauma — the standard piriformis or trochanteric entry approach involves splitting the hip abductor/external rotator musculature proximally; retrograde femoral nailing (entry via the intercondylar notch, knee slightly flexed) causes knee pain through a different mechanism — direct articular cartilage or ACL injury during nail insertion through the notch; (3) Malalignment — any sagittal or coronal malalignment changes patellofemoral mechanics. Management: nail removal after confirmed fracture union (18–24 months minimum) reliably improves knee pain in ~80% of cases. Rotational malunion: malrotation is underdiagnosed after femoral IMN — published rates range from 10–28%. Cause: during closed nailing, fracture rotation is assessed clinically (lesser trochanter shadow profile on fluoroscopy — if the lesser trochanter shadow matches the contralateral side, rotation is approximately correct) and by placing a guide in the nail and checking rotation against an ungapped distal fragment. CT scanogram (comparing femoral anteversion bilaterally) is the gold standard. Symptomatic malrotation (>15–20° difference, causing gait abnormality or hip/knee pain from altered mechanics): corrective derotational femoral osteotomy ± nail exchange."
+    },
+
+    {
+      "question_id": "TW_ORTHOPED_TRAUMA_Q019",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_ORTHOPED_TRAUMA",
+      "subject": "Orthopedics",
+      "topic": "Trauma",
+      "subtopic": "Colles' Fracture — Carpal Tunnel Syndrome as Acute Complication",
+      "difficulty": "Medium",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 55-year-old woman sustains a Colles' fracture managed with closed reduction and a below-elbow backslab. Twelve hours after reduction, she complains of burning pain, numbness, and tingling over the thumb, index, middle, and radial half of the ring finger. She cannot oppose the thumb to the other fingers. The cast has been well-padded and is not tight. What is the diagnosis, its anatomical basis specific to this fracture, and the immediate management?",
+      "options": {
+        "A": "Ulnar nerve injury at Guyon's canal; caused by direct contusion; managed with physiotherapy and observation",
+        "B": "Acute median nerve compression (acute carpal tunnel syndrome) — the most common ACUTE nerve complication of Colles' fracture; caused by: (1) haematoma formation within the rigid carpal tunnel following fracture; (2) dorsal angulation of the distal fragment increases volar protrusion, directly compressing the median nerve within the carpal tunnel; (3) oedema in the confined carpal tunnel space; immediate management: urgent release of the cast (split and spread the backslab), reposition the wrist in a more neutral or slight extension position (acute wrist flexion increases carpal tunnel pressure); if neurological deficit does not recover within 30 minutes of cast release, proceed to URGENT surgical carpal tunnel release (CTR); delay → ischaemic damage to the median nerve → permanent thenar weakness",
+        "C": "Anterior interosseous nerve (AIN) palsy; presents with inability to form an 'O' with thumb and index finger; managed with observation for 3–4 months",
+        "D": "Complex regional pain syndrome type II (causalgia); managed with stellate ganglion block"
+      },
+      "correct_answer": "B",
+      "explanation": "Acute median nerve compression is the most important early neurovascular complication of Colles' fracture, occurring in ~5–8% of cases. The carpal tunnel is a rigid compartment bounded by the carpal bones (floor) and the flexor retinaculum (roof), containing the median nerve (most superficial) and nine flexor tendons. In Colles' fracture, three mechanisms increase carpal tunnel pressure: (1) Haematoma from the fracture site extravasates into the carpal tunnel; (2) Dorsal displacement of the distal fragment creates a volar bony prominence that directly compresses the median nerve; (3) Post-reduction oedema in the enclosed space further increases pressure. Clinical features of acute CTS: burning/tingling in median nerve distribution (thumb, index, middle, radial ring) — paraesthesia/anaesthesia; weakness and wasting of thenar muscles (abductor pollicis brevis — APB, opponens pollicis, flexor pollicis brevis superficial head); inability to oppose (opposition is APB function, NOT FPL). Management: (1) Immediate: split and fully open the plaster cast (even if it appears loose — soft tissue swelling is increasing carpal tunnel pressure), change wrist position to neutral or slight extension (acute flexion increases carpal tunnel pressure dramatically); (2) If no improvement in 30 minutes: urgent CTR (emergency operation); (3) Prophylactic CTR at the time of ORIF is indicated in patients with pre-operative median nerve symptoms — some surgeons perform CTR during volar locking plate fixation when pre-operative CTS is present. Prognosis: acute CTS if released early (within hours) → full recovery; delayed release → motor axonotmesis → permanent thenar weakness and APB wasting."
+    },
+
+    {
+      "question_id": "TW_ORTHOPED_TRAUMA_Q020",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_ORTHOPED_TRAUMA",
+      "subject": "Orthopedics",
+      "topic": "Trauma",
+      "subtopic": "Hip Dislocation — Central Dislocation and Acetabular Fractures",
+      "difficulty": "Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 45-year-old male is involved in a lateral crush injury to the pelvis. AP pelvis X-ray shows the right femoral head has been driven medially through the medial wall of the acetabulum, with the femoral head protruding into the pelvis (intrapelvic protrusion). The limb is shortened and lies in a neutral rotation. CT scan confirms a transverse acetabular fracture with quadrilateral plate involvement and medial displacement of the femoral head. Using the Letournel classification of acetabular fractures, which fracture pattern is described, and what is the MOST important pre-operative investigation before surgical fixation?",
+      "options": {
+        "A": "Anterior column fracture; most important pre-operative investigation is MRI pelvis to assess labral damage",
+        "B": "Central fracture-dislocation of the hip (protrusio acetabuli traumatica) — represents a transverse or associated both-column acetabular fracture (Letournel) with medial displacement of the femoral head through the medial acetabular wall; the Letournel–Judet classification most relevant here is a TRANSVERSE fracture (cuts the acetabulum horizontally, dividing into anterior and posterior columns, with the femoral head driving through the medial wall) or associated both-column fracture (spur sign on CT — pathognomonic, as all articular bone is separated from the axial skeleton); the MOST IMPORTANT pre-operative investigation is CT angiography of the pelvis to assess the superior gluteal artery and iliac vessels — medially displaced femoral head or bone fragments can injure the iliac vein and artery or superior gluteal artery intraoperatively; also essential for 3D reconstruction CT to plan approach (ilioinguinal, modified Stoppa, or combined); intraoperative pelvic angiography suite backup is recommended",
+        "C": "Posterior column fracture; managed with Kocher-Langenbeck approach; most important investigation is EMG of sciatic nerve",
+        "D": "Posterior wall fracture; managed conservatively if <25% of wall involved; most important investigation is plain X-ray Judet views only"
+      },
+      "correct_answer": "B",
+      "explanation": "Central fracture-dislocation (protrusio acetabuli traumatica) occurs when a laterally directed force along the femoral axis drives the femoral head through the medial acetabular wall — forcing it into the true pelvis. This is distinct from anterior, posterior, and superior dislocations and carries unique risks. Letournel-Judet classification (10 fracture types — 5 elementary, 5 associated): Elementary: posterior wall, posterior column, anterior wall, anterior column, transverse. Associated: posterior wall + posterior column, transverse + posterior wall, T-shaped, anterior column + posterior hemitransverse, both-column. For central fracture-dislocation, the relevant patterns are: Transverse — a single horizontal fracture line dividing the acetabulum into superior (iliac) and inferior (ischiopubic) segments; the femoral head drives medially through the medial wall; Both-column fracture — both anterior and posterior columns are detached from the ilium; PATHOGNOMONIC CT sign: spur sign (a spike of iliac bone remains attached to the sacrum while all acetabular articular fragments are separated from the axial skeleton). Pre-operative vascular assessment: the quadrilateral plate, medial acetabular wall, and intrapelvic space are in close proximity to the iliac vessels and superior gluteal artery. Medially migrated fragments or the femoral head itself can compress or lacerate the iliac vein (most commonly) or artery. Intraoperative haemorrhage from iliac vessel injury is life-threatening. CT angiography (CTA) preoperatively defines: (1) vessel displacement; (2) proximity of bone fragments to vessels; (3) superior gluteal artery patency (intrapelvic branch injury during ilioinguinal/Stoppa approach). Judet views (obturator oblique, iliac oblique) on plain X-ray complement CT for column assessment but do not replace it. Approach for central fracture-dislocation: ilioinguinal (anterior), modified Stoppa (direct medial — excellent access to quadrilateral plate), or combined anterior + posterior (for associated both-column with posterior wall)."
     }
+
   ]
 }

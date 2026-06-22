@@ -3,11 +3,14 @@
   "paper_type": "topic_wise",
   "subject": "Pharmacology",
   "topic": "Antimicrobials",
-  "total_questions": 6,
+  "total_questions": 15,
   "difficulty_distribution": {
-    "Easy": 6
+    "Easy": 2,
+    "Medium": 4,
+    "Hard": 6,
+    "Very Hard": 3
   },
-  "created_at": "2026-05-30",
+  "created_at": "2026-06-22",
   "questions": [
     {
       "question_id": "TW_PHARMACO_ANTIMICROBIA_Q001",
@@ -15,22 +18,22 @@
       "paper_ref": "TW_PHARMACO_ANTIMICROBIA",
       "subject": "Pharmacology",
       "topic": "Antimicrobials",
-      "subtopic": null,
+      "subtopic": "MRSA Therapy",
       "difficulty": "Easy",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Drug of choice for MRSA?",
+      "question_text": "A 60-year-old man develops a healthcare-associated bacteremia. Blood culture grows Staphylococcus aureus, and sensitivity testing shows resistance to cefoxitin (a surrogate marker for methicillin resistance). Which is the most appropriate first-line agent, and why does beta-lactam therapy fail in this organism?",
       "options": {
-        "A": "Vancomycin",
-        "B": "Amoxicillin-clavulanate",
-        "C": "Cefazolin",
-        "D": "Clindamycin"
+        "A": "Vancomycin \u2014 MRSA possesses an altered penicillin-binding protein (PBP2a, encoded by the mecA gene) with markedly reduced affinity for beta-lactams, rendering virtually all penicillins, cephalosporins (except newer anti-MRSA cephalosporins like ceftaroline), and carbapenems ineffective; vancomycin instead inhibits cell wall synthesis by binding the D-Ala-D-Ala terminus of peptidoglycan precursors, a target unaffected by PBP2a",
+        "B": "Cefazolin \u2014 effective because first-generation cephalosporins bypass PBP2a resistance",
+        "C": "Amoxicillin-clavulanate \u2014 beta-lactamase inhibitors restore activity against MRSA",
+        "D": "Ceftriaxone \u2014 third-generation cephalosporins are the standard of care for MRSA"
       },
       "correct_answer": "A",
-      "explanation": "MRSA: vancomycin (glycopeptide) is DOC. Alternative: linezolid, daptomycin, tigecycline. Vancomycin-resistant MRSA: dalfopristin/quinupristin."
+      "explanation": "Methicillin-resistant Staphylococcus aureus (MRSA) carries the mecA gene (or mecC), encoding an altered penicillin-binding protein, PBP2a, which has very low affinity for nearly all beta-lactam antibiotics (penicillins, cephalosporins, carbapenems), so these drugs cannot inhibit cell wall cross-linking despite normal dosing \u2014 this is distinct from beta-lactamase-mediated resistance and is NOT overcome by beta-lactamase inhibitors like clavulanate, which only protect against enzymatic drug destruction, not target-site alteration. Vancomycin, a glycopeptide, acts by an entirely different mechanism: it binds non-covalently to the D-Ala-D-Ala terminal dipeptide of peptidoglycan precursor units, sterically blocking transglycosylation and transpeptidation (cell wall cross-linking) independent of PBP2a, making it active against MRSA. Vancomycin remains first-line for serious MRSA infections; alternatives include linezolid, daptomycin (inactivated by pulmonary surfactant, so avoided in pneumonia), and ceftaroline (a unique cephalosporin engineered to bind PBP2a)."
     },
     {
       "question_id": "TW_PHARMACO_ANTIMICROBIA_Q002",
@@ -38,22 +41,22 @@
       "paper_ref": "TW_PHARMACO_ANTIMICROBIA",
       "subject": "Pharmacology",
       "topic": "Antimicrobials",
-      "subtopic": null,
+      "subtopic": "Aminoglycoside Toxicity",
       "difficulty": "Easy",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "TB drug causing optic neuritis?",
+      "question_text": "A patient with chronic kidney disease is started on gentamicin for a Gram-negative infection without dose adjustment. After several days, he develops worsening renal function and new-onset tinnitus with imbalance. Which best explains the dual organ toxicity of aminoglycosides, and how should dosing be adjusted in renal impairment?",
       "options": {
-        "A": "Isoniazid",
-        "B": "Rifampicin",
-        "C": "Ethambutol",
-        "D": "Pyrazinamide"
+        "A": "Aminoglycosides are metabolized hepatically, and toxicity is unrelated to renal function",
+        "B": "Toxicity occurs only with topical aminoglycoside use, not systemic administration",
+        "C": "Aminoglycosides accumulate in proximal renal tubular cells (taken up via megalin-mediated endocytosis, causing tubular necrosis) and in the cochlear/vestibular hair cells of the inner ear (causing irreversible ototoxicity/vestibulotoxicity) due to similar mechanisms of cellular uptake and oxidative damage in both tissues; because aminoglycosides are renally eliminated unchanged, renal impairment causes drug accumulation, further worsening both nephrotoxicity and ototoxicity \u2014 dosing intervals must be extended (or doses reduced) based on creatinine clearance, and therapeutic drug monitoring (peak/trough levels) is recommended",
+        "D": "Ototoxicity is fully reversible upon stopping the drug, unlike nephrotoxicity"
       },
       "correct_answer": "C",
-      "explanation": "Ethambutol: dose-dependent optic neuritis (loss of color vision, red-green discrimination first). Check visual acuity monthly. Contraindicated in children <5 years."
+      "explanation": "Aminoglycosides (gentamicin, amikacin, tobramycin, streptomycin) are eliminated almost entirely unchanged by glomerular filtration, with no significant hepatic metabolism. They accumulate in the proximal tubular epithelial cells via megalin-mediated endocytosis, causing dose- and duration-dependent nephrotoxicity (typically reversible non-oliguric acute tubular necrosis if caught early), and separately accumulate in the cochlear and vestibular hair cells of the inner ear, where oxidative stress and mitochondrial damage cause ototoxicity (cochlear toxicity causing high-frequency hearing loss and tinnitus, vestibular toxicity causing imbalance/vertigo) \u2014 vestibular and cochlear damage is often IRREVERSIBLE once established, in contrast to typically reversible nephrotoxicity. Because the kidney is the sole elimination pathway, renal impairment causes drug accumulation that compounds both toxicities; dosing must be adjusted by extending the interval between doses (or less commonly reducing the dose) based on creatinine clearance, and therapeutic drug monitoring of peak and trough serum concentrations is used to minimize toxicity while maintaining efficacy, especially in critically ill or renally impaired patients."
     },
     {
       "question_id": "TW_PHARMACO_ANTIMICROBIA_Q003",
@@ -61,22 +64,22 @@
       "paper_ref": "TW_PHARMACO_ANTIMICROBIA",
       "subject": "Pharmacology",
       "topic": "Antimicrobials",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Vancomycin Infusion Reaction",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Aminoglycosides should be avoided in renal failure because?",
+      "question_text": "A patient receiving an emergency rapid infusion of vancomycin (administered over 20 minutes for a severe infection) develops sudden flushing, erythema, and pruritus of the face, neck, and upper torso along with mild hypotension, but no wheeze, no urticaria elsewhere, and no prior vancomycin exposure. Which mechanism best explains this reaction, and how is it best managed/prevented?",
       "options": {
-        "A": "Hepatotoxicity",
-        "B": "Nephrotoxicity and ototoxicity",
-        "C": "Bone marrow suppression",
-        "D": "Cardiac toxicity"
+        "A": "This is IgE-mediated type I anaphylaxis requiring permanent avoidance of vancomycin and all glycopeptides",
+        "B": "This represents Stevens-Johnson syndrome and mandates immediate discontinuation with no future re-exposure under any circumstances",
+        "C": "This is a sign of vancomycin-induced nephrotoxicity and indicates the need for immediate hemodialysis",
+        "D": "This is 'red man syndrome' (vancomycin infusion reaction) \u2014 a non-immune, non-IgE-mediated direct mast cell and basophil degranulation causing histamine release, triggered by the rate of infusion rather than an allergic mechanism (it can occur on first exposure, unlike true allergy, which requires prior sensitization); it is prevented by slowing the infusion rate (typically over at least 60 minutes) and can be managed with antihistamines (diphenhydramine) if it occurs; it does NOT necessitate permanent discontinuation of vancomycin, and rechallenge with a slower infusion rate is generally safe"
       },
-      "correct_answer": "B",
-      "explanation": "Aminoglycosides (gentamicin, amikacin): nephrotoxic (proximal tubule) + ototoxic (vestibular/cochlear). Requires dose adjustment in renal failure. Monitor TDM."
+      "correct_answer": "D",
+      "explanation": "Red man syndrome is a well-recognized, rate-dependent infusion reaction to vancomycin (and occasionally other drugs causing direct mast cell/basophil degranulation, such as rapid opioid administration), caused by non-immunologic, non-IgE-mediated histamine release directly from mast cells and basophils when vancomycin is infused too rapidly. It typically presents with flushing, pruritus, and an erythematous rash predominantly affecting the face, neck, and upper torso ('red man' appearance), sometimes with mild hypotension or tachycardia in more severe cases, but classically WITHOUT bronchospasm/wheeze or significant systemic anaphylactic features, and it can occur on the very FIRST exposure to the drug (distinguishing it from true IgE-mediated allergy, which requires prior sensitization). Management includes slowing or temporarily stopping the infusion, administering antihistamines, and for future doses, infusing vancomycin more slowly (generally at least 60 minutes per gram, or longer for larger doses) and/or premedicating with an antihistamine \u2014 it does not require permanent discontinuation of the drug, unlike a true anaphylactic or severe cutaneous adverse drug reaction."
     },
     {
       "question_id": "TW_PHARMACO_ANTIMICROBIA_Q004",
@@ -84,22 +87,22 @@
       "paper_ref": "TW_PHARMACO_ANTIMICROBIA",
       "subject": "Pharmacology",
       "topic": "Antimicrobials",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Anti-Leprosy Multidrug Therapy",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "DOC for leprosy (paucibacillary)?",
+      "question_text": "A patient presents with 3 well-demarcated hypopigmented, hypoesthetic skin patches and a thickened ulnar nerve; slit-skin smear is negative for acid-fast bacilli. Per WHO classification and treatment guidelines, how should this patient be classified and treated, and how would the regimen and duration differ if the smear had been positive with more than 5 lesions?",
       "options": {
-        "A": "Dapsone alone",
-        "B": "Rifampicin + Dapsone (6 months)",
-        "C": "MDT — Rifampicin + Dapsone + Clofazimine",
-        "D": "Clofazimine alone"
+        "A": "Multibacillary (MB) leprosy; treat with rifampicin monotherapy for 6 months",
+        "B": "This is paucibacillary (PB) leprosy (\u22645 skin lesions, smear-negative); WHO-recommended treatment is multidrug therapy with Rifampicin (monthly, supervised) + Dapsone (daily, self-administered) for 6 months; if the patient instead had >5 lesions and/or a positive slit-skin smear (multibacillary leprosy), the regimen would additionally include Clofazimine (both a monthly supervised dose and a smaller daily dose) alongside Rifampicin and Dapsone, continued for a LONGER duration of 12 months, reflecting the higher bacillary load and need for more prolonged, more intensive therapy to prevent relapse and reduce resistance",
+        "C": "Both paucibacillary and multibacillary leprosy receive identical 6-month dapsone-only regimens",
+        "D": "Multibacillary leprosy requires only a single-dose rifampicin regimen with no role for dapsone or clofazimine"
       },
       "correct_answer": "B",
-      "explanation": "PB leprosy (1-5 patches): Rifampicin monthly + Dapsone daily for 6 months. MB leprosy (>5 patches or smear positive): MDT x 12 months. WHO regimen."
+      "explanation": "The WHO classifies leprosy clinically into paucibacillary (PB: \u22645 skin lesions, slit-skin smear negative for acid-fast bacilli, often fewer/no nerve involvement) and multibacillary (MB: >5 skin lesions, and/or smear-positive, often more widespread nerve involvement) forms, which determine both the drug combination and treatment duration under WHO multidrug therapy (MDT) guidelines (designed to prevent the rapid emergence of dapsone or rifampicin monotherapy resistance that plagued earlier single-drug regimens). PB leprosy is treated with Rifampicin (600 mg once monthly, given under direct supervision) plus Dapsone (100 mg daily, self-administered) for a total of 6 months. MB leprosy requires the addition of a third agent, Clofazimine (300 mg once monthly supervised, plus 50 mg daily self-administered) to the same Rifampicin + Dapsone backbone, continued for a longer total duration of 12 months, reflecting the higher bacillary burden, increased relapse risk, and need for a third agent to reduce the likelihood of resistance emerging during prolonged single or dual-drug exposure. Rifampicin acts by inhibiting bacterial DNA-dependent RNA polymerase; dapsone is a folate synthesis inhibitor (competitive antagonist of PABA at dihydropteroate synthase, similar mechanistic class to sulfonamides); clofazimine has antimycobacterial and anti-inflammatory properties and is notably associated with reddish-brown skin pigmentation as a side effect."
     },
     {
       "question_id": "TW_PHARMACO_ANTIMICROBIA_Q005",
@@ -107,22 +110,22 @@
       "paper_ref": "TW_PHARMACO_ANTIMICROBIA",
       "subject": "Pharmacology",
       "topic": "Antimicrobials",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Fluoroquinolone Resistance Mechanisms",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Drug causing red man syndrome?",
+      "question_text": "A urinary isolate of E. coli shows high-level resistance to ciprofloxacin. Which combination of mechanisms most completely explains clinically significant fluoroquinolone resistance, and how do fluoroquinolones normally kill bacteria?",
       "options": {
-        "A": "Gentamicin",
-        "B": "Vancomycin",
-        "C": "Linezolid",
-        "D": "Daptomycin"
+        "A": "Fluoroquinolones normally inhibit bacterial DNA gyrase (topoisomerase II, encoded by gyrA/gyrB \u2014 the primary target in Gram-negative organisms) and topoisomerase IV (parC/parE \u2014 the primary target in many Gram-positive organisms), enzymes required for DNA supercoiling/relaxation during replication; inhibition causes accumulation of double-strand DNA breaks and bacterial death. Clinically significant resistance arises primarily from chromosomal point mutations in the genes encoding these target enzymes (reducing drug binding affinity), often requiring mutations in BOTH gyrase and topoisomerase IV for high-level resistance (stepwise mutation accumulation), and is further compounded by efflux pump overexpression (actively extruding the drug) and decreased outer membrane porin expression (reducing drug entry) \u2014 plasmid-mediated quinolone resistance genes (e.g., qnr) can also contribute, though typically conferring lower-level resistance alone",
+        "B": "Resistance is solely due to beta-lactamase production, which directly inactivates fluoroquinolones",
+        "C": "Resistance occurs exclusively via acquisition of mecA-like genes encoding altered topoisomerases",
+        "D": "Fluoroquinolones act by inhibiting the 50S ribosomal subunit, and resistance arises from ribosomal methylation"
       },
-      "correct_answer": "B",
-      "explanation": "Red man syndrome (vancomycin): histamine release during rapid infusion → flushing, erythema, urticaria of neck/face. NOT allergy — prevented by slow infusion."
+      "correct_answer": "A",
+      "explanation": "Fluoroquinolones (ciprofloxacin, levofloxacin, moxifloxacin) act by inhibiting two essential bacterial type II topoisomerases: DNA gyrase (a tetramer of GyrA and GyrB subunits), which introduces negative supercoils ahead of the replication fork to relieve torsional strain, and topoisomerase IV (ParC and ParE subunits), which decatenates/separates daughter chromosomes after replication. In Gram-negative bacteria, DNA gyrase is typically the primary drug target; in many Gram-positive organisms, topoisomerase IV is often the primary target \u2014 this differential target preference partly explains differences in spectrum and resistance patterns between organism classes. Drug binding stabilizes the enzyme-DNA cleavage complex, leading to accumulation of lethal double-strand DNA breaks. Resistance most commonly arises from chromosomal point mutations within the quinolone resistance-determining regions (QRDR) of gyrA/gyrB and/or parC/parE, which reduce drug-binding affinity; because a single target mutation often only modestly reduces susceptibility, HIGH-LEVEL clinical resistance typically requires sequential/stepwise accumulation of mutations in both target enzymes. Additional contributing mechanisms include upregulation of multidrug efflux pumps (e.g., AcrAB-TolC in E. coli) that actively pump the drug out of the cell, and decreased expression of outer membrane porins that reduce drug entry into Gram-negative bacteria. Plasmid-mediated quinolone resistance determinants (qnr genes, encoding proteins that protect topoisomerases from quinolone binding; aac(6')-Ib-cr, a variant aminoglycoside acetyltransferase that also modifies certain fluoroquinolones; and plasmid-encoded efflux pumps like qepA) typically confer only low-level resistance on their own but can facilitate the selection of higher-level chromosomal resistance mutations."
     },
     {
       "question_id": "TW_PHARMACO_ANTIMICROBIA_Q006",
@@ -130,22 +133,247 @@
       "paper_ref": "TW_PHARMACO_ANTIMICROBIA",
       "subject": "Pharmacology",
       "topic": "Antimicrobials",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Linezolid \u2014 Serotonin Syndrome Risk",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Mechanism of fluoroquinolone resistance?",
+      "question_text": "A patient on long-term sertraline (an SSRI) for depression is started on linezolid for a vancomycin-resistant Enterococcus (VRE) infection. Within two days, she develops agitation, hyperreflexia, clonus, tremor, diaphoresis, and a fever of 39.5\u00b0C. Explain why this combination is dangerous and the underlying shared pharmacological property of linezolid.",
       "options": {
-        "A": "Beta-lactamase production",
-        "B": "Mutations in DNA gyrase/topoisomerase IV",
-        "C": "Efflux pumps only",
-        "D": "Porin channel loss"
+        "A": "Linezolid has no relevant interaction with SSRIs; this presentation is unrelated to the antibiotic",
+        "B": "The presentation is due to linezolid-induced lactic acidosis from mitochondrial toxicity, unrelated to serotonergic mechanisms",
+        "C": "Linezolid is a weak, reversible, non-selective inhibitor of monoamine oxidase (MAO-A and MAO-B) in addition to its primary mechanism of inhibiting bacterial protein synthesis (by binding the 50S ribosomal subunit at the peptidyl transferase center and preventing formation of the initiation complex); this MAO-inhibiting property, when combined with serotonergic agents like SSRIs (which increase synaptic serotonin), can precipitate serotonin syndrome \u2014 characterized by the triad of autonomic instability (fever, diaphoresis, tachycardia), neuromuscular abnormalities (hyperreflexia, clonus, tremor), and altered mental status (agitation); SSRIs should ideally be discontinued before starting linezolid where possible, or the patient closely monitored if concurrent use is unavoidable",
+        "D": "Linezolid directly antagonizes serotonin receptors, and this presentation represents serotonin withdrawal rather than excess"
+      },
+      "correct_answer": "C",
+      "explanation": "Linezolid is an oxazolidinone antibiotic whose primary antibacterial mechanism is inhibition of bacterial protein synthesis by binding to the 23S rRNA component of the 50S ribosomal subunit at the peptidyl transferase center, preventing formation of the 70S initiation complex (a step earlier in translation than most other ribosome-targeting antibiotics, explaining its lack of cross-resistance with macrolides/aminoglycosides). Separately, linezolid possesses weak, reversible, non-selective monoamine oxidase inhibitor (MAOI) activity \u2014 an off-target pharmacological property unrelated to its antibacterial action. When co-administered with serotonergic drugs (SSRIs, SNRIs, tricyclic antidepressants, MAOIs, tramadol, triptans, or other serotonin-modulating agents), this MAOI activity can impair serotonin breakdown, leading to excessive synaptic serotonin accumulation and precipitating serotonin syndrome \u2014 a potentially life-threatening triad of autonomic dysfunction (hyperthermia, diaphoresis, tachycardia, labile blood pressure), neuromuscular hyperactivity (tremor, hyperreflexia, clonus \u2014 classically more pronounced in the lower extremities, myoclonus, rigidity), and altered mental status (agitation, confusion). This is a well-recognized and high-yield drug interaction; current guidance recommends avoiding linezolid in patients on serotonergic agents where alternative antibiotics exist, or if linezolid is essential, the serotonergic agent should be held (with attention to its half-life and washout period) or the patient closely monitored for early signs of serotonin toxicity. Management of established serotonin syndrome includes discontinuing all serotonergic agents, supportive care (cooling, benzodiazepines for agitation/clonus), and cyproheptadine (a serotonin antagonist) for moderate-to-severe cases."
+    },
+    {
+      "question_id": "TW_PHARMACO_ANTIMICROBIA_Q007",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_PHARMACO_ANTIMICROBIA",
+      "subject": "Pharmacology",
+      "topic": "Antimicrobials",
+      "subtopic": "Daptomycin \u2014 Pulmonary Surfactant Inactivation",
+      "difficulty": "Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A patient with MRSA bacteremia and concurrent suspected MRSA pneumonia is being considered for daptomycin therapy as an alternative to vancomycin. Why would daptomycin be an inappropriate choice specifically for the pulmonary component of this infection, despite being effective for the bacteremia, and what is its mechanism of action?",
+      "options": {
+        "A": "Daptomycin is contraindicated in pneumonia because it causes severe bronchospasm",
+        "B": "Daptomycin has no specific limitation in pneumonia and is the preferred first-line agent for MRSA pneumonia",
+        "C": "Daptomycin is ineffective against Gram-positive organisms entirely and was never a reasonable option here",
+        "D": "Daptomycin is inactivated by pulmonary surfactant (a phospholipid-rich substance), which binds and neutralizes the drug, resulting in markedly reduced efficacy in treating pneumonia specifically \u2014 even though daptomycin remains highly effective for bacteremia, skin/soft tissue infections, and endocarditis, where surfactant is not present; its mechanism of action involves calcium-dependent insertion into the bacterial cell membrane, forming pores that cause rapid membrane depolarization and efflux of potassium ions, leading to inhibition of DNA, RNA, and protein synthesis and bacterial cell death, distinct from cell-wall-active agents"
+      },
+      "correct_answer": "D",
+      "explanation": "Daptomycin is a cyclic lipopeptide antibiotic with potent activity against Gram-positive organisms including MRSA and VRE. Its mechanism is distinct from cell-wall-synthesis inhibitors: in a calcium-dependent manner, daptomycin inserts into the bacterial cytoplasmic membrane and oligomerizes, forming pores that cause rapid depolarization and efflux of intracellular potassium, disrupting the membrane potential and halting macromolecular (DNA, RNA, protein) synthesis, leading to bacterial cell death without classical lysis. A clinically crucial limitation is that daptomycin is bound and inactivated by pulmonary surfactant, a lipid- and protein-rich substance lining the alveoli \u2014 this interaction neutralizes the drug's activity specifically within lung tissue, rendering daptomycin clinically ineffective for treating pneumonia (regardless of in vitro susceptibility of the causative organism), even though it retains excellent efficacy for bacteremia, infective endocarditis, and skin/soft tissue infections caused by susceptible organisms. This is a frequently tested, clinically important exception that must be remembered when selecting therapy for suspected or confirmed Gram-positive pneumonia, where agents such as vancomycin or linezolid (which achieve adequate lung tissue/epithelial lining fluid concentrations) are preferred instead."
+    },
+    {
+      "question_id": "TW_PHARMACO_ANTIMICROBIA_Q008",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_PHARMACO_ANTIMICROBIA",
+      "subject": "Pharmacology",
+      "topic": "Antimicrobials",
+      "subtopic": "Colistin Nephrotoxicity",
+      "difficulty": "Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A patient with a carbapenem-resistant Klebsiella pneumoniae (CRE) bloodstream infection is started on intravenous colistin (polymyxin E) as a last-resort agent. By day 5, serum creatinine has nearly doubled. Explain colistin's mechanism of action, why it is reserved for multidrug-resistant Gram-negative infections, and the basis for its dose-limiting nephrotoxicity.",
+      "options": {
+        "A": "Colistin acts by inhibiting bacterial cell wall synthesis, and nephrotoxicity is due to immune-complex deposition in the glomeruli",
+        "B": "Colistin (polymyxin E) is a cationic, detergent-like cyclic lipopeptide that binds to the negatively charged lipid A component of lipopolysaccharide (LPS) in the outer membrane of Gram-negative bacteria, disrupting both outer and inner membrane integrity (a 'self-promoted uptake' detergent effect), causing leakage of cellular contents and bacterial death \u2014 this broad-spectrum activity against multidrug-resistant Gram-negative organisms (including carbapenem-resistant Enterobacteriaceae and Pseudomonas/Acinetobacter) makes it a valuable last-resort agent, but the same cationic detergent property non-selectively damages human cell membranes, particularly proximal renal tubular epithelial cells, causing dose-dependent, often reversible acute tubular injury that limits its use to situations with no safer alternative",
+        "C": "Colistin nephrotoxicity is caused by crystal deposition in renal tubules, similar to acyclovir",
+        "D": "Colistin acts on bacterial ribosomes and has no nephrotoxic potential; the creatinine rise is unrelated"
       },
       "correct_answer": "B",
-      "explanation": "Fluoroquinolone resistance: primarily mutations in gyrA (DNA gyrase subunit A) or parC (topoisomerase IV). Also: efflux pumps, porin changes."
+      "explanation": "Colistin (polymyxin E) and the closely related polymyxin B are cyclic cationic lipopeptides with a detergent-like, amphipathic structure. They selectively bind the lipid A moiety of lipopolysaccharide (LPS) in the outer membrane of Gram-negative bacteria via electrostatic interactions with its negatively charged phosphate groups, displacing divalent cations (Ca2+, Mg2+) that normally stabilize the membrane, and subsequently insert into and disrupt both the outer and inner (cytoplasmic) bacterial membranes, causing increased permeability, leakage of essential intracellular contents, and bacterial death \u2014 a mechanism distinct from cell wall, protein synthesis, or nucleic acid-targeting antibiotics, which is why colistin retains activity against many multidrug-resistant Gram-negative organisms (carbapenem-resistant Enterobacteriaceae, extensively drug-resistant Pseudomonas aeruginosa and Acinetobacter baumannii) that have developed resistance to other antibiotic classes, making it an important last-resort/salvage agent despite its toxicity profile. However, the same cationic, membrane-disrupting (detergent-like) property is not perfectly selective for bacterial membranes and also damages human cell membranes, particularly the proximal renal tubular epithelium (which has high drug exposure due to renal elimination and tubular reabsorption), producing dose- and duration-dependent nephrotoxicity (acute tubular injury/necrosis) that is the principal dose-limiting toxicity of colistin therapy \u2014 typically partially or fully reversible upon dose reduction or discontinuation, but requiring careful renal function monitoring and dose adjustment throughout therapy."
+    },
+    {
+      "question_id": "TW_PHARMACO_ANTIMICROBIA_Q009",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_PHARMACO_ANTIMICROBIA",
+      "subject": "Pharmacology",
+      "topic": "Antimicrobials",
+      "subtopic": "Acyclovir Crystal Nephropathy",
+      "difficulty": "Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A dehydrated patient receives a rapid intravenous bolus of high-dose acyclovir for HSV encephalitis without adequate hydration. He develops flank pain, nausea, and an acute rise in serum creatinine. Urinalysis shows needle-shaped crystals. Explain the mechanism of acyclovir's selective antiviral activity AND the mechanism of this renal complication, plus the key preventive measure.",
+      "options": {
+        "A": "Acyclovir achieves selective antiviral activity because it requires initial phosphorylation by the HERPES-VIRUS-ENCODED thymidine kinase (which has far greater affinity for acyclovir than host cellular thymidine kinase) to form acyclovir monophosphate, followed by host kinases to form the active triphosphate, which then selectively inhibits viral DNA polymerase and causes chain termination \u2014 this dependence on viral thymidine kinase confers selectivity for infected cells and underlies resistance when viral thymidine kinase is mutated/deficient. Separately, acyclovir has poor aqueous solubility, and when given as a rapid IV bolus without adequate hydration, it can precipitate as needle-shaped crystals within the renal tubules, causing obstructive crystal nephropathy (a form of acute kidney injury); prevention requires adequate hydration before and during infusion, slow infusion over at least one hour, and dose adjustment in renal impairment",
+        "B": "Acyclovir is activated equally in infected and uninfected cells, and the nephropathy is due to direct tubular cell apoptosis unrelated to drug solubility",
+        "C": "Acyclovir nephrotoxicity occurs because it directly inhibits host DNA polymerase, identical to its antiviral mechanism",
+        "D": "The crystalluria described is unrelated to acyclovir and instead indicates underlying uric acid nephrolithiasis"
+      },
+      "correct_answer": "A",
+      "explanation": "Acyclovir (and related prodrugs like valacyclovir) is a guanosine analog antiviral with selective activity against herpesviruses (HSV-1, HSV-2, VZV) achieved through a key pharmacological mechanism: it must first be monophosphorylated by a VIRAL (HSV/VZV-encoded) thymidine kinase, which has dramatically higher affinity for acyclovir than the host cellular thymidine kinase \u2014 this means acyclovir is preferentially activated within virus-infected cells, sparing uninfected host cells from significant phosphorylation/activation, conferring its favorable selectivity and safety profile. Host cellular kinases then convert the monophosphate to the active triphosphate form, which competitively inhibits viral DNA polymerase and, upon incorporation into the growing viral DNA strand, causes chain termination (acting as an obligate chain terminator, lacking the 3'-OH needed for further chain elongation). Viral resistance commonly arises from mutations in the viral thymidine kinase gene (reducing or eliminating phosphorylation) or, less commonly, in the viral DNA polymerase itself. Separately and unrelated to its antiviral mechanism, acyclovir's clinically important adverse effect of crystal nephropathy arises from its relatively poor aqueous solubility: when administered intravenously, especially as a rapid bolus or in a volume-depleted/dehydrated patient with low urine flow, acyclovir can precipitate within the renal tubular lumen as needle-shaped crystals, causing intratubular obstruction and acute kidney injury (a mechanically obstructive, crystal-induced nephropathy, distinct from direct cytotoxic nephrotoxicity). This is preventable and reversible: adequate pre-infusion and ongoing intravenous hydration, infusing the drug slowly (over at least 1 hour) rather than as a rapid bolus, and appropriate dose adjustment based on renal function (since acyclovir is also predominantly renally eliminated) all reduce the risk."
+    },
+    {
+      "question_id": "TW_PHARMACO_ANTIMICROBIA_Q010",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_PHARMACO_ANTIMICROBIA",
+      "subject": "Pharmacology",
+      "topic": "Antimicrobials",
+      "subtopic": "Clostridioides difficile and Clindamycin",
+      "difficulty": "Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A patient completes a course of clindamycin for a dental abscess. Ten days later, she develops profuse watery diarrhea, abdominal cramping, and fever. Stool testing is positive for Clostridioides difficile toxin. Explain why clindamycin (among other broad-spectrum antibiotics) predisposes to this infection, and the first-line treatment.",
+      "options": {
+        "A": "Clindamycin directly stimulates C. difficile toxin production through a pharmacodynamic interaction, unrelated to the gut microbiome",
+        "B": "Clindamycin causes C. difficile infection through direct nephrotoxic injury to the colon",
+        "C": "Clindamycin (and other broad-spectrum agents such as fluoroquinolones, cephalosporins, and broad-spectrum penicillins) disrupts the normal protective anaerobic gut microbiota (via its mechanism of inhibiting bacterial protein synthesis at the 50S ribosomal subunit, broadly affecting anaerobic and some aerobic flora), removing competitive inhibition ('colonization resistance') that normally suppresses overgrowth of C. difficile (a toxin-producing, spore-forming anaerobe that may already be present or newly acquired); unchecked proliferation and toxin (TcdA/TcdB) production cause colonic mucosal inflammation, pseudomembrane formation, and the clinical syndrome of antibiotic-associated/C. difficile colitis; first-line treatment is oral vancomycin or oral fidaxomicin (NOT IV vancomycin, which does not achieve adequate colonic luminal concentration), with metronidazole now reserved as an alternative for milder cases when preferred agents are unavailable",
+        "D": "C. difficile infection following clindamycin is treated with additional broad-spectrum antibiotics to further suppress competing flora"
+      },
+      "correct_answer": "C",
+      "explanation": "Clostridioides difficile is a toxin-producing (TcdA, TcdB), spore-forming, obligate anaerobic bacterium that can exist as part of the normal gut flora in small numbers or be newly acquired (often via fecal-oral transmission of spores in healthcare settings), normally kept in check by the protective, diverse anaerobic gut microbiota through mechanisms including nutrient competition, bacteriocin production, and bile acid metabolism that maintains an environment unfavorable to C. difficile germination and growth ('colonization resistance'). Broad-spectrum antibiotics \u2014 classically clindamycin (a lincosamide that inhibits bacterial protein synthesis by binding the 50S ribosomal subunit, with broad activity against anaerobes and many Gram-positive organisms), but also fluoroquinolones, cephalosporins (especially third-generation), and broad-spectrum penicillins \u2014 disrupt this normal protective flora, creating an ecological niche that allows C. difficile to proliferate unchecked and produce its exotoxins, which damage colonic epithelial cells (via glucosylation of Rho GTPases, disrupting the cytoskeleton), causing mucosal inflammation, fluid secretion (watery diarrhea), and in severe cases pseudomembrane formation (pseudomembranous colitis) visible on colonoscopy. First-line treatment for an initial episode of C. difficile infection per current guidelines is oral vancomycin or oral fidaxomicin \u2014 these achieve high luminal concentrations within the colon when given orally (note: IV vancomycin does NOT achieve adequate colonic concentrations and is NOT used for this indication), while oral metronidazole, once a mainstay, is now generally reserved as an alternative option when the preferred agents are unavailable or for certain mild presentations, reflecting evidence of somewhat inferior efficacy and higher relapse rates compared to vancomycin/fidaxomicin."
+    },
+    {
+      "question_id": "TW_PHARMACO_ANTIMICROBIA_Q011",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_PHARMACO_ANTIMICROBIA",
+      "subject": "Pharmacology",
+      "topic": "Antimicrobials",
+      "subtopic": "Carbapenem Resistance Mechanisms",
+      "difficulty": "Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A Klebsiella pneumoniae isolate from an ICU patient is resistant to meropenem and shows a positive modified carbapenem inactivation method (mCIM) test. Which mechanism best explains carbapenem resistance in this organism, and what is the clinical significance of distinguishing carbapenemase-mediated resistance from other mechanisms?",
+      "options": {
+        "A": "Resistance is due solely to decreased porin expression, with no enzymatic component, and carbapenemase testing is therefore irrelevant",
+        "B": "Carbapenem resistance is exclusively chromosomal and never plasmid-mediated, so infection control isolation precautions are unnecessary",
+        "C": "All carbapenem-resistant organisms respond equally well to any beta-lactam/beta-lactamase inhibitor combination, making mechanism identification unnecessary",
+        "D": "Carbapenem resistance in Enterobacteriaceae most significantly arises from acquisition of carbapenemase enzymes (e.g., KPC, NDM, OXA-48-type, VIM, IMP) \u2014 beta-lactamases capable of hydrolyzing the carbapenem ring structure itself, conferring resistance to ALL carbapenems and often co-existing with resistance to other beta-lactams; this differs mechanistically from resistance due to combined porin loss plus AmpC/ESBL production (which can also produce a carbapenem-resistant phenotype without a true carbapenemase). Distinguishing true carbapenemase production (confirmed by tests like mCIM) is clinically critical because carbapenemase-producing organisms are often transmissible via plasmids (facilitating spread between patients and species), require specific infection control precautions, and may respond differently to newer beta-lactam/beta-lactamase inhibitor combinations (e.g., ceftazidime-avibactam is active against KPC and OXA-48 producers but NOT against metallo-beta-lactamases like NDM, which require a different agent such as cefiderocol or aztreonam-avibactam)"
+      },
+      "correct_answer": "D",
+      "explanation": "Carbapenems (meropenem, imipenem, ertapenem, doripenem) are beta-lactam antibiotics with a broad spectrum of activity and high stability against many beta-lactamases (including most ESBLs and AmpC enzymes), historically considered agents of last resort for serious Gram-negative infections. Resistance to carbapenems in Enterobacteriaceae (and other Gram-negatives) can arise through several mechanisms, with the most clinically significant being acquisition of carbapenemase enzymes \u2014 beta-lactamases capable of directly hydrolyzing the carbapenem beta-lactam ring. These include serine carbapenemases (KPC \u2014 Klebsiella pneumoniae carbapenemase, the most common in many regions; OXA-48-type) and metallo-beta-lactamases (NDM \u2014 New Delhi metallo-beta-lactamase, VIM, IMP), which require a zinc ion for catalytic activity and are notably NOT inhibited by classic beta-lactamase inhibitors (clavulanate, tazobactam) or newer inhibitors like avibactam, relebactam, or vaborbactam (which DO inhibit KPC and OXA-48-type serine carbapenemases). A carbapenem-resistant phenotype can also occur WITHOUT a true carbapenemase, through the combination of decreased outer membrane porin expression (reducing drug entry) plus production of an ESBL or AmpC beta-lactamase (which, while not intrinsically able to efficiently hydrolyze carbapenems, can do so adequately when combined with reduced drug entry). Distinguishing these mechanisms matters clinically: carbapenemase-producing organisms (confirmed via phenotypic tests like the modified carbapenem inactivation method, mCIM, or molecular/PCR-based detection of resistance genes) are often plasmid-mediated, facilitating horizontal transmission between bacterial species and patients, necessitating strict infection control/isolation precautions, and they show differential susceptibility to newer beta-lactam/beta-lactamase inhibitor combinations \u2014 for example, ceftazidime-avibactam and meropenem-vaborbactam are effective against KPC and OXA-48-type producers but are NOT reliably active against metallo-beta-lactamase (NDM, VIM, IMP) producers, which instead require agents such as cefiderocol (a siderophore cephalosporin) or the combination of aztreonam (stable against metallo-beta-lactamases but hydrolyzed by many co-produced serine enzymes) with avibactam (which inhibits those co-produced serine enzymes)."
+    },
+    {
+      "question_id": "TW_PHARMACO_ANTIMICROBIA_Q012",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_PHARMACO_ANTIMICROBIA",
+      "subject": "Pharmacology",
+      "topic": "Antimicrobials",
+      "subtopic": "Ethambutol-Induced Optic Neuropathy \u2014 Fundoscopic Correlation",
+      "difficulty": "Very Hard",
+      "question_type": "single_best_answer",
+      "image_based": true,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A patient on category I anti-tubercular therapy (including ethambutol 15 mg/kg/day) for 4 months reports progressively blurred vision and difficulty distinguishing red from green colors. The fundoscopic photograph above shows bilateral temporal optic disc pallor with normal disc margins and no swelling or hemorrhage. Which option correctly explains the fundoscopic findings, the underlying mechanism of ethambutol optic neuropathy, and the appropriate management?",
+      "options": {
+        "A": "Papilledema from raised intracranial pressure secondary to tuberculous meningitis; manage with mannitol and urgent neuroimaging, with no need to address ethambutol",
+        "B": "Ethambutol optic neuropathy: the fundoscopic finding of bilateral TEMPORAL disc pallor (rather than diffuse pallor) reflects selective, dose-dependent toxic injury to the smaller-caliber axons of the papillomacular bundle within the optic nerve (these fibers, which carry central/macular and color vision information, run through the temporal portion of the optic disc and are believed to be particularly vulnerable to ethambutol's interference with mitochondrial function/zinc-dependent enzyme inhibition, possibly via chelation of zinc or copper required for normal axonal mitochondrial enzyme activity in retinal ganglion cells), explaining the characteristic early symptoms of color vision loss (especially red-green discrimination, tested by Ishihara plates) and decreased visual acuity, typically progressing to bilateral, symmetric, painless visual loss if unrecognized; management is immediate discontinuation of ethambutol (vision often, though not always completely, improves over weeks to months after stopping the drug, though some deficit can be permanent if treatment is delayed) and substitution with an alternative agent in the antitubercular regimen; routine baseline and periodic visual acuity and color vision testing during ethambutol therapy is recommended to detect early toxicity",
+        "C": "Bitemporal hemianopia from a pituitary macroadenoma; manage with transsphenoidal surgery, unrelated to ethambutol",
+        "D": "Optic neuritis from multiple sclerosis; manage with high-dose IV corticosteroids, with continuation of ethambutol at the same dose"
+      },
+      "correct_answer": "B",
+      "explanation": "Ethambutol is a first-line antitubercular agent that inhibits arabinosyl transferase, an enzyme involved in synthesizing arabinogalactan, a key component of the mycobacterial cell wall. Its most important dose-dependent and duration-dependent adverse effect is optic neuropathy, classically affecting the papillomacular bundle \u2014 the tightly packed group of smaller-diameter retinal ganglion cell axons that carry visual information from the macula (responsible for central vision and color discrimination) and which course through the TEMPORAL aspect of the optic nerve head before joining the rest of the optic nerve fibers. This selective vulnerability is thought to relate to ethambutol's chelation of zinc and/or copper, essential cofactors for mitochondrial enzymes (and possibly interference with mitochondrial complex I function) within these metabolically active, smaller-caliber axons, which appear more susceptible to toxic injury than the larger peripheral retinal fibers. Clinically, this manifests early as decreased color vision, particularly impaired red-green discrimination (often the earliest detectable sign, screened using Ishihara color plates), followed by decreased visual acuity and visual field defects (classically central or cecocentral scotomas), typically bilateral and symmetric, and usually painless (distinguishing it from optic neuritis of inflammatory/demyelinating origin, which is often painful, particularly with eye movement). The fundoscopic correlate, especially with continued or unrecognized exposure, is temporal pallor of the optic disc, reflecting atrophy of the papillomacular bundle fibers as they enter the disc temporally \u2014 a finding distinct from diffuse disc pallor (seen in more global optic atrophy) or disc swelling/papilledema (seen in raised intracranial pressure or acute optic neuritis). Management requires prompt recognition and discontinuation of ethambutol, with substitution of an alternative agent in the antitubercular regimen; visual function often improves over weeks to months after cessation, though the degree and completeness of recovery is inversely related to the duration of exposure before the drug is stopped, underscoring the importance of baseline and periodic visual acuity/color vision screening during ethambutol therapy, particularly in patients on higher doses, with renal impairment (reduced clearance), or anticipated prolonged treatment courses.",
+      "image_title": "Fundoscopic Photograph \u2014 Bilateral Temporal Optic Disc Pallor, Ethambutol-Induced Optic Neuropathy",
+      "image_url": "",
+      "key_findings": [
+        "Bilateral, symmetric pallor localized to the temporal aspect of each optic disc, with sparing of the nasal disc region",
+        "Normal disc margins with no elevation, blurring, or swelling \u2014 distinguishing this from papilledema or acute optic neuritis",
+        "No peripapillary hemorrhage, exudate, or vascular engorgement",
+        "Normal-appearing retinal vasculature and macula otherwise",
+        "Clinical correlation: impaired red-green color discrimination and reduced visual acuity in a patient on ethambutol, localizing the lesion to the papillomacular bundle"
+      ]
+    },
+    {
+      "question_id": "TW_PHARMACO_ANTIMICROBIA_Q013",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_PHARMACO_ANTIMICROBIA",
+      "subject": "Pharmacology",
+      "topic": "Antimicrobials",
+      "subtopic": "Amphotericin B Toxicity and Lipid Formulations",
+      "difficulty": "Very Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A patient with disseminated cryptococcal infection is started on conventional amphotericin B deoxycholate. During the infusion, she develops fever, chills, rigors, and headache ('shake and bake' reaction), and over the following days develops worsening renal function, hypokalemia, and hypomagnesemia. Explain BOTH the acute infusion reaction and the renal/electrolyte toxicity mechanistically, and how liposomal amphotericin B formulations mitigate this.",
+      "options": {
+        "A": "Amphotericin B binds ergosterol in fungal cell membranes (its primary antifungal mechanism, forming pores that increase membrane permeability and cause fungal cell death), but because human cell membranes contain the structurally similar sterol cholesterol, amphotericin B also binds host cell membranes with lower but clinically significant affinity, contributing to its toxicity profile. The acute infusion reaction ('shake and bake') results from amphotericin B-induced release of pro-inflammatory cytokines (TNF-alpha, IL-1) from monocytes/macrophages, causing fever and rigors, typically managed with premedication (antipyretics, antihistamines, sometimes hydrocortisone) and slow infusion. The renal toxicity results from direct binding to cholesterol-containing membranes of renal tubular cells, causing increased membrane permeability and dysfunction of distal tubular function \u2014 producing a degree of nephrotoxicity, renal tubular acidosis-like wasting of potassium and magnesium (due to impaired tubular reabsorption), and reduced glomerular filtration via direct renal vasoconstriction. Lipid-based/liposomal formulations encapsulate amphotericin B in a lipid carrier that is preferentially taken up by fungal cells (which actively strip the lipid coat to access the drug) over mammalian cells, reducing free drug exposure to renal tubular and other host cell membranes and substantially reducing both the infusion reaction severity and nephrotoxicity, albeit at higher cost",
+        "B": "Both reactions are due to a classic IgE-mediated allergic mechanism, and liposomal formulations work by blocking IgE receptors",
+        "C": "The renal toxicity is due to crystal-induced obstructive nephropathy similar to acyclovir, unrelated to cholesterol-binding",
+        "D": "Liposomal formulations work by entirely eliminating ergosterol-binding activity, making them less effective antifungals but completely non-toxic"
+      },
+      "correct_answer": "A",
+      "explanation": "Amphotericin B is a polyene antifungal whose primary mechanism of action is binding ergosterol (the predominant sterol in fungal cell membranes, analogous to cholesterol in mammalian membranes), forming transmembrane pores/channels that disrupt membrane integrity, increase permeability to ions (particularly potassium efflux), and cause fungal cell death \u2014 this remains one of the most broadly fungicidal mechanisms among antifungal classes. However, amphotericin B's selectivity for ergosterol over cholesterol is incomplete, since the two sterols are structurally similar; this 'off-target' binding to cholesterol in human cell membranes underlies its substantial toxicity profile. The acute infusion-related reaction ('shake and bake' \u2014 fever, chills, rigors, sometimes hypotension and headache, typically occurring during or shortly after infusion) is mediated by amphotericin B-induced release of pro-inflammatory cytokines (TNF-alpha, IL-1, IL-6) from monocytes and macrophages, and is managed with premedication (acetaminophen/antipyretics, diphenhydramine, sometimes hydrocortisone or meperidine for severe rigors) and by infusing the drug slowly. The dose-limiting nephrotoxicity arises from direct binding to cholesterol-rich membranes of renal tubular epithelial cells (particularly the distal tubule), causing increased membrane permeability that impairs normal tubular reabsorptive function, leading to renal tubular wasting of potassium and magnesium (producing hypokalemia and hypomagnesemia, sometimes with a distal renal tubular acidosis-like picture), as well as direct renal vasoconstriction (afferent arteriolar constriction) that reduces glomerular filtration rate, contributing to acute kidney injury with prolonged or high-dose therapy. Lipid-based formulations (liposomal amphotericin B, amphotericin B lipid complex, amphotericin B colloidal dispersion) encapsulate the drug within a lipid carrier; this lipid coat is preferentially recognized and stripped away by fungal cell wall components (or taken up via mechanisms favoring fungal over mammalian cells), allowing more selective drug delivery to fungal cells while reducing the amount of free drug available to bind host cell (including renal tubular) cholesterol-containing membranes \u2014 substantially reducing both the severity of infusion reactions and the degree of nephrotoxicity compared to conventional amphotericin B deoxycholate, albeit at significantly higher cost, which influences formulation choice based on patient renal function, infection severity, and resource availability."
+    },
+    {
+      "question_id": "TW_PHARMACO_ANTIMICROBIA_Q014",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_PHARMACO_ANTIMICROBIA",
+      "subject": "Pharmacology",
+      "topic": "Antimicrobials",
+      "subtopic": "Multidrug-Resistant Tuberculosis \u2014 Radiographic and Regimen Correlation",
+      "difficulty": "Very Hard",
+      "question_type": "single_best_answer",
+      "image_based": true,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "The chest X-ray shown above, from a patient with a 6-month history of cough, hemoptysis, and weight loss who failed to improve on first-line antitubercular therapy, demonstrates a thick-walled cavitary lesion in the right upper lobe with surrounding fibronodular infiltrates and apical pleural thickening, with sputum subsequently confirmed positive for rifampicin-resistant Mycobacterium tuberculosis by molecular testing (e.g., Xpert MTB/RIF). Which option correctly interprets the radiographic findings in the context of treatment failure and outlines the appropriate next step in management?",
+      "options": {
+        "A": "These findings represent a simple bacterial lung abscess unrelated to tuberculosis; treatment is broad-spectrum antibiotics with no need for further mycobacterial testing",
+        "B": "Rifampicin resistance alone, without isoniazid resistance, requires no change in management and the patient should continue standard first-line therapy",
+        "C": "Cavitary tuberculosis with radiographic findings reflecting classic post-primary (reactivation) pulmonary TB pathology: (1) Thick-walled cavity in the right upper lobe = liquefactive necrosis of caseating granulomas with bronchial communication allowing air entry and high bacillary burden (cavities are associated with high organism load and increased transmissibility); apical/upper lobe predilection reflects the relatively higher oxygen tension in these regions, favoring growth of the obligate aerobic M. tuberculosis; (2) Surrounding fibronodular infiltrates = healing/fibrotic response and satellite granulomas; (3) Apical pleural thickening = chronic pleural inflammatory reaction. Rifampicin resistance (detected by Xpert MTB/RIF, which detects mutations in the rpoB gene encoding the RNA polymerase beta subunit, rifampicin's target) is used as a rapid surrogate marker for multidrug-resistant TB (MDR-TB, defined as resistance to at least both isoniazid and rifampicin) because rifampicin resistance and isoniazid resistance are very frequently co-associated; this patient requires referral for a WHO-recommended MDR-TB regimen \u2014 historically composed of a longer multidrug regimen including a fluoroquinolone (levofloxacin/moxifloxacin) plus second-line injectable or newer oral agents (bedaquiline, linezolid, clofazimine), increasingly with all-oral shorter regimens now preferred (e.g., bedaquiline-pretomanid-linezolid-based regimens) rather than continuing or modifying first-line therapy",
+        "D": "The cavitary lesion indicates primary (childhood-pattern) tuberculosis, and the apical location is incidental with no pathophysiological significance"
+      },
+      "correct_answer": "C",
+      "explanation": "Post-primary (reactivation or progressive primary) pulmonary tuberculosis classically involves the apical and posterior segments of the upper lobes (and the superior segment of the lower lobes), a distribution attributed to the relatively higher regional oxygen tension in these areas, which favors growth of Mycobacterium tuberculosis, an obligate aerobe. The thick-walled cavity seen on this chest X-ray represents liquefactive necrosis of confluent caseating granulomas with erosion into and communication with an adjacent bronchus, allowing air to enter and form a visible air-fluid or air-filled cavity on imaging; cavitary disease is clinically significant because it is associated with a very high mycobacterial burden and is the form of pulmonary TB most strongly associated with infectiousness/transmissibility (high bacillary load in expectorated sputum). Surrounding fibronodular infiltrates reflect a combination of active granulomatous inflammation and chronic fibrotic healing response, while apical pleural thickening reflects chronic pleural inflammatory involvement adjacent to the underlying parenchymal disease. Clinically, treatment failure on first-line therapy with subsequent detection of rifampicin resistance (commonly via rapid molecular testing such as Xpert MTB/RIF, which detects mutations in the rpoB gene encoding the beta subunit of bacterial RNA polymerase, the target of rifampicin) is used programmatically as a rapid surrogate marker for multidrug-resistant TB (MDR-TB, formally defined as resistance to at least both isoniazid and rifampicin), because the two resistances are very frequently linked in clinical isolates, allowing rapid initiation of appropriate therapy without waiting for full phenotypic susceptibility testing (which takes weeks). Such patients require treatment with a WHO-recommended regimen for rifampicin-resistant/MDR-TB rather than continuation of standard first-line therapy (isoniazid, rifampicin, ethambutol, pyrazinamide) \u2014 current WHO guidance increasingly favors shorter, all-oral regimens built around newer/repurposed agents such as bedaquiline (a diarylquinoline ATP synthase inhibitor), pretomanid, and linezolid (often termed BPaL or BPaLM regimens, the latter including moxifloxacin), reflecting a shift away from older, longer regimens that relied heavily on injectable second-line agents (aminoglycosides/capreomycin) with significant associated toxicity (nephrotoxicity, ototoxicity).",
+      "image_title": "Chest X-ray \u2014 Cavitary Right Upper Lobe Tuberculosis with Rifampicin Resistance",
+      "image_url": "",
+      "key_findings": [
+        "Thick-walled cavitary lesion in the right upper lobe, reflecting liquefactive necrosis with bronchial communication and high bacillary burden",
+        "Surrounding fibronodular infiltrates representing a mix of active granulomatous inflammation and fibrotic healing",
+        "Apical pleural thickening consistent with chronic pleural inflammatory involvement",
+        "Apical/upper lobe predominance, the classic distribution of post-primary (reactivation) pulmonary tuberculosis attributed to higher regional oxygen tension",
+        "No mediastinal lymphadenopathy or miliary pattern \u2014 distinguishing this from primary or disseminated/miliary TB patterns"
+      ]
+    },
+    {
+      "question_id": "TW_PHARMACO_ANTIMICROBIA_Q015",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_PHARMACO_ANTIMICROBIA",
+      "subject": "Pharmacology",
+      "topic": "Antimicrobials",
+      "subtopic": "Beta-Lactam Pharmacodynamics \u2014 Time-Dependent Killing",
+      "difficulty": "Very Hard",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A pharmacokinetic/pharmacodynamic (PK/PD) study compares two dosing strategies for piperacillin-tazobactam in a critically ill patient with Pseudomonas aeruginosa sepsis: (1) standard intermittent infusion of the same total daily dose given as short infusions every 8 hours, versus (2) the same total daily dose given as a prolonged/extended infusion (e.g., over 3\u20134 hours per dose) or continuous infusion. Which option correctly explains the pharmacodynamic rationale for why the extended/continuous infusion strategy may improve outcomes for this time-dependent antibiotic, particularly against organisms with elevated minimum inhibitory concentrations (MICs)?",
+      "options": {
+        "A": "Beta-lactams exhibit concentration-dependent killing, so the peak concentration (Cmax/MIC ratio) is the primary determinant of efficacy, making infusion duration irrelevant",
+        "B": "Aminoglycoside-style once-daily dosing principles apply equally to beta-lactams, so extended infusion provides no theoretical advantage",
+        "C": "The AUC/MIC ratio is the sole pharmacodynamic determinant for beta-lactams, identical to fluoroquinolones, making infusion strategy clinically irrelevant",
+        "D": "Beta-lactams (penicillins, cephalosporins, carbapenems) exhibit TIME-DEPENDENT bactericidal activity, meaning efficacy correlates best with the percentage of the dosing interval during which free drug concentration remains ABOVE the minimum inhibitory concentration (%fT>MIC), rather than peak concentration or total AUC exposure alone \u2014 this is because beta-lactams act by inhibiting penicillin-binding proteins involved in continuous cell wall synthesis/cross-linking, and bacterial killing saturates once concentrations exceed roughly 4\u20135 times the MIC, with further increases in peak concentration providing little additional killing benefit; extended or continuous infusion of the same total daily dose maintains free drug concentrations above the MIC for a GREATER proportion of the dosing interval compared to a short intermittent infusion (which produces a high peak followed by a more prolonged trough period below MIC as the drug is eliminated), which is particularly advantageous for organisms with higher MICs (e.g., Pseudomonas aeruginosa) where intermittent dosing may allow concentrations to fall below the MIC for a substantial portion of each interval, potentially improving clinical and microbiological outcomes in critically ill patients with altered pharmacokinetics (e.g., increased volume of distribution, augmented renal clearance)"
+      },
+      "correct_answer": "D",
+      "explanation": "Antibiotic pharmacodynamics classifies antimicrobial killing patterns into broad categories that guide optimal dosing strategy: concentration-dependent killing (where efficacy correlates with peak concentration relative to MIC, Cmax/MIC \u2014 exemplified by aminoglycosides and fluoroquinolones, favoring high-dose, infrequent dosing strategies), and time-dependent killing (where efficacy correlates with the duration that free drug concentration remains above the MIC, %fT>MIC \u2014 exemplified by beta-lactams). Beta-lactam antibiotics (penicillins, cephalosporins, carbapenems, monobactams) act by covalently and irreversibly inhibiting penicillin-binding proteins (transpeptidases/carboxypeptidases) involved in ongoing peptidoglycan cross-linking during bacterial cell wall synthesis and turnover \u2014 because this is a continuous, ongoing process (rather than a single saturable binding event), sustained drug exposure above the MIC for a longer duration of the dosing interval translates to more effective inhibition of new cell wall synthesis and greater bactericidal effect, while bacterial killing rates saturate at concentrations only modestly above the MIC (typically 4\u20135 times MIC), meaning that achieving very high peak concentrations provides comparatively little additional killing benefit beyond ensuring the threshold is exceeded for longer. This pharmacodynamic principle underlies the rationale for extended-infusion (e.g., 3\u20134 hour infusions) or continuous-infusion dosing strategies for beta-lactams: by spreading the same total daily dose over a longer infusion duration (or continuously), the free drug concentration remains above the MIC for a substantially greater fraction of the dosing interval compared to a traditional short (30-minute) intermittent infusion, which produces a high early peak but allows concentrations to fall below the MIC for a more prolonged trailing period as the drug is eliminated, particularly problematic for organisms with elevated MICs (e.g., Pseudomonas aeruginosa, certain Enterobacteriaceae) or in critically ill patients with altered pharmacokinetics (increased volume of distribution from fluid resuscitation, augmented renal clearance from a hyperdynamic state) that can lower drug concentrations relative to typical dosing assumptions. Clinical and meta-analytic data, particularly in critically ill and septic patients with pathogens of elevated MIC, have suggested potential mortality and clinical cure benefits with extended/continuous infusion strategies for beta-lactams compared to standard intermittent dosing, though the magnitude of benefit and patient populations most likely to benefit remain areas of ongoing clinical research and guideline refinement."
     }
   ]
 }

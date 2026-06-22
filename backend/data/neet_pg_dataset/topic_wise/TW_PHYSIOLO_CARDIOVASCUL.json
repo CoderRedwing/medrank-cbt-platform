@@ -5,7 +5,10 @@
   "topic": "Cardiovascular Physiology",
   "total_questions": 18,
   "difficulty_distribution": {
-    "Easy": 18
+    "Easy": 3,
+    "Medium": 4,
+    "Hard": 7,
+    "Very Hard": 4
   },
   "created_at": "2026-05-30",
   "questions": [
@@ -15,137 +18,137 @@
       "paper_ref": "TW_PHYSIOLO_CARDIOVASCUL",
       "subject": "Physiology",
       "topic": "Cardiovascular Physiology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Jugular Venous Pulse",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "JVP: which component corresponds to atrial contraction?",
+      "question_text": "A 68-year-old man is evaluated for dyspnea and leg swelling. On examination, his JVP shows a prominent 'a' wave that is cannon in nature — seen intermittently with no fixed relationship to the carotid pulse. His heart rate is irregular. Which of the following best explains this JVP finding?",
       "options": {
-        "A": "c wave",
-        "B": "v wave",
-        "C": "a wave",
-        "D": "x descent"
+        "A": "Severe tricuspid regurgitation causing reversed flow into the jugular veins",
+        "B": "Complete heart block with atria contracting against a closed tricuspid valve",
+        "C": "Atrial fibrillation causing irregular ventricular rate with absent 'a' waves",
+        "D": "Cardiac tamponade with equalization of diastolic pressures"
       },
-      "correct_answer": "C",
-      "explanation": "JVP waves: a=atrial contraction, c=tricuspid valve closure (small), v=venous filling during ventricular systole, x=atrial relaxation, y=tricuspid opens. Absent a wave: AF. Giant a: pulmonary hypertension."
+      "correct_answer": "B",
+      "explanation": "JVP waveform components: 'a' wave = atrial contraction (presystolic); 'c' wave = tricuspid valve closure and bulging into right atrium (small, often not seen); 'x' descent = atrial relaxation + tricuspid valve descent during ventricular systole; 'v' wave = venous filling while tricuspid is closed during systole; 'y' descent = tricuspid opens, blood flows into RV. CANNON 'a' WAVES: Occur when the right atrium contracts against a CLOSED tricuspid valve — the pressure wave cannot go forward, so it is transmitted back into the jugular veins as a large visible pulsation. Intermittent cannon 'a' waves with irregular rhythm + no fixed P-QRS relationship = COMPLETE HEART BLOCK (third-degree AV block). The atria fire independently; occasionally an atrial contraction coincides with a closed AV valve during ventricular systole → cannon wave. Regular cannon 'a' waves occur in: Nodal (junctional) rhythm (fixed P-QRS relationship). Option A — Tricuspid regurgitation: causes large SYSTOLIC 'v' waves (not cannon 'a' waves). Option C — Atrial fibrillation: ABSENT 'a' waves (no organized atrial contraction), irregular rhythm but no cannon waves. Option D — Cardiac tamponade: shows elevated JVP with prominent 'x' descent but no cannon 'a' waves. NEET PG/INI-CET Pearl: Cannon 'a' waves + irregular rhythm = complete heart block. Cannon 'a' waves + regular rhythm = junctional rhythm or ventricular pacing. Absent 'a' waves = atrial fibrillation."
     },
     {
       "question_id": "TW_PHYSIOLO_CARDIOVASCUL_Q002",
       "paper_type": "topic_wise",
       "paper_ref": "TW_PHYSIOLO_CARDIOVASCUL",
       "subject": "Physiology",
-      "topic": "General Physiology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "Cardiovascular Physiology",
+      "subtopic": "Cardiac Cycle - Pressure-Volume Relationships",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A 52-year-old diabetic male presents with fever, hypotension, and tachycardia. Most likely organism?",
+      "question_text": "A 55-year-old man with hypertension undergoes cardiac catheterization. The pressure-volume (PV) loop of his left ventricle shows a taller, narrower loop compared to a normal subject, with an increased slope of the end-systolic pressure-volume relationship (ESPVR). The end-diastolic volume is normal, but peak systolic pressure is elevated. Which of the following best describes his cardiac physiology?",
       "options": {
-        "A": "Staphylococcus aureus",
-        "B": "Klebsiella",
-        "C": "Pseudomonas",
-        "D": "E. coli"
+        "A": "Increased preload with normal contractility and normal afterload",
+        "B": "Increased contractility (positive inotropy) with normal preload and afterload",
+        "C": "Increased afterload (pressure overload) with normal contractility",
+        "D": "Decreased contractility with compensatory increase in preload"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Physiology concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "C",
+      "explanation": "Understanding PV loop changes is fundamental to cardiovascular physiology. Normal PV loop: The loop moves counter-clockwise. Width = stroke volume. Height = systolic pressure developed. Slope of ESPVR = contractility (Emax). Effect of INCREASED AFTERLOAD (pressure overload — as in hypertension): The ventricle must develop higher pressure to open the aortic valve. The PV loop becomes TALLER (higher systolic pressure) and NARROWER (reduced stroke volume because the ventricle empties less against higher resistance). End-diastolic volume (preload) may initially remain normal. ESPVR slope (contractility) is UNCHANGED — contractility is intrinsically normal in pure pressure overload. Over time: LV hypertrophy develops as a compensatory response. Key differentiations: Increased contractility: Taller loop, WIDER, ESPVR slope INCREASES, same or lower EDV. Increased preload (volume overload): Loop shifts RIGHT, wider, ESPVR slope unchanged. Decreased contractility: Loop shifts right, narrower, ESPVR slope DECREASES. Option A — Increased preload: would show rightward shift with wider loop, not taller/narrower. Option B — Increased contractility: ESPVR slope would steepen AND loop would be wider, not narrower. Option D — Decreased contractility: ESPVR slope would decrease, loop would be wider (higher EDV). NEET PG/INI-CET Pearl: PV loop analysis is a very high-yield topic — understand the 4 corners of the loop: (1) mitral valve opens, (2) isovolumetric relaxation ends, (3) aortic valve opens, (4) isovolumetric contraction begins."
     },
     {
       "question_id": "TW_PHYSIOLO_CARDIOVASCUL_Q003",
       "paper_type": "topic_wise",
       "paper_ref": "TW_PHYSIOLO_CARDIOVASCUL",
       "subject": "Physiology",
-      "topic": "General Physiology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "Cardiovascular Physiology",
+      "subtopic": "Ventricular Action Potential - Phase Analysis",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A patient presents with altered sensorium, ataxia, and ophthalmoplegia. Most likely organism?",
+      "question_text": "A cardiologist is reviewing the mechanism of a new antiarrhythmic drug. The drug prolongs the action potential duration and effective refractory period by selectively blocking the rapid delayed rectifier potassium channel (IKr) responsible for phase 3 repolarization. Which class of antiarrhythmic does this mechanism correspond to, and what is the key ECG manifestation?",
       "options": {
-        "A": "Staphylococcus aureus",
-        "B": "Klebsiella",
-        "C": "Pseudomonas",
-        "D": "E. coli"
+        "A": "Class I (Na+ channel blocker) — prolongs QRS duration",
+        "B": "Class III (K+ channel blocker) — prolongs QT interval",
+        "C": "Class II (beta-blocker) — slows SA node automaticity, prolongs PR interval",
+        "D": "Class IV (Ca2+ channel blocker) — prolongs PR interval, no QT effect"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Physiology concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "Cardiac ventricular action potential phases: Phase 0: Rapid Na+ influx (upstroke) — blocked by Class I agents. Phase 1: Early rapid repolarization (transient outward K+ current, Ito). Phase 2: Plateau — balanced slow Ca2+ influx (L-type) and K+ efflux (IKs). Phase 3: Rapid repolarization — primarily IKr (rapid delayed rectifier K+ current) and IKs (slow delayed rectifier K+ current). Phase 4: Resting membrane potential (maintained by IK1 — inward rectifier K+ channel). Class III Antiarrhythmics (K+ channel blockers): Block IKr (and sometimes IKs) → delay Phase 3 repolarization → prolonged action potential duration (APD) → prolonged effective refractory period (ERP) → QT interval prolongation on ECG. Examples: Amiodarone, Sotalol, Dofetilide, Ibutilide. Risk: QT prolongation → Torsades de Pointes (TdP) — a potentially fatal polymorphic VT. Option A — Class I: blocks Na+ channels → slows Phase 0 → widens QRS (not QT). Option C — Class II: beta-blockers slow SA node automaticity (phase 4 slope in pacemaker cells) → bradycardia, prolonged PR. Option D — Class IV: Ca2+ channel blockers slow AV node conduction → prolonged PR interval. NEET PG High-Yield: QT prolongation risk drugs: Class III antiarrhythmics, some antihistamines (terfenadine), antibiotics (erythromycin, azithromycin, fluoroquinolones), antipsychotics (haloperidol, thioridazine), antimalarials (chloroquine, quinine)."
     },
     {
       "question_id": "TW_PHYSIOLO_CARDIOVASCUL_Q004",
       "paper_type": "topic_wise",
       "paper_ref": "TW_PHYSIOLO_CARDIOVASCUL",
       "subject": "Physiology",
-      "topic": "General Physiology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "Cardiovascular Physiology",
+      "subtopic": "Baroreceptor Reflex",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A young woman presents with progressive proximal muscle weakness and rash. Most likely diagnosis?",
+      "question_text": "A 24-year-old healthy medical student stands up quickly from lying down. Within 1–2 seconds, his heart rate increases from 65 to 85 bpm before returning to baseline. Which of the following physiological sequences best describes the sequence of events that triggered this immediate tachycardia?",
       "options": {
-        "A": "Pulmonary embolism",
-        "B": "Acute pancreatitis",
-        "C": "Aortic dissection",
-        "D": "DKA"
+        "A": "Standing → increased venous return → increased CO → baroreceptor activation → sympathetic inhibition",
+        "B": "Standing → venous pooling in lower limbs → reduced venous return → reduced CO → reduced baroreceptor firing → sympathetic activation → tachycardia",
+        "C": "Standing → carotid chemoreceptor activation by hypoxia → tachycardia via vagal withdrawal",
+        "D": "Standing → aortic stretch → increased baroreceptor firing → vagal activation → tachycardia"
       },
-      "correct_answer": "C",
-      "explanation": "Integrated Physiology concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "This describes the BARORECEPTOR REFLEX (Bainbridge reflex inverse in this context) governing postural cardiovascular compensation. Sequence on standing (orthostatic stress): Gravity causes venous pooling in lower extremities (500–700 mL shift). Reduced venous return → decreased right atrial filling → decreased cardiac output → decreased arterial blood pressure (MAP falls). Carotid sinus and aortic arch baroreceptors (mechanoreceptors) REDUCE their firing rate (less stretch). Nucleus tractus solitarius (NTS) in medulla receives reduced afferent input → REDUCES tonic vagal inhibition and INCREASES sympathetic outflow. Result: Increased heart rate (sympathetic + vagal withdrawal), increased contractility, vasoconstriction — restoring BP. Typical postural heart rate response: Orthostatic hypotension defined as: systolic BP drop ≥20 mmHg or diastolic ≥10 mmHg within 3 minutes of standing. Normally compensated within seconds. Option A — INCORRECT: Standing causes REDUCED (not increased) venous return. Option C — INCORRECT: Chemoreceptors respond to hypoxia/hypercapnia, not orthostatic change. Option D — INCORRECT: Aortic stretch INCREASES baroreceptor firing → slows heart rate (opposite). NEET PG/INI-CET Pearl: Baroreceptors are HIGH-PRESSURE receptors in carotid sinus (CN IX, Hering's nerve) and aortic arch (CN X). Respond to STRETCH. Increased stretch → increased firing → vagal activation → bradycardia/vasodilation. Orthostatic tachycardia is mediated by REDUCED baroreceptor firing."
     },
     {
       "question_id": "TW_PHYSIOLO_CARDIOVASCUL_Q005",
       "paper_type": "topic_wise",
       "paper_ref": "TW_PHYSIOLO_CARDIOVASCUL",
       "subject": "Physiology",
-      "topic": "General Physiology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "Cardiovascular Physiology",
+      "subtopic": "Microcirculation - Starling Forces",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A patient presents with sudden painless loss of vision. Most likely organism?",
+      "question_text": "A 45-year-old man with nephrotic syndrome develops massive bilateral leg edema. His serum albumin is 1.5 g/dL (normal: 3.5–5.0 g/dL). Which alteration in Starling forces best explains the pathogenesis of his edema?",
       "options": {
-        "A": "Staphylococcus aureus",
-        "B": "Klebsiella",
-        "C": "Pseudomonas",
-        "D": "E. coli"
+        "A": "Increased capillary hydrostatic pressure due to venous obstruction",
+        "B": "Decreased plasma oncotic pressure due to hypoalbuminemia, favoring net filtration",
+        "C": "Increased interstitial oncotic pressure due to lymphatic obstruction",
+        "D": "Increased capillary permeability due to inflammatory mediators"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Physiology concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "Starling's Law of Capillary Exchange: Net filtration pressure (NFP) = (Pc - Pi) - σ(πc - πi) Where: Pc = capillary hydrostatic pressure (pushes fluid OUT), Pi = interstitial hydrostatic pressure (pushes fluid IN), πc = capillary (plasma) oncotic pressure (pulls fluid IN), πi = interstitial oncotic pressure (pulls fluid OUT). At the ARTERIOLAR END: Pc ≈ 35 mmHg, πc ≈ 28 mmHg → net outward filtration. At the VENULAR END: Pc ≈ 15 mmHg, πc ≈ 28 mmHg → net inward absorption. In NEPHROTIC SYNDROME: Massive proteinuria → loss of albumin → severe hypoalbuminemia. Plasma oncotic pressure (πc) falls dramatically from ~28 to <10 mmHg. Result: Reduced inward oncotic force → NFP becomes positive throughout the capillary length → NET OUTWARD FILTRATION exceeds lymphatic drainage capacity → EDEMA. Types of edema by mechanism: Increased Pc: cardiac edema (raised venous pressure), venous obstruction, DVT. Decreased πc: nephrotic syndrome, liver failure (reduced albumin synthesis), protein malnutrition (kwashiorkor). Increased capillary permeability: inflammation, anaphylaxis, burns. Lymphatic obstruction: filariasis (elephantiasis), post-mastectomy. Option A — Increased Pc: mechanism of cardiac edema, not nephrotic. Option C — Increased interstitial oncotic pressure: mechanism of lymphatic obstruction edema (filariasis). Option D — Increased permeability: mechanism of inflammatory edema. NEET PG High-Yield: Nephrotic syndrome = protein-losing nephropathy → hypoalbuminemia → reduced πc → edema + ascites + pleural effusion (anasarca)."
     },
     {
       "question_id": "TW_PHYSIOLO_CARDIOVASCUL_Q006",
       "paper_type": "topic_wise",
       "paper_ref": "TW_PHYSIOLO_CARDIOVASCUL",
       "subject": "Physiology",
-      "topic": "General Physiology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "Cardiovascular Physiology",
+      "subtopic": "Coronary Circulation",
+      "difficulty": "Very Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A patient develops sudden severe tearing chest pain radiating to the back. Underlying mechanism?",
+      "question_text": "A 62-year-old man undergoes exercise stress testing. At peak exercise, his heart rate is 160 bpm and systolic blood pressure is 185 mmHg. Which of the following best describes how myocardial oxygen demand is met during peak exercise, and why is the left ventricular subendocardium particularly vulnerable to ischemia?",
       "options": {
-        "A": "Autoimmune destruction",
-        "B": "Type I hypersensitivity",
-        "C": "Fat necrosis",
-        "D": "Toxin-mediated injury"
+        "A": "Coronary blood flow increases only via tachycardia-mediated increase in diastolic filling time",
+        "B": "Coronary blood flow increases via metabolic vasodilation during diastole; the subendocardium is vulnerable because it receives flow only during systole",
+        "C": "Coronary blood flow can increase 4–5 fold via metabolic vasodilation (adenosine, NO); subendocardium is vulnerable as it has higher wall stress, shorter diastolic perfusion time relative to demand, and is compressed during systole",
+        "D": "Coronary flow is primarily controlled by sympathetic vasoconstriction; subendocardium has higher oxygen extraction reserve than epicardium"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Physiology concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "C",
+      "explanation": "CORONARY CIRCULATION — High-Yield Physiology: Unique features of coronary blood flow: The LV is perfused PRIMARILY DURING DIASTOLE (systolic compression of intramural vessels nearly stops LV flow during systole). Coronary blood flow at rest: ~250 mL/min (4–5% of CO). Maximum coronary vasodilation can increase flow 4–5x (coronary flow reserve). Metabolic control dominates: Adenosine (from ATP breakdown in ischemia), NO (from endothelium), CO2, K+, H+ — all cause coronary vasodilation. Why subendocardium is most vulnerable to ischemia: Higher wall stress (by Laplace's law: wall stress ∝ pressure × radius / wall thickness — subendocardium has less 'thickness protection'). Greater systolic compression: subendocardial vessels are squeezed more during systole. Shorter effective diastolic perfusion: any tachycardia reduces diastolic time disproportionately. Higher oxygen extraction: myocardium already extracts ~70% O2 at rest (vs skeletal muscle ~30%) — very little extraction reserve. So increased demand MUST be met by increased flow, not increased extraction. At rapid heart rates (as in exercise or tachyarrhythmia): Diastolic perfusion time shortens → subendocardium is at greatest risk for ischemia. Option A — INCORRECT: tachycardia actually REDUCES diastolic filling time and worsens subendocardial perfusion. Option B — INCORRECT: coronary flow occurs during diastole for the LV (not systole). Option D — INCORRECT: sympathetic activation causes metabolic vasodilation DESPITE alpha-vasoconstriction; subendocardium has LESS extraction reserve than epicardium. NEET PG/INI-CET Clinical Correlation: Subendocardial ischemia: ST depression on ECG. Transmural ischemia: ST elevation. Subendocardial infarction: NSTEMI. Transmural infarction: STEMI."
     },
     {
       "question_id": "TW_PHYSIOLO_CARDIOVASCUL_Q007",
@@ -153,137 +156,146 @@
       "paper_ref": "TW_PHYSIOLO_CARDIOVASCUL",
       "subject": "Physiology",
       "topic": "Cardiovascular Physiology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Cardiac Output - Fick's Principle",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Normal cardiac output at rest?",
+      "question_text": "A 70 kg resting adult has the following measurements: oxygen consumption (VO2) = 250 mL/min, arterial oxygen content (CaO2) = 200 mL/L, mixed venous oxygen content (CvO2) = 150 mL/L. Using Fick's principle, what is his cardiac output, and how does this change during maximal exercise (VO2 increases to 3500 mL/min, CaO2 remains 200 mL/L, CvO2 falls to 50 mL/L)?",
       "options": {
-        "A": "2-3 L/min",
-        "B": "4-6 L/min",
-        "C": "8-10 L/min",
-        "D": "1-2 L/min"
+        "A": "Rest: 5 L/min; Exercise: 23.3 L/min",
+        "B": "Rest: 5 L/min; Exercise: 15 L/min",
+        "C": "Rest: 2.5 L/min; Exercise: 10 L/min",
+        "D": "Rest: 5 L/min; Exercise: 35 L/min"
       },
-      "correct_answer": "B",
-      "explanation": "Normal CO: 4-6 L/min (average 5L). CO = HR × SV. Cardiac index = CO/BSA = 2.5-4 L/min/m². Reduced in heart failure. Fick's principle: CO = VO2/(CaO2 - CvO2)."
+      "correct_answer": "A",
+      "explanation": "Fick's Principle: Cardiac Output (CO) = VO2 / (CaO2 - CvO2) At REST: CO = 250 mL/min ÷ (200 - 150) mL/L = 250 ÷ 50 = 5 L/min. This matches the normal resting CO of 4–6 L/min. At MAXIMAL EXERCISE: CO = 3500 ÷ (200 - 50) = 3500 ÷ 150 = 23.3 L/min. Cardiac output at maximal exercise in trained athletes can reach 20–40 L/min. Note: The arteriovenous oxygen difference (CaO2 - CvO2) widens during exercise as tissues extract more oxygen (CvO2 falls). Cardiac index = CO / BSA (normal 2.5–4.0 L/min/m²). CO = Heart Rate × Stroke Volume. At exercise: both HR (up to 200 bpm) and SV increase → CO increases 4–5x. Determinants of cardiac output: Preload (Frank-Starling), Afterload, Contractility, Heart rate. Option B — INCORRECT: 15 L/min uses incorrect calculation. Option C — INCORRECT: resting CO calculated as 2.5 — error in conversion. Option D — INCORRECT: 35 L/min would require CO/oxygen difference mismatch. NEET PG Pearl: Fick's principle is the GOLD STANDARD for measuring cardiac output during cardiac catheterization. Also tested: thermodilution method (Swan-Ganz catheter), indicator dilution, echocardiography."
     },
     {
       "question_id": "TW_PHYSIOLO_CARDIOVASCUL_Q008",
       "paper_type": "topic_wise",
       "paper_ref": "TW_PHYSIOLO_CARDIOVASCUL",
       "subject": "Physiology",
-      "topic": "General Physiology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "Cardiovascular Physiology",
+      "subtopic": "Cardiac Cycle - Heart Sounds",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
-      "image_based": false,
+      "image_based": true,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A chronic alcoholic presents with abdominal pain radiating to the back. Underlying mechanism?",
+      "image_title": "Cardiac Cycle - Wiggers Diagram",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Wiggers_Diagram_2.svg/800px-Wiggers_Diagram_2.svg.png",
+      "key_findings": [
+        "Aortic pressure curve shows dicrotic notch corresponding to aortic valve closure (S2)",
+        "Left ventricular pressure rises steeply during isovolumetric contraction before aortic valve opens",
+        "Period between mitral valve closure and aortic valve opening = isovolumetric contraction (no volume change)",
+        "S1 corresponds to mitral and tricuspid valve closure at onset of systole",
+        "S3 (if present) occurs during rapid ventricular filling phase in early diastole"
+      ],
+      "question_text": "Referring to the Wiggers diagram shown, a 45-year-old man presents with dyspnea. On auscultation, an additional heart sound is heard 0.12–0.18 seconds after S2, best heard at the apex with the bell of the stethoscope. It is a low-pitched sound occurring during the rapid ventricular filling phase. What does this sound represent, and what is its most likely clinical significance in this patient?",
       "options": {
-        "A": "Autoimmune destruction",
-        "B": "Type I hypersensitivity",
-        "C": "Fat necrosis",
-        "D": "Toxin-mediated injury"
+        "A": "S4 (atrial gallop) — caused by atrial contraction into a non-compliant ventricle; indicates diastolic dysfunction",
+        "B": "S3 (ventricular gallop) — caused by sudden deceleration of blood flow during rapid filling; pathological in adults >40 years, indicates volume overload or LV dysfunction",
+        "C": "Opening snap — high-pitched sound from sudden mitral valve leaflet tensioning; indicates mitral stenosis",
+        "D": "Ejection click — early systolic sound from aortic valve opening; indicates bicuspid aortic valve"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Physiology concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "Heart sounds and their physiological basis: S1 (lub): Closure of mitral (M1) + tricuspid (T1) valves at beginning of systole. M1 precedes T1. Best heard: apex (mitral area). S2 (dub): Closure of aortic (A2) + pulmonary (P2) valves at end of systole. A2 precedes P2. Best heard: base of heart. S3 (ventricular gallop): Low-pitched, best heard with bell at apex. Occurs 0.12–0.18 seconds AFTER S2. Generated by sudden DECELERATION of blood entering the ventricle during the rapid filling phase of diastole — caused by the ventricle suddenly reaching its limits of distensibility or by excessive filling. Physiological S3: Normal in children and young adults <30 years (high filling rate, compliant ventricle). Pathological S3 in adults >40 years: indicates: LV failure (increased LVEDP, dilated LV), Volume overload (MR, AR, VSD). S4 (atrial gallop): Low-pitched, heard just BEFORE S1 (presystolic). Caused by atrial contraction into a STIFF, non-compliant ventricle. Associated with: LVH, hypertension, hypertrophic cardiomyopathy, aortic stenosis, ischemic heart disease. Option A — S4: PRESYSTOLIC (before S1), not after S2. Option C — Opening snap: HIGH-pitched, occurs after S2 but is sharp and high-pitched, not low-pitched; indicates mitral stenosis. Option D — Ejection click: EARLY SYSTOLIC (after S1), not after S2. NEET PG High-Yield: 'Kentucky' = S3 gallop. 'Tennessee' = S4 gallop. Both together = summation gallop."
     },
     {
       "question_id": "TW_PHYSIOLO_CARDIOVASCUL_Q009",
       "paper_type": "topic_wise",
       "paper_ref": "TW_PHYSIOLO_CARDIOVASCUL",
       "subject": "Physiology",
-      "topic": "General Physiology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "Cardiovascular Physiology",
+      "subtopic": "Vascular Physiology - Resistance and Flow",
+      "difficulty": "Very Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A patient presents with sudden painless loss of vision. Underlying mechanism?",
+      "question_text": "A vascular physiologist is studying the hemodynamics of a vessel. Vessel A has a radius of 2 mm. Vessel B has a radius of 1 mm, same length, same driving pressure, same blood viscosity. According to Poiseuille's Law, what is the ratio of blood flow through Vessel A to Vessel B, and what does this explain about arteriolar vasoconstriction in peripheral vascular resistance?",
       "options": {
-        "A": "Autoimmune destruction",
-        "B": "Type I hypersensitivity",
-        "C": "Fat necrosis",
-        "D": "Toxin-mediated injury"
+        "A": "Flow A:B = 2:1 — resistance is inversely proportional to radius",
+        "B": "Flow A:B = 4:1 — resistance is inversely proportional to radius squared",
+        "C": "Flow A:B = 16:1 — resistance is inversely proportional to the fourth power of radius",
+        "D": "Flow A:B = 8:1 — resistance is inversely proportional to the cube of radius"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Physiology concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "C",
+      "explanation": "POISEUILLE'S LAW: Q = (π × r⁴ × ΔP) / (8 × η × L) Where: Q = flow, r = radius, ΔP = pressure gradient, η = viscosity, L = length. The critical relationship: Flow is proportional to the FOURTH POWER of the radius (r⁴). Calculation: Vessel A (r = 2 mm): Q_A ∝ 2⁴ = 16. Vessel B (r = 1 mm): Q_B ∝ 1⁴ = 1. Ratio Q_A : Q_B = 16:1. The radius doubles → flow increases 16-fold (not 2-fold). Resistance (R) = (8 × η × L) / (π × r⁴) → R is inversely proportional to r⁴. Clinical significance — Arteriolar vasoconstriction: Arterioles are the PRIMARY SITE of peripheral vascular resistance regulation. A small reduction in arteriolar radius (e.g., 20% reduction) causes: (0.8)⁴ = 0.41 → 59% INCREASE in resistance. This is why small changes in arteriolar tone cause DRAMATIC changes in total peripheral resistance and blood pressure. Vasoconstriction (sympathetic, angiotensin II, endothelin) → ↑ TPR → ↑ MAP. Vasodilation (NO, prostacyclin, adenosine) → ↓ TPR → ↓ MAP. Option A — 2:1: this is the linear relationship, NOT Poiseuille's. Option B — 4:1: this is the square (r²) relationship. Option D — 8:1: this is the cube (r³) relationship. NEET PG High-Yield: Poiseuille's Law: Q ∝ r⁴. Laplace's Law: T = P × r / (2 × wall thickness). Both are very commonly tested physiological laws."
     },
     {
       "question_id": "TW_PHYSIOLO_CARDIOVASCUL_Q010",
       "paper_type": "topic_wise",
       "paper_ref": "TW_PHYSIOLO_CARDIOVASCUL",
       "subject": "Physiology",
-      "topic": "General Physiology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "Cardiovascular Physiology",
+      "subtopic": "Cardiac Cycle - Isovolumetric Phases",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A patient presents with sudden painless loss of vision. Best initial investigation?",
+      "question_text": "During a cardiology teaching session, a student is asked about the events between the first heart sound (S1) and the opening of the aortic valve. Which of the following best describes what occurs in the left ventricle during this phase, and what measurement is used to assess the efficiency of this phase?",
       "options": {
-        "A": "CT angiography",
-        "B": "MRI",
-        "C": "Ultrasound",
-        "D": "ECG"
+        "A": "Rapid ventricular filling — LV volume increases at constant pressure; measured by mitral valve opening velocity on Doppler",
+        "B": "Isovolumetric contraction — LV pressure rises steeply with NO change in LV volume; duration is used as an index of systolic function (IVCT on tissue Doppler)",
+        "C": "Isovolumetric relaxation — LV pressure falls with no volume change; prolonged in diastolic dysfunction",
+        "D": "Reduced ventricular ejection — LV begins emptying as aortic valve closes"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Physiology concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "THE CARDIAC CYCLE — Sequential Events: Cardiac cycle phases: 1. Atrial systole (presystolic): a wave of JVP; S4 (if present). 2. Isovolumetric Contraction (IVC): Begins at S1 (mitral valve closure). Ends at aortic valve opening (when LV pressure exceeds aortic pressure ~80 mmHg). BOTH aortic AND mitral valves are CLOSED. LV contracts → pressure rises sharply → NO change in volume. Duration: ~50 ms; PROLONGED in poor systolic function. 3. Rapid Ejection: Aortic valve opens → blood ejected rapidly (~70% of stroke volume in first third). 4. Reduced Ejection: Flow decelerates. 5. Protodiastole: Aortic valve closes → S2. 6. Isovolumetric Relaxation (IVR): Both valves closed; LV pressure falls to below LA pressure (~12 mmHg). Ends when mitral valve opens. PROLONGED in diastolic dysfunction (impaired relaxation). 7. Rapid Ventricular Filling: Mitral valve opens → blood flows rapidly into LV → S3 (if present). 8. Diastasis: Slow filling. Clinical measurement: IVCT (Isovolumetric Contraction Time) on tissue Doppler imaging (TDI) — index of systolic function. IVRT (Isovolumetric Relaxation Time) — prolonged in Grade I diastolic dysfunction. Option A — Rapid filling: occurs AFTER mitral valve opens (after IVR), not between S1 and aortic valve opening. Option C — Isovolumetric relaxation: occurs between aortic valve closure (S2) and mitral valve opening. Option D — Reduced ejection: occurs AFTER aortic valve opens. NEET PG Pearl: IVC is between S1 and aortic valve opening. IVR is between S2 and mitral valve opening — both phases have CLOSED valves and NO change in ventricular volume."
     },
     {
       "question_id": "TW_PHYSIOLO_CARDIOVASCUL_Q011",
       "paper_type": "topic_wise",
       "paper_ref": "TW_PHYSIOLO_CARDIOVASCUL",
       "subject": "Physiology",
-      "topic": "General Physiology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "Cardiovascular Physiology",
+      "subtopic": "Cardiac Output - Regulation",
+      "difficulty": "Very Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A chronic smoker presents with hemoptysis and weight loss. Most appropriate management?",
+      "question_text": "A 35-year-old woman is brought to the emergency department after a road traffic accident with an estimated blood loss of 1.5 liters. On examination: BP 90/60 mmHg, HR 130 bpm, cold clammy extremities, JVP not visible. After IV fluid resuscitation, her BP improves to 110/70 mmHg and HR decreases to 95 bpm. Which integrated cardiovascular response sequence best explains the initial compensatory mechanisms and the clinical findings on examination?",
       "options": {
-        "A": "IV fluids and insulin",
-        "B": "Observation",
-        "C": "Steroids only",
-        "D": "Oral antibiotics"
+        "A": "Hemorrhage → increased CO → baroreceptor activation → parasympathetic activation → bradycardia and vasodilation",
+        "B": "Hemorrhage → reduced venous return → reduced CO → reduced baroreceptor firing → sympathetic activation → tachycardia + vasoconstriction + increased contractility + RAAS activation → cold clammy peripheries + low JVP",
+        "C": "Hemorrhage → reduced BP → chemoreceptor activation → peripheral vasodilation → hyperdynamic circulation",
+        "D": "Hemorrhage → increased ADH → vasoconstriction → increased TPR → restored CO without tachycardia"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Physiology concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "HEMORRHAGIC SHOCK — COMPENSATORY PHYSIOLOGY: Step-by-step compensation in Class III hemorrhagic shock (1.5L blood loss, ~30% blood volume): TRIGGER: Hemorrhage → reduced blood volume → reduced venous return (preload) → reduced cardiac output (Frank-Starling) → reduced MAP. BARORECEPTOR RESPONSE: Reduced arterial stretch → reduced baroreceptor firing → NTS inhibition released → Increased sympathetic outflow; Decreased parasympathetic tone. SYMPATHETIC EFFECTS: Heart: Tachycardia (positive chronotropy) + increased contractility (positive inotropy). Blood vessels: Vasoconstriction of skin, muscles, gut, kidneys (↑ TPR) → cold, clammy skin. Selective vasodilation preserved in coronary arteries and brain (autoregulation). HORMONAL: RAAS activation: Angiotensin II → vasoconstriction + aldosterone → Na+/water retention. ADH (vasopressin) release: vasoconstriction + water reabsorption. Catecholamines: epinephrine/norepinephrine from adrenal medulla. CLINICAL FINDINGS EXPLAINED: Tachycardia: sympathetic HR increase. Cold clammy extremities: cutaneous vasoconstriction. Low JVP (non-visible): reduced venous return/hypovolemia. Low BP: compensation insufficient at Class III level. Option A — INCORRECT: hemorrhage does NOT increase CO; parasympathetic activation would worsen (not improve) the response. Option C — INCORRECT: chemoreceptors respond to hypoxia/hypercapnia; vasodilation would be inappropriate. Option D — INCORRECT: ADH alone without tachycardia response is incomplete; tachycardia is the most immediate compensatory mechanism. NEET PG High-Yield: Hemorrhagic shock classes: Class I <750mL, II 750–1500mL, III 1500–2000mL, IV >2000mL. Class III: HR >120, BP low, confused."
     },
     {
       "question_id": "TW_PHYSIOLO_CARDIOVASCUL_Q012",
       "paper_type": "topic_wise",
       "paper_ref": "TW_PHYSIOLO_CARDIOVASCUL",
       "subject": "Physiology",
-      "topic": "General Physiology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "Cardiovascular Physiology",
+      "subtopic": "Special Circulations - Pulmonary",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A child presents with recurrent respiratory tract infections. Most likely diagnosis?",
+      "question_text": "A 50-year-old man living at sea level travels to a high-altitude region (4000 m). After 24 hours, he develops headache, dyspnea at rest, and a dry cough. His SaO2 is 82%. Which unique feature of the PULMONARY circulation (unlike systemic circulation) explains the mechanism that worsens his condition at high altitude?",
       "options": {
-        "A": "Pulmonary embolism",
-        "B": "Acute pancreatitis",
-        "C": "Aortic dissection",
-        "D": "DKA"
+        "A": "High altitude → increased alveolar PO2 → pulmonary vasoconstriction → increased pulmonary blood flow to dependent zones",
+        "B": "High altitude → hypoxia → hypoxic pulmonary vasoconstriction (HPV) → increased pulmonary vascular resistance → pulmonary hypertension → high-altitude pulmonary edema (HAPE)",
+        "C": "High altitude → hyperoxia → pulmonary vasodilation → reduced pulmonary vascular resistance → increased right heart preload",
+        "D": "High altitude → increased sympathetic tone → pulmonary vasodilation → V/Q mismatch"
       },
-      "correct_answer": "C",
-      "explanation": "Integrated Physiology concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "HYPOXIC PULMONARY VASOCONSTRICTION (HPV) — Euler-Liljestrand Mechanism: Unique feature of pulmonary vasculature: In the SYSTEMIC circulation: hypoxia causes VASODILATION (to increase oxygen delivery to hypoxic tissues). In the PULMONARY circulation: hypoxia causes VASOCONSTRICTION — this is physiologically appropriate to redirect blood from poorly ventilated alveoli to well-ventilated regions (V/Q matching). Mechanism: Low alveolar PO2 → inhibition of K+ channels in pulmonary vascular smooth muscle → membrane depolarization → activation of L-type Ca²+ channels → Ca²+ influx → vasoconstriction. At HIGH ALTITUDE: Universally reduced alveolar PO2 (entire lung hypoxic). Global HPV → generalized pulmonary vasoconstriction → ↑ PVR → ↑ pulmonary artery pressure → pulmonary hypertension → HAPE (High-Altitude Pulmonary Edema). HAPE: Non-cardiogenic pulmonary edema (PCWP normal). Symptoms: dyspnea at rest, dry cough, SpO2 low. Treatment: Descent, oxygen, nifedipine (Ca²+ channel blocker reverses HPV), acetazolamide (prophylaxis). Option A — INCORRECT: High altitude causes REDUCED (not increased) alveolar PO2. Option C — INCORRECT: hyperoxia describes the opposite situation; at altitude, PO2 is LOW. Option D — INCORRECT: sympathetic tone causes pulmonary vasoconstriction (not dilation), and HPV is the primary mechanism. NEET PG High-Yield: Only the pulmonary circulation constricts in response to hypoxia. Systemic circulation dilates. This difference is a very frequently tested examination concept."
     },
     {
       "question_id": "TW_PHYSIOLO_CARDIOVASCUL_Q013",
@@ -291,91 +303,100 @@
       "paper_ref": "TW_PHYSIOLO_CARDIOVASCUL",
       "subject": "Physiology",
       "topic": "Cardiovascular Physiology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Frank-Starling Law",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Starling's law: at constant contractility, increased preload causes?",
+      "question_text": "A 60-year-old man with compensated heart failure is given an IV infusion of normal saline. His left ventricular end-diastolic volume (LVEDV) increases from 130 mL to 160 mL, and stroke volume increases from 60 mL to 72 mL. However, when LVEDV is further increased to 200 mL with additional fluids, stroke volume falls to 55 mL. Which concept best explains the fall in stroke volume at very high filling volumes?",
       "options": {
-        "A": "Decreased stroke volume",
-        "B": "Increased stroke volume (up to a point)",
-        "C": "No change in stroke volume",
-        "D": "Decreased cardiac output"
+        "A": "Bowditch effect (Treppe) — increased Ca²+ loading at higher rates reduces contractility",
+        "B": "Descending limb of the Frank-Starling curve — excessive sarcomere stretch reduces cross-bridge formation and contractile force",
+        "C": "Anrep effect — increased afterload at high volumes causes reflex contractility reduction",
+        "D": "Homeometric autoregulation — pressure-dependent reduction in stroke volume independent of fiber length"
       },
       "correct_answer": "B",
-      "explanation": "Frank-Starling mechanism: increased preload (EDV) → increased fiber stretch → increased force of contraction → increased stroke volume. Fails at very high preload (decompensated heart failure)."
+      "explanation": "FRANK-STARLING LAW (Heterometric Autoregulation): The Frank-Starling mechanism states that increased ventricular END-DIASTOLIC VOLUME (preload, fiber stretch) → increased FORCE OF CONTRACTION → increased STROKE VOLUME. This operates via the length-tension relationship: optimal sarcomere length = 2.0–2.2 μm → maximum cross-bridge formation between actin and myosin → maximum force. ASCENDING LIMB: As EDV increases from normal levels → sarcomere stretch → optimal filament overlap → increasing SV. DESCENDING LIMB (over-stretch): At very high EDV → sarcomere over-stretched beyond optimal length (>2.4 μm) → actin and myosin filaments pulled apart → REDUCED cross-bridge formation → REDUCED contractile force → REDUCED stroke volume. Clinical significance: In decompensated heart failure: ventricle operates on descending limb. Aggressive fluid loading can worsen cardiac output by pushing onto the descending limb. Other autoregulatory mechanisms: Bowditch effect (Treppe): Increased HR → increased intracellular Ca²+ → increased contractility (frequency-force relationship). Anrep effect: Increased afterload → initial decrease in SV → stretch of ventricle → recovery of contractility (slow autoregulation). Option A — Bowditch/Treppe: Related to HEART RATE change, not fiber length. Option C — Anrep effect: Related to AFTERLOAD increase, not preload-induced over-stretch. Option D — Homeometric autoregulation: Refers to contractility changes without fiber length change — not this scenario. NEET PG Pearl: Frank-Starling = heterometric autoregulation (hetero = different length). Bowditch/Anrep = homeometric autoregulation (homo = same length with increased force)."
     },
     {
       "question_id": "TW_PHYSIOLO_CARDIOVASCUL_Q014",
       "paper_type": "topic_wise",
       "paper_ref": "TW_PHYSIOLO_CARDIOVASCUL",
       "subject": "Physiology",
-      "topic": "General Physiology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "Cardiovascular Physiology",
+      "subtopic": "Venous Return - Pathophysiology",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A patient develops acute breathlessness after prolonged immobilization. Underlying mechanism?",
+      "question_text": "A 65-year-old man undergoes Valsalva maneuver during an outpatient procedure. During phase II of the Valsalva (sustained straining), his blood pressure falls and heart rate increases. During phase IV (post-release), blood pressure overshoots above baseline and heart rate slows. Which physiological sequence best explains these phase IV changes?",
       "options": {
-        "A": "Autoimmune destruction",
-        "B": "Type I hypersensitivity",
-        "C": "Fat necrosis",
-        "D": "Toxin-mediated injury"
+        "A": "Phase IV: continued sympathetic activation → persistent tachycardia; baroreceptors fail to detect overshoot",
+        "B": "Phase IV: sudden release → intrathoracic pressure normalizes → venous return surges → LV receives accumulated blood → increased CO → BP overshoots → baroreceptor activation → reflex bradycardia",
+        "C": "Phase IV: pulmonary vasoconstriction → right heart overload → paradoxical BP rise with continued tachycardia",
+        "D": "Phase IV: vagal activation from lung inflation reflex causes vasoconstriction and bradycardia"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Physiology concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "VALSALVA MANEUVER — Four Phases: Phase I (onset of straining, ~1–2 sec): Increased intrathoracic pressure → initial rise in BP (mechanical compression of aorta). Phase II (sustained straining): Increased intrathoracic pressure → reduced venous return (IVC compressed) → reduced right heart filling → reduced LV filling (after 1–2 beats) → reduced CO → FALL IN BP. Baroreceptors detect fall → sympathetic activation → TACHYCARDIA + vasoconstriction (partial BP recovery). Phase III (release, ~1 sec): Sudden fall in intrathoracic pressure → venous reservoir expands → initial further BP drop. Phase IV (post-release overshoot): Venous return SURGES back as intrathoracic pressure normalizes → right heart fills → LV receives accumulated venous blood → CO INCREASES → BP OVERSHOOTS above baseline. Baroreceptors detect HYPERTENSION → reflex parasympathetic (vagal) activation → BRADYCARDIA + vasodilation → BP returns to normal. Clinical significance: Normal Valsalva response requires intact baroreceptor reflex arc. Absent overshoot in: autonomic neuropathy (diabetes, Parkinson's), heart failure. Square-wave pattern in heart failure: BP stays elevated throughout (no Phase II drop because elevated venous pressure prevents reduced venous return). Option A — INCORRECT: Phase IV shows BRADYCARDIA (not tachycardia) due to baroreflex-mediated vagal response. Option C — INCORRECT: pulmonary vasoconstriction is not the mechanism. Option D — INCORRECT: lung inflation reflex (Hering-Breuer) relates to respiratory pattern, not this hemodynamic response. NEET PG High-Yield: Square-wave response (no phase II-III drop) in Valsalva = elevated LVEDP = heart failure. Absent overshoot = autonomic neuropathy."
     },
     {
       "question_id": "TW_PHYSIOLO_CARDIOVASCUL_Q015",
       "paper_type": "topic_wise",
       "paper_ref": "TW_PHYSIOLO_CARDIOVASCUL",
       "subject": "Physiology",
-      "topic": "General Physiology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "Cardiovascular Physiology",
+      "subtopic": "Cardiac Cycle - Systolic and Diastolic Function",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
-      "image_based": false,
+      "image_based": true,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A pregnant woman presents with hypertension and proteinuria. Underlying mechanism?",
+      "image_title": "Left Ventricular Pressure-Volume Loop",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Pressure_volume_diagram.svg/800px-Pressure_volume_diagram.svg.png",
+      "key_findings": [
+        "Point A: Mitral valve opens — beginning of ventricular filling (end-systolic volume)",
+        "Point B: Mitral valve closes — onset of isovolumetric contraction (end-diastolic volume)",
+        "Point C: Aortic valve opens — onset of ejection (LV pressure equals aortic diastolic pressure)",
+        "Point D: Aortic valve closes — end of ejection (end-systolic volume at peak pressure)",
+        "Width of loop (B to D along volume axis) = Stroke volume; Height = peak systolic pressure"
+      ],
+      "question_text": "In the pressure-volume loop shown, a new drug is administered that shifts Point B (end-diastolic volume) to the right without changing Point D (end-systolic volume) or the ESPVR slope. What is the expected effect on stroke volume and what mechanism of cardiac compensation does this represent?",
       "options": {
-        "A": "Autoimmune destruction",
-        "B": "Type I hypersensitivity",
-        "C": "Fat necrosis",
-        "D": "Toxin-mediated injury"
+        "A": "Stroke volume decreases — the larger EDV represents pathological dilation",
+        "B": "Stroke volume increases — this represents Frank-Starling (heterometric) compensation via increased preload",
+        "C": "Stroke volume unchanged — only ESPVR slope changes determine stroke volume",
+        "D": "Stroke volume increases — this represents positive inotropic effect increasing contractility"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Physiology concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "PV LOOP ANALYSIS — Effect of Increased Preload: In the PV loop: Stroke Volume (SV) = End-Diastolic Volume (EDV) − End-Systolic Volume (ESV). If Point B (EDV) shifts RIGHT (increased) and Point D (ESV) remains UNCHANGED: SV = New EDV − same ESV = INCREASED stroke volume. The loop becomes WIDER — more blood is ejected per beat. The ESPVR slope (end-systolic pressure-volume relationship) is UNCHANGED → contractility is unchanged. This is the Frank-Starling mechanism (heterometric autoregulation): Increased preload (filling volume) → increased sarcomere stretch → increased cross-bridge formation → increased contractile force → increased SV. Contrast with positive inotropism: Positive inotrope → ESPVR slope STEEPENS → Point D shifts UP and LEFT → ESV DECREASES → SV increases even without changing EDV. The loop becomes taller and wider, but EDV may not change. Option A — INCORRECT: increased EDV with maintained SV is a compensatory, not immediately pathological, response. Option C — INCORRECT: SV is determined by BOTH ESPVR and EDPVR (filling); increased EDV with same ESV → increased SV. Option D — INCORRECT: a positive inotropic effect would shift Point D (end-systolic point) leftward/upward (steeper ESPVR), not just shift Point B. NEET PG/INI-CET Pearl: Frank-Starling = heterometric autoregulation (length-dependent activation). Positive inotropy = homeometric (length-independent). Both increase SV but by different PV loop changes."
     },
     {
       "question_id": "TW_PHYSIOLO_CARDIOVASCUL_Q016",
       "paper_type": "topic_wise",
       "paper_ref": "TW_PHYSIOLO_CARDIOVASCUL",
       "subject": "Physiology",
-      "topic": "General Physiology",
-      "subtopic": null,
+      "topic": "Cardiovascular Physiology",
+      "subtopic": "Blood Pressure Regulation - RAAS",
       "difficulty": "Easy",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A chronic smoker presents with hemoptysis and weight loss. Best initial investigation?",
+      "question_text": "A 55-year-old hypertensive patient has his blood pressure measured at rest. Systolic BP = 140 mmHg, diastolic BP = 90 mmHg. His mean arterial pressure (MAP) is calculated. Additionally, his cardiac output is 5 L/min. Using the relationship MAP = CO × TPR, what is his total peripheral resistance (TPR), and what is his MAP?",
       "options": {
-        "A": "CT angiography",
-        "B": "MRI",
-        "C": "Ultrasound",
-        "D": "ECG"
+        "A": "MAP = 107 mmHg; TPR = 21.4 mmHg·min/L",
+        "B": "MAP = 115 mmHg; TPR = 23.0 mmHg·min/L",
+        "C": "MAP = 107 mmHg; TPR = 18.0 mmHg·min/L",
+        "D": "MAP = 100 mmHg; TPR = 20.0 mmHg·min/L"
       },
       "correct_answer": "A",
-      "explanation": "Integrated Physiology concept designed in NEET PG + INI-CET pattern."
+      "explanation": "MEAN ARTERIAL PRESSURE (MAP) Calculation: MAP = DBP + 1/3 (PP), where Pulse Pressure (PP) = SBP − DBP. PP = 140 − 90 = 50 mmHg. MAP = 90 + (1/3 × 50) = 90 + 16.7 = 106.7 ≈ 107 mmHg. Why 1/3 and not 1/2? Because diastole lasts approximately twice as long as systole (at normal heart rates). So: MAP ≈ diastolic pressure + 1/3 of pulse pressure. TOTAL PERIPHERAL RESISTANCE (TPR): MAP = CO × TPR. TPR = MAP / CO = 107 / 5 = 21.4 mmHg·min/L (or dynes·sec·cm⁻⁵ when converted). Normal MAP: 70–100 mmHg (this patient is mildly hypertensive). Normal TPR: ~15–20 mmHg·min/L at rest. Clinical significance: Hypertension is most often caused by INCREASED TPR (not increased CO) — particularly essential hypertension in which arteriolar vasoconstriction is the primary abnormality. Option B — MAP = 115: incorrect formula application. Option C — TPR = 18.0: uses incorrect MAP. Option D — MAP = 100: incorrect; does not use the 1/3 formula correctly. NEET PG High-Yield: MAP formula is one of the most tested basic cardiovascular calculations. Remember: MAP = DBP + 1/3(PP) = 1/3(SBP) + 2/3(DBP)."
     },
     {
       "question_id": "TW_PHYSIOLO_CARDIOVASCUL_Q017",
@@ -383,45 +404,45 @@
       "paper_ref": "TW_PHYSIOLO_CARDIOVASCUL",
       "subject": "Physiology",
       "topic": "Cardiovascular Physiology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Cardiac Action Potential - SA Node",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "During phase 2 (plateau) of ventricular action potential, main current is?",
+      "question_text": "A 70-year-old patient with sick sinus syndrome is being evaluated. His SA node pacemaker cells show abnormal automaticity. Which combination of ion channel properties is responsible for the normal spontaneous phase 4 depolarization (pacemaker potential) of SA node cells, and why does the SA node have a faster intrinsic rate than the AV node or Purkinje fibers?",
       "options": {
-        "A": "Rapid Na+ influx",
-        "B": "Slow Ca2+ influx and K+ efflux (balanced)",
-        "C": "Rapid K+ efflux",
-        "D": "Na+ efflux"
+        "A": "Phase 4 driven by rapid Na+ influx (fast channels); SA node faster because of larger fast channel density",
+        "B": "Phase 4 driven by: If current (funny current — inward Na+), decreased IK (K+ efflux decreases), and increased ICa,T (T-type Ca²+ channels); SA node is fastest because its maximum diastolic potential is least negative and phase 4 slope is steepest",
+        "C": "Phase 4 driven solely by slow Ca²+ influx through L-type channels; SA faster due to higher sympathetic innervation density",
+        "D": "Phase 4 driven by K+ efflux decreasing progressively; SA node faster because it lacks connexin gap junctions that slow conduction"
       },
       "correct_answer": "B",
-      "explanation": "Phase 2 (plateau): slow Ca2+ influx (L-type Ca channels) balanced by K+ efflux → relatively flat. This phase is unique to cardiac muscle, allows sustained contraction and prevents tetanus."
+      "explanation": "PACEMAKER ACTION POTENTIAL — SA Node: SA node cells (and other pacemaker cells) differ fundamentally from ventricular myocytes: NO stable resting membrane potential — spontaneously depolarize. Maximum diastolic potential (MDP): SA node ≈ −60 mV (less negative than Purkinje: −90 mV). Phase 4 (pacemaker potential / spontaneous depolarization) currents: If (funny current): An inward mixed Na+/K+ current that activates on HYPERPOLARIZATION (hence 'funny'). Mediated by HCN (hyperpolarization-activated cyclic nucleotide-gated) channels. This is the PRIMARY pacemaker current. IK deactivation: Time-dependent decline in K+ efflux → less repolarizing current → net inward shift. ICa,T (T-type Ca²+ channels): Contribute in late phase 4 to threshold. Phase 0 (upstroke): Mediated by SLOW L-type Ca²+ channels (NOT fast Na+ channels — hence SA/AV nodes are unaffected by TTX/lidocaine that blocks Na+ channels). Why SA node is fastest: Least negative MDP (−60 mV vs Purkinje −90 mV) → phase 4 slope reaches threshold sooner. Steepest phase 4 slope. Intrinsic rates: SA node 60–100 bpm, AV node 40–60 bpm, Purkinje 20–40 bpm. Option A — INCORRECT: SA node uses SLOW Ca²+ for Phase 0, not fast Na+ channels. Option C — INCORRECT: If current (not just L-type Ca²+) is the primary pacemaker current; sympathetic density not primary explanation. Option D — INCORRECT: K+ efflux decrease is a contributing factor but not the sole mechanism; gap junctions facilitate conduction between cells, not automaticity. NEET PG High-Yield: SA node = the dominant pacemaker. If (HCN channels) = target of ivabradine (heart rate-lowering drug). Accelerated: catecholamines increase If and L-type Ca²+ current. Slowed: acetylcholine increases IKACh (hyperpolarizes SA node, reduces slope)."
     },
     {
       "question_id": "TW_PHYSIOLO_CARDIOVASCUL_Q018",
       "paper_type": "topic_wise",
       "paper_ref": "TW_PHYSIOLO_CARDIOVASCUL",
       "subject": "Physiology",
-      "topic": "General Physiology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "Cardiovascular Physiology",
+      "subtopic": "Cardiac Output - Exercise Physiology",
+      "difficulty": "Very Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A chronic smoker presents with hemoptysis and weight loss. Underlying mechanism?",
+      "question_text": "A sports medicine physician compares the cardiovascular adaptations of a 25-year-old elite marathon runner (VO2max = 72 mL/kg/min) with an age-matched sedentary individual (VO2max = 40 mL/kg/min). The runner's resting heart rate is 42 bpm vs. 70 bpm for the sedentary person. Both have similar resting MAP. Which of the following best explains the physiological basis for the marathon runner's lower resting heart rate and higher exercise tolerance?",
       "options": {
-        "A": "Autoimmune destruction",
-        "B": "Type I hypersensitivity",
-        "C": "Fat necrosis",
-        "D": "Toxin-mediated injury"
+        "A": "The runner has a lower resting HR because of reduced sympathetic tone due to sedentary behavior during rest",
+        "B": "Chronic endurance training causes LV eccentric hypertrophy → increased SV → same CO achieved at lower HR; higher parasympathetic tone further slows HR; greater peripheral O2 extraction (wider AV O2 difference) during exercise",
+        "C": "The runner has a higher resting HR than the sedentary person because of training-induced increased sympathetic tone",
+        "D": "The runner's lower HR reflects reduced cardiac output, with peripheral compensation fully maintaining oxygen delivery"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Physiology concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "ATHLETE'S HEART — Cardiovascular Adaptations to Endurance Training: Structural changes (eccentric hypertrophy): Increased LV chamber volume (eccentric = increased radius with proportional wall thickening). Increased LV end-diastolic volume (larger preload). Increased stroke volume at REST (80–120 mL vs 60–70 mL in sedentary). Same resting CO at LOWER heart rate: CO = HR × SV. If SV increases, HR can decrease while maintaining CO. Resting HR of 28–42 bpm in elite athletes (not pathological — 'athlete's bradycardia'). Mechanism of bradycardia: Increased parasympathetic (vagal) tone (primary mechanism). Possible intrinsic SA node remodeling (reduced If current). High SV means same CO maintained with lower HR. Exercise capacity (VO2max) determinants: VO2max = CO_max × (AV O2 difference)_max. Trained athletes: Higher CO_max (higher SV + can achieve higher HR). Wider AV O2 difference (greater peripheral O2 extraction — more mitochondria in muscles, greater capillary density). Eccentric hypertrophy (volume overload pattern — as in MR, AR physiologically in athletes) vs Concentric hypertrophy (pressure overload — hypertension, AS) — important distinction. Option A — INCORRECT: lower resting HR in athletes is due to increased parasympathetic tone and increased SV, NOT reduced sympathetic tone from inactivity. Option C — INCORRECT: athletes have LOWER resting HR, not higher. Option D — INCORRECT: resting CO is NORMAL in athletes (not reduced); it is the same CO achieved at lower HR via higher SV. NEET PG/INI-CET Pearl: Athlete's heart: LV dilation + increased SV + bradycardia + high VO2max. Must distinguish from pathological dilated cardiomyopathy (reduced contractility, reduced EF, symptoms)."
     }
   ]
 }
