@@ -146,6 +146,12 @@ export default function LoginPage() {
                 error={fieldErrors.password}
                 disabled={loading}
               />
+              <div style={{ display: 'flex', justifyContent: 'flex-end', marginTop: -10, }}>
+                 <Link to="/forgot-password" style={{ fontSize: 13, color: '#6366f1', 
+                 textDecoration: 'none', fontWeight: 500, }} >
+                   Forgot Password? 
+                   </Link>
+                   </div>
 
               {/* Submit */}
               <button
@@ -269,5 +275,8 @@ function PasswordField({ label, value, onChange, show, onToggle, error, disabled
         </p>
       )}
     </div>
+    
   );
+
+  
 }

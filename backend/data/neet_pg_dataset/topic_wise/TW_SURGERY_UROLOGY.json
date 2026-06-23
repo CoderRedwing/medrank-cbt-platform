@@ -3,9 +3,12 @@
   "paper_type": "topic_wise",
   "subject": "Surgery",
   "topic": "Urology",
-  "total_questions": 4,
+  "total_questions": 5,
   "difficulty_distribution": {
-    "Easy": 4
+    "Easy": 1,
+    "Medium": 1,
+    "Hard": 2,
+    "Very Hard": 1
   },
   "created_at": "2026-05-30",
   "questions": [
@@ -15,22 +18,22 @@
       "paper_ref": "TW_SURGERY_UROLOGY",
       "subject": "Surgery",
       "topic": "Urology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Nephrolithiasis",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Urinary stone most radiolucent on plain X-ray?",
+      "question_text": "A 34-year-old man with chronic recurrent UTIs caused by Proteus mirabilis presents with a staghorn calculus filling the renal pelvis and calyces on imaging, with urine pH of 7.8. Which stone type is most consistent with this presentation?",
       "options": {
         "A": "Calcium oxalate",
-        "B": "Struvite",
-        "C": "Uric acid",
+        "B": "Uric acid",
+        "C": "Struvite (magnesium ammonium phosphate)",
         "D": "Cystine"
       },
       "correct_answer": "C",
-      "explanation": "Uric acid stones: radiolucent (not visible on plain X-ray), visible on CT/ultrasound. Calcium stones: most radiopaque. Cystine: faintly opaque."
+      "explanation": "The correct answer is C, struvite stones. Urease-producing organisms (Proteus, Klebsiella, Pseudomonas, Staphylococcus) split urea into ammonia, alkalinizing urine (pH >7.2) and precipitating magnesium ammonium phosphate. Struvite stones classically form large staghorn calculi filling the pelvicalyceal system and are associated with chronic upper UTI. A is incorrect: calcium oxalate stones form in acidic to neutral urine and are usually unrelated to urease-splitting infection; they are the most common stone type overall but not staghorn-forming in this context. B is incorrect: uric acid stones form in persistently acidic urine (pH <5.5), seen in gout, high-purine diet, or tumor lysis syndrome, and are radiolucent. D is incorrect: cystine stones occur in cystinuria (autosomal recessive defect in renal tubular transport of dibasic amino acids), typically in children/young adults, and are faintly radiopaque, unrelated to infection. High-yield pearl: struvite + staghorn + alkaline urine + urease-positive organism is a classic NEET PG/INI-CET triad. Management requires complete stone clearance (often PCNL) since residual fragments harbor bacteria and cause recurrence."
     },
     {
       "question_id": "TW_SURGERY_UROLOGY_Q002",
@@ -38,22 +41,22 @@
       "paper_ref": "TW_SURGERY_UROLOGY",
       "subject": "Surgery",
       "topic": "Urology",
-      "subtopic": null,
+      "subtopic": "Prostate Cancer Screening",
       "difficulty": "Easy",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "PSA level considered elevated (standard cutoff)?",
+      "question_text": "A 62-year-old asymptomatic man undergoes screening and is found to have a serum PSA of 4.2 ng/mL with a normal digital rectal examination. What is the most appropriate next step?",
       "options": {
-        "A": ">2 ng/mL",
-        "B": ">4 ng/mL",
-        "C": ">10 ng/mL",
-        "D": ">20 ng/mL"
+        "A": "Reassure and repeat PSA in 5 years",
+        "B": "Start finasteride empirically",
+        "C": "Calculate free:total PSA ratio and PSA velocity to guide biopsy decision",
+        "D": "Proceed directly to radical prostatectomy"
       },
-      "correct_answer": "B",
-      "explanation": "PSA >4 ng/mL is the standard threshold for biopsy consideration. PSA >10: high risk prostate Ca. PSA velocity and free:total PSA ratio also important."
+      "correct_answer": "C",
+      "explanation": "The correct answer is C. PSA >4 ng/mL is the conventional threshold prompting further risk stratification rather than immediate biopsy or treatment. Free:total PSA ratio (lower ratio suggests malignancy) and PSA velocity/density help decide whether biopsy is warranted, since PSA elevation is nonspecific (BPH, prostatitis, recent instrumentation also raise it). A is incorrect because a borderline elevated PSA in this age group warrants closer follow-up or further risk assessment, not a 5-year deferral. B is incorrect: finasteride lowers PSA artificially (by ~50%) and is not an appropriate response to an elevated PSA without a diagnosis. D is incorrect and represents a classic exam trap — definitive surgery is never offered before tissue diagnosis via biopsy. High-yield pearl: PSA is organ-specific, not cancer-specific; always combine with DRE, ratios, and clinical context before deciding on biopsy or treatment escalation."
     },
     {
       "question_id": "TW_SURGERY_UROLOGY_Q003",
@@ -61,22 +64,22 @@
       "paper_ref": "TW_SURGERY_UROLOGY",
       "subject": "Surgery",
       "topic": "Urology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Post-TURP Complications",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Most common complication of TURP?",
+      "question_text": "Two hours after an uneventful TURP for BPH using monopolar resection with glycine irrigant, a 70-year-old man becomes confused, nauseated, and bradycardic. Serum sodium is 118 mEq/L. What is the most likely underlying mechanism?",
       "options": {
-        "A": "Urinary incontinence",
-        "B": "Retrograde ejaculation",
-        "C": "Erectile dysfunction",
-        "D": "Bladder perforation"
+        "A": "Acute blood loss anemia",
+        "B": "Dilutional hyponatremia from absorption of hypotonic irrigation fluid",
+        "C": "Retrograde ejaculation",
+        "D": "Bladder neck contracture"
       },
       "correct_answer": "B",
-      "explanation": "Retrograde ejaculation occurs in ~90% after TURP (damage to internal urethral sphincter). TURP syndrome (hyponatremia) is another complication."
+      "explanation": "The correct answer is B, TURP syndrome. During monopolar TURP, large volumes of hypotonic, electrolyte-free irrigant (glycine or sorbitol-mannitol) are absorbed through open venous sinuses in the prostatic bed, causing dilutional hyponatremia, fluid overload, and sometimes ammonia/glycine toxicity. Features include confusion, nausea, bradycardia, hypertension followed by hypotension, and visual disturbances. A is incorrect: blood loss causes hypotension and tachycardia, not hyponatremia, as the primary early finding. C is incorrect: retrograde ejaculation is a long-term sexual side effect, not an acute presentation with altered sensorium and hyponatremia. D is incorrect: bladder neck contracture is a delayed complication causing obstructive voiding symptoms weeks to months later, unrelated to acute electrolyte derangement. High-yield pearl: bipolar TURP using normal saline irrigant has largely replaced monopolar TURP specifically to avoid TURP syndrome, since isotonic saline can be used due to a different electrical circuit. Always suspect TURP syndrome in a confused, bradycardic patient shortly after monopolar resection."
     },
     {
       "question_id": "TW_SURGERY_UROLOGY_Q004",
@@ -84,22 +87,54 @@
       "paper_ref": "TW_SURGERY_UROLOGY",
       "subject": "Surgery",
       "topic": "Urology",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Vesicoureteral Reflux",
+      "difficulty": "Hard",
+      "question_type": "single_best_answer",
+      "image_based": true,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 2-year-old girl with recurrent febrile UTIs undergoes a voiding cystourethrogram (VCUG), shown below. Based on the imaging findings, what is the most appropriate next step in management?",
+      "image_title": "Voiding Cystourethrogram demonstrating vesicoureteral reflux",
+      "image_url": "https://medical-images.example.com/urology/vcug_vur_grade3.jpg",
+      "key_findings": [
+        "Contrast refluxing from bladder into ureter and renal pelvis",
+        "Mild to moderate dilatation of the renal pelvis and calyces",
+        "Calyceal fornices remain sharp, not blunted",
+        "Ureter shows mild tortuosity",
+        "No evidence of intrarenal reflux or parenchymal scarring"
+      ],
+      "options": {
+        "A": "Immediate ureteroneocystostomy (surgical reimplantation)",
+        "B": "Continuous low-dose antibiotic prophylaxis with surveillance, as most grade III VUR resolves spontaneously",
+        "C": "Bilateral nephrectomy",
+        "D": "No treatment or follow-up needed"
+      },
+      "correct_answer": "B",
+      "explanation": "The correct answer is B. The VCUG findings (reflux into a mildly/moderately dilated pelvis and calyces with preserved fornices) are consistent with Grade III VUR. Most low-to-moderate grade VUR (I-III) in young children resolves spontaneously as the ureterovesical junction matures, so first-line management is continuous low-dose antibiotic prophylaxis with regular imaging surveillance (renal ultrasound, repeat VCUG or nuclear cystogram) rather than surgery. A is incorrect: surgical reimplantation is generally reserved for high-grade VUR (IV-V), breakthrough UTIs despite prophylaxis, progressive renal scarring, or failure of conservative management — not first-line for grade III. C is an extreme, inappropriate distractor with no role in VUR management. D is incorrect because recurrent febrile UTIs in a child with demonstrated reflux require active monitoring to prevent renal scarring (reflux nephropathy) and hypertension. High-yield pearl: VUR grading (International Reflux Study) — I: ureter only; II: reflux to pelvis/calyces, no dilatation; III: mild/moderate dilatation, fornices preserved; IV: moderate dilatation with blunted fornices; V: gross dilatation and tortuosity with loss of papillary impressions. Grade correlates with likelihood of spontaneous resolution and risk of scarring."
+    },
+    {
+      "question_id": "TW_SURGERY_UROLOGY_Q005",
+      "paper_type": "topic_wise",
+      "paper_ref": "TW_SURGERY_UROLOGY",
+      "subject": "Surgery",
+      "topic": "Urology",
+      "subtopic": "Urolithiasis Imaging",
+      "difficulty": "Very Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Vesicoureteral reflux (VUR) grade III?",
+      "question_text": "A 45-year-old man with a history of ileal resection for Crohn disease presents with right flank pain. Non-contrast CT shows a 7 mm radiopaque calculus at the right ureterovesical junction. Urinalysis shows persistently acidic urine (pH 5.0) and hyperoxaluria. What is the most likely pathophysiological mechanism linking his bowel disease to stone formation?",
       "options": {
-        "A": "Reflux to ureter only",
-        "B": "Reflux to renal pelvis, no dilatation",
-        "C": "Reflux with mild dilatation",
-        "D": "Moderate dilatation with loss of fornices"
+        "A": "Increased intestinal absorption of dietary oxalate due to fat malabsorption binding calcium, leaving free oxalate for absorption",
+        "B": "Loss of urease-producing gut flora leading to struvite formation",
+        "C": "Increased renal excretion of cystine due to bowel resection",
+        "D": "Hypercalcemia from ileal resection causing calcium phosphate stones"
       },
-      "correct_answer": "D",
-      "explanation": "VUR grades: I=ureter only, II=pelvis+calyces no dilation, III=mild dilation, IV=moderate dilation loss of fornices, V=severe with tortuous ureter."
+      "correct_answer": "A",
+      "explanation": "The correct answer is A. In Crohn disease or after ileal resection, malabsorbed fatty acids bind luminal calcium (forming soap), which normally would have bound oxalate and limited its absorption. With calcium unavailable, free oxalate is absorbed in excess by the colon (enteric hyperoxaluria), leading to hyperoxaluria and calcium oxalate stone formation — consistent with this patient's acidic urine and radiopaque stone (calcium oxalate stones are the most radiopaque). B is incorrect: struvite formation depends on urease-producing urinary pathogens, not gut flora changes, and would present with alkaline urine, not acidic. C is incorrect: cystine stones result from a genetic transport defect (cystinuria), unrelated to bowel resection. D is incorrect: ileal resection typically causes hypocalcemia (due to fat-soluble vitamin D malabsorption and calcium-soap formation), not hypercalcemia, and calcium phosphate stones form in alkaline urine, not acidic. High-yield pearl: enteric hyperoxaluria is a classic NEET PG/INI-CET integration question linking GI pathophysiology (fat malabsorption) to urology (calcium oxalate stones), distinguishing it from primary hyperoxaluria (genetic) and from struvite/cystine/uric acid stone mechanisms. Management includes oral calcium supplementation with meals to rebind oxalate in the gut."
     }
   ]
 }

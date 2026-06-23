@@ -18,6 +18,8 @@ import HistoryPage         from './pages/HistoryPage.jsx';
 import ProfilePage         from './pages/ProfilePage.jsx';
 import AiTutorPage         from './pages/AiTutorPage.jsx';
 import LandingPage from './pages/LandingPage.jsx';
+import ForgotPasswordPage from './pages/ForgotPasswordPage.jsx';
+import ResetPasswordPage from './pages/ResetPasswordPage.jsx';
 
 // Admin pages
 import AdminDashboard from './pages/admin/AdminDashboard.jsx';
@@ -62,6 +64,9 @@ export default function App() {
         <Route path="/login"    element={<LoginPage />} />
         <Route path="/register" element={<RegisterPage />} />
         <Route path="/air-predictor" element={<AIRPredictorPage />} />
+
+        <Route path="/forgot-password" element={<ForgotPasswordPage />} /> 
+        <Route path="/reset-password/:token" element={<ResetPasswordPage />} />
 
         {/* Student routes */}
         <Route path="/dashboard" element={<ProtectedRoute><S><DashboardPage /></S></ProtectedRoute>} />

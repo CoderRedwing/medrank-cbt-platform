@@ -5,7 +5,10 @@
   "topic": "GI Surgery",
   "total_questions": 19,
   "difficulty_distribution": {
-    "Easy": 19
+    "Easy": 3,
+    "Medium": 5,
+    "Hard": 7,
+    "Very Hard": 4
   },
   "created_at": "2026-05-30",
   "questions": [
@@ -14,46 +17,46 @@
       "paper_type": "topic_wise",
       "paper_ref": "TW_SURGERY_GI_SURGERY",
       "subject": "Surgery",
-      "topic": "General Surgery",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "GI Surgery",
+      "subtopic": "Small Bowel",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A patient develops acute breathlessness after prolonged immobilization. Most likely organism?",
+      "question_text": "A 35-year-old male is brought to the emergency department following a road traffic accident. He reports diffuse abdominal pain. CT abdomen shows mesenteric contusion and free air under the diaphragm. At exploratory laparotomy, a 1.5 cm perforation is found in the distal ileum 30 cm from the ileocecal valve, with fecal contamination. Which of the following is the MOST appropriate surgical management?",
       "options": {
-        "A": "Staphylococcus aureus",
-        "B": "Klebsiella",
-        "C": "Pseudomonas",
-        "D": "E. coli"
+        "A": "Primary repair with omental patch and peritoneal lavage",
+        "B": "Resection of the perforated segment with primary ileocolic anastomosis",
+        "C": "Resection with end ileostomy (Hartmann-type) and delayed anastomosis",
+        "D": "Defunctioning loop ileostomy without bowel resection"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Surgery concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "In a young, hemodynamically stable patient with traumatic small bowel perforation without major contamination compromising anastomotic healing, resection of the perforated segment with primary anastomosis is the procedure of choice. The distal ileum can be resected and anastomosis safely performed when:\n- Patient is hemodynamically stable.\n- No significant fecal loading or devascularization.\n- No associated severe intra-abdominal infection.\n\nWhy other options are wrong:\n- A: Primary repair is acceptable for small clean lacerations (<50% circumference, no devascularization), but not for a full-thickness perforation with fecal contamination.\n- C: Hartmann-type procedure (end stoma) is reserved for unstable patients, gross contamination, or damage-control scenarios. The 'damage control surgery' principle applies when the patient has the 'lethal triad' (hypothermia, acidosis, coagulopathy).\n- D: Defunctioning without resection is inappropriate — the perforated/necrotic bowel must be removed.\n\nNEET PG/INI-CET pearl: Damage control surgery = control bleeding + control contamination + temporary closure + return to OT after 24–48h ICU resuscitation. Primary anastomosis is safe in stable patients."
     },
     {
       "question_id": "TW_SURGERY_GI_SURGERY_Q002",
       "paper_type": "topic_wise",
       "paper_ref": "TW_SURGERY_GI_SURGERY",
       "subject": "Surgery",
-      "topic": "General Surgery",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "GI Surgery",
+      "subtopic": "Biliary System",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A patient develops sudden severe tearing chest pain radiating to the back. Most likely diagnosis?",
+      "question_text": "A 55-year-old woman presents with fever (39.2°C), rigors, right upper quadrant pain, and jaundice for 3 days. On examination, she is icteric, BP is 90/60 mmHg, and she is confused. Her WBC is 24,000/mm³, bilirubin is 8.2 mg/dL, and ALT/AST are mildly elevated. Ultrasound shows a dilated common bile duct (12 mm) with stones. Which is the MOST appropriate next management step?",
       "options": {
-        "A": "Pulmonary embolism",
-        "B": "Acute pancreatitis",
-        "C": "Aortic dissection",
-        "D": "DKA"
+        "A": "Urgent laparoscopic cholecystectomy with bile duct exploration",
+        "B": "IV antibiotics alone for 48 hours and re-evaluate",
+        "C": "Emergency ERCP with biliary decompression + IV antibiotics",
+        "D": "Percutaneous transhepatic cholangiography (PTC) and bile duct drainage"
       },
       "correct_answer": "C",
-      "explanation": "Integrated Surgery concept designed in NEET PG + INI-CET pattern."
+      "explanation": "This is Reynolds' pentad (Charcot's triad + hypotension + confusion) indicating severe acute cholangitis — a life-threatening emergency requiring URGENT biliary decompression.\n\nCharcot's triad: fever + RUQ pain + jaundice.\nReynolds' pentad: Charcot's triad + septic shock + altered consciousness.\n\nManagement of severe cholangitis:\n1. IV resuscitation + vasopressors for septic shock.\n2. Broad-spectrum IV antibiotics immediately (piperacillin-tazobactam or cefuroxime + metronidazole).\n3. Emergency ERCP + biliary decompression (sphincterotomy + stone extraction or stenting) — THIS is the priority intervention.\n4. Cholecystectomy is deferred to an elective setting after resolution.\n\nWhy other options are wrong:\n- A: Immediate surgery (laparoscopic cholecystectomy) in acute cholangitis with septic shock has high mortality — ERCP is much safer and more effective for biliary decompression.\n- B: Antibiotics alone without biliary decompression will fail in obstructive cholangitis — the obstruction must be relieved.\n- D: PTC is the alternative when ERCP fails or is unavailable, not first-line.\n\nNEET PG pearl: Charcot's triad = cholangitis. Reynolds' pentad = severe cholangitis (ICU + ERCP). Treatment = ERCP, NOT surgery in the acute setting."
     },
     {
       "question_id": "TW_SURGERY_GI_SURGERY_Q003",
@@ -61,137 +64,157 @@
       "paper_ref": "TW_SURGERY_GI_SURGERY",
       "subject": "Surgery",
       "topic": "GI Surgery",
-      "subtopic": null,
+      "subtopic": "Anorectal Surgery",
       "difficulty": "Easy",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Charcot's triad in cholangitis?",
+      "question_text": "A 32-year-old man presents with severe anal pain, bright red blood per rectum, and constipation for 2 weeks. Per-rectal examination is extremely painful and reveals a linear tear at the 6 o'clock (posterior midline) position. A small skin tag is visible at the distal end of the tear. What is the MOST likely diagnosis?",
       "options": {
-        "A": "RUQ pain, fever, jaundice",
-        "B": "RUQ pain, fever, Murphy's sign",
-        "C": "RUQ pain, jaundice, peritonitis",
-        "D": "Fever, jaundice, hepatomegaly"
+        "A": "Grade III internal hemorrhoids with prolapse",
+        "B": "Chronic anal fissure with sentinel pile",
+        "C": "Perianal abscess with internal opening",
+        "D": "Condyloma acuminata"
       },
-      "correct_answer": "A",
-      "explanation": "Charcot's triad: fever+rigor + RUQ pain + jaundice. Reynolds pentad adds shock + confusion (severe cholangitis). Treatment: ERCP + antibiotics."
+      "correct_answer": "B",
+      "explanation": "Chronic anal fissure: a linear tear in the anoderm (below dentate line), characteristically located at the posterior midline (6 o'clock) in 90% of cases. The skin tag at the distal end of the fissure is called a 'sentinel pile' — a hypertrophied skin tag that marks the distal margin of a chronic fissure.\n\nFeatures of chronic vs. acute fissure:\n- Acute fissure: superficial, no induration, no sentinel pile.\n- Chronic fissure: indurated edges, visible internal sphincter fibers at the base, sentinel pile distally, hypertrophied anal papilla proximally.\n\nTreatment:\n- Acute: high-fiber diet, stool softeners, topical anesthetics, topical GTN (glyceryl trinitrate) or diltiazem.\n- Chronic: botulinum toxin injection OR lateral internal sphincterotomy (gold standard surgery).\n\nWhy other options are wrong:\n- A: Internal hemorrhoids cause painless bright red bleeding on defecation; a linear tear is not hemorrhoids.\n- C: Perianal abscess is a fluctuant tender mass; not a linear tear.\n- D: Condylomata are warty, cauliflower-like growths, not tears.\n\nNEET PG pearl: Sentinel pile = chronic anal fissure. Posterior midline = most common site (poor blood supply). Lateral internal sphincterotomy = most effective treatment."
     },
     {
       "question_id": "TW_SURGERY_GI_SURGERY_Q004",
       "paper_type": "topic_wise",
       "paper_ref": "TW_SURGERY_GI_SURGERY",
       "subject": "Surgery",
-      "topic": "General Surgery",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "GI Surgery",
+      "subtopic": "Upper GI",
+      "difficulty": "Very Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A patient presents with sudden painless loss of vision. Underlying mechanism?",
+      "question_text": "A 28-year-old male presents with recurrent episodes of retrosternal chest pain, regurgitation of undigested food, and dysphagia for both solids and liquids since age 20. He has lost 8 kg over the past year. Barium swallow shows a 'bird-beak' narrowing at the gastroesophageal junction with a markedly dilated esophagus above. High-resolution esophageal manometry reveals absent peristalsis in the esophageal body and failure of lower esophageal sphincter (LES) relaxation with deglutition. What is the MOST appropriate first-line treatment for this young patient?",
       "options": {
-        "A": "Autoimmune destruction",
-        "B": "Type I hypersensitivity",
-        "C": "Fat necrosis",
-        "D": "Toxin-mediated injury"
+        "A": "Long-term oral nifedipine (calcium channel blocker)",
+        "B": "Endoscopic pneumatic dilation",
+        "C": "Laparoscopic Heller myotomy with partial fundoplication",
+        "D": "Esophagectomy"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Surgery concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "C",
+      "explanation": "This is classic achalasia cardia in a young patient. Manometry findings confirm the diagnosis: aperistalsis + failed LES relaxation with elevated resting LES pressure.\n\nTreatment options for achalasia (in order of efficacy):\n1. Laparoscopic Heller myotomy + partial fundoplication (Dor or Toupet): BEST long-term results; preferred for young patients and first-line in centers with laparoscopic expertise.\n2. Per-oral endoscopic myotomy (POEM): newer, equally effective, no external incision.\n3. Pneumatic balloon dilation: effective but 30% recurrence rate and risk of perforation (3–5%).\n4. Botulinum toxin injection into LES: temporary relief (~6–12 months); for elderly/high-surgical-risk patients.\n5. Calcium channel blockers/nitrates: minimal benefit, only for patients unfit for any procedure.\n\nPartial fundoplication (Dor 180° anterior) is added to Heller myotomy to prevent post-myotomy GERD.\n\nWhy other options are wrong:\n- A: Nifedipine has minimal efficacy and is not appropriate as definitive treatment for a young patient.\n- B: Pneumatic dilation is effective but less durable than surgery in young patients; risk of perforation.\n- D: Esophagectomy is reserved for end-stage achalasia (sigmoid esophagus) with failed previous interventions.\n\nNEET PG/INI-CET pearl: Achalasia = bird-beak barium + aperistalsis + failed LES relaxation on manometry. Gold standard treatment in fit young patient = Heller myotomy + fundoplication or POEM."
     },
     {
       "question_id": "TW_SURGERY_GI_SURGERY_Q005",
       "paper_type": "topic_wise",
       "paper_ref": "TW_SURGERY_GI_SURGERY",
       "subject": "Surgery",
-      "topic": "General Surgery",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "GI Surgery",
+      "subtopic": "Hepatobiliary",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": true,
+      "image_title": "ERCP Cholangiogram — Common Bile Duct Stones",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Ercp_choledocholithiasis.jpg/640px-Ercp_choledocholithiasis.jpg",
+      "key_findings": [
+        "Dilated common bile duct measuring approximately 12 mm in diameter",
+        "Multiple filling defects within the common bile duct consistent with calculi",
+        "Smooth tapering at the distal CBD — no stricture",
+        "Intrahepatic bile ducts not dilated",
+        "Normal pancreatic duct filling",
+        "Gallbladder not opacified (previous cholecystectomy)"
+      ],
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A patient presents with altered sensorium, ataxia, and ophthalmoplegia. Most appropriate management?",
+      "question_text": "A 50-year-old woman who underwent laparoscopic cholecystectomy 3 years ago presents with recurrent RUQ pain and jaundice. An ERCP cholangiogram is shown. Based on the image, what is the MOST appropriate management?",
       "options": {
-        "A": "IV fluids and insulin",
-        "B": "Observation",
-        "C": "Steroids only",
-        "D": "Oral antibiotics"
+        "A": "Urgent laparoscopic common bile duct exploration",
+        "B": "ERCP with sphincterotomy and stone extraction",
+        "C": "Ursodeoxycholic acid therapy for 6 months",
+        "D": "Repeat ERCP in 3 months with observation"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Surgery concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "The ERCP image shows multiple filling defects in a dilated CBD — consistent with retained or recurrent CBD stones (choledocholithiasis) in a post-cholecystectomy patient.\n\nManagement of choledocholithiasis:\n- ERCP with sphincterotomy and stone extraction is the first-line treatment for CBD stones (both symptomatic and incidentally discovered causing duct dilation).\n- Sphincterotomy opens the sphincter of Oddi, allowing stone extraction with a balloon catheter or Dormia basket.\n- Success rate >90% for single/multiple stones <15 mm.\n- For large stones: mechanical lithotripsy, electrohydraulic lithotripsy, or laser lithotripsy via cholangioscopy.\n\nWhy other options are wrong:\n- A: Laparoscopic CBD exploration is appropriate when ERCP fails or is unavailable; not first-line.\n- C: Ursodeoxycholic acid dissolves only small cholesterol gallbladder stones; ineffective for CBD stones and does not apply post-cholecystectomy.\n- D: Observation is inappropriate for symptomatic CBD stones with jaundice.\n\nNEET PG pearl: Post-cholecystectomy CBD stones = retained stones (if within 2 years) or recurrent primary CBD stones. ERCP = gold standard treatment. Mirizzi syndrome = gallstone in Hartmann's pouch/cystic duct compressing CBD externally."
     },
     {
       "question_id": "TW_SURGERY_GI_SURGERY_Q006",
       "paper_type": "topic_wise",
       "paper_ref": "TW_SURGERY_GI_SURGERY",
       "subject": "Surgery",
-      "topic": "General Surgery",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "GI Surgery",
+      "subtopic": "Hepatobiliary",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": true,
+      "image_title": "Ultrasound Abdomen — Courvoisier's Gallbladder in Pancreatic Head Mass",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Pancreatic_head_carcinoma.jpg/640px-Pancreatic_head_carcinoma.jpg",
+      "key_findings": [
+        "Markedly enlarged, distended, thin-walled gallbladder (Courvoisier's sign)",
+        "Hypoechoic mass in the head of pancreas measuring approximately 3.5 cm",
+        "Dilated common bile duct (>10 mm) — extrahepatic obstruction",
+        "Dilated intrahepatic bile ducts bilaterally",
+        "Double-duct sign — simultaneous dilation of CBD and main pancreatic duct",
+        "No ascites or liver metastases on this image"
+      ],
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A patient presents with sudden painless loss of vision. Most likely diagnosis?",
+      "question_text": "A 65-year-old man presents with painless progressive jaundice, 10 kg weight loss, and pruritus over 6 weeks. He has no fever or rigors. On examination, a non-tender, palpable gallbladder is noted in the right hypochondrium. An ultrasound image is shown. Which of the following BEST explains why this patient's gallbladder is palpable?",
       "options": {
-        "A": "Pulmonary embolism",
-        "B": "Acute pancreatitis",
-        "C": "Aortic dissection",
-        "D": "DKA"
+        "A": "The patient has acute cholecystitis with empyema of the gallbladder",
+        "B": "Per Courvoisier's law, the gallbladder wall is compliant as it is not scarred by previous stone disease; malignant obstruction allows it to distend",
+        "C": "The gallbladder is distended due to a large gallstone obstructing the cystic duct",
+        "D": "Gallbladder hydrops from a spontaneously resolving gallstone"
       },
-      "correct_answer": "C",
-      "explanation": "Integrated Surgery concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "Courvoisier's law: 'In a patient with obstructive jaundice, if the gallbladder is palpable, the cause is UNLIKELY to be gallstones.'\n\nRationale: In chronic gallstone disease, repeated inflammation and infections scar and fibrose the gallbladder wall, making it rigid and unable to distend. In malignant obstruction (e.g., carcinoma head of pancreas, cholangiocarcinoma), the gallbladder has no prior inflammation, so its wall is soft and compliant — it distends passively as bile backs up from the malignant obstruction.\n\nThe 'double duct sign' on ultrasound/MRCP (simultaneous dilation of CBD + main pancreatic duct) is pathognomonic of carcinoma head of pancreas.\n\nWhy other options are wrong:\n- A: Acute cholecystitis causes a tender gallbladder; this patient has PAINLESS jaundice — a key distinguishing feature.\n- C: A large gallstone obstructing the cystic duct causes Mucocele/empyema, not painless obstructive jaundice with double-duct sign.\n- D: Gallbladder hydrops from stone disease doesn't explain painless jaundice and double-duct sign.\n\nNEET PG pearl: Painless jaundice + palpable GB + weight loss = carcinoma head of pancreas until proven otherwise. CA 19-9 is the tumor marker. WHIPPLE's procedure (pancreaticoduodenectomy) is the only curative option."
     },
     {
       "question_id": "TW_SURGERY_GI_SURGERY_Q007",
       "paper_type": "topic_wise",
       "paper_ref": "TW_SURGERY_GI_SURGERY",
       "subject": "Surgery",
-      "topic": "General Surgery",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "GI Surgery",
+      "subtopic": "Colorectal",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A chronic smoker presents with hemoptysis and weight loss. Underlying mechanism?",
+      "question_text": "A 22-year-old male presents with a 6-month history of recurrent lower GI bleeding, central colicky abdominal pain, and passage of 'currant jelly' stools. On examination, he is anemic. Meckel's scan (99mTc pertechnetate) is positive. The scan demonstrates ectopic gastric mucosa in the right iliac fossa. Which of the following regarding this condition is CORRECT?",
       "options": {
-        "A": "Autoimmune destruction",
-        "B": "Type I hypersensitivity",
-        "C": "Fat necrosis",
-        "D": "Toxin-mediated injury"
+        "A": "It arises from the mesenteric border of the distal ileum within 100 cm of the ileocecal valve",
+        "B": "It is a true diverticulum arising from the antimesenteric border of the distal ileum within 60 cm of the ileocecal valve",
+        "C": "The most common ectopic mucosa found is pancreatic tissue",
+        "D": "Surgical resection is only indicated when symptomatic"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Surgery concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "Meckel's diverticulum is the most common congenital anomaly of the GI tract (a remnant of the vitello-intestinal duct). Rule of 2s:\n- 2% of the population\n- 2 feet (60 cm) from the ileocecal valve\n- 2 inches (5 cm) long\n- 2:1 male:female ratio\n- 2 types of ectopic mucosa (gastric and pancreatic; gastric is most common)\n- Presents in first 2 years of life (most often)\n- Located on the ANTIMESENTERIC border\n\nIt is a TRUE diverticulum (contains all layers of the bowel wall — unlike false diverticula which lack muscularis propria).\n\nWhy other options are wrong:\n- A: ANTIMESENTERIC border, not mesenteric. 60 cm (2 feet), not 100 cm.\n- C: GASTRIC mucosa is the most common ectopic tissue (responsible for acid secretion and ulceration/bleeding). Pancreatic is the second most common.\n- D: Incidentally found Meckel's diverticulum at laparotomy: resect if <45 years, with narrow neck, or contains ectopic mucosa/palpable abnormality. In children, resect any found diverticulum.\n\nNEET PG pearl: Meckel's scan (99mTc pertechnetate) detects ectopic GASTRIC mucosa — this is why the scan is positive in symptomatic patients with bleeding (gastric mucosa secretes acid → peptic ulcer at the tip or adjacent ileum)."
     },
     {
       "question_id": "TW_SURGERY_GI_SURGERY_Q008",
       "paper_type": "topic_wise",
       "paper_ref": "TW_SURGERY_GI_SURGERY",
       "subject": "Surgery",
-      "topic": "General Surgery",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "GI Surgery",
+      "subtopic": "Small Bowel",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A child presents with recurrent respiratory tract infections. Best initial investigation?",
+      "question_text": "A 4-year-old boy is brought to the emergency department with sudden onset severe colicky abdominal pain, drawing up of legs, vomiting, and passage of blood-stained mucous stools ('redcurrant jelly'). On examination, a sausage-shaped mass is palpable in the right upper quadrant. His abdomen is not peritonitic. What is the MOST appropriate first-line treatment?",
       "options": {
-        "A": "CT angiography",
-        "B": "MRI",
-        "C": "Ultrasound",
-        "D": "ECG"
+        "A": "Emergency exploratory laparotomy",
+        "B": "Air or water-soluble contrast enema (pneumatic/hydrostatic reduction)",
+        "C": "Manual reduction via per-rectal approach",
+        "D": "Nasogastric decompression and IV antibiotics for 24 hours before deciding on intervention"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Surgery concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "This is ileocolic intussusception in a child — the classic 'lead point' in an otherwise healthy toddler is often enlarged Peyer's patches or lymphoid hyperplasia. The clinical triad is:\n1. Sudden colicky abdominal pain + drawing up of legs\n2. Redcurrant/currant jelly stools (blood-stained mucus from venous congestion of the intussusceptum)\n3. Sausage-shaped abdominal mass\n\nFirst-line treatment in a hemodynamically stable child WITHOUT peritonitis: Air/gas enema (pneumatic reduction) or water-soluble contrast enema (hydrostatic reduction) under fluoroscopic or ultrasound guidance. Success rate: ~80–90%.\n\nWhy other options are wrong:\n- A: Surgery is reserved for: failed non-operative reduction, perforation, peritonitis, hemodynamic instability, or pathological lead point (e.g., Meckel's, lymphoma, polyp in older child).\n- C: Per-rectal manual reduction is dangerous and not a recognized treatment.\n- D: Delay risks bowel ischemia and perforation; prompt reduction is essential.\n\nNEET PG pearl: Intussusception = most common cause of intestinal obstruction in children aged 3 months–6 years. Most common type = ileocolic. Reduction by enema = first-line in stable patients. Surgery = failed enema/peritonitis."
     },
     {
       "question_id": "TW_SURGERY_GI_SURGERY_Q009",
@@ -199,45 +222,45 @@
       "paper_ref": "TW_SURGERY_GI_SURGERY",
       "subject": "Surgery",
       "topic": "GI Surgery",
-      "subtopic": null,
+      "subtopic": "Anorectal Surgery",
       "difficulty": "Easy",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Sentinel pile is associated with?",
+      "question_text": "A 40-year-old woman with chronic constipation reports severe anal pain during defecation and seeing bright red blood on the toilet paper for 4 months. She also reports a small lump at the anal margin that appeared 3 months ago. Proctoscopy is too painful to complete, but a skin tag is visible at the 6 o'clock position. Which of the following MOST accurately describes the 'sentinel pile'?",
       "options": {
-        "A": "External hemorrhoids",
-        "B": "Anal fissure",
-        "C": "Perianal abscess",
-        "D": "Rectal prolapse"
+        "A": "An internal hemorrhoid that has prolapsed and become irreducible",
+        "B": "A hypertrophied skin tag at the distal end of a chronic anal fissure",
+        "C": "A thrombosed external hemorrhoid at the anal verge",
+        "D": "A perianal wart (condyloma) at the posterior commissure"
       },
       "correct_answer": "B",
-      "explanation": "Sentinel pile: skin tag at lower end of chronic anal fissure (at 6 o'clock position posteriorly). Treated with lateral internal sphincterotomy."
+      "explanation": "A sentinel pile (sentinel skin tag) is a hypertrophied fibrotic skin tag located at the DISTAL (external/lower) end of a chronic anal fissure. It forms due to chronic inflammation and edema at the lower edge of the fissure. It is a clinical marker of chronicity.\n\nIn chronic anal fissure:\n- Sentinel pile is found distally (at the anal verge).\n- Hypertrophied anal papilla may be found proximally (just above the dentate line).\n- Visible white transverse fibers of the internal anal sphincter may be seen at the base of the fissure.\n\nWhy other options are wrong:\n- A: A prolapsed, irreducible internal hemorrhoid is a Grade IV hemorrhoid — not a sentinel pile.\n- C: A thrombosed external hemorrhoid is a painful bluish perianal swelling — a different condition entirely.\n- D: Condyloma acuminata are HPV-related cauliflower-like growths; not associated with fissure.\n\nNEET PG pearl: Sentinel pile = chronic anal fissure marker. Treatment of chronic fissure: lateral internal sphincterotomy (gold standard) or botulinum toxin injection (preferred in women and if concerned about continence)."
     },
     {
       "question_id": "TW_SURGERY_GI_SURGERY_Q010",
       "paper_type": "topic_wise",
       "paper_ref": "TW_SURGERY_GI_SURGERY",
       "subject": "Surgery",
-      "topic": "General Surgery",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "GI Surgery",
+      "subtopic": "Upper GI",
+      "difficulty": "Very Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A 52-year-old diabetic male presents with fever, hypotension, and tachycardia. Most likely organism?",
+      "question_text": "A 63-year-old man presents to the surgery clinic with 3 episodes of acute pancreatitis over the last 2 years, all requiring hospitalization. He is a non-drinker and has no gallstones on ultrasound. His serum calcium is 11.8 mg/dL, serum PTH is markedly elevated at 340 pg/mL (normal 15–65). MRI abdomen shows a 2.8 cm hypoenhancing mass in the head of the pancreas and a 1.2 cm parathyroid adenoma on sestamibi scan. Which of the following syndromes is MOST likely responsible for his presentation?",
       "options": {
-        "A": "Staphylococcus aureus",
-        "B": "Klebsiella",
-        "C": "Pseudomonas",
-        "D": "E. coli"
+        "A": "MEN type 1 (Wermer's syndrome)",
+        "B": "MEN type 2A (Sipple's syndrome)",
+        "C": "MEN type 2B",
+        "D": "Von Hippel-Lindau syndrome"
       },
       "correct_answer": "A",
-      "explanation": "Integrated Surgery concept designed in NEET PG + INI-CET pattern."
+      "explanation": "MEN type 1 (Multiple Endocrine Neoplasia, Wermer's syndrome) is characterized by the '3 P's':\n1. Parathyroid adenoma (most common, ~95%): hyperparathyroidism → hypercalcemia → recurrent pancreatitis, nephrolithiasis, peptic ulcers.\n2. Pancreatic endocrine tumors (~50%): most commonly gastrinoma (Zollinger-Ellison syndrome) or insulinoma; non-functional pancreatic neuroendocrine tumors.\n3. Pituitary adenoma (~30%): most commonly prolactinoma.\n\nThis patient has hyperparathyroidism (elevated PTH + hypercalcemia) causing recurrent pancreatitis + pancreatic mass = MEN1 until proven otherwise. Gene: MEN1 gene (chromosome 11q13, tumor suppressor).\n\nWhy other options are wrong:\n- B: MEN2A: medullary thyroid carcinoma + pheochromocytoma + parathyroid adenoma. The pancreatic neuroendocrine tumor is NOT part of MEN2A.\n- C: MEN2B: MTC + pheo + marfanoid habitus + mucosal neuromas. No parathyroid or pancreatic involvement.\n- D: Von Hippel-Lindau: hemangioblastomas (cerebellum/retina) + renal cell carcinoma + pheochromocytoma + pancreatic cysts/NETs. No parathyroid adenoma.\n\nNEET PG/INI-CET pearl: Recurrent pancreatitis in a non-drinker = always check calcium. Hypercalcemia + recurrent pancreatitis + pancreatic mass = MEN1. Screen family members for MEN1 gene mutation."
     },
     {
       "question_id": "TW_SURGERY_GI_SURGERY_Q011",
@@ -245,22 +268,22 @@
       "paper_ref": "TW_SURGERY_GI_SURGERY",
       "subject": "Surgery",
       "topic": "GI Surgery",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Small Bowel",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Most common position of Meckel's diverticulum?",
+      "question_text": "A 23-year-old male presents with acute onset periumbilical pain that shifted to the right iliac fossa over 12 hours, followed by nausea and vomiting. His temperature is 38.4°C, WBC is 16,200/mm³. Rebound tenderness is positive at McBurney's point. Alvarado score is calculated as 8. CT abdomen shows a non-opacifying appendix measuring 10 mm with periappendiceal fat stranding. What is the MOST appropriate management?",
       "options": {
-        "A": "Mesenteric border, proximal ileum",
-        "B": "Antimesenteric border, distal ileum",
-        "C": "Mesenteric border, distal ileum",
-        "D": "Antimesenteric border, proximal ileum"
+        "A": "IV antibiotics (amoxicillin-clavulanate + metronidazole) alone for 5 days, discharge with outpatient follow-up",
+        "B": "Urgent laparoscopic appendicectomy",
+        "C": "Observation in the ward for 24 hours before deciding on surgery",
+        "D": "Ultrasound-guided aspiration of periappendiceal fluid"
       },
       "correct_answer": "B",
-      "explanation": "Meckel's: rule of 2s — 2% population, 2 feet from ileocecal valve, 2 inches long, 2x common in males, by age 2, 2 types of ectopic mucosa (gastric/pancreatic). ANTIMESENTERIC border."
+      "explanation": "Alvarado score of 8 (out of 10) indicates high probability of acute appendicitis (score ≥7 = positive). CT findings confirm appendicitis (dilated non-opacifying appendix >6 mm with fat stranding).\n\nAlvarado score mnemonic (MANTRELS):\n- Migration of pain to RIF (1)\n- Anorexia (1)\n- Nausea/Vomiting (1)\n- Tenderness in RIF (2)\n- Rebound tenderness (1)\n- Elevated temperature (1)\n- Leukocytosis (2)\n\nManagement: Laparoscopic appendicectomy (preferred over open) — gold standard for uncomplicated acute appendicitis confirmed by CT.\n\nAntibiotic-alone approach: Controversial, applicable to selected patients with uncomplicated (non-perforated) appendicitis in trials — but NOT the standard in a young male with confirmed CT findings and Alvarado score 8. Higher recurrence rate (~25–40%) with antibiotics alone.\n\nWhy other options are wrong:\n- A: Antibiotic-only treatment has significant recurrence risk; not the standard recommendation in confirmed appendicitis.\n- C: Observation delays definitive treatment and risks perforation.\n- D: Ultrasound-guided aspiration is for appendiceal abscess with phlegmon, not acute appendicitis.\n\nNEET PG pearl: Alvarado score ≥7 = surgery. Perforation rate increases dramatically after 36 hours. Laparoscopic appendicectomy: less wound infection, shorter hospital stay, better cosmesis."
     },
     {
       "question_id": "TW_SURGERY_GI_SURGERY_Q012",
@@ -268,45 +291,45 @@
       "paper_ref": "TW_SURGERY_GI_SURGERY",
       "subject": "Surgery",
       "topic": "GI Surgery",
-      "subtopic": null,
+      "subtopic": "Upper GI",
       "difficulty": "Easy",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Achalasia cardia: manometric finding?",
+      "question_text": "A 47-year-old woman undergoes esophageal manometry for progressive dysphagia to both solids and liquids. The findings show high resting lower esophageal sphincter (LES) pressure of 42 mmHg (normal 10–26 mmHg), failure of LES relaxation on swallowing (integrated relaxation pressure elevated), and aperistalsis of the esophageal body. Which of the following is the MOST characteristic radiological finding in this condition?",
       "options": {
-        "A": "Low LES pressure, normal peristalsis",
-        "B": "High LES pressure, aperistalsis",
-        "C": "Low LES pressure, aperistalsis",
-        "D": "Normal LES, abnormal peristalsis"
+        "A": "Apple-core filling defect in the lower esophagus on barium swallow",
+        "B": "Bird-beak (rat-tail) tapering at the gastroesophageal junction with dilated esophagus above",
+        "C": "Cobblestone mucosa pattern in the esophageal body",
+        "D": "Corkscrew appearance of the esophagus with preserved LES relaxation"
       },
       "correct_answer": "B",
-      "explanation": "Achalasia: failure of LES relaxation (high resting pressure) + aperistalsis of esophageal body. Bird-beak appearance on barium swallow."
+      "explanation": "The manometry findings describe achalasia cardia: high LES pressure + failure of LES relaxation + aperistalsis. The classic barium swallow appearance is a 'bird-beak' (also called 'rat-tail' or 'pencil-tip') narrowing at the GEJ — smooth, symmetric tapering — with a markedly dilated esophagus above filled with residual food/barium.\n\nWhy other options are wrong:\n- A: Apple-core/shouldered filling defect = carcinoma of the esophagus (irregular, asymmetric mucosal destruction).\n- C: Cobblestone mucosa = Crohn's disease of the esophagus (very rare) or candida esophagitis.\n- D: Corkscrew esophagus = Diffuse Esophageal Spasm (DES) — characterized by simultaneous, non-peristaltic contractions with NORMAL LES relaxation. Manometry shows ≥20% simultaneous contractions.\n\nNEET PG pearl: Achalasia = bird-beak (barium) + aperistalsis + failed LES relaxation (manometry). DES = corkscrew (barium) + simultaneous contractions + normal LES. Nutcracker esophagus = high-amplitude peristaltic waves."
     },
     {
       "question_id": "TW_SURGERY_GI_SURGERY_Q013",
       "paper_type": "topic_wise",
       "paper_ref": "TW_SURGERY_GI_SURGERY",
       "subject": "Surgery",
-      "topic": "General Surgery",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "GI Surgery",
+      "subtopic": "Hepatobiliary",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A pregnant woman presents with hypertension and proteinuria. Most likely diagnosis?",
+      "question_text": "A 70-year-old man presents with 3 months of painless progressive jaundice, pruritus, clay-colored stools, and dark urine. He has lost 12 kg. His bilirubin is 18 mg/dL (predominantly direct), ALP is 8× normal, and CA 19-9 is markedly elevated. CT abdomen shows a 3 cm mass in the head of the pancreas with encasement of the superior mesenteric artery (SMA) by >270°. There are no liver metastases. What is the MOST appropriate management?",
       "options": {
-        "A": "Pulmonary embolism",
-        "B": "Acute pancreatitis",
-        "C": "Aortic dissection",
-        "D": "DKA"
+        "A": "Whipple's pancreaticoduodenectomy as primary treatment",
+        "B": "Neoadjuvant chemoradiotherapy followed by reassessment for resectability",
+        "C": "Palliative biliary bypass (hepaticojejunostomy) or endoscopic stenting + systemic chemotherapy",
+        "D": "Distal pancreatectomy with splenectomy"
       },
       "correct_answer": "C",
-      "explanation": "Integrated Surgery concept designed in NEET PG + INI-CET pattern."
+      "explanation": "SMA encasement >270° (>180°) classifies this as an UNRESECTABLE pancreatic head carcinoma (borderline or locally advanced based on current NCCN criteria — SMA involvement >180° = unresectable).\n\nCriteria for unresectability (NCCN):\n- Arterial involvement: SMA/celiac axis encasement >180° or aortic invasion.\n- Venous involvement: Unreconstructible SMV/portal vein occlusion.\n- Distant metastases (M1).\n\nManagement of unresectable non-metastatic pancreatic head carcinoma:\n- Biliary decompression: endoscopic biliary stenting (first-line for palliation) or surgical bypass if stenting fails.\n- Duodenal obstruction (if present): gastrojejunostomy.\n- Systemic chemotherapy: FOLFIRINOX or gemcitabine + nab-paclitaxel.\n\nWhy other options are wrong:\n- A: Whipple's is contraindicated with SMA encasement >180° — technically unresectable.\n- B: Neoadjuvant therapy followed by reassessment (downstaging) is appropriate for BORDERLINE resectable disease (SMA involvement <180°), not clearly unresectable.\n- D: Distal pancreatectomy is for tumors of the body/tail of pancreas — not the head.\n\nNEET PG pearl: Whipple's procedure = resection of head of pancreas + duodenum + distal stomach + CBD + gallbladder + proximal jejunum. Only ~20% of pancreatic cancers are resectable at presentation."
     },
     {
       "question_id": "TW_SURGERY_GI_SURGERY_Q014",
@@ -314,137 +337,137 @@
       "paper_ref": "TW_SURGERY_GI_SURGERY",
       "subject": "Surgery",
       "topic": "GI Surgery",
-      "subtopic": null,
+      "subtopic": "Hepatobiliary",
       "difficulty": "Easy",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Courvoisier's law states?",
+      "question_text": "A 55-year-old man presents to a hepatology clinic with painless jaundice, weight loss, and a palpable, non-tender gallbladder. He undergoes MRCP which shows a mass in the head of the pancreas with smooth, tapered stricture of the distal CBD and dilation of both the common bile duct and main pancreatic duct. His CA 19-9 is markedly elevated. Based on Courvoisier's law, why is the gallbladder palpable in this patient?",
       "options": {
-        "A": "In jaundice with palpable GB, cause is unlikely to be gallstones",
-        "B": "In jaundice with palpable GB, cause is likely to be gallstones",
-        "C": "Palpable GB always indicates malignancy",
-        "D": "GB is never palpable in hepatitis"
+        "A": "Large gallstones obstructing the cystic duct are causing gallbladder distension",
+        "B": "Malignant obstruction of the CBD distends a previously uninflamed, unscarred, compliant gallbladder wall",
+        "C": "Acute cholecystitis has led to empyema of the gallbladder",
+        "D": "Chronic hemolysis has caused pigment gallstones leading to hydrops"
       },
-      "correct_answer": "A",
-      "explanation": "Courvoisier's law: painless jaundice + palpable GB = unlikely gallstones (GB fibrosed in chronic stone disease). Suggests malignancy (pancreatic Ca, cholangiocarcinoma)."
+      "correct_answer": "B",
+      "explanation": "Courvoisier's law: 'In a patient with obstructive jaundice, if the gallbladder is PALPABLE, the cause is UNLIKELY to be gallstones.'\n\nExplanation: In chronic gallstone disease, recurrent episodes of cholecystitis scar and thicken the gallbladder wall, making it fibrotic and unable to distend even when obstructed. In malignant obstruction (carcinoma head of pancreas in this case), the gallbladder has NEVER been inflamed — its wall is soft and compliant. When bile backs up due to the malignant CBD obstruction, the gallbladder easily distends and becomes palpable.\n\nThe key clinical features of carcinoma head of pancreas:\n- Painless progressive jaundice (unlike gallstone jaundice which is colicky and painful)\n- Courvoisier's sign (palpable, non-tender GB)\n- Significant weight loss\n- Double-duct sign on MRCP/ERCP\n- CA 19-9 elevation\n\nWhy other options are wrong:\n- A: Gallstones causing cystic duct obstruction would present with pain and would NOT cause painless jaundice.\n- C: Acute cholecystitis causes a TENDER gallbladder, not painless jaundice.\n- D: Pigment stones from hemolysis do not explain the painless jaundice and cancer-associated features.\n\nNEET PG trap: Courvoisier's sign = palpable non-tender GB + painless jaundice = malignancy (NOT stones)."
     },
     {
       "question_id": "TW_SURGERY_GI_SURGERY_Q015",
       "paper_type": "topic_wise",
       "paper_ref": "TW_SURGERY_GI_SURGERY",
       "subject": "Surgery",
-      "topic": "General Surgery",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "GI Surgery",
+      "subtopic": "Colorectal",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A patient presents with sudden painless loss of vision. Best initial investigation?",
+      "question_text": "A 60-year-old man with a 3-month history of change in bowel habits and rectal bleeding undergoes colonoscopy which reveals an ulcerative mass at 8 cm from the anal verge. Biopsy confirms moderately differentiated adenocarcinoma. MRI rectum shows T3N1M0 disease. Which is the MOST appropriate management strategy?",
       "options": {
-        "A": "CT angiography",
-        "B": "MRI",
-        "C": "Ultrasound",
-        "D": "ECG"
+        "A": "Immediate anterior resection without pre-operative treatment",
+        "B": "Neoadjuvant long-course chemoradiotherapy followed by surgery after 8–12 weeks",
+        "C": "Abdominoperineal resection (APR) as primary treatment without neoadjuvant therapy",
+        "D": "Transanal endoscopic microsurgery (TEM) for local excision"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Surgery concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "T3N1 rectal adenocarcinoma at 8 cm from the anal verge is locally advanced rectal cancer. Current international guidelines (ESMO, NCCN) recommend:\n\nNeoadjuvant long-course chemoradiotherapy (capecitabine-based CRT) for T3/T4 or node-positive rectal cancer:\n- Downstages tumor (reduces T and N stage)\n- Reduces local recurrence rate (from ~25% to ~5–10%)\n- May achieve pathological complete response (pCR) in ~15–20% — allowing watch-and-wait strategy\n- Surgery (TME — Total Mesorectal Excision) performed 8–12 weeks after CRT\n\nWhy other options are wrong:\n- A: Surgery without neoadjuvant therapy for T3N1 disease is suboptimal — high local recurrence risk.\n- C: APR (with permanent colostomy) is for tumors at <5 cm from the anal verge where sphincter preservation is impossible. At 8 cm, anterior resection with TME is possible.\n- D: TEM/local excision is for T1 tumors only — T3N1 disease requires radical resection.\n\nNEET PG pearl: Colon cancer = surgery first, then adjuvant chemotherapy (FOLFOX). Rectal cancer = neoadjuvant CRT first, then TME surgery. TME (Total Mesorectal Excision) reduces local recurrence to <5%."
     },
     {
       "question_id": "TW_SURGERY_GI_SURGERY_Q016",
       "paper_type": "topic_wise",
       "paper_ref": "TW_SURGERY_GI_SURGERY",
       "subject": "Surgery",
-      "topic": "General Surgery",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "GI Surgery",
+      "subtopic": "Hepatobiliary",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A young woman presents with progressive proximal muscle weakness and rash. Most likely diagnosis?",
+      "question_text": "A 38-year-old woman with known ulcerative colitis for 10 years develops continuous right upper quadrant pain, pruritis, fatigue, and progressive cholestasis. Her ALP is 6× normal, GGT markedly elevated, and bilirubin 3.2 mg/dL. MRCP shows a 'beaded' appearance of both intrahepatic and extrahepatic bile ducts with multifocal strictures and dilatations. p-ANCA is positive. What is the diagnosis and its MOST important long-term complication?",
       "options": {
-        "A": "Pulmonary embolism",
-        "B": "Acute pancreatitis",
-        "C": "Aortic dissection",
-        "D": "DKA"
+        "A": "Primary biliary cholangitis (PBC); risk of cirrhosis",
+        "B": "Primary sclerosing cholangitis (PSC); risk of cholangiocarcinoma",
+        "C": "Autoimmune hepatitis; risk of hepatocellular carcinoma",
+        "D": "Mirizzi syndrome; risk of gallbladder perforation"
       },
-      "correct_answer": "C",
-      "explanation": "Integrated Surgery concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "Primary sclerosing cholangitis (PSC): chronic progressive cholestatic liver disease characterized by fibro-inflammatory strictures affecting both intra- and extrahepatic bile ducts. Key features:\n- Strong association with IBD, especially ulcerative colitis (~70–80% of PSC patients have UC)\n- Beaded appearance on MRCP (multifocal strictures + dilatations of bile ducts)\n- p-ANCA positive\n- Cholestatic LFTs (markedly elevated ALP + GGT)\n\nMost important long-term complication: Cholangiocarcinoma (bile duct cancer) in ~10–15% of PSC patients; high risk warrants annual MRCP surveillance + CA 19-9 monitoring.\n\nOther complications: Secondary biliary cirrhosis → portal hypertension, colorectal carcinoma (in associated UC), dominant stricture.\n\nWhy other options are wrong:\n- A: PBC (Primary Biliary Cholangitis) — affects middle-aged women, anti-mitochondrial antibodies (AMA), ONLY intrahepatic ducts, NOT associated with IBD. No beaded appearance.\n- C: Autoimmune hepatitis — elevated transaminases (not cholestatic), ANA/SMA positive, normal MRCP.\n- D: Mirizzi syndrome — gallstone in Hartmann's pouch compressing CBD; not associated with IBD or diffuse biliary changes.\n\nNEET PG pearl: UC + cholestasis + beaded bile ducts = PSC. PSC + cholangiocarcinoma = most feared complication. No medical treatment alters the course of PSC; liver transplantation is the only definitive treatment."
     },
     {
       "question_id": "TW_SURGERY_GI_SURGERY_Q017",
       "paper_type": "topic_wise",
       "paper_ref": "TW_SURGERY_GI_SURGERY",
       "subject": "Surgery",
-      "topic": "General Surgery",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "GI Surgery",
+      "subtopic": "Colorectal",
+      "difficulty": "Very Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A chronic smoker presents with hemoptysis and weight loss. Best initial investigation?",
+      "question_text": "A 25-year-old man presents with recurrent lower GI bleeding and episodic lower abdominal cramping. His father died of colorectal carcinoma at age 42. Colonoscopy reveals hundreds of small polyps carpeting the entire colon. APC gene mutation is confirmed on genetic testing. Which of the following statements regarding his management and surveillance is MOST accurate?",
       "options": {
-        "A": "CT angiography",
-        "B": "MRI",
-        "C": "Ultrasound",
-        "D": "ECG"
+        "A": "Annual colonoscopy surveillance is sufficient; prophylactic colectomy is not recommended until polyps become >2 cm",
+        "B": "Prophylactic total colectomy (or restorative proctocolectomy with IPAA) is recommended; upper GI surveillance for duodenal adenomas is also essential",
+        "C": "Sulindac (NSAID) alone can effectively prevent malignant transformation and replace the need for surgery",
+        "D": "Colectomy should be deferred until cancer is confirmed on biopsy"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Surgery concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "This is Familial Adenomatous Polyposis (FAP) — caused by germline APC gene mutation (chromosome 5q21), autosomal dominant. Characterized by hundreds–thousands of adenomatous polyps throughout the colon. Near 100% lifetime risk of colorectal carcinoma by age 40 if left untreated.\n\nManagement:\n1. Prophylactic colectomy: total proctocolectomy with ileal pouch-anal anastomosis (IPAA) = restorative proctocolectomy — the preferred operation (avoids permanent stoma, preserves continence). Performed in late teens/early 20s.\n2. Upper GI surveillance: 30–40% of FAP patients develop duodenal adenomas (especially in the periampullary region) → risk of duodenal/periampullary carcinoma. Regular upper endoscopy (EGD) with Spigelman staging.\n3. Desmoid tumors: occur in ~10–15% (mesenteric/retroperitoneal fibromatosis, especially post-colectomy). Extra-colonic manifestations: osteomas (Gardner's syndrome), congenital hypertrophy of retinal pigment epithelium (CHRPE), epidermoid cysts.\n\nWhy other options are wrong:\n- A: Surveillance alone is insufficient — 100% malignant transformation risk; prophylactic surgery is mandatory.\n- C: NSAIDs (sulindac/celecoxib) reduce polyp burden but do NOT eliminate malignancy risk; cannot replace surgery.\n- D: Waiting for confirmed cancer in FAP negates the entire purpose of genetic diagnosis and prophylactic management.\n\nNEET PG/INI-CET pearl: FAP = APC gene + hundreds of polyps + 100% CRC risk → prophylactic colectomy. Gardner's syndrome = FAP + osteomas + epidermoid cysts + desmoid tumors. Turcot syndrome = FAP + brain tumors (medulloblastoma)."
     },
     {
       "question_id": "TW_SURGERY_GI_SURGERY_Q018",
       "paper_type": "topic_wise",
       "paper_ref": "TW_SURGERY_GI_SURGERY",
       "subject": "Surgery",
-      "topic": "General Surgery",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "GI Surgery",
+      "subtopic": "Upper GI",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A chronic smoker presents with hemoptysis and weight loss. Most likely diagnosis?",
+      "question_text": "A 44-year-old man presents to the emergency department with sudden onset severe upper abdominal pain radiating to the back for 6 hours. He consumes approximately 80 g of alcohol daily. His temperature is 38.2°C, BP 100/70 mmHg, HR 118/min. Serum amylase is 2800 U/L. Serum calcium is 7.8 mg/dL and blood glucose is 260 mg/dL. CT abdomen at 72 hours shows 40% pancreatic necrosis. Based on CT Severity Index (CTSI/Balthazar score), what prognostic score does this represent?",
       "options": {
-        "A": "Pulmonary embolism",
-        "B": "Acute pancreatitis",
-        "C": "Aortic dissection",
-        "D": "DKA"
+        "A": "CTSI 2 — mild pancreatitis, <3% mortality, <3% morbidity",
+        "B": "CTSI 4 — moderate pancreatitis, ~8% mortality",
+        "C": "CTSI 8 — severe pancreatitis, ~17% mortality, ~92% morbidity",
+        "D": "CTSI 6 — moderate-severe, ~6% mortality, ~35% morbidity"
       },
       "correct_answer": "C",
-      "explanation": "Integrated Surgery concept designed in NEET PG + INI-CET pattern."
+      "explanation": "CT Severity Index (Balthazar/CTSI) for acute pancreatitis:\n\nBalthazar Grade (CT findings):\n- A: Normal pancreas (0 pts)\n- B: Focal or diffuse enlargement (1 pt)\n- C: Intrinsic abnormalities + peripancreatic fat stranding (2 pts)\n- D: Single fluid collection (3 pts)\n- E: ≥2 fluid collections or gas in pancreas/peripancreatic tissue (4 pts)\n\nNecrosis Score:\n- No necrosis: 0 pts\n- <33% necrosis: 2 pts\n- 33–50% necrosis: 4 pts\n- >50% necrosis: 6 pts\n\nFor 40% necrosis = Necrosis score 4. With Grade D/E findings in this context, adding Balthazar 4 + Necrosis 4 = CTSI 8.\n\nCTSI Score interpretation:\n- 0–3: Mild, <3% mortality\n- 4–6: Moderate, ~8% mortality\n- 7–10: Severe, ~17% mortality, ~92% morbidity\n\nWhy other options are wrong: 40% necrosis alone = necrosis score of 4; with significant CT findings = total CTSI of 7–8, placing this in the severe category.\n\nNEET PG pearl: Modified CTSI (MCTSI) also incorporates pleural effusion. Ranson's criteria is clinical scoring; CTSI is CT-based. Both are complementary. Necrotizing pancreatitis management: sterile necrosis = conservative; infected necrosis = step-up approach (percutaneous drainage → minimally invasive debridement → open if needed)."
     },
     {
       "question_id": "TW_SURGERY_GI_SURGERY_Q019",
       "paper_type": "topic_wise",
       "paper_ref": "TW_SURGERY_GI_SURGERY",
       "subject": "Surgery",
-      "topic": "General Surgery",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "GI Surgery",
+      "subtopic": "Upper GI",
+      "difficulty": "Very Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A chronic alcoholic presents with abdominal pain radiating to the back. Most likely organism?",
+      "question_text": "A 52-year-old chronic alcoholic presents with severe epigastric pain, nausea, and a 3-week history of worsening abdominal fullness. His serum amylase has normalized. Ultrasound shows a 10 cm well-defined fluid collection with a thick wall in the lesser sac. He is afebrile with stable vitals. His last episode of acute pancreatitis was 7 weeks ago. CT abdomen confirms a mature pseudocyst with a well-defined wall. Which of the following is the MOST appropriate management?",
       "options": {
-        "A": "Staphylococcus aureus",
-        "B": "Klebsiella",
-        "C": "Pseudomonas",
-        "D": "E. coli"
+        "A": "Immediate surgical cystogastrostomy",
+        "B": "Endoscopic ultrasound-guided transmural drainage (EUS-guided cystogastrostomy)",
+        "C": "CT-guided percutaneous drainage and external catheter placement",
+        "D": "Conservative management with nasojejunal feeding and reassessment at 3 months"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Surgery concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "This is a mature pancreatic pseudocyst (≥6 weeks old, well-defined wall on CT) in a symptomatic patient — 10 cm, causing fullness. Modern management has shifted significantly toward endoscopic drainage.\n\nIndications for drainage of pancreatic pseudocyst:\n- Symptomatic (pain, early satiety, nausea)\n- Enlarging or >6 cm\n- Complications (infection, rupture, hemorrhage, biliary/gastric outlet obstruction)\n\nCurrent first-line drainage:\n- EUS-guided transmural drainage (cystogastrostomy or cystoduodenostomy): endoscopic stent placed between the pseudocyst and stomach/duodenum under EUS guidance. Success rate ~85–95%. Less invasive than surgery.\n\nWhy other options are wrong:\n- A: Surgical cystogastrostomy: effective but more invasive; now reserved for failed endoscopic drainage or disconnected duct syndrome with large collections.\n- C: Percutaneous external drainage is reserved for infected pseudocysts (pancreatic abscess) or when internal drainage is not feasible — creates an external fistula risk.\n- D: Conservative management: appropriate for asymptomatic pseudocysts <6 cm that may resolve spontaneously (30–40% resolve within 6 weeks). This 10 cm symptomatic pseudocyst requires intervention.\n\nNEET PG/INI-CET pearl: Pancreatic pseudocyst = fluid collection enclosed in non-epithelialized fibrous wall, ≥4 weeks after pancreatitis. True cyst = epithelialized. Modern treatment hierarchy: EUS-guided endoscopic drainage → surgical drainage → percutaneous (for infected)."
     }
   ]
 }

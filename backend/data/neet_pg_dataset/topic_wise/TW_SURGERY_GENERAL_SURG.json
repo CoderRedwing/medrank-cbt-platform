@@ -5,7 +5,10 @@
   "topic": "General Surgery Basics",
   "total_questions": 22,
   "difficulty_distribution": {
-    "Easy": 22
+    "Easy": 4,
+    "Medium": 5,
+    "Hard": 8,
+    "Very Hard": 5
   },
   "created_at": "2026-05-30",
   "questions": [
@@ -15,22 +18,22 @@
       "paper_ref": "TW_SURGERY_GENERAL_SURG",
       "subject": "Surgery",
       "topic": "General Surgery Basics",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Wound Closure & Sutures",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Ideal suture material for abdominal wall closure?",
+      "question_text": "A 45-year-old male with a BMI of 34 kg/m² undergoes emergency laparotomy for perforated duodenal ulcer. The surgeon is planning the abdominal wall closure. He has a history of a previous midline laparotomy 3 years ago with no complications. Which suture material is MOST appropriate for mass closure of his abdominal wall?",
       "options": {
-        "A": "Catgut",
-        "B": "Polydioxanone (PDS)",
-        "C": "Silk",
-        "D": "Polyglactin (Vicryl)"
+        "A": "Polyglactin 910 (Vicryl) No. 1, continuous",
+        "B": "Polydioxanone (PDS) loop suture No. 1, continuous",
+        "C": "Braided silk No. 1, interrupted",
+        "D": "Chromic catgut No. 1, continuous"
       },
       "correct_answer": "B",
-      "explanation": "Mass closure with loop PDS (slowly absorbable) is ideal for abdominal wall. Provides prolonged tensile strength (>6 months) needed for healing."
+      "explanation": "PDS (Polydioxanone) loop suture is the ideal choice for mass closure of the abdominal wall. It is a monofilament, slowly absorbable synthetic suture that retains tensile strength for >6 months — sufficient for complete fascial healing (which takes 6–12 months). The loop configuration prevents suture pull-through and distributes tension evenly.\n\nWhy other options are wrong:\n- Vicryl (Polyglactin 910): absorbed by 60–90 days, losing tensile strength too early for fascial healing in obese or high-risk patients → high risk of incisional hernia.\n- Silk: non-absorbable but braided (higher infection risk), loses tensile strength over time, associated with sinus formation. Not recommended for fascial closure.\n- Chromic catgut: absorbed within 10–40 days; far too rapid resorption for fascial closure, especially in emergency/contaminated cases.\n\nNEET PG/INI-CET pearl: In obese patients or re-operative laparotomy, PDS loop with suture-to-wound length ratio of 4:1 is the standard of care. Failure of mass closure is the primary cause of incisional hernia."
     },
     {
       "question_id": "TW_SURGERY_GENERAL_SURG_Q002",
@@ -38,22 +41,22 @@
       "paper_ref": "TW_SURGERY_GENERAL_SURG",
       "subject": "Surgery",
       "topic": "General Surgery Basics",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Surgical Drains",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Type of drain used after thyroid surgery?",
+      "question_text": "A 38-year-old woman undergoes total thyroidectomy for multinodular goiter. The surgeon places a drain before closure. Six hours post-operatively, the patient develops stridor, tachycardia (HR 116/min), and marked neck swelling despite the drain being in place. Which of the following is the MOST appropriate immediate management?",
       "options": {
-        "A": "Penrose drain",
-        "B": "Corrugated drain",
-        "C": "Negative pressure (Redivac)",
-        "D": "T-tube"
+        "A": "Increase suction on the drain and administer IV furosemide",
+        "B": "Open the neck wound immediately at bedside to evacuate hematoma",
+        "C": "Endotracheal intubation followed by IV steroids",
+        "D": "Urgent CT neck to confirm hematoma before surgical re-exploration"
       },
-      "correct_answer": "C",
-      "explanation": "Closed suction drains (Redivac/Jackson-Pratt) are used after thyroid/neck surgery to prevent hematoma. Corrugated and Penrose are open drains."
+      "correct_answer": "B",
+      "explanation": "This scenario describes post-thyroidectomy airway emergency due to hematoma causing tracheal compression. The correct immediate management is to open the wound at the bedside to decompress the hematoma and relieve airway obstruction — do NOT wait for imaging or formal theater.\n\nKey teaching points:\n- Stridor + neck swelling after thyroid surgery = airway emergency; delay is fatal.\n- Redivac/closed suction drains may become blocked and fail to prevent hematoma accumulation.\n- Once wound is opened and airway stabilized, patient is taken to OT for definitive hemostasis and re-closure.\n\nWhy other options are wrong:\n- A: Increasing drain suction does nothing for a blocked drain; furosemide is irrelevant for surgical hematoma.\n- C: Intubation may be attempted, but is often impossible with tracheal deviation/edema — opening the wound decompresses the airway and may allow intubation afterward.\n- D: Imaging causes dangerous delay in a rapidly deteriorating airway emergency.\n\nNEET PG pearl: The classic teaching is 'In post-thyroidectomy hematoma with stridor — open the wound, don't wait.' This is a 'next best step' type question frequently asked in INI-CET."
     },
     {
       "question_id": "TW_SURGERY_GENERAL_SURG_Q003",
@@ -61,114 +64,114 @@
       "paper_ref": "TW_SURGERY_GENERAL_SURG",
       "subject": "Surgery",
       "topic": "General Surgery Basics",
-      "subtopic": null,
+      "subtopic": "Stress Ulcers",
       "difficulty": "Easy",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Cushing's ulcer is associated with?",
+      "question_text": "A 27-year-old man is admitted to the ICU after sustaining a severe traumatic brain injury (GCS 7) following a road traffic accident. He is intubated and on mechanical ventilation. On day 3, his nasogastric aspirate reveals coffee-ground material. Which of the following BEST explains the pathophysiology of this complication?",
       "options": {
-        "A": "Burns",
-        "B": "Head injury/raised ICP",
-        "C": "NSAID use",
-        "D": "Stress"
+        "A": "Hypoperfusion of gastric mucosa due to hemodynamic instability",
+        "B": "Increased vagal tone causing hypersecretion of gastric acid",
+        "C": "Direct mucosal disruption by the NGT",
+        "D": "Helicobacter pylori reactivation under stress"
       },
       "correct_answer": "B",
-      "explanation": "Cushing's ulcer: stress ulcer from raised ICP/head injury (vagal stimulation → acid hypersecretion). Curling's ulcer: burns. Both prevented with PPI."
+      "explanation": "This describes Cushing's ulcer — a stress ulcer specifically associated with raised intracranial pressure (ICP) and head injury. The mechanism is vagal (parasympathetic) hyperstimulation from the hypothalamus due to elevated ICP, leading to excessive gastric acid secretion, which ulcerates the stomach/duodenum.\n\nKey differentiation:\n- Cushing's ulcer: head injury/raised ICP → vagal stimulation → acid hypersecretion. Located in stomach, duodenum, or esophagus.\n- Curling's ulcer: major burns → hypovolemia → mucosal ischemia → gastric mucosal breakdown. Located in duodenum.\n- Other ICU stress ulcers: mucosal ischemia due to hypoperfusion.\n\nWhy other options are wrong:\n- A: This describes generic stress ulcers of critical illness (not specific to head injury).\n- C: NGT by itself does not cause ulcers.\n- D: H. pylori reactivation is not a recognized mechanism of acute stress ulcers.\n\nNEET PG trap: Students often confuse Cushing (head injury) with Curling (burns). Remember: 'Cushing = Cranial' and 'Curling = Coal burns.' Both are prevented/treated with PPIs."
     },
     {
       "question_id": "TW_SURGERY_GENERAL_SURG_Q004",
       "paper_type": "topic_wise",
       "paper_ref": "TW_SURGERY_GENERAL_SURG",
       "subject": "Surgery",
-      "topic": "General Surgery",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "General Surgery Basics",
+      "subtopic": "Acute Abdomen",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A young woman presents with progressive proximal muscle weakness and rash. Most likely diagnosis?",
+      "question_text": "A 55-year-old hypertensive man presents to the emergency department with sudden-onset severe tearing chest pain radiating to the interscapular region. His BP is 170/90 mmHg in the right arm and 140/80 mmHg in the left arm. His ECG shows no ischemic changes and troponin is negative. Chest X-ray reveals a widened mediastinum. Which is the MOST appropriate next step?",
       "options": {
-        "A": "Pulmonary embolism",
-        "B": "Acute pancreatitis",
-        "C": "Aortic dissection",
-        "D": "DKA"
+        "A": "Urgent coronary angiography",
+        "B": "IV heparin and thrombolysis",
+        "C": "CT aortography (CECT chest and abdomen)",
+        "D": "Echocardiography alone and discharge if normal"
       },
       "correct_answer": "C",
-      "explanation": "Integrated Surgery concept designed in NEET PG + INI-CET pattern."
+      "explanation": "This clinical picture is classic for acute aortic dissection (Type A or B): sudden tearing/ripping pain, radiation to the back, asymmetric blood pressures (>20 mmHg difference between arms), and widened mediastinum on CXR. The most appropriate investigation is CT aortography (contrast-enhanced CT of chest and abdomen), which is the gold standard for diagnosing, classifying (Stanford/DeBakey), and planning management of aortic dissection.\n\nWhy other options are wrong:\n- A: Coronary angiography is for ACS — ECG and troponin are negative here, and giving anticoagulants in dissection is lethal.\n- B: Thrombolytics/heparin in aortic dissection → catastrophic hemorrhage and death.\n- D: Echo alone is insufficient; cannot delineate extent of dissection or involvement of branch vessels.\n\nManagement pearls:\n- Stanford Type A (involves ascending aorta): emergency surgical repair.\n- Stanford Type B (descending only): medical management (BP control with IV labetalol/nitroprusside), endovascular repair for complications.\n\nNEET PG/INI-CET pearl: Asymmetric blood pressures + tearing pain + widened mediastinum = aortic dissection until proven otherwise. Do NOT anticoagulate."
     },
     {
       "question_id": "TW_SURGERY_GENERAL_SURG_Q005",
       "paper_type": "topic_wise",
       "paper_ref": "TW_SURGERY_GENERAL_SURG",
       "subject": "Surgery",
-      "topic": "General Surgery",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "General Surgery Basics",
+      "subtopic": "Post-operative Complications",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A patient develops sudden severe tearing chest pain radiating to the back. Most likely diagnosis?",
+      "question_text": "A 62-year-old woman with carcinoma rectum undergoes Hartmann's procedure. On postoperative day 5, she develops high-grade fever (39.5°C), erythema and induration of the wound edges, seropurulent discharge, and skin blistering around the wound. The wound does not appear to be obviously necrotic but feels crepitant on palpation. Which is the MOST likely diagnosis and appropriate management?",
       "options": {
-        "A": "Pulmonary embolism",
-        "B": "Acute pancreatitis",
-        "C": "Aortic dissection",
-        "D": "DKA"
+        "A": "Superficial wound infection; oral antibiotics and wound care",
+        "B": "Necrotizing fasciitis; urgent surgical debridement + broad-spectrum IV antibiotics",
+        "C": "Seroma formation; aspiration and compression dressing",
+        "D": "Hematoma with secondary infection; drainage under local anesthesia"
       },
-      "correct_answer": "C",
-      "explanation": "Integrated Surgery concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "Crepitus (gas in soft tissue), rapidly spreading cellulitis, skin blistering, and systemic sepsis after abdominal surgery in an elderly patient is necrotizing fasciitis — a surgical emergency with high mortality (20–40%). Organisms involved include Group A Streptococcus, Clostridium perfringens, or polymicrobial (Fournier's gangrene in perineum).\n\nManagement: Immediate wide surgical debridement (the cornerstone of treatment) + broad-spectrum IV antibiotics (piperacillin-tazobactam + vancomycin ± metronidazole) + ICU support. Hyperbaric oxygen is adjunctive.\n\nWhy other options are wrong:\n- A: Oral antibiotics are grossly inadequate; the condition is life-threatening.\n- C: Seroma does not cause fever, crepitus, or skin necrosis.\n- D: Simple drainage is insufficient; deep fascial plane necrosis requires wide debridement.\n\nNEET PG trap: Crepitus is the key clinical clue for gas-forming infections (necrotizing fasciitis, gas gangrene). The LRINEC score (Laboratory Risk Indicator for Necrotizing Fasciitis) is used for risk stratification. Never delay debridement for imaging."
     },
     {
       "question_id": "TW_SURGERY_GENERAL_SURG_Q006",
       "paper_type": "topic_wise",
       "paper_ref": "TW_SURGERY_GENERAL_SURG",
       "subject": "Surgery",
-      "topic": "General Surgery",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "General Surgery Basics",
+      "subtopic": "Fluid Management",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A pregnant woman presents with hypertension and proteinuria. Most likely diagnosis?",
+      "question_text": "A 32-year-old man is brought to the emergency department after a road traffic accident. He is pale, sweating, confused, and his BP is 80/50 mmHg with a pulse of 140/min. His estimated blood loss is about 1.8 liters. He has no allergy to any medications. Which of the following IV fluids is MOST appropriate as the initial resuscitation fluid?",
       "options": {
-        "A": "Pulmonary embolism",
-        "B": "Acute pancreatitis",
-        "C": "Aortic dissection",
-        "D": "DKA"
+        "A": "5% Dextrose at 500 mL over 30 minutes",
+        "B": "Normal saline (0.9% NaCl) 2 liters rapidly",
+        "C": "Ringer's Lactate (Hartmann's solution) 1–2 liters rapidly",
+        "D": "Colloid (Gelatin/Haemacel) 1 liter as first-line"
       },
       "correct_answer": "C",
-      "explanation": "Integrated Surgery concept designed in NEET PG + INI-CET pattern."
+      "explanation": "Ringer's Lactate (= Hartmann's solution) is the preferred initial crystalloid in trauma resuscitation per ATLS guidelines. It is near-physiological, contains sodium (130 mEq/L), potassium, calcium, and lactate (metabolized to bicarbonate), and causes less hyperchloremic metabolic acidosis compared to normal saline.\n\nThis patient has Class III hemorrhagic shock (30–40% blood loss: HR >120, BP falling, confused), requiring immediate volume resuscitation with crystalloids and early blood transfusion.\n\nWhy other options are wrong:\n- A: 5% dextrose is distributed in total body water (only 8% stays intravascular) — completely ineffective for hemorrhagic shock.\n- B: Normal saline (0.9% NaCl) is hyperchloremic and causes dilutional hyperchloremic metabolic acidosis; 1:1:1 balanced resuscitation is preferred in major trauma.\n- D: Colloids were shown in meta-analyses to be no better than crystalloids and may be harmful (renal dysfunction, coagulopathy with starches); not first-line in trauma.\n\nNEET PG pearl: Hartmann's = Ringer's Lactate = Compound Sodium Lactate. Know the composition: Na 130, K 4, Ca 1.5, Cl 109, Lactate 28 mEq/L."
     },
     {
       "question_id": "TW_SURGERY_GENERAL_SURG_Q007",
       "paper_type": "topic_wise",
       "paper_ref": "TW_SURGERY_GENERAL_SURG",
       "subject": "Surgery",
-      "topic": "General Surgery",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "General Surgery Basics",
+      "subtopic": "Surgical Oncology",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A chronic smoker presents with hemoptysis and weight loss. Underlying mechanism?",
+      "question_text": "A 58-year-old man with a 30 pack-year smoking history presents with a 3-month history of progressive dysphagia, 8 kg weight loss, and occasional hemoptysis. Upper GI endoscopy reveals a friable, ulcerated growth in the mid-esophagus. Biopsy confirms squamous cell carcinoma. CT chest reveals no distant metastases. Which is the MOST appropriate initial investigation to assess resectability?",
       "options": {
-        "A": "Autoimmune destruction",
-        "B": "Type I hypersensitivity",
-        "C": "Fat necrosis",
-        "D": "Toxin-mediated injury"
+        "A": "Barium swallow X-ray",
+        "B": "PET-CT scan",
+        "C": "Endoscopic Ultrasound (EUS)",
+        "D": "MRI chest and abdomen"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Surgery concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "C",
+      "explanation": "Endoscopic Ultrasound (EUS) is the investigation of choice for local staging of esophageal carcinoma — it most accurately determines T-stage (depth of wall invasion) and N-stage (locoregional lymph nodes), which are critical for assessing resectability.\n\nStaging approach for esophageal cancer:\n1. CT chest/abdomen/pelvis: initial staging, detects distant metastases.\n2. EUS: best for T and N staging (local invasion, periesophageal nodes).\n3. PET-CT: best for detecting occult distant metastases and nodal disease beyond CT.\n4. Staging laparoscopy: for junctional tumors.\n\nWhy other options are wrong:\n- A: Barium swallow shows luminal narrowing but gives no information on wall invasion or nodes.\n- B: PET-CT is better for distant metastases than local staging; EUS is superior for locoregional assessment.\n- D: MRI is not standard for esophageal staging; poor resolution for local invasion.\n\nNEET PG pearl: Mid/upper esophagus = squamous cell carcinoma (smoking, alcohol). Lower esophagus/GEJ = adenocarcinoma (Barrett's/GERD). Surgery of choice = Ivor Lewis esophagectomy (right thoracotomy + laparotomy)."
     },
     {
       "question_id": "TW_SURGERY_GENERAL_SURG_Q008",
@@ -176,45 +179,45 @@
       "paper_ref": "TW_SURGERY_GENERAL_SURG",
       "subject": "Surgery",
       "topic": "General Surgery Basics",
-      "subtopic": null,
+      "subtopic": "Post-operative Complications",
       "difficulty": "Easy",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Most common post-operative complication in first 24 hours?",
+      "question_text": "A 48-year-old man undergoes right hemicolectomy for carcinoma cecum. Six hours after surgery, his drain output is 200 mL of fresh blood over 2 hours. His BP has dropped from 120/80 to 96/70 mmHg and pulse has risen to 108/min. His last intraoperative vital signs were stable at the end of surgery. Which type of hemorrhage is this MOST consistent with?",
       "options": {
-        "A": "DVT",
-        "B": "Wound infection",
-        "C": "Reactionary hemorrhage",
-        "D": "Pulmonary embolism"
+        "A": "Primary hemorrhage",
+        "B": "Reactionary hemorrhage",
+        "C": "Secondary hemorrhage",
+        "D": "Coagulopathic hemorrhage"
       },
-      "correct_answer": "C",
-      "explanation": "Reactionary hemorrhage: within 24 hours, due to dislodged clot or missed vessel. Secondary hemorrhage: 7-14 days, due to infection."
+      "correct_answer": "B",
+      "explanation": "Reactionary hemorrhage occurs within the first 24 hours (typically 4–6 hours) after surgery. It results from dislodgement of a clot or a previously vasospastic vessel dilating as blood pressure is restored and vasoconstriction resolves — revealing a vessel that was not properly ligated intraoperatively.\n\nClassification of post-operative hemorrhage:\n- Primary hemorrhage: occurs during the operation itself.\n- Reactionary hemorrhage: within 24 hours; due to clot displacement, rising BP, or missed vessel.\n- Secondary hemorrhage: 7–14 days post-op; due to wound infection eroding a vessel.\n\nWhy other options are wrong:\n- A: Primary hemorrhage = intraoperative.\n- C: Secondary hemorrhage occurs much later (7–14 days) and is infection-related.\n- D: Coagulopathic hemorrhage lacks specific timing and is diffuse (not from a drain point).\n\nNEET PG pearl: Reactionary hemorrhage management = surgical re-exploration. Monitor for sepsis if hemorrhage occurs at 7–14 days."
     },
     {
       "question_id": "TW_SURGERY_GENERAL_SURG_Q009",
       "paper_type": "topic_wise",
       "paper_ref": "TW_SURGERY_GENERAL_SURG",
       "subject": "Surgery",
-      "topic": "General Surgery",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "General Surgery Basics",
+      "subtopic": "Surgical Infections",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A 52-year-old diabetic male presents with fever, hypotension, and tachycardia. Most likely organism?",
+      "question_text": "A 60-year-old poorly controlled diabetic male is admitted with a 4-day history of right lower limb pain and swelling. On examination, his temperature is 39.8°C, BP is 90/60 mmHg, HR is 124/min, and RR is 26/min. The right thigh shows erythema, warmth, and a few bullae. Plain X-ray of the thigh reveals subcutaneous gas. Blood cultures are sent. What is the MOST appropriate IMMEDIATE management?",
       "options": {
-        "A": "Staphylococcus aureus",
-        "B": "Klebsiella",
-        "C": "Pseudomonas",
-        "D": "E. coli"
+        "A": "Blood cultures, IV antibiotics (meropenem + vancomycin), and defer surgery until microbiological results are available",
+        "B": "Immediate wide surgical debridement under general anesthesia + broad-spectrum IV antibiotics + ICU admission",
+        "C": "Hyperbaric oxygen therapy as primary treatment with IV antibiotics",
+        "D": "CT thigh to confirm diagnosis before surgical planning"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Surgery concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "This is gas gangrene/necrotizing fasciitis with septic shock in a diabetic — a surgical emergency. Gas on plain X-ray of soft tissue = gas-forming organisms (Clostridium perfringens or polymicrobial). The presence of septic shock, bullae, crepitus, and subcutaneous gas mandates IMMEDIATE wide surgical debridement — the cornerstone of treatment. Delay for imaging or culture results is associated with markedly increased mortality.\n\nTreatment protocol:\n1. Resuscitate with IV fluids, vasopressors if needed.\n2. Broad-spectrum antibiotics: piperacillin-tazobactam + vancomycin (cover gram-positives, gram-negatives, anaerobes).\n3. Immediate surgical debridement — 'cut until you see healthy bleeding tissue'; repeat re-look in 24–48 hours.\n4. ICU admission.\n5. Hyperbaric oxygen is adjunctive, not primary.\n\nWhy other options are wrong:\n- A: Waiting for culture results in septic shock = unacceptable delay.\n- C: HBO is adjunctive therapy; surgery cannot be replaced.\n- D: CT is unnecessary when clinical diagnosis is already clear and patient is in shock.\n\nNEET PG pearl: Subcutaneous gas = gas-forming infection. Diabetes is the biggest risk factor for Fournier's gangrene. LRINEC score ≥6 = high risk of necrotizing fasciitis."
     },
     {
       "question_id": "TW_SURGERY_GENERAL_SURG_Q010",
@@ -222,45 +225,45 @@
       "paper_ref": "TW_SURGERY_GENERAL_SURG",
       "subject": "Surgery",
       "topic": "General Surgery Basics",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "DVT and Thromboembolism",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Virchow's triad for DVT includes all EXCEPT?",
+      "question_text": "A 55-year-old woman presents with painful swelling of her left calf following a 12-hour international flight. She has a history of deep vein thrombosis 3 years ago and is on oral contraceptive pills. On examination, the left calf is tender and swollen with mild pitting edema. Homan's sign is positive. Which of the following BEST represents the triad underlying her current condition?",
       "options": {
-        "A": "Venous stasis",
-        "B": "Endothelial damage",
-        "C": "Hypercoagulability",
-        "D": "Arterial spasm"
+        "A": "Venous stasis + endothelial injury + arterial spasm",
+        "B": "Venous stasis + endothelial injury + hypercoagulability",
+        "C": "Arterial spasm + platelet activation + fibrinolysis failure",
+        "D": "Venous stasis + fibrinolysis failure + platelet dysfunction"
       },
-      "correct_answer": "D",
-      "explanation": "Virchow's triad: stasis + endothelial injury + hypercoagulability. Arterial spasm is not part of it (relevant to Raynaud's/arterial disease)."
+      "correct_answer": "B",
+      "explanation": "Virchow's triad describes the three factors predisposing to thrombosis:\n1. Venous stasis — prolonged immobility (long flight)\n2. Endothelial injury — prior DVT causes vessel wall damage\n3. Hypercoagulability — OCP use increases coagulation factors (especially Factor V Leiden vulnerability, protein S deficiency)\n\nThis patient has multiple risk factors for DVT: prolonged immobility, prior DVT, and OCP use.\n\nWhy other options are wrong:\n- A: Arterial spasm is part of Raynaud's phenomenon/arterial disease, NOT Virchow's triad.\n- C: Arterial spasm and platelet activation are more relevant to arterial thrombosis.\n- D: Fibrinolysis failure is a consequence, not a primary element of Virchow's triad.\n\nDiagnosis: Compression duplex ultrasound (first-line). Management: Low-molecular-weight heparin → warfarin or DOAC (rivaroxaban/apixaban) for 3–6 months. Homan's sign has poor sensitivity and specificity.\n\nNEET PG trap: OCP is the most commonly tested pharmacological risk factor for DVT in young women. Know the Wells score criteria."
     },
     {
       "question_id": "TW_SURGERY_GENERAL_SURG_Q011",
       "paper_type": "topic_wise",
       "paper_ref": "TW_SURGERY_GENERAL_SURG",
       "subject": "Surgery",
-      "topic": "General Surgery",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "General Surgery Basics",
+      "subtopic": "Surgical Oncology",
+      "difficulty": "Very Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A chronic smoker presents with hemoptysis and weight loss. Most likely diagnosis?",
+      "question_text": "A 52-year-old male smoker with a history of alcohol use disorder presents with progressive dysphagia for solids for 4 months, weight loss of 10 kg, and a 2-week history of hoarseness of voice. He also reports new-onset left-sided chest pain and cough. On examination, there is supraclavicular lymphadenopathy bilaterally. CT chest and abdomen shows a mass at the midesophagus with aortic encasement >90°, tracheoesophageal fistula, and bilateral lung nodules. Which of the following is the MOST appropriate management?",
       "options": {
-        "A": "Pulmonary embolism",
-        "B": "Acute pancreatitis",
-        "C": "Aortic dissection",
-        "D": "DKA"
+        "A": "Ivor Lewis esophagectomy with neoadjuvant chemotherapy",
+        "B": "Definitive chemoradiotherapy (cisplatin + 5-FU with concurrent RT)",
+        "C": "Palliative esophageal stenting + systemic chemotherapy",
+        "D": "Exploratory laparotomy and feeding jejunostomy followed by radiation"
       },
       "correct_answer": "C",
-      "explanation": "Integrated Surgery concept designed in NEET PG + INI-CET pattern."
+      "explanation": "This patient has locally advanced, unresectable esophageal squamous cell carcinoma with multiple features confirming inoperability:\n- Aortic encasement >90° (T4b disease — invasion of aorta)\n- Tracheoesophageal fistula (T4b — airway invasion)\n- Bilateral lung nodules (distant metastases, M1)\n- Supraclavicular lymphadenopathy (N3)\n\nSurgery is contraindicated. The goals are palliation of dysphagia and symptom control.\n- Palliative self-expanding metal stent (SEMS): relieves dysphagia rapidly.\n- Systemic chemotherapy: cisplatin + 5-FU or FOLFOX for survival benefit.\n- Tracheoesophageal fistula makes radiotherapy risky (can enlarge the fistula).\n\nWhy other options are wrong:\n- A: Esophagectomy is contraindicated with aortic encasement and distant metastases.\n- B: Definitive chemoRT is for locally advanced but RESECTABLE or borderline cases without metastases. The TE fistula is a relative contraindication.\n- D: Jejunostomy alone provides nutrition but does not address the primary tumor or palliate dysphagia.\n\nNEET PG/INI-CET pearl: Contraindications to surgery in esophageal cancer — T4b disease (aorta, trachea, vertebrae invasion), TE fistula, distant metastases (M1), severe cardiorespiratory comorbidity."
     },
     {
       "question_id": "TW_SURGERY_GENERAL_SURG_Q012",
@@ -268,68 +271,78 @@
       "paper_ref": "TW_SURGERY_GENERAL_SURG",
       "subject": "Surgery",
       "topic": "General Surgery Basics",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "DVT and Thromboembolism",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Best investigation for diagnosing DVT?",
+      "question_text": "A 58-year-old man with suspected deep vein thrombosis of the left femoral vein is evaluated in the outpatient clinic. He has a Wells score of 4. D-dimer is elevated. Which of the following is the MOST appropriate investigation to CONFIRM the diagnosis?",
       "options": {
-        "A": "D-dimer",
-        "B": "Doppler ultrasound",
-        "C": "Venography",
-        "D": "MRI"
+        "A": "D-dimer assay (repeat high-sensitivity)",
+        "B": "Compression duplex ultrasonography",
+        "C": "Contrast venography",
+        "D": "CT pulmonary angiography"
       },
       "correct_answer": "B",
-      "explanation": "Doppler ultrasound (compression US) is the first-line investigation for DVT (non-invasive, sensitive). Gold standard: venography. D-dimer: high sensitivity but low specificity."
+      "explanation": "Compression duplex ultrasonography (CUS) is the first-line investigation for diagnosis of DVT. It has sensitivity of ~95% and specificity of ~98% for proximal DVT. It is non-invasive, widely available, and avoids radiation.\n\nDVT diagnostic algorithm:\n- Low Wells score + negative D-dimer → DVT excluded.\n- High Wells score OR elevated D-dimer → Doppler/CUS.\n- Inconclusive CUS → venography (gold standard).\n\nWhy other options are wrong:\n- A: D-dimer is already elevated; repeating it adds no diagnostic value. High sensitivity but very low specificity (elevated in cancer, infection, pregnancy, post-surgery).\n- C: Contrast venography is the gold standard but invasive, requires contrast, and not first-line.\n- D: CT pulmonary angiography is for diagnosing pulmonary embolism, not DVT.\n\nNEET PG pearl: Doppler US = first-line investigation for DVT. Gold standard = venography (but rarely used). For PE: CT pulmonary angiography is gold standard (replaced V/Q scan for most centers)."
     },
     {
       "question_id": "TW_SURGERY_GENERAL_SURG_Q013",
       "paper_type": "topic_wise",
       "paper_ref": "TW_SURGERY_GENERAL_SURG",
       "subject": "Surgery",
-      "topic": "General Surgery",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "General Surgery Basics",
+      "subtopic": "Trauma & ATLS",
+      "difficulty": "Very Hard",
       "question_type": "single_best_answer",
       "image_based": true,
+      "image_title": "FAST Examination Ultrasound — Acute Trauma",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/FAST_exam.jpg/640px-FAST_exam.jpg",
+      "key_findings": [
+        "Hypoechoic fluid (blood) in Morrison's pouch (hepatorenal space)",
+        "Fluid seen in the left subdiaphragmatic/perisplenic space",
+        "Free fluid in the pelvis (rectovesical/pouch of Douglas)",
+        "Absence of cardiac tamponade on subxiphoid view",
+        "Positive FAST — intraperitoneal free fluid confirmed",
+        "Aorta intact, no pneumothorax on thoracic views"
+      ],
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A patient presents with altered sensorium, ataxia, and ophthalmoplegia. Most appropriate management?",
+      "question_text": "A 34-year-old male motorcyclist is brought to the trauma bay after a high-speed collision. His GCS is 13, BP is 88/60 mmHg, HR is 132/min. A FAST (Focused Assessment with Sonography in Trauma) examination image is shown. Based on the image findings and hemodynamic status, what is the MOST appropriate next step?",
       "options": {
-        "A": "IV fluids and insulin",
-        "B": "Observation",
-        "C": "Steroids only",
-        "D": "Oral antibiotics"
+        "A": "CT abdomen and pelvis with contrast to identify the bleeding source",
+        "B": "Immediate exploratory laparotomy",
+        "C": "Diagnostic peritoneal lavage to confirm hemoperitoneum",
+        "D": "Repeat FAST in 30 minutes after fluid resuscitation"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Surgery concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "FAST shows free intraperitoneal fluid (hemoperitoneum) in a hemodynamically UNSTABLE patient (BP 88/60, HR 132). Per ATLS protocol:\n- FAST positive + hemodynamically UNSTABLE = immediate exploratory laparotomy without delay for CT.\n- FAST positive + hemodynamically STABLE = proceed to CT abdomen/pelvis for identification of source.\n\nWhy other options are wrong:\n- A: CT is only for stable patients. Taking an unstable patient to CT is dangerous ('CT kills' in unstable trauma).\n- C: DPL (Diagnostic Peritoneal Lavage) has been largely replaced by FAST in modern trauma centers. It is invasive and no longer first-line.\n- D: Repeating FAST delays life-saving surgery in an unstable patient.\n\nNEET PG/ATLS pearl: FAST is the PRIMARY bedside tool in unstable trauma. Four windows: perihepatic (Morrison's pouch), perisplenic, pericardial (subxiphoid), and pelvic. Positive FAST + unstable = OR immediately."
     },
     {
       "question_id": "TW_SURGERY_GENERAL_SURG_Q014",
       "paper_type": "topic_wise",
       "paper_ref": "TW_SURGERY_GENERAL_SURG",
       "subject": "Surgery",
-      "topic": "General Surgery",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "General Surgery Basics",
+      "subtopic": "Fluid Management",
+      "difficulty": "Very Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A chronic smoker presents with hemoptysis and weight loss. Best initial investigation?",
+      "question_text": "A 24-year-old man sustains 40% total body surface area burns in a factory fire. He weighs 70 kg. Using the Parkland formula, calculate the volume of Ringer's Lactate to be administered in the FIRST 8 hours from the time of burn.",
       "options": {
-        "A": "CT angiography",
-        "B": "MRI",
-        "C": "Ultrasound",
-        "D": "ECG"
+        "A": "2800 mL",
+        "B": "5600 mL",
+        "C": "11200 mL",
+        "D": "4 mL × 70 × 40 = 11200 mL total; 5600 mL in first 8 hours"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Surgery concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "D",
+      "explanation": "Parkland formula: Total fluid in 24 hours = 4 mL × weight (kg) × %TBSA burned\n= 4 × 70 × 40 = 11,200 mL Ringer's Lactate in 24 hours.\n\nDistribution:\n- First 8 hours from time of BURN (not from time of arrival): give HALF = 5,600 mL.\n- Remaining 16 hours: give SECOND HALF = 5,600 mL.\n\nImportant points:\n- Time is measured from the time of BURN, not hospital arrival. If patient arrives 2 hours after burn, the first 8-hour aliquot must be given in 6 hours.\n- Colloids (FFP/albumin) are added in the second 24 hours in some protocols (Muir & Barclay).\n- Urine output target: 0.5–1 mL/kg/hour in adults; 1 mL/kg/hour in children.\n\nWhy other options are wrong:\n- A: 2800 mL is incorrect calculation.\n- B: 5600 mL is the correct 8-hour aliquot but option D correctly states the complete formula and allocation, making it more accurate.\n- C: 11200 mL is the 24-hour total, not the 8-hour volume.\n\nNEET PG trap: Students confuse the 24-hour total with the 8-hour volume. Remember: 'Half in the first 8 hours from TIME OF BURN.'"
     },
     {
       "question_id": "TW_SURGERY_GENERAL_SURG_Q015",
@@ -337,22 +350,22 @@
       "paper_ref": "TW_SURGERY_GENERAL_SURG",
       "subject": "Surgery",
       "topic": "General Surgery Basics",
-      "subtopic": null,
+      "subtopic": "Fluid Management",
       "difficulty": "Easy",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Hartmann's solution is another name for?",
+      "question_text": "A surgical resident is preparing IV fluids for a post-operative patient who cannot take oral fluids. The attending asks for Hartmann's solution. Which of the following is the CORRECT composition of Hartmann's (Ringer's Lactate) solution?",
       "options": {
-        "A": "Normal saline",
-        "B": "5% dextrose",
-        "C": "Ringer's lactate",
-        "D": "Dextrose saline"
+        "A": "Na 154 mEq/L, Cl 154 mEq/L",
+        "B": "Na 130 mEq/L, K 4 mEq/L, Ca 1.5 mEq/L, Cl 109 mEq/L, Lactate 28 mEq/L",
+        "C": "Na 140 mEq/L, K 5 mEq/L, HCO3 24 mEq/L, Cl 100 mEq/L",
+        "D": "Glucose 50 g/L in 0.9% NaCl"
       },
-      "correct_answer": "C",
-      "explanation": "Ringer's lactate = Hartmann's solution. Contains Na, K, Ca, Cl, lactate. Near-physiological, preferred for trauma/surgery over NS (less hyperchloremic acidosis)."
+      "correct_answer": "B",
+      "explanation": "Ringer's Lactate (Hartmann's solution) has the following composition: Na 130 mEq/L, K 4 mEq/L, Ca 1.5 mEq/L, Cl 109 mEq/L, Lactate 28 mEq/L. The lactate is metabolized by the liver to bicarbonate, providing a buffering effect.\n\nComparison:\n- Normal saline (0.9% NaCl): Na 154, Cl 154 — hyperchloremic, can cause dilutional acidosis.\n- Plasma: Na 140, K 4.5, HCO3 24 (option C approximates plasma but not any IV fluid).\n- Option D: Dextrose saline.\n\nWhy Hartmann's > Normal Saline in surgery/trauma:\n- Lower chloride content → less risk of hyperchloremic metabolic acidosis.\n- More physiological.\n- Preferred in trauma, post-op maintenance, and pediatric surgery.\n\nNEET PG pearl: Hartmann's is CONTRAINDICATED in head injury (lactate may worsen cerebral metabolism) and severe liver failure (cannot metabolize lactate). In these cases, use normal saline."
     },
     {
       "question_id": "TW_SURGERY_GENERAL_SURG_Q016",
@@ -360,160 +373,170 @@
       "paper_ref": "TW_SURGERY_GENERAL_SURG",
       "subject": "Surgery",
       "topic": "General Surgery Basics",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Trauma & ATLS",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Glasgow Coma Scale: best score for E4V5M6?",
+      "question_text": "A 19-year-old male is brought unconscious to the emergency department after being found on the road. On examination, he opens his eyes to pain (E2), makes incomprehensible sounds (V2), and withdraws to pain (M4). What is his Glasgow Coma Scale (GCS) score and what immediate airway decision does it mandate?",
       "options": {
-        "A": "13",
-        "B": "14",
-        "C": "15",
-        "D": "12"
+        "A": "GCS 8 — Immediate endotracheal intubation",
+        "B": "GCS 8 — Observation and reassessment in 30 minutes",
+        "C": "GCS 10 — High-flow oxygen via mask; intubation not required",
+        "D": "GCS 6 — Immediate cricothyrotomy"
       },
-      "correct_answer": "C",
-      "explanation": "GCS = E+V+M = 4+5+6 = 15 (normal). Eyes 1-4, Verbal 1-5, Motor 1-6. GCS ≤8 = intubate."
+      "correct_answer": "A",
+      "explanation": "GCS calculation: E2 + V2 + M4 = 8.\n\nGCS components:\n- Eye: Spontaneous (4), To voice (3), To pain (2), None (1)\n- Verbal: Oriented (5), Confused (4), Words (3), Sounds (2), None (1)\n- Motor: Obeys (6), Localizes (5), Withdraws (4), Flexion (3), Extension (2), None (1)\n\nGCS ≤8 = 'intubate' — this is the critical threshold for airway protection due to loss of gag reflex and inability to protect the airway.\n\nGCS 8 is the action threshold: immediate endotracheal intubation (RSI — Rapid Sequence Intubation) is indicated.\n\nWhy other options are wrong:\n- B: GCS 8 is the threshold for intubation; observation risks aspiration and airway loss.\n- C: GCS is 8, not 10. Even if it were 10, active decision about airway is needed.\n- D: GCS 6 would also require intubation (not cricothyrotomy, which is for failed airway).\n\nNEET PG/ATLS pearl: GCS ≤8 = intubate. Cricothyrotomy is reserved for 'can't intubate, can't oxygenate' scenario. Maximum GCS = 15, Minimum = 3."
     },
     {
       "question_id": "TW_SURGERY_GENERAL_SURG_Q017",
       "paper_type": "topic_wise",
       "paper_ref": "TW_SURGERY_GENERAL_SURG",
       "subject": "Surgery",
-      "topic": "General Surgery",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "General Surgery Basics",
+      "subtopic": "DVT and Thromboembolism",
+      "difficulty": "Very Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A patient develops acute breathlessness after prolonged immobilization. Most likely organism?",
+      "question_text": "A 70-year-old man with total hip replacement 5 days ago presents with sudden-onset breathlessness, pleuritic chest pain, and hemoptysis. His SpO2 is 88% on room air. HR is 118/min, BP 100/70 mmHg. ECG shows S1Q3T3 pattern and new right bundle branch block. CT pulmonary angiography confirms massive pulmonary embolism with right ventricular strain. Which is the MOST appropriate IMMEDIATE management?",
       "options": {
-        "A": "Staphylococcus aureus",
-        "B": "Klebsiella",
-        "C": "Pseudomonas",
-        "D": "E. coli"
+        "A": "IV unfractionated heparin infusion and anticoagulation alone",
+        "B": "Systemic thrombolysis with IV alteplase (tPA)",
+        "C": "Surgical embolectomy as first-line",
+        "D": "Inferior vena cava filter insertion alone"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Surgery concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "This is massive PE (hemodynamic instability: BP 100/70, SpO2 88%, RV strain on ECG and CT). Massive PE is defined as PE causing hemodynamic compromise (sustained hypotension, cardiac arrest, or RV failure).\n\nManagement of massive PE:\n- Systemic thrombolysis (IV alteplase 100 mg over 2h) is the treatment of choice for massive PE with hemodynamic compromise, in the absence of absolute contraindications.\n- Absolute contraindications to thrombolysis: active bleeding, recent stroke, recent surgery — the 5-day post-THR is a RELATIVE contraindication, not absolute, and in the context of life-threatening PE, the risk-benefit favors thrombolysis.\n\nThrombolysis in massive PE:\n- Rapidly dissolves clot, reduces RV afterload, and restores hemodynamics.\n\nWhy other options are wrong:\n- A: Anticoagulation alone (heparin) is appropriate for submassive/non-massive PE; insufficient for massive PE with RV failure.\n- C: Surgical embolectomy is reserved for failed thrombolysis or absolute contraindications.\n- D: IVC filter is for patients who cannot be anticoagulated; does not treat existing clot.\n\nNEET PG/INI-CET pearl: ECG S1Q3T3 = right heart strain from PE. Massive PE = thrombolyse. Submassive PE = heparin ± catheter-directed therapy. Know the PESI score."
     },
     {
       "question_id": "TW_SURGERY_GENERAL_SURG_Q018",
       "paper_type": "topic_wise",
       "paper_ref": "TW_SURGERY_GENERAL_SURG",
       "subject": "Surgery",
-      "topic": "General Surgery",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "General Surgery Basics",
+      "subtopic": "Hernias",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A patient presents with sudden painless loss of vision. Best initial investigation?",
+      "question_text": "A 65-year-old obese male presents with a painful, irreducible swelling in the right groin for 24 hours. He has nausea and bilious vomiting. On examination, the swelling is below and lateral to the pubic tubercle, tender, and does not have a cough impulse. Plain X-ray shows dilated small bowel loops with air-fluid levels. Which of the following is the MOST appropriate management?",
       "options": {
-        "A": "CT angiography",
-        "B": "MRI",
-        "C": "Ultrasound",
-        "D": "ECG"
+        "A": "Manual reduction (taxis) under sedation and discharge with elective repair",
+        "B": "IV antibiotics and nasogastric decompression with watchful waiting",
+        "C": "Emergency surgery: herniotomy with bowel assessment and resection if needed",
+        "D": "CT scan of abdomen to confirm strangulation before surgery"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Surgery concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "C",
+      "explanation": "This is a strangulated femoral hernia presenting with bowel obstruction. Key features:\n- Below and lateral to pubic tubercle = femoral hernia (inguinal hernia is ABOVE and MEDIAL to pubic tubercle)\n- Irreducible + tender + absent cough impulse = strangulated hernia\n- Bilious vomiting + dilated small bowel on X-ray = bowel obstruction\n\nStrangulation = compromised blood supply → ischemia → gangrene → perforation if not treated urgently.\n\nManagement: Immediate emergency surgery. The hernia sac is opened, bowel viability is assessed. If bowel is nonviable (black, no peristalsis, no Doppler signal) → resection + anastomosis.\n\nWhy other options are wrong:\n- A: Taxis (manual reduction) is CONTRAINDICATED in strangulated hernias — pushing ischemic bowel back into the abdomen risks perforation and spreading contamination.\n- B: Medical management wastes time in a surgical emergency.\n- D: CT is not needed when strangulation is clinically obvious; delays surgery dangerously.\n\nNEET PG pearl: Femoral hernia has the highest risk of strangulation among all hernias (narrow femoral ring). Richter's hernia = only part of the bowel wall is herniated (no complete obstruction, but can still strangulate)."
     },
     {
       "question_id": "TW_SURGERY_GENERAL_SURG_Q019",
       "paper_type": "topic_wise",
       "paper_ref": "TW_SURGERY_GENERAL_SURG",
       "subject": "Surgery",
-      "topic": "General Surgery",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "General Surgery Basics",
+      "subtopic": "Preoperative Assessment",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": true,
+      "image_title": "ECG Showing Atrial Fibrillation in Pre-operative Assessment",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Afib_ecg.jpg/640px-Afib_ecg.jpg",
+      "key_findings": [
+        "Absent P waves — replaced by irregular fibrillatory baseline",
+        "Irregularly irregular QRS complexes",
+        "Ventricular rate approximately 110–130 bpm",
+        "No discernible isoelectric baseline between QRS complexes",
+        "QRS complexes narrow (no aberrant conduction)",
+        "No signs of pre-excitation (no delta waves)"
+      ],
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A patient presents with sudden painless loss of vision. Most likely diagnosis?",
+      "question_text": "A 72-year-old man with hypertension and diabetes is scheduled for an elective laparoscopic cholecystectomy. His pre-operative ECG is shown. He is currently on ramipril, metformin, and aspirin. He is asymptomatic with respect to palpitations. His echocardiogram shows an EF of 55% with no valvular disease. What is the MOST appropriate pre-operative management of this ECG finding?",
       "options": {
-        "A": "Pulmonary embolism",
-        "B": "Acute pancreatitis",
-        "C": "Aortic dissection",
-        "D": "DKA"
+        "A": "Cancel surgery and refer for urgent DC cardioversion",
+        "B": "Proceed with surgery — no specific additional management needed",
+        "C": "Assess stroke risk (CHA2DS2-VASc), optimize rate control, ensure adequate anticoagulation bridging if needed",
+        "D": "Start amiodarone to achieve sinus rhythm before surgery"
       },
       "correct_answer": "C",
-      "explanation": "Integrated Surgery concept designed in NEET PG + INI-CET pattern."
+      "explanation": "The ECG shows atrial fibrillation (AF) — absent P waves, irregularly irregular rhythm, narrow QRS complexes. In a pre-operative patient with known or newly detected AF:\n\nPre-operative AF management:\n1. CHA2DS2-VASc score: assess stroke risk (this patient: hypertension, diabetes, age >65 = score ≥3 → high risk → anticoagulation indicated).\n2. Rate control: target HR <100/min at rest (use beta-blockers, rate-limiting CCBs, or digoxin).\n3. Anticoagulation bridging: if on warfarin, manage perioperatively; DOACs — short bridging strategy per current guidelines.\n4. Elective surgery can proceed once rate is controlled and anticoagulation is addressed.\n\nWhy other options are wrong:\n- A: Urgent cardioversion is for new-onset AF with hemodynamic instability; this patient is asymptomatic with good EF.\n- B: AF requires active management in terms of stroke prevention and rate control before elective surgery.\n- D: Amiodarone for rhythm control is NOT the pre-operative standard for elective cases with chronic/paroxysmal AF and preserved EF.\n\nNEET PG pearl: Pre-operative AF = rate control + anticoagulation assessment (CHA2DS2-VASc). Rhythm control is reserved for symptomatic AF refractory to rate control."
     },
     {
       "question_id": "TW_SURGERY_GENERAL_SURG_Q020",
       "paper_type": "topic_wise",
       "paper_ref": "TW_SURGERY_GENERAL_SURG",
       "subject": "Surgery",
-      "topic": "General Surgery",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "General Surgery Basics",
+      "subtopic": "Surgical Anatomy",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A child presents with recurrent respiratory tract infections. Best initial investigation?",
+      "question_text": "A 45-year-old woman undergoes modified radical mastectomy for invasive ductal carcinoma of the left breast. The surgeon injures a nerve while dissecting the axillary contents. Post-operatively, she presents with inability to abduct her arm beyond 90° and winging of the scapula on attempted arm elevation. Which nerve was most likely injured?",
       "options": {
-        "A": "CT angiography",
-        "B": "MRI",
-        "C": "Ultrasound",
-        "D": "ECG"
+        "A": "Long thoracic nerve (of Bell)",
+        "B": "Thoracodorsal nerve",
+        "C": "Medial pectoral nerve",
+        "D": "Intercostobrachial nerve"
       },
       "correct_answer": "A",
-      "explanation": "Integrated Surgery concept designed in NEET PG + INI-CET pattern."
+      "explanation": "Winging of the scapula is the hallmark of long thoracic nerve (nerve of Bell) injury. It arises from C5, C6, C7 nerve roots and innervates the serratus anterior muscle. The serratus anterior holds the medial border of the scapula against the chest wall; when paralyzed, the scapula 'wings out' during arm elevation.\n\nNerves at risk in mastectomy/axillary dissection:\n1. Long thoracic nerve (C5,6,7): serratus anterior → winging scapula.\n2. Thoracodorsal nerve (C6,7,8): latissimus dorsi → loss of arm adduction/internal rotation.\n3. Intercostobrachial nerve: sensory to upper medial arm — most commonly injured; causes numbness/dysesthesia.\n4. Medial pectoral nerve: pectoralis minor and part of major.\n\nWhy other options are wrong:\n- B: Thoracodorsal nerve injury → weak arm adduction and inability to cough/climb; no winging.\n- C: Medial pectoral nerve → weakness of pectoralis; no winging.\n- D: Intercostobrachial nerve → purely sensory; causes numbness of inner arm, not winging.\n\nNEET PG pearl: Long thoracic nerve = nerve of Bell = serratus anterior = winging scapula. Most commonly injured in axillary dissection and first rib fracture."
     },
     {
       "question_id": "TW_SURGERY_GENERAL_SURG_Q021",
       "paper_type": "topic_wise",
       "paper_ref": "TW_SURGERY_GENERAL_SURG",
       "subject": "Surgery",
-      "topic": "General Surgery",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "General Surgery Basics",
+      "subtopic": "Wound Healing",
+      "difficulty": "Very Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A patient presents with sudden painless loss of vision. Underlying mechanism?",
+      "question_text": "A 55-year-old male with Type 2 diabetes and chronic kidney disease (eGFR 22 mL/min) undergoes elective right inguinal hernia repair. On post-operative day 7, the wound appears to have separated with exposure of the mesh. There is no purulent discharge, and wound cultures are negative. Laboratory values: HbA1c 11.2%, serum albumin 2.4 g/dL, Hb 8.6 g/dL. Which of the following factors MOST directly impairs wound healing in this patient?",
       "options": {
-        "A": "Autoimmune destruction",
-        "B": "Type I hypersensitivity",
-        "C": "Fat necrosis",
-        "D": "Toxin-mediated injury"
+        "A": "Use of mesh prosthesis creating a foreign body reaction",
+        "B": "Combined effects of hyperglycemia, hypoalbuminemia, and anemia impairing collagen synthesis and tissue oxygenation",
+        "C": "Chronic kidney disease causing uremic inhibition of fibroblast proliferation only",
+        "D": "Hyperglycemia alone causing impaired neutrophil chemotaxis"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Surgery concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "Wound healing requires adequate nutrition (protein/albumin for collagen synthesis), oxygen delivery (Hb/perfusion), and glycemic control. This patient has multiple compounding factors:\n\n1. Hyperglycemia (HbA1c 11.2%): impairs neutrophil function, macrophage activity, collagen cross-linking, angiogenesis, and Schwann cell function. Diabetes delays all phases of wound healing.\n2. Hypoalbuminemia (2.4 g/dL; normal >3.5): inadequate substrate for collagen synthesis. Albumin <3.0 is an independent predictor of wound dehiscence.\n3. Anemia (Hb 8.6 g/dL): reduces tissue oxygenation — healing requires oxygen for prolyl hydroxylase activity (collagen cross-linking).\n4. CKD (eGFR 22): uremic toxins impair platelet function, fibroblast proliferation, and immune response.\n\nThe combination of ALL these factors is more clinically impactful than any single factor alone — making option B the most complete and accurate answer.\n\nWhy other options are wrong:\n- A: Mesh itself is designed to be biocompatible; a foreign body reaction is not the primary cause in the absence of infection.\n- C: CKD contributes, but isolating fibroblast proliferation alone is incomplete.\n- D: Hyperglycemia does impair neutrophil chemotaxis, but wound failure here is multifactorial.\n\nNEET PG/INI-CET pearl: Preoperative optimization targets: HbA1c <8%, albumin >3.5 g/dL, Hb >10 g/dL for elective surgery to minimize wound complications."
     },
     {
       "question_id": "TW_SURGERY_GENERAL_SURG_Q022",
       "paper_type": "topic_wise",
       "paper_ref": "TW_SURGERY_GENERAL_SURG",
       "subject": "Surgery",
-      "topic": "General Surgery",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "General Surgery Basics",
+      "subtopic": "Acute Abdomen",
+      "difficulty": "Very Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A chronic alcoholic presents with abdominal pain radiating to the back. Most likely organism?",
+      "question_text": "A 40-year-old male chronic alcoholic presents with sudden onset severe epigastric pain radiating to the back, vomiting, and abdominal rigidity. His serum amylase is 1200 U/L (normal <100). CT abdomen (CECT) shows peripancreatic fat stranding, no pancreatic necrosis, and a small peripancreatic fluid collection. His Ranson's score at 48 hours is 4. Which statement regarding his prognosis and management is MOST accurate?",
       "options": {
-        "A": "Staphylococcus aureus",
-        "B": "Klebsiella",
-        "C": "Pseudomonas",
-        "D": "E. coli"
+        "A": "Ranson's score 4 = mild pancreatitis; safe for oral feeding immediately",
+        "B": "Ranson's score 4 = severe pancreatitis; manage with IV fluids, NPO, analgesia, and monitor for complications",
+        "C": "Prophylactic IV antibiotics (meropenem) must be started immediately to prevent infected necrosis",
+        "D": "ERCP is indicated within 24 hours in all cases of severe acute pancreatitis regardless of etiology"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Surgery concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "Ranson's score interpretation:\n- 0–2: Mild pancreatitis, <1% mortality.\n- 3–4: Moderate/severe, ~15% mortality.\n- 5–6: Severe, ~40% mortality.\n- 7–8: Near-100% mortality.\n\nA score of 4 indicates moderate-severe acute pancreatitis. Management:\n1. NPO (nil per os) — bowel rest.\n2. Aggressive IV fluid resuscitation (Ringer's Lactate preferred over NS).\n3. Analgesia (IV morphine or tramadol; the old myth of morphine causing sphincter of Oddi spasm is no longer a contraindication).\n4. Monitor for complications: ARDS, AKI, DIC, pseudocyst, infected necrosis.\n5. Early enteral nutrition (nasojejunal tube) within 48–72 hours if unable to eat — better than TPN.\n\nWhy other options are wrong:\n- A: Ranson's 4 = moderate-severe; oral feeding is NOT immediately safe in severe pancreatitis.\n- C: Prophylactic antibiotics are NOT recommended in acute pancreatitis (even severe/necrotizing) per current IAP/APA guidelines — they have not been shown to reduce mortality or infected necrosis.\n- D: ERCP is only indicated if acute pancreatitis is due to choledocholithiasis with ongoing biliary obstruction/cholangitis — not in all cases.\n\nNEET PG pearl: Prophylactic antibiotics in acute pancreatitis = OUTDATED practice. Ranson's criteria: 5 at admission + 6 at 48h. Modified CTSI (Balthazar score) for CT-based severity."
     }
   ]
 }
