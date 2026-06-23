@@ -35,6 +35,8 @@ export const authAPI = {
   login:    (data)    => api.post('/auth/login', data),
   getMe:    ()        => api.get('/auth/me', { timeout: 8000 }),
   updateMe: (data)    => api.patch('/auth/me', data),
+  forgotPassword: (data) => api.post('/auth/forgot-password', data),  // ✅ add this
+  resetPassword:  (data) => api.post('/auth/reset-password', data),
 };
 
 /* ── Tests ────────────────────────────────────────────────────────── */
