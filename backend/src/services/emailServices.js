@@ -5,14 +5,25 @@ const crypto = require('crypto');
 // ── Transporter ───────────────────────────────────────────────────────────────
 const transporter = nodemailer.createTransport({
   host: 'smtp.gmail.com',
-  port: 587,
-  secure: false, // false for port 587 (uses STARTTLS)
+  port: 465,     // ← was 587
+  secure: true,  // ← was false
   auth: {
     user: process.env.GMAIL_USER,
-    pass: process.env.GMAIL_PASS, // Your 16-character Google App Password
+    pass: process.env.GMAIL_PASS,
   },
   tls: {
-    rejectUnauthorized: false // Prevents cloud environments from dropping connections
+    rejectUnauthorized: false
+  },
+  connectionTimeout: 10000,
+  greetingTimeout: 10000,
+  socketTimeout: 15000,
+});
+
+transporter.verify((error) => {
+  if (error) {
+    console.error('[email] SMTP transporter verification FAILED:', error.message);
+  } else {
+    console.log('[email] SMTP transporter ready');
   }
 });
 
