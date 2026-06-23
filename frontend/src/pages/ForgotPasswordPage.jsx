@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
 import AuthLayout from '../components/layout/AuthLayout';
+import { authAPI } from '../services/api';
 
 const styles = {
   label: {
@@ -111,7 +112,9 @@ export default function ForgotPasswordPage() {
 
     try {
       setLoading(true);
-      const { data } = await axios.post('/api/auth/forgot-password', { email });
+      const { data } = await authAPI.forgotPassword({
+  email,
+});
       setSuccess(data.message || 'Reset link sent! Check your inbox and spam folder.');
     } catch (err) {
       setError(err.response?.data?.message || 'Something went wrong. Please try again.');
