@@ -5,7 +5,10 @@
   "topic": "Head and Neck Surgery",
   "total_questions": 18,
   "difficulty_distribution": {
-    "Easy": 18
+    "Easy": 3,
+    "Medium": 4,
+    "Hard": 7,
+    "Very Hard": 4
   },
   "created_at": "2026-05-30",
   "questions": [
@@ -14,115 +17,115 @@
       "paper_type": "topic_wise",
       "paper_ref": "TW_SURGERY_HEAD_AND_NEC",
       "subject": "Surgery",
-      "topic": "General Surgery",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "Head and Neck Surgery",
+      "subtopic": "Thyroid",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A patient presents with sudden painless loss of vision. Underlying mechanism?",
+      "question_text": "A 45-year-old woman is referred for evaluation of a right-sided thyroid nodule discovered incidentally on a routine neck ultrasound. The nodule measures 2.2 cm. She is clinically euthyroid. Ultrasound shows a solid hypoechoic nodule with irregular margins and microcalcifications. Fine needle aspiration cytology (FNAC) is classified as Bethesda Category V (suspicious for malignancy). Which is the MOST appropriate next management step?",
       "options": {
-        "A": "Autoimmune destruction",
-        "B": "Type I hypersensitivity",
-        "C": "Fat necrosis",
-        "D": "Toxin-mediated injury"
+        "A": "Repeat FNAC in 6 months",
+        "B": "Radioactive iodine (RAI) ablation",
+        "C": "Total thyroidectomy with intraoperative frozen section",
+        "D": "Hemithyroidectomy (right lobectomy) with intraoperative frozen section and completion thyroidectomy if malignancy confirmed"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Surgery concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "D",
+      "explanation": "Bethesda Category V (Suspicious for Malignancy) carries a malignancy risk of 60–75%. The appropriate management is surgical resection. For a solitary nodule <4 cm with Bethesda V cytology:\n\nCurrent ATA/BTA guidelines recommend:\n- Hemithyroidectomy (lobectomy) as a reasonable initial procedure for a unilateral nodule, with intraoperative frozen section.\n- If frozen section confirms malignancy → completion thyroidectomy (total thyroidectomy) in the same sitting.\n- Total thyroidectomy upfront may be chosen if: bilateral nodules, lymph node involvement, contraindication to re-operation, or patient preference for RAI therapy later.\n\nWhy other options are wrong:\n- A: Repeat FNAC in 6 months is inappropriate for Bethesda V — this requires surgical management, not surveillance.\n- B: RAI ablation requires total thyroidectomy first; it cannot be done as primary treatment for a thyroid nodule without surgery.\n- C: Total thyroidectomy upfront is reasonable but carries higher risk of hypoparathyroidism and bilateral RLN injury; lobectomy first is the preferred approach per recent guidelines for nodules <4 cm.\n\nNEET PG pearl: Bethesda classification: I=non-diagnostic, II=benign, III=AUS/FLUS (5–15% malignancy), IV=FN/SFN (15–30%), V=suspicious (60–75%), VI=malignant (97–99%). Bethesda V → surgery."
     },
     {
       "question_id": "TW_SURGERY_HEAD_AND_NEC_Q002",
       "paper_type": "topic_wise",
       "paper_ref": "TW_SURGERY_HEAD_AND_NEC",
       "subject": "Surgery",
-      "topic": "General Surgery",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "Head and Neck Surgery",
+      "subtopic": "Parathyroid",
+      "difficulty": "Very Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A chronic smoker presents with hemoptysis and weight loss. Underlying mechanism?",
+      "question_text": "A 55-year-old woman is found incidentally to have serum calcium of 11.6 mg/dL during a routine health check. She reports mild bone pain, 2 episodes of renal colic in the past year (uric acid stones on analysis), and occasional fatigue. Intact PTH is 210 pg/mL (normal 15–65). 24-hour urinary calcium is elevated. Sestamibi scan localizes to a right inferior parathyroid adenoma. Which is the MOST appropriate management?",
       "options": {
-        "A": "Autoimmune destruction",
-        "B": "Type I hypersensitivity",
-        "C": "Fat necrosis",
-        "D": "Toxin-mediated injury"
+        "A": "Observation and annual calcium monitoring — surgery not indicated for asymptomatic disease",
+        "B": "Cinacalcet (calcimimetic) as primary long-term treatment",
+        "C": "Minimally invasive parathyroidectomy (MIP) of the right inferior parathyroid gland",
+        "D": "IV bisphosphonate therapy to reduce serum calcium before surgery"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Surgery concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "C",
+      "explanation": "This patient has Primary Hyperparathyroidism (PHPT) with symptomatic disease (renal colic, bone pain) and biochemical criteria meeting surgical indications.\n\nSurgical indications for PHPT (NIH guidelines — any ONE of the following):\n- Serum calcium >1 mg/dL above the upper limit of normal (here: 11.6 mg/dL)\n- Bone density T-score < -2.5 (osteoporosis)\n- Nephrolithiasis, nephrocalcinosis, or hypercalciuria\n- Age <50 years\n- 24-hr urine calcium >400 mg/day\n- eGFR <60 mL/min\n\nThis patient has renal stones + hypercalciuria + calcium >1 mg/dL above normal → definitive indication for surgery.\n\nMinimally invasive parathyroidectomy (MIP) with intraoperative PTH monitoring (Miami criterion: PTH drops >50% from baseline at 10 minutes post-excision = curative).\n\nWhy other options are wrong:\n- A: Observation is appropriate ONLY for truly asymptomatic patients who do NOT meet surgical criteria.\n- B: Cinacalcet reduces calcium but does not cure PHPT; it does not affect bone or kidney disease; indicated for patients unfit for surgery.\n- D: IV bisphosphonates are for hypercalcemic crisis; not routine pre-operative management for stable PHPT.\n\nNEET PG/INI-CET pearl: Primary HPT = most common cause of hypercalcemia in outpatients. Solitary parathyroid adenoma = 80% of cases. Sestamibi scan + MIP = current gold standard. Intraoperative PTH monitoring confirms cure."
     },
     {
       "question_id": "TW_SURGERY_HEAD_AND_NEC_Q003",
       "paper_type": "topic_wise",
       "paper_ref": "TW_SURGERY_HEAD_AND_NEC",
       "subject": "Surgery",
-      "topic": "General Surgery",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "Head and Neck Surgery",
+      "subtopic": "Salivary Glands",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A child presents with recurrent respiratory tract infections. Best initial investigation?",
+      "question_text": "A 55-year-old man presents with a 3-month history of a painless firm swelling in his right parotid gland. He is systemically well. On examination, the swelling is 3 cm, non-tender, and moves with the overlying skin. Facial nerve function is intact. FNAC shows pleomorphic adenoma. MRI shows the mass confined within the parotid capsule with no nodal enlargement. What is the MOST appropriate surgical management?",
       "options": {
-        "A": "CT angiography",
-        "B": "MRI",
-        "C": "Ultrasound",
-        "D": "ECG"
+        "A": "Total parotidectomy with facial nerve sacrifice",
+        "B": "Superficial parotidectomy with facial nerve preservation",
+        "C": "Enucleation of the tumor",
+        "D": "Radiotherapy as definitive treatment"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Surgery concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "Pleomorphic adenoma is the most common benign parotid tumor (~75%). It has a pseudocapsule but sends pseudopod extensions into surrounding tissue — simple enucleation risks recurrence and facial nerve injury.\n\nSurgical treatment: Superficial parotidectomy with facial nerve preservation. This means removing the entire superficial lobe of the parotid gland (and the tumor within it) while carefully identifying and preserving all branches of the facial nerve.\n\nWhy superficial parotidectomy over enucleation:\n- Enucleation risks leaving residual tumor at the capsule (pseudopods) → high recurrence rate (50%).\n- Also risks inadvertent facial nerve injury.\n- Recurrent pleomorphic adenoma is more aggressive and harder to treat (carcinoma ex pleomorphic adenoma risk increases with recurrences).\n\nWhy other options are wrong:\n- A: Facial nerve sacrifice is only indicated if the nerve is directly invaded by a malignant tumor.\n- C: Enucleation is inadequate for pleomorphic adenoma — high recurrence risk.\n- D: Radiotherapy has no role as primary treatment for benign pleomorphic adenoma; it is used for malignant parotid tumors or post-operative in high-risk cases.\n\nNEET PG pearl: Parotid gland tumor = always think about facial nerve. Benign (70%): pleomorphic adenoma > Warthin's tumor. Malignant (30%): mucoepidermoid carcinoma (most common malignant). Frey's syndrome: gustatory sweating after parotidectomy (auriculotemporal nerve injury)."
     },
     {
       "question_id": "TW_SURGERY_HEAD_AND_NEC_Q004",
       "paper_type": "topic_wise",
       "paper_ref": "TW_SURGERY_HEAD_AND_NEC",
       "subject": "Surgery",
-      "topic": "General Surgery",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "Head and Neck Surgery",
+      "subtopic": "Neck Masses",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A patient presents with sudden painless loss of vision. Best initial investigation?",
+      "question_text": "A 28-year-old woman presents with a painless midline swelling in the neck that has been present since childhood. On examination, the swelling is 2 cm, soft, non-tender, and moves upward on both swallowing AND tongue protrusion. There is no hoarseness or stridor. A similar swelling recently became infected. What is the diagnosis and MOST appropriate management?",
       "options": {
-        "A": "CT angiography",
-        "B": "MRI",
-        "C": "Ultrasound",
-        "D": "ECG"
+        "A": "Branchial cyst — excision of the cyst alone",
+        "B": "Thyroglossal duct cyst — Sistrunk's operation",
+        "C": "Dermoid cyst — simple excision",
+        "D": "Thyroid nodule — FNA and TSH measurement"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Surgery concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "The pathognomonic clinical feature is movement on TONGUE PROTRUSION (in addition to swallowing) — this is diagnostic of a thyroglossal duct cyst.\n\nThyroglossal duct cysts arise from persistence of the thyroglossal duct (the migratory path of the thyroid from the foramen cecum at the tongue base to its final position). Because the cyst is attached to the hyoid bone and foramen cecum via the duct remnant, it moves upward when the tongue is protruded.\n\nMost common site: just below (subhyoid) or at the hyoid bone level in the midline.\n\nSistrunk's operation:\n- Removal of the cyst + the entire thyroglossal duct tract + the middle third of the hyoid bone.\n- Simple excision of the cyst alone has ~50% recurrence rate.\n- Sistrunk's reduces recurrence to <5%.\n\nWhy other options are wrong:\n- A: Branchial cyst is a LATERAL neck swelling (anterior triangle, between SCM and carotid sheath), NOT midline. It does not move with tongue protrusion.\n- C: Dermoid cysts are midline but do NOT move with tongue protrusion; they are not attached to the hyoid/duct.\n- D: A thyroid nodule moves with swallowing but NOT with tongue protrusion; it is a solid/colloid lesion.\n\nNEET PG pearl: Thyroglossal cyst = moves with tongue protrusion + swallowing. 2/3 are at or below the hyoid. Treatment = Sistrunk's operation (remove cyst + duct + middle third of hyoid)."
     },
     {
       "question_id": "TW_SURGERY_HEAD_AND_NEC_Q005",
       "paper_type": "topic_wise",
       "paper_ref": "TW_SURGERY_HEAD_AND_NEC",
       "subject": "Surgery",
-      "topic": "General Surgery",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "Head and Neck Surgery",
+      "subtopic": "Neck Masses",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A 52-year-old diabetic male presents with fever, hypotension, and tachycardia. Most likely organism?",
+      "question_text": "A 35-year-old male presents with a painless lateral neck swelling that has been enlarging over 2 months. The swelling is at the anterior border of the right sternocleidomastoid muscle. It is soft, fluctuant, non-tender, and transilluminates. He denies any prior respiratory infection. FNAC reveals cholesterol crystals and lymphoid cells. What is the MOST likely diagnosis and appropriate management?",
       "options": {
-        "A": "Staphylococcus aureus",
-        "B": "Klebsiella",
-        "C": "Pseudomonas",
-        "D": "E. coli"
+        "A": "Thyroglossal duct cyst — Sistrunk's operation",
+        "B": "Branchial cyst — complete surgical excision of the cyst and tract",
+        "C": "Cystic hygroma (lymphangioma) — sclerotherapy",
+        "D": "Reactive lymphadenopathy — antibiotics and observation"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Surgery concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "Branchial cyst: a developmental anomaly arising from the second branchial cleft remnant. Key clinical features:\n- Location: anterior border of the upper third of the sternocleidomastoid muscle (angle of jaw/upper neck)\n- Soft, fluctuant, non-tender, transilluminates\n- Contains cholesterol crystals and lymphoid tissue on FNAC (pathognomonic)\n- Usually presents in young adults (20–35 years) after an upper respiratory infection triggers enlargement\n\nSurgical treatment: Complete excision of the cyst and its tract (extending to the tonsillar fossa between internal and external carotid arteries). Incomplete excision → recurrence.\n\nImportant caution: In patients >40 years, a lateral neck cystic mass should be considered metastatic squamous cell carcinoma (cystic nodal metastasis from oropharyngeal/tonsillar primary, especially HPV+) until proven otherwise. FNA alone is insufficient — excisional biopsy may be needed.\n\nWhy other options are wrong:\n- A: Thyroglossal cyst is MIDLINE, moves with tongue protrusion. Branchial cyst is LATERAL.\n- C: Cystic hygroma (lymphangioma) usually presents in infancy/early childhood, is multilocular, and commonly located in the posterior triangle.\n- D: Reactive lymphadenopathy is firm, painful, with associated systemic symptoms; does not transilluminate or contain cholesterol crystals on FNAC.\n\nNEET PG pearl: FNAC showing cholesterol crystals + lymphoid cells = branchial cyst. Location anterior to upper SCM = branchial cyst. Second branchial cleft = most common (95%)."
     },
     {
       "question_id": "TW_SURGERY_HEAD_AND_NEC_Q006",
@@ -130,137 +133,157 @@
       "paper_ref": "TW_SURGERY_HEAD_AND_NEC",
       "subject": "Surgery",
       "topic": "Head and Neck Surgery",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Parathyroid",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Indication for calcium supplementation after thyroidectomy?",
+      "question_text": "A 62-year-old woman undergoes total thyroidectomy for a large multinodular goiter with compressive symptoms. On post-operative day 1, she develops perioral tingling and numbness, carpopedal spasm, and a positive Chvostek's sign. Her serum calcium is 7.2 mg/dL and PTH is 8 pg/mL (normal 15–65). Which of the following is the MOST appropriate management?",
       "options": {
-        "A": "Any thyroidectomy",
-        "B": "Total thyroidectomy only",
-        "C": "Symptoms of hypocalcemia",
-        "D": "Parathyroid injury/hypoparathyroidism"
+        "A": "IV calcium gluconate 10% (10 mL over 10 min) for acute symptoms + oral calcium carbonate + calcitriol",
+        "B": "Oral calcium supplementation alone and reassurance",
+        "C": "Intramuscular PTH injection",
+        "D": "Wait 72 hours for spontaneous resolution before initiating treatment"
       },
-      "correct_answer": "D",
-      "explanation": "Hypoparathyroidism after thyroidectomy (PTH fall, low Ca): treat with calcium + calcitriol. Monitor Ca at 24-48h. Permanent hypoparathyroidism needs lifelong supplementation."
+      "correct_answer": "A",
+      "explanation": "This patient has symptomatic hypocalcemia due to post-thyroidectomy hypoparathyroidism — a recognized complication of total thyroidectomy occurring in ~1–3% of cases (permanent) and ~20–30% transiently.\n\nMechanism: Devascularization or inadvertent removal of parathyroid glands during total thyroidectomy → PTH deficiency → hypocalcemia.\n\nManagement of symptomatic hypocalcemia (tetany, carpopedal spasm, Chvostek's sign):\n1. IV calcium gluconate 10%: 10 mL (1 ampoule = 90 mg elemental calcium) over 10 minutes for acute tetany/seizure. Can be repeated and followed by infusion.\n2. Oral calcium carbonate: 500–1000 mg elemental calcium 3× daily.\n3. Calcitriol (1,25-dihydroxyvitamin D3): 0.25–0.5 mcg twice daily — essential because PTH is needed to activate vitamin D; without PTH, calcitriol must be given directly.\n4. Monitor serum calcium every 6–12 hours.\n\nWhy other options are wrong:\n- B: Oral calcium alone is insufficient for symptomatic hypocalcemia with tetany — IV treatment is needed urgently.\n- C: PTH injection (teriparatide) is expensive, not routinely available, and not first-line for post-thyroidectomy hypoparathyroidism.\n- D: Waiting 72 hours with active tetany is dangerous — seizures and laryngospasm (fatal) can occur.\n\nNEET PG pearl: Chvostek's sign = tapping over the facial nerve causes facial muscle twitch. Trousseau's sign = inflating BP cuff above systolic for 3 minutes causes carpopedal spasm. Both = hypocalcemia. Post-thyroidectomy hypocalcemia = calcitriol + calcium (not just calcium alone)."
     },
     {
       "question_id": "TW_SURGERY_HEAD_AND_NEC_Q007",
       "paper_type": "topic_wise",
       "paper_ref": "TW_SURGERY_HEAD_AND_NEC",
       "subject": "Surgery",
-      "topic": "General Surgery",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "Head and Neck Surgery",
+      "subtopic": "Thyroid",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A chronic smoker presents with hemoptysis and weight loss. Best initial investigation?",
+      "question_text": "A 14-year-old boy who lived near Chernobyl as a young child presents with a 1.5 cm thyroid nodule in the right lobe. His mother reports no family history of thyroid cancer. FNAC shows papillary thyroid microcarcinoma. Which of the following statements about this tumor is MOST accurate?",
       "options": {
-        "A": "CT angiography",
-        "B": "MRI",
-        "C": "Ultrasound",
-        "D": "ECG"
+        "A": "It spreads predominantly via blood vessels to the lungs and bones",
+        "B": "Psammoma bodies, Orphan Annie eye nuclei, and RET/PTC rearrangements are characteristic; lymphatic spread is predominant",
+        "C": "It is associated with RAS mutation and PAX8-PPARγ fusion",
+        "D": "It has the worst prognosis among all thyroid carcinomas"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Surgery concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "Papillary thyroid carcinoma (PTC) is the most common thyroid malignancy (~80%), with an excellent prognosis (10-year survival >95%). Key features:\n\nHistopathology:\n- Papillary projections with fibrovascular cores\n- Orphan Annie eye nuclei (empty-looking nuclei, ground glass appearance)\n- Nuclear grooves and intranuclear inclusions\n- Psammoma bodies (concentric calcified lamellated bodies)\n\nMolecular: RET/PTC rearrangements (most common in radiation-associated PTC, as in this Chernobyl case). Also BRAF V600E mutation (most common in sporadic adult PTC).\n\nSpread: LYMPHATIC spread to cervical lymph nodes (NOT hematogenous at initial presentation). Lymph node metastases common but do not significantly worsen prognosis in young patients.\n\nWhy other options are wrong:\n- A: Hematogenous spread (lung, bone) = follicular carcinoma, NOT papillary.\n- C: RAS mutation + PAX8-PPARγ fusion = follicular carcinoma characteristics.\n- D: Worst prognosis = anaplastic thyroid carcinoma (median survival 3–6 months). PTC has the BEST prognosis.\n\nNEET PG pearl: PTC = most common (80%) + best prognosis + lymphatic spread + Orphan Annie nuclei + psammoma bodies + radiation history. Follicular = hematogenous spread. Medullary = RET mutation, calcitonin. Anaplastic = worst."
     },
     {
       "question_id": "TW_SURGERY_HEAD_AND_NEC_Q008",
       "paper_type": "topic_wise",
       "paper_ref": "TW_SURGERY_HEAD_AND_NEC",
       "subject": "Surgery",
-      "topic": "General Surgery",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "Head and Neck Surgery",
+      "subtopic": "Thyroid",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": true,
+      "image_title": "Neck Ultrasound — Thyroid Nodule with Microcalcifications",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Papillary_thyroid_carcinoma_ultrasound.jpg/640px-Papillary_thyroid_carcinoma_ultrasound.jpg",
+      "key_findings": [
+        "Solid hypoechoic nodule in the right thyroid lobe measuring 2.3 cm",
+        "Irregular, lobulated margins — microlobulation present",
+        "Punctate echogenic foci within the nodule consistent with microcalcifications",
+        "Increased intranodular vascularity on Doppler",
+        "No posterior acoustic enhancement (solid, not cystic)",
+        "No evidence of cervical lymphadenopathy on this image"
+      ],
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A patient presents with altered sensorium, ataxia, and ophthalmoplegia. Most appropriate management?",
+      "question_text": "A 42-year-old woman is referred for evaluation of a thyroid nodule found on routine ultrasound. The neck ultrasound image is shown. She is clinically euthyroid with normal TSH. Based on the TIRADS (Thyroid Imaging Reporting and Data System) criteria, this nodule has multiple high-suspicion features. FNAC yields Bethesda Category VI (malignant cells consistent with papillary carcinoma). Which is the MOST appropriate surgical management?",
       "options": {
-        "A": "IV fluids and insulin",
-        "B": "Observation",
-        "C": "Steroids only",
-        "D": "Oral antibiotics"
+        "A": "Radioactive iodine (I-131) ablation as primary treatment",
+        "B": "Total thyroidectomy with central compartment lymph node dissection (level VI)",
+        "C": "Hemithyroidectomy alone, as the nodule is <4 cm",
+        "D": "Active surveillance with repeat FNAC in 6 months"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Surgery concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "Bethesda Category VI = malignant cytology (papillary thyroid carcinoma). For confirmed PTC >1 cm:\n\nATA Guidelines recommend:\n- Total thyroidectomy: facilitates post-operative RAI therapy, enables accurate staging, and allows serum thyroglobulin monitoring for recurrence.\n- Central compartment (level VI) lymph node dissection: recommended when there is clinical or radiological evidence of central nodal metastasis OR for T3/T4 tumors.\n\nUltrasound high-suspicion features for PTC (TIRADS 5): solid hypoechoic + irregular margins + microcalcifications + taller-than-wide shape = high malignancy risk.\n\nPost-operative management:\n- RAI ablation (I-131): after total thyroidectomy, for intermediate/high-risk PTC, to ablate residual thyroid tissue.\n- Lifelong TSH suppression with levothyroxine.\n\nWhy other options are wrong:\n- A: RAI cannot be the primary treatment — surgery must be done first; RAI requires no remaining thyroid tissue to be effective.\n- C: Hemithyroidectomy alone is appropriate for low-risk PTC ≤1 cm (microcarcinoma) or Bethesda V nodules. For confirmed PTC with high-suspicion imaging, total thyroidectomy is preferred.\n- D: Active surveillance has no role in Bethesda VI (malignant cytology).\n\nNEET PG pearl: Total thyroidectomy + central neck dissection = standard for PTC >1 cm. Post-operative RAI ablation for intermediate/high risk. Thyroglobulin = tumor marker for monitoring after total thyroidectomy."
     },
     {
       "question_id": "TW_SURGERY_HEAD_AND_NEC_Q009",
       "paper_type": "topic_wise",
       "paper_ref": "TW_SURGERY_HEAD_AND_NEC",
       "subject": "Surgery",
-      "topic": "General Surgery",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "Head and Neck Surgery",
+      "subtopic": "Parathyroid",
+      "difficulty": "Very Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A chronic alcoholic presents with abdominal pain radiating to the back. Most likely organism?",
+      "question_text": "A 32-year-old man presents with a kidney stone, peptic ulcer disease not responding to PPI therapy, and hypercalcemia (serum Ca 12.1 mg/dL). His father had a similar presentation and died of pancreatic neuroendocrine tumor. Serum PTH is 280 pg/mL, fasting serum gastrin is markedly elevated at 1200 pg/mL (normal <100). Sestamibi scan shows 3 enlarged parathyroid glands. MRI abdomen reveals a 1.8 cm mass in the pancreatic head. Which of the following is the MOST accurate statement about his condition?",
       "options": {
-        "A": "Staphylococcus aureus",
-        "B": "Klebsiella",
-        "C": "Pseudomonas",
-        "D": "E. coli"
+        "A": "MEN2A — treat with total thyroidectomy first, followed by parathyroidectomy",
+        "B": "MEN1 — subtotal parathyroidectomy (3.5 glands) is the preferred surgical approach for hyperparathyroidism in this syndrome",
+        "C": "Sporadic primary hyperparathyroidism with coincidental gastrinoma — minimally invasive parathyroidectomy of the single adenoma",
+        "D": "MEN1 — the gastrinoma must be resected first before parathyroid surgery"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Surgery concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "This is MEN type 1 (Wermer's syndrome): hyperparathyroidism (3 enlarged glands) + Zollinger-Ellison syndrome (gastrinoma) + family history. Caused by MEN1 gene mutation.\n\nSurgical approach for PHPT in MEN1:\n- Multiglandular disease (multiple adenomas/hyperplasia) is characteristic of MEN1 (unlike sporadic PHPT where 80% is a single adenoma).\n- Therefore: Subtotal parathyroidectomy (remove 3.5 glands, leaving a vascularized remnant of ~50 mg) OR total parathyroidectomy with autotransplantation into the forearm/neck (easier access if recurrence occurs).\n- MIP (removing one gland) is INAPPROPRIATE in MEN1 — high recurrence rate due to multiglandular disease.\n- Parathyroidectomy is done BEFORE gastrinoma resection in MEN1 — correcting hypercalcemia reduces gastrin levels and improves medical management of ZES.\n\nWhy other options are wrong:\n- A: MEN2A includes medullary thyroid carcinoma + pheochromocytoma + parathyroid adenoma. There is no pancreatic neuroendocrine tumor in MEN2A. This patient has pancreatic mass + parathyroid + no MTC.\n- C: 3 enlarged parathyroid glands cannot be 'sporadic single adenoma.' Multiglandular disease = MEN1 context with family history.\n- D: In MEN1, parathyroidectomy is performed FIRST (hypercalcemia worsens ZES symptoms by stimulating gastrin secretion).\n\nNEET PG/INI-CET pearl: MEN1 parathyroidectomy = subtotal (3.5 glands) or total + autotransplantation. NOT single gland removal. Correct hypercalcemia first in MEN1/ZES."
     },
     {
       "question_id": "TW_SURGERY_HEAD_AND_NEC_Q010",
       "paper_type": "topic_wise",
       "paper_ref": "TW_SURGERY_HEAD_AND_NEC",
       "subject": "Surgery",
-      "topic": "General Surgery",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "Head and Neck Surgery",
+      "subtopic": "Neck Masses",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": true,
+      "image_title": "Neck CT — Lateral Neck Mass Anterior to SCM",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Branchial_cleft_cyst_CT.jpg/640px-Branchial_cleft_cyst_CT.jpg",
+      "key_findings": [
+        "Unilocular cystic mass with thin smooth wall anterior to the right SCM at C3 level",
+        "Homogeneous low-density fluid content (Hounsfield units ~20–30) — consistent with serous/mucoid fluid",
+        "No internal septations or solid components",
+        "Located between internal and external carotid arteries — carotid space",
+        "No ipsilateral cervical lymphadenopathy",
+        "No calcification within the mass"
+      ],
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A patient presents with sudden painless loss of vision. Most likely diagnosis?",
+      "question_text": "A 32-year-old man presents with a 3-month history of a painless lateral neck swelling at the anterior border of the right SCM. The CT scan of the neck is shown. His FNAC shows cholesterol crystals and squamous cells. He denies any sore throat, ear pain, or hoarseness. Which is the MOST likely diagnosis and MOST important caveat to consider before surgical planning?",
       "options": {
-        "A": "Pulmonary embolism",
-        "B": "Acute pancreatitis",
-        "C": "Aortic dissection",
-        "D": "DKA"
+        "A": "Lymphangioma (cystic hygroma) — no specific concern; elective resection planned",
+        "B": "Branchial cleft cyst — must rule out cystic metastasis from an oropharyngeal squamous cell carcinoma (especially HPV-related) before planning excision",
+        "C": "Carotid body tumor (paraganglioma) — angiography is mandatory before any surgical intervention",
+        "D": "Reactive lymphadenopathy with abscess formation — antibiotic therapy and drainage"
       },
-      "correct_answer": "C",
-      "explanation": "Integrated Surgery concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "The CT shows a cystic lateral neck mass in the typical location for a branchial cleft cyst. FNAC showing cholesterol crystals and squamous cells is consistent with a branchial cyst.\n\nHowever — in patients >35–40 years old, a lateral neck cystic mass must be treated with suspicion for cystic lymph node metastasis from squamous cell carcinoma (SCC) of the oropharynx, base of tongue, or tonsil (especially HPV-related, HPV16). This is critical because:\n- Cystic nodal metastases can mimic branchial cysts on imaging and clinically.\n- Missing the primary cancer leads to inadequate treatment.\n\nRequired workup before excision in adults >40:\n- Panendoscopy (direct laryngoscopy + rigid bronchoscopy + esophagoscopy) + tonsillectomy/base of tongue biopsy.\n- p16 IHC on FNAC specimen to detect HPV-positive primary.\n- PET-CT to identify the primary tumor.\n\nIn this 32-year-old, the index of suspicion is lower but should still be addressed by reviewing clinical context and FNAC.\n\nWhy other options are wrong:\n- A: Cystic hygroma is multiloculated, in the posterior triangle, and presents in childhood.\n- C: Carotid body tumor is solid, pulsatile, moves side-to-side but not vertically, and has a specific lyre-sign on angiography — does not appear cystic.\n- D: Abscess has thick wall, gas, surrounding inflammation, and systemic signs of infection.\n\nNEET PG pearl: In any adult >40 with lateral neck cyst, exclude cystic SCC nodal metastasis before labeling as branchial cyst. 'Never assume a branchial cyst in a patient over 40' — Schwartz's surgery principle."
     },
     {
       "question_id": "TW_SURGERY_HEAD_AND_NEC_Q011",
       "paper_type": "topic_wise",
       "paper_ref": "TW_SURGERY_HEAD_AND_NEC",
       "subject": "Surgery",
-      "topic": "General Surgery",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "Head and Neck Surgery",
+      "subtopic": "Neck Dissection",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A chronic smoker presents with hemoptysis and weight loss. Most likely diagnosis?",
+      "question_text": "A 58-year-old male smoker with squamous cell carcinoma of the left tonsil (T2N2bM0) undergoes neck dissection. The surgeon identifies and excises the internal jugular vein, sternocleidomastoid muscle, and spinal accessory nerve during the procedure. Post-operatively, the patient develops significant shoulder drop and inability to abduct the arm above 90°. What nerve was sacrificed and what additional complication can be anticipated?",
       "options": {
-        "A": "Pulmonary embolism",
-        "B": "Acute pancreatitis",
-        "C": "Aortic dissection",
-        "D": "DKA"
+        "A": "Facial nerve (VII) sacrifice — permanent facial paralysis",
+        "B": "Spinal accessory nerve (XI) sacrifice — trapezius dysfunction, shoulder syndrome, and frozen shoulder",
+        "C": "Hypoglossal nerve (XII) sacrifice — unilateral tongue atrophy and dysarthria",
+        "D": "Phrenic nerve injury — hemidiaphragm paralysis causing respiratory compromise"
       },
-      "correct_answer": "C",
-      "explanation": "Integrated Surgery concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "Shoulder drop + inability to abduct arm above 90° after neck dissection = injury to the spinal accessory nerve (CN XI). The spinal accessory nerve innervates the sternocleidomastoid (turns head) and trapezius (shoulder elevation, arm abduction beyond 90°, scapular stability).\n\nIn a radical neck dissection (as described: IJV + SCM + spinal accessory nerve all sacrificed), CN XI sacrifice is intentional to achieve oncologically complete clearance. However, it leads to:\n- Post-neck dissection shoulder syndrome: shoulder drop, weakness, pain, winged scapula, inability to abduct arm >90°, and frozen shoulder over time.\n- This is one of the major functional morbidities of radical neck dissection.\n\nModified radical neck dissection (MRND) preserves CN XI (and/or IJV, SCM) while achieving lymph node clearance — now preferred over radical dissection to reduce shoulder morbidity.\n\nWhy other options are wrong:\n- A: Facial nerve sacrifice causes facial palsy — not shoulder drop. Facial nerve is at risk in parotid surgery, not neck dissection routinely.\n- C: Hypoglossal nerve injury → tongue deviation to the side of injury, difficulty swallowing/speaking.\n- D: Phrenic nerve (C3,4,5) injury → hemidiaphragm paralysis; presents with dyspnea, not shoulder drop.\n\nNEET PG pearl: Radical neck dissection = remove levels I–V + IJV + SCM + CN XI. MRND = levels I–V + preserve CN XI/IJV/SCM. Shoulder syndrome = CN XI sacrifice consequence."
     },
     {
       "question_id": "TW_SURGERY_HEAD_AND_NEC_Q012",
@@ -268,68 +291,68 @@
       "paper_ref": "TW_SURGERY_HEAD_AND_NEC",
       "subject": "Surgery",
       "topic": "Head and Neck Surgery",
-      "subtopic": null,
+      "subtopic": "Thyroid",
       "difficulty": "Easy",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Most common thyroid cancer?",
+      "question_text": "A 35-year-old woman presents with a rapidly growing painless thyroid mass. Biopsy reveals uniformly follicular cells arranged in follicles, a thick capsule, with clear capsular and vascular invasion. Which of the following features MOST strongly distinguishes follicular carcinoma from follicular adenoma?",
       "options": {
-        "A": "Follicular",
-        "B": "Medullary",
-        "C": "Papillary",
-        "D": "Anaplastic"
+        "A": "Large follicle size and colloid abundance",
+        "B": "Capsular and/or vascular invasion on histopathology",
+        "C": "Positive calcitonin staining on immunohistochemistry",
+        "D": "Presence of psammoma bodies"
       },
-      "correct_answer": "C",
-      "explanation": "Papillary thyroid Ca: most common (80%), best prognosis, psammoma bodies, Orphan Annie nuclei, lymphatic spread. Associated with radiation exposure."
+      "correct_answer": "B",
+      "explanation": "The distinction between follicular adenoma and follicular carcinoma CANNOT be made on cytology (FNAC) alone — they look identical on FNAC (Bethesda IV: Follicular Neoplasm/Suspicious for FN). Only HISTOPATHOLOGICAL examination of the entire resected specimen can distinguish them.\n\nThe defining features of follicular carcinoma on histopathology:\n1. Capsular invasion: tumor cells breaching the fibrous capsule.\n2. Vascular invasion: tumor cells within blood vessel lumina, particularly capsular vessels.\n\nFollicular adenoma: NO capsular or vascular invasion.\n\nThis is why lobectomy is necessary for Bethesda IV nodules — FNAC cannot diagnose follicular carcinoma.\n\nWhy other options are wrong:\n- A: Follicle size and colloid are features of adenoma, not carcinoma.\n- C: Calcitonin positivity = medullary thyroid carcinoma (parafollicular C-cell origin), not follicular carcinoma.\n- D: Psammoma bodies = papillary thyroid carcinoma, not follicular.\n\nNEET PG pearl: Follicular carcinoma = capsular + vascular invasion on histology. FNAC cannot diagnose follicular carcinoma. Spreads HEMATOGENOUSLY to bone and lung (unlike PTC which spreads lymphatically). Hurthle cell carcinoma = variant of follicular carcinoma."
     },
     {
       "question_id": "TW_SURGERY_HEAD_AND_NEC_Q013",
       "paper_type": "topic_wise",
       "paper_ref": "TW_SURGERY_HEAD_AND_NEC",
       "subject": "Surgery",
-      "topic": "General Surgery",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "Head and Neck Surgery",
+      "subtopic": "Thyroid",
+      "difficulty": "Very Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A pregnant woman presents with hypertension and proteinuria. Most likely diagnosis?",
+      "question_text": "A 45-year-old woman is scheduled for total thyroidectomy for a large toxic multinodular goiter. Pre-operative workup reveals she is on carbimazole with well-controlled thyroid function. Which of the following pre-operative preparations is MOST important in reducing the risk of intraoperative hemorrhage?",
       "options": {
-        "A": "Pulmonary embolism",
-        "B": "Acute pancreatitis",
-        "C": "Aortic dissection",
-        "D": "DKA"
+        "A": "Stopping carbimazole 1 week before surgery to restore normal iodine uptake",
+        "B": "Lugol's iodine (potassium iodide solution) for 10–14 days before surgery",
+        "C": "Propranolol to achieve a pulse rate <70/min before surgery",
+        "D": "IV methylprednisolone for 2 days before surgery"
       },
-      "correct_answer": "C",
-      "explanation": "Integrated Surgery concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "Lugol's iodine (potassium iodide, Wolff-Chaikoff effect): Given for 10–14 days before thyroid surgery for hyperthyroid patients. It:\n1. Reduces thyroid vascularity (fibrosis and involution of hyperplastic gland).\n2. Decreases blood supply to the gland → reduces intraoperative bleeding.\n3. Reduces thyroid hormone synthesis (Wolff-Chaikoff effect) and release.\n4. Firms up the gland, making it easier to handle surgically.\n\nThis is the specific preparation that reduces surgical hemorrhage risk in a vascular hyperthyroid gland.\n\nPre-operative preparation for thyroid surgery in hyperthyroid patient:\n1. Antithyroid drugs (carbimazole/PTU): to achieve euthyroid state (takes 6–8 weeks).\n2. Beta-blockers (propranolol): continued until surgery for symptom control.\n3. Lugol's iodine: 10–14 days before surgery to reduce vascularity.\n\nWhy other options are wrong:\n- A: Stopping carbimazole before surgery risks thyrotoxic crisis (thyroid storm) perioperatively — carbimazole is CONTINUED until the day of surgery.\n- C: Propranolol controls symptoms (palpitations, tremor) but does NOT reduce thyroid vascularity or surgical bleeding.\n- D: IV methylprednisolone has no role in routine pre-operative thyroid surgery preparation.\n\nNEET PG/INI-CET pearl: Lugol's iodine = pre-operative preparation to REDUCE thyroid vascularity. Must be given for exactly 10–14 days (longer causes escape — thyroid starts functioning again). Thyroid storm (thyrotoxic crisis) after surgery = treat with PTU + Lugol's + propranolol + hydrocortisone."
     },
     {
       "question_id": "TW_SURGERY_HEAD_AND_NEC_Q014",
       "paper_type": "topic_wise",
       "paper_ref": "TW_SURGERY_HEAD_AND_NEC",
       "subject": "Surgery",
-      "topic": "General Surgery",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "Head and Neck Surgery",
+      "subtopic": "Neck Masses",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A young woman presents with progressive proximal muscle weakness and rash. Most likely diagnosis?",
+      "question_text": "A 48-year-old woman presents with a slowly enlarging pulsatile mass in the right neck at the carotid bifurcation. She has no pain. On examination, the mass is pulsatile, moves side-to-side but NOT vertically. Carotid angiography shows splaying of the external and internal carotid arteries at the bifurcation with a hypervascular mass ('lyre sign'). Which is the correct diagnosis and the MOST important pre-operative consideration?",
       "options": {
-        "A": "Pulmonary embolism",
-        "B": "Acute pancreatitis",
-        "C": "Aortic dissection",
-        "D": "DKA"
+        "A": "Branchial cyst — excision under local anesthesia is appropriate",
+        "B": "Carotid body tumor (paraganglioma) — pre-operative embolization followed by surgical resection with vascular surgical backup",
+        "C": "Carotid artery aneurysm — immediate surgery due to stroke risk",
+        "D": "Reactive lymphadenopathy — antibiotics and observation"
       },
-      "correct_answer": "C",
-      "explanation": "Integrated Surgery concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "Carotid body tumor (chemodectoma/paraganglioma): arises from chemoreceptor cells at the carotid body (adventitia of carotid bifurcation). Key features:\n- Pulsatile neck mass at the carotid bifurcation\n- Moves side-to-side (transmitted pulsation from carotid) but NOT vertically (tethered to carotid)\n- Fontan's sign: transmitted pulsation\n- Lyre sign on angiography: characteristic splaying of ICA and ECA (like a lyre/harp)\n- May secrete catecholamines in 1–3% (hypertension, sweating)\n\nPre-operative considerations:\n1. Rule out bilateral carotid body tumors (10%) and pheo (check urinary catecholamines).\n2. CT angiography/MRI: assess tumor extent, encasement of carotid arteries.\n3. Pre-operative embolization: reduces intraoperative bleeding for large tumors (>3–4 cm).\n4. Vascular surgical backup: ICA reconstruction may be needed if invaded.\n5. Shamblin classification: guides surgical approach.\n\nWhy other options are wrong:\n- A: A branchial cyst is non-pulsatile, cystic, and does not splay the carotid arteries.\n- C: Carotid aneurysm: expansile pulsation (not lyre sign); no splaying of ICA/ECA.\n- D: Reactive lymphadenopathy: non-pulsatile, tender, associated systemic signs.\n\nNEET PG pearl: Lyre sign = carotid body tumor pathognomonic. Shamblin I = easily resected; II = partially encases carotid; III = completely encases carotid. 10% bilateral, 10% hereditary (SDHB/D gene mutations)."
     },
     {
       "question_id": "TW_SURGERY_HEAD_AND_NEC_Q015",
@@ -337,22 +360,22 @@
       "paper_ref": "TW_SURGERY_HEAD_AND_NEC",
       "subject": "Surgery",
       "topic": "Head and Neck Surgery",
-      "subtopic": null,
+      "subtopic": "Neck Masses",
       "difficulty": "Easy",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Thyroglossal cyst: most common site?",
+      "question_text": "A 12-year-old girl presents with a midline neck swelling that has been present since infancy. On examination, a 1.5 cm smooth, cystic, non-tender swelling is located just below the hyoid bone. It moves upward on swallowing AND on tongue protrusion. There is no change in size with Valsalva. What is the MOST appropriate surgical procedure to prevent recurrence?",
       "options": {
-        "A": "Submental",
-        "B": "Just below hyoid bone",
-        "C": "At thyroid cartilage",
-        "D": "At base of tongue"
+        "A": "Simple cystectomy — removal of the cyst alone through a transverse incision",
+        "B": "Sistrunk's operation — excision of cyst + thyroglossal duct tract + middle third of hyoid bone",
+        "C": "Total thyroidectomy to ensure thyroid tissue in the cyst is removed",
+        "D": "Incision and drainage followed by secondary excision"
       },
       "correct_answer": "B",
-      "explanation": "Thyroglossal cyst: most common at or below hyoid bone (subhyoid). Moves with tongue protrusion and swallowing. Sistrunk operation."
+      "explanation": "Thyroglossal duct cyst: Sistrunk's operation is the definitive treatment with the lowest recurrence rate (<5%). Simple cystectomy has an unacceptably high recurrence rate (~50%) because duct remnants persist in the hyoid bone and above.\n\nSistrunk's operation steps:\n1. Transverse incision over the cyst.\n2. Excision of the cyst.\n3. Excision of the middle third of the hyoid bone (the duct traverses through/around the hyoid).\n4. Core dissection of the duct tract up to the foramen cecum at the base of the tongue.\n5. Ligation and division at the foramen cecum.\n\nWhy other options are wrong:\n- A: Simple cystectomy → 50% recurrence — inadequate.\n- C: Total thyroidectomy is not indicated unless carcinoma (papillary thyroid carcinoma) is found within the cyst (1–2% risk in adults). Pre-operatively, confirm ectopic thyroid tissue is NOT the patient's only thyroid tissue with a technetium scan.\n- D: I&D for infected thyroglossal cyst is only to control acute infection; definitive Sistrunk's operation is done after the infection resolves.\n\nNEET PG pearl: Sistrunk's operation = excise cyst + tract + middle third hyoid. Recurrence rate <5% vs ~50% for simple excision. Before surgery, confirm by technetium scan that there is normal orthotopic thyroid (to avoid removing the patient's only thyroid tissue)."
     },
     {
       "question_id": "TW_SURGERY_HEAD_AND_NEC_Q016",
@@ -360,68 +383,68 @@
       "paper_ref": "TW_SURGERY_HEAD_AND_NEC",
       "subject": "Surgery",
       "topic": "Head and Neck Surgery",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Thyroid",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Medullary thyroid carcinoma is associated with?",
+      "question_text": "A 40-year-old woman presents with a painless thyroid nodule and firm lymphadenopathy in the right cervical chain. Her serum calcitonin is markedly elevated at 1200 pg/mL. Pentagastrin stimulation test provokes a marked rise in calcitonin. FNAC of the nodule shows amyloid stroma and spindle-shaped cells. Which gene mutation is MOST specifically associated with this tumor?",
       "options": {
-        "A": "BRAF mutation",
+        "A": "BRAF V600E mutation",
         "B": "RET proto-oncogene mutation",
-        "C": "RAS mutation",
-        "D": "PAX8-PPAR-γ fusion"
+        "C": "PAX8-PPARγ fusion",
+        "D": "TP53 mutation"
       },
       "correct_answer": "B",
-      "explanation": "MTC: RET mutation (MEN2A, MEN2B, familial MTC). Secretes calcitonin. Amyloid stroma. Most aggressive hereditary variant: MEN2B with marfanoid habitus."
+      "explanation": "Medullary thyroid carcinoma (MTC): arises from parafollicular C-cells (calcitonin-secreting). Key features:\n- Calcitonin is the tumor marker (elevated pre-operatively and used for follow-up).\n- Amyloid stroma on histopathology (calcitonin polymerizes into amyloid).\n- Spindle/polygonal cells.\n- 25% hereditary: RET proto-oncogene mutation (chromosome 10q11.2) in MEN2A, MEN2B, and familial MTC.\n- 75% sporadic: somatic RET mutation in ~40%.\n\nMEN2A (Sipple's syndrome): MTC + pheochromocytoma + parathyroid adenoma — RET mutation codon 634.\nMEN2B: MTC (most aggressive) + pheo + marfanoid habitus + mucosal neuromas — RET mutation codon 918.\n\nWhy other options are wrong:\n- A: BRAF V600E = papillary thyroid carcinoma (not MTC).\n- C: PAX8-PPARγ fusion = follicular thyroid carcinoma.\n- D: TP53 mutation = anaplastic thyroid carcinoma (most aggressive, worst prognosis).\n\nNEET PG pearl: MTC calcitonin elevated. RET mutation = hereditary MTC. All patients with MTC should have RET genetic testing. Family members with RET mutation → prophylactic thyroidectomy. MEN2B has the highest risk of metastatic MTC (prophylactic thyroidectomy in infancy)."
     },
     {
       "question_id": "TW_SURGERY_HEAD_AND_NEC_Q017",
       "paper_type": "topic_wise",
       "paper_ref": "TW_SURGERY_HEAD_AND_NEC",
       "subject": "Surgery",
-      "topic": "General Surgery",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "Head and Neck Surgery",
+      "subtopic": "Thyroid",
+      "difficulty": "Very Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A patient develops sudden severe tearing chest pain radiating to the back. Most likely diagnosis?",
+      "question_text": "A 68-year-old woman with a longstanding multinodular goiter presents with sudden rapid enlargement of the neck mass over 3 weeks, accompanied by hoarseness, dysphagia, and progressive stridor. The mass is rock-hard and fixed to surrounding structures. CT neck shows extrathyroidal extension into the trachea, esophagus, and strap muscles. Biopsy shows sheets of pleomorphic cells with giant cells, spindle cells, and areas of necrosis. Which of the following is the MOST accurate statement about her prognosis and management?",
       "options": {
-        "A": "Pulmonary embolism",
-        "B": "Acute pancreatitis",
-        "C": "Aortic dissection",
-        "D": "DKA"
+        "A": "Surgical resection alone is curative if complete R0 resection can be achieved",
+        "B": "This is anaplastic thyroid carcinoma; it is uniformly Stage IVA/B/C; median survival is 3–6 months; combined modality treatment (surgery + chemoradiotherapy) may improve local control but cure is exceptionally rare",
+        "C": "Radioactive iodine is the primary treatment modality for this tumor",
+        "D": "This is likely lymphoma of the thyroid; rituximab-based chemotherapy is the treatment of choice"
       },
-      "correct_answer": "C",
-      "explanation": "Integrated Surgery concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "Anaplastic thyroid carcinoma (ATC): the most aggressive human cancer, with uniformly fatal prognosis. Key features:\n- Rapid onset of neck swelling, rock-hard fixed mass, local invasion (trachea, esophagus, recurrent laryngeal nerve, carotid artery).\n- Histology: pleomorphic giant cells, spindle cells, squamoid cells, abundant mitoses, necrosis.\n- All ATCs are classified as Stage IV by AJCC (IV=no distant mets with confined disease, IVB=extrathyroidal extension, IVC=distant mets).\n- Median survival: 3–6 months. 1-year survival <20%.\n\nManagement:\n- Surgery (if feasible): debulking to prevent airway obstruction; R0 resection almost never achievable.\n- Hyperfractionated radiotherapy + chemotherapy (paclitaxel, docetaxel, doxorubicin): may improve local control.\n- Targeted therapy: BRAF V600E mutation (present in ~25–45%) → dabrafenib + trametinib (FDA-approved for BRAF-mutated ATC).\n- Tracheostomy: for airway protection.\n\nWhy other options are wrong:\n- A: R0 resection is almost always impossible due to extensive invasion; even when achieved, recurrence is near-universal.\n- C: ATC cells are undifferentiated — they do NOT take up iodine; RAI is completely ineffective.\n- D: Primary thyroid lymphoma: associated with Hashimoto's thyroiditis, rapidly enlarging but not rock-hard, responds well to CHOP-R; distinct histology (diffuse large B-cell lymphoma).\n\nNEET PG/INI-CET pearl: ATC = worst prognosis of all thyroid cancers. Rock-hard rapidly growing mass + elderly patient + prior goiter = ATC. Dabrafenib + trametinib for BRAF V600E-mutated ATC. Compare: PTC = best prognosis, most common."
     },
     {
       "question_id": "TW_SURGERY_HEAD_AND_NEC_Q018",
       "paper_type": "topic_wise",
       "paper_ref": "TW_SURGERY_HEAD_AND_NEC",
       "subject": "Surgery",
-      "topic": "General Surgery",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "Head and Neck Surgery",
+      "subtopic": "Thyroid",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A patient develops acute breathlessness after prolonged immobilization. Most likely organism?",
+      "question_text": "A 32-year-old woman undergoes total thyroidectomy for papillary thyroid carcinoma. On post-operative day 2, she develops hoarseness of voice. Flexible laryngoscopy shows the right vocal cord is immobile and positioned in the paramedian position. Which of the following statements regarding this complication is MOST accurate?",
       "options": {
-        "A": "Staphylococcus aureus",
-        "B": "Klebsiella",
-        "C": "Pseudomonas",
-        "D": "E. coli"
+        "A": "This is injury to the external branch of the superior laryngeal nerve causing loss of high-pitched phonation",
+        "B": "This is injury to the recurrent laryngeal nerve (RLN); complete unilateral RLN injury causes immobile paramedian vocal cord — bilateral injury causes respiratory obstruction and requires tracheostomy",
+        "C": "This is injury to the hypoglossal nerve; treatment involves speech therapy only",
+        "D": "Both vocal cords are affected; this is the most common complication after hemithyroidectomy"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Surgery concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "Recurrent laryngeal nerve (RLN) injury is the most feared complication of thyroid surgery. The RLN innervates ALL intrinsic laryngeal muscles EXCEPT the cricothyroid (innervated by the external branch of the SLN).\n\nUnilateral RLN injury (this case):\n- Ipsilateral vocal cord immobilized in the paramedian position.\n- Hoarseness, voice fatigue, aspiration of liquids.\n- Contralateral cord usually compensates over weeks.\n- Management: speech therapy; Type I thyroplasty (medialization) for persistent dysphonia.\n\nBilateral RLN injury:\n- Both cords in paramedian position → adductor predominance → severe stridor → respiratory obstruction.\n- Emergency tracheostomy may be needed.\n\nRight RLN: loops around the right subclavian artery.\nLeft RLN: loops around the aortic arch — longer course, slightly higher injury risk.\n\nExternal branch of SLN: innervates cricothyroid (tensor of vocal cord); injury causes:\n- Loss of high-pitched phonation (soprano voice loss — Amelita Galli-Curci sign).\n- Not vocal cord paralysis.\n\nWhy other options are wrong:\n- A: External SLN injury does NOT paralyze the vocal cord; only affects pitch, not cord mobility.\n- C: Hypoglossal nerve injury causes tongue deviation; has no effect on the larynx or vocal cord.\n- D: Bilateral vocal cord paralysis from a unilateral procedure is anatomically impossible.\n\nNEET PG pearl: RLN injury = vocal cord paralysis. External SLN injury = loss of high notes. Bilateral RLN injury = respiratory obstruction = tracheostomy. Identify and preserve RLN during thyroid surgery (Beahrs' point)."
     }
   ]
 }

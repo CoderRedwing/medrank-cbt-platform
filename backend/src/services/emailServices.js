@@ -297,4 +297,38 @@ B-42, Sector 62, Noida, Uttar Pradesh 201301, India
   }
 }
 
-module.exports = { sendWelcomeEmail };
+async function sendPasswordResetEmail({ email, name, resetUrl }) {
+  const firstName = getFirstName(name);
+
+  await transporter.sendMail({
+    from: `"MedRank CBT" <${process.env.GMAIL_USER}>`,
+    to: email,
+    subject: 'Reset Your Password',
+    html: `
+      <h2>Password Reset Request</h2>
+
+      <p>Hello Dr. ${firstName},</p>
+
+      <p>Click the button below to reset your password:</p>
+
+      <p>
+        <a href="${resetUrl}"
+           style="
+             background:#4f46e5;
+             color:white;
+             padding:12px 20px;
+             text-decoration:none;
+             border-radius:6px;
+           ">
+           Reset Password
+        </a>
+      </p>
+
+      <p>This link expires in 15 minutes.</p>
+
+      <p>If you didn't request this, simply ignore this email.</p>
+    `,
+  });
+}
+
+module.exports = { sendWelcomeEmail , sendPasswordResetEmail};

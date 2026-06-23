@@ -5,7 +5,10 @@
   "topic": "Vascular Surgery",
   "total_questions": 19,
   "difficulty_distribution": {
-    "Easy": 19
+    "Easy": 3,
+    "Medium": 5,
+    "Hard": 7,
+    "Very Hard": 4
   },
   "created_at": "2026-05-30",
   "questions": [
@@ -14,46 +17,46 @@
       "paper_type": "topic_wise",
       "paper_ref": "TW_SURGERY_VASCULAR_SUR",
       "subject": "Surgery",
-      "topic": "General Surgery",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "Vascular Surgery",
+      "subtopic": "Retinal Artery Occlusion",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A patient presents with sudden painless loss of vision. Underlying mechanism?",
+      "question_text": "A 68-year-old hypertensive smoker develops sudden, painless, unilateral loss of vision. Fundoscopy shows a pale retina with a cherry-red macula. Carotid duplex reveals 80% stenosis of the ipsilateral internal carotid artery. What is the underlying mechanism of the visual loss?",
       "options": {
-        "A": "Autoimmune destruction",
-        "B": "Type I hypersensitivity",
-        "C": "Fat necrosis",
-        "D": "Toxin-mediated injury"
+        "A": "Cholesterol/atherosclerotic embolus occluding the central retinal artery",
+        "B": "Immune complex deposition in retinal vasculature",
+        "C": "Fat embolism from long bone fracture",
+        "D": "Direct toxic injury to retinal ganglion cells"
       },
       "correct_answer": "A",
-      "explanation": "Integrated Surgery concept designed in NEET PG + INI-CET pattern."
+      "explanation": "The correct answer is A. Central retinal artery occlusion (CRAO) in this setting is caused by an atherosclerotic (cholesterol/Hollenhorst) embolus dislodging from a stenotic carotid plaque and lodging in the central retinal artery, producing sudden painless monocular vision loss with a cherry-red spot at the macula (thin retina there allows the underlying choroidal circulation to show through) against a pale, ischemic retina elsewhere. B is incorrect: immune complex-mediated retinal vasculitis (e.g., in lupus) causes a more gradual, often painful, inflammatory picture, not sudden embolic occlusion. C is incorrect: fat embolism affects pulmonary and cerebral circulation classically after long bone fracture, producing petechial rash, hypoxia, and confusion — not isolated monocular CRAO from carotid disease. D is incorrect: toxic optic neuropathy (e.g., methanol, ethambutol) is typically bilateral and subacute, not sudden and unilateral. High-yield pearl: CRAO is an ophthalmic emergency and a marker of systemic atherosclerosis — always investigate the carotid arteries and cardiac source of embolism. Differentiate from central retinal vein occlusion (CRVO), which shows disc edema, dilated tortuous veins, and diffuse retinal hemorrhages ('blood and thunder' fundus) rather than a pale retina."
     },
     {
       "question_id": "TW_SURGERY_VASCULAR_SUR_Q002",
       "paper_type": "topic_wise",
       "paper_ref": "TW_SURGERY_VASCULAR_SUR",
       "subject": "Surgery",
-      "topic": "General Surgery",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "Vascular Surgery",
+      "subtopic": "Abdominal Aortic Aneurysm",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A chronic smoker presents with hemoptysis and weight loss. Best initial investigation?",
+      "question_text": "A 70-year-old male chronic smoker undergoes incidental detection of a 4.8 cm infrarenal abdominal aortic aneurysm on ultrasound during evaluation for unrelated back pain. He is asymptomatic. What is the most appropriate next step?",
       "options": {
-        "A": "CT angiography",
-        "B": "MRI",
-        "C": "Ultrasound",
-        "D": "ECG"
+        "A": "Immediate open surgical repair",
+        "B": "Emergency endovascular aneurysm repair (EVAR)",
+        "C": "CT angiography for surveillance planning and elective repair only if it reaches ≥5.5 cm or grows rapidly",
+        "D": "Reassurance with no further follow-up"
       },
-      "correct_answer": "A",
-      "explanation": "Integrated Surgery concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "C",
+      "explanation": "The correct answer is C. Asymptomatic AAAs are managed by size-based surveillance: elective repair is indicated at ≥5.5 cm diameter in men (≥5.0 cm in women), rapid growth (>0.5 cm in 6 months or >1 cm/year), or symptoms (pain, rupture, distal embolization). At 4.8 cm, this patient requires CT angiography for precise sizing/anatomy and continued surveillance (typically every 3-6 months) rather than immediate intervention. A and B are incorrect: surgery (open or endovascular) at this size carries procedural risk that outweighs the relatively low rupture risk below 5.5 cm threshold; emergency repair is reserved for rupture or symptomatic expansion. D is incorrect: an aneurysm of this size still requires close surveillance because the rupture risk rises steeply as size increases, and smoking cessation/blood pressure control should be emphasized. High-yield pearl: rupture risk per year is <1% below 5 cm, ~1% at 5-5.9 cm, and rises sharply (~10-20%) above 7 cm — this size-risk relationship is a frequently tested NEET PG/INI-CET concept distinguishing surveillance from operative thresholds."
     },
     {
       "question_id": "TW_SURGERY_VASCULAR_SUR_Q003",
@@ -61,137 +64,146 @@
       "paper_ref": "TW_SURGERY_VASCULAR_SUR",
       "subject": "Surgery",
       "topic": "Vascular Surgery",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Aortic Dissection",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Stanford type A aortic dissection involves?",
+      "question_text": "A 55-year-old hypertensive man presents with sudden tearing chest pain radiating to the back. CT angiography shows a dissection flap confined entirely to the descending aorta distal to the left subclavian artery, with no ascending aortic involvement. According to the Stanford classification, what is the most appropriate initial management?",
       "options": {
-        "A": "Descending aorta only",
-        "B": "Ascending aorta (any dissection with ascending involvement)",
-        "C": "Arch only",
-        "D": "Below renal arteries"
+        "A": "Emergency open surgical repair of the ascending aorta",
+        "B": "Medical management with beta-blockers and blood pressure control (Stanford type B)",
+        "C": "Immediate aortic valve replacement",
+        "D": "Emergency endovascular repair regardless of stability"
       },
       "correct_answer": "B",
-      "explanation": "Stanford A: involves ascending aorta (any type) → surgical emergency. Stanford B: only descending aorta → medical management (beta-blockers)."
+      "explanation": "The correct answer is B. This dissection, confined to the descending aorta beyond the left subclavian artery without ascending involvement, is Stanford type B (equivalent to DeBakey type III). Uncomplicated type B dissections are managed medically with aggressive blood pressure and heart rate control (IV beta-blockers, target systolic BP ~100-120 mmHg) since the risk of rupture/malperfusion is lower than type A. A and C are incorrect: emergency surgery on the ascending aorta or valve is reserved for Stanford type A dissections, which involve the ascending aorta and carry high risk of rupture into the pericardium (tamponade) or acute aortic regurgitation. D is incorrect: endovascular repair (TEVAR) for type B dissection is reserved for complicated cases (malperfusion, rupture, refractory pain/hypertension, rapid expansion), not as first-line for an uncomplicated, stable presentation. High-yield pearl: Stanford A = ascending aorta involved (any extent) = surgical emergency; Stanford B = descending aorta only = medical management unless complicated. This classification (simpler than DeBakey I/II/III) is a frequent direct-recall trap when distractors swap 'ascending' and 'descending.'"
     },
     {
       "question_id": "TW_SURGERY_VASCULAR_SUR_Q004",
       "paper_type": "topic_wise",
       "paper_ref": "TW_SURGERY_VASCULAR_SUR",
       "subject": "Surgery",
-      "topic": "General Surgery",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "Vascular Surgery",
+      "subtopic": "Fat Embolism Syndrome",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": true,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A patient presents with altered sensorium, ataxia, and ophthalmoplegia. Most appropriate management?",
+      "question_text": "A 24-year-old man sustains a closed femoral shaft fracture in a road traffic accident. On day 2, he develops altered sensorium, tachypnea, and a petechial rash over the chest and conjunctivae, shown below. Arterial blood gas shows hypoxemia. What is the most appropriate immediate management?",
+      "image_title": "Petechial rash over the anterior chest and axilla following long bone fracture",
+      "image_url": "https://medical-images.example.com/vascular/fat_embolism_petechiae.jpg",
+      "key_findings": [
+        "Fine, non-blanching petechial rash distributed over chest, axilla, and conjunctivae",
+        "Onset 24-72 hours after long bone or pelvic fracture",
+        "Associated with respiratory distress and hypoxemia",
+        "No evidence of thrombocytopenic purpura pattern",
+        "Rash classically spares the face below the eyes in distribution"
+      ],
       "options": {
-        "A": "IV fluids and insulin",
-        "B": "Observation",
-        "C": "Steroids only",
-        "D": "Oral antibiotics"
+        "A": "Supportive care with oxygen, fluid resuscitation, and respiratory support; early fracture fixation",
+        "B": "High-dose systemic corticosteroids as monotherapy without supportive care",
+        "C": "Immediate anticoagulation with unfractionated heparin",
+        "D": "Emergency below-knee amputation"
       },
       "correct_answer": "A",
-      "explanation": "Integrated Surgery concept designed in NEET PG + INI-CET pattern."
+      "explanation": "The correct answer is A. This presentation (altered sensorium, tachypnea/hypoxemia, and petechial rash 24-72 hours after long bone fracture) is classic fat embolism syndrome (Gurd's criteria: major criteria include respiratory distress, cerebral signs, petechial rash). Management is primarily supportive — oxygenation, fluid balance, ventilatory support if needed — combined with early stabilization/fixation of the fracture to reduce ongoing marrow fat embolization. B is incorrect: corticosteroids have been studied as prophylaxis in high-risk fractures but are not validated as sole curative therapy and never replace supportive care. C is incorrect: fat embolism is not primarily a thrombotic process, so anticoagulation has no established therapeutic role and may worsen bleeding risk in trauma. D is an extreme, inappropriate distractor with no indication here. High-yield pearl: distinguish fat embolism syndrome (post-fracture, petechiae, latent period of 24-72 hours, fat globules in urine/sputum) from pulmonary thromboembolism (acute onset, pleuritic chest pain, often immobilization-related, no petechial rash) — a classic NEET PG/INI-CET differentiating question."
     },
     {
       "question_id": "TW_SURGERY_VASCULAR_SUR_Q005",
       "paper_type": "topic_wise",
       "paper_ref": "TW_SURGERY_VASCULAR_SUR",
       "subject": "Surgery",
-      "topic": "General Surgery",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "Vascular Surgery",
+      "subtopic": "Vasculitis - Takayasu Arteritis",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A young woman presents with progressive proximal muscle weakness and rash. Most likely diagnosis?",
+      "question_text": "A 22-year-old woman presents with malaise, low-grade fever, and progressive weakness with claudication of the upper limbs. Examination reveals absent radial pulses bilaterally, a blood pressure discrepancy of >20 mmHg between arms, and a bruit over the subclavian arteries. What is the most likely diagnosis?",
       "options": {
-        "A": "Pulmonary embolism",
-        "B": "Acute pancreatitis",
-        "C": "Aortic dissection",
-        "D": "DKA"
+        "A": "Atherosclerotic peripheral arterial disease",
+        "B": "Takayasu arteritis ('pulseless disease')",
+        "C": "Thoracic outlet syndrome",
+        "D": "Buerger disease (thromboangiitis obliterans)"
       },
-      "correct_answer": "C",
-      "explanation": "Integrated Surgery concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "The correct answer is B. Takayasu arteritis is a large-vessel granulomatous vasculitis affecting the aorta and its major branches, classically presenting in young women (<40 years) with constitutional symptoms, diminished or absent pulses, blood pressure discrepancy between limbs, bruits, and claudication — hence the term 'pulseless disease.' A is incorrect: atherosclerotic PAD typically occurs in older patients with risk factors (smoking, diabetes, hyperlipidemia) and rarely causes bilateral absent radial pulses with systemic inflammatory symptoms in a young woman. C is incorrect: thoracic outlet syndrome causes positional upper limb symptoms (paresthesia, weakness) from neurovascular compression but does not produce systemic inflammatory features or bilateral pulse loss with BP discrepancy. D is incorrect: Buerger disease affects small and medium vessels of the distal extremities in young heavy smokers, causing claudication and digital ischemia, not large-vessel aortic arch branch occlusion. High-yield pearl: Takayasu arteritis is diagnosed using American College of Rheumology criteria including age <40, limb claudication, decreased pulse, BP difference >10 mmHg, bruit, and angiographic narrowing of the aorta/branches; ESR is typically elevated, and management involves corticosteroids ± immunosuppressants."
     },
     {
       "question_id": "TW_SURGERY_VASCULAR_SUR_Q006",
       "paper_type": "topic_wise",
       "paper_ref": "TW_SURGERY_VASCULAR_SUR",
       "subject": "Surgery",
-      "topic": "General Surgery",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "Vascular Surgery",
+      "subtopic": "Acute Limb Ischemia",
+      "difficulty": "Very Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A pregnant woman presents with hypertension and proteinuria. Most likely diagnosis?",
+      "question_text": "A 68-year-old woman with atrial fibrillation (not on anticoagulation) presents with sudden onset of a painful, pale, pulseless left leg with absent sensation and motor function below the knee for the past 8 hours. Doppler shows no arterial or venous signals in the affected limb. What is the most appropriate immediate management?",
       "options": {
-        "A": "Pulmonary embolism",
-        "B": "Acute pancreatitis",
-        "C": "Aortic dissection",
-        "D": "DKA"
+        "A": "Start oral warfarin and reassess in 48 hours",
+        "B": "Immediate surgical embolectomy/revascularization without delay for further imaging, as this represents a Rutherford class III (irreversible) limb",
+        "C": "Emergency surgical embolectomy or thrombolysis after IV heparin, as this is Rutherford class IIb (immediately threatened, salvageable) limb",
+        "D": "Elective angiography in one week"
       },
       "correct_answer": "C",
-      "explanation": "Integrated Surgery concept designed in NEET PG + INI-CET pattern."
+      "explanation": "The correct answer is C. The Rutherford classification for acute limb ischemia categorizes class I (viable, no immediate threat), IIa (marginally threatened, salvageable if treated promptly), IIb (immediately threatened, salvageable with prompt revascularization — sensory loss and mild-moderate motor deficit, audible arterial signal may be absent but venous Doppler usually present), and III (irreversible, major tissue loss inevitable — profound sensory/motor loss, absent arterial AND venous signals, often with muscle rigidity). Importantly, even with both signals absent, the absence of muscle rigidity/fixed mottling and a duration of only 8 hours with retained (though impaired) function generally still places this in the salvageable category — the priority is emergency revascularization after immediate IV heparin anticoagulation to prevent propagation, followed by embolectomy or catheter-directed thrombolysis. A is incorrect: oral anticoagulation alone is inadequate for acute arterial occlusion; revascularization is time-critical (golden period ~6 hours, salvage often still possible up to ~12-24 hours depending on collateral flow). B is a trap — assuming irreversibility (class III, which mandates primary amputation rather than revascularization) without confirming fixed paralysis/rigor or anesthesia, which are the hallmark distinguishing features. D is incorrect: any delay risks limb loss. High-yield pearl: class IIb vs III distinction is the most heavily tested ALI concept — class III is suggested by profound paralysis (rigor), complete anesthesia, and absent Doppler signals together with muscle necrosis signs (myoglobinuria, compartment tenderness), warranting primary amputation rather than futile revascularization."
     },
     {
       "question_id": "TW_SURGERY_VASCULAR_SUR_Q007",
       "paper_type": "topic_wise",
       "paper_ref": "TW_SURGERY_VASCULAR_SUR",
       "subject": "Surgery",
-      "topic": "General Surgery",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "Vascular Surgery",
+      "subtopic": "Mesenteric Ischemia",
+      "difficulty": "Very Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A chronic smoker presents with hemoptysis and weight loss. Underlying mechanism?",
+      "question_text": "A 75-year-old man with atrial fibrillation presents with sudden severe abdominal pain that is disproportionate to the minimal findings on abdominal examination. He has had one episode of bloody diarrhea. Serum lactate is markedly elevated. What is the most likely diagnosis and underlying mechanism?",
       "options": {
-        "A": "Autoimmune destruction",
-        "B": "Type I hypersensitivity",
-        "C": "Fat necrosis",
-        "D": "Toxin-mediated injury"
+        "A": "Acute mesenteric ischemia due to embolic occlusion of the superior mesenteric artery",
+        "B": "Acute pancreatitis due to alcohol use",
+        "C": "Diverticulitis with perforation",
+        "D": "Ischemic colitis due to chronic atherosclerotic narrowing of the inferior mesenteric artery"
       },
       "correct_answer": "A",
-      "explanation": "Integrated Surgery concept designed in NEET PG + INI-CET pattern."
+      "explanation": "The correct answer is A. 'Pain out of proportion to physical findings' in a patient with atrial fibrillation (a major embolic source) is the classic description of acute mesenteric ischemia, most commonly from embolic occlusion of the superior mesenteric artery (SMA), which has a wide-angle origin from the aorta favoring embolus lodgement. Elevated lactate reflects bowel ischemia/infarction, and bloody diarrhea indicates mucosal sloughing. B is incorrect: pancreatitis causes epigastric pain with tenderness correlating to severity, not the characteristic pain-exam mismatch, and there is no history of alcohol use given. C is incorrect: diverticulitis presents with localized left lower quadrant pain and tenderness proportional to the inflammatory/perforation process, not painless-appearing exam with severe pain. D is a close distractor but incorrect: ischemic colitis from IMA-territory atherosclerosis is typically a more gradual, lower-severity process in elderly patients with vascular risk factors, presenting with crampy pain and bloody diarrhea without the dramatic pain-exam disproportion or markedly elevated lactate seen in acute SMA embolic occlusion of the small bowel. High-yield pearl: classic triad for acute mesenteric ischemia — severe abdominal pain, minimal exam findings, and a source of embolism (AF, recent MI, valvular disease); CT angiography is the investigation of choice, and treatment is urgent embolectomy/revascularization with bowel resection if non-viable segments are found at laparotomy."
     },
     {
       "question_id": "TW_SURGERY_VASCULAR_SUR_Q008",
       "paper_type": "topic_wise",
       "paper_ref": "TW_SURGERY_VASCULAR_SUR",
       "subject": "Surgery",
-      "topic": "General Surgery",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "Vascular Surgery",
+      "subtopic": "Necrotizing Fasciitis vs Cellulitis",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A chronic alcoholic presents with abdominal pain radiating to the back. Most likely organism?",
+      "question_text": "A 52-year-old diabetic male presents with rapidly spreading lower limb pain, skin discoloration, crepitus on palpation, fever, hypotension, and tachycardia, with pain that is markedly disproportionate to skin findings. What is the most likely causative organism group and immediate management?",
       "options": {
-        "A": "Staphylococcus aureus",
-        "B": "Klebsiella",
-        "C": "Pseudomonas",
-        "D": "E. coli"
+        "A": "Polymicrobial/Streptococcus pyogenes necrotizing fasciitis — emergency surgical debridement plus broad-spectrum antibiotics",
+        "B": "Staphylococcus aureus simple cellulitis — oral antibiotics on outpatient basis",
+        "C": "Pseudomonas folliculitis — topical antiseptics only",
+        "D": "E. coli urinary tract infection with referred limb pain — urine culture and oral antibiotics"
       },
       "correct_answer": "A",
-      "explanation": "Integrated Surgery concept designed in NEET PG + INI-CET pattern."
+      "explanation": "The correct answer is A. Crepitus, pain out of proportion to exam findings, rapidly spreading skin changes, and systemic toxicity (fever, hypotension, tachycardia) in a diabetic are hallmark features of necrotizing fasciitis, which is often polymicrobial (synergistic gas-forming organisms) or due to group A Streptococcus (Streptococcus pyogenes) in type II disease. This is a surgical emergency requiring immediate, aggressive surgical debridement of all necrotic tissue combined with broad-spectrum IV antibiotics (covering Gram-positive, Gram-negative, and anaerobic organisms) — delay in debridement is the single most important factor increasing mortality. B is incorrect: simple cellulitis lacks crepitus, severe pain disproportion, and systemic shock, and would not require surgery. C is incorrect: folliculitis is a superficial, localized infection without systemic toxicity or crepitus. D is incorrect and a distractor unrelated to the local examination findings described. High-yield pearl: the LRINEC score (Laboratory Risk Indicator for Necrotizing Fasciitis) using CRP, WBC, hemoglobin, sodium, creatinine, and glucose can help risk-stratify, but clinical suspicion with crepitus/bullae/skin necrosis and disproportionate pain should prompt emergency surgical exploration without waiting for imaging confirmation, since fascial spread can occur within hours."
     },
     {
       "question_id": "TW_SURGERY_VASCULAR_SUR_Q009",
@@ -199,45 +211,45 @@
       "paper_ref": "TW_SURGERY_VASCULAR_SUR",
       "subject": "Surgery",
       "topic": "Vascular Surgery",
-      "subtopic": null,
+      "subtopic": "Peripheral Arterial Disease - Fontaine Classification",
       "difficulty": "Easy",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Fontaine classification stage IIb?",
+      "question_text": "A 60-year-old smoker reports calf pain that reliably occurs after walking approximately 150 meters and is relieved by rest, with no pain at rest. Which Fontaine stage best describes his peripheral arterial disease?",
       "options": {
-        "A": "Claudication on >200m",
-        "B": "Claudication on <200m",
-        "C": "Rest pain",
-        "D": "Gangrene"
+        "A": "Stage IIa (claudication distance >200 m)",
+        "B": "Stage IIb (claudication distance <200 m)",
+        "C": "Stage III (rest pain)",
+        "D": "Stage IV (ulceration/gangrene)"
       },
       "correct_answer": "B",
-      "explanation": "Fontaine: I=asymptomatic, IIa=claudication >200m, IIb=claudication <200m, III=rest pain, IV=ulceration/gangrene."
+      "explanation": "The correct answer is B. The Fontaine classification stages peripheral arterial disease as: Stage I — asymptomatic; Stage IIa — intermittent claudication occurring after walking more than 200 meters; Stage IIb — claudication occurring before 200 meters (more severe disease); Stage III — rest pain; Stage IV — ulceration or gangrene. Since this patient develops pain at 150 meters (less than 200 m), he falls into Stage IIb. A is incorrect because IIa requires a longer pain-free walking distance (>200 m). C and D are incorrect because there is no rest pain or tissue loss described. High-yield pearl: Fontaine stage correlates with management urgency — stages I-IIa are typically managed with risk factor modification, supervised exercise, and antiplatelet/statin therapy, while IIb may warrant consideration of revascularization, and stages III-IV (critical limb ischemia) mandate urgent vascular intervention to prevent limb loss."
     },
     {
       "question_id": "TW_SURGERY_VASCULAR_SUR_Q010",
       "paper_type": "topic_wise",
       "paper_ref": "TW_SURGERY_VASCULAR_SUR",
       "subject": "Surgery",
-      "topic": "General Surgery",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "Vascular Surgery",
+      "subtopic": "Pulmonary Embolism vs DVT",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A patient develops acute breathlessness after prolonged immobilization. Most likely organism?",
+      "question_text": "A 65-year-old woman develops acute breathlessness, pleuritic chest pain, and tachycardia three days after a major orthopedic surgery requiring prolonged immobilization. What is the most likely underlying source of this complication?",
       "options": {
-        "A": "Staphylococcus aureus",
-        "B": "Klebsiella",
-        "C": "Pseudomonas",
-        "D": "E. coli"
+        "A": "Embolization of a thrombus from the deep veins of the lower limb to the pulmonary circulation",
+        "B": "Direct bacterial seeding of the lungs from a skin wound",
+        "C": "Aspiration of gastric contents during surgery",
+        "D": "Primary pulmonary vasculitis"
       },
       "correct_answer": "A",
-      "explanation": "Integrated Surgery concept designed in NEET PG + INI-CET pattern."
+      "explanation": "The correct answer is A. Acute breathlessness, pleuritic chest pain, and tachycardia in a postoperative, immobilized patient is classic for pulmonary embolism, almost always arising from deep vein thrombosis (DVT) in the lower limb veins that has embolized to the pulmonary arterial circulation — a direct consequence of postoperative immobility, venous stasis, and a hypercoagulable state (Virchow's triad). B is incorrect: there is no indication of wound infection or septic embolization; the presentation and timing fit thromboembolic disease, not bacteremic seeding. C is incorrect: aspiration pneumonitis presents with respiratory distress typically immediately post-anesthesia, with radiographic infiltrates, not three days later with pleuritic pain. D is incorrect: primary pulmonary vasculitis is rare and would not be temporally linked to recent major surgery and immobilization. High-yield pearl: postoperative orthopedic patients (especially hip/knee arthroplasty) are at very high risk for venous thromboembolism; prophylaxis (mechanical + pharmacologic, e.g., LMWH) is standard of care, and diagnosis of suspected PE proceeds via Wells score, D-dimer, and CT pulmonary angiography."
     },
     {
       "question_id": "TW_SURGERY_VASCULAR_SUR_Q011",
@@ -245,137 +257,146 @@
       "paper_ref": "TW_SURGERY_VASCULAR_SUR",
       "subject": "Surgery",
       "topic": "Vascular Surgery",
-      "subtopic": null,
+      "subtopic": "DVT Risk Stratification",
       "difficulty": "Easy",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Modified Wells score is used for?",
+      "question_text": "A patient presents with unilateral calf swelling and tenderness. The clinician calculates a Modified Wells score of 3. What does this score primarily estimate?",
       "options": {
-        "A": "Predicting MI risk",
-        "B": "DVT probability",
-        "C": "Pulmonary embolism probability",
-        "D": "Aortic dissection risk"
+        "A": "Risk of perioperative myocardial infarction",
+        "B": "Pre-test clinical probability of deep vein thrombosis",
+        "C": "Pre-test clinical probability of pulmonary embolism",
+        "D": "Risk of aortic dissection"
       },
       "correct_answer": "B",
-      "explanation": "Modified Wells score: pre-test probability of DVT. Score ≥2 = likely DVT → ultrasound. Score <2 = unlikely → D-dimer first."
+      "explanation": "The correct answer is B. The Modified Wells score is a clinical prediction tool estimating the pre-test probability of deep vein thrombosis based on risk factors (active cancer, paralysis/recent immobilization, recent surgery, localized tenderness, entire leg swelling, calf swelling difference >3 cm, pitting edema, collateral superficial veins, prior DVT) and an alternative diagnosis criterion. A score ≥2 indicates DVT is 'likely' (proceed to ultrasound), while a score <2 indicates DVT is 'unlikely' (proceed to D-dimer first, and if negative, DVT is excluded). A is incorrect: perioperative cardiac risk is assessed using tools like the Revised Cardiac Risk Index, not Wells score. C is incorrect: there is a separate Wells score (and revised Geneva score) specifically for pulmonary embolism probability, distinct from the DVT version, though both share the same author and similar structure — context here (calf swelling/tenderness) clearly indicates the DVT-specific version. D is incorrect: aortic dissection risk uses different clinical scoring systems (e.g., ADD-RS). High-yield pearl: do not confuse the DVT Wells score and PE Wells score — both exist and are frequently swapped as exam distractors; the clinical context (limb symptoms vs respiratory symptoms) should guide which one is being referenced."
     },
     {
       "question_id": "TW_SURGERY_VASCULAR_SUR_Q012",
       "paper_type": "topic_wise",
       "paper_ref": "TW_SURGERY_VASCULAR_SUR",
       "subject": "Surgery",
-      "topic": "General Surgery",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "Vascular Surgery",
+      "subtopic": "Carotid Artery Disease Investigation",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A patient presents with sudden painless loss of vision. Best initial investigation?",
+      "question_text": "A 70-year-old man experiences a transient episode of monocular vision loss lasting 10 minutes that resolved completely (amaurosis fugax). What is the most appropriate initial investigation?",
       "options": {
-        "A": "CT angiography",
-        "B": "MRI",
-        "C": "Ultrasound",
-        "D": "ECG"
+        "A": "Carotid duplex ultrasonography",
+        "B": "MRI of the brain only",
+        "C": "Lower limb venous Doppler",
+        "D": "Resting 12-lead ECG only"
       },
       "correct_answer": "A",
-      "explanation": "Integrated Surgery concept designed in NEET PG + INI-CET pattern."
+      "explanation": "The correct answer is A. Amaurosis fugax (transient monocular visual loss) is most often caused by transient retinal ischemia from embolization off an ipsilateral carotid artery atherosclerotic plaque, making carotid duplex ultrasonography the most appropriate, non-invasive first-line investigation to assess for significant stenosis (a major source of recurrent stroke risk). B is incomplete: brain MRI may be performed to look for silent infarcts but does not directly evaluate the carotid source, which is the priority. C is irrelevant to this presentation, which is arterial/embolic, not venous. D is incomplete: while cardiac evaluation (echocardiography, ECG/Holter for atrial fibrillation) is also important to exclude a cardioembolic source, the most directly relevant initial test given the classic carotid-territory presentation is carotid duplex. High-yield pearl: amaurosis fugax is considered a transient ischemic attack (TIA) equivalent and warrants urgent carotid imaging — significant stenosis (≥70%) in a symptomatic patient is an indication for carotid endarterectomy to reduce stroke risk."
     },
     {
       "question_id": "TW_SURGERY_VASCULAR_SUR_Q013",
       "paper_type": "topic_wise",
       "paper_ref": "TW_SURGERY_VASCULAR_SUR",
       "subject": "Surgery",
-      "topic": "General Surgery",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "Vascular Surgery",
+      "subtopic": "Aortic Dissection Risk Factors",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A patient develops sudden severe tearing chest pain radiating to the back. Most likely diagnosis?",
+      "question_text": "A 32-year-old tall, thin man with a history of lens dislocation and arm span exceeding his height presents with sudden tearing chest pain radiating to the back. What is the most likely underlying diagnosis and predisposing condition?",
       "options": {
-        "A": "Pulmonary embolism",
-        "B": "Acute pancreatitis",
-        "C": "Aortic dissection",
-        "D": "DKA"
+        "A": "Aortic dissection secondary to Marfan syndrome (cystic medial necrosis)",
+        "B": "Acute pancreatitis secondary to gallstones",
+        "C": "Pulmonary embolism secondary to factor V Leiden",
+        "D": "Diabetic ketoacidosis secondary to new-onset type 1 diabetes"
       },
-      "correct_answer": "C",
-      "explanation": "Integrated Surgery concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "A",
+      "explanation": "The correct answer is A. The combination of tall stature, increased arm span-to-height ratio, lens dislocation (ectopia lentis), and sudden tearing chest/back pain strongly suggests Marfan syndrome complicated by aortic dissection. Marfan syndrome (fibrillin-1 gene mutation) weakens the aortic media (cystic medial necrosis), predisposing to aortic root dilation, aneurysm, and dissection at a younger age than typical atherosclerotic dissection. B, C, and D are incorrect: none of these conditions are associated with the described body habitus and ocular finding, and the classic tearing pain radiating to the back is a hallmark of aortic pathology, not pancreatitis, PE, or DKA. High-yield pearl: connective tissue disorders (Marfan syndrome, Ehlers-Danlos type IV, Loeys-Dietz syndrome) and bicuspid aortic valve are important non-atherosclerotic risk factors for aortic dissection in younger patients, distinguishing them from the typical elderly hypertensive patient profile — a frequently tested differentiator in NEET PG/INI-CET."
     },
     {
       "question_id": "TW_SURGERY_VASCULAR_SUR_Q014",
       "paper_type": "topic_wise",
       "paper_ref": "TW_SURGERY_VASCULAR_SUR",
       "subject": "Surgery",
-      "topic": "General Surgery",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "Vascular Surgery",
+      "subtopic": "Diabetic Foot Sepsis",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A 52-year-old diabetic male presents with fever, hypotension, and tachycardia. Most likely organism?",
+      "question_text": "A 52-year-old diabetic male with a chronic non-healing foot ulcer presents with fever, hypotension, and tachycardia. Blood cultures grow a Gram-positive organism. What is the most likely causative organism, and what is the most appropriate immediate management priority?",
       "options": {
-        "A": "Staphylococcus aureus",
-        "B": "Klebsiella",
-        "C": "Pseudomonas",
-        "D": "E. coli"
+        "A": "Staphylococcus aureus — early aggressive source control (debridement/drainage) plus targeted IV antibiotics and hemodynamic resuscitation",
+        "B": "Klebsiella pneumoniae — oral antibiotics only without source control",
+        "C": "Pseudomonas aeruginosa — observation without antibiotics",
+        "D": "E. coli — antifungal therapy"
       },
       "correct_answer": "A",
-      "explanation": "Integrated Surgery concept designed in NEET PG + INI-CET pattern."
+      "explanation": "The correct answer is A. Staphylococcus aureus (including MRSA) is the most common Gram-positive organism causing diabetic foot infections progressing to sepsis. Management of sepsis from a diabetic foot source requires the sepsis bundle principles — early hemodynamic resuscitation, blood cultures before antibiotics, prompt broad-spectrum then targeted IV antibiotics, and crucially, surgical source control (debridement of necrotic/infected tissue, drainage of any abscess) since antibiotics alone cannot control infection in devitalized tissue. B, C, and D are incorrect: Klebsiella, Pseudomonas, and E. coli are Gram-negative organisms inconsistent with the stated Gram-positive culture result, and the proposed managements (oral-only, observation, antifungals) are all inadequate or inappropriate for septic shock from a surgical source. High-yield pearl: diabetic foot infections are often polymicrobial, but when Gram-positive cocci predominate, S. aureus and Streptococcus species are most likely; failure to achieve timely source control is a major preventable cause of mortality in diabetic foot sepsis, more important than antibiotic choice alone."
     },
     {
       "question_id": "TW_SURGERY_VASCULAR_SUR_Q015",
       "paper_type": "topic_wise",
       "paper_ref": "TW_SURGERY_VASCULAR_SUR",
       "subject": "Surgery",
-      "topic": "General Surgery",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "Vascular Surgery",
+      "subtopic": "Giant Cell Arteritis",
+      "difficulty": "Very Hard",
       "question_type": "single_best_answer",
       "image_based": true,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A patient presents with sudden painless loss of vision. Most likely diagnosis?",
+      "question_text": "A 72-year-old woman presents with sudden painless monocular vision loss, new-onset temporal headache, jaw claudication while chewing, and scalp tenderness. Fundoscopy (shown below) reveals a pale, swollen optic disc. ESR is markedly elevated at 95 mm/hr. What is the most appropriate immediate management?",
+      "image_title": "Fundoscopic image showing pale, edematous optic disc consistent with anterior ischemic optic neuropathy",
+      "image_url": "https://medical-images.example.com/vascular/aion_giant_cell_arteritis.jpg",
+      "key_findings": [
+        "Pale, swollen ('chalky white') optic disc",
+        "Blurred disc margins from edema",
+        "Splinter hemorrhages may be present at the disc margin",
+        "Retinal vasculature otherwise unremarkable",
+        "Findings consistent with anterior ischemic optic neuropathy (AION)"
+      ],
       "options": {
-        "A": "Pulmonary embolism",
-        "B": "Acute pancreatitis",
-        "C": "Aortic dissection",
-        "D": "DKA"
+        "A": "Immediate high-dose systemic corticosteroids without waiting for temporal artery biopsy confirmation, to prevent contralateral eye involvement",
+        "B": "Defer treatment until temporal artery biopsy results are available",
+        "C": "Carotid endarterectomy",
+        "D": "Anticoagulation with warfarin"
       },
-      "correct_answer": "C",
-      "explanation": "Integrated Surgery concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "A",
+      "explanation": "The correct answer is A. This presentation — sudden painless vision loss, temporal headache, jaw claudication, scalp tenderness, markedly elevated ESR, and a pale swollen optic disc — is classic for giant cell (temporal) arteritis causing anterior ischemic optic neuropathy (AION). This is an ophthalmic and systemic emergency: high-dose systemic corticosteroids must be started immediately on clinical suspicion, without waiting for temporal artery biopsy confirmation, because any delay risks irreversible bilateral blindness from contralateral eye involvement. B is incorrect and represents a dangerous, classic exam trap — biopsy should be obtained promptly (ideally within 1-2 weeks) but does NOT delay steroid initiation, since biopsy changes can persist even after steroids are started. C is incorrect: there is no indication of carotid stenosis here; this is a vasculitic, not atherosclerotic embolic, process. D is incorrect: anticoagulation has no established role in giant cell arteritis-related AION. High-yield pearl: giant cell arteritis is a medium-to-large vessel vasculitis in the elderly (>50 years), associated with polymyalgia rheumatica; the temporal artery biopsy may show skip lesions, so a negative biopsy does not exclude the diagnosis if clinical suspicion remains high — treatment decisions are driven by clinical findings, not biopsy timing."
     },
     {
       "question_id": "TW_SURGERY_VASCULAR_SUR_Q016",
       "paper_type": "topic_wise",
       "paper_ref": "TW_SURGERY_VASCULAR_SUR",
       "subject": "Surgery",
-      "topic": "General Surgery",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "Vascular Surgery",
+      "subtopic": "Aortoiliac Occlusive Disease",
+      "difficulty": "Medium",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A chronic smoker presents with hemoptysis and weight loss. Most likely diagnosis?",
+      "question_text": "A 50-year-old male smoker presents with bilateral buttock and thigh claudication, erectile dysfunction, and diminished femoral pulses bilaterally. What is the most likely diagnosis?",
       "options": {
-        "A": "Pulmonary embolism",
-        "B": "Acute pancreatitis",
+        "A": "Acute pulmonary embolism",
+        "B": "Leriche syndrome (aortoiliac occlusive disease)",
         "C": "Aortic dissection",
-        "D": "DKA"
+        "D": "New-onset diabetic ketoacidosis"
       },
-      "correct_answer": "C",
-      "explanation": "Integrated Surgery concept designed in NEET PG + INI-CET pattern."
+      "correct_answer": "B",
+      "explanation": "The correct answer is B. The triad of bilateral hip/buttock/thigh claudication, erectile dysfunction, and diminished or absent femoral pulses defines Leriche syndrome, caused by atherosclerotic occlusion at the aortoiliac bifurcation, which compromises blood flow to the internal iliac arteries (supplying pelvic and erectile structures) and common femoral arteries bilaterally. A is incorrect: pulmonary embolism causes acute respiratory symptoms, not chronic bilateral claudication. C is incorrect: aortic dissection presents with acute tearing pain, not a chronic claudication syndrome with erectile dysfunction. D is incorrect and clinically unrelated to this vascular presentation. High-yield pearl: Leriche syndrome is a classic 'buzzword triad' question — claudication + impotence + absent femoral pulses — and management may involve aortoiliac bypass or endovascular stenting depending on lesion characteristics (TASC classification) and surgical risk."
     },
     {
       "question_id": "TW_SURGERY_VASCULAR_SUR_Q017",
@@ -383,22 +404,22 @@
       "paper_ref": "TW_SURGERY_VASCULAR_SUR",
       "subject": "Surgery",
       "topic": "Vascular Surgery",
-      "subtopic": null,
+      "subtopic": "CEAP Classification - Chronic Venous Disease",
       "difficulty": "Easy",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "CEAP classification is used for?",
+      "question_text": "A patient with longstanding varicose veins develops a healed venous ulcer on the medial malleolus. According to the CEAP classification system, which clinical class does an active venous ulcer correspond to?",
       "options": {
-        "A": "Arterial occlusion",
-        "B": "Chronic venous disease",
-        "C": "Lymphedema staging",
-        "D": "Aortic aneurysm"
+        "A": "C6 (active venous ulcer)",
+        "B": "C1 (telangiectasia/reticular veins)",
+        "C": "C2 (varicose veins)",
+        "D": "C3 (edema)"
       },
-      "correct_answer": "B",
-      "explanation": "CEAP: Clinical-Etiology-Anatomy-Pathophysiology classification for chronic venous disorders. C0=no signs to C6=active ulcer."
+      "correct_answer": "A",
+      "explanation": "The correct answer is A. The CEAP (Clinical-Etiology-Anatomy-Pathophysiology) classification grades chronic venous disease clinically from C0 (no visible signs) through C1 (telangiectasia/reticular veins), C2 (varicose veins), C3 (edema), C4 (skin changes: pigmentation, eczema, lipodermatosclerosis), C5 (healed venous ulcer), to C6 (active venous ulcer) — the most severe clinical stage. B, C, and D describe progressively earlier stages of venous disease without ulceration. High-yield pearl: distinguishing C5 (healed ulcer) from C6 (active ulcer) is a commonly tested detail — C5 indicates a history of ulceration that has healed, while C6 indicates an ulcer currently open, both reflecting advanced chronic venous insufficiency requiring compression therapy and consideration of venous intervention (ablation of incompetent superficial veins)."
     },
     {
       "question_id": "TW_SURGERY_VASCULAR_SUR_Q018",
@@ -406,45 +427,45 @@
       "paper_ref": "TW_SURGERY_VASCULAR_SUR",
       "subject": "Surgery",
       "topic": "Vascular Surgery",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "subtopic": "Ankle-Brachial Index Interpretation",
+      "difficulty": "Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "Ankle-brachial index (ABI) <0.4 indicates?",
+      "question_text": "A 65-year-old diabetic man presents with a non-healing toe ulcer and rest pain. His ankle-brachial index (ABI) is measured at 0.3. What does this value indicate, and what is the most appropriate next step?",
       "options": {
-        "A": "Normal",
-        "B": "Mild occlusive disease",
-        "C": "Critical limb ischemia",
-        "D": "Venous insufficiency"
+        "A": "Critical limb ischemia — urgent vascular imaging (CT/MR angiography or duplex) for revascularization planning",
+        "B": "Normal arterial perfusion — reassurance and routine follow-up",
+        "C": "Mild peripheral arterial disease — lifestyle modification alone is sufficient",
+        "D": "Venous insufficiency — compression stockings as first-line therapy"
       },
-      "correct_answer": "C",
-      "explanation": "ABI: >1.0 normal, 0.7-0.9 mild, 0.4-0.7 moderate, <0.4 critical limb ischemia (rest pain/gangrene). >1.3 suggests calcification."
+      "correct_answer": "A",
+      "explanation": "The correct answer is A. ABI interpretation: >1.3 suggests non-compressible, calcified vessels (often seen in diabetics, can falsely elevate readings); 1.0-1.3 is normal; 0.91-0.99 is borderline; 0.41-0.90 indicates mild-to-moderate PAD; and ≤0.40 indicates critical limb ischemia, consistent with this patient's rest pain and non-healing ulcer. This requires urgent vascular imaging to define the anatomy and plan revascularization (angioplasty/stenting or bypass) to prevent limb loss. B, C, and D are incorrect: an ABI of 0.3 is far from normal, mild disease, or a venous picture (which would not show a markedly reduced ABI); compression stockings are contraindicated in significant arterial insufficiency because they can worsen ischemia. High-yield pearl: critical limb ischemia (rest pain, ulceration, gangrene with ABI typically <0.4) is a limb-threatening emergency requiring urgent multidisciplinary vascular care; note that in diabetics with medial arterial calcification, ABI may be falsely elevated (>1.3), and toe-brachial index or imaging may be more reliable."
     },
     {
       "question_id": "TW_SURGERY_VASCULAR_SUR_Q019",
       "paper_type": "topic_wise",
       "paper_ref": "TW_SURGERY_VASCULAR_SUR",
       "subject": "Surgery",
-      "topic": "General Surgery",
-      "subtopic": null,
-      "difficulty": "Easy",
+      "topic": "Vascular Surgery",
+      "subtopic": "Lymphedema vs Venous Disease",
+      "difficulty": "Very Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A child presents with recurrent respiratory tract infections. Best initial investigation?",
+      "question_text": "A 6-year-old child presents with recurrent episodes of cellulitis of the lower limb and progressive, non-pitting swelling of the foot and leg that does not resolve with limb elevation. Stemmer's sign is positive (inability to pinch and lift a skin fold at the base of the second toe). What is the most appropriate best initial investigation to confirm the suspected diagnosis?",
       "options": {
-        "A": "CT angiography",
-        "B": "MRI",
-        "C": "Ultrasound",
-        "D": "ECG"
+        "A": "Lymphoscintigraphy",
+        "B": "CT angiography",
+        "C": "Venous duplex ultrasonography",
+        "D": "Resting ECG"
       },
       "correct_answer": "A",
-      "explanation": "Integrated Surgery concept designed in NEET PG + INI-CET pattern."
+      "explanation": "The correct answer is A. A positive Stemmer's sign, non-pitting edema that does not improve with elevation, and recurrent cellulitis in a child strongly suggest primary lymphedema (e.g., Milroy disease or other congenital lymphatic dysplasia). Lymphoscintigraphy is the gold-standard investigation to confirm impaired lymphatic drainage, delineate the level of obstruction/dysplasia, and distinguish lymphedema from other causes of limb swelling. B is incorrect: CT angiography assesses arterial anatomy, not lymphatic flow, and is not the investigation of choice here. C is incorrect: venous duplex evaluates venous reflux/obstruction (chronic venous insufficiency typically causes pitting edema that improves with elevation and a negative Stemmer's sign), which does not fit this presentation. D is irrelevant to limb swelling evaluation. High-yield pearl: Stemmer's sign is a key clinical differentiator — positive in lymphedema (thickened subcutaneous tissue prevents skin pinching) but negative in pure venous edema; recurrent cellulitis in lymphedema occurs because stagnant protein-rich lymph fluid is an excellent culture medium for bacteria, and management includes meticulous skin care, compression therapy, and manual lymphatic drainage."
     }
   ]
 }
