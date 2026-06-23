@@ -4,19 +4,13 @@ const crypto = require('crypto');
 
 // ── Transporter ───────────────────────────────────────────────────────────────
 const transporter = nodemailer.createTransport({
-  host: 'smtp.gmail.com',
-  port: 465,     // ← was 587
-  secure: true,  // ← was false
+  host: process.env.MAILEROO_HOST,
+  port: 587,
+  secure: false,
   auth: {
-    user: process.env.GMAIL_USER,
-    pass: process.env.GMAIL_PASS,
+    user: process.env.MAILEROO_USER,
+    pass: process.env.MAILEROO_PASS,
   },
-  tls: {
-    rejectUnauthorized: false
-  },
-  connectionTimeout: 10000,
-  greetingTimeout: 10000,
-  socketTimeout: 15000,
 });
 
 transporter.verify((error) => {
@@ -286,7 +280,7 @@ B-42, Sector 62, Noida, Uttar Pradesh 201301, India
 
   try {
     await transporter.sendMail({
-      from:    `"MedRank CBT" <${process.env.GMAIL_USER}>`,
+      from: `"MedRank CBT" <${process.env.MAILEROO_USER}>`,
       to:      `${name} <${email}>`,           // "Full Name <email>" format improves trust
       subject: `Welcome to MedRank CBT, Dr. ${firstName}`,  // No emoji in subject — triggers spam filters
       text:    textBody,                        // Plain-text fallback (required)
@@ -309,7 +303,7 @@ async function sendPasswordResetEmail({ email, name, resetUrl }) {
   const firstName = getFirstName(name);
 
   await transporter.sendMail({
-    from: `"MedRank CBT" <${process.env.GMAIL_USER}>`,
+    from: `"MedRank CBT" <${process.env.MAILEROO_USER}>`,
     to: email,
     subject: 'Reset Your Password',
     html: `

@@ -121,7 +121,7 @@ const forgotPassword = async (req, res) => {
       console.error('Email Delivery Error:', emailError);
       return res.status(500).json({
         success: false,
-        message: 'Error sending password reset email. Please check server SMTP configuration.',
+        message: emailError.message,
       });
     }
 
