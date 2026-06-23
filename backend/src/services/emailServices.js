@@ -1,27 +1,24 @@
 const nodemailer = require('nodemailer');
 const crypto = require('crypto');
 
+
 // ── Transporter ───────────────────────────────────────────────────────────────
-// IMPORTANT FOR DELIVERABILITY:
-// Using Gmail directly has poor sender reputation. For production, switch to:
-//   - Resend (resend.com) — free 3,000 emails/month
-//   - SendGrid / Mailgun / Postmark
-// Also ensure your domain has SPF, DKIM, and DMARC DNS records configured.
 const transporter = nodemailer.createTransport({
-  service: 'gmail',
+  host: 'smtp.gmail.com',
+  port: 587,
+  secure: false, // false for port 587 (uses STARTTLS)
   auth: {
     user: process.env.GMAIL_USER,
-    pass: process.env.GMAIL_PASS, // Use a Gmail App Password, not your real password
+    pass: process.env.GMAIL_PASS, // Your 16-character Google App Password
   },
+  tls: {
+    rejectUnauthorized: false // Prevents cloud environments from dropping connections
+  }
 });
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
 
-/**
- * Safely extracts a first name from a full name string.
- * Falls back to "Doctor" if the name is empty or whitespace.
- * Strips an existing "Dr." / "Dr " prefix so we don't double it.
- */
+
 function getFirstName(fullName) {
   if (!fullName || typeof fullName !== 'string') return 'Doctor';
   const trimmed = fullName.trim().replace(/^Dr\.?\s*/i, '');

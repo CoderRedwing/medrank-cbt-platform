@@ -92,24 +92,38 @@ const forgotPassword = async (req, res) => {
       .update(resetToken)
       .digest('hex');
 
-    user.passwordResetExpires =
-      Date.now() + 15 * 60 * 1000;
+    user.passwordResetExpires = Date.now() + 15 * 60 * 1000;
 
     await user.save({ validateBeforeSave: false });
 
-    const resetUrl =
-      `${process.env.FRONTEND_URL}/reset-password/${resetToken}`;
+    // Fallback URL safety check
+    const frontendBaseUrl = process.env.FRONTEND_URL || 'https://medrank-cbt-platform.vercel.app';
+    const resetUrl = `${frontendBaseUrl}/reset-password/${resetToken}`;
 
-    await sendPasswordResetEmail({
-      email: user.email,
-      name: user.name,
-      resetUrl,
-    });
+    // 🟢 Bulletproof email execution wrapper
+    try {
+      await sendPasswordResetEmail({
+        email: user.email,
+        name: user.name,
+        resetUrl,
+      });
 
-    res.json({
-      success: true,
-      message: 'Password reset email sent',
-    });
+      return res.json({
+        success: true,
+        message: 'Password reset email sent',
+      });
+    } catch (emailError) {
+      // Clean up token states if mail transmission completely fails
+      user.passwordResetToken = undefined;
+      user.passwordResetExpires = undefined;
+      await user.save({ validateBeforeSave: false });
+
+      console.error('Email Delivery Error:', emailError);
+      return res.status(500).json({
+        success: false,
+        message: 'Error sending password reset email. Please check server SMTP configuration.',
+      });
+    }
 
   } catch (err) {
     res.status(500).json({
