@@ -1,28 +1,6 @@
-const nodemailer = require('nodemailer');
 const crypto = require('crypto');
 
-
-// ── Transporter ───────────────────────────────────────────────────────────────
-const transporter = nodemailer.createTransport({
-  host: process.env.MAILEROO_HOST,
-  port: 587,
-  secure: false,
-  auth: {
-    user: process.env.MAILEROO_USER,
-    pass: process.env.MAILEROO_PASS,
-  },
-});
-
-transporter.verify((error) => {
-  if (error) {
-    console.error('[email] SMTP transporter verification FAILED:', error.message);
-  } else {
-    console.log('[email] SMTP transporter ready');
-  }
-});
-
 // ── Helpers ───────────────────────────────────────────────────────────────────
-
 
 function getFirstName(fullName) {
   if (!fullName || typeof fullName !== 'string') return 'Doctor';
@@ -37,23 +15,46 @@ const EXAM_LABELS = {
   FMGE:    'FMGE',
 };
 
+// ── Core sender (Maileroo HTTP API v2 — works on Render free plan) ───────────
+
+async function sendEmail({ to, toName, subject, html, text }) {
+  const res = await fetch('https://smtp.maileroo.com/api/v2/emails', {
+    method: 'POST',
+    headers: {
+      'Authorization': `Bearer ${process.env.MAILEROO_API_KEY}`,
+      'Content-Type':  'application/json',
+    },
+    body: JSON.stringify({
+      from: {
+        address:      'noreply@a6d7e904fe371be7.maileroo.org',
+        display_name: 'MedRank CBT',
+      },
+      to: [{
+        address:      to,
+        display_name: toName || '',
+      }],
+      subject,
+      html,
+      plain: text,
+    }),
+  });
+
+  if (!res.ok) {
+    const errText = await res.text();
+    throw new Error(`Maileroo API error ${res.status}: ${errText}`);
+  }
+
+  return res.json();
+}
+
 // ── Welcome Email ─────────────────────────────────────────────────────────────
 
-/**
- * Sends a welcome email after successful registration.
- *
- * @param {{ name: string, email: string, targetExam: string }} param0
- */
 async function sendWelcomeEmail({ name, email, targetExam }) {
   const examLabel = EXAM_LABELS[targetExam] || targetExam;
   const firstName = getFirstName(name);
   const appUrl    = process.env.FRONTEND_URL || 'https://medranktest.com';
   const year      = new Date().getFullYear();
 
-  // Unique message ID improves deliverability
-  const messageId = `<welcome-${crypto.randomBytes(8).toString('hex')}@medrankcbt.com>`;
-
-  // ── Plain-text version (REQUIRED — spam filters penalise HTML-only mail) ──
   const textBody = `
 Dear Dr. ${firstName},
 
@@ -63,8 +64,7 @@ Target exam: ${examLabel}
 
 We built MedRank CBT specifically for MBBS graduates preparing for
 postgraduate entrance exams. Every test, analysis, and rank prediction
-is calibrated to the real exam pattern — so the time you invest here
-translates directly to your performance on exam day.
+is calibrated to the real exam pattern.
 
 Here is what you can do right now:
 
@@ -74,25 +74,21 @@ Here is what you can do right now:
 
   2. Review your performance analysis
      Subject-wise accuracy, time-per-question data, weak-area
-     identification, and a focused revision plan generated after
-     each test.
+     identification, and a focused revision plan generated after each test.
 
   3. Check your predicted All India Rank
      AIR estimates calibrated against NEET PG 2025 data, updated
      after every test you complete.
 
-Start your first test:
-${appUrl}/tests
+Start your first test: ${appUrl}/tests
 
-──────────────────────────────────────────
 Target exam can be changed at any time from Profile > Settings.
 Questions? Reply to this email — our team reads every message.
 
-(c) ${year} MedRank CBT
+© ${year} MedRank CBT
 B-42, Sector 62, Noida, Uttar Pradesh 201301, India
   `.trim();
 
-  // ── HTML version ──────────────────────────────────────────────────────────
   const htmlBody = `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -102,7 +98,6 @@ B-42, Sector 62, Noida, Uttar Pradesh 201301, India
   <title>Welcome to MedRank CBT</title>
 </head>
 <body style="margin:0;padding:0;background-color:#f1f5f9;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased;">
-
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
          style="background-color:#f1f5f9;padding:40px 16px;">
     <tr>
@@ -110,7 +105,7 @@ B-42, Sector 62, Noida, Uttar Pradesh 201301, India
         <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
                style="max-width:540px;">
 
-          <!-- ── Wordmark ── -->
+          <!-- Wordmark -->
           <tr>
             <td align="center" style="padding-bottom:24px;">
               <span style="font-size:20px;font-weight:800;color:#1e293b;letter-spacing:-0.5px;">
@@ -119,20 +114,18 @@ B-42, Sector 62, Noida, Uttar Pradesh 201301, India
             </td>
           </tr>
 
-          <!-- ── Card ── -->
+          <!-- Card -->
           <tr>
             <td style="background:#ffffff;border-radius:12px;border:1px solid #e2e8f0;
                         overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,0.06);">
 
-              <!-- Accent header -->
+              <!-- Header -->
               <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
                 <tr>
                   <td style="background:#4f46e5;padding:28px 32px 24px;">
                     <p style="margin:0 0 6px;font-size:13px;font-weight:600;
                                color:rgba(255,255,255,0.7);letter-spacing:0.08em;
-                               text-transform:uppercase;">
-                      Account confirmed
-                    </p>
+                               text-transform:uppercase;">Account confirmed</p>
                     <h1 style="margin:0;font-size:22px;font-weight:700;color:#ffffff;line-height:1.3;">
                       Welcome, Dr. ${firstName}.
                     </h1>
@@ -159,14 +152,10 @@ B-42, Sector 62, Noida, Uttar Pradesh 201301, India
                       <tr>
                         <td width="36" valign="top">
                           <div style="width:32px;height:32px;background:#eef2ff;border-radius:8px;
-                                      text-align:center;line-height:32px;font-size:16px;">
-                            &#x1F4DD;
-                          </div>
+                                      text-align:center;line-height:32px;font-size:16px;">&#x1F4DD;</div>
                         </td>
                         <td valign="top" style="padding-left:14px;">
-                          <p style="margin:0 0 3px;font-size:14px;font-weight:600;color:#1e293b;">
-                            Full-length mock tests
-                          </p>
+                          <p style="margin:0 0 3px;font-size:14px;font-weight:600;color:#1e293b;">Full-length mock tests</p>
                           <p style="margin:0;font-size:13px;color:#64748b;line-height:1.5;">
                             Timed ${examLabel} papers matching the actual question distribution
                             and marking scheme — as close to exam day as it gets.
@@ -181,14 +170,10 @@ B-42, Sector 62, Noida, Uttar Pradesh 201301, India
                       <tr>
                         <td width="36" valign="top">
                           <div style="width:32px;height:32px;background:#eef2ff;border-radius:8px;
-                                      text-align:center;line-height:32px;font-size:16px;">
-                            &#x1F4CA;
-                          </div>
+                                      text-align:center;line-height:32px;font-size:16px;">&#x1F4CA;</div>
                         </td>
                         <td valign="top" style="padding-left:14px;">
-                          <p style="margin:0 0 3px;font-size:14px;font-weight:600;color:#1e293b;">
-                            Detailed performance analysis
-                          </p>
+                          <p style="margin:0 0 3px;font-size:14px;font-weight:600;color:#1e293b;">Detailed performance analysis</p>
                           <p style="margin:0;font-size:13px;color:#64748b;line-height:1.5;">
                             Subject-wise accuracy, time-per-question breakdown, weak-area
                             mapping, and a focused revision plan — generated after every test.
@@ -203,14 +188,10 @@ B-42, Sector 62, Noida, Uttar Pradesh 201301, India
                       <tr>
                         <td width="36" valign="top">
                           <div style="width:32px;height:32px;background:#eef2ff;border-radius:8px;
-                                      text-align:center;line-height:32px;font-size:16px;">
-                            &#x1F3AF;
-                          </div>
+                                      text-align:center;line-height:32px;font-size:16px;">&#x1F3AF;</div>
                         </td>
                         <td valign="top" style="padding-left:14px;">
-                          <p style="margin:0 0 3px;font-size:14px;font-weight:600;color:#1e293b;">
-                            All India Rank prediction
-                          </p>
+                          <p style="margin:0 0 3px;font-size:14px;font-weight:600;color:#1e293b;">All India Rank prediction</p>
                           <p style="margin:0;font-size:13px;color:#64748b;line-height:1.5;">
                             Your projected AIR, calibrated against NEET PG 2025 historical
                             data and updated after every test you complete.
@@ -234,13 +215,12 @@ B-42, Sector 62, Noida, Uttar Pradesh 201301, India
                       </tr>
                     </table>
 
-                    <!-- Divider -->
+                    <!-- Footer note -->
                     <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
                       <tr>
                         <td style="border-top:1px solid #f1f5f9;padding-top:24px;padding-bottom:24px;">
                           <p style="margin:0;font-size:13px;color:#94a3b8;line-height:1.6;">
-                            You are registered for
-                            <strong style="color:#4f46e5;">${examLabel}</strong>.
+                            You are registered for <strong style="color:#4f46e5;">${examLabel}</strong>.
                             You can change your target exam at any time from
                             <strong style="color:#475569;">Profile &rsaquo; Settings</strong>.
                           </p>
@@ -254,11 +234,10 @@ B-42, Sector 62, Noida, Uttar Pradesh 201301, India
                   </td>
                 </tr>
               </table>
-
             </td>
           </tr>
 
-          <!-- ── Footer ── -->
+          <!-- Footer -->
           <tr>
             <td align="center" style="padding-top:20px;">
               <p style="margin:0 0 4px;font-size:12px;color:#94a3b8;">
@@ -274,63 +253,198 @@ B-42, Sector 62, Noida, Uttar Pradesh 201301, India
       </td>
     </tr>
   </table>
-
 </body>
 </html>`;
 
   try {
-    await transporter.sendMail({
-      from: `"MedRank CBT" <${process.env.MAILEROO_USER}>`,
-      to:      `${name} <${email}>`,           // "Full Name <email>" format improves trust
-      subject: `Welcome to MedRank CBT, Dr. ${firstName}`,  // No emoji in subject — triggers spam filters
-      text:    textBody,                        // Plain-text fallback (required)
+    await sendEmail({
+      to:      email,
+      toName:  name,
+      subject: `Welcome to MedRank CBT, Dr. ${firstName}`,
       html:    htmlBody,
-      headers: {
-        'Message-ID':      messageId,
-        'List-Unsubscribe': `<mailto:unsubscribe@medrankcbt.com?subject=unsubscribe>`, // CAN-SPAM
-        'X-Mailer':        'MedRank CBT Mailer v1',
-        'Precedence':      'bulk',
-      },
+      text:    textBody,
     });
     console.log(`[email] Welcome mail delivered → ${email}`);
   } catch (err) {
-    // Email failure must never block registration
     console.error(`[email] Welcome mail FAILED for ${email}:`, err.message);
   }
 }
 
+// ── Password Reset Email ───────────────────────────────────────────────────────
+
 async function sendPasswordResetEmail({ email, name, resetUrl }) {
   const firstName = getFirstName(name);
+  const year      = new Date().getFullYear();
 
-  await transporter.sendMail({
-    from: `"MedRank CBT" <${process.env.MAILEROO_USER}>`,
-    to: email,
-    subject: 'Reset Your Password',
-    html: `
-      <h2>Password Reset Request</h2>
+  const textBody = `
+Dear Dr. ${firstName},
 
-      <p>Hello Dr. ${firstName},</p>
+We received a request to reset your MedRank CBT password.
 
-      <p>Click the button below to reset your password:</p>
+Reset your password here: ${resetUrl}
 
-      <p>
-        <a href="${resetUrl}"
-           style="
-             background:#4f46e5;
-             color:white;
-             padding:12px 20px;
-             text-decoration:none;
-             border-radius:6px;
-           ">
-           Reset Password
-        </a>
-      </p>
+This link will expire in 15 minutes for your security.
 
-      <p>This link expires in 15 minutes.</p>
+If you did not request a password reset, you can safely ignore this email.
+Your password will remain unchanged.
 
-      <p>If you didn't request this, simply ignore this email.</p>
-    `,
-  });
+For security, never share this link with anyone.
+
+© ${year} MedRank CBT
+B-42, Sector 62, Noida, Uttar Pradesh 201301, India
+  `.trim();
+
+  const htmlBody = `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <title>Reset Your Password — MedRank CBT</title>
+</head>
+<body style="margin:0;padding:0;background-color:#f1f5f9;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
+         style="background-color:#f1f5f9;padding:40px 16px;">
+    <tr>
+      <td align="center">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
+               style="max-width:520px;">
+
+          <!-- Wordmark -->
+          <tr>
+            <td align="center" style="padding-bottom:24px;">
+              <span style="font-size:20px;font-weight:800;color:#1e293b;letter-spacing:-0.5px;">
+                MedRank <span style="color:#4f46e5;">CBT</span>
+              </span>
+            </td>
+          </tr>
+
+          <!-- Card -->
+          <tr>
+            <td style="background:#ffffff;border-radius:12px;border:1px solid #e2e8f0;
+                        overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,0.06);">
+
+              <!-- Header -->
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                  <td style="background:#1e293b;padding:28px 32px 24px;">
+                    <p style="margin:0 0 6px;font-size:13px;font-weight:600;
+                               color:rgba(255,255,255,0.5);letter-spacing:0.08em;
+                               text-transform:uppercase;">Security alert</p>
+                    <h1 style="margin:0;font-size:22px;font-weight:700;color:#ffffff;line-height:1.3;">
+                      Password Reset Request
+                    </h1>
+                    <p style="margin:6px 0 0;font-size:14px;color:rgba(255,255,255,0.6);">
+                      We received a request to reset your account password.
+                    </p>
+                  </td>
+                </tr>
+              </table>
+
+              <!-- Body -->
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                  <td style="padding:32px 32px 28px;">
+
+                    <p style="margin:0 0 20px;font-size:15px;color:#334155;line-height:1.7;">
+                      Hello Dr. ${firstName},
+                    </p>
+                    <p style="margin:0 0 28px;font-size:15px;color:#334155;line-height:1.7;">
+                      Someone requested a password reset for your MedRank CBT account.
+                      If this was you, click the button below to choose a new password.
+                    </p>
+
+                    <!-- CTA -->
+                    <table role="presentation" width="100%" cellpadding="0" cellspacing="0"
+                           border="0" style="margin-bottom:28px;">
+                      <tr>
+                        <td align="center">
+                          <a href="${resetUrl}"
+                             style="display:inline-block;background:#4f46e5;color:#ffffff;
+                                    font-size:14px;font-weight:600;padding:13px 32px;
+                                    border-radius:8px;text-decoration:none;letter-spacing:0.01em;">
+                            Reset My Password
+                          </a>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!-- Expiry notice -->
+                    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
+                           style="margin-bottom:24px;">
+                      <tr>
+                        <td style="background:#fefce8;border:1px solid #fde68a;border-radius:8px;
+                                    padding:14px 16px;">
+                          <p style="margin:0;font-size:13px;color:#92400e;line-height:1.5;">
+                            &#x23F1;&nbsp; <strong>This link expires in 15 minutes.</strong>
+                            If it has expired, you can request a new one from the login page.
+                          </p>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!-- Fallback URL -->
+                    <p style="margin:0 0 6px;font-size:13px;color:#64748b;line-height:1.5;">
+                      If the button doesn't work, copy and paste this URL into your browser:
+                    </p>
+                    <p style="margin:0 0 28px;font-size:12px;color:#94a3b8;word-break:break-all;
+                               line-height:1.5;">
+                      ${resetUrl}
+                    </p>
+
+                    <!-- Divider -->
+                    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                      <tr>
+                        <td style="border-top:1px solid #f1f5f9;padding-top:24px;">
+                          <p style="margin:0;font-size:13px;color:#94a3b8;line-height:1.6;">
+                            &#x1F512;&nbsp; If you did not request a password reset, please ignore this email.
+                            Your password will not be changed.
+                          </p>
+                          <p style="margin:10px 0 0;font-size:13px;color:#94a3b8;line-height:1.6;">
+                            For security concerns, contact us by replying to this email.
+                          </p>
+                        </td>
+                      </tr>
+                    </table>
+
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Footer -->
+          <tr>
+            <td align="center" style="padding-top:20px;">
+              <p style="margin:0 0 4px;font-size:12px;color:#94a3b8;">
+                &copy; ${year} MedRank CBT &mdash; This email was sent because a password reset was requested.
+              </p>
+              <p style="margin:0;font-size:11px;color:#cbd5e1;">
+                B-42, Sector 62, Noida, Uttar Pradesh 201301, India
+              </p>
+            </td>
+          </tr>
+
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>`;
+
+  try {
+    await sendEmail({
+      to:      email,
+      toName:  name,
+      subject: 'Reset your MedRank CBT password',
+      html:    htmlBody,
+      text:    textBody,
+    });
+    console.log(`[email] Password reset mail delivered → ${email}`);
+  } catch (err) {
+    console.error(`[email] Password reset mail FAILED for ${email}:`, err.message);
+    throw err; // re-throw so the route can return a 500
+  }
 }
 
-module.exports = { sendWelcomeEmail , sendPasswordResetEmail};
+module.exports = { sendWelcomeEmail, sendPasswordResetEmail };
