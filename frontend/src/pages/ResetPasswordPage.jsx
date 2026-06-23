@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
 import axios from 'axios';
 import AuthLayout from '../components/layout/AuthLayout';
+import { authAPI } from '../services/api'; // adjust path as needed
 
 const styles = {
   label: {
@@ -180,10 +181,9 @@ export default function ResetPasswordPage() {
 
     try {
       setLoading(true);
-      const { data } = await axios.post(`/api/auth/reset-password/${token}`, { password });
-      localStorage.setItem('token', data.token);
+      await authAPI.resetPassword(token, { password });
       setSuccess(true);
-      setTimeout(() => navigate('/dashboard'), 1800);
+      setTimeout(() => navigate('/login'), 1800);
     } catch (err) {
       setError(err.response?.data?.message || 'Reset failed. The link may have expired.');
     } finally {
@@ -206,7 +206,7 @@ export default function ResetPasswordPage() {
       {success && (
         <div style={styles.alertSuccess}>
           <CheckIcon />
-          <span>Password updated! Redirecting you to your dashboard…</span>
+          <span>Password updated! Redirecting you to login…</span>
         </div>
       )}
 
