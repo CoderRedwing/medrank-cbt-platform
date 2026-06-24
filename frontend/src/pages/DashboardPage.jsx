@@ -194,6 +194,40 @@ export default function DashboardPage() {
           )}
         </p>
       </div>
+      {/* ── Telegram Banner ── */}   {/* ← ADD HERE */}
+<div style={{
+  background: '#e8f4fd',
+  border: '1px solid #b3d9f7',
+  borderRadius: 10,
+  padding: '14px 18px',
+  display: 'flex',
+  alignItems: 'center',
+  gap: 14,
+  marginBottom: 20,
+}}>
+  <span style={{ fontSize: 24 }}>✈️</span>
+  <div style={{ flex: 1 }}>
+    <p style={{ margin: 0, fontWeight: 600, color: '#1e293b', fontSize: 13 }}>
+      Join MedRank CBT on Telegram
+    </p>
+    <p style={{ margin: '2px 0 0', fontSize: 12, color: '#64748b' }}>
+      Get instant alerts for new tests, rank updates &amp; exam news
+    </p>
+  </div>
+  <a
+    href="https://t.me/+ZI-caFRnCWo2ZTU9"
+    target="_blank"
+    rel="noreferrer"
+    style={{
+      background: '#0088cc', color: '#fff',
+      padding: '8px 14px', borderRadius: 8,
+      fontSize: 12, fontWeight: 600,
+      textDecoration: 'none', whiteSpace: 'nowrap',
+    }}
+  >
+    Join Channel
+  </a>
+</div>
 
       {/* ── Stat cards ── */}
       <div style={{
