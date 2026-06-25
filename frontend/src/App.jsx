@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import { BrowserRouter, Routes, Route, Navigate, useLocation } from 'react-router-dom';
+import ReactGA from 'react-ga4'; // 👈 1. Import ReactGA
 import useAuthStore from './store/authStore';
 import AppLayout   from './components/layout/AppLayout.jsx';
 import AdminLayout from './components/layout/AdminLayout.jsx';
@@ -28,11 +29,25 @@ import AdminTests     from './pages/admin/AdminTests.jsx';
 import AdminPapers    from './pages/admin/AdminPapers.jsx';
 import AdminSettings  from './pages/admin/AdminSettings.jsx';
 
+/* ── Analytics Tracker Component ─────────────────────────────── */
+// 👈 2. This component listens to the router changes and sends them to GA4
+function AnalyticsTracker() {
+  const location = useLocation();
+
+  useEffect(() => {
+    ReactGA.send({ 
+      hitType: 'pageview', 
+      page: location.pathname + location.search 
+    });
+  }, [location]);
+
+  return null; // This component doesn't render anything on screen
+}
+
 /* ── Auth guard ─────────────────────────────────────────────────── */
 function ProtectedRoute({ children }) {
   const { token, initializing } = useAuthStore();
   const location = useLocation();
-  // Only block on initializing (app boot), not on login/register loading
   if (initializing) return <LoadingScreen message="Loading your profile…" />;
   if (!token)       return <Navigate to="/login" state={{ from: location }} replace />;
   return children;
@@ -59,6 +74,9 @@ export default function App() {
 
   return (
     <BrowserRouter>
+      {/* 👈 3. Put the tracker here inside BrowserRouter */}
+      <AnalyticsTracker /> 
+
       <Routes>
         {/* Public */}
         <Route path="/login"    element={<LoginPage />} />
