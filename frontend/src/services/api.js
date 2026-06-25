@@ -21,11 +21,17 @@ api.interceptors.request.use((config) => {
 api.interceptors.response.use(
   (res) => res,
   (err) => {
-    if (err.response?.status === 401) {
+    const isAuthRoute = err.config?.url?.includes('/auth/login') ||
+                        err.config?.url?.includes('/auth/register') ||
+                        err.config?.url?.includes('/auth/reset-password');
+
+    if (err.response?.status === 401 && !isAuthRoute) {
+      // Only redirect if it's a protected route with expired/missing token
       localStorage.removeItem('neet_token');
       window.location.href = '/login';
     }
-    return Promise.reject(err);
+
+    return Promise.reject(err);  // ✅ let login page handle its own errors
   }
 );
 

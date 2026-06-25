@@ -51,12 +51,18 @@ export default function LoginPage() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+     console.log("LOGIN CLICKED");
     clearError();
     const errs = validate();
     if (Object.keys(errs).length) { setFieldErrors(errs); return; }
     setFieldErrors({});
     const res = await login(email, password);
-    if (res.success) navigate('/dashboard');
+    console.log('login result:', res); 
+    if (res.success) {
+    navigate('/dashboard');
+  } else {
+    setFieldErrors({ general: res.error }); // ← show the error
+  }
   };
 
   return (

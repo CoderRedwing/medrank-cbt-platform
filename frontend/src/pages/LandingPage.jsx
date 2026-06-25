@@ -567,7 +567,7 @@ function Footer() {
       <p style={{ fontSize: 13, color: '#a8a59e' }}>
         © {new Date().getFullYear()} MedRank. Built for PG aspirants.
       </p>
-      <div style={{ display: 'flex', gap: 20 }}>
+      <div style={{ display: 'flex', gap: 20, alignItems: 'center' }}>
         {['Privacy', 'Terms', 'Contact'].map(l => (
           <a key={l} href="#" style={{ fontSize: 13, color: '#a8a59e', textDecoration: 'none' }}
             onMouseEnter={e => e.target.style.color = '#1a1a18'}
@@ -576,6 +576,24 @@ function Footer() {
             {l}
           </a>
         ))}
+        <a
+        
+          href="https://t.me/+ZI-caFRnCWo2ZTU9"
+          target="_blank"
+          rel="noreferrer"
+          style={{
+            display: 'flex', alignItems: 'center', gap: 6,
+            fontSize: 13, color: '#0088cc', textDecoration: 'none',
+            fontWeight: 600,
+          }}
+          onMouseEnter={e => e.currentTarget.style.opacity = '0.8'}
+          onMouseLeave={e => e.currentTarget.style.opacity = '1'}>
+        
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="#0088cc">
+            <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.248-1.97 9.289c-.145.658-.537.818-1.084.508l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.12L7.26 14.4l-2.948-.924c-.64-.203-.654-.64.136-.954l11.527-4.448c.535-.194 1.002.131.587.174z"/>
+          </svg>
+          Telegram
+        </a>
       </div>
     </footer>
   );
