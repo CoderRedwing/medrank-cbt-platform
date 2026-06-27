@@ -64,7 +64,7 @@ function StatCard({ label, value, color, sub }) {
       padding: '15px 16px',
     }}>
       <div style={{
-        fontSize: 11, fontWeight: 500,
+        fontSize: 10, fontWeight: 500,
         color: 'var(--clr-text-muted)',
         textTransform: 'uppercase',
         letterSpacing: '0.07em',
@@ -178,7 +178,7 @@ export default function OverallAnalysisPage() {
   const totalAttempted = (stats.totalCorrect || 0) + (stats.totalIncorrect || 0);
 
   return (
-    <div style={{ padding: '28px 28px 48px', maxWidth: 1050, margin: '0 auto' }}>
+    <div style={{ padding: 'clamp(16px, 4vw, 28px) clamp(12px, 4vw, 28px) 48px', maxWidth: 1050, margin: '0 auto' }}>
 
       {/* ── Header ── */}
       <div style={{ marginBottom: 24 }}>
@@ -197,34 +197,70 @@ export default function OverallAnalysisPage() {
         </p>
       </div>
 
-      {/* ── Stat cards ── */}
+      {/* ── Stat cards — grouped surface ── */}
       <div style={{
-        display: 'grid',
-        gridTemplateColumns: 'repeat(4, 1fr)',
-        gap: 12,
+        background: 'var(--clr-surface)',
+        border: '1px solid var(--clr-border)',
+        borderRadius: 12,
+        padding: '16px 20px',
         marginBottom: 18,
       }}>
-        <StatCard
-          label="Total correct"
-          value={(stats.totalCorrect || 0).toLocaleString()}
-          color="#16a34a"
-          sub={totalAttempted > 0 ? `of ${totalAttempted.toLocaleString()} attempted` : undefined}
-        />
-        <StatCard
-          label="Total incorrect"
-          value={(stats.totalIncorrect || 0).toLocaleString()}
-          color="#dc2626"
-        />
-        <StatCard
-          label="Avg accuracy"
-          value={`${stats.averageAccuracy || 0}%`}
-          color={accuracyColor(stats.averageAccuracy)}
-        />
-        <StatCard
-          label="Avg score / paper"
-          value={stats.averageScore || 0}
-          color="#6366f1"
-        />
+        <div style={{
+          display: 'grid',
+          gridTemplateColumns: 'repeat(auto-fill, minmax(130px, 1fr))',
+          gap: 0,
+        }}>
+          {[
+            {
+              label: 'Total correct',
+              value: (stats.totalCorrect || 0).toLocaleString(),
+              color: '#16a34a',
+              sub: totalAttempted > 0 ? `of ${totalAttempted.toLocaleString()} attempted` : undefined,
+            },
+            {
+              label: 'Total incorrect',
+              value: (stats.totalIncorrect || 0).toLocaleString(),
+              color: '#dc2626',
+            },
+            {
+              label: 'Avg accuracy',
+              value: `${stats.averageAccuracy || 0}%`,
+              color: accuracyColor(stats.averageAccuracy),
+            },
+            {
+              label: 'Avg score / paper',
+              value: stats.averageScore || 0,
+              color: '#6366f1',
+            },
+          ].map((s, i, arr) => (
+            <div
+              key={s.label}
+              style={{
+                textAlign: 'center',
+                padding: '10px 8px',
+                borderRight: i < arr.length - 1 ? '1px solid var(--clr-border)' : 'none',
+              }}
+            >
+              <div style={{
+                fontSize: 10, color: 'var(--clr-text-muted)',
+                textTransform: 'uppercase', letterSpacing: '0.07em', marginBottom: 6,
+              }}>
+                {s.label}
+              </div>
+              <div style={{
+                fontSize: 24, fontWeight: 600,
+                color: s.color, letterSpacing: '-0.02em', lineHeight: 1,
+              }}>
+                {s.value}
+              </div>
+              {s.sub && (
+                <div style={{ fontSize: 11, color: 'var(--clr-text-muted)', marginTop: 4 }}>
+                  {s.sub}
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
       </div>
 
       {/* ── Score trend ── */}
@@ -268,32 +304,21 @@ export default function OverallAnalysisPage() {
               barSize={10}
             >
               <XAxis
-                type="number"
-                domain={[0, 100]}
+                type="number" domain={[0, 100]}
                 tick={{ fill: 'var(--clr-text-muted)', fontSize: 10 }}
                 tickFormatter={(v) => `${v}%`}
-                axisLine={false}
-                tickLine={false}
+                axisLine={false} tickLine={false}
               />
               <YAxis
-                type="category"
-                dataKey="name"
+                type="category" dataKey="name"
                 tick={{ fill: 'var(--clr-text-muted)', fontSize: 11 }}
-                width={72}
-                axisLine={false}
-                tickLine={false}
+                width={72} axisLine={false} tickLine={false}
               />
               <Tooltip content={<BarTooltip />} cursor={{ fill: 'var(--clr-surface2)' }} />
-              <Bar
-                dataKey="accuracy"
-                radius={[0, 4, 4, 0]}
-                label={{
-                  position: 'right',
-                  fill: 'var(--clr-text-muted)',
-                  fontSize: 10,
-                  formatter: (v) => `${v}%`,
-                }}
-              >
+              <Bar dataKey="accuracy" radius={[0, 4, 4, 0]} label={{
+                position: 'right', fill: 'var(--clr-text-muted)', fontSize: 10,
+                formatter: (v) => `${v}%`,
+              }}>
                 {barData.map((entry, i) => (
                   <Cell key={i} fill={accuracyColor(entry.accuracy)} />
                 ))}
@@ -306,15 +331,11 @@ export default function OverallAnalysisPage() {
       {/* ── Weak / Strong ── */}
       <div style={{
         display: 'grid',
-        gridTemplateColumns: '1fr 1fr',
-        gap: 14,
-        marginBottom: 14,
+        gridTemplateColumns: 'repeat(auto-fill, minmax(min(100%, 300px), 1fr))',
+        gap: 14, marginBottom: 14,
       }}>
         <Section>
-          <div style={{
-            display: 'flex', alignItems: 'center', gap: 6,
-            marginBottom: 14,
-          }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 6, marginBottom: 14 }}>
             <span style={{
               width: 18, height: 18, borderRadius: '50%',
               background: '#fef2f2', border: '1px solid #fca5a5',
@@ -331,10 +352,7 @@ export default function OverallAnalysisPage() {
         </Section>
 
         <Section>
-          <div style={{
-            display: 'flex', alignItems: 'center', gap: 6,
-            marginBottom: 14,
-          }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 6, marginBottom: 14 }}>
             <span style={{
               width: 18, height: 18, borderRadius: '50%',
               background: '#f0fdf4', border: '1px solid #86efac',
@@ -359,34 +377,22 @@ export default function OverallAnalysisPage() {
             {focusSuggestions.slice(0, 8).map((f, i) => {
               const p = PRIORITY[f.priority] || PRIORITY.medium;
               return (
-                <div
-                  key={i}
-                  style={{
-                    display: 'flex',
-                    alignItems: 'center',
-                    gap: 12,
-                    padding: '10px 14px',
-                    borderRadius: 8,
-                    background: 'var(--clr-surface2)',
-                    border: '1px solid var(--clr-border)',
-                    borderLeft: `3px solid ${p.bar}`,
-                  }}
-                >
-                  {/* Priority badge */}
+                <div key={i} style={{
+                  display: 'flex', alignItems: 'center', gap: 12,
+                  padding: '10px 14px', borderRadius: 8,
+                  background: 'var(--clr-surface2)',
+                  border: '1px solid var(--clr-border)',
+                  borderLeft: `3px solid ${p.bar}`,
+                }}>
+                  {/* Priority pill — consistent with AnalysisPage style */}
                   <span style={{
-                    padding: '2px 9px',
-                    borderRadius: 99,
-                    fontSize: 11,
-                    fontWeight: 500,
-                    background: p.bg,
-                    border: `1px solid ${p.border}`,
-                    color: p.color,
-                    flexShrink: 0,
+                    padding: '3px 10px', borderRadius: 99,
+                    fontSize: 11, fontWeight: 600,
+                    background: p.bg, border: `1px solid ${p.border}`,
+                    color: p.color, flexShrink: 0,
                   }}>
                     {p.label}
                   </span>
-
-                  {/* Subject + reason */}
                   <div style={{ flex: 1, minWidth: 0 }}>
                     <div style={{ fontSize: 13, fontWeight: 500, color: 'var(--clr-text)' }}>
                       {f.subject}
@@ -395,20 +401,21 @@ export default function OverallAnalysisPage() {
                       {f.reason}
                     </div>
                   </div>
-
-                  {/* Practice link */}
+                  {/* Practice button — consistent pill style */}
                   <button
                     onClick={() => navigate('/tests')}
                     style={{
-                      fontSize: 12,
-                      fontWeight: 500,
-                      color: '#6366f1',
-                      background: 'none',
-                      border: 'none',
-                      cursor: 'pointer',
-                      flexShrink: 0,
-                      padding: 0,
+                      fontSize: 12, fontWeight: 600,
+                      color: 'var(--clr-primary)',
+                      background: 'rgba(99,102,241,0.08)',
+                      border: '1px solid rgba(99,102,241,0.2)',
+                      borderRadius: 99,
+                      padding: '4px 12px',
+                      cursor: 'pointer', flexShrink: 0,
+                      transition: 'background 0.15s',
                     }}
+                    onMouseEnter={(e) => e.currentTarget.style.background = 'rgba(99,102,241,0.16)'}
+                    onMouseLeave={(e) => e.currentTarget.style.background = 'rgba(99,102,241,0.08)'}
                   >
                     Practice →
                   </button>

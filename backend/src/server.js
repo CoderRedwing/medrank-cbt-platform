@@ -44,15 +44,35 @@ function startServer() {
 
   // ── Security & Middleware ─────────────────────────────────────────────────
   app.use(helmet());
-  app.use(cors({
-    // FIX: Support multiple allowed origins (comma-separated in env var)
-    origin: (origin, callback) => {
-      const allowed = (process.env.FRONTEND_URL || 'http://localhost:5173').split(',').map(s => s.trim());
-      if (!origin || allowed.includes(origin)) return callback(null, true);
-      callback(new Error(`CORS: origin ${origin} not allowed`));
-    },
-    credentials: true,  
-  }));
+  const allowedOrigins = [
+  ...(process.env.FRONTEND_URL
+    ? process.env.FRONTEND_URL.split(',').map(s => s.trim())
+    : []),
+  // Only add dev URLs in non-production
+  ...(process.env.NODE_ENV !== 'production'
+    ? [
+        'http://localhost:5173',
+        'http://localhost:4173',
+        'http://10.115.161.8:4173',
+      ]
+    : []),
+];
+
+app.use(cors({
+  origin: (origin, callback) => {
+    if (!origin || allowedOrigins.includes(origin)) {
+      return callback(null, true);
+    }
+    // Don't leak the origin in the error message in prod
+    const msg = process.env.NODE_ENV !== 'production'
+      ? `CORS: origin ${origin} not allowed`
+      : 'Not allowed by CORS';
+    callback(new Error(msg));
+  },
+  credentials: true,
+  methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization'],
+}));
   app.use(express.json({ limit: '1mb' })); // reduced from 2mb — 1mb is plenty for exam responses
   app.use(morgan(process.env.NODE_ENV === 'production' ? 'combined' : 'dev'));
 

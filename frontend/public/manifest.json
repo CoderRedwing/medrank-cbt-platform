@@ -1,0 +1,64 @@
+{
+  "name": "MedRank CBT — NEET PG Prep",
+  "short_name": "MedRank",
+  "description": "Competitive medical entrance exam preparation — NEET PG, INI-CET, FMGE practice tests.",
+  "start_url": "/dashboard",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f8f7f4",
+  "theme_color": "#2d4a7a",
+  "lang": "en-IN",
+  "categories": ["education", "medical"],
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshots/dashboard.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Dashboard"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Start a Test",
+      "short_name": "Test",
+      "description": "Jump directly to test selection",
+      "url": "/tests",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Test History",
+      "short_name": "History",
+      "description": "View your past test results",
+      "url": "/history",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}

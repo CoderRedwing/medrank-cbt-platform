@@ -158,7 +158,7 @@ export default function ProfilePage() {
     : '—';
 
   return (
-    <div style={{ padding: '28px 28px 48px', maxWidth: 620, margin: '0 auto' }}>
+    <div style={{ padding: 'clamp(16px, 4vw, 28px) clamp(12px, 4vw, 28px) 48px', maxWidth: 620, margin: '0 auto' }}>
 
       {/* ── Profile header ── */}
       <div style={{
@@ -197,7 +197,7 @@ export default function ProfilePage() {
       {/* ── Stat cards ── */}
       <div style={{
         display: 'grid',
-        gridTemplateColumns: 'repeat(3, 1fr)',
+        gridTemplateColumns: 'repeat(auto-fill, minmax(140px, 1fr))',
         gap: 10,
         marginBottom: 20,
       }}>
@@ -279,7 +279,7 @@ export default function ProfilePage() {
                 border: 'none',
                 color: '#fff',
                 cursor: saving ? 'not-allowed' : 'pointer',
-                opacity: saving ? 0.75 : 1,
+                opacity: saving ? 0.75 : 1, minHeight: 44,
                 display: 'flex',
                 alignItems: 'center',
                 gap: 8,
