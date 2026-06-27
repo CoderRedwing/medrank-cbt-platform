@@ -21,20 +21,19 @@ export default function HistoryPage() {
       .finally(() => setLoad(false));
   }, [page]);
 
-  // Compute average accuracy from current page sessions
   const avgAccuracy = data?.sessions?.length
     ? Math.round(data.sessions.reduce((a, t) => a + (t.accuracy || 0), 0) / data.sessions.length)
     : null;
 
   return (
-    <div style={{ padding: '32px 28px', maxWidth: 900, margin: '0 auto' }}>
+    <div style={{ padding: 'clamp(16px, 4vw, 32px) clamp(12px, 4vw, 28px)', maxWidth: 900, margin: '0 auto' }}>
 
       {/* ── Header ─────────────────────────────────────────────────── */}
       <div style={{ marginBottom: 28 }}>
-        <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 26, fontWeight: 700, color: 'var(--clr-text)', marginBottom: 6 }}>
+        <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(20px, 5vw, 26px)', fontWeight: 700, color: 'var(--clr-text)', marginBottom: 6 }}>
           Test History
         </h1>
-        <div style={{ display: 'flex', alignItems: 'center', gap: 20, fontSize: 14, color: 'var(--clr-text-muted)' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 20, fontSize: 14, color: 'var(--clr-text-muted)', flexWrap: 'wrap' }}>
           {data?.total ? (
             <>
               <span>{data.total} tests completed</span>
@@ -86,6 +85,7 @@ export default function HistoryPage() {
               background: 'var(--clr-primary)', color: '#fff',
               border: 'none', cursor: 'pointer',
               fontSize: 14, fontWeight: 500,
+              minHeight: 44,
             }}
           >
             Start a test →
@@ -104,7 +104,7 @@ export default function HistoryPage() {
 
           {/* Pagination */}
           {data.pages > 1 && (
-            <div style={{ display: 'flex', justifyContent: 'center', gap: 8, marginTop: 24 }}>
+            <div style={{ display: 'flex', justifyContent: 'center', gap: 8, marginTop: 24, flexWrap: 'wrap' }}>
               <PaginationBtn label="←" onClick={() => setPage(p => Math.max(1, p - 1))} disabled={page === 1} />
               {Array.from({ length: data.pages }, (_, i) => i + 1).map((p) => (
                 <PaginationBtn key={p} label={p} onClick={() => setPage(p)} active={page === p} />
@@ -134,64 +134,63 @@ function TestRow({ t, onClick }) {
         background: 'var(--clr-surface)',
         border: `1px solid ${hovered ? 'var(--clr-primary)' : 'var(--clr-border)'}`,
         borderRadius: 12,
-        padding: '16px 20px',
+        padding: 'clamp(12px, 3vw, 16px) clamp(12px, 3vw, 20px)',
         cursor: 'pointer',
         transition: 'all 0.15s',
-        display: 'flex',
-        alignItems: 'center',
-        gap: 16,
         boxShadow: hovered ? 'var(--shadow-sm)' : 'none',
+        minHeight: 44,
       }}
     >
-      {/* Type badge */}
-      <div style={{ flexShrink: 0, width: 76 }}>
-        <Badge color={TYPE_COLOR[t.test_type] || 'gray'}>
-          {TYPE_LABEL[t.test_type] || t.test_type}
-        </Badge>
-      </div>
-
-      {/* Title + meta */}
-      <div style={{ flex: 1, minWidth: 0 }}>
+      {/* Top row: badge + title */}
+      <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 6 }}>
+        <div style={{ flexShrink: 0 }}>
+          <Badge color={TYPE_COLOR[t.test_type] || 'gray'}>
+            {TYPE_LABEL[t.test_type] || t.test_type}
+          </Badge>
+        </div>
         <div style={{
           fontSize: 14, fontWeight: 600,
           color: 'var(--clr-text)',
           overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap',
-          marginBottom: 4,
+          flex: 1, minWidth: 0,
         }}>
           {t.paper_title}
         </div>
-        <div style={{ display: 'flex', gap: 12, fontSize: 12, color: 'var(--clr-text-muted)' }}>
-          <span>📅 {date}</span>
-          {t.time_taken_sec > 0 && <span>⏱ {formatTime(t.time_taken_sec)}</span>}
-          <span>📝 {t.correct_count}/{t.total_questions} correct</span>
+        <div style={{
+          fontSize: 20, color: hovered ? 'var(--clr-primary)' : 'var(--clr-text-dim)',
+          flexShrink: 0, transition: 'color 0.15s',
+        }}>
+          ›
         </div>
       </div>
 
-      {/* Score */}
-      <div style={{ width: 90, flexShrink: 0 }}>
-        <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: 4 }}>
-          <span style={{ fontSize: 11, color: 'var(--clr-text-muted)' }}>Score</span>
-          <span style={{ fontSize: 13, fontWeight: 700, color: scoreColor(scorePct) }}>
-            {scorePct}%
-          </span>
-        </div>
-        <ProgressBar value={scorePct} color={scoreColor(scorePct)} height={5} />
+      {/* Meta row */}
+      <div style={{ display: 'flex', gap: 10, fontSize: 12, color: 'var(--clr-text-muted)', flexWrap: 'wrap', marginBottom: 8 }}>
+        <span>📅 {date}</span>
+        {t.time_taken_sec > 0 && <span>⏱ {formatTime(t.time_taken_sec)}</span>}
+        <span>📝 {t.correct_count}/{t.total_questions} correct</span>
       </div>
 
-      {/* Accuracy */}
-      <div style={{ textAlign: 'center', flexShrink: 0, width: 60 }}>
-        <div style={{ fontSize: 18, fontWeight: 700, color: accuracyColor(accuracy) }}>
-          {accuracy}%
+      {/* Bottom row: score bar + accuracy */}
+      <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
+        {/* Score progress */}
+        <div style={{ flex: 1 }}>
+          <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: 4 }}>
+            <span style={{ fontSize: 11, color: 'var(--clr-text-muted)' }}>Score</span>
+            <span style={{ fontSize: 13, fontWeight: 700, color: scoreColor(scorePct) }}>
+              {scorePct}%
+            </span>
+          </div>
+          <ProgressBar value={scorePct} color={scoreColor(scorePct)} height={5} />
         </div>
-        <div style={{ fontSize: 11, color: 'var(--clr-text-muted)' }}>accuracy</div>
-      </div>
 
-      {/* Arrow */}
-      <div style={{
-        fontSize: 20, color: hovered ? 'var(--clr-primary)' : 'var(--clr-text-dim)',
-        flexShrink: 0, transition: 'color 0.15s',
-      }}>
-        ›
+        {/* Accuracy badge */}
+        <div style={{ textAlign: 'center', flexShrink: 0 }}>
+          <div style={{ fontSize: 18, fontWeight: 700, color: accuracyColor(accuracy) }}>
+            {accuracy}%
+          </div>
+          <div style={{ fontSize: 11, color: 'var(--clr-text-muted)' }}>accuracy</div>
+        </div>
       </div>
     </div>
   );
@@ -204,7 +203,7 @@ function PaginationBtn({ label, onClick, active, disabled }) {
       onClick={onClick}
       disabled={disabled}
       style={{
-        minWidth: 36, height: 36, borderRadius: 8, padding: '0 10px',
+        minWidth: 44, height: 44, borderRadius: 8, padding: '0 10px',
         background: active ? 'var(--clr-primary)' : 'var(--clr-surface)',
         border: `1px solid ${active ? 'var(--clr-primary)' : 'var(--clr-border)'}`,
         color: active ? '#fff' : disabled ? 'var(--clr-text-dim)' : 'var(--clr-text-muted)',

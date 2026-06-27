@@ -3,7 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>NEET PG Prep Platform</title>
+
+    <!-- ── PWA prompt capture — must be first, before React loads ── -->
+    <script>
+      window.__pwaInstallPrompt = null;
+      window.addEventListener('beforeinstallprompt', (e) => {
+        e.preventDefault();
+        window.__pwaInstallPrompt = e;
+      });
+    </script>
+
+    <!-- ── PWA / Theme ─────────────────────────────────────────── -->
+    <meta name="theme-color" content="#2d4a7a" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="MedRank" />
+
+    <!-- ── SEO / Description ───────────────────────────────────── -->
+    <meta name="description" content="MedRank CBT — NEET PG, INI-CET & FMGE practice tests with AI-powered analysis." />
+
+    <title>MedRank CBT — Medical Entrance Prep</title>
+
+    <!-- ── Manifest ────────────────────────────────────────────── -->
+    <link rel="manifest" href="/manifest.json" />
+
+    <!-- ── Apple Touch Icons ───────────────────────────────────── -->
+    <link rel="apple-touch-icon" href="/icons/icon-192.png" />
+    <link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192.png" />
+    <link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512.png" />
+
+    <!-- ── Favicon ─────────────────────────────────────────────── -->
+    <link rel="icon" type="image/png" sizes="192x192" href="/icons/icon-192.png" />
+
+    <!-- ── Fonts ───────────────────────────────────────────────── -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Lora:wght@400;500;600&display=swap" rel="stylesheet" />
@@ -11,5 +44,6 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <!-- SW is registered by VitePWA plugin automatically via generateSW strategy -->
   </body>
 </html>

@@ -117,7 +117,7 @@ export default function AIRPredictorPage() {
   return (
     <div style={{
       minHeight: '100vh', background: 'var(--clr-bg)',
-      fontFamily: 'var(--font-sans)', padding: '32px 20px',
+      fontFamily: 'var(--font-sans)', padding: 'clamp(16px, 4vw, 32px) clamp(12px, 4vw, 20px)',
     }}>
       <div style={{ maxWidth: 640, margin: '0 auto' }}>
 
@@ -282,7 +282,7 @@ export default function AIRPredictorPage() {
             </div>
 
             {/* Stats row */}
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: 10 }}>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(140px, 1fr))', gap: 10 }}>
               {[
                 { label: 'Your Score',      value: `${result.normalised}/800`, sub: 'Normalised' },
                 { label: 'Base AIR',        value: fmt(result.baseAIR),         sub: 'Neutral estimate' },

@@ -8,15 +8,13 @@ import { dashboardAPI } from '../services/api';
 import { Spinner } from '../components/ui/index.jsx';
 import { formatTime, accuracyColor, scoreColor } from '../utils/helpers';
 
-// ── Inline mini components (no external Card dependency needed) ──────────────
-
 function StatCard({ label, value, color, icon }) {
   return (
     <div style={{
       background: 'var(--clr-surface)',
       border: '1px solid var(--clr-border)',
       borderRadius: 10,
-      padding: '16px 18px',
+      padding: '14px 16px',
       display: 'flex',
       flexDirection: 'column',
       gap: 8,
@@ -32,16 +30,16 @@ function StatCard({ label, value, color, icon }) {
           {label}
         </span>
         <span style={{
-          width: 28, height: 28, borderRadius: 7,
+          width: 26, height: 26, borderRadius: 7,
           background: `${color}18`,
           display: 'grid', placeItems: 'center',
-          fontSize: 14,
+          fontSize: 13,
         }}>
           {icon}
         </span>
       </div>
       <div style={{
-        fontSize: 26,
+        fontSize: 22,
         fontWeight: 600,
         color,
         lineHeight: 1,
@@ -59,7 +57,7 @@ function SectionCard({ children, style }) {
       background: 'var(--clr-surface)',
       border: '1px solid var(--clr-border)',
       borderRadius: 10,
-      padding: '18px 20px',
+      padding: '16px 18px',
       ...style,
     }}>
       {children}
@@ -113,7 +111,6 @@ function SubjectBar({ subject, accuracy, color }) {
   );
 }
 
-// ── Custom tooltip for charts ────────────────────────────────────────────────
 function ChartTooltip({ active, payload, label }) {
   if (!active || !payload?.length) return null;
   return (
@@ -134,12 +131,22 @@ function ChartTooltip({ active, payload, label }) {
   );
 }
 
-// ── Main page ────────────────────────────────────────────────────────────────
+function useIsMobile() {
+  const [mobile, setMobile] = useState(window.innerWidth <= 768);
+  useEffect(() => {
+    const handler = () => setMobile(window.innerWidth <= 768);
+    window.addEventListener('resize', handler);
+    return () => window.removeEventListener('resize', handler);
+  }, []);
+  return mobile;
+}
+
 export default function DashboardPage() {
   const [data, setData]    = useState(null);
   const [loading, setLoad] = useState(true);
   const navigate           = useNavigate();
   const location           = useLocation();
+  const isMobile           = useIsMobile();
 
   useEffect(() => {
     setLoad(true);
@@ -172,12 +179,12 @@ export default function DashboardPage() {
     }));
 
   return (
-    <div style={{ padding: '28px 28px 48px', maxWidth: 1080, margin: '0 auto' }}>
+    <div style={{ padding: isMobile ? '16px 12px 80px' : '28px 28px 48px', maxWidth: 1080, margin: '0 auto' }}>
 
-      {/* ── Header ── */}
-      <div style={{ marginBottom: 24 }}>
+      {/* Header */}
+      <div style={{ marginBottom: 20 }}>
         <h1 style={{
-          fontSize: 22,
+          fontSize: isMobile ? 18 : 22,
           fontWeight: 600,
           color: 'var(--clr-text)',
           letterSpacing: '-0.02em',
@@ -194,136 +201,93 @@ export default function DashboardPage() {
           )}
         </p>
       </div>
-      {/* ── Telegram Banner ── */}   {/* ← ADD HERE */}
-<div style={{
-  background: '#e8f4fd',
-  border: '1px solid #b3d9f7',
-  borderRadius: 10,
-  padding: '14px 18px',
-  display: 'flex',
-  alignItems: 'center',
-  gap: 14,
-  marginBottom: 20,
-}}>
-  <span style={{ fontSize: 24 }}>✈️</span>
-  <div style={{ flex: 1 }}>
-    <p style={{ margin: 0, fontWeight: 600, color: '#1e293b', fontSize: 13 }}>
-      Join MedRank CBT on Telegram
-    </p>
-    <p style={{ margin: '2px 0 0', fontSize: 12, color: '#64748b' }}>
-      Get instant alerts for new tests, rank updates &amp; exam news
-    </p>
-  </div>
-  <a
-    href="https://t.me/+ZI-caFRnCWo2ZTU9"
-    target="_blank"
-    rel="noreferrer"
-    style={{
-      background: '#0088cc', color: '#fff',
-      padding: '8px 14px', borderRadius: 8,
-      fontSize: 12, fontWeight: 600,
-      textDecoration: 'none', whiteSpace: 'nowrap',
-    }}
-  >
-    Join Channel
-  </a>
-</div>
 
-      {/* ── Stat cards ── */}
+      {/* Telegram Banner */}
       <div style={{
-        display: 'grid',
-        gridTemplateColumns: 'repeat(4, 1fr)',
-        gap: 12,
-        marginBottom: 20,
+        background: '#e8f4fd',
+        border: '1px solid #b3d9f7',
+        borderRadius: 10,
+        padding: isMobile ? '12px 14px' : '14px 18px',
+        display: 'flex',
+        alignItems: 'center',
+        gap: isMobile ? 10 : 14,
+        marginBottom: 18,
+        flexWrap: isMobile ? 'wrap' : 'nowrap',
       }}>
-        <StatCard
-          label="Tests taken"
-          value={stats.totalTestsTaken || 0}
-          color="#6366f1"
-          icon="📋"
-        />
-        <StatCard
-          label="Avg accuracy"
-          value={`${stats.averageAccuracy || 0}%`}
-          color={accuracyColor(stats.averageAccuracy)}
-          icon="🎯"
-        />
-        <StatCard
-          label="Avg score"
-          value={stats.averageScore || 0}
-          color={scoreColor(stats.averageScore > 0 ? 60 : 0)}
-          icon="📈"
-        />
-        <StatCard
-          label="Qs attempted"
-          value={(stats.totalQuestionsAttempted || 0).toLocaleString()}
-          color="#d97706"
-          icon="✏️"
-        />
+        <span style={{ fontSize: 22 }}>✈️</span>
+        <div style={{ flex: 1 }}>
+          <p style={{ margin: 0, fontWeight: 600, color: '#1e293b', fontSize: 13 }}>
+            Join MedRank CBT on Telegram
+          </p>
+          <p style={{ margin: '2px 0 0', fontSize: 12, color: '#64748b' }}>
+            Get instant alerts for new tests, rank updates &amp; exam news
+          </p>
+        </div>
+        <a
+          href="https://t.me/+ZI-caFRnCWo2ZTU9"
+          target="_blank"
+          rel="noreferrer"
+          style={{
+            background: '#0088cc', color: '#fff',
+            padding: '8px 14px', borderRadius: 8,
+            fontSize: 12, fontWeight: 600,
+            textDecoration: 'none', whiteSpace: 'nowrap',
+            flexShrink: 0,
+          }}
+        >
+          Join Channel
+        </a>
       </div>
 
-      {/* ── Charts row ── */}
+      {/* Stat cards — 2×2 on mobile, 4 across on desktop */}
       <div style={{
         display: 'grid',
-        gridTemplateColumns: '3fr 2fr',
-        gap: 14,
-        marginBottom: 14,
+        gridTemplateColumns: isMobile ? 'repeat(2, 1fr)' : 'repeat(4, 1fr)',
+        gap: isMobile ? 8 : 12,
+        marginBottom: 18,
       }}>
+        <StatCard label="Tests taken"    value={stats.totalTestsTaken || 0}                    color="#6366f1" icon="📋" />
+        <StatCard label="Avg accuracy"   value={`${stats.averageAccuracy || 0}%`}              color={accuracyColor(stats.averageAccuracy)} icon="🎯" />
+        <StatCard label="Avg score"      value={stats.averageScore || 0}                       color={scoreColor(stats.averageScore > 0 ? 60 : 0)} icon="📈" />
+        <StatCard label="Qs attempted"   value={(stats.totalQuestionsAttempted || 0).toLocaleString()} color="#d97706" icon="✏️" />
+      </div>
 
+      {/* Charts row — stack on mobile */}
+      <div style={{
+        display: 'grid',
+        gridTemplateColumns: isMobile ? '1fr' : '3fr 2fr',
+        gap: 12,
+        marginBottom: 12,
+      }}>
         {/* Score trend */}
         <SectionCard>
           <SectionTitle>Score trend</SectionTitle>
           {trendData.length > 1 ? (
             <>
-              {/* Legend */}
               <div style={{ display: 'flex', gap: 16, marginBottom: 10 }}>
                 {[
                   { color: '#6366f1', label: 'Accuracy %' },
                   { color: '#f59e0b', label: 'Score %' },
                 ].map(({ color, label }) => (
                   <div key={label} style={{ display: 'flex', alignItems: 'center', gap: 5 }}>
-                    <span style={{ width: 20, height: 2, background: color, display: 'inline-block', borderRadius: 99 }} />
+                    <span style={{ width: 18, height: 2, background: color, display: 'inline-block', borderRadius: 99 }} />
                     <span style={{ fontSize: 11, color: 'var(--clr-text-muted)' }}>{label}</span>
                   </div>
                 ))}
               </div>
-              <ResponsiveContainer width="100%" height={170}>
+              <ResponsiveContainer width="100%" height={isMobile ? 150 : 170}>
                 <LineChart data={trendData} margin={{ top: 4, right: 4, bottom: 0, left: -20 }}>
-                  <XAxis
-                    dataKey="name"
-                    tick={{ fill: 'var(--clr-text-muted)', fontSize: 11 }}
-                    axisLine={false}
-                    tickLine={false}
-                  />
-                  <YAxis
-                    tick={{ fill: 'var(--clr-text-muted)', fontSize: 11 }}
-                    axisLine={false}
-                    tickLine={false}
-                    domain={[0, 100]}
-                  />
+                  <XAxis dataKey="name" tick={{ fill: 'var(--clr-text-muted)', fontSize: 11 }} axisLine={false} tickLine={false} />
+                  <YAxis tick={{ fill: 'var(--clr-text-muted)', fontSize: 11 }} axisLine={false} tickLine={false} domain={[0, 100]} />
                   <Tooltip content={<ChartTooltip />} />
-                  <Line
-                    type="monotone"
-                    dataKey="accuracy"
-                    stroke="#6366f1"
-                    strokeWidth={2}
-                    dot={{ fill: '#6366f1', r: 3, strokeWidth: 0 }}
-                    name="Accuracy %"
-                  />
-                  <Line
-                    type="monotone"
-                    dataKey="score"
-                    stroke="#f59e0b"
-                    strokeWidth={2}
-                    dot={{ fill: '#f59e0b', r: 3, strokeWidth: 0 }}
-                    name="Score %"
-                  />
+                  <Line type="monotone" dataKey="accuracy" stroke="#6366f1" strokeWidth={2} dot={{ fill: '#6366f1', r: 3, strokeWidth: 0 }} name="Accuracy %" />
+                  <Line type="monotone" dataKey="score"    stroke="#f59e0b" strokeWidth={2} dot={{ fill: '#f59e0b', r: 3, strokeWidth: 0 }} name="Score %" />
                 </LineChart>
               </ResponsiveContainer>
             </>
           ) : (
             <div style={{
-              height: 170,
+              height: 150,
               display: 'flex',
               flexDirection: 'column',
               alignItems: 'center',
@@ -338,53 +302,44 @@ export default function DashboardPage() {
           )}
         </SectionCard>
 
-        {/* Subject radar */}
-        <SectionCard>
-          <SectionTitle>Subject radar</SectionTitle>
-          {radarData.length > 2 ? (
-            <ResponsiveContainer width="100%" height={190}>
-              <RadarChart data={radarData} margin={{ top: 4, right: 16, bottom: 4, left: 16 }}>
-                <PolarGrid stroke="var(--clr-border)" />
-                <PolarAngleAxis
-                  dataKey="subject"
-                  tick={{ fill: 'var(--clr-text-muted)', fontSize: 10 }}
-                />
-                <Radar
-                  dataKey="accuracy"
-                  stroke="#6366f1"
-                  fill="#6366f1"
-                  fillOpacity={0.15}
-                  strokeWidth={1.5}
-                />
-              </RadarChart>
-            </ResponsiveContainer>
-          ) : (
-            <div style={{
-              height: 190,
-              display: 'flex',
-              flexDirection: 'column',
-              alignItems: 'center',
-              justifyContent: 'center',
-              gap: 8,
-              color: 'var(--clr-text-muted)',
-              fontSize: 13,
-            }}>
-              <span style={{ fontSize: 24 }}>🕸️</span>
-              Attempt subject tests to see radar
-            </div>
-          )}
-        </SectionCard>
+        {/* Subject radar — hidden on very small screens */}
+        {!isMobile && (
+          <SectionCard>
+            <SectionTitle>Subject radar</SectionTitle>
+            {radarData.length > 2 ? (
+              <ResponsiveContainer width="100%" height={190}>
+                <RadarChart data={radarData} margin={{ top: 4, right: 16, bottom: 4, left: 16 }}>
+                  <PolarGrid stroke="var(--clr-border)" />
+                  <PolarAngleAxis dataKey="subject" tick={{ fill: 'var(--clr-text-muted)', fontSize: 10 }} />
+                  <Radar dataKey="accuracy" stroke="#6366f1" fill="#6366f1" fillOpacity={0.15} strokeWidth={1.5} />
+                </RadarChart>
+              </ResponsiveContainer>
+            ) : (
+              <div style={{
+                height: 190,
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center',
+                justifyContent: 'center',
+                gap: 8,
+                color: 'var(--clr-text-muted)',
+                fontSize: 13,
+              }}>
+                <span style={{ fontSize: 24 }}>🕸️</span>
+                Attempt subject tests to see radar
+              </div>
+            )}
+          </SectionCard>
+        )}
       </div>
 
-      {/* ── Weak / Strong areas ── */}
+      {/* Weak / Strong areas — stack on mobile */}
       <div style={{
         display: 'grid',
-        gridTemplateColumns: '1fr 1fr',
-        gap: 14,
-        marginBottom: 14,
+        gridTemplateColumns: isMobile ? '1fr' : '1fr 1fr',
+        gap: 12,
+        marginBottom: 12,
       }}>
-
-        {/* Weak areas */}
         <SectionCard>
           <SectionTitle color="#dc2626">
             <span style={{
@@ -396,12 +351,7 @@ export default function DashboardPage() {
             Weak areas
           </SectionTitle>
           {weakAreas?.length ? weakAreas.map((s) => (
-            <SubjectBar
-              key={s.subject}
-              subject={s.subject}
-              accuracy={s.accuracy}
-              color="#ef4444"
-            />
+            <SubjectBar key={s.subject} subject={s.subject} accuracy={s.accuracy} color="#ef4444" />
           )) : (
             <p style={{ color: 'var(--clr-text-muted)', fontSize: 13, lineHeight: 1.6 }}>
               No weak areas detected yet — keep testing!
@@ -409,7 +359,6 @@ export default function DashboardPage() {
           )}
         </SectionCard>
 
-        {/* Strong areas */}
         <SectionCard>
           <SectionTitle color="#16a34a">
             <span style={{
@@ -421,12 +370,7 @@ export default function DashboardPage() {
             Strong areas
           </SectionTitle>
           {strongAreas?.length ? strongAreas.map((s) => (
-            <SubjectBar
-              key={s.subject}
-              subject={s.subject}
-              accuracy={s.accuracy}
-              color="#16a34a"
-            />
+            <SubjectBar key={s.subject} subject={s.subject} accuracy={s.accuracy} color="#16a34a" />
           )) : (
             <p style={{ color: 'var(--clr-text-muted)', fontSize: 13, lineHeight: 1.6 }}>
               No strong areas yet — keep practising!
@@ -435,7 +379,7 @@ export default function DashboardPage() {
         </SectionCard>
       </div>
 
-      {/* ── Recent tests ── */}
+      {/* Recent tests */}
       <SectionCard>
         <div style={{
           display: 'flex',
@@ -446,15 +390,7 @@ export default function DashboardPage() {
           <SectionTitle style={{ marginBottom: 0 }}>Recent tests</SectionTitle>
           <button
             onClick={() => navigate('/history')}
-            style={{
-              fontSize: 12,
-              color: '#6366f1',
-              background: 'none',
-              border: 'none',
-              cursor: 'pointer',
-              fontWeight: 500,
-              padding: 0,
-            }}
+            style={{ fontSize: 12, color: '#6366f1', background: 'none', border: 'none', cursor: 'pointer', fontWeight: 500, padding: 0 }}
           >
             View all →
           </button>
@@ -462,30 +398,63 @@ export default function DashboardPage() {
 
         {recentTests?.length ? (
           <div style={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
-            {/* Column headers */}
-            <div style={{
-              display: 'grid',
-              gridTemplateColumns: '1fr 90px 70px 60px',
-              gap: 12,
-              padding: '0 12px 8px',
-              fontSize: 11,
-              color: 'var(--clr-text-muted)',
-              fontWeight: 500,
-              textTransform: 'uppercase',
-              letterSpacing: '0.06em',
-              borderBottom: '1px solid var(--clr-border)',
-              marginBottom: 4,
-            }}>
-              <span>Test</span>
-              <span style={{ textAlign: 'right' }}>Score</span>
-              <span style={{ textAlign: 'right' }}>Accuracy</span>
-              <span style={{ textAlign: 'right' }}>Qs</span>
-            </div>
+            {/* Column headers — hide on mobile */}
+            {!isMobile && (
+              <div style={{
+                display: 'grid',
+                gridTemplateColumns: '1fr 90px 70px 60px',
+                gap: 12,
+                padding: '0 12px 8px',
+                fontSize: 11,
+                color: 'var(--clr-text-muted)',
+                fontWeight: 500,
+                textTransform: 'uppercase',
+                letterSpacing: '0.06em',
+                borderBottom: '1px solid var(--clr-border)',
+                marginBottom: 4,
+              }}>
+                <span>Test</span>
+                <span style={{ textAlign: 'right' }}>Score</span>
+                <span style={{ textAlign: 'right' }}>Accuracy</span>
+                <span style={{ textAlign: 'right' }}>Qs</span>
+              </div>
+            )}
 
             {recentTests.map((t) => {
-              const scorePct   = Math.round(t.score?.percent || 0);
-              const sColor     = scoreColor(scorePct);
-              const aColor     = accuracyColor(t.accuracy);
+              const scorePct = Math.round(t.score?.percent || 0);
+              const sColor   = scoreColor(scorePct);
+              const aColor   = accuracyColor(t.accuracy);
+
+              if (isMobile) {
+                /* Mobile card layout */
+                return (
+                  <div
+                    key={t._id}
+                    onClick={() => navigate(`/analysis/${t._id}`)}
+                    style={{
+                      padding: '12px',
+                      borderRadius: 8,
+                      border: '1px solid var(--clr-border)',
+                      cursor: 'pointer',
+                      marginBottom: 6,
+                      background: 'var(--clr-surface2)',
+                    }}
+                  >
+                    <div style={{ fontSize: 13, fontWeight: 500, color: 'var(--clr-text)', marginBottom: 6, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
+                      {t.paper_title}
+                    </div>
+                    <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: 12 }}>
+                      <span style={{ color: 'var(--clr-text-muted)' }}>
+                        {new Date(t.createdAt).toLocaleDateString('en-IN', { day: 'numeric', month: 'short' })}
+                      </span>
+                      <span style={{ fontWeight: 600, color: sColor }}>Score: {scorePct}%</span>
+                      <span style={{ fontWeight: 500, color: aColor }}>Acc: {t.accuracy}%</span>
+                      <span style={{ color: 'var(--clr-text-muted)' }}>{t.correct_count}/{t.total_questions}</span>
+                    </div>
+                  </div>
+                );
+              }
+
               return (
                 <div
                   key={t._id}
@@ -510,16 +479,8 @@ export default function DashboardPage() {
                     e.currentTarget.style.borderColor = 'transparent';
                   }}
                 >
-                  {/* Title + date */}
                   <div style={{ minWidth: 0 }}>
-                    <div style={{
-                      fontSize: 13,
-                      fontWeight: 500,
-                      color: 'var(--clr-text)',
-                      overflow: 'hidden',
-                      textOverflow: 'ellipsis',
-                      whiteSpace: 'nowrap',
-                    }}>
+                    <div style={{ fontSize: 13, fontWeight: 500, color: 'var(--clr-text)', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
                       {t.paper_title}
                     </div>
                     <div style={{ fontSize: 11, color: 'var(--clr-text-muted)', marginTop: 2 }}>
@@ -527,18 +488,12 @@ export default function DashboardPage() {
                       {t.time_taken_sec > 0 && ` · ${formatTime(t.time_taken_sec)}`}
                     </div>
                   </div>
-
-                  {/* Score % */}
                   <div style={{ textAlign: 'right' }}>
                     <span style={{ fontSize: 13, fontWeight: 600, color: sColor }}>{scorePct}%</span>
                   </div>
-
-                  {/* Accuracy */}
                   <div style={{ textAlign: 'right' }}>
                     <span style={{ fontSize: 13, fontWeight: 500, color: aColor }}>{t.accuracy}%</span>
                   </div>
-
-                  {/* Correct/total */}
                   <div style={{ textAlign: 'right', fontSize: 12, color: 'var(--clr-text-muted)' }}>
                     {t.correct_count}/{t.total_questions}
                   </div>
@@ -547,22 +502,11 @@ export default function DashboardPage() {
             })}
           </div>
         ) : (
-          <div style={{
-            textAlign: 'center',
-            padding: '28px 0',
-            color: 'var(--clr-text-muted)',
-            fontSize: 13,
-          }}>
+          <div style={{ textAlign: 'center', padding: '28px 0', color: 'var(--clr-text-muted)', fontSize: 13 }}>
             No tests yet.{' '}
             <button
               onClick={() => navigate('/tests')}
-              style={{
-                color: '#6366f1',
-                background: 'none',
-                border: 'none',
-                cursor: 'pointer',
-                fontWeight: 500,
-              }}
+              style={{ color: '#6366f1', background: 'none', border: 'none', cursor: 'pointer', fontWeight: 500 }}
             >
               Start your first test →
             </button>

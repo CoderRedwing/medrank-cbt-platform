@@ -35,7 +35,7 @@ export default function AiTutorPage() {
   );
 
   return (
-    <div style={{ padding: '32px 28px', maxWidth: 1000, margin: '0 auto' }}>
+    <div style={{ padding: 'clamp(16px, 4vw, 32px) clamp(12px, 4vw, 28px)', maxWidth: 1000, margin: '0 auto' }}>
       <div style={{ marginBottom: 24 }}>
         <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 26, fontWeight: 800 }}>AI Tutor</h1>
         <p style={{ color: 'var(--clr-text-muted)', fontSize: 14, marginTop: 4 }}>
@@ -44,7 +44,7 @@ export default function AiTutorPage() {
       </div>
 
       {/* Tab bar */}
-      <div style={{ display: 'flex', gap: 4, marginBottom: 24, background: 'var(--clr-surface)', borderRadius: 10, padding: 4, width: 'fit-content' }}>
+      <div style={{ display: 'flex', gap: 4, marginBottom: 24, background: 'var(--clr-surface)', borderRadius: 10, padding: 4, width: 'fit-content', maxWidth: '100%', flexWrap: 'wrap' }}>
         {TABS.map((t, i) => (
           <button key={t} onClick={() => setTab(i)} style={{
             padding: '8px 20px', borderRadius: 8, border: 'none', cursor: 'pointer',
@@ -108,7 +108,7 @@ function ChatTab() {
   ];
 
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', height: 'calc(100vh - 260px)', minHeight: 400 }}>
+    <div style={{ display: 'flex', flexDirection: 'column', height: 'calc(100vh - clamp(200px, 30vh, 260px))', minHeight: 'clamp(300px, 50vh, 400px)' }}>
       {/* Context selector */}
       <div style={{ display: 'flex', gap: 10, marginBottom: 12 }}>
         <select value={subject} onChange={(e) => setSubject(e.target.value)}
@@ -249,7 +249,7 @@ function GenerateTestTab() {
   };
 
   return (
-    <div style={{ maxWidth: 520 }}>
+    <div style={{ maxWidth: 520, width: '100%' }}>
       <p style={{ color: 'var(--clr-text-muted)', fontSize: 14, marginBottom: 20 }}>
         Generate a completely fresh AI-created test session. Every question is unique and will never repeat.
       </p>
@@ -328,7 +328,7 @@ function GenerateMCQsTab() {
 
   return (
     <div>
-      <Card style={{ marginBottom: 20, maxWidth: 680 }}>
+      <Card style={{ marginBottom: 20, maxWidth: 680, width: '100%' }}>
         <div style={{ display: 'flex', flexWrap: 'wrap', gap: 12, alignItems: 'flex-end' }}>
           <FormRow label="Subject" inline>
             <select value={subject} onChange={(e) => setSubject(e.target.value)} style={{ ...selectStyle, width: 160 }}>
