@@ -80,35 +80,79 @@ export default function AnalysisPage() {
     <div style={{ padding: 'clamp(16px, 4vw, 28px) clamp(12px, 4vw, 28px)', maxWidth: 1050, margin: '0 auto' }}>
 
       {/* ── Header ── */}
-      <div style={{
-        display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start',
-        marginBottom: 20, flexWrap: 'wrap', gap: 12,
-      }}>
-        <div>
-          <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 22, fontWeight: 800 }}>{paper_title}</h1>
-          <p style={{ fontSize: 13, color: 'var(--clr-text-muted)', marginTop: 4 }}>
-            {new Date(submitted_at).toLocaleString('en-IN', { dateStyle: 'medium', timeStyle: 'short' })}
-            {time_taken_sec > 0 && ` · Time taken: ${formatTime(time_taken_sec)}`}
-          </p>
-        </div>
-        {/* Consistent paired buttons */}
-        <div style={{ display: 'flex', gap: 8, alignItems: 'center' }}>
-          <Btn
-            variant="secondary"
-            onClick={() => navigate(`/air-predictor?score=${score.raw}&max=${score.max}`)}
-            style={{ display: 'flex', alignItems: 'center', gap: 6 }}
-          >
-            🎯 Predict AIR
-          </Btn>
-          <Btn
-            variant="secondary"
-            onClick={() => navigate('/tests')}
-            style={{ display: 'flex', alignItems: 'center', gap: 6 }}
-          >
-            ＋ New Test
-          </Btn>
-        </div>
-      </div>
+<style>{`
+  .result-header { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-start;
+    margin-bottom: 20px; 
+    flex-wrap: wrap; 
+    gap: 12px;
+  }
+  .result-header-btns { 
+    display: flex; 
+    gap: 8px; 
+    align-items: center;
+  }
+  .result-action-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 9px 16px;
+    border-radius: 9px;
+    border: 1px solid var(--clr-border2);
+    background: var(--clr-surface);
+    color: var(--clr-text);
+    font-size: 13px;
+    font-weight: 600;
+    font-family: var(--font-body);
+    cursor: pointer;
+    transition: all 160ms ease;
+    white-space: nowrap;
+    min-height: 40px;
+  }
+  .result-action-btn:hover {
+    background: var(--clr-surface2);
+    border-color: var(--clr-primary);
+    color: var(--clr-primary);
+  }
+  @media (max-width: 480px) {
+    .result-header-btns { 
+      width: 100%; 
+    }
+    .result-action-btn { 
+      flex: 1; 
+      justify-content: center;
+      font-size: 13px;
+      padding: 10px 12px;
+    }
+  }
+`}</style>
+
+<div className="result-header">
+  <div>
+    <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 22, fontWeight: 800 }}>{paper_title}</h1>
+    <p style={{ fontSize: 13, color: 'var(--clr-text-muted)', marginTop: 4 }}>
+      {new Date(submitted_at).toLocaleString('en-IN', { dateStyle: 'medium', timeStyle: 'short' })}
+      {time_taken_sec > 0 && ` · Time taken: ${formatTime(time_taken_sec)}`}
+    </p>
+  </div>
+
+  <div className="result-header-btns">
+    <button
+      className="result-action-btn"
+      onClick={() => navigate(`/air-predictor?score=${score.raw}&max=${score.max}`)}
+    >
+      🎯 Predict AIR
+    </button>
+    <button
+      className="result-action-btn"
+      onClick={() => navigate('/tests')}
+    >
+      ＋ New Test
+    </button>
+  </div>
+</div>
 
       {/* ── Score cards — grouped in a single surface ── */}
       <div style={{

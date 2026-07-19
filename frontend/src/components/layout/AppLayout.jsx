@@ -1,10 +1,12 @@
 import { useState } from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
 import useAuthStore from '../../store/authStore';
+import NotificationBell from '../NotificationBell';
 
 const NAV_ITEMS = [
   { to: '/dashboard',  label: 'Dashboard',   icon: '⬡' },
   { to: '/tests',      label: 'Take a Test',  icon: '✎' },
+  { to: '/live-test',  label: 'Live Quiz',    icon: '🔴' },
   { to: '/history',    label: 'My History',   icon: '◷' },
   { to: '/analysis',   label: 'Analysis',     icon: '◈' },
   { to: '/ai-tutor',   label: 'AI Tutor',     icon: '🧠' },
@@ -161,19 +163,28 @@ export default function AppLayout({ children }) {
             NEET PG
           </div>
 
-          {/* Right: user initial avatar */}
-          <div style={{ marginLeft: 'auto' }}>
+          {/* Right: notifications + user avatar */}
+          <div style={{ marginLeft: 'auto', display: 'flex', alignItems: 'center', gap: 10 }}>
+            <NotificationBell />
             <div style={{
-              width: 32, height: 32, borderRadius: '50%',
-              background: 'var(--clr-primary)', color: '#fff',
-              display: 'grid', placeItems: 'center',
-              fontSize: 13, fontWeight: 700,
-            }}>
-              {user?.name?.charAt(0)?.toUpperCase() || 'U'}
-            </div>
-          </div>
+              width: 32, 
+              height: 32, 
+              borderRadius: '50%',
+              background: 'var(--clr-primary)', 
+              color: '#fff',
+              display: 'grid', 
+              placeItems: 'center',
+              fontSize: 13,
+              fontWeight: 700,
+           }}>
+         {user?.name?.charAt(0)?.toUpperCase() || 'U'}
         </div>
-
+        </div>
+        </div>
+        {/* ── Desktop top bar (hidden on mobile via CSS) ─────────── */}
+        <div className="desktop-top-bar">
+          <NotificationBell />
+        </div>
         {/* ── Page content ──────────────────────────────────────── */}
         <main className="app-main" style={{ flex: 1, minHeight: 0, overflowX: 'hidden' }}>
           {children}

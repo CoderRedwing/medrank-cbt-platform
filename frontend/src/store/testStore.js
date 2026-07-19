@@ -177,6 +177,111 @@ const useTestStore = create((set, get) => ({
     }
   },
 
+
+  /* ── Load an already-created session (e.g. from AI Tutor's
+     generate-and-start flow) using the same setup as startTest ──── */
+loadExternalSession: (session) => {
+  const { status } = get();
+  if (status === 'active' || status === 'loading' || status === 'submitting') {
+    console.warn('loadExternalSession blocked — test already in progress');
+    return { success: false, message: 'Test already in progress' };
+  }
+
+  const responses = {};
+  session.questions.forEach((q) => {
+    responses[q.question_id] = {
+      selected_answer: null,
+      student_reason:  '',
+      time_spent_sec:  0,
+      marked_review:   false,
+    };
+  });
+
+  const sections = buildSections(session.questions, session.test_type);
+
+  set({
+    sessionId:   session.session_id,
+    sessionMeta: {
+      test_type:            session.test_type,
+      paper_title:          session.paper_title,
+      paper_ref:            session.paper_ref,
+      subject:              session.subject,
+      topic:                session.topic,
+      duration_allowed_sec: session.duration_allowed_sec,
+      total_questions:      session.total_questions,
+    },
+    questions:             session.questions,
+    responses,
+    sections,
+    currentSectionIndex:   0,
+    currentIndex:          0,
+    status:                'active',
+    showSectionTransition: false,
+    sectionAutoAdvanced:   false,
+    analysis:              null,
+    error:                 null,
+    _startEpoch:           Date.now(),
+  });
+
+  return { success: true, sessionId: session.session_id };
+},
+
+  /* ── Start (or resume) the currently scheduled live test ──────── */
+  startLiveTest: async () => {
+    const { status } = get();
+    if (status === 'active' || status === 'loading' || status === 'submitting') {
+      console.warn('startLiveTest blocked — test already in progress');
+      return { success: false, message: 'Test already in progress' };
+    }
+    set({ status: 'loading', error: null });
+    try {
+      const { data } = await testAPI.startLiveTest();
+      const session  = data.data;
+
+      const responses = {};
+      session.questions.forEach((q) => {
+        responses[q.question_id] = {
+          selected_answer: null,
+          student_reason:  '',
+          time_spent_sec:  0,
+          marked_review:   false,
+        };
+      });
+
+      const sections = buildSections(session.questions, session.test_type || 'live_test');
+
+      set({
+        sessionId:   session.session_id,
+        sessionMeta: {
+          test_type:            session.test_type || 'live_test',
+          paper_title:          session.paper_title,
+          paper_ref:            session.paper_ref,
+          subject:              session.subject,
+          topic:                session.topic,
+          duration_allowed_sec: session.duration_allowed_sec,
+          total_questions:      session.total_questions,
+        },
+        questions:             session.questions,
+        responses,
+        sections,
+        currentSectionIndex:   0,
+        currentIndex:          0,
+        status:                'active',
+        showSectionTransition: false,
+        sectionAutoAdvanced:   false,
+        analysis:              null,
+        error:                 null,
+        _startEpoch:           Date.now(),
+      });
+
+      return { success: true, sessionId: session.session_id };
+    } catch (err) {
+      const msg = err.response?.data?.message || 'Failed to start live test';
+      set({ status: 'idle', error: msg });
+      return { success: false, message: msg };
+    }
+  },
+
   /* ── Internal: absolute start index of a given section ──────── */
   _sectionStart: (sectionIdx) => {
     const { sections } = get();
@@ -335,7 +440,7 @@ const useTestStore = create((set, get) => ({
 
   /* ── Submit final test ───────────────────────────────────────── */
   submitTest: async (timeTakenSec) => {
-  const { sessionId, responses, status } = get();
+  const { sessionId, responses, status, sessionMeta } = get();
   if (status === 'submitting' || status === 'submitted') return;
   set({ status: 'submitting', error: null });
 
@@ -347,13 +452,16 @@ const useTestStore = create((set, get) => ({
     ...(r.student_reason?.trim() ? { student_reason: r.student_reason } : {}),
   }));
   const payload = { responses: responsesList, time_taken_sec: timeTakenSec };
+  const submitFn = sessionMeta?.test_type === 'live_test'
+    ? () => testAPI.submitLiveTest(sessionId, payload)
+    : () => testAPI.submitTest(sessionId, payload);
 
   let submitSucceeded = false;
 
   // Retry ONLY the submit call
   for (let attempt = 1; attempt <= 3; attempt++) {
     try {
-      await testAPI.submitTest(sessionId, payload);
+      await submitFn();
       submitSucceeded = true;
       break;
     } catch (err) {

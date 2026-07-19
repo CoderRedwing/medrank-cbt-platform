@@ -7,6 +7,7 @@ const ADMIN_NAV = [
   { to: '/admin/students',  label: 'Students',       icon: '◉' },
   { to: '/admin/tests',     label: 'All Tests',      icon: '✎' },
   { to: '/admin/papers',    label: 'Manage Papers',  icon: '◈' },
+  { to: '/admin/live-tests',label: 'Live Quiz',      icon: '🔴' },
   { to: '/admin/settings',  label: 'Settings',       icon: '⚙' },
 ];
 

@@ -14,6 +14,8 @@ const dashboardRoutes = require('./routes/dashboardRoutes');
 const aiTutorRoutes   = require('./routes/aiTutorRoutes');
 const adminRoutes     = require('./routes/adminRoutes');
 const feedbackRoutes  = require('./routes/feedbackRoutes');
+const notificationRoutes = require('./routes/notificationRoutes');
+
 
 // ─── Free-tier clustering (zero cost, uses all CPU cores) ─────────────────
 // On Render/Railway free tier you get 0.5–1 vCPU so this usually = 1 worker,
@@ -115,6 +117,8 @@ app.use(cors({
   app.use('/api/ai',        aiTutorRoutes);
   app.use('/api/admin',     adminRoutes);
   app.use('/api/feedback', feedbackRoutes);
+  // ...
+app.use('/api/notifications', notificationRoutes);
 
   app.get('/api/health', (req, res) =>
     res.json({ success: true, message: 'NEET PG Platform API running', timestamp: new Date() })

@@ -3,11 +3,79 @@ const testService = require('../services/testService');
 // GET /api/tests/papers
 const listPapers = async (req, res) => {
   try {
-    const data = testService.listAvailablePapers();
+    const data = await testService.listAvailablePapers(req.user._id);
     res.json({ success: true, data });
   } catch (err) {
     res.status(500).json({ success: false, message: err.message });
   }
+};
+
+// GET /api/tests/live
+const getLiveTest = async (req, res) => {
+  try {
+    const data = await testService.getActiveLiveTest(req.user._id);
+    res.json({ success: true, data });
+  } catch (err) {
+    res.status(500).json({ success: false, message: err.message });
+  }
+};
+
+// POST /api/tests/live/start
+const startLiveTest = async (req, res) => {
+  try {
+    const session = await testService.createLiveTestSession(req.user._id);
+
+    res.status(201).json({
+      success: true,
+      data: session
+    });
+
+  } catch (err) {
+    res.status(400).json({
+      success: false,
+      message: err.message
+    });
+  }
+};
+
+// POST /api/tests/live/register
+const registerLiveTest = async (req, res) => {
+  try {
+    const result = await testService.registerForLiveTest(req.user._id);
+    res.json({ success: true, data: result });
+  } catch (err) {
+    res.status(400).json({ success: false, message: err.message });
+  }
+};
+
+// POST /api/tests/live/submit/:sessionId
+const submitLiveTest = async (req, res) => {
+
+  try {
+
+    const { responses, time_taken_sec } = req.body;
+
+    const result = await testService.submitLiveTest(
+      req.params.sessionId,
+      req.user._id,
+      responses,
+      time_taken_sec
+    );
+
+    res.json({
+      success: true,
+      data: result
+    });
+
+  } catch (err) {
+
+    res.status(400).json({
+      success: false,
+      message: err.message
+    });
+
+  }
+
 };
 
 // POST /api/tests/start
@@ -156,6 +224,9 @@ const getAnalysis = async (req, res) => {
 };
 
 module.exports = {
-  listPapers, startTest, saveResponse, submitTest,
+  listPapers, getLiveTest,
+  startLiveTest,
+  registerLiveTest,
+  submitLiveTest, startTest, saveResponse, submitTest,
   getHistory, getSession, getAnalysis,
 };

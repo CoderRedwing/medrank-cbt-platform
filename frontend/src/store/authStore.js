@@ -72,6 +72,8 @@ const useAuthStore = create((set, get) => ({
   },
 
   clearError: () => set({ error: null }),
+
+  setUser: (patch) => set((state) => ({ user: { ...state.user, ...patch } })),
 }));
 
 

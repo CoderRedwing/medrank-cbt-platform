@@ -18,6 +18,7 @@ import OverallAnalysisPage from './pages/OverallAnalysisPage.jsx';
 import HistoryPage         from './pages/HistoryPage.jsx';
 import ProfilePage         from './pages/ProfilePage.jsx';
 import AiTutorPage         from './pages/AiTutorPage.jsx';
+import LiveTestPage        from './pages/LiveTestPage.jsx';
 import LandingPage from './pages/LandingPage.jsx';
 import ForgotPasswordPage from './pages/ForgotPasswordPage.jsx';
 import ResetPasswordPage from './pages/ResetPasswordPage.jsx';
@@ -28,6 +29,7 @@ import AdminStudents  from './pages/admin/AdminStudents.jsx';
 import AdminTests     from './pages/admin/AdminTests.jsx';
 import AdminPapers    from './pages/admin/AdminPapers.jsx';
 import AdminSettings  from './pages/admin/AdminSettings.jsx';
+import AdminLiveTests from './pages/admin/AdminLiveTests.jsx';
 
 /* ── Analytics Tracker Component ─────────────────────────────── */
 // 👈 2. This component listens to the router changes and sends them to GA4
@@ -94,6 +96,7 @@ export default function App() {
         <Route path="/analysis/:sessionId" element={<ProtectedRoute><S><AnalysisPage /></S></ProtectedRoute>} />
         <Route path="/profile"   element={<ProtectedRoute><S><ProfilePage /></S></ProtectedRoute>} />
         <Route path="/ai-tutor"  element={<ProtectedRoute><S><AiTutorPage /></S></ProtectedRoute>} />
+        <Route path="/live-test" element={<ProtectedRoute><S><LiveTestPage /></S></ProtectedRoute>} />
 
         {/* Active test — full-screen, no sidebar */}
         <Route path="/test/active" element={<ProtectedRoute><ActiveTestPage /></ProtectedRoute>} />
@@ -103,6 +106,7 @@ export default function App() {
         <Route path="/admin/students"  element={<AdminRoute><A><AdminStudents /></A></AdminRoute>} />
         <Route path="/admin/tests"     element={<AdminRoute><A><AdminTests /></A></AdminRoute>} />
         <Route path="/admin/papers"    element={<AdminRoute><A><AdminPapers /></A></AdminRoute>} />
+        <Route path="/admin/live-tests" element={<AdminRoute><A><AdminLiveTests /></A></AdminRoute>} />
         <Route path="/admin/settings"  element={<AdminRoute><A><AdminSettings /></A></AdminRoute>} />
 
         {/* Redirects */}

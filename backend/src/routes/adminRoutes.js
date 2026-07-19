@@ -15,6 +15,11 @@ const {
   deleteQuestion,
   createAdmin,
   getAnnouncements,
+  listLiveTestPapers,
+  getLiveTests,
+  createLiveTest,
+  updateLiveTest,
+  deleteLiveTest,
 } = require('../controllers/adminController');
 
 // All admin routes require authentication + admin role
@@ -43,5 +48,12 @@ router.delete('/papers/:type/:id/question/:qid',   deleteQuestion);
 // ── Admin management
 router.post('/create-admin',     createAdmin);
 router.get('/announcements',     getAnnouncements);
+
+// ── Live test scheduling
+router.get('/live-tests/papers', listLiveTestPapers);
+router.get('/live-tests',        getLiveTests);
+router.post('/live-tests',       createLiveTest);
+router.patch('/live-tests/:id',  updateLiveTest);
+router.delete('/live-tests/:id', deleteLiveTest);
 
 module.exports = router;

@@ -1,20 +1,18 @@
 /**
- * AI Tutor Service (Phase 3)
- * Uses Anthropic Claude API to:
+ * AI Tutor Service
+ * Uses whichever AI provider the student has configured (BYOK: Anthropic,
+ * OpenAI, or Gemini — see aiProviderClient.js) to:
  *  1. Explain why an answer is correct (deep clinical explanation)
  *  2. Check student's reasoning for knowledge vs. guess
  *  3. Generate new unique MCQs (full paper / subject / topic wise)
  *  4. Answer free-form clinical questions
  */
 
-const Anthropic = require('@anthropic-ai/sdk');
-
-const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
-const MODEL  = 'claude-sonnet-4-20250514';
+const { callAI, streamAI } = require('./Aiproviderclient');
 
 // ─── 1. Deep explanation of a question ───────────────────────────────────────
 
-const explainQuestion = async ({ question_text, options, correct_answer, explanation, subject, topic }) => {
+const explainQuestion = async ({ provider, apiKey, question_text, options, correct_answer, explanation, subject, topic }) => {
   const optionLines = Object.entries(options)
     .map(([k, v]) => `  ${k}. ${v}`)
     .join('\n');
@@ -39,18 +37,17 @@ Provide a thorough clinical teaching explanation covering:
 
 Keep the tone like a friendly senior resident teaching a junior. Be precise and concise.`;
 
-  const response = await client.messages.create({
-    model:      MODEL,
+  return callAI({
+    provider,
+    apiKey,
     max_tokens: 900,
-    messages:   [{ role: 'user', content: prompt }],
+    messages: [{ role: 'user', content: prompt }],
   });
-
-  return response.content[0].text;
 };
 
 // ─── 2. Verify student reasoning (knowledge vs. guess) ────────────────────────
 
-const verifyReasoning = async ({ question_text, correct_answer, options, student_reason, subject }) => {
+const verifyReasoning = async ({ provider, apiKey, question_text, correct_answer, options, student_reason, subject }) => {
   if (!student_reason?.trim()) {
     return {
       knowledge_verified: false,
@@ -75,15 +72,15 @@ Respond ONLY in this JSON format (no markdown fences, no preamble):
   "feedback": "One concise sentence of feedback for the student (max 120 chars)"
 }`;
 
-  const response = await client.messages.create({
-    model:      MODEL,
+  const text = await callAI({
+    provider,
+    apiKey,
     max_tokens: 200,
-    messages:   [{ role: 'user', content: prompt }],
+    messages: [{ role: 'user', content: prompt }],
   });
 
   try {
-    const raw = response.content[0].text.trim();
-    const clean = raw.replace(/```json|```/g, '').trim();
+    const clean = text.trim().replace(/```json|```/g, '').trim();
     return JSON.parse(clean);
   } catch {
     return {
@@ -96,7 +93,7 @@ Respond ONLY in this JSON format (no markdown fences, no preamble):
 
 // ─── 3. Generate new MCQs ─────────────────────────────────────────────────────
 
-const generateMCQs = async ({ subject, topic, count = 10, difficulty = 'Moderate', context = '' }) => {
+const generateMCQs = async ({ provider, apiKey, subject, topic, count = 10, difficulty = 'Moderate', context = '' }) => {
   const difficultyGuide = {
     Easy:       'direct recall, textbook fact',
     Moderate:   'clinical scenario, single-step reasoning',
@@ -119,7 +116,7 @@ Rules:
 - Clinical scenario questions preferred for Moderate/Hard
 - Cover different subtopics within the given topic
 
-Respond ONLY as a valid JSON array (no markdown fences, no preamble, no trailing text):
+Respond ONLY as a valid JSON array — nothing else. No markdown fences, no preamble like "Here are the questions", no trailing commentary. Your entire response must start with [ and end with ]:
 [
   {
     "question_text": "...",
@@ -131,19 +128,21 @@ Respond ONLY as a valid JSON array (no markdown fences, no preamble, no trailing
   ...
 ]`;
 
-  const response = await client.messages.create({
-    model:      MODEL,
-    max_tokens: 4000,
-    messages:   [{ role: 'user', content: prompt }],
+  // Scale token budget with requested count — ~220 tokens/question is a safe
+  // estimate given explanation length; undershoot here is what causes
+  // truncated/invalid JSON on larger batches (e.g. count=50).
+  const tokenBudget = Math.min(8000, Math.max(2000, count * 220));
+
+  const text = await callAI({
+    provider,
+    apiKey,
+    max_tokens: tokenBudget,
+    messages: [{ role: 'user', content: prompt }],
   });
 
-  const raw = response.content[0].text.trim();
-  const clean = raw.replace(/```json|```/g, '').trim();
-
-  let parsed;
-  try {
-    parsed = JSON.parse(clean);
-  } catch {
+  const parsed = extractJsonArray(text);
+  if (!parsed) {
+    console.error('[generateMCQs] Failed to parse AI response. Raw text:\n', text);
     throw new Error('AI returned malformed JSON for MCQ generation');
   }
 
@@ -169,10 +168,31 @@ Respond ONLY as a valid JSON array (no markdown fences, no preamble, no trailing
   }));
 };
 
+// Pulls a JSON array out of an AI response even if the model added
+// markdown fences, a preamble sentence, or trailing commentary around it.
+// Tries a straight parse first (fast path for well-behaved responses),
+// then falls back to slicing from the first '[' to the last ']'.
+const extractJsonArray = (text) => {
+  const stripped = text.trim().replace(/```json|```/g, '').trim();
+
+  try {
+    return JSON.parse(stripped);
+  } catch { /* fall through to extraction */ }
+
+  const start = stripped.indexOf('[');
+  const end   = stripped.lastIndexOf(']');
+  if (start === -1 || end === -1 || end <= start) return null;
+
+  try {
+    return JSON.parse(stripped.slice(start, end + 1));
+  } catch {
+    return null;
+  }
+};
+
 // ─── 4. Free-form clinical question ──────────────────────────────────────────
 
-const askTutor = async (conversationHistory, userMessage, context = {}) => {
-  const systemPrompt = `You are an expert NEET PG / INI-CET medical tutor — knowledgeable, concise, and encouraging.
+const buildTutorSystemPrompt = (context = {}) => `You are an expert NEET PG / INI-CET medical tutor — knowledgeable, concise, and encouraging.
 
 You help MBBS students understand concepts for NEET PG preparation.
 ${context.subject ? `Current subject focus: ${context.subject}` : ''}
@@ -186,19 +206,32 @@ Guidelines:
 - If asked to generate a question, produce it in the same format as NEET PG MCQs
 - Stay factual — never fabricate clinical data`;
 
-  const messages = [
-    ...conversationHistory.map((m) => ({ role: m.role, content: m.content })),
-    { role: 'user', content: userMessage },
-  ];
+const buildTutorMessages = (conversationHistory, userMessage) => [
+  ...conversationHistory.map((m) => ({ role: m.role, content: m.content })),
+  { role: 'user', content: userMessage },
+];
 
-  const response = await client.messages.create({
-    model:      MODEL,
+const askTutor = async (provider, apiKey, conversationHistory, userMessage, context = {}) => {
+  return callAI({
+    provider,
+    apiKey,
+    system: buildTutorSystemPrompt(context),
     max_tokens: 1000,
-    system:     systemPrompt,
-    messages,
+    messages: buildTutorMessages(conversationHistory, userMessage),
   });
-
-  return response.content[0].text;
 };
 
-module.exports = { explainQuestion, verifyReasoning, generateMCQs, askTutor };
+// Streaming variant used by the SSE /ai/chat/stream endpoint. Calls
+// onDelta(textChunk) as chunks arrive; resolves with the full reply text
+// (used to persist/log the complete message once the stream ends).
+const streamTutorReply = async (provider, apiKey, conversationHistory, userMessage, context = {}, onDelta) => {
+  return streamAI({
+    provider,
+    apiKey,
+    system: buildTutorSystemPrompt(context),
+    max_tokens: 1000,
+    messages: buildTutorMessages(conversationHistory, userMessage),
+  }, onDelta);
+};
+
+module.exports = { explainQuestion, verifyReasoning, generateMCQs, askTutor, streamTutorReply };

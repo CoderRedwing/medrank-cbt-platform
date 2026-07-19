@@ -1,0 +1,38 @@
+{
+  "paper_id": "LIVE_MIX_02",
+  "paper_type": "live_test",
+  "subject": "Mixed (Medicine, Surgery, OBG)",
+  "paper_number": 2,
+  "paper_title": "MedRank Live Test 2 — Medicine / Surgery / OBG",
+  "total_questions": 20,
+  "duration_minutes": 30,
+  "marking_scheme": { "correct": 4, "incorrect": -1, "unanswered": 0 },
+  "difficulty_mix": { "Easy": "15%", "Medium": "25%", "Hard": "40%", "Very Hard": "20%" },
+  "created_at": "2026-06-30",
+  "questions": [
+    {
+      "question_id": "LIVE_MIX_02_Q001",
+      "paper_type": "live_test",
+      "paper_ref": "LIVE_MIX_02",
+      "subject": "Medicine",
+      "topic": "Neurology",
+      "subtopic": "Stroke",
+      "difficulty": "Medium",
+      "question_type": "single_best_answer",
+      "image_based": false,
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "marks_unanswered": 0,
+      "question_text": "A 70-year-old man presents with sudden right-sided weakness and aphasia, onset 2 hours ago. CT head shows no hemorrhage. BP is 168/94. What is the most appropriate next step?",
+      "options": {
+        "A": "Immediate aspirin only, no thrombolysis",
+        "B": "IV alteplase (tPA) after confirming no contraindications, given the patient is within the therapeutic window",
+        "C": "Aggressive BP lowering to below 120/80 before any other treatment",
+        "D": "Anticoagulation with heparin immediately"
+      },
+      "correct_answer": "B",
+      "explanation": "Within the 4.5 hour window from symptom onset (here 2 hours), with hemorrhage excluded on CT and no other contraindications, IV thrombolysis with alteplase is the standard of care for acute ischemic stroke. Aspirin alone is used when thrombolysis is contraindicated or after the tPA window. Aggressive BP lowering is avoided pre-thrombolysis except to bring BP below the 185/110 threshold required for tPA eligibility — overcorrection risks reducing cerebral perfusion. Heparin is not used acutely due to hemorrhagic transformation risk. NOTE: this question is a draft placeholder — review against current stroke protocol before use."
+    }
+  ],
+  "_note_to_admin": "This file is a starter template with 1 sample question matching the LIVE_MIX_01 schema. Expand to 20 questions following the same pattern — mix of Medicine/Surgery/OBG, vary difficulty per the distribution above, run remaining questions through your upgrade prompt against existing subject papers, then remove this _note_to_admin field before deploying (it is not part of the production schema)."
+}

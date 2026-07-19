@@ -1,9 +1,12 @@
 const User        = require('../models/User');
 const TestSession = require('../models/TestSession');
+const LiveTest    = require('../models/LiveTest');
 const {
   getFullPaperIndex,
   getSubjectPaperIndex,
   getTopicBankIndex,
+  getLiveTestPaperIndex,
+  loadLiveTestPaper,
   loadFullPaper,
   loadSubjectPaper,
   loadTopicBank,
@@ -414,6 +417,113 @@ const getAnnouncements = async (req, res) => {
   res.json({ success: true, data: [] });
 };
 
+// ─── Live Test scheduling ──────────────────────────────────────────
+
+// GET /api/admin/live-tests/papers — dataset papers available to schedule
+const listLiveTestPapers = async (req, res) => {
+  try {
+    const data = getLiveTestPaperIndex();
+    res.json({ success: true, data });
+  } catch (err) {
+    res.status(500).json({ success: false, message: err.message });
+  }
+};
+
+// GET /api/admin/live-tests — all scheduled live tests
+const getLiveTests = async (req, res) => {
+  try {
+    const tests = await LiveTest.find().sort({ starts_at: -1 });
+    res.json({ success: true, data: tests });
+  } catch (err) {
+    res.status(500).json({ success: false, message: err.message });
+  }
+};
+
+// POST /api/admin/live-tests — schedule a new live test
+const createLiveTest = async (req, res) => {
+  try {
+    const { paper_ref, starts_at, ends_at } = req.body;
+    if (!paper_ref || !starts_at || !ends_at) {
+      return res.status(400).json({ success: false, message: 'paper_ref, starts_at and ends_at are required' });
+    }
+
+    const start = new Date(starts_at);
+    const end   = new Date(ends_at);
+    if (isNaN(start) || isNaN(end) || end <= start) {
+      return res.status(400).json({ success: false, message: 'ends_at must be after starts_at' });
+    }
+
+    const paper = loadLiveTestPaper(paper_ref);
+    if (!paper) {
+      return res.status(404).json({ success: false, message: `Paper ${paper_ref} not found in dataset` });
+    }
+
+    const existing = await LiveTest.findOne({ paper_ref });
+    if (existing) {
+      return res.status(400).json({ success: false, message: 'This paper is already scheduled. Edit or delete the existing schedule instead.' });
+    }
+
+    const liveTest = await LiveTest.create({
+      paper_ref,
+      paper_title: paper.paper_title,
+      starts_at:   start,
+      ends_at:     end,
+      status:      start > new Date() ? 'upcoming' : 'live',
+    });
+
+    // Notify every student that a new live quiz has been scheduled.
+    // Never let a notification failure block the scheduling itself.
+    try {
+      const { notifyManyUsers } = require('../services/notificationService');
+      const students = await User.find({ role: 'student' }).select('_id');
+      if (students.length) {
+        await notifyManyUsers(students.map((s) => s._id), {
+          type: 'live_test',
+          title: 'New Live Quiz Scheduled',
+          body: `${paper.paper_title} — starts ${start.toLocaleString('en-IN', { dateStyle: 'medium', timeStyle: 'short' })}. Register before it fills up!`,
+          link: '/live-test',
+        });
+      }
+    } catch (notifyErr) {
+      console.warn('Failed to broadcast live-test notification:', notifyErr.message);
+    }
+
+    res.status(201).json({ success: true, data: liveTest });
+  } catch (err) {
+    res.status(500).json({ success: false, message: err.message });
+  }
+};
+
+// PATCH /api/admin/live-tests/:id — reschedule / update
+const updateLiveTest = async (req, res) => {
+  try {
+    const allowed = ['starts_at', 'ends_at', 'status'];
+    const updates = {};
+    allowed.forEach((f) => { if (req.body[f] !== undefined) updates[f] = req.body[f]; });
+
+    if (updates.starts_at) updates.starts_at = new Date(updates.starts_at);
+    if (updates.ends_at)   updates.ends_at   = new Date(updates.ends_at);
+
+    const liveTest = await LiveTest.findByIdAndUpdate(req.params.id, updates, { new: true, runValidators: true });
+    if (!liveTest) return res.status(404).json({ success: false, message: 'Scheduled live test not found' });
+
+    res.json({ success: true, data: liveTest });
+  } catch (err) {
+    res.status(500).json({ success: false, message: err.message });
+  }
+};
+
+// DELETE /api/admin/live-tests/:id
+const deleteLiveTest = async (req, res) => {
+  try {
+    const liveTest = await LiveTest.findByIdAndDelete(req.params.id);
+    if (!liveTest) return res.status(404).json({ success: false, message: 'Scheduled live test not found' });
+    res.json({ success: true, message: 'Live test schedule deleted' });
+  } catch (err) {
+    res.status(500).json({ success: false, message: err.message });
+  }
+};
+
 module.exports = {
   getPlatformStats,
   getStudents,
@@ -429,4 +539,9 @@ module.exports = {
   deleteQuestion,
   createAdmin,
   getAnnouncements,
+  listLiveTestPapers,
+  getLiveTests,
+  createLiveTest,
+  updateLiveTest,
+  deleteLiveTest,
 };

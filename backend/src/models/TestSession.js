@@ -52,7 +52,7 @@ const testSessionSchema = new mongoose.Schema(
     // Type of test
     test_type: {
       type: String,
-      enum: ['full_paper', 'subject_paper', 'topic_wise', 'custom', 'ai_generated'],
+      enum: ['full_paper', 'subject_paper', 'topic_wise', 'custom', 'ai_generated',  "live_test"],
       required: true,
     },
     // Reference to the paper/bank used

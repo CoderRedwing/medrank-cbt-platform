@@ -1,4 +1,3 @@
-// testService.js ke top mein add karo
 const { invalidateDashboardCache } = require('../controllers/dashboardController');
 const TestSession = require('../models/TestSession');
 const {
@@ -11,9 +10,132 @@ const {
   getFullPaperIndex,
   getSubjectPaperIndex,
   getTopicBankIndex,
+  loadLiveTestPaper
 } = require('../config/dataset');
 const { computeAnalysis, mergeIntoUserStats } = require('./analysisEngine');
 const User = require('../models/User');
+const { notifyUser } = require('../services/notificationService');
+const LiveTest = require("../models/LiveTest");
+
+const UNLOCK_THRESHOLD_PERCENT = 70;
+
+// ─── Generalised sequential-unlock engine ─────────────────────────────────
+// Applies to subject_paper, topic_wise, and full_paper. Each test_type is
+// grouped into a "sequence" (subject_paper/topic_wise: grouped by subject;
+// full_paper: one single global sequence) and unlocked in order — the first
+// item in a sequence is always unlocked, every following item needs a
+// submitted score >= UNLOCK_THRESHOLD_PERCENT on the immediately preceding
+// item in that same sequence.
+
+const idOf = (item) => item.paper_id || item.bank_id;
+
+// Human-readable label for an item, used in "locked" messages/hints.
+const labelOf = (item, test_type) => {
+  if (test_type === 'subject_paper') return `${item.subject} Paper ${item.paper_number}`;
+  if (test_type === 'full_paper')    return item.paper_title || `Full Paper ${item.paper_number}`;
+  if (test_type === 'topic_wise')    return `${item.subject} — ${item.topic}`;
+  return idOf(item);
+};
+
+// subject_paper & topic_wise unlock sequentially within each subject;
+// full_paper has no subject split — it's one global sequence.
+const groupKeyFor = (test_type, item) => (test_type === 'full_paper' ? 'ALL' : item.subject);
+
+const indexLoaderFor = {
+  subject_paper: getSubjectPaperIndex,
+  topic_wise:    getTopicBankIndex,
+  full_paper:    getFullPaperIndex,
+};
+
+// Builds { itemId -> { position (0-based), prevId, prevLabel } } for a test_type.
+// Ordering uses paper_number when present (subject_paper/full_paper); falls
+// back to original dataset array order otherwise (topic_wise has no
+// paper_number, so topics are unlocked in the order they appear per subject).
+const buildOrderMap = (items, test_type) => {
+  const groups = {};
+  items.forEach((item, idx) => {
+    const key = groupKeyFor(test_type, item);
+    (groups[key] ||= []).push({ item, idx });
+  });
+
+  const orderMap = {};
+  Object.values(groups).forEach((group) => {
+    group.sort((a, b) => (a.item.paper_number ?? a.idx) - (b.item.paper_number ?? b.idx));
+    group.forEach((entry, i) => {
+      orderMap[idOf(entry.item)] = {
+        position: i,
+        prevId:    i > 0 ? idOf(group[i - 1].item) : null,
+        prevLabel: i > 0 ? labelOf(group[i - 1].item, test_type) : null,
+      };
+    });
+  });
+  return orderMap;
+};
+
+// Throws if the user hasn't scored >=UNLOCK_THRESHOLD_PERCENT% on the
+// immediately preceding item in the same sequence. No-ops for test types
+// without a locking sequence (e.g. live_test).
+const assertPaperUnlocked = async (userId, test_type, paperId) => {
+  const loadIndex = indexLoaderFor[test_type];
+  if (!loadIndex) return;
+
+  const orderMap = buildOrderMap(loadIndex(), test_type);
+  const info = orderMap[paperId];
+  if (!info || info.position === 0) return; // first in sequence — always unlocked
+
+  const priorBest = await TestSession.find({
+    user: userId,
+    test_type,
+    paper_ref: info.prevId,
+    status: 'submitted',
+  }).select('score');
+
+  const bestPercent = priorBest.reduce((max, s) => Math.max(max, s.score?.percent ?? 0), 0);
+
+  if (bestPercent < UNLOCK_THRESHOLD_PERCENT) {
+    throw new Error(
+      `Locked: score ${UNLOCK_THRESHOLD_PERCENT}%+ in "${info.prevLabel}" to unlock this.`
+    );
+  }
+};
+
+// Decorates a list of dataset items with locked/unlock_hint info for a given
+// user (or leaves everything unlocked if there's no user, e.g. public browse).
+const decorateWithLocks = async (items, test_type, userId) => {
+  if (!userId) {
+    return items.map((p) => ({ ...p, locked: false, unlock_threshold_percent: UNLOCK_THRESHOLD_PERCENT }));
+  }
+
+  const orderMap = buildOrderMap(items, test_type);
+
+  const sessions = await TestSession.find({
+    user: userId,
+    test_type,
+    status: 'submitted',
+  }).select('paper_ref score');
+
+  const bestPercentByRef = {};
+  sessions.forEach((s) => {
+    const pct = s.score?.percent ?? 0;
+    if (!(s.paper_ref in bestPercentByRef) || pct > bestPercentByRef[s.paper_ref]) {
+      bestPercentByRef[s.paper_ref] = pct;
+    }
+  });
+
+  return items.map((item) => {
+    const info = orderMap[idOf(item)];
+    let locked = false;
+    let unlockHint = null;
+    if (info && info.position > 0) {
+      const prevBest = bestPercentByRef[info.prevId] ?? 0;
+      locked = prevBest < UNLOCK_THRESHOLD_PERCENT;
+      if (locked) {
+        unlockHint = `Score ${UNLOCK_THRESHOLD_PERCENT}%+ in "${info.prevLabel}" to unlock`;
+      }
+    }
+    return { ...item, locked, unlock_threshold_percent: UNLOCK_THRESHOLD_PERCENT, unlock_hint: unlockHint };
+  });
+};
 
 // ─── Create a new test session ─────────────────────────────────────────────
 
@@ -30,12 +152,14 @@ const createTestSession = async (userId, options) => {
   if (test_type === 'full_paper') {
     paper = loadFullPaper(paper_ref);
     if (!paper) throw new Error(`Full paper ${paper_ref} not found`);
+    await assertPaperUnlocked(userId, test_type, paper_ref);
     allQuestions = paper.questions;
     paperTitle   = paper.paper_title;
     durationSec  = paper.duration_minutes * 60;
   } else if (test_type === 'subject_paper') {
     paper = loadSubjectPaper(paper_ref);
     if (!paper) throw new Error(`Subject paper ${paper_ref} not found`);
+    await assertPaperUnlocked(userId, test_type, paper_ref);
     allQuestions = paper.questions;
     paperTitle   = paper.paper_title;
     subject      = paper.subject;
@@ -43,11 +167,19 @@ const createTestSession = async (userId, options) => {
   } else if (test_type === 'topic_wise') {
     paper = loadTopicBank(paper_ref);
     if (!paper) throw new Error(`Topic bank ${paper_ref} not found`);
+    await assertPaperUnlocked(userId, test_type, paper_ref);
     allQuestions = paper.questions;
     paperTitle   = `${paper.subject} — ${paper.topic} Practice`;
     subject      = paper.subject;
     topic        = paper.topic;
     durationSec  = Math.min(allQuestions.length * 90, 90 * 60); // ~90s/q, max 90 min
+  } else if (test_type === 'live_test') {
+    paper = loadLiveTestPaper(paper_ref);
+    if (!paper) throw new Error(`Live test ${paper_ref} not found`);
+    allQuestions = paper.questions;
+    paperTitle   = paper.paper_title;
+    subject      = paper.subject || 'Mixed';
+    durationSec  = paper.duration_minutes * 60;
   } else {
     throw new Error(`Unknown test_type: ${test_type}`);
   }
@@ -164,7 +296,9 @@ const submitTest = async (sessionId, userId, allResponses, timeTakenSec) => {
   // ── BUILD question map from JSON source ───────────────────────────────
   let sourceQuestions = [];
   try {
-    if (session.test_type === 'full_paper') {
+    if (session.test_type === 'live_test') {
+      sourceQuestions = loadLiveTestPaper(session.paper_ref)?.questions || [];
+    } else if (session.test_type === 'full_paper') {
       sourceQuestions = loadFullPaper(session.paper_ref)?.questions || [];
     } else if (session.test_type === 'subject_paper') {
       sourceQuestions = loadSubjectPaper(session.paper_ref)?.questions || [];
@@ -230,6 +364,19 @@ const submitTest = async (sessionId, userId, allResponses, timeTakenSec) => {
   });
   invalidateDashboardCache(userId);
 
+  // ── Notify the user their result is ready ──────────────────────────────
+  try {
+    await notifyUser(userId, {
+      type: 'result_ready',
+      title: 'Your result is ready',
+      body: `${session.paper_title} — scored ${session.score.percent}%`,
+      link: `/analysis/${session._id}`,
+    });
+  } catch (e) {
+    // Notification failure should never block test submission
+    console.warn('Failed to create result notification:', e.message);
+  }
+
   return session;
 };
 
@@ -258,12 +405,184 @@ const getSessionDetail = async (sessionId, userId) => {
 
 // ─── List available papers/banks ────────────────────────────────────────
 
-const listAvailablePapers = () => {
+const listAvailablePapers = async (userId) => {
+  const [decoratedFullPapers, decoratedSubjectPapers, decoratedTopicBanks] = await Promise.all([
+    decorateWithLocks(getFullPaperIndex(),    'full_paper',   userId),
+    decorateWithLocks(getSubjectPaperIndex(), 'subject_paper', userId),
+    decorateWithLocks(getTopicBankIndex(),    'topic_wise',   userId),
+  ]);
+
   return {
-    full_papers:    getFullPaperIndex(),
-    subject_papers: getSubjectPaperIndex(),
-    topic_banks:    getTopicBankIndex(),
+    full_papers:    decoratedFullPapers,
+    subject_papers: decoratedSubjectPapers,
+    topic_banks:    decoratedTopicBanks,
   };
+};
+
+const REGISTRATION_CLOSE_MINUTES_BEFORE = 15;
+
+const getActiveLiveTest = async (userId) => {
+
+    const now = new Date();
+
+    await LiveTest.updateMany(
+        {
+            starts_at: { $lte: now },
+            ends_at: { $gt: now },
+            status: "upcoming"
+        },
+        {
+            status: "live"
+        }
+    );
+
+    await LiveTest.updateMany(
+        {
+            ends_at: { $lte: now },
+            status: "live"
+        },
+        {
+            status: "ended"
+        }
+    );
+
+    // Show the nearest upcoming/live test (live first, else soonest upcoming)
+    const liveTest = await LiveTest.findOne({ status: "live" })
+        || await LiveTest.findOne({ status: "upcoming" }).sort({ starts_at: 1 });
+
+    if (!liveTest) return null;
+
+    let alreadyAttempted = false;
+    if (userId) {
+        const priorSession = await TestSession.findOne({
+            user: userId,
+            test_type: 'live_test',
+            paper_ref: liveTest.paper_ref,
+            status: 'submitted',
+        }).select('_id score');
+        alreadyAttempted = !!priorSession;
+    }
+
+    const paperMeta = loadLiveTestPaper(liveTest.paper_ref);
+
+    const registrationClosesAt = new Date(
+        liveTest.starts_at.getTime() - REGISTRATION_CLOSE_MINUTES_BEFORE * 60 * 1000
+    );
+    const isRegistered = !!(userId && (liveTest.registered_users || []).some(
+        (id) => id.toString() === userId.toString()
+    ));
+
+    const { registered_users, ...liveTestPublic } = liveTest.toObject();
+
+    return {
+        ...liveTestPublic,
+        total_questions: paperMeta?.total_questions ?? paperMeta?.questions?.length ?? null,
+        duration_minutes: paperMeta?.duration_minutes ?? null,
+        already_attempted: alreadyAttempted,
+        registration_closes_at: registrationClosesAt,
+        registration_open: new Date() < registrationClosesAt,
+        is_registered: isRegistered,
+        registered_count: registered_users?.length || 0,
+    };
+
+};
+
+// ─── Register for the upcoming/live live test ─────────────────────────────
+// Registration auto-closes REGISTRATION_CLOSE_MINUTES_BEFORE minutes before
+// the scheduled start.
+
+const registerForLiveTest = async (userId) => {
+  const liveTest = await LiveTest.findOne({ status: 'live' })
+    || await LiveTest.findOne({ status: 'upcoming' }).sort({ starts_at: 1 });
+
+  if (!liveTest) throw new Error('No live test scheduled right now.');
+
+  const registrationClosesAt = new Date(
+    liveTest.starts_at.getTime() - REGISTRATION_CLOSE_MINUTES_BEFORE * 60 * 1000
+  );
+  if (new Date() >= registrationClosesAt) {
+    throw new Error(
+      `Registration is closed — it auto-closes ${REGISTRATION_CLOSE_MINUTES_BEFORE} minutes before the quiz starts.`
+    );
+  }
+
+  await LiveTest.updateOne({ _id: liveTest._id }, { $addToSet: { registered_users: userId } });
+
+  return { registered: true, paper_ref: liveTest.paper_ref, paper_title: liveTest.paper_title };
+};
+
+// ─── Start Live Test ─────────────────────────────────────────────
+
+const createLiveTestSession = async (userId) => {
+
+  const liveTest = await LiveTest.findOne({
+    status: "live"
+  });
+
+  if (!liveTest)
+    throw new Error("No live test available right now.");
+
+  const now = new Date();
+
+  if (now < liveTest.starts_at)
+    throw new Error("Live test has not started.");
+
+  if (now > liveTest.ends_at)
+    throw new Error("Live test has ended.");
+
+  const priorSession = await TestSession.findOne({
+    user: userId,
+    test_type: 'live_test',
+    paper_ref: liveTest.paper_ref,
+  });
+  if (priorSession) {
+    if (priorSession.status === 'submitted') {
+      throw new Error("You have already attempted this live test.");
+    }
+    // Resume an in-progress attempt instead of creating a duplicate
+    const paperData = loadLiveTestPaper(liveTest.paper_ref);
+    const idOrder = priorSession.responses.map(r => r.question_id);
+    const qById = {};
+    (paperData?.questions || []).forEach(q => { qById[q.question_id] = q; });
+    const orderedQuestions = idOrder.map(id => qById[id]).filter(Boolean);
+
+    return {
+      session_id:           priorSession._id,
+      test_type:            priorSession.test_type,
+      paper_ref:            priorSession.paper_ref,
+      paper_title:          priorSession.paper_title,
+      subject:              priorSession.subject,
+      topic:                priorSession.topic,
+      duration_allowed_sec: priorSession.duration_allowed_sec,
+      total_questions:      priorSession.total_questions,
+      questions:            sanitiseForTest(orderedQuestions),
+      resumed: true,
+    };
+  }
+
+  return createTestSession(userId, {
+    test_type: "live_test",
+    paper_ref: liveTest.paper_ref
+  });
+
+};
+
+// ─── Submit Live Test ─────────────────────────────────────────────
+
+const submitLiveTest = async (
+  sessionId,
+  userId,
+  responses,
+  timeTakenSec
+) => {
+
+  return submitTest(
+    sessionId,
+    userId,
+    responses,
+    timeTakenSec
+  );
+
 };
 
 module.exports = {
@@ -273,4 +592,8 @@ module.exports = {
   getUserTestHistory,
   getSessionDetail,
   listAvailablePapers,
+  getActiveLiveTest,
+createLiveTestSession,
+submitLiveTest,
+registerForLiveTest,
 };

@@ -64,6 +64,39 @@ const userSchema = new mongoose.Schema(
     lastActive: { type: Date, default: Date.now },
     passwordResetToken: String,
     passwordResetExpires: Date,
+
+    // ─── User-supplied AI API key (BYOK for AI Tutor feature) ───────────
+    // Legacy single-key fields (Anthropic-only) — kept for backward
+    // compatibility with accounts created before multi-provider support.
+    // Stored encrypted; never sent to the client. select:false so normal
+    // queries never accidentally leak it.
+    aiApiKeyEncrypted: { type: String, select: false, default: null },
+    aiApiKeyLast4:     { type: String, default: null }, // for display, e.g. "…af92"
+
+    // ─── Multi-provider BYOK ─────────────────────────────────────────────
+    // A student can store up to one key per supported provider (Anthropic,
+    // OpenAI, Gemini) and pick which one is "active" for AI Tutor calls.
+    // Encrypted values are stripped in toJSON below rather than marked
+    // select:false, so a single findById() can read whichever key is active.
+    aiProviders: {
+      anthropic: {
+        encrypted: { type: String, default: null },
+        last4:     { type: String, default: null },
+      },
+      openai: {
+        encrypted: { type: String, default: null },
+        last4:     { type: String, default: null },
+      },
+      gemini: {
+        encrypted: { type: String, default: null },
+        last4:     { type: String, default: null },
+      },
+    },
+    aiActiveProvider: {
+      type: String,
+      enum: ['anthropic', 'openai', 'gemini', null],
+      default: null,
+    },
   },
   { timestamps: true }
 );
@@ -88,6 +121,10 @@ userSchema.methods.comparePassword = async function (candidatePassword) {
 userSchema.methods.toJSON = function () {
   const obj = this.toObject();
   delete obj.password;
+  delete obj.aiApiKeyEncrypted;
+  if (obj.aiProviders) {
+    Object.values(obj.aiProviders).forEach((p) => { if (p) delete p.encrypted; });
+  }
   return obj;
 };
 

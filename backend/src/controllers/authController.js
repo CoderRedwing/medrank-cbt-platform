@@ -3,6 +3,10 @@ const { body, validationResult } = require('express-validator');
 const User = require('../models/User');
 const { revokeToken } = require('../middleware/auth');
 const crypto = require('crypto');
+const { encryptApiKey } = require('../utils/apiKeyCrypto');
+const { verifyApiKey, PROVIDER_LABELS } = require('../services/Aiproviderclient');
+const { mapProviderError } = require("../utils/providerErrorMapper");
+const VALID_PROVIDERS = ['anthropic', 'openai', 'gemini'];
 const {
   sendWelcomeEmail,
   sendPasswordResetEmail,
@@ -37,7 +41,7 @@ const register = async (req, res) => {
     const user = await User.create({ name, email, password, targetExam });
 
     // Send welcome email — fire and forget, never blocks the response
-    sendWelcomeEmail({ name, email, targetExam }).catch(() => {});
+    sendWelcomeEmail({ name, email, targetExam }).catch(() => { });
 
     sendToken(user, 201, res);
   } catch (err) {
@@ -192,10 +196,129 @@ const updateMe = async (req, res) => {
   }
 };
 
+// POST /api/auth/api-key — save/update one of the user's AI provider keys
+// Body: { provider: 'anthropic'|'openai'|'gemini', api_key, set_active? }
+// A student can store up to 3 keys (one per provider) and use whichever
+// works for them — not every provider needs to be paid/free at once.
+const saveApiKey = async (req, res) => {
+  try {
+    const { api_key, set_active } = req.body;
+    const provider = req.body.provider || 'anthropic'; // default for older clients
+    if (!api_key || typeof api_key !== 'string' || !api_key.trim()) {
+      return res.status(400).json({ success: false, message: 'api_key is required' });
+    }
+    if (!VALID_PROVIDERS.includes(provider)) {
+      return res.status(400).json({ success: false, message: `Unsupported provider "${provider}". Choose anthropic, openai, or gemini.` });
+    }
+    const trimmed = api_key.trim();
+
+
+    if (trimmed.length < 10) {
+      return res.status(400).json({
+        success: false,
+        message: "API key looks too short.",
+      });
+    }
+
+
+    try {
+      await verifyApiKey({
+        provider,
+        apiKey: trimmed,
+      });
+    } catch (err) {
+
+      const mapped = mapProviderError(err);
+
+      return res.status(mapped.status).json(mapped);
+
+    }
+
+    const encrypted = encryptApiKey(trimmed);
+    const last4 = trimmed.slice(-4);
+
+    const user = await User.findById(req.user._id);
+    if (!user.aiProviders) user.aiProviders = {};
+    user.aiProviders[provider] = { encrypted, last4 };
+    user.markModified('aiProviders');
+
+    // Make this the active provider unless the caller explicitly opts out,
+    // or the user already has a different provider active.
+    if (set_active !== false || !user.aiActiveProvider) {
+      user.aiActiveProvider = provider;
+    }
+    await user.save();
+
+    res.json({
+      success: true,
+      message: `${PROVIDER_LABELS[provider]} key saved`,
+      data: { provider, last4, active_provider: user.aiActiveProvider },
+    });
+  } catch (err) {
+    res.status(500).json({ success: false, message: err.message });
+  }
+};
+
+// DELETE /api/auth/api-key/:provider — remove one stored provider key
+const removeApiKey = async (req, res) => {
+  try {
+    const provider = req.params.provider || 'anthropic';
+    if (!VALID_PROVIDERS.includes(provider)) {
+      return res.status(400).json({ success: false, message: `Unsupported provider "${provider}"` });
+    }
+
+    const user = await User.findById(req.user._id).select('+aiApiKeyEncrypted');
+    if (user.aiProviders?.[provider]) {
+      user.aiProviders[provider] = { encrypted: null, last4: null };
+      user.markModified('aiProviders');
+    }
+    // Legacy cleanup — old accounts stored an Anthropic-only key separately.
+    if (provider === 'anthropic') {
+      user.aiApiKeyEncrypted = null;
+      user.aiApiKeyLast4 = null;
+    }
+    if (user.aiActiveProvider === provider) {
+      const remaining = VALID_PROVIDERS.find(
+        (p) => p !== provider && user.aiProviders?.[p]?.encrypted
+      );
+      user.aiActiveProvider = remaining || null;
+    }
+    await user.save();
+
+    res.json({ success: true, message: 'API key removed', data: { provider, active_provider: user.aiActiveProvider } });
+  } catch (err) {
+    res.status(500).json({ success: false, message: err.message });
+  }
+};
+
+// PATCH /api/auth/api-key/active — switch which saved key AI Tutor uses
+// Body: { provider }
+const setActiveApiKeyProvider = async (req, res) => {
+  try {
+    const { provider } = req.body;
+    if (!VALID_PROVIDERS.includes(provider)) {
+      return res.status(400).json({ success: false, message: `Unsupported provider "${provider}"` });
+    }
+
+    const user = await User.findById(req.user._id).select('+aiApiKeyEncrypted');
+    const hasKey = !!(user.aiProviders?.[provider]?.encrypted || (provider === 'anthropic' && user.aiApiKeyEncrypted));
+    if (!hasKey) {
+      return res.status(400).json({ success: false, message: `Add a ${PROVIDER_LABELS[provider]} key first.` });
+    }
+
+    user.aiActiveProvider = provider;
+    await user.save();
+
+    res.json({ success: true, data: { active_provider: provider } });
+  } catch (err) {
+    res.status(500).json({ success: false, message: err.message });
+  }
+};
+
 // POST /api/auth/logout
 const logout = (req, res) => {
   if (req.token) revokeToken(req.token);
   res.json({ success: true, message: 'Logged out' });
 };
 
-module.exports = { register, login, getMe, updateMe, logout , forgotPassword, resetPassword};
+module.exports = { register, login, getMe, updateMe, logout, forgotPassword, resetPassword, saveApiKey, removeApiKey, setActiveApiKeyProvider };

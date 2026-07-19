@@ -1,6 +1,6 @@
 const router = require('express').Router();
 const { body } = require('express-validator');
-const { register, login, getMe, updateMe, logout , forgotPassword, resetPassword} = require('../controllers/authController');
+const { register, login, getMe, updateMe, logout , forgotPassword, resetPassword, saveApiKey, removeApiKey, setActiveApiKeyProvider} = require('../controllers/authController');
 const { protect } = require('../middleware/auth');
 
 // Shared validators
@@ -48,5 +48,8 @@ router.post('/login',    loginValidators,    login);
 router.post('/logout',   protect,            logout);   // FIX: real logout
 router.get('/me',        protect,            getMe);
 router.patch('/me',      protect,            updateMe);
+router.post('/api-key',         protect,     saveApiKey);
+router.patch('/api-key/active', protect,     setActiveApiKeyProvider);
+router.delete('/api-key/:provider', protect, removeApiKey);
 
 module.exports = router;

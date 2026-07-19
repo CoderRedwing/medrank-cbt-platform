@@ -36,6 +36,7 @@ export default function TestSelectionPage() {
       if (!g[p.subject]) g[p.subject] = [];
       g[p.subject].push(p);
     });
+    Object.values(g).forEach((list) => list.sort((a, b) => (a.paper_number || 0) - (b.paper_number || 0)));
     return g;
   }, [papers]);
 
@@ -92,6 +93,8 @@ export default function TestSelectionPage() {
       title: `${p.subject} Paper ${p.paper_number || i + 1}`,
       num:   p.paper_number || i + 1,
       meta:  `100 questions · 90 min`,
+      locked: !!p.locked,
+      unlockHint: p.unlock_hint || `Score ${p.unlock_threshold_percent || 70}%+ in the previous ${p.subject} paper to unlock`,
       data:  { id: p.paper_id, title: `${p.subject} Paper ${p.paper_number || i + 1}`, duration: 90, total: 100 },
     }));
   }, [subjectGroups, activeSubject]);
@@ -104,6 +107,8 @@ export default function TestSelectionPage() {
         title: b.topic,
         num:   i + 1,
         meta:  `${b.total_questions} questions · ${b.subject}`,
+        locked: !!b.locked,
+        unlockHint: b.unlock_hint || `Score ${b.unlock_threshold_percent || 70}%+ in the previous ${b.subject} topic to unlock`,
         data:  { id: b.bank_id, title: `${b.subject} — ${b.topic}`, duration: null, total: b.total_questions },
       })),
   [topicBanks, activeSubject]);
@@ -324,7 +329,9 @@ export default function TestSelectionPage() {
               <PaperList
                 items={fullPapers.map((p, i) => ({
                   id: p.paper_id, title: p.paper_title,
-                  num: i + 1, meta: '200 questions · 3h 30m',
+                  num: p.paper_number || i + 1, meta: '200 questions · 3h 30m',
+                  locked: !!p.locked,
+                  unlockHint: p.unlock_hint || `Score ${p.unlock_threshold_percent || 70}%+ in the previous full paper to unlock`,
                   data: { id: p.paper_id, title: p.paper_title, duration: 210, total: 200 },
                 }))}
                 selected={selected}
@@ -451,20 +458,23 @@ function PaperList({ items, selected, onSelect }) {
     }}>
       {items.map((item) => {
         const isSelected = selected?.id === item.id;
+        const isLocked = !!item.locked;
         return (
           <div
             key={item.id}
-            onClick={() => onSelect(item.data)}
+            onClick={() => { if (!isLocked) onSelect(item.data); }}
+            title={isLocked ? item.unlockHint : undefined}
             style={{
               display: 'flex', alignItems: 'center', gap: 12,
               padding: '11px 14px', borderRadius: 8,
-              cursor: 'pointer',
+              cursor: isLocked ? 'not-allowed' : 'pointer',
               border: `1px solid ${isSelected ? '#6366f1' : 'var(--clr-border)'}`,
-              background: isSelected ? 'rgba(99,102,241,0.07)' : 'var(--clr-surface)',
+              background: isLocked ? 'var(--clr-surface2)' : (isSelected ? 'rgba(99,102,241,0.07)' : 'var(--clr-surface)'),
+              opacity: isLocked ? 0.6 : 1,
               transition: 'border-color 0.12s, background 0.12s',
             }}
-            onMouseEnter={(e) => { if (!isSelected) e.currentTarget.style.borderColor = 'var(--clr-text-muted)'; }}
-            onMouseLeave={(e) => { if (!isSelected) e.currentTarget.style.borderColor = 'var(--clr-border)'; }}
+            onMouseEnter={(e) => { if (!isSelected && !isLocked) e.currentTarget.style.borderColor = 'var(--clr-text-muted)'; }}
+            onMouseLeave={(e) => { if (!isSelected && !isLocked) e.currentTarget.style.borderColor = 'var(--clr-border)'; }}
           >
             <span style={{
               width: 28, height: 28, borderRadius: 7,
@@ -474,7 +484,7 @@ function PaperList({ items, selected, onSelect }) {
               display: 'grid', placeItems: 'center', flexShrink: 0,
               border: `1px solid ${isSelected ? 'rgba(99,102,241,0.3)' : 'var(--clr-border)'}`,
             }}>
-              {item.num}
+              {isLocked ? '🔒' : item.num}
             </span>
             <div style={{ flex: 1, minWidth: 0 }}>
               <div style={{
@@ -485,10 +495,10 @@ function PaperList({ items, selected, onSelect }) {
                 {item.title}
               </div>
               <div style={{ fontSize: 11, color: 'var(--clr-text-muted)', marginTop: 2 }}>
-                {item.meta}
+                {isLocked ? item.unlockHint : item.meta}
               </div>
             </div>
-            {isSelected && (
+            {isSelected && !isLocked && (
               <span style={{
                 width: 18, height: 18, borderRadius: '50%',
                 background: '#6366f1', color: '#fff',

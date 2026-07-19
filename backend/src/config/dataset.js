@@ -68,6 +68,29 @@ const loadTopicBank = (bankId) => {
   return JSON.parse(fs.readFileSync(filePath, 'utf8'));
 };
 
+
+const loadLiveTestPaper = (id) => {
+  const filePath = path.join(DATASET_PATH, 'live_tests', `${id}.json`);
+  if (!fs.existsSync(filePath)) return null;
+  return JSON.parse(fs.readFileSync(filePath, 'utf8'));
+};
+
+const getLiveTestPaperIndex = () => {
+  const dir = path.join(DATASET_PATH, 'live_tests');
+  if (!fs.existsSync(dir)) return [];
+  return fs.readdirSync(dir)
+    .filter((f) => f.endsWith('.json') && !f.startsWith('_'))
+    .map((f) => {
+      const data = JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8'));
+      return {
+        paper_id:         data.paper_id,
+        paper_title:      data.paper_title,
+        subject:          data.subject,
+        total_questions:  data.total_questions ?? data.questions?.length ?? 0,
+        duration_minutes: data.duration_minutes,
+      };
+    });
+};
 // ─── Question sampling helpers ─────────────────────────────────────────────
 
 /**
@@ -118,5 +141,7 @@ module.exports = {
   sampleQuestions,
   sanitiseForTest,
   buildAnswerKey,
+  loadLiveTestPaper,
+  getLiveTestPaperIndex,
   DATASET_PATH,
 };
