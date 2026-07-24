@@ -478,24 +478,24 @@
       "question_id": "LIVE_MIX_01_Q020",
       "paper_type": "live_test",
       "paper_ref": "LIVE_MIX_01",
-      "subject": "Surgery",
-      "topic": "Hepatobiliary Surgery",
-      "subtopic": "Acute Cholecystitis",
-      "difficulty": "Medium",
+      "subject": "Medicine",
+      "topic": "Neurology",
+      "subtopic": "Stroke",
+      "difficulty": "Very Hard",
       "question_type": "single_best_answer",
       "image_based": false,
       "marks_correct": 4,
       "marks_incorrect": -1,
       "marks_unanswered": 0,
-      "question_text": "A 45-year-old obese woman presents with right upper quadrant pain, fever, and a positive Murphy's sign. Ultrasound shows gallstones with a thickened gallbladder wall and pericholecystic fluid. What is the most appropriate definitive management?",
+      "question_text": "A 64-year-old woman presents 2 hours after sudden-onset right-sided weakness and aphasia. Non-contrast CT brain shows no intracranial hemorrhage or early ischemic changes. BP is 160/90 mmHg, blood glucose is 110 mg/dL. What is the most appropriate immediate management?",
       "options": {
-        "A": "Conservative management with antibiotics only, defer surgery indefinitely",
-        "B": "Early laparoscopic cholecystectomy within 72 hours of symptom onset",
-        "C": "Elective cholecystectomy after 6 weeks of antibiotic therapy",
-        "D": "Open cholecystectomy as the only acceptable approach"
+        "A": "Lower blood pressure aggressively using IV labetalol before any intervention",
+        "B": "Administer IV tissue plasminogen activator (tPA / alteplase)",
+        "C": "Start oral aspirin 325 mg immediately and defer thrombolysis",
+        "D": "Repeat CT brain in 24 hours to confirm stroke before treating"
       },
       "correct_answer": "B",
-      "explanation": "Current guidelines favor early laparoscopic cholecystectomy (within 72 hours, ideally within 24-48 hours of symptom onset) for acute cholecystitis in suitable surgical candidates, as it reduces hospital stay and complications compared to delayed surgery, and avoids the morbidity of recurrent attacks while awaiting elective surgery. 'Cooling off' with antibiotics and delayed surgery at 6 weeks was the older standard but is now reserved for patients unfit for early surgery. Laparoscopic approach is preferred over open in the absence of contraindications (e.g., suspected malignancy, dense adhesions, hemodynamic instability)."
+      "explanation": "The patient presents within the therapeutic window for intravenous thrombolysis (<4.5 hours from symptom onset) with an acute ischemic stroke (supported by sudden focal neurological deficits and NCCT ruling out hemorrhage). Blood pressure is <185/110 mmHg (the threshold required before giving alteplase), and blood glucose is normal, making her an ideal candidate for immediate IV tPA (alteplase). Lowering BP aggressively is unnecessary and harmful as it reduces cerebral perfusion pressure to the ischemic penumbra. Aspirin is administered 24 hours AFTER thrombolysis, not before, to avoid increasing intracranial hemorrhage risk. Waiting 24 hours for a repeat CT causes irreversible neuronal loss ('time is brain'). Exam pearl: a normal NCCT in early ischemic stroke is typical and does NOT exclude stroke; its primary purpose is to rule out hemorrhage prior to thrombolysis."
     }
   ]
 }
