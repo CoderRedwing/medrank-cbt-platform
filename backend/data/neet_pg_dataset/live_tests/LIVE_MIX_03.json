@@ -5,7 +5,7 @@
   "paper_number": 3,
   "paper_title": "MedRank Live Test 3 — Medicine / Surgery / OBG",
   "total_questions": 20,
-  "duration_minutes": 30,
+  "duration_minutes": 20,
   "marking_scheme": {
     "correct": 4,
     "incorrect": -1,

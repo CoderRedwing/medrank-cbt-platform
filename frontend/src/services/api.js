@@ -67,6 +67,8 @@ export const notificationAPI = {
   list: (params = {}) => api.get('/notifications', { params }),
   markRead: (id) => api.patch(`/notifications/${id}/read`),
   markAllRead: () => api.patch('/notifications/read-all'),
+  remove: (id) => api.delete(`/notifications/${id}`),
+  clearAll: (readOnly = false) => api.delete('/notifications', { params: readOnly ? { readOnly: 'true' } : {} }),
 };
 
 /* ── Dashboard ────────────────────────────────────────────────────── */

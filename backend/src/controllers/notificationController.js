@@ -48,4 +48,28 @@ const markAllRead = async (req, res) => {
   }
 };
 
-module.exports = { getNotifications, markRead, markAllRead };
+// DELETE /api/notifications/:id — remove a single notification
+const deleteNotification = async (req, res) => {
+  try {
+    const result = await Notification.findOneAndDelete({ _id: req.params.id, user: req.user._id });
+    if (!result) return res.status(404).json({ success: false, message: 'Notification not found' });
+    res.json({ success: true });
+  } catch (err) {
+    res.status(400).json({ success: false, message: err.message });
+  }
+};
+
+// DELETE /api/notifications — clear the whole history for this user
+// ?readOnly=true clears only already-read notifications, otherwise clears everything.
+const clearAllNotifications = async (req, res) => {
+  try {
+    const filter = { user: req.user._id };
+    if (req.query.readOnly === 'true') filter.read = true;
+    const result = await Notification.deleteMany(filter);
+    res.json({ success: true, deletedCount: result.deletedCount });
+  } catch (err) {
+    res.status(400).json({ success: false, message: err.message });
+  }
+};
+
+module.exports = { getNotifications, markRead, markAllRead, deleteNotification, clearAllNotifications };
