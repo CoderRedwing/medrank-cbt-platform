@@ -235,7 +235,7 @@ function LiveTestCard({ liveTest, now, starting, registering, onStart, onRegiste
           </div>
         )}
 
-        {isLive && !liveTest.already_attempted && (
+        {isLive && !liveTest.already_attempted && isRegistered && (
           <div style={{ textAlign: 'center' }}>
             <div style={{ fontSize: 12, color: 'var(--clr-text-muted)', marginBottom: 10 }}>
               Closes in {formatTime(countdownSec)}
@@ -243,6 +243,15 @@ function LiveTestCard({ liveTest, now, starting, registering, onStart, onRegiste
             <Btn onClick={onStart} loading={starting} style={{ width: '100%' }}>
               {starting ? 'Starting…' : 'Start Live Test →'}
             </Btn>
+          </div>
+        )}
+
+        {isLive && !liveTest.already_attempted && !isRegistered && (
+          <div style={{
+            textAlign: 'center', padding: '9px 14px', borderRadius: 8, fontSize: 12.5,
+            color: '#dc2626', background: 'rgba(220,38,38,0.08)', border: '1px solid rgba(220,38,38,0.2)',
+          }}>
+            You didn't register before this quiz started, so you can't attempt it.
           </div>
         )}
 

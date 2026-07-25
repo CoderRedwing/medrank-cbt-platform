@@ -429,11 +429,41 @@ const listLiveTestPapers = async (req, res) => {
   }
 };
 
-// GET /api/admin/live-tests — all scheduled live tests
+// GET /api/admin/live-tests — all scheduled live tests, with registration/participation counts
 const getLiveTests = async (req, res) => {
   try {
-    const tests = await LiveTest.find().sort({ starts_at: -1 });
-    res.json({ success: true, data: tests });
+    const tests = await LiveTest.find().sort({ starts_at: -1 }).lean();
+
+    const paperRefs = tests.map((t) => t.paper_ref);
+    const participantAgg = paperRefs.length
+      ? await TestSession.aggregate([
+          { $match: { test_type: 'live_test', paper_ref: { $in: paperRefs } } },
+          {
+            $group: {
+              _id: '$paper_ref',
+              participants: { $addToSet: '$user' }, // students who started (incl. still in progress)
+              submitted: { $sum: { $cond: [{ $eq: ['$status', 'submitted'] }, 1, 0] } },
+            },
+          },
+        ])
+      : [];
+
+    const statsByRef = {};
+    participantAgg.forEach((p) => {
+      statsByRef[p._id] = {
+        participants_count: p.participants.length,
+        submitted_count: p.submitted,
+      };
+    });
+
+    const data = tests.map((t) => ({
+      ...t,
+      registered_count:  (t.registered_users || []).length,
+      participants_count: statsByRef[t.paper_ref]?.participants_count || 0, // started (attempted)
+      submitted_count:    statsByRef[t.paper_ref]?.submitted_count || 0,    // finished & submitted
+    }));
+
+    res.json({ success: true, data });
   } catch (err) {
     res.status(500).json({ success: false, message: err.message });
   }

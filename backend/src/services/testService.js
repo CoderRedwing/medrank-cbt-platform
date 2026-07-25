@@ -174,6 +174,25 @@ const createTestSession = async (userId, options) => {
     topic        = paper.topic;
     durationSec  = Math.min(allQuestions.length * 90, 90 * 60); // ~90s/q, max 90 min
   } else if (test_type === 'live_test') {
+    // Gatekeeper for ALL live-test entry points (this function is called both
+    // directly by POST /api/tests/start and internally by createLiveTestSession).
+    // Enforces: paper must be a scheduled live test, current time must be inside
+    // its window, and the user must be on the registered list — otherwise anyone
+    // could start/see the paper by guessing or replaying the paper_ref.
+    const liveTestDoc = await LiveTest.findOne({ paper_ref });
+    if (!liveTestDoc) throw new Error(`Live test ${paper_ref} not found`);
+
+    const nowTs = new Date();
+    if (nowTs < liveTestDoc.starts_at) throw new Error('This live test has not started yet.');
+    if (nowTs > liveTestDoc.ends_at) throw new Error('This live test has ended.');
+
+    const isRegistered = (liveTestDoc.registered_users || []).some(
+      (id) => id.toString() === userId.toString()
+    );
+    if (!isRegistered) {
+      throw new Error('You are not registered for this live quiz. Registration was required before it started.');
+    }
+
     paper = loadLiveTestPaper(paper_ref);
     if (!paper) throw new Error(`Live test ${paper_ref} not found`);
     allQuestions = paper.questions;

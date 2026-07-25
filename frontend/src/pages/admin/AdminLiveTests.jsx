@@ -163,6 +163,17 @@ export default function AdminLiveTests() {
                   <div style={{ fontSize: 12, color: 'var(--clr-text-muted)', marginTop: 6 }}>
                     {new Date(t.starts_at).toLocaleString()} → {new Date(t.ends_at).toLocaleString()}
                   </div>
+                  <div style={{ display: 'flex', gap: 14, marginTop: 8, flexWrap: 'wrap' }}>
+                    <span style={{ fontSize: 12, color: 'var(--clr-text-muted)' }}>
+                      📝 <strong style={{ color: 'var(--clr-text)' }}>{t.registered_count ?? 0}</strong> registered
+                    </span>
+                    <span style={{ fontSize: 12, color: 'var(--clr-text-muted)' }}>
+                      ▶ <strong style={{ color: 'var(--clr-text)' }}>{t.participants_count ?? 0}</strong> attempted
+                    </span>
+                    <span style={{ fontSize: 12, color: 'var(--clr-text-muted)' }}>
+                      ✅ <strong style={{ color: 'var(--clr-text)' }}>{t.submitted_count ?? 0}</strong> submitted
+                    </span>
+                  </div>
                 </div>
                 <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
                   <span style={{ fontSize: 11, fontWeight: 600, padding: '4px 10px', borderRadius: 99, color: meta.color, background: `${meta.color}1a` }}>

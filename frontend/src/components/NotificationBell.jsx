@@ -47,6 +47,20 @@ export default function NotificationBell() {
     setUnreadCount(0);
   };
 
+  const handleRemove = async (e, n) => {
+    e.stopPropagation(); // don't trigger handleItemClick/navigate
+    await notificationAPI.remove(n._id).catch(() => {});
+    setItems((prev) => prev.filter((item) => item._id !== n._id));
+    if (!n.read) setUnreadCount((c) => Math.max(0, c - 1));
+  };
+
+  const handleClearAll = async () => {
+    if (!confirm('Clear your entire notification history? This cannot be undone.')) return;
+    await notificationAPI.clearAll().catch(() => {});
+    setItems([]);
+    setUnreadCount(0);
+  };
+
   return (
     <div ref={ref} style={{ position: 'relative' }}>
       <button
@@ -87,13 +101,22 @@ export default function NotificationBell() {
             padding: '10px 14px', borderBottom: '1px solid var(--clr-border)',
           }}>
             <span style={{ fontSize: 13, fontWeight: 600, color: 'var(--clr-text)' }}>Notifications</span>
-            {unreadCount > 0 && (
-              <button onClick={handleMarkAllRead} style={{
-                fontSize: 11, color: '#6366f1', background: 'none', border: 'none', cursor: 'pointer',
-              }}>
-                Mark all read
-              </button>
-            )}
+            <div style={{ display: 'flex', gap: 10 }}>
+              {unreadCount > 0 && (
+                <button onClick={handleMarkAllRead} style={{
+                  fontSize: 11, color: '#6366f1', background: 'none', border: 'none', cursor: 'pointer',
+                }}>
+                  Mark all read
+                </button>
+              )}
+              {items.length > 0 && (
+                <button onClick={handleClearAll} style={{
+                  fontSize: 11, color: '#ef4444', background: 'none', border: 'none', cursor: 'pointer',
+                }}>
+                  Clear all
+                </button>
+              )}
+            </div>
           </div>
 
           {items.length === 0 ? (
@@ -105,12 +128,25 @@ export default function NotificationBell() {
               key={n._id}
               onClick={() => handleItemClick(n)}
               style={{
-                padding: '10px 14px', cursor: 'pointer',
+                padding: '10px 14px', cursor: 'pointer', position: 'relative',
                 borderBottom: '1px solid var(--clr-border)',
                 background: n.read ? 'transparent' : 'rgba(99,102,241,0.06)',
               }}
             >
-              <div style={{ fontSize: 12.5, fontWeight: 600, color: 'var(--clr-text)' }}>{n.title}</div>
+              <button
+                onClick={(e) => handleRemove(e, n)}
+                aria-label="Delete notification"
+                title="Delete"
+                style={{
+                  position: 'absolute', top: 8, right: 10, width: 18, height: 18,
+                  display: 'flex', alignItems: 'center', justifyContent: 'center',
+                  border: 'none', background: 'none', cursor: 'pointer',
+                  color: 'var(--clr-text-muted)', fontSize: 14, lineHeight: 1, padding: 0,
+                }}
+              >
+                ×
+              </button>
+              <div style={{ fontSize: 12.5, fontWeight: 600, color: 'var(--clr-text)', paddingRight: 18 }}>{n.title}</div>
               {n.body && <div style={{ fontSize: 11.5, color: 'var(--clr-text-muted)', marginTop: 2 }}>{n.body}</div>}
               <div style={{ fontSize: 10.5, color: 'var(--clr-text-muted)', marginTop: 4 }}>
                 {new Date(n.createdAt).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' })}

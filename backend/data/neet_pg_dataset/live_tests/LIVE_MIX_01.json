@@ -5,7 +5,7 @@
   "paper_number": 1,
   "paper_title": "MedRank Live Test 1 — Medicine / Surgery / OBG",
   "total_questions": 20,
-  "duration_minutes": 30,
+  "duration_minutes": 20,
   "marking_scheme": { "correct": 4, "incorrect": -1, "unanswered": 0 },
   "difficulty_mix": { "Easy": "15%", "Medium": "25%", "Hard": "40%", "Very Hard": "20%" },
   "created_at": "2026-06-30",
