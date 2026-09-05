@@ -50,15 +50,15 @@
       "question_text": "A 36-year-old male with a history of severe granulomatosis with polyangiitis (Wegener's) presents for evaluation of a progressive facial change. On examination, there is a prominent structural collapse of the middle third of the nasal dorsum. Destruction of which structural framework is responsible for this saddle nose deformity?",
       "options": {
         "A": "Hypertrophy of the alar cartilages",
-        "B": "Destruction of the nasal septal cartilage and bony support",
-        "C": "Atrophy of the soft tissue rhinophyma complex",
-        "D": "Fibrosis of the ethmoid sinus osteomeatal unit"
+        "B": "Atrophy of the soft tissue rhinophyma complex",
+        "C": "Fibrosis of the ethmoid sinus osteomeatal unit",
+        "D": "Destruction of the nasal septal cartilage and bony support"
       },
-      "correct_answer": "B",
+      "correct_answer": "D",
       "explanation": "Saddle nose: collapse of dorsum from cartilage/bone destruction. Causes: tertiary syphilis (classic), Wegener's GPA, relapsing polychondritis, trauma, cocaine abuse."
     },
     {
-      "question_id": "TW_ENT_NOSE_Q002_2",
+      "question_id": "TW_ENT_NOSE_Q003",
       "paper_type": "topic_wise",
       "paper_ref": "TW_ENT_NOSE",
       "subject": "ENT",
@@ -72,16 +72,16 @@
       "marks_unanswered": 0,
       "question_text": "A 27-year-old female presents with persistent clear rhinorrhea, sneezing bursts, and bilateral nasal congestion every spring. Physical examination shows pale, bluish, boggy inferior turbinates and a transverse skin crease across her nasal bridge. What is the fundamental immunological mechanism driving this presentation?",
       "options": {
-        "A": "Type IV delayed-type hypersensitivity reaction",
-        "B": "Type I IgE-mediated hypersensitivity reaction",
+        "A": "Type I IgE-mediated hypersensitivity reaction",
+        "B": "Type IV delayed-type hypersensitivity reaction",
         "C": "Type II cytotoxic antibody reaction",
         "D": "Autonomic non-allergic vasomotor hyperreactivity"
       },
-      "correct_answer": "B",
+      "correct_answer": "A",
       "explanation": "Allergic rhinitis is driven by a Type I IgE-mediated hypersensitivity reaction against inhaled allergens. Signs include pale, boggy nasal mucosa, allergic shiners, and an 'allergic salute' crease on the nose."
     },
     {
-      "question_id": "TW_ENT_NOSE_Q003",
+      "question_id": "TW_ENT_NOSE_Q004",
       "paper_type": "topic_wise",
       "paper_ref": "TW_ENT_NOSE",
       "subject": "ENT",
@@ -96,15 +96,15 @@
       "question_text": "A 48-year-old male with a known history of aspirin-exacerbated respiratory disease (Samter's triad) complains of progressive bilateral nasal obstruction and anosmia. Anterior rhinoscopy reveals multiple smooth, translucent, grape-like masses insensitive to touch that originate from the ethmoid sinuses. What is the diagnosis?",
       "options": {
         "A": "Antrochoanal polyps",
-        "B": "Ethmoidal nasal polyps",
-        "C": "Inverted papilloma",
+        "B": "Inverted papilloma",
+        "C": "Ethmoidal nasal polyps",
         "D": "Juvenile nasopharyngeal angiofibroma"
       },
-      "correct_answer": "B",
+      "correct_answer": "C",
       "explanation": "Ethmoidal polyps are multiple, bilateral, painless, translucent masses seen commonly in adults, often associated with allergies, asthma, and aspirin sensitivity (Samter's triad). Antrochoanal polyps are typically single, unilateral, and arise from the maxillary sinus."
     },
     {
-      "question_id": "TW_ENT_NOSE_Q004",
+      "question_id": "TW_ENT_NOSE_Q005",
       "paper_type": "topic_wise",
       "paper_ref": "TW_ENT_NOSE",
       "subject": "ENT",

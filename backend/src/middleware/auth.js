@@ -9,6 +9,25 @@ const blacklist = new Set();
 
 const revokeToken = (token) => blacklist.add(token);
 
+// ─── Real "last seen" tracking ──────────────────────────────────────────────
+// lastActive used to only update on login and on test submission, so admin's
+// "active now" metric had no real presence data to read from. We now stamp it
+// on every authenticated request, but throttled to once per user per window
+// so a user clicking around doesn't turn into a DB write on every API call.
+const ACTIVITY_THROTTLE_MS = 60 * 1000; // 1 min
+
+const touchLastActive = (user) => {
+  const now = Date.now();
+  const last = user.lastActive ? new Date(user.lastActive).getTime() : 0;
+  if (now - last < ACTIVITY_THROTTLE_MS) return; // seen recently, skip the write
+
+  // Fire-and-forget: never let presence tracking add latency or block the
+  // request, and never let it fail the request if the write errors.
+  User.updateOne({ _id: user._id }, { $set: { lastActive: new Date(now) } }).catch((err) => {
+    console.warn('Failed to update lastActive:', err.message);
+  });
+};
+
 const protect = async (req, res, next) => {
   try {
     const authHeader = req.headers.authorization;
@@ -32,6 +51,7 @@ const protect = async (req, res, next) => {
 
     req.user  = user;
     req.token = token; // needed for logout
+    touchLastActive(user);
     next();
   } catch (err) {
     if (err.name === 'TokenExpiredError') {

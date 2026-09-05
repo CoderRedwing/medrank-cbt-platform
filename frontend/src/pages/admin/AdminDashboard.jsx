@@ -148,6 +148,39 @@ function DatasetPill({ label, value }) {
   );
 }
 
+// ── Engagement pill (clickable → filtered students list) ─────────────────────
+function EnginePill({ label, value, color, onClick, hint }) {
+  const [hov, setHov] = useState(false);
+  return (
+    <button
+      onClick={onClick}
+      onMouseEnter={() => setHov(true)}
+      onMouseLeave={() => setHov(false)}
+      style={{
+        background: 'var(--clr-surface)',
+        border: `1px solid ${hov ? color : 'var(--clr-border)'}`,
+        borderRadius: 8,
+        padding: '12px 16px',
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'flex-start',
+        gap: 4,
+        cursor: 'pointer',
+        textAlign: 'left',
+        transition: 'border-color 0.12s',
+        width: '100%',
+      }}
+    >
+      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', width: '100%' }}>
+        <span style={{ fontSize: 12, color: 'var(--clr-text-muted)' }}>{label}</span>
+        <span style={{ fontSize: 11, color, opacity: hov ? 1 : 0 }}>View →</span>
+      </div>
+      <span style={{ fontSize: 18, fontWeight: 600, color, letterSpacing: '-0.02em' }}>{value}</span>
+      {hint && <span style={{ fontSize: 11, color: 'var(--clr-text-muted)' }}>{hint}</span>}
+    </button>
+  );
+}
+
 // ── Main ─────────────────────────────────────────────────────────────────────
 export default function AdminDashboard() {
   const [data, setData]    = useState(null);
@@ -241,6 +274,34 @@ export default function AdminDashboard() {
         <DatasetPill label="Subject papers"          value={dataset.subjectPapers} />
         <DatasetPill label="Topic-wise banks"        value={dataset.topicBanks}    />
       </div>
+
+      {/* ── Engagement & funnel ── */}
+      <Section style={{ marginBottom: 14 }}>
+        <SectionTitle>Engagement &amp; funnel</SectionTitle>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 10 }}>
+          <EnginePill
+            label="Activation rate"
+            value={`${overview.activationRate}%`}
+            color={accuracyColor(overview.activationRate)}
+            hint="students who've taken ≥1 test"
+            onClick={() => navigate('/admin/students')}
+          />
+          <EnginePill
+            label="Never activated"
+            value={overview.neverActivated}
+            color="#d97706"
+            hint="registered, zero tests taken"
+            onClick={() => navigate('/admin/students?activity=never_activated')}
+          />
+          <EnginePill
+            label="At risk (14d+)"
+            value={overview.atRisk14d}
+            color="#dc2626"
+            hint="active before, gone quiet"
+            onClick={() => navigate('/admin/students?activity=inactive_14')}
+          />
+        </div>
+      </Section>
 
       {/* ── Charts ── */}
       <div style={{

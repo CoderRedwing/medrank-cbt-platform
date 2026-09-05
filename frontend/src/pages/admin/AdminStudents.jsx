@@ -1,7 +1,75 @@
 import { useEffect, useState } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import { adminAPI } from '../../services/api';
 import { Spinner } from '../../components/ui/index.jsx';
 import { accuracyColor } from '../../utils/helpers';
+
+// ── Last-seen formatting ─────────────────────────────────────────────────────
+// Mirrors the presence window used server-side for "active now" (5 min).
+const ONLINE_WINDOW_MS = 5 * 60 * 1000;
+
+function formatLastSeen(lastActive) {
+  if (!lastActive) return { label: 'Never', online: false };
+  const ms = Date.now() - new Date(lastActive).getTime();
+  if (ms < ONLINE_WINDOW_MS) return { label: 'Online now', online: true };
+
+  const mins = Math.floor(ms / 60000);
+  if (mins < 60) return { label: `${mins}m ago`, online: false };
+  const hours = Math.floor(mins / 60);
+  if (hours < 24) return { label: `${hours}h ago`, online: false };
+  const days = Math.floor(hours / 24);
+  if (days < 30) return { label: `${days}d ago`, online: false };
+  return {
+    label: new Date(lastActive).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: '2-digit' }),
+    online: false,
+  };
+}
+
+function LastSeenCell({ lastActive }) {
+  const { label, online } = formatLastSeen(lastActive);
+  return (
+    <div style={{ display: 'flex', alignItems: 'center', gap: 6, fontSize: 12, color: online ? '#10b981' : 'var(--clr-text-muted)' }}>
+      <span style={{
+        width: 7, height: 7, borderRadius: '50%',
+        background: online ? '#10b981' : 'var(--clr-border)',
+        flexShrink: 0,
+      }} />
+      {label}
+    </div>
+  );
+}
+
+// ── Activity filter pills ────────────────────────────────────────────────────
+const ACTIVITY_FILTERS = [
+  { key: 'all',              label: 'All' },
+  { key: 'online',           label: 'Online now' },
+  { key: 'never_activated',  label: 'Never activated' },
+  { key: 'inactive_7',       label: 'Inactive 7d+' },
+  { key: 'inactive_14',      label: 'Inactive 14d+' },
+  { key: 'inactive_30',      label: 'Inactive 30d+' },
+];
+
+function FilterPill({ active, children, onClick }) {
+  return (
+    <button
+      onClick={onClick}
+      style={{
+        padding: '6px 12px',
+        borderRadius: 99,
+        fontSize: 12,
+        fontWeight: 500,
+        cursor: 'pointer',
+        background: active ? '#6366f1' : 'var(--clr-surface)',
+        border: `1px solid ${active ? '#6366f1' : 'var(--clr-border)'}`,
+        color: active ? '#fff' : 'var(--clr-text-muted)',
+        whiteSpace: 'nowrap',
+        transition: 'all 0.12s',
+      }}
+    >
+      {children}
+    </button>
+  );
+}
 
 // ── Shared helpers ────────────────────────────────────────────────────────────
 
@@ -175,11 +243,13 @@ function ExamPill({ value }) {
 
 // ── Main ─────────────────────────────────────────────────────────────────────
 export default function AdminStudents() {
+  const [searchParams, setSearchParams] = useSearchParams();
   const [data, setData]         = useState(null);
   const [loading, setLoad]      = useState(true);
   const [page, setPage]         = useState(1);
   const [search, setSearch]     = useState('');
   const [searchInput, setSI]    = useState('');
+  const [activity, setActivity] = useState(searchParams.get('activity') || 'all');
   const [selected, setSelected] = useState(null);
   const [editing, setEditing]   = useState(null);
   const [deleting, setDeleting] = useState(null);
@@ -188,13 +258,19 @@ export default function AdminStudents() {
 
   const load = () => {
     setLoad(true);
-    adminAPI.getStudents(page, 30, search)
+    adminAPI.getStudents(page, 30, search, '-createdAt', activity)
       .then((r) => setData(r.data.data))
       .catch(console.error)
       .finally(() => setLoad(false));
   };
 
-  useEffect(() => { load(); }, [page, search]);
+  useEffect(() => { load(); }, [page, search, activity]);
+
+  const handleFilterChange = (key) => {
+    setActivity(key);
+    setPage(1);
+    setSearchParams(key === 'all' ? {} : { activity: key });
+  };
 
   const handleSearch = (e) => {
     e.preventDefault();
@@ -237,7 +313,7 @@ export default function AdminStudents() {
     }
   };
 
-  const TH = ['Name', 'Email', 'Target', 'Tests', 'Accuracy', 'Joined', 'Actions'];
+  const TH = ['Name', 'Email', 'Target', 'Tests', 'Accuracy', 'Last seen', 'Joined', 'Actions'];
 
   return (
     <div style={{ padding: '28px 28px 48px', maxWidth: 1100, margin: '0 auto' }}>
@@ -325,6 +401,15 @@ export default function AdminStudents() {
             </button>
           )}
         </form>
+      </div>
+
+      {/* ── Activity filter ── */}
+      <div style={{ display: 'flex', gap: 7, marginBottom: 18, flexWrap: 'wrap' }}>
+        {ACTIVITY_FILTERS.map(({ key, label }) => (
+          <FilterPill key={key} active={activity === key} onClick={() => handleFilterChange(key)}>
+            {label}
+          </FilterPill>
+        ))}
       </div>
 
       {/* ── Table ── */}
@@ -426,6 +511,11 @@ export default function AdminStudents() {
                       </div>
                     </td>
 
+                    {/* Last seen */}
+                    <td style={{ padding: '10px 14px' }}>
+                      <LastSeenCell lastActive={s.lastActive} />
+                    </td>
+
                     {/* Joined */}
                     <td style={{ padding: '10px 14px', fontSize: 11, color: 'var(--clr-text-muted)', whiteSpace: 'nowrap' }}>
                       {new Date(s.createdAt).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: '2-digit' })}
@@ -442,7 +532,7 @@ export default function AdminStudents() {
                   </tr>
                 )) : (
                   <tr>
-                    <td colSpan={7} style={{ padding: '32px', textAlign: 'center', color: 'var(--clr-text-muted)', fontSize: 13 }}>
+                    <td colSpan={8} style={{ padding: '32px', textAlign: 'center', color: 'var(--clr-text-muted)', fontSize: 13 }}>
                       No students found.
                     </td>
                   </tr>
@@ -524,6 +614,7 @@ export default function AdminStudents() {
               ['Tests taken',  selected.student.stats?.totalTestsTaken || 0],
               ['Avg accuracy', `${selected.student.stats?.averageAccuracy || 0}%`],
               ['Total correct',selected.student.stats?.totalCorrect || 0],
+              ['Last seen',    formatLastSeen(selected.student.lastActive).label],
               ['Member since', new Date(selected.student.createdAt).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' })],
             ].map(([k, v]) => (
               <StatCell key={k} label={k} value={v} />

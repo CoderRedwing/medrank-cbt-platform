@@ -150,8 +150,8 @@ export const adminAPI = {
   getStats: () => api.get('/admin/stats'),
 
   // Students
-  getStudents:      (page=1, limit=30, search='', sort='-createdAt') =>
-    api.get(`/admin/students?page=${page}&limit=${limit}&search=${encodeURIComponent(search)}&sort=${sort}`),
+  getStudents:      (page=1, limit=30, search='', sort='-createdAt', activity='all') =>
+    api.get(`/admin/students?page=${page}&limit=${limit}&search=${encodeURIComponent(search)}&sort=${sort}&activity=${activity}`),
   getStudentDetail: (id)            => api.get(`/admin/students/${id}`),
   updateStudent:    (id, data)      => api.patch(`/admin/students/${id}`, data),
   deleteStudent:    (id)            => api.delete(`/admin/students/${id}`),

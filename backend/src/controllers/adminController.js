@@ -18,19 +18,33 @@ const path = require('path');
 // ─── GET /api/admin/stats ─────────────────────────────────────────
 const getPlatformStats = async (req, res) => {
   try {
+    // "Active now" used to count in_progress test sessions, which never
+    // expire on their own — a student who closed the tab mid-test stayed
+    // "active" forever. Real presence is students seen (any authenticated
+    // request) within a short rolling window, now that lastActive is
+    // stamped on every request (see middleware/auth.js).
+    const ACTIVE_WINDOW_MS = 5 * 60 * 1000; // 5 min
+
     const [
       totalStudents,
       totalTests,
       testsToday,
       activeNow,
+      testsInProgress,
       newThisWeek,
       avgAccuracyAgg,
+      neverActivated,
+      atRisk14d,
     ] = await Promise.all([
       User.countDocuments({ role: 'student' }),
       TestSession.countDocuments({ status: 'submitted' }),
       TestSession.countDocuments({
         status: 'submitted',
         createdAt: { $gte: new Date(new Date().setHours(0,0,0,0)) },
+      }),
+      User.countDocuments({
+        role: 'student',
+        lastActive: { $gte: new Date(Date.now() - ACTIVE_WINDOW_MS) },
       }),
       TestSession.countDocuments({ status: 'in_progress' }),
       User.countDocuments({
@@ -41,7 +55,25 @@ const getPlatformStats = async (req, res) => {
         { $match: { status: 'submitted' } },
         { $group: { _id: null, avg: { $avg: '$accuracy' } } },
       ]),
+      // Signed up but never actually took a test — the biggest, most
+      // invisible funnel leak. "totalTestsTaken" defaults to 0, so this
+      // also needs to match documents where the field is missing entirely.
+      User.countDocuments({
+        role: 'student',
+        $or: [{ 'stats.totalTestsTaken': 0 }, { 'stats.totalTestsTaken': { $exists: false } }],
+      }),
+      // Did activate at some point, but has gone quiet for 14+ days —
+      // distinct from "never activated": these students engaged, then churned.
+      User.countDocuments({
+        role: 'student',
+        'stats.totalTestsTaken': { $gt: 0 },
+        lastActive: { $lt: new Date(Date.now() - 14 * 24 * 60 * 60 * 1000) },
+      }),
     ]);
+
+    const activationRate = totalStudents > 0
+      ? Math.round(((totalStudents - neverActivated) / totalStudents) * 100)
+      : 0;
 
     // Registrations over last 30 days
     const thirtyDaysAgo = new Date(Date.now() - 30 * 24 * 60 * 60 * 1000);
@@ -93,7 +125,11 @@ const getPlatformStats = async (req, res) => {
           totalTests,
           testsToday,
           activeNow,
+          testsInProgress,
           newThisWeek,
+          neverActivated,
+          atRisk14d,
+          activationRate,
           avgAccuracy: Math.round(avgAccuracyAgg[0]?.avg || 0),
         },
         regTrend,
@@ -120,11 +156,25 @@ const getPlatformStats = async (req, res) => {
 // ─── GET /api/admin/students ──────────────────────────────────────
 const getStudents = async (req, res) => {
   try {
-    const { page = 1, limit = 30, search = '', sort = '-createdAt' } = req.query;
-    const skip   = (parseInt(page) - 1) * parseInt(limit);
-    const filter = search
-      ? { role: 'student', $or: [{ name: { $regex: search, $options: 'i' } }, { email: { $regex: search, $options: 'i' } }] }
-      : { role: 'student' };
+    const { page = 1, limit = 30, search = '', sort = '-createdAt', activity = 'all' } = req.query;
+    const skip = (parseInt(page) - 1) * parseInt(limit);
+
+    const filter = { role: 'student' };
+    if (search) {
+      filter.$or = [{ name: { $regex: search, $options: 'i' } }, { email: { $regex: search, $options: 'i' } }];
+    }
+
+    // Activity segment — mirrors the funnel/engagement counts on the
+    // dashboard so a KPI number can be clicked through to the actual list.
+    if (activity === 'never_activated') {
+      filter.$and = [{ $or: [{ 'stats.totalTestsTaken': 0 }, { 'stats.totalTestsTaken': { $exists: false } }] }];
+    } else if (activity === 'online') {
+      filter.lastActive = { $gte: new Date(Date.now() - 5 * 60 * 1000) };
+    } else if (/^inactive_\d+$/.test(activity)) {
+      const days = parseInt(activity.split('_')[1], 10);
+      filter['stats.totalTestsTaken'] = { $gt: 0 };
+      filter.lastActive = { $lt: new Date(Date.now() - days * 24 * 60 * 60 * 1000) };
+    }
 
     const [students, total] = await Promise.all([
       User.find(filter)
